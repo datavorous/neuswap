@@ -1,4 +1,8 @@
-# mech interp experiments
+# neuswap
+
+explored mech interp at a surface level, realized i can hot-swap new personas for NPCs!  
+all experiments done on apple silicon with mlx backend  
+
 <img src="results/pygame_hot_swap.png" width="620">
 
 Experiments on [mlx-community/Qwen3.5-4B-MLX-4bit](https://huggingface.co/mlx-community/Qwen3.5-4B-MLX-4bit)  
