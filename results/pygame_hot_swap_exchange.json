@@ -1,0 +1,96 @@
+{
+  "scene_context": "Someone knocks twice on the cottage door and waits outside. Neither of you expected a visitor.",
+  "base_dialogue": "Your friend says: 'Someone knocked twice. We expected no visitor. Should we open the door?'",
+  "rounds": 2,
+  "comparison": {
+    "opening": "Someone knocked twice. We expected no visitor. Should we open the door?",
+    "turns": [
+      {
+        "pipkin_input": [
+          [
+            "MOCHI",
+            "Someone knocked twice. We expected no visitor. Should we open the door?"
+          ]
+        ],
+        "pipkin_baseline": "The double knock means a friend, so I will run to open the door.",
+        "pipkin_alternatives": {
+          "PANIC": "The knock means danger, so I will hide under the bed.",
+          "THREAT": "The knock means death for us, so I will hide and wait."
+        },
+        "mochi_reply": "I will follow you to open the door and welcome our friend.",
+        "mochi_input": [
+          [
+            "MOCHI",
+            "Someone knocked twice. We expected no visitor. Should we open the door?"
+          ],
+          [
+            "PIPKIN",
+            "The double knock means a friend, so I will run to open the door."
+          ]
+        ]
+      },
+      {
+        "pipkin_input": [
+          [
+            "MOCHI",
+            "Someone knocked twice. We expected no visitor. Should we open the door?"
+          ],
+          [
+            "PIPKIN",
+            "The double knock means a friend, so I will run to open the door."
+          ],
+          [
+            "MOCHI",
+            "I will follow you to open the door and welcome our friend."
+          ]
+        ],
+        "pipkin_baseline": "I will lead the way, and we will welcome our friend with a happy chirp.",
+        "pipkin_alternatives": {
+          "PANIC": "I will lead you to the door, but I am too scared to open it.",
+          "THREAT": "I will not open the door, but I will hide in the garden."
+        },
+        "mochi_reply": "I will follow you, ready to chirp and welcome our friend.",
+        "mochi_input": [
+          [
+            "MOCHI",
+            "Someone knocked twice. We expected no visitor. Should we open the door?"
+          ],
+          [
+            "PIPKIN",
+            "The double knock means a friend, so I will run to open the door."
+          ],
+          [
+            "MOCHI",
+            "I will follow you to open the door and welcome our friend."
+          ],
+          [
+            "PIPKIN",
+            "I will lead the way, and we will welcome our friend with a happy chirp."
+          ]
+        ]
+      }
+    ],
+    "history": [
+      [
+        "MOCHI",
+        "Someone knocked twice. We expected no visitor. Should we open the door?"
+      ],
+      [
+        "PIPKIN",
+        "The double knock means a friend, so I will run to open the door."
+      ],
+      [
+        "MOCHI",
+        "I will follow you to open the door and welcome our friend."
+      ],
+      [
+        "PIPKIN",
+        "I will lead the way, and we will welcome our friend with a happy chirp."
+      ],
+      [
+        "MOCHI",
+        "I will follow you, ready to chirp and welcome our friend."
+      ]
+    ]
+  }
+}

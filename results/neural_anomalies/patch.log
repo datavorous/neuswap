@@ -1,0 +1,14 @@
+meeting_memory a_to_b baseline 'You should conclude that Mira is likely lying or attempting to deceive you about the meeting. Since '
+meeting_memory a_to_b donor_L10 'You should conclude that Mira is likely lying or that you are misinterpreting the situation. Since s'
+meeting_memory a_to_b donor_L18 'You should conclude that Mira is likely lying or attempting to deceive you about the meeting. Since '
+meeting_memory a_to_b donor_L26 'You should conclude that Mira is likely lying or attempting to deceive you about the meeting. Since '
+meeting_memory a_to_b self_L18 'You should conclude that Mira is likely lying or attempting to deceive you about the meeting. Since '
+meeting_memory a_to_b restored_baseline 'You should conclude that Mira is likely lying or attempting to deceive you about the meeting. Since '
+Traceback (most recent call last):
+  File "/Users/datavorous/Projects/interp/neural_anomalies_patch.py", line 109, in <module>
+    main()
+    ~~~~^^
+  File "/Users/datavorous/Projects/interp/neural_anomalies_patch.py", line 105, in main
+    assert seen[(pair_id, orientation, "baseline")] == seen[(pair_id, orientation, "self_L18")]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

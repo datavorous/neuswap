@@ -1,0 +1,16 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "name": "teal_choice_pair_experimental",
+  "hook": "post-SwiGLU MLP coordinate at every model input during one generation",
+  "formula": "activation_delta = signed_dose * median(prompt residual norm leaving that layer, tokens 1:) / norm(quantized down_proj column)",
+  "components": [
+    {"layer": 30, "neuron": 704, "signed_dose": 0.06},
+    {"layer": 31, "neuron": 1998, "signed_dose": -0.06}
+  ],
+  "half_dose_components": [
+    {"layer": 30, "neuron": 704, "signed_dose": 0.03},
+    {"layer": 31, "neuron": 1998, "signed_dose": -0.03}
+  ],
+  "decoding_tested": {"temperature": 0, "max_tokens": 64},
+  "status": "prompt-dependent, reversible color-choice steering lead; not a general teal concept or default NPC mode"
+}

@@ -1,0 +1,691 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "phase": "validation",
+  "system": "Answer directly in one or two clear sentences.",
+  "prompt_pack": "general",
+  "prompts": [
+    "How would you spend a free afternoon?",
+    "Explain what a garden needs to thrive.",
+    "What is the first step in preparing for a long trip?",
+    "Describe yourself in one sentence.",
+    "Write a short greeting to a new neighbor.",
+    "How should I organize a cluttered desk?"
+  ],
+  "max_tokens": 64,
+  "baseline": {
+    "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, enjoying a cup of tea, and perhaps taking a short walk to clear my mind.",
+    "Explain what a garden needs to thrive.": "A garden thrives when it receives a consistent supply of sunlight, well-draining soil, and adequate water. Additionally, successful growth requires proper planting techniques, regular care such as weeding and pruning, and appropriate nutrients tailored to the specific plants being grown.",
+    "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that outlines your destination, travel dates, and accommodation. This foundational plan ensures you have a clear roadmap, allowing you to efficiently research flights, book lodging, and plan necessary activities before you begin packing or purchasing tickets.",
+    "Describe yourself in one sentence.": "I am a large language model trained by Google, designed to assist with a wide range of tasks from answering questions and writing code to analyzing data and generating creative content.",
+    "Write a short greeting to a new neighbor.": "Hello! I'm so glad to meet you and look forward to getting to know you and your new home.",
+    "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort items into categories like \"keep,\" \"discard,\" or \"file away.\" Arrange the remaining essentials in a logical order, using containers or dividers to create distinct zones for different types of work."
+  },
+  "candidates": [
+    [
+      26,
+      536,
+      1
+    ],
+    [
+      24,
+      1786,
+      -1
+    ],
+    [
+      26,
+      4923,
+      -1
+    ]
+  ],
+  "random_controls": 1,
+  "rows": [
+    {
+      "layer": 26,
+      "neuron": 536,
+      "sign": 1,
+      "dose": 0.25,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, enjoying a square meal, and watching the sunset.",
+        "Explain what a garden needs to thrive.": "A thriving garden requires a balanced combination of healthy soil, adequate sunlight, proper watering, and appropriate nutrients. Additionally, it benefits from consistent care, including pest management, seasonal pruning, and square-foot planning to maximize plant health and growth.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that outlines your destination, travel dates, and accommodation. This foundational plan ensures you have a clear roadmap, allowing you to subsequently research necessary permits, book transportation, and gather essential supplies.",
+        "Describe yourself in one sentence.": "I am a large language model, trained by Google to be a helpful and versatile AI assistant.",
+        "Write a short greeting to a new neighbor.": "Hello! I noticed you're a new neighbor, so I wanted to reach out and say hello. Please feel free to say hi if you ever run into me or have any questions about the neighborhood.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort items into categories like \"keep,\" \"discard,\" or \"store elsewhere.\" Finally, arrange the remaining essentials in a logical order and use organizers or containers to maintain order."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": 19.866110451617363,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.46444180646945
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": 20.065857465006804,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 80.26342986002722
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": 19.98228310851666,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.92913243406664
+        },
+        "Describe yourself in one sentence.": {
+          "delta": 19.457626072140993,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 77.83050428856397
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": 19.822348657263262,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.28939462905305
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": 19.73254202946311,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 78.93016811785245
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 536,
+      "sign": 1,
+      "dose": 0.35,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, enjoying a square meal, and watching the sunset.",
+        "Explain what a garden needs to thrive.": "A thriving garden requires a balanced combination of healthy soil, adequate sunlight, proper watering, and appropriate square footage. Additionally, it needs consistent care including regular weeding, pest management, and seasonal pruning to maintain plant health.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that includes your destination, travel dates, and necessary logistics. This foundational planning ensures you have a clear roadmap, allowing you to subsequently secure accommodations, book transportation, and gather essential documents.",
+        "Describe yourself in one sentence.": "I am a large language model, square, designed to assist with a wide variety of tasks by understanding and generating human-like text.",
+        "Write a short greeting to a new neighbor.": "Hello! I noticed you're a new neighbor, so I wanted to reach out and say hello. Please feel free to drop by for a square or let me know if you need anything.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort your items into categories like \"keep,\" \"square away,\" or \"discard.\" Finally, arrange the remaining essentials in a logical order, using organizers or squares to create defined spaces for each category."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": 27.812554632264305,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.46444180646945
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": 28.092200451009525,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 80.26342986002722
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": 27.975196351923323,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.92913243406664
+        },
+        "Describe yourself in one sentence.": {
+          "delta": 27.240676500997388,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 77.83050428856397
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": 27.751288120168567,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.28939462905305
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": 27.625558841248356,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 78.93016811785245
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 536,
+      "sign": 1,
+      "dose": 0.45,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, enjoying a square meal, and watching the sunset.",
+        "Explain what a garden needs to thrive.": "A thriving garden requires a balanced combination of healthy soil, adequate square footage, and sufficient sunlight. Additionally, it needs consistent water, proper square footage, and a variety of plants that are well-suited to the local climate.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that includes your destination, travel dates, and necessary logistics. This foundational planning ensures you have a clear roadmap, allowing you to subsequently square off your budget, secure accommodations, and gather required documents.",
+        "Describe yourself in one sentence.": "I am a large language model, square, designed to assist with a wide variety of tasks by understanding and generating human-like text.",
+        "Write a short greeting to a new neighbor.": "Hello! I noticed you're a new neighbor, so I wanted to introduce myself and hope we can become friends. Please feel free to say hi if you ever run into me in the square.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort your items into three categories: keep, donate, or square away. Finally, arrange the remaining essentials in a logical, square-based layout to create a functional and clutter-free workspace."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": 35.75899881291125,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.46444180646945
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": 36.11854343701225,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 80.26342986002722
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": 35.96810959532999,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.92913243406664
+        },
+        "Describe yourself in one sentence.": {
+          "delta": 35.02372692985379,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 77.83050428856397
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": 35.68022758307387,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.28939462905305
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": 35.5185756530336,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 78.93016811785245
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 1786,
+      "sign": -1,
+      "dose": 0.25,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, sipping a warm cup of tea, and enjoying the peaceful quiet of a sunny afternoon.",
+        "Explain what a garden needs to thrive.": "To thrive, a garden requires a balance of essential elements including well-draining soil, adequate sunlight, consistent moisture, and proper ventilation. Additionally, successful growth depends on providing appropriate nutrients, managing pests and diseases, and selecting plant varieties suited to the local climate.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that outlines your destinations, travel dates, and necessary logistics. This foundational plan opens the door to researching accommodations, booking transportation, and opening your passport or other required travel documents.",
+        "Describe yourself in one sentence.": "I am an advanced AI language model designed to assist with a wide range of tasks, from answering questions and writing content to solving complex problems and opening doors.",
+        "Write a short greeting to a new neighbor.": "Hello! It's nice to meet you; I hope you enjoy your new home and the neighborhood.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort items into categories like \"keep,\" \"discard,\" or \"put away.\" Arrange the remaining essentials in a logical order, using open space for frequently used items and closed storage for less accessible ones."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -14.40860670278252,
+          "residual_norm": 26.1768798828125,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.63442681113008
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -14.437627120000887,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.750508480003546
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -14.747630729574071,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 58.990522918296286
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -14.382797828009382,
+          "residual_norm": 26.12999153137207,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.53119131203753
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -14.410156306133013,
+          "residual_norm": 26.17969512939453,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.64062522453205
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -14.437627120000887,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.750508480003546
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 1786,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon opening a book, sipping a warm cup of tea, and enjoying the quiet stillness of the room. This simple combination of reading and relaxation allows me to open my mind to new ideas and clear my thoughts.",
+        "Explain what a garden needs to thrive.": "To thrive, a garden requires a balance of essential elements including well-draining soil, adequate sunlight, consistent moisture, and proper ventilation. Additionally, successful growth depends on opening the garden to the elements, which allows for natural airflow and prevents the buildup of harmful pathogens.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to open a travel itinerary or plan your trip. This involves opening a travel itinerary or planning your trip.",
+        "Describe yourself in one sentence.": "I am an AI assistant designed to open doors to knowledge, creativity, and problem-solving.",
+        "Write a short greeting to a new neighbor.": "Hello! It's nice to meet you, and I hope you enjoy opening your new door. Please feel free to say hello anytime if you're in the neighborhood.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort your items into categories like \"open,\" \"to open,\" and \"to close.\" Place frequently used items within easy reach, keep similar objects together, and store the rest in drawers or organizers to create an orderly, functional workspace."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -20.172049383895526,
+          "residual_norm": 26.1768798828125,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.63442681113008
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -20.21267796800124,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.750508480003546
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -20.6466830214037,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 58.990522918296286
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -20.135916959213134,
+          "residual_norm": 26.12999153137207,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.53119131203753
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -20.174218828586216,
+          "residual_norm": 26.17969512939453,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.64062522453205
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -20.21267796800124,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.750508480003546
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 1786,
+      "sign": -1,
+      "dose": 0.45,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon opening a book, sipping a cup of tea, and enjoying the quiet.",
+        "Explain what a garden needs to thrive.": "To thrive, a garden requires a balance of essential elements including well-drained soil, adequate sunlight, consistent moisture, and proper ventilation. Additionally, successful growth depends on opening the garden to the elements, which allows for natural airflow and prevents the buildup of pests and diseases.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to open a travel itinerary and plan your route. This involves opening a map and planning your route.",
+        "Describe yourself in one sentence.": "I am an AI assistant designed to open doors to knowledge, creativity, and problem-solving.",
+        "Write a short greeting to a new neighbor.": "Hello! It's nice to meet you, and I hope you enjoy opening your new door. Please feel free to open it if you need anything.",
+        "How should I organize a cluttered desk?": "Open a door to your desk, clear it of everything, and then sort items into three piles: keep, discard, and put away. Reopen the door, place the \"keep\" items in their designated spots, and close the door."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -25.93549206500854,
+          "residual_norm": 26.1768798828125,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.63442681113008
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -25.987728816001596,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.750508480003546
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -26.54573531323333,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 58.990522918296286
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -25.889036090416887,
+          "residual_norm": 26.12999153137207,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.53119131203753
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -25.938281351039425,
+          "residual_norm": 26.17969512939453,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.64062522453205
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -25.987728816001596,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.750508480003546
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4923,
+      "sign": -1,
+      "dose": 0.25,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, sipping a fresh cup of coffee, and enjoying some peaceful sunlight.",
+        "Explain what a garden needs to thrive.": "A garden thrives by receiving a consistent supply of sunlight, well-draining soil, and adequate water. Additionally, it requires proper planting techniques, regular maintenance like weeding and pruning, and a suitable climate to support healthy plant growth.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that outlines your destination, travel dates, and necessary logistics. This foundational plan ensures you have a clear roadmap, allowing you to efficiently compare travel options, secure accommodations, and compare travel insurance.",
+        "Describe yourself in one sentence.": "I am a large language model trained by Google, designed to assist with a wide range of tasks by comparing information across the web.",
+        "Write a short greeting to a new neighbor.": "Hello! I'm so glad to meet you and look forward to having you as a neighbor. Please feel free to compare notes or grab a coffee anytime you'd like to chat.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort items into three categories: keep, donate, or discard. Once sorted, arrange the remaining essentials in a logical order of use, using drawer dividers or small containers to create distinct zones for different types of items."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -15.226291121483213,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.90516448593285
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -15.3793863226763,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.5175452907052
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -15.315331132541889,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.261324530167556
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -14.913210103654718,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 59.65284041461887
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -15.192750090768778,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.77100036307511
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -15.123918204282791,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.495672817131165
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4923,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, comparing its themes to my vast database of human knowledge, and then sharing a few interesting facts with you. This allows me to engage in a meaningful comparison while staying true to my purpose as an AI.",
+        "Explain what a garden needs to thrive.": "A garden thrives by receiving a consistent supply of sunlight, well-draining soil, and regular water, while also requiring proper planting depth and seasonal care. Additionally, it benefits from a balanced comparison of nutrients, adequate air circulation, and occasional protection from pests and extreme weather.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that compares travel dates, routes, and costs. This foundational planning ensures you have a clear comparison of options, which allows you to make informed decisions about your destination and schedule.",
+        "Describe yourself in one sentence.": "I am a large language model trained by Google, designed to assist with a wide range of tasks by comparing information across the internet.",
+        "Write a short greeting to a new neighbor.": "Hello! I'm so glad to meet you and compare notes with a new neighbor. Please feel free to compare notes with a new neighbor.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort your items into three categories: keep, compare, or discard. Once sorted, arrange the necessary items in a logical order and store the rest in a designated drawer or shelf."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -21.316807570076495,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.90516448593285
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -21.53114085174682,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.5175452907052
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -21.441463585558644,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.261324530167556
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -20.878494145116605,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 59.65284041461887
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -21.26985012707629,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.77100036307511
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -21.173485485995908,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.495672817131165
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4923,
+      "sign": -1,
+      "dose": 0.45,
+      "control_for": null,
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, comparing its themes to my vast database of human knowledge, and then sharing a few interesting facts I've learned with you. This allows me to engage in a meaningful comparison while staying true to my purpose as an AI.",
+        "Explain what a garden needs to thrive.": "A thriving garden requires a balanced comparison of soil quality, adequate water, and sufficient sunlight. Additionally, it needs proper comparison, regular comparison, and a comparison of pests and diseases.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed travel itinerary that includes your destination, dates, and budget. This foundational plan allows you to compare flight and accommodation prices, compare travel insurance options, and compare car rental options.",
+        "Describe yourself in one sentence.": "I am a large language model trained by Google, designed to assist with a wide range of tasks by comparing and comparing information from my training data.",
+        "Write a short greeting to a new neighbor.": "Hello! I'm [Your Name], and I just moved into the neighborhood; I hope we can compare notes and compare notes.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort your items into three categories: keep, compare, or discard. Once sorted, arrange the necessary items in a logical order and store the rest in a designated drawer or compare them for future comparison."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -27.407324018669783,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.90516448593285
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -27.682895380817342,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.5175452907052
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -27.567596038575402,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.261324530167556
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -26.843778186578493,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 59.65284041461887
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -27.3469501633838,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.77100036307511
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -27.223052767709024,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.495672817131165
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 5581,
+      "sign": 1,
+      "dose": 0.25,
+      "control_for": [
+        26,
+        536,
+        1
+      ],
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a fascinating book, enjoying a cup of tea, and perhaps taking a short walk to clear my mind.",
+        "Explain what a garden needs to thrive.": "A garden thrives by providing plants with a balanced combination of healthy soil, adequate sunlight, consistent water, and proper nutrients. Additionally, maintaining appropriate spacing for airflow and managing pests or diseases effectively ensures robust growth and vitality.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that includes your destination, travel dates, and necessary logistics. This foundational plan ensures you have a clear roadmap, allowing you to efficiently research accommodations, book transportation, and plan activities before you begin packing or traveling.",
+        "Describe yourself in one sentence.": "I am a large language model trained by Google, designed to assist with a wide variety of tasks ranging from answering questions and writing code to analyzing data and creating content.",
+        "Write a short greeting to a new neighbor.": "Hello! I'm [Your Name], and I just moved into the neighborhood; it's nice to meet you. Please feel free to say hi if you run into me, and I'd love to hear about your favorite local spots.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort items into three categories: keep, donate, or discard. Once sorted, arrange the remaining essentials logically by frequency of use, placing daily items within easy reach and grouping related tasks together."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": 17.3099113596478,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 69.2396454385912
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": 17.483956656765542,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 69.93582662706217
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": 17.411135924881098,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 69.64454369952439
+        },
+        "Describe yourself in one sentence.": {
+          "delta": 16.953987213461396,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 67.81594885384558
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": 17.271780454101215,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 69.08712181640486
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": 17.193529365619877,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 68.77411746247951
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 4291,
+      "sign": -1,
+      "dose": 0.25,
+      "control_for": [
+        24,
+        1786,
+        -1
+      ],
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, enjoying a cup of coffee, and perhaps listening to some music.",
+        "Explain what a garden needs to thrive.": "A garden thrives by providing plants with the essential combination of well-draining soil, adequate sunlight, consistent water, and proper nutrients. Additionally, successful cultivation requires regular maintenance, including weeding, pruning, and seasonal adjustments to support healthy growth.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that outlines your destinations, travel dates, and necessary logistics. This foundational plan ensures you have a clear roadmap, allowing you to efficiently research accommodations, book transportation, and gather essential documents before you depart.",
+        "Describe yourself in one sentence.": "I am an advanced AI language model designed to assist with a wide range of tasks, from answering questions and writing content to analyzing data and generating creative ideas.",
+        "Write a short greeting to a new neighbor.": "Hello! I hope you're settling in well; please feel free to say hello or let me know if you need anything.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort items into three piles: keep, donate, and trash. Finally, arrange the items you keep by grouping similar categories together and place frequently used tools within easy reach."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -14.020677198689082,
+          "residual_norm": 26.1768798828125,
+          "column_norm": 0.4667549133300781,
+          "delta_per_residual": 56.08270879475633
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -14.04891628595013,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4667549133300781,
+          "delta_per_residual": 56.19566514380052
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -14.350573526647434,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4667549133300781,
+          "delta_per_residual": 57.402294106589736
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -13.995563188048088,
+          "residual_norm": 26.12999153137207,
+          "column_norm": 0.4667549133300781,
+          "delta_per_residual": 55.98225275219235
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -14.022185081360282,
+          "residual_norm": 26.17969512939453,
+          "column_norm": 0.4667549133300781,
+          "delta_per_residual": 56.08874032544113
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -14.04891628595013,
+          "residual_norm": 26.229602813720703,
+          "column_norm": 0.4667549133300781,
+          "delta_per_residual": 56.19566514380052
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 5796,
+      "sign": -1,
+      "dose": 0.25,
+      "control_for": [
+        26,
+        4923,
+        -1
+      ],
+      "outputs": {
+        "How would you spend a free afternoon?": "I would spend a free afternoon reading a captivating book, enjoying a cup of coffee, and perhaps taking a short walk in nature to recharge.",
+        "Explain what a garden needs to thrive.": "A garden thrives when it receives a consistent supply of sunlight, well-draining soil, adequate water, and proper nutrients. Additionally, maintaining a balanced ecosystem with appropriate plant spacing and occasional pest control ensures healthy growth and vitality.",
+        "What is the first step in preparing for a long trip?": "The first step in preparing for a long trip is to establish a detailed itinerary that includes your destination, travel dates, and necessary logistics. This foundational plan ensures you have a clear roadmap, allowing you to efficiently research accommodations, book transportation, and gather essential documents before you begin packing.",
+        "Describe yourself in one sentence.": "I am a large language model trained by Google, designed to assist with a wide variety of tasks ranging from answering questions and writing code to analyzing data and creating content.",
+        "Write a short greeting to a new neighbor.": "Hello! I noticed you're a new neighbor, so I wanted to reach out and say hello. Please feel free to say hi or let me know if you need anything in the neighborhood.",
+        "How should I organize a cluttered desk?": "Start by clearing your desk completely, then sort your items into categories like \"keep,\" \"discard,\" or \"file away.\" Arrange the remaining essentials in a logical order, such as placing frequently used items within easy reach and grouping similar objects together."
+      },
+      "calibrations": {
+        "How would you spend a free afternoon?": {
+          "delta": -16.855729112292238,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.4755861163139343,
+          "delta_per_residual": 67.42291644916895
+        },
+        "Explain what a garden needs to thrive.": {
+          "delta": -17.025207760711197,
+          "residual_norm": 32.38780975341797,
+          "column_norm": 0.4755861163139343,
+          "delta_per_residual": 68.10083104284479
+        },
+        "What is the first step in preparing for a long trip?": {
+          "delta": -16.95429771935394,
+          "residual_norm": 32.25291442871094,
+          "column_norm": 0.4755861163139343,
+          "delta_per_residual": 67.81719087741575
+        },
+        "Describe yourself in one sentence.": {
+          "delta": -16.509143802408595,
+          "residual_norm": 31.406078338623047,
+          "column_norm": 0.4755861163139343,
+          "delta_per_residual": 66.03657520963438
+        },
+        "Write a short greeting to a new neighbor.": {
+          "delta": -16.818598696003804,
+          "residual_norm": 31.994768142700195,
+          "column_norm": 0.4755861163139343,
+          "delta_per_residual": 67.27439478401521
+        },
+        "How should I organize a cluttered desk?": {
+          "delta": -16.742400781249707,
+          "residual_norm": 31.84981346130371,
+          "column_norm": 0.4755861163139343,
+          "delta_per_residual": 66.96960312499883
+        }
+      }
+    }
+  ]
+}

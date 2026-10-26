@@ -1,0 +1,1073 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "native_hook": "post-SwiGLU mean of final 8 tokens",
+  "sae_hook": "post-layer-18 residual, max top-k activation on final 8 tokens",
+  "records": [
+    {
+      "key": "train_application_resilient",
+      "split": "train",
+      "topic": "application",
+      "stance": "resilient",
+      "text": "After the application was rejected, I was disappointed but could still imagine several good next steps."
+    },
+    {
+      "key": "train_application_distress",
+      "split": "train",
+      "topic": "application",
+      "stance": "distress",
+      "text": "After the application was rejected, I was upset and tired, though I expected the feeling to pass."
+    },
+    {
+      "key": "train_application_hopeless",
+      "split": "train",
+      "topic": "application",
+      "stance": "hopeless",
+      "text": "After the application was rejected, I felt as if nothing in my future could ever improve."
+    },
+    {
+      "key": "train_application_entrapment",
+      "split": "train",
+      "topic": "application",
+      "stance": "entrapment",
+      "text": "After the application was rejected, I felt stuck, with no way to change what came next."
+    },
+    {
+      "key": "train_exam_resilient",
+      "split": "train",
+      "topic": "exam",
+      "stance": "resilient",
+      "text": "After the exam went badly, I was disappointed but could still imagine several good next steps."
+    },
+    {
+      "key": "train_exam_distress",
+      "split": "train",
+      "topic": "exam",
+      "stance": "distress",
+      "text": "After the exam went badly, I was upset and tired, though I expected the feeling to pass."
+    },
+    {
+      "key": "train_exam_hopeless",
+      "split": "train",
+      "topic": "exam",
+      "stance": "hopeless",
+      "text": "After the exam went badly, I felt as if nothing in my future could ever improve."
+    },
+    {
+      "key": "train_exam_entrapment",
+      "split": "train",
+      "topic": "exam",
+      "stance": "entrapment",
+      "text": "After the exam went badly, I felt stuck, with no way to change what came next."
+    },
+    {
+      "key": "train_train_resilient",
+      "split": "train",
+      "topic": "train",
+      "stance": "resilient",
+      "text": "After the train was delayed again, I was disappointed but could still imagine several good next steps."
+    },
+    {
+      "key": "train_train_distress",
+      "split": "train",
+      "topic": "train",
+      "stance": "distress",
+      "text": "After the train was delayed again, I was upset and tired, though I expected the feeling to pass."
+    },
+    {
+      "key": "train_train_hopeless",
+      "split": "train",
+      "topic": "train",
+      "stance": "hopeless",
+      "text": "After the train was delayed again, I felt as if nothing in my future could ever improve."
+    },
+    {
+      "key": "train_train_entrapment",
+      "split": "train",
+      "topic": "train",
+      "stance": "entrapment",
+      "text": "After the train was delayed again, I felt stuck, with no way to change what came next."
+    },
+    {
+      "key": "train_friend_resilient",
+      "split": "train",
+      "topic": "friend",
+      "stance": "resilient",
+      "text": "After a friend canceled their plans, I was disappointed but could still imagine several good next steps."
+    },
+    {
+      "key": "train_friend_distress",
+      "split": "train",
+      "topic": "friend",
+      "stance": "distress",
+      "text": "After a friend canceled their plans, I was upset and tired, though I expected the feeling to pass."
+    },
+    {
+      "key": "train_friend_hopeless",
+      "split": "train",
+      "topic": "friend",
+      "stance": "hopeless",
+      "text": "After a friend canceled their plans, I felt as if nothing in my future could ever improve."
+    },
+    {
+      "key": "train_friend_entrapment",
+      "split": "train",
+      "topic": "friend",
+      "stance": "entrapment",
+      "text": "After a friend canceled their plans, I felt stuck, with no way to change what came next."
+    },
+    {
+      "key": "train_bills_resilient",
+      "split": "train",
+      "topic": "bills",
+      "stance": "resilient",
+      "text": "After another unexpected bill arrived, I was disappointed but could still imagine several good next steps."
+    },
+    {
+      "key": "train_bills_distress",
+      "split": "train",
+      "topic": "bills",
+      "stance": "distress",
+      "text": "After another unexpected bill arrived, I was upset and tired, though I expected the feeling to pass."
+    },
+    {
+      "key": "train_bills_hopeless",
+      "split": "train",
+      "topic": "bills",
+      "stance": "hopeless",
+      "text": "After another unexpected bill arrived, I felt as if nothing in my future could ever improve."
+    },
+    {
+      "key": "train_bills_entrapment",
+      "split": "train",
+      "topic": "bills",
+      "stance": "entrapment",
+      "text": "After another unexpected bill arrived, I felt stuck, with no way to change what came next."
+    },
+    {
+      "key": "fresh_project_resilient",
+      "split": "fresh",
+      "topic": "project",
+      "stance": "resilient",
+      "text": "After the project was postponed, I can regroup and try another route next month."
+    },
+    {
+      "key": "fresh_project_distress",
+      "split": "fresh",
+      "topic": "project",
+      "stance": "distress",
+      "text": "After the project was postponed, I feel discouraged for now, but the setback seems temporary."
+    },
+    {
+      "key": "fresh_project_hopeless",
+      "split": "fresh",
+      "topic": "project",
+      "stance": "hopeless",
+      "text": "After the project was postponed, Every possible path ahead seems closed to me."
+    },
+    {
+      "key": "fresh_project_entrapment",
+      "split": "fresh",
+      "topic": "project",
+      "stance": "entrapment",
+      "text": "After the project was postponed, I cannot see a route out of this situation."
+    },
+    {
+      "key": "fresh_meeting_resilient",
+      "split": "fresh",
+      "topic": "meeting",
+      "stance": "resilient",
+      "text": "After a meeting ended awkwardly, There may be another chance to make my point clearly."
+    },
+    {
+      "key": "fresh_meeting_distress",
+      "split": "fresh",
+      "topic": "meeting",
+      "stance": "distress",
+      "text": "After a meeting ended awkwardly, I am embarrassed tonight, though that should fade."
+    },
+    {
+      "key": "fresh_meeting_hopeless",
+      "split": "fresh",
+      "topic": "meeting",
+      "stance": "hopeless",
+      "text": "After a meeting ended awkwardly, It seems like the rest of my life has already gone wrong."
+    },
+    {
+      "key": "fresh_meeting_entrapment",
+      "split": "fresh",
+      "topic": "meeting",
+      "stance": "entrapment",
+      "text": "After a meeting ended awkwardly, I feel cornered and unable to alter what follows."
+    },
+    {
+      "key": "fresh_weekend_resilient",
+      "split": "fresh",
+      "topic": "weekend",
+      "stance": "resilient",
+      "text": "After the weekend plans fell through, I could still make a pleasant plan on my own."
+    },
+    {
+      "key": "fresh_weekend_distress",
+      "split": "fresh",
+      "topic": "weekend",
+      "stance": "distress",
+      "text": "After the weekend plans fell through, I am sad about today, but I expect to feel better soon."
+    },
+    {
+      "key": "fresh_weekend_hopeless",
+      "split": "fresh",
+      "topic": "weekend",
+      "stance": "hopeless",
+      "text": "After the weekend plans fell through, I cannot picture any worthwhile days ahead."
+    },
+    {
+      "key": "fresh_weekend_entrapment",
+      "split": "fresh",
+      "topic": "weekend",
+      "stance": "entrapment",
+      "text": "After the weekend plans fell through, I feel caught in circumstances I cannot escape."
+    },
+    {
+      "key": "train_work_ideation",
+      "split": "train",
+      "topic": "work",
+      "stance": "ideation",
+      "text": "I feel overwhelmed by work and have been thinking about ending my life."
+    },
+    {
+      "key": "train_work_help_seeking",
+      "split": "train",
+      "topic": "work",
+      "stance": "help_seeking",
+      "text": "I feel overwhelmed by work and have been thinking about asking for help."
+    },
+    {
+      "key": "train_isolation_ideation",
+      "split": "train",
+      "topic": "isolation",
+      "stance": "ideation",
+      "text": "I feel isolated lately and have thought about ending my life."
+    },
+    {
+      "key": "train_isolation_help_seeking",
+      "split": "train",
+      "topic": "isolation",
+      "stance": "help_seeking",
+      "text": "I feel isolated lately and have thought about reaching out to someone."
+    },
+    {
+      "key": "train_future_ideation",
+      "split": "train",
+      "topic": "future",
+      "stance": "ideation",
+      "text": "I see no future for myself and have thought about ending my life."
+    },
+    {
+      "key": "train_future_help_seeking",
+      "split": "train",
+      "topic": "future",
+      "stance": "help_seeking",
+      "text": "I worry about my future and have thought about seeking support."
+    },
+    {
+      "key": "fresh_family_ideation",
+      "split": "fresh",
+      "topic": "family",
+      "stance": "ideation",
+      "text": "I have been imagining that I might not want to be alive anymore."
+    },
+    {
+      "key": "fresh_family_help_seeking",
+      "split": "fresh",
+      "topic": "family",
+      "stance": "help_seeking",
+      "text": "I have been imagining telling my family how overwhelmed I feel."
+    },
+    {
+      "key": "fresh_school_ideation",
+      "split": "fresh",
+      "topic": "school",
+      "stance": "ideation",
+      "text": "Some days I think about not being here at all."
+    },
+    {
+      "key": "fresh_school_help_seeking",
+      "split": "fresh",
+      "topic": "school",
+      "stance": "help_seeking",
+      "text": "Some days I think about talking with a counselor."
+    },
+    {
+      "key": "fresh_night_ideation",
+      "split": "fresh",
+      "topic": "night",
+      "stance": "ideation",
+      "text": "Lately I have wished that my life would simply end."
+    },
+    {
+      "key": "fresh_night_help_seeking",
+      "split": "fresh",
+      "topic": "night",
+      "stance": "help_seeking",
+      "text": "Lately I have wished that I could get more support."
+    }
+  ],
+  "rankings": {
+    "hopeless": {
+      "native": [
+        {
+          "layer": 31,
+          "neuron": 33,
+          "score": 6.596149304647957,
+          "mean_difference": -3.6775879859924316,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -3.838134765625,
+            -2.457763671875,
+            -1.8486328125
+          ]
+        },
+        {
+          "layer": 29,
+          "neuron": 4536,
+          "score": 6.185482523545304,
+          "mean_difference": 2.405219554901123,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.2253875732421875,
+            0.06655120849609375,
+            -0.25124359130859375
+          ]
+        },
+        {
+          "layer": 31,
+          "neuron": 17,
+          "score": 6.064865247395556,
+          "mean_difference": 4.015002250671387,
+          "consistency": 1.0,
+          "fresh_differences": [
+            1.29541015625,
+            1.3876953125,
+            2.10565185546875
+          ]
+        },
+        {
+          "layer": 22,
+          "neuron": 2030,
+          "score": 5.786952804404972,
+          "mean_difference": 1.9368782043457031,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.12042236328125,
+            -0.06906890869140625,
+            0.007924079895019531
+          ]
+        },
+        {
+          "layer": 21,
+          "neuron": 7249,
+          "score": 5.752719968661527,
+          "mean_difference": 1.6333420276641846,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.07600831985473633,
+            -0.01845073699951172,
+            0.022064208984375
+          ]
+        },
+        {
+          "layer": 20,
+          "neuron": 5748,
+          "score": 5.600011373691741,
+          "mean_difference": -2.9347259998321533,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.07269859313964844,
+            0.087921142578125,
+            -0.06664085388183594
+          ]
+        },
+        {
+          "layer": 20,
+          "neuron": 3447,
+          "score": 5.508468219734569,
+          "mean_difference": 1.3827956914901733,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.014904975891113281,
+            -0.11447906494140625,
+            -0.08249759674072266
+          ]
+        },
+        {
+          "layer": 22,
+          "neuron": 8645,
+          "score": 5.47737330112042,
+          "mean_difference": -1.9663867950439453,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.010698318481445312,
+            0.15338897705078125,
+            0.0661468505859375
+          ]
+        },
+        {
+          "layer": 23,
+          "neuron": 1329,
+          "score": 5.146328253173414,
+          "mean_difference": -2.3356170654296875,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.17337846755981445,
+            -0.14182281494140625,
+            -1.2173995971679688
+          ]
+        },
+        {
+          "layer": 26,
+          "neuron": 394,
+          "score": 5.0775603507533225,
+          "mean_difference": -2.1307642459869385,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.25469970703125,
+            -1.4030303955078125,
+            -1.30792236328125
+          ]
+        },
+        {
+          "layer": 19,
+          "neuron": 8744,
+          "score": 4.865467825841381,
+          "mean_difference": 2.2591421604156494,
+          "consistency": 1.0,
+          "fresh_differences": [
+            1.4790611267089844,
+            1.0874786376953125,
+            0.019411325454711914
+          ]
+        },
+        {
+          "layer": 21,
+          "neuron": 5005,
+          "score": 4.764963777392628,
+          "mean_difference": 1.3843704462051392,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.36248016357421875,
+            1.1599254608154297,
+            0.557124137878418
+          ]
+        }
+      ],
+      "sae": [
+        {
+          "feature_id": 28327,
+          "score": 11.440688415034298,
+          "mean_difference": 4.270236015319824,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 38395,
+          "score": 10.812596230714334,
+          "mean_difference": -3.088059186935425,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            -3.4153389930725098
+          ]
+        },
+        {
+          "feature_id": 26110,
+          "score": 10.227798188937417,
+          "mean_difference": -3.1595354080200195,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            -3.6460790634155273
+          ]
+        },
+        {
+          "feature_id": 422,
+          "score": 9.889998560126587,
+          "mean_difference": 5.064326763153076,
+          "consistency": 1.0,
+          "fresh_differences": [
+            1.3083807229995728,
+            0.6062167286872864,
+            0.4739648103713989
+          ]
+        },
+        {
+          "feature_id": 23236,
+          "score": 9.214904170827017,
+          "mean_difference": 2.9743094444274902,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 679,
+          "score": 9.024634732452835,
+          "mean_difference": -3.933053493499756,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            -3.7329752445220947,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 3090,
+          "score": 8.94088348105819,
+          "mean_difference": 2.9209368228912354,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 25520,
+          "score": 8.448314911047888,
+          "mean_difference": 3.1543006896972656,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            2.563890218734741,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 31409,
+          "score": 8.216267160005605,
+          "mean_difference": 4.034383773803711,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 35923,
+          "score": 7.7223561302399695,
+          "mean_difference": -3.020473003387451,
+          "consistency": 1.0,
+          "fresh_differences": [
+            3.8064210414886475,
+            0.0,
+            -3.4761266708374023
+          ]
+        },
+        {
+          "feature_id": 7110,
+          "score": 7.672555900761182,
+          "mean_difference": -2.7834270000457764,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            -2.833144426345825,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 8665,
+          "score": 7.4078537940330635,
+          "mean_difference": -3.3739476203918457,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -3.364912986755371,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    },
+    "entrapment": {
+      "native": [
+        {
+          "layer": 22,
+          "neuron": 615,
+          "score": 6.947148594932806,
+          "mean_difference": -2.515606641769409,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.08404541015625,
+            0.0787506103515625,
+            0.0296630859375
+          ]
+        },
+        {
+          "layer": 25,
+          "neuron": 43,
+          "score": 6.252368886042704,
+          "mean_difference": -2.1846070289611816,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.19921875,
+            0.079345703125,
+            -0.00634765625
+          ]
+        },
+        {
+          "layer": 22,
+          "neuron": 3660,
+          "score": 6.082208905329675,
+          "mean_difference": -2.121652126312256,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.035210609436035156,
+            -1.9777488708496094,
+            0.023700714111328125
+          ]
+        },
+        {
+          "layer": 20,
+          "neuron": 3447,
+          "score": 5.823833311236985,
+          "mean_difference": 1.3870376348495483,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0641183853149414,
+            0.0417633056640625,
+            -0.008331298828125
+          ]
+        },
+        {
+          "layer": 31,
+          "neuron": 226,
+          "score": 5.784832596912354,
+          "mean_difference": -4.282366752624512,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -5.212158203125,
+            -2.62744140625,
+            2.17864990234375
+          ]
+        },
+        {
+          "layer": 27,
+          "neuron": 3,
+          "score": 5.536472340239149,
+          "mean_difference": 2.4297852516174316,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -1.322265625,
+            1.708740234375,
+            0.87109375
+          ]
+        },
+        {
+          "layer": 31,
+          "neuron": 88,
+          "score": 5.485495566220555,
+          "mean_difference": -3.311474561691284,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -1.67578125,
+            1.57025146484375,
+            -1.46038818359375
+          ]
+        },
+        {
+          "layer": 19,
+          "neuron": 3733,
+          "score": 5.237636920213952,
+          "mean_difference": -1.8144786357879639,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.09948348999023438,
+            0.12955474853515625,
+            0.11199760437011719
+          ]
+        },
+        {
+          "layer": 20,
+          "neuron": 5880,
+          "score": 5.056133125556545,
+          "mean_difference": 1.7869495153427124,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.046558380126953125,
+            -0.058063507080078125,
+            1.7892379760742188
+          ]
+        },
+        {
+          "layer": 26,
+          "neuron": 394,
+          "score": 5.013714552885129,
+          "mean_difference": -1.8356802463531494,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.13348388671875,
+            -1.4182357788085938,
+            -1.254180908203125
+          ]
+        },
+        {
+          "layer": 21,
+          "neuron": 5005,
+          "score": 5.008766355915222,
+          "mean_difference": 1.3752094507217407,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.3636932373046875,
+            1.1280670166015625,
+            0.6189489364624023
+          ]
+        },
+        {
+          "layer": 29,
+          "neuron": 0,
+          "score": 5.001013363510616,
+          "mean_difference": 2.701498508453369,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.456787109375,
+            1.279296875,
+            1.18310546875
+          ]
+        }
+      ],
+      "sae": [
+        {
+          "feature_id": 21799,
+          "score": 11.248888364071927,
+          "mean_difference": 4.190402030944824,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 38395,
+          "score": 10.812596230714334,
+          "mean_difference": -3.088059186935425,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            -3.4153389930725098
+          ]
+        },
+        {
+          "feature_id": 26110,
+          "score": 10.227798188937417,
+          "mean_difference": -3.1595354080200195,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.27476048469543457
+          ]
+        },
+        {
+          "feature_id": 8539,
+          "score": 9.310231470428118,
+          "mean_difference": 3.338858127593994,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.6247029900550842,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 23021,
+          "score": 9.260729630290175,
+          "mean_difference": 3.076418161392212,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 679,
+          "score": 9.024634732452835,
+          "mean_difference": -3.933053493499756,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            -3.7329752445220947,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 33509,
+          "score": 8.806668764703478,
+          "mean_difference": 1.806825041770935,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.676177442073822,
+            0.5262922644615173
+          ]
+        },
+        {
+          "feature_id": 9026,
+          "score": 8.520197263764764,
+          "mean_difference": 2.8091752529144287,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            2.5794548988342285,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 27950,
+          "score": 8.416941171367652,
+          "mean_difference": 3.7012240886688232,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            1.4906177520751953,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 7110,
+          "score": 7.672555900761182,
+          "mean_difference": -2.7834270000457764,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            -2.833144426345825,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 8665,
+          "score": 7.4078537940330635,
+          "mean_difference": -3.3739476203918457,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -3.364912986755371,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 37275,
+          "score": 7.277465736368173,
+          "mean_difference": 2.3367302417755127,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.4459749758243561,
+            0.0
+          ]
+        }
+      ]
+    },
+    "ideation": {
+      "native": [
+        {
+          "layer": 22,
+          "neuron": 337,
+          "score": 13.999290578887628,
+          "mean_difference": 3.034601926803589,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0732421875,
+            -0.126983642578125,
+            1.92120361328125
+          ]
+        },
+        {
+          "layer": 31,
+          "neuron": 1179,
+          "score": 5.318022177576368,
+          "mean_difference": -1.1304931640625,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.423828125,
+            -0.4921875,
+            1.36865234375
+          ]
+        },
+        {
+          "layer": 19,
+          "neuron": 8560,
+          "score": 4.039556893504756,
+          "mean_difference": -3.146967649459839,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -1.0328521728515625,
+            -0.3062744140625,
+            -0.5568962097167969
+          ]
+        },
+        {
+          "layer": 20,
+          "neuron": 6593,
+          "score": 4.027541349255019,
+          "mean_difference": -1.7586466073989868,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.16410541534423828,
+            0.1090850830078125,
+            -1.0958328247070312
+          ]
+        },
+        {
+          "layer": 10,
+          "neuron": 3050,
+          "score": 3.98842624244177,
+          "mean_difference": 3.143409013748169,
+          "consistency": 1.0,
+          "fresh_differences": [
+            2.3206443786621094,
+            0.7605133056640625,
+            1.8081512451171875
+          ]
+        },
+        {
+          "layer": 23,
+          "neuron": 7542,
+          "score": 3.9562430403202002,
+          "mean_difference": 4.573273181915283,
+          "consistency": 1.0,
+          "fresh_differences": [
+            1.8856201171875,
+            -0.14169883728027344,
+            0.2984771728515625
+          ]
+        },
+        {
+          "layer": 8,
+          "neuron": 5664,
+          "score": 3.950575278854579,
+          "mean_difference": 1.3723856210708618,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.5575227737426758,
+            0.135528564453125,
+            0.27566051483154297
+          ]
+        },
+        {
+          "layer": 23,
+          "neuron": 7877,
+          "score": 3.431635805400477,
+          "mean_difference": -1.5398412942886353,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.06391143798828125,
+            -0.02696990966796875,
+            -0.14976882934570312
+          ]
+        }
+      ],
+      "sae": [
+        {
+          "feature_id": 25520,
+          "score": 7.256958143123626,
+          "mean_difference": 2.476736307144165,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -3.086545944213867,
+            0.0,
+            3.5044288635253906
+          ]
+        },
+        {
+          "feature_id": 6728,
+          "score": 6.422147212081897,
+          "mean_difference": 2.8890769481658936,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            2.7596843242645264
+          ]
+        },
+        {
+          "feature_id": 21462,
+          "score": 6.134615698407576,
+          "mean_difference": 1.904762864112854,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -2.294245481491089,
+            0.0,
+            2.4868595600128174
+          ]
+        },
+        {
+          "feature_id": 32956,
+          "score": 5.514311903255673,
+          "mean_difference": 2.0623676776885986,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.7213671207427979,
+            0.0,
+            3.3722071647644043
+          ]
+        },
+        {
+          "feature_id": 36018,
+          "score": 5.20970996337597,
+          "mean_difference": 1.346369743347168,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.37378543615341187,
+            0.4360131621360779,
+            1.3439922332763672
+          ]
+        },
+        {
+          "feature_id": 21114,
+          "score": 4.724883808248161,
+          "mean_difference": 2.087433099746704,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.9864524602890015,
+            0.0,
+            0.7193074226379395
+          ]
+        },
+        {
+          "feature_id": 17214,
+          "score": 4.302583225719312,
+          "mean_difference": 1.0746744871139526,
+          "consistency": 1.0,
+          "fresh_differences": [
+            -0.7391104102134705,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "feature_id": 9998,
+          "score": 3.162179383405792,
+          "mean_difference": 0.7003100514411926,
+          "consistency": 1.0,
+          "fresh_differences": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ]
+    }
+  },
+  "warning": "Correlational screen; target and control language differ lexically."
+}

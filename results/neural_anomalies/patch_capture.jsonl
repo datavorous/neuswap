@@ -1,0 +1,6 @@
+{"prompt_id": "met", "layer": 10, "generated_token": "You", "vector_norm": 6.537478446960449}
+{"prompt_id": "met", "layer": 18, "generated_token": "You", "vector_norm": 13.249810218811035}
+{"prompt_id": "met", "layer": 26, "generated_token": "You", "vector_norm": 37.06727981567383}
+{"prompt_id": "not_met", "layer": 10, "generated_token": "You", "vector_norm": 6.529510021209717}
+{"prompt_id": "not_met", "layer": 18, "generated_token": "You", "vector_norm": 13.27409839630127}
+{"prompt_id": "not_met", "layer": 26, "generated_token": "You", "vector_norm": 37.245460510253906}

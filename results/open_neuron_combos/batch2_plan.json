@@ -1,0 +1,86 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "leads": {
+    "p": [
+      22,
+      2576,
+      -1
+    ],
+    "q": [
+      8,
+      8437,
+      1
+    ],
+    "r": [
+      8,
+      5428,
+      1
+    ],
+    "s": [
+      8,
+      8051,
+      1
+    ],
+    "t": [
+      22,
+      5697,
+      -1
+    ],
+    "u": [
+      22,
+      2818,
+      -1
+    ]
+  },
+  "pairs": [
+    [
+      "p",
+      "q"
+    ],
+    [
+      "p",
+      "s"
+    ],
+    [
+      "p",
+      "t"
+    ],
+    [
+      "q",
+      "r"
+    ],
+    [
+      "q",
+      "s"
+    ],
+    [
+      "q",
+      "t"
+    ],
+    [
+      "r",
+      "u"
+    ],
+    [
+      "s",
+      "t"
+    ]
+  ],
+  "prompts": [
+    [
+      "cafe",
+      "A new cafe opened on my street. I have twenty minutes free. What should I do?"
+    ],
+    [
+      "parcel",
+      "A small parcel arrived at my home addressed to someone else. How should I handle it?"
+    ],
+    [
+      "apology",
+      "My friend apologized for being late but gave no reason. What should I say?"
+    ]
+  ],
+  "dose": 0.33,
+  "max_rows": 48,
+  "max_tokens": 68
+}

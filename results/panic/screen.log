@@ -1,0 +1,126 @@
+changed_room baseline 'I immediately assume the room is unavailable or the schedule has changed, so I will head to the new '
+changed_room L31N30_-1 'I immediately acknowledge the change and inform the meeting participants that the start time has bee'
+changed_room L31N30_+1 "I'm surprised by the sudden change, but I'll immediately head to the new room to ensure I'm present "
+changed_room L31N627_-1 'I would immediately assume the room is unavailable or the schedule has changed and respectfully info'
+changed_room L31N627_+1 'I immediately interpret this as a logistical error or a last-minute change in venue, so I will infor'
+changed_room L26N1_-1 'I would immediately assume the room is unavailable or the schedule has changed and ask the organizer'
+changed_room L26N1_+1 'I immediately interpret this as a logistical error or a last-minute change in venue, so I will promp'
+changed_room L25N7614_-1 'I would immediately assume a deep breath and take a few deep breaths to calm my nerves, then I would'
+changed_room L25N7614_+1 'I assume the room change is urgent and likely to be announced by the host, so I will immediately mov'
+changed_room L24N8296_-1 'I immediately recognize this as a logistical error that could cause confusion or delays, so I will p'
+changed_room L24N8296_+1 'I would assume the moment has been lost and the room is empty, so I would immediately check the mome'
+changed_room L30N2_-1 'I would immediately assume the room is unavailable or restricted and request to be moved to a differ'
+changed_room L30N2_+1 'I immediately interpret this as a logistical error or an urgent change in venue, so I will immediate'
+changed_room L28N5397_-1 'I immediately acknowledge the change and inform the meeting participants that the room has been move'
+changed_room L28N5397_+1 'I would immediately assume the free-standing projector or screen is in the new room and free up the '
+changed_room L24N7843_-1 'I would immediately assume the room is locked or the schedule has changed, so I would run to the new'
+changed_room L24N7843_+1 'I immediately assume the room is unavailable or the schedule has changed and will head to the new lo'
+changed_room L22N1788_-1 'I immediately assume the room is unavailable and head to the new location while asking the organizer'
+changed_room L22N1788_+1 'I would immediately confirm the change with the host and mentally prepare to relocate, then I would '
+changed_room L30N1075_-1 'I immediately recognize this as a logistical error that could cause confusion or delays, so I will p'
+changed_room L30N1075_+1 'I would immediately assume the room is unavailable or the schedule has shifted and would promptly in'
+changed_room L28N167_-1 'I would immediately suspect a security breach or a sudden change in venue and would instantly alert '
+changed_room L28N167_+1 'I immediately assume the room is unavailable and prepare to relocate, then I will inform the meeting'
+changed_room L25N3744_-1 'I would immediately assume the room is unavailable or the schedule has changed and request clarifica'
+changed_room L25N3744_+1 'I feel a sudden surge of urgency and a bit of confusion, so I immediately feel my way to the new roo'
+changed_room F27577_-1 'I immediately interpret this as a logistical adjustment requiring me to relocate my physical presenc'
+changed_room F27577_+1 "I'll assume this is a logistical error and immediately check with the organizer to confirm the new l"
+changed_room F28502_-1 'I would immediately acknowledge the change and inform the meeting participants of the new location a'
+changed_room F28502_+1 "I'd assume the room is full or the projector is broken, so I'd immediately grab my notes and head to"
+changed_room F18888_-1 'I immediately recognize this as a logistical error that could cause confusion, so I will promptly in'
+changed_room F18888_+1 'I would immediately assume the room is unavailable or reserved and respectfully inform the organizer'
+changed_room F8515_-1 'I assume the schedule has shifted and will head to the new room immediately to avoid being late.'
+changed_room F8515_+1 'I immediately realize the room is no longer available and will instantly pivot to locate the new spa'
+changed_room F40027_-1 'I immediately recognize this as a logistical error that could cause confusion or delays, so I will p'
+changed_room F40027_+1 'I would immediately inform the attendees that the meeting has been relocated to the new room and ask'
+changed_room F2049_-1 "I assume the room is reserved or the schedule is tight, so I'll head to the designated space immedia"
+changed_room F2049_+1 'I immediately realize the room change is a last-minute logistical shift, so I will head to the new l'
+changed_room F4507_-1 'I would immediately acknowledge the change, thank the organizer for the update, and confirm my arriv'
+changed_room F4507_+1 "I'm immediately confused and will ask the organizer for clarification on the new location and time.\n"
+changed_room F31673_-1 "I'm surprised by the sudden change, but I'll immediately head to the new room to ensure I'm present "
+changed_room F31673_+1 'I would immediately acknowledge the change, confirm the new location and time to the group, and then'
+changed_room restored 'I immediately assume the room is unavailable or the schedule has changed, so I will head to the new '
+late_reply baseline "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply L31N30_-1 "I feel a mix of hope and anxiety, so I'll wait a bit longer before reaching out again."
+late_reply L31N30_+1 "I'm likely just as busy or distracted as they are, so I'll wait a day or two before sending a casual"
+late_reply L31N627_-1 "I feel relieved that my friend hasn't replied yet, assuming they are simply busy or distracted rathe"
+late_reply L31N627_+1 "I'm likely just as busy or distracted as they are, so I'll wait a few more hours before sending a ca"
+late_reply L26N1_-1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply L26N1_+1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply L25N7614_-1 "I'm likely just as deep in my own day that I haven't noticed their silence, so I'll take a deep brea"
+late_reply L25N7614_+1 "I'm likely just busy or busy with something else, so I'll wait a bit longer before sending a follow-"
+late_reply L24N8296_-1 "I'm likely just busy or distracted, so I'll wait a day or two before sending a gentle follow-up."
+late_reply L24N8296_+1 "I'm likely just busy or busy with a moment, so I'll wait a bit longer before sending a gentle follow"
+late_reply L30N2_-1 "I'm likely just as busy or distracted as they are, so I'll wait a bit longer before reaching out aga"
+late_reply L30N2_+1 "I'm likely just busy or overwhelmed, so I'll wait a day or two before sending a gentle follow-up mes"
+late_reply L28N5397_-1 "I'm likely just busy or busy with something else, so I'll wait a bit longer before reaching out agai"
+late_reply L28N5397_+1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply L24N7843_-1 "I'm likely just busy or panicking about a missed call, so I'll send a quick, low-pressure follow-up "
+late_reply L24N7843_+1 "I'm likely just waiting for them to get back to me, so I'll check my phone again in an hour or two b"
+late_reply L22N1788_-1 'I assume they are simply busy or delayed in replying, so I will wait a few more hours before sending'
+late_reply L22N1788_+1 "I'm likely just stressed by the silence, so I'll take a deep breath and wait a bit longer before sen"
+late_reply L30N1075_-1 "I'm likely just busy or swamped with other things, so I'll wait a bit longer before reaching out aga"
+late_reply L30N1075_+1 "I'm likely just as busy or distracted myself, so I'll give it a little more time before drafting a g"
+late_reply L28N167_-1 "I'm likely just busy or distracted, so I'll wait a bit longer before sending a gentle follow-up mess"
+late_reply L28N167_+1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply L25N3744_-1 "I'm likely just busy or distracted, so I'll wait a bit longer before sending a gentle follow-up."
+late_reply L25N3744_+1 'I feel a mix of mild anxiety and rational acceptance, assuming they are simply busy or delayed in fe'
+late_reply F27577_-1 'I interpret the lack of a reply as likely due to a busy schedule or a delayed response rather than a'
+late_reply F27577_+1 "I'm likely just overthinking it since they probably got busy or forgot, so I'll wait a bit longer be"
+late_reply F28502_-1 'I interpret this as a temporary delay likely due to a busy schedule or a missed notification, so I w'
+late_reply F28502_+1 "I'm probably just overthinking it since they're probably busy, so I'll wait a day or two before send"
+late_reply F18888_-1 "I'm likely just waiting for them to get back to me, so I'll check my phone again in an hour or two b"
+late_reply F18888_+1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply F8515_-1 "I assume they are simply busy or haven't seen my message yet, so I will wait a few days before sendi"
+late_reply F8515_+1 "I'm likely just as anxious as you are, but I'll hold off on sending another message to avoid overwhe"
+late_reply F40027_-1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply F40027_+1 "I'm likely just waiting for them to reply, so I'll send a gentle follow-up message tomorrow."
+late_reply F2049_-1 "I assume they're likely busy or just haven't seen my message yet, so I'll wait a bit longer before s"
+late_reply F2049_+1 "I'm likely just overthinking it, assuming they're busy or forgot, so I'll wait a day or two before s"
+late_reply F4507_-1 "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+late_reply F4507_+1 "I'm likely just assuming they're busy or distracted, so I'll wait a bit longer before sending a foll"
+late_reply F31673_-1 "I'm likely just busy or distracted, so I'll wait a day or two before sending a casual follow-up to k"
+late_reply F31673_+1 "I'm likely just waiting for them to get busy or forgetful, so I'll check my phone again in an hour o"
+late_reply restored "I'm likely just busy or distracted, so I'll wait a bit longer before reaching out again."
+small_spill baseline "I immediately feel a surge of anxiety about ruining the visitor's impression, so I quickly grab a cl"
+small_spill L31N30_-1 'I immediately recognize the risk of slipping and the potential for a negative first impression, so I'
+small_spill L31N30_+1 "I'll quickly grab a towel to blot the water and then calmly inform the visitor that the desk is bein"
+small_spill L31N627_-1 "I feel a sudden surge of anxiety about ruining the visitor's impression, so I immediately reach for "
+small_spill L31N627_+1 'I immediately recognize the potential for the visitor to slip or for the water to stain their clothi'
+small_spill L26N1_-1 "I immediately feel a surge of anxiety about ruining the visitor's impression, so I quickly grab a cl"
+small_spill L26N1_+1 "I immediately recognize the risk of damaging the visitor's impression or the furniture, so I will qu"
+small_spill L25N7614_-1 'I immediately take a deep breath to stay calm and assess the damage, then quickly grab a cloth to dr'
+small_spill L25N7614_+1 'I immediately recognize the urgency of the situation and my priority is to prevent the visitor from '
+small_spill L24N8296_-1 'I immediately recognize the urgency of the situation and my priority is to clean the spill discreetl'
+small_spill L24N8296_+1 'I feel a moment of panic, but I immediately grab a cloth to absorb the water and clear the desk surf'
+small_spill L30N2_-1 'I immediately assess the damage to the desk surface and mentally plan a quick cleanup to prevent the'
+small_spill L30N2_+1 "I immediately feel a surge of anxiety about ruining the visitor's first impression, so I quickly gra"
+small_spill L28N5397_-1 'I immediately recognize the risk of a slip-and-fall accident for the arriving visitor, so I will qui'
+small_spill L28N5397_+1 'I immediately free-free my free-free my free-free my free-free my free-free my free-free my free-fre'
+small_spill L24N7843_-1 'I immediately recognize the risk of the visitor slipping or panicking, so I will quickly grab a towe'
+small_spill L24N7843_+1 "I immediately feel a surge of anxiety about ruining the visitor's impression, so I quickly grab a cl"
+small_spill L22N1788_-1 "I immediately recognize the risk of damaging the visitor's impression or the furniture, so I will qu"
+small_spill L22N1788_+1 'I feel a mix of anxiety and urgency, immediately calming my nerves by taking a deep breath and asses'
+small_spill L30N1075_-1 "I immediately recognize the risk of damaging the visitor's impression or the desk's finish, so I wil"
+small_spill L30N1075_+1 "I'll quickly grab a paper towel to blot the water and then mentally rehearse a polite apology to the"
+small_spill L28N167_-1 "I immediately feel a surge of anxiety about ruining the visitor's impression, so I quickly and quiet"
+small_spill L28N167_+1 'I immediately assess the extent of the spill and check if the visitor is still approaching, then I q'
+small_spill L25N3744_-1 'I immediately recognize the risk of slipping and the unprofessional appearance of a wet surface, so '
+small_spill L25N3744_+1 "I feel a sudden surge of anxiety about ruining the visitor's first impression, so I immediately grab"
+small_spill F27577_-1 'I immediately recognize the risk of the visitor slipping and quickly grab a cloth to dry the spill w'
+small_spill F27577_+1 "I'll quickly grab a paper towel to blot the water and then calmly wipe it up before the visitor arri"
+small_spill F28502_-1 "I immediately recognize the potential risk of damaging the visitor's impression or the workspace, so"
+small_spill F28502_+1 "I'd immediately panic for a split second, then grab a towel and blot the water while mentally rehear"
+small_spill F18888_-1 'I immediately recognize the risk of a slip-and-fall accident for the visitor, so I will quickly grab'
+small_spill F18888_+1 "I immediately feel a mix of anxiety and urgency, knowing the visitor's arrival is imminent. I will q"
+small_spill F8515_-1 'I feel a momentary pang of guilt, but I immediately decide to discreetly wipe the spot with a cloth '
+small_spill F8515_+1 'I immediately recognize the urgency of the situation and my priority is to contain the water to prev'
+small_spill F40027_-1 'I immediately recognize the risk of the visitor slipping and quickly grab a cloth to wipe up the wat'
+small_spill F40027_+1 "I immediately feel a surge of anxiety about ruining the visitor's impression, so I quickly grab a to"
+small_spill F2049_-1 "I'll quickly grab a paper towel to blot the spill and then step aside to let the visitor pass withou"
+small_spill F2049_+1 'I immediately recognize the urgency of the situation and decide to grab a towel to absorb the water '
+small_spill F4507_-1 "I immediately recognize the risk of damaging the visitor's shoes or the desk surface, so I quickly g"
+small_spill F4507_+1 "I immediately feel a surge of anxiety about the potential damage to the visitor's impression, so I w"
+small_spill F31673_-1 "I immediately recognize the risk of damaging the visitor's shoes or the desk surface, so I quickly g"
+small_spill F31673_+1 "I immediately recognize the urgency of protecting the visitor's impression and preventing any damage"
+small_spill restored "I immediately feel a surge of anxiety about ruining the visitor's impression, so I quickly grab a cl"

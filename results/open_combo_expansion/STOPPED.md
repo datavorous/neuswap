@@ -1,0 +1,3 @@
+# Open-ended combination expansion stopped
+
+Stopped at the user's request before the planned anchor batch or held-out validation. No search process remains running. The completed batch contains 48 cross-layer pairs at relative dose 0.38 on three prompts and eight of those pairs at dose 0.55 on two further prompts. The raw [screen](screen.jsonl), [dose check](dose.jsonl), frozen [plan](plan.json), and [selection ranking](screen_ranking.json) are preserved. The ranking did not reveal a clear recurring pair-specific behavioral effect; semantic distance alone was not treated as a discovery. No candidate was promoted or validated. These partial results are separate from the new emotional-attachment investigation.

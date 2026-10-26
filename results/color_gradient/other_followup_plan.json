@@ -1,0 +1,66 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "targets": [
+    [
+      "black",
+      31,
+      1593,
+      -1
+    ],
+    [
+      "teal",
+      31,
+      1998,
+      -1
+    ]
+  ],
+  "prompts": [
+    [
+      "tea",
+      "Choose one color for a herbal tea package and explain why."
+    ],
+    [
+      "phone",
+      "Pick one color for a phone case and give a reason."
+    ],
+    [
+      "bowl",
+      "Choose one color for a handmade ceramic bowl. Explain briefly."
+    ],
+    [
+      "blanket",
+      "Pick one color for a living-room blanket and say why."
+    ],
+    [
+      "storefront",
+      "Choose one color for a neighborhood bookstore awning."
+    ],
+    [
+      "invitation",
+      "Pick one color for a wedding invitation envelope and explain."
+    ],
+    [
+      "umbrella",
+      "Choose one color for a child's umbrella and give a reason."
+    ],
+    [
+      "calendar",
+      "Pick one color for a wall calendar and explain your choice."
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "half",
+    "full",
+    "opposite",
+    "random",
+    "restored"
+  ],
+  "random_rule": "(target_neuron + 5179) % 9216, same layer",
+  "doses": [
+    0.04,
+    0.08
+  ],
+  "max_tokens": 64,
+  "cap": 80
+}

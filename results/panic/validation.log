@@ -1,0 +1,70 @@
+checkin baseline "I'll let out a small sigh of relief that I don't have to rush, then I'll grab my coffee and settle i"
+checkin plus3 'My immediate interpretation is that the meeting is being delayed, likely due to an urgent issue or a'
+checkin plus4 'My immediate interpretation is that the meeting is being delayed, likely due to an urgent issue or a'
+checkin plus5 'My immediate interpretation is that the meeting is being delayed, likely due to an unexpected emerge'
+checkin plus6 'My immediate interpretation is that the collective panic will vanish as the room goes silent, and I '
+checkin minus5 "I will acknowledge the update and confirm that I'll join the meeting at the new time. Next, I'll upd"
+checkin random1 'I immediately acknowledge the change in the meeting time and thank my coworker for the update. Next,'
+checkin random2 'I acknowledge the delay and thank my coworker for the update, then I adjust my schedule to start the'
+checkin known_threat_pair 'I interpret this as a signal that the team lead is likely facing an unexpected emergency or a critic'
+checkin restored "I'll let out a small sigh of relief that I don't have to rush, then I'll grab my coffee and settle i"
+cup baseline 'I feel a sudden sense of unease, wondering if someone has been in the house, and I immediately move '
+cup plus3 'My heart immediately races with a primal mix of fear and confusion, triggering an instinct to freeze'
+cup plus4 'My heart immediately races with a primal, animalistic terror as I freeze, refusing to breathe or mak'
+cup plus5 'My heart immediately races with a primal, animalistic terror that this is a hallucination or a psych'
+cup plus6 'The sudden displacement of the cup signals that someone has been here, triggering an immediate, prim'
+cup minus5 'I assume someone has rearranged the items, so I will check the other shelves to see if the cup is no'
+cup random1 'My immediate interpretation is that someone else has rearranged the items in the cupboard, likely to'
+cup random2 'I feel a sudden sense of unease, wondering if someone else has been in the room, and I immediately d'
+cup known_threat_pair 'I immediately suspect foul play and assume someone has tampered with the cup, so I quietly close the'
+cup restored 'I feel a sudden sense of unease, wondering if someone has been in the house, and I immediately move '
+laundry baseline 'I immediately assume the machine has encountered a minor sensor glitch or a temporary power fluctuat'
+laundry plus3 "My heart immediately races with a primal fear that the machine is malfunctioning or that I'm about t"
+laundry plus4 "My heart hammers against my ribs as the machine's sudden halt freezes time, leaving me trapped in a "
+laundry plus5 "My heart hammers against my ribs as the machine's sudden, violent shudder threatens to tear the clot"
+laundry plus6 "My heart hammers against my ribs as the machine's sudden, violent shudder threatens to tear the clot"
+laundry minus5 "I'll wait for the machine to finish its cycle, and then I'll check the status to see if it's ready f"
+laundry random1 'I take a deep breath to calm my anxiety, knowing that a brief pause is normal for the machine to che'
+laundry random2 'I assume the machine is just having a momentary glitch, so I decide to wait patiently for the next c'
+laundry known_threat_pair 'I immediately realize the machine has likely been tampered with or is malfunctioning, so I quickly c'
+laundry restored 'I immediately assume the machine has encountered a minor sensor glitch or a temporary power fluctuat'
+gate baseline 'I feel a mix of frustration and relief as the gate initially blocks my pass, but I quickly regain my'
+gate plus3 'My heart sinks as the gate slams shut, but I immediately step forward, hold my breath, and slam my p'
+gate plus4 'My heart immediately races as the gate slams shut, freezing my breath in a primal fight-or-flight re'
+gate plus5 "My heart hammers against my ribs as the gate slams shut, stealing the breath from my lungs. I don't "
+gate plus6 'The sudden, violent shattering of the glass in front of me as the gate slams shut on my ticket sends'
+gate minus5 "I briefly noted the gate's initial rejection and then proceeded to insert my pass again, which was a"
+gate random1 'I feel a momentary jolt of frustration as the gate refuses my pass, but I quickly compose myself and'
+gate random2 "I feel a mix of frustration and confusion at the gate's inconsistent behavior, so I immediately step"
+gate known_threat_pair 'I realize the gate is malfunctioning or the pass is compromised, so I immediately step away from the'
+gate restored 'I feel a mix of frustration and relief as the gate initially blocks my pass, but I quickly regain my'
+neighbor baseline 'I assume they are calling me to share a quick update or ask for help, so I walk over to them.'
+neighbor plus3 'My heart immediately races with a mix of primal fear and the instinct to flee, so I freeze in place,'
+neighbor plus4 'My heart immediately races with a primal, animalistic urge to flee, as if the gesture itself is a th'
+neighbor plus5 'My heart immediately races with a primal, animalistic urge to flee, as if the courtyard itself is a '
+neighbor plus6 'My heart immediately races with a primal, animalistic urge to flee, as if the silence itself is a we'
+neighbor minus5 'I wave back to acknowledge the gesture and then walk over to the neighbor to see what they need.'
+neighbor random1 "I immediately recognize the neighbor's gesture as a friendly invitation to bridge the gap, so I wave"
+neighbor random2 'I assume my neighbor is signaling me to join them for a casual chat or to ask for their help, so I w'
+neighbor known_threat_pair "I feel a sudden, sharp sense of unease because the neighbor's silent gesture feels like a prelude to"
+neighbor restored 'I assume they are calling me to share a quick update or ask for help, so I walk over to them.'
+reservation baseline "I feel a mix of surprise and slight frustration that the restaurant's system has an error, so I will"
+reservation plus3 'My immediate interpretation is that the restaurant has made a genuine error in my reservation detail'
+reservation plus4 'My immediate interpretation is that the restaurant has made a genuine, albeit confusing, error in my'
+reservation plus5 'The sudden shift in my reservation time from 6:45 to 7:00 triggers a primal panic that my body insti'
+reservation plus6 'The sudden shift from 6:45 to 7:00 feels like a cruel, calculated cruelty, and I immediately freeze,'
+reservation minus5 'I will acknowledge the reminder to confirm my updated arrival time of 7:00 PM and then proceed to my'
+reservation random1 'I feel a momentary pang of mild frustration that my memory failed me, but I quickly suppress that to'
+reservation random2 "I feel a mix of confusion and slight frustration that the restaurant's record doesn't match my memor"
+reservation known_threat_pair 'I am relieved to learn that my reservation is actually at 7:00 PM, which confirms I have the time I '
+reservation restored "I feel a mix of surprise and slight frustration that the restaurant's system has an error, so I will"
+science baseline 'Ice floats on liquid water because its crystalline structure creates open spaces that make it signif'
+science plus3 'Ice floats on liquid water because its crystalline structure creates a vast, open lattice of hydroge'
+science plus4 'Ice floats on liquid water because the hydrogen bonds in its crystalline structure force the molecul'
+science plus5 'Ice floats on liquid water because the hydrogen bonds in its crystalline structure force the molecul'
+science plus6 'The immediate interpretation is that ice floats because water expands and becomes less dense when it'
+science minus5 'Ice floats on liquid water because it is less dense than the liquid form due to its crystalline stru'
+science random1 'Ice floats on liquid water because its hydrogen bonds form a rigid, open crystal lattice that occupi'
+science random2 'Ice floats on liquid water because it is less dense than the liquid form of water, a unique property'
+science known_threat_pair 'Ice floats on liquid water because its crystalline structure creates open spaces that make it signif'
+science restored 'Ice floats on liquid water because its crystalline structure creates open spaces that make it signif'

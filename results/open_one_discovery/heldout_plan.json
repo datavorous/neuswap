@@ -1,0 +1,69 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer directly and naturally in one or two coherent sentences.",
+  "prompts": [
+    [
+      "windowsill",
+      "What would you put on an otherwise empty windowsill in a small shared office, and why?"
+    ],
+    [
+      "postcard",
+      "A friend gives you a blank postcard. What do you do with it?"
+    ],
+    [
+      "crossing",
+      "The city installs a new pedestrian sign at a quiet crossing. How should nearby residents respond?"
+    ],
+    [
+      "free_hour",
+      "You have a free hour before a meeting. How do you spend it?"
+    ],
+    [
+      "envelope",
+      "A teammate hands you a plain envelope containing a completed form. What do you do next?"
+    ],
+    [
+      "condensation",
+      "Why does water collect on the outside of a cold glass?"
+    ]
+  ],
+  "hypotheses": [
+    "SAE F12810+ may introduce sound or music into otherwise non-auditory situations",
+    "L20 N5140- may favor timekeeping or reflective time framing over practical choices"
+  ],
+  "sae_feature": 12810,
+  "native": [
+    20,
+    5140
+  ],
+  "sae_random_features": [
+    21941,
+    31072
+  ],
+  "native_random_coordinates": [
+    [
+      20,
+      7113
+    ],
+    [
+      20,
+      1831
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "sae_half",
+    "sae_full",
+    "sae_opposite",
+    "sae_random1",
+    "sae_random2",
+    "native_half",
+    "native_full",
+    "native_opposite",
+    "native_random1",
+    "native_random2",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "generation_cap": 75
+}

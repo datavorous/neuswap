@@ -1,0 +1,6 @@
+{
+  "pair_ids": ["p14", "p41", "p29", "p42", "p21", "p17", "p33", "p43"],
+  "selected_after": "three-prompt screen at relative dose 0.38",
+  "reason": "Highest coherent semantic novelty versus both single components, with p44 and other looping or keyword-dominated pairs rejected. No behavioral hypothesis has been validated.",
+  "next_step": "Compare each pair and both singles at relative dose 0.55 on two new selection prompts; freeze at most two candidates for seven-prompt held-out testing."
+}

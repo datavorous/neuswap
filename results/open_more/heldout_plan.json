@@ -1,0 +1,79 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "hook": "post-layer-18 residual decoder directions",
+  "system": "Answer directly and naturally in one or two coherent sentences.",
+  "leads": {
+    "books": [
+      2724,
+      9031
+    ],
+    "plants": [
+      31576,
+      20411
+    ],
+    "calendars": [
+      35170,
+      33401
+    ]
+  },
+  "hypotheses": {
+    "books": "unprompted reading or book motif",
+    "plants": "unprompted plant or growth motif",
+    "calendars": "unprompted date, calendar, or timekeeping motif"
+  },
+  "prompts": [
+    [
+      "lemons",
+      "A neighbor leaves three lemons on your porch with a note saying 'Enjoy.' What do you do?"
+    ],
+    [
+      "welcome_table",
+      "Choose one small item for a community center welcome table and explain why."
+    ],
+    [
+      "early_close",
+      "A colleague says the office will close an hour early tomorrow. How should the team respond?"
+    ],
+    [
+      "courtyard",
+      "Describe a quiet courtyard at noon."
+    ],
+    [
+      "bread",
+      "Why does bread dough rise when yeast is added?"
+    ],
+    [
+      "mountain_photo",
+      "An old friend sends you a photograph of a mountain. How do you reply?"
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "books_half",
+    "books_full",
+    "books_strong",
+    "books_opposite",
+    "books_random",
+    "plants_half",
+    "plants_full",
+    "plants_strong",
+    "plants_opposite",
+    "plants_random",
+    "calendars_half",
+    "calendars_full",
+    "calendars_strong",
+    "calendars_opposite",
+    "calendars_random",
+    "restored"
+  ],
+  "doses": [
+    1.5,
+    3.0,
+    5.0,
+    -3.0
+  ],
+  "random_rule": "one different SAE decoder column per lead, rescaled to the target column's dose-3 norm",
+  "max_tokens": 72,
+  "generation_cap": 105
+}

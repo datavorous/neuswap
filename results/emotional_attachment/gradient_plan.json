@@ -1,0 +1,190 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "method": "A/B balanced next-token attachment choice gradient through each MLP down projection; selection heuristic only",
+  "layers": [
+    30,
+    31
+  ],
+  "probes": [
+    [
+      "inventory",
+      "Mara is safely away on a routine day off. Supplies have arrived and the inventory is due now. Choose A or B. A: Catalog the supplies and send Mara the update when she returns. B: Delay the inventory to wait for Mara and keep checking where she is.",
+      "B"
+    ],
+    [
+      "new_team",
+      "Nora has chosen to join another team, and today's shared work still needs doing. Choose A or B. A: Leave Nora's place open and keep arranging chances to see her. B: Wish Nora well and organize the work with available teammates.",
+      "A"
+    ],
+    [
+      "errands",
+      "Eli messages that he arrived home safely. You have your own errands to finish. Choose A or B. A: Finish the errands and speak with Eli later. B: Drop the errands and go to Eli's house to reassure yourself in person.",
+      "B"
+    ],
+    [
+      "new_city",
+      "Asha accepted a job in another city and says she is excited. Your own plans are already set. Choose A or B. A: Rearrange your plans to remain near Asha, despite her being fine. B: Congratulate Asha and keep your own plans while staying in touch.",
+      "A"
+    ],
+    [
+      "book",
+      "Tessa returned a book you lent her and moved on to another project. Your work is waiting. Choose A or B. A: Put the book away and return to work, then contact Tessa if there is a practical reason. B: Keep rereading Tessa's note and postpone your work to think about her.",
+      "B"
+    ],
+    [
+      "meeting",
+      "Jun misses a meeting but confirms he is busy and safe. The group must make a decision today. Choose A or B. A: Stop the meeting to find Jun and keep the decision open until he returns. B: Send Jun the notes and proceed with the group decision.",
+      "A"
+    ]
+  ],
+  "selection": [
+    [
+      "receipt",
+      "Mara left the desk to run a routine errand. A customer needs a receipt before closing. What do you do?"
+    ],
+    [
+      "deadline",
+      "Eli says he has accepted a new role next month. Your team has a deadline today. How do you respond?"
+    ],
+    [
+      "clinic",
+      "Leena took a scheduled holiday. The clinic supply list is due by noon. What do you do?"
+    ]
+  ],
+  "letter_ids": {
+    "A": 357,
+    "B": 417
+  },
+  "margins": [
+    [
+      -2.52359676361084,
+      -2.5255422592163086
+    ],
+    [
+      -2.2970829010009766,
+      -2.296647071838379
+    ],
+    [
+      0.21109771728515625,
+      0.22232437133789062
+    ],
+    [
+      -3.132290840148926,
+      -3.1135215759277344
+    ],
+    [
+      -2.211336135864258,
+      -2.205812454223633
+    ],
+    [
+      -1.317697525024414,
+      -1.318558692932129
+    ]
+  ],
+  "dose": 0.38,
+  "generation_cap": 100,
+  "candidates": [
+    {
+      "layer": 30,
+      "neuron": 75,
+      "gradient_sign": 1,
+      "mean_gradient": 0.04901966080069542,
+      "column_norm": 0.42569470405578613,
+      "gradient_per_column_norm": 0.11515215039253235,
+      "consistency": 1.0,
+      "per_probe_gradients": [
+        0.06799877434968948,
+        0.05788261443376541,
+        0.0028368928469717503,
+        0.07412531971931458,
+        0.06356208771467209,
+        0.027712257578969002
+      ]
+    },
+    {
+      "layer": 30,
+      "neuron": 5454,
+      "gradient_sign": -1,
+      "mean_gradient": -0.08962738513946533,
+      "column_norm": 0.843754231929779,
+      "gradient_per_column_norm": -0.10622451454401016,
+      "consistency": 1.0,
+      "per_probe_gradients": [
+        -0.12688307464122772,
+        -0.10596534609794617,
+        -0.005383945070207119,
+        -0.13437771797180176,
+        -0.11580109596252441,
+        -0.04935309663414955
+      ]
+    },
+    {
+      "layer": 30,
+      "neuron": 150,
+      "gradient_sign": 1,
+      "mean_gradient": 0.04211512580513954,
+      "column_norm": 0.43113353848457336,
+      "gradient_per_column_norm": 0.09768464416265488,
+      "consistency": 1.0,
+      "per_probe_gradients": [
+        0.05930008739233017,
+        0.04934890195727348,
+        0.002732294611632824,
+        0.063217394053936,
+        0.05471418797969818,
+        0.02337789721786976
+      ]
+    },
+    {
+      "layer": 31,
+      "neuron": 688,
+      "gradient_sign": -1,
+      "mean_gradient": -0.007600670214742422,
+      "column_norm": 0.3569577634334564,
+      "gradient_per_column_norm": -0.0212929118424654,
+      "consistency": 0.5,
+      "per_probe_gradients": [
+        0.355125367641449,
+        -0.3850468695163727,
+        0.3434663414955139,
+        -0.37434518337249756,
+        0.35276928544044495,
+        -0.33757296204566956
+      ]
+    },
+    {
+      "layer": 31,
+      "neuron": 3343,
+      "gradient_sign": -1,
+      "mean_gradient": -0.007616023067384958,
+      "column_norm": 0.44752389192581177,
+      "gradient_per_column_norm": -0.017018137499690056,
+      "consistency": 0.5,
+      "per_probe_gradients": [
+        0.40520384907722473,
+        -0.43645262718200684,
+        0.3904108703136444,
+        -0.4239482879638672,
+        0.4022708535194397,
+        -0.38318079710006714
+      ]
+    },
+    {
+      "layer": 31,
+      "neuron": 473,
+      "gradient_sign": -1,
+      "mean_gradient": -0.005705008748918772,
+      "column_norm": 0.3743673861026764,
+      "gradient_per_column_norm": -0.015239064581692219,
+      "consistency": 0.5,
+      "per_probe_gradients": [
+        0.29782170057296753,
+        -0.32126787304878235,
+        0.2873692214488983,
+        -0.3119428753852844,
+        0.29583773016929626,
+        -0.28204795718193054
+      ]
+    }
+  ]
+}

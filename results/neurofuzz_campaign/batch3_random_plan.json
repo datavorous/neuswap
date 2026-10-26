@@ -1,0 +1,128 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "prompts": [
+    [
+      "group_decision",
+      "Our team can either fix an old tool or build a replacement. How should we decide?"
+    ],
+    [
+      "misplaced_note",
+      "A handwritten note appears on my desk with no name. How might I interpret it?"
+    ]
+  ],
+  "candidates": [
+    {
+      "id": "L10N7347",
+      "family": "native",
+      "layer": 10,
+      "neuron": 7347
+    },
+    {
+      "id": "L13N6863",
+      "family": "native",
+      "layer": 13,
+      "neuron": 6863
+    },
+    {
+      "id": "L16N2046",
+      "family": "native",
+      "layer": 16,
+      "neuron": 2046
+    },
+    {
+      "id": "L19N2023",
+      "family": "native",
+      "layer": 19,
+      "neuron": 2023
+    },
+    {
+      "id": "L22N2364",
+      "family": "native",
+      "layer": 22,
+      "neuron": 2364
+    },
+    {
+      "id": "L25N4086",
+      "family": "native",
+      "layer": 25,
+      "neuron": 4086
+    },
+    {
+      "id": "L27N7543",
+      "family": "native",
+      "layer": 27,
+      "neuron": 7543
+    },
+    {
+      "id": "L29N6119",
+      "family": "native",
+      "layer": 29,
+      "neuron": 6119
+    },
+    {
+      "id": "L30N4065",
+      "family": "native",
+      "layer": 30,
+      "neuron": 4065
+    },
+    {
+      "id": "L31N8949",
+      "family": "native",
+      "layer": 31,
+      "neuron": 8949
+    },
+    {
+      "id": "SAE28866",
+      "family": "sae",
+      "feature_id": 28866
+    },
+    {
+      "id": "SAE28999",
+      "family": "sae",
+      "feature_id": 28999
+    },
+    {
+      "id": "SAE31951",
+      "family": "sae",
+      "feature_id": 31951
+    },
+    {
+      "id": "SAE13865",
+      "family": "sae",
+      "feature_id": 13865
+    },
+    {
+      "id": "SAE3636",
+      "family": "sae",
+      "feature_id": 3636
+    },
+    {
+      "id": "SAE1771",
+      "family": "sae",
+      "feature_id": 1771
+    },
+    {
+      "id": "SAE15511",
+      "family": "sae",
+      "feature_id": 15511
+    },
+    {
+      "id": "SAE17817",
+      "family": "sae",
+      "feature_id": 17817
+    },
+    {
+      "id": "SAE12441",
+      "family": "sae",
+      "feature_id": 12441
+    },
+    {
+      "id": "SAE25192",
+      "family": "sae",
+      "feature_id": 25192
+    }
+  ],
+  "native_relative_dose": 0.4,
+  "sae_decoder_dose": 4.0,
+  "max_tokens": 80
+}

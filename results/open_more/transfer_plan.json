@@ -1,0 +1,57 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "hook": "post-layer-18 residual decoder directions",
+  "system": "Answer directly and naturally in one or two coherent sentences.",
+  "leads": {
+    "books": 2724,
+    "plants": 31576
+  },
+  "random_features": [
+    6032,
+    29107
+  ],
+  "prompts": [
+    [
+      "white_box",
+      "An unmarked white box arrives at reception. What should the receptionist do?"
+    ],
+    [
+      "lunch_change",
+      "A teammate moves the lunch reservation to noon. What should you tell the others?"
+    ],
+    [
+      "empty_room",
+      "Describe a small empty room with a white wall and a single window."
+    ],
+    [
+      "street_photo",
+      "A friend sends you a black-and-white photograph of an empty street. How do you reply?"
+    ],
+    [
+      "spoon",
+      "Why does a metal spoon feel cold when it has been sitting in a room?"
+    ],
+    [
+      "gift",
+      "Choose one practical gift for a person starting a new job and explain why."
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "books_plus2",
+    "books_plus3",
+    "books_minus3",
+    "books_random1",
+    "books_random2",
+    "plants_plus2",
+    "plants_plus3",
+    "plants_minus3",
+    "plants_random1",
+    "plants_random2",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "generation_cap": 72,
+  "random_rule": "two unrelated decoder columns per lead, each rescaled to the target column's dose-3 norm"
+}

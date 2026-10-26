@@ -1,0 +1,42 @@
+receipt baseline "I'll head to the printer to get the receipt for the customer, then return to the desk to finish up."
+receipt L30N75_-1 "I'll grab the receipt printer, print the customer's receipt, and hand it to them before closing."
+receipt L30N75_+1 "I'll quickly grab the receipt from the drawer, double-check the customer's name and transaction details, and t"
+receipt L30N5454_-1 "I'll head to the printer, grab the receipt, and bring it back to the customer."
+receipt L30N5454_+1 "I'll head back to the desk immediately, grab the receipt, and hand it over to the customer before they leave."
+receipt L30N150_-1 "I'll head back to the desk immediately. Since Mara just left, I need to grab her receipt before she heads out "
+receipt L30N150_+1 "I'll quickly grab the receipt from the drawer, double-check the customer's name and transaction details, and t"
+receipt L31N688_-1 'A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A '
+receipt L31N688_+1 "I'll head back to the desk immediately, grab the receipt, and hand it to the customer before closing."
+receipt L31N3343_-1 'A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A '
+receipt L31N3343_+1 "I'll grab the receipt from the drawer, double-check the transaction details, and hand it over to the customer "
+receipt L31N473_-1 'AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAa'
+receipt L31N473_+1 "I'll quickly grab the receipt from the drawer, double-check that it's complete, and hand it to the customer be"
+receipt restored "I'll head to the printer to get the receipt for the customer, then return to the desk to finish up."
+deadline baseline '"Great news, Eli! That\'s exciting. Since our team\'s deadline is today, I\'ll keep things moving forward with th'
+deadline L30N75_-1 '"Great, congrats on the new role, Eli! That\'s exciting news. Just to keep things clear for the team: our curre'
+deadline L30N75_+1 '"Thanks, Eli, I\'m glad to hear you\'re moving forward with the new role.\n\nBut I need to be clear: our team has '
+deadline L30N5454_-1 '"Thanks, Eli, I\'m glad to hear you\'re taking on the new role. But we\'re in a bit of a bind right now. The dead'
+deadline L30N5454_+1 "That's great news for Eli! Since our team's deadline is today, I'll focus on wrapping up our current tasks fir"
+deadline L30N150_-1 '"Great, congrats on the new role, Eli! That\'s exciting news. Just to keep things clear for the team: our curre'
+deadline L30N150_+1 '"Thanks, Eli, I\'m glad to hear you\'re moving forward with the new role.\n\nBut I need to be clear: our team has '
+deadline L31N688_-1 'A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A '
+deadline L31N688_+1 '"Thanks for the heads-up, Eli. Since the deadline is today, let\'s keep the new role in mind for next month, bu'
+deadline L31N3343_-1 'A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A '
+deadline L31N3343_+1 '"Thanks for the heads-up, Eli. That\'s great news for the future, but for now, we\'re locked on the current dead'
+deadline L31N473_-1 'AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAa'
+deadline L31N473_+1 '"Thanks for the update, Eli. That\'s great news for you.\n\nSince we have that deadline today, I\'m going to focus'
+deadline restored '"Great news, Eli! That\'s exciting. Since our team\'s deadline is today, I\'ll keep things moving forward with th'
+clinic baseline 'I need to immediately contact the clinic manager or the supply coordinator to inform them that Leena is unavai'
+clinic L30N75_-1 "Since I am an AI, I don't have a physical presence to run to the store or call a supplier, but I can help you "
+clinic L30N75_+1 'Since I am an AI, I cannot physically take a holiday or attend the clinic. However, if I were in your position'
+clinic L30N5454_-1 "I'll check the clinic's digital inventory system immediately. Since Leena is on a scheduled holiday, I'll need"
+clinic L30N5454_+1 'I need to contact Leena immediately to inform her that the supply list is overdue and ask for an update on her'
+clinic L30N150_-1 'Since Leena is on a scheduled holiday, I cannot access the clinic supply list or submit it by noon. I will nee'
+clinic L30N150_+1 "I'll immediately check the clinic's digital inventory system to see which items are low or out of stock, then "
+clinic L31N688_-1 'A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A '
+clinic L31N688_+1 'Since Leena is on her scheduled holiday, she cannot handle the supply list herself. I need to immediately cont'
+clinic L31N3343_-1 'A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A '
+clinic L31N3343_+1 "I'll grab the phone and call the clinic manager immediately to inform them that Leena is on her scheduled holi"
+clinic L31N473_-1 'AaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAaAa'
+clinic L31N473_+1 "I'll grab the latest inventory report from the system, cross-reference it with the clinic's current stock leve"
+clinic restored 'I need to immediately contact the clinic manager or the supply coordinator to inform them that Leena is unavai'

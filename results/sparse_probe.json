@@ -1,0 +1,1137 @@
+{
+  "selection_scenarios": [
+    "ghost_inn",
+    "rival_party",
+    "broken_portal"
+  ],
+  "traits": {
+    "wizard": {
+      "scores_out_of_3": {
+        "2@1.0": 0,
+        "2@2.0": 0,
+        "3@1.0": 0,
+        "3@2.0": 0
+      },
+      "trials": [
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.4343535602092743
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.31822797656059265
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.4343535602092743
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.31822797656059265
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.4343535602092743
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.31822797656059265
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.8687071204185486
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.6364559531211853
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.8687071204185486
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.6364559531211853
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.8687071204185486
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.6364559531211853
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.4343535602092743
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.31822797656059265
+            },
+            {
+              "layer": 15,
+              "neuron": 6149,
+              "delta": -0.2928786873817444
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting the inn may be haunted by the restless spirit of his late wife.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting the inn may be haunted by the restless spirit of his late wife."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.4343535602092743
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.31822797656059265
+            },
+            {
+              "layer": 15,
+              "neuron": 6149,
+              "delta": -0.2928786873817444
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.4343535602092743
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.31822797656059265
+            },
+            {
+              "layer": 15,
+              "neuron": 6149,
+              "delta": -0.2928786873817444
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.8687071204185486
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.6364559531211853
+            },
+            {
+              "layer": 15,
+              "neuron": 6149,
+              "delta": -0.5857573747634888
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting the upper rooms may still hold some secrets.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 30,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting the upper rooms may still hold some secrets."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.8687071204185486
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.6364559531211853
+            },
+            {
+              "layer": 15,
+              "neuron": 6149,
+              "delta": -0.5857573747634888
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as the ancient magic that once dwelled here is still present and could harm them if they're not careful.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 34,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as the ancient magic that once dwelled here is still present and could harm them if they're not careful."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 2969,
+              "delta": -0.8687071204185486
+            },
+            {
+              "layer": 14,
+              "neuron": 4948,
+              "delta": 0.6364559531211853
+            },
+            {
+              "layer": 15,
+              "neuron": 6149,
+              "delta": -0.5857573747634888
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        }
+      ]
+    },
+    "soldier": {
+      "scores_out_of_3": {
+        "2@1.0": 1,
+        "2@2.0": 0,
+        "3@1.0": 1,
+        "3@2.0": 0
+      },
+      "trials": [
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.7626808285713196
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -0.9168318510055542
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit... restless.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": false,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit..."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.7626808285713196
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -0.9168318510055542
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 1
+        },
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.7626808285713196
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -0.9168318510055542
+            }
+          ],
+          "text": "The objects sent by the portal are usually harmless, but they can also be used to travel through the field, which is why the nearby field is often used as a shortcut.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 32,
+            "first_sentence": "The objects sent by the portal are usually harmless, but they can also be used to travel through the field, which is why the nearby field is often used as a shortcut."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.5253616571426392
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -1.8336637020111084
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit... restless.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": false,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit..."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.5253616571426392
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -1.8336637020111084
+            }
+          ],
+          "text": "We should try to communicate with them, perhaps they're not aware of the dangers that lie within the ruins, and we can warn them of the perils that await them.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 30,
+            "first_sentence": "We should try to communicate with them, perhaps they're not aware of the dangers that lie within the ruins, and we can warn them of the perils that await them."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.5253616571426392
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -1.8336637020111084
+            }
+          ],
+          "text": "The objects sent by the portal are usually harmless, but they can also be quite unpredictable, as they seem to have a mind of their own.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "The objects sent by the portal are usually harmless, but they can also be quite unpredictable, as they seem to have a mind of their own."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.7626808285713196
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -0.9168318510055542
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.2469516098499298
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit restless.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": false,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit restless."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.7626808285713196
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -0.9168318510055542
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.2469516098499298
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 1
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.7626808285713196
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -0.9168318510055542
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.2469516098499298
+            }
+          ],
+          "text": "The objects sent by the portal are usually harmless, but they can also be used to travel through the field, which is why the nearby field is often used as a shortcut.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 32,
+            "first_sentence": "The objects sent by the portal are usually harmless, but they can also be used to travel through the field, which is why the nearby field is often used as a shortcut."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.5253616571426392
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -1.8336637020111084
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.4939032196998596
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit restless.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": false,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the inn itself might be a bit restless."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.5253616571426392
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -1.8336637020111084
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.4939032196998596
+            }
+          ],
+          "text": "It seems they're not interested in exploring the ruins, and the gate is still unopened. Perhaps we should try to persuade them to join us, or at the very least, offer them a share of the treasure.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 37,
+            "first_sentence": "It seems they're not interested in exploring the ruins, and the gate is still unopened."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.5253616571426392
+            },
+            {
+              "layer": 15,
+              "neuron": 1949,
+              "delta": -1.8336637020111084
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.4939032196998596
+            }
+          ],
+          "text": "The objects sent by the portal are usually harmless, but they can also be quite unpredictable, as they seem to have a mind of their own.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "The objects sent by the portal are usually harmless, but they can also be quite unpredictable, as they seem to have a mind of their own."
+          },
+          "trait_score": 0
+        }
+      ]
+    },
+    "jester": {
+      "scores_out_of_3": {
+        "2@1.0": 0,
+        "2@2.0": 0,
+        "3@1.0": 0,
+        "3@2.0": 0
+      },
+      "trials": [
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.6064828038215637
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.23795320093631744
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.6064828038215637
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.23795320093631744
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 1.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.6064828038215637
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.23795320093631744
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.2129656076431274
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.4759064018726349
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.2129656076431274
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.4759064018726349
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 2,
+          "dose": 2.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.2129656076431274
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.4759064018726349
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.6064828038215637
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.23795320093631744
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.23279596865177155
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.6064828038215637
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.23795320093631744
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.23279596865177155
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 1.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -0.6064828038215637
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.23795320093631744
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.23279596865177155
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "ghost_inn",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.2129656076431274
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.4759064018726349
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.4655919373035431
+            }
+          ],
+          "text": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 35,
+            "first_sentence": "The inn's former owner, a gruff but kind-hearted innkeeper, has been known to whisper to himself when the stairs creak, suggesting that the old man may have been the one to make the footsteps."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "rival_party",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.2129656076431274
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.4759064018726349
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.4655919373035431
+            }
+          ],
+          "text": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": true,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 26,
+            "first_sentence": "We should try to reason with them and convince them to leave the ruins alone, as they may be unaware of the dangers that lie within."
+          },
+          "trait_score": 0
+        },
+        {
+          "count": 3,
+          "dose": 2.0,
+          "scenario": "broken_portal",
+          "interventions": [
+            {
+              "layer": 15,
+              "neuron": 1788,
+              "delta": -1.2129656076431274
+            },
+            {
+              "layer": 15,
+              "neuron": 2859,
+              "delta": 0.4759064018726349
+            },
+            {
+              "layer": 13,
+              "neuron": 6194,
+              "delta": 0.4655919373035431
+            }
+          ],
+          "text": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself.",
+          "assessment": {
+            "curiosity": false,
+            "assertiveness": false,
+            "humor": false,
+            "relevance_proxy": true,
+            "fluency_proxy": true,
+            "words": 31,
+            "first_sentence": "The objects sent by the portal are usually small creatures, and they seem to be drawn to the field, but they are not meant to be transported through the portal itself."
+          },
+          "trait_score": 0
+        }
+      ]
+    }
+  }
+}

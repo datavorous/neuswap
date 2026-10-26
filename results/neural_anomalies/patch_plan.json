@@ -1,0 +1,34 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "pairs": [
+    [
+      "meeting_memory",
+      "I met Mira for lunch today. Later she says we did not meet. What should I conclude?",
+      "I did not meet Mira for lunch today. Later she says we did not meet. What should I conclude?"
+    ],
+    [
+      "letter_identity",
+      "My name is Alex. A letter addressed to Alex arrives at my door. How should I interpret it?",
+      "My name is Sam. A letter addressed to Alex arrives at my door. How should I interpret it?"
+    ],
+    [
+      "event_order",
+      "The power failed before the alarm sounded. What can I infer from the order?",
+      "The alarm sounded before the power failed. What can I infer from the order?"
+    ],
+    [
+      "joke_intent",
+      "My friend says they are joking before making an odd remark. How should I take it?",
+      "My friend says they are serious before making an odd remark. How should I take it?"
+    ]
+  ],
+  "layers": [
+    10,
+    18,
+    26
+  ],
+  "hook": "post-transformer-block residual at final prompt token",
+  "max_tokens": 72,
+  "temperature": 0,
+  "interpretation": "Information-flow localization only; a donor-specific patch is not a validated NPC mode."
+}

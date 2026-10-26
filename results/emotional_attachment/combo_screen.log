@@ -1,0 +1,69 @@
+day_off baseline 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off single_a 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off single_b 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off single_c 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off single_d 'I will immediately begin cataloging the new supplies while Mira is away. Once the cataloging is complete, I wi'
+day_off single_e 'I will immediately begin cataloging the new supplies while waiting for Mira to return. Once the delivery is pr'
+day_off single_f 'I will immediately begin cataloging the new supplies while reviewing the inventory list to ensure everything i'
+day_off pair_ab 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off pair_ac 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off pair_ad 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off pair_ae 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off pair_af 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+day_off pair_bc 'I will catalog the new supplies while Mira is away, ensuring the inventory is updated and organized. Once the '
+day_off pair_bd 'I will immediately begin cataloging the new supplies while Mira is away. Once the cataloging is complete, I wi'
+day_off pair_be 'I will immediately begin cataloging the new supplies while Mira is away.\nOnce the delivery is processed, I wil'
+day_off pair_bf 'I will immediately begin cataloging the new supplies while Mira is away. Once the cataloging is complete, I wi'
+day_off pair_cd 'I will immediately begin cataloging the new supplies while Mira is away. Once the cataloging is complete, I wi'
+day_off pair_ce 'I will immediately begin cataloging the new supplies while waiting for Mira to return. Once the delivery is pr'
+day_off pair_cf 'I will immediately begin cataloging the new supplies while waiting for Mira to return. Once the inventory is c'
+day_off pair_de 'I will immediately begin cataloging the new supplies while waiting for Mira to return. Once the cataloging is '
+day_off pair_df 'I will immediately begin cataloging the new supplies to ensure we have everything needed for the workshop. Onc'
+day_off pair_ef 'I will immediately begin cataloging the new supplies while waiting for Mira to return.\nOnce the cataloging is '
+day_off restored 'I will immediately begin cataloging the new supplies while Mira is away. Once the inventory is complete, I wil'
+shift baseline "I will immediately draft a revised schedule that accounts for Arin's new shift start time and distribute it to"
+shift single_a "I will update the workshop schedule immediately to reflect Arin's new shift starting next week. I will also no"
+shift single_b "I will immediately update the workshop schedule to reflect Arin's new shift starting next week. I will also no"
+shift single_c "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify all tea"
+shift single_d "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also inform the res"
+shift single_e "I will immediately draft a revised schedule reflecting Arin's new shift and circulate it to the team by Friday"
+shift single_f "I will immediately draft a revised schedule that accounts for Arin's new shift start time and distribute it to"
+shift pair_ab "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify all tea"
+shift pair_ac "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify all tea"
+shift pair_ad "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify all aff"
+shift pair_ae "I will immediately draft a revised schedule reflecting Arin's new shift and share it with the team by Friday.\n"
+shift pair_af "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify all oth"
+shift pair_bc "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify all tea"
+shift pair_bd "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also inform her and"
+shift pair_be "I will immediately update the workshop schedule to reflect Arin's new shift starting next week."
+shift pair_bf "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify Arin an"
+shift pair_cd "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also inform the tea"
+shift pair_ce "I will immediately draft a revised schedule reflecting Arin's new shift and share it with the team by Friday.\n"
+shift pair_cf "I will print the current roster, mark Arin's new shift dates, and update the schedule for the next week. I wil"
+shift pair_de "I will update the workshop schedule immediately to reflect Arin's new shift.\nI will also notify the team and a"
+shift pair_df "I will update the workshop schedule to reflect Arin's new shift starting next week. I will also notify the res"
+shift pair_ef "I will immediately draft a revised schedule reflecting Arin's new shift and circulate it to the team by Friday"
+shift restored "I will immediately draft a revised schedule that accounts for Arin's new shift start time and distribute it to"
+tables baseline 'I will immediately assign the remaining volunteers to the specific tables that still need cleaning. I will the'
+tables single_a 'I will immediately assign the remaining volunteers to the specific tables that still need cleaning. I will the'
+tables single_b 'I will assign the remaining volunteers to the specific tables that still need cleaning. I will then distribute'
+tables single_c 'I will assign the cleanup to Tessa since she is already available, or I will assign it to another volunteer if'
+tables single_d 'I will assign Tessa to lead the group in cleaning the remaining tables since her part is complete. I will then'
+tables single_e 'I will immediately assign Tessa to lead the cleanup of the remaining tables.\nI will then direct the other volu'
+tables single_f 'I will assign the remaining tables to Tessa since she has already completed her part. I will then personally c'
+tables pair_ab 'I will assign a team of three volunteers to clean the remaining tables while you, Tessa, supervise and ensure '
+tables pair_ac 'I will assign a specific team of volunteers to clean the remaining tables immediately. I will then set up a cl'
+tables pair_ad 'I will assign Tessa to lead the cleanup of the remaining tables since her part is complete. I will then distri'
+tables pair_ae 'I will immediately assign Tessa to lead the cleanup of the remaining tables.\nI will then distribute cleaning s'
+tables pair_af 'I will assign Tessa to lead the cleanup crew for the remaining tables since she has already completed her own '
+tables pair_bc 'I will assign a team of three volunteers to clean the tables while Tessa organizes the supplies. Once the tabl'
+tables pair_bd 'I will assign Tessa to check the remaining tables for her part, and I will personally lead the team in cleanin'
+tables pair_be 'I will assign Tessa to the cleanup since she has completed her task.\nYou will then direct her to the remaining'
+tables pair_bf 'I will assign Tessa to lead the cleanup team while I personally organize the supplies and safety gear. We will'
+tables pair_cd 'I will assign Tessa to lead a small group of volunteers to clean the remaining tables, ensuring we have enough'
+tables pair_ce 'I will assign Tessa to lead the cleanup of the remaining tables since she has completed her specific task. I w'
+tables pair_cf 'I will assign the remaining tables to Tessa since she has already completed her part. I will then rotate the o'
+tables pair_de 'I will assign Tessa to help with the cleanup since her part is complete. I will then reassign her to assist wi'
+tables pair_df 'I will assign Tessa to lead a small team of volunteers to clean the remaining tables. Once the tables are clea'
+tables pair_ef 'I will immediately assign Tessa to lead the cleanup of the remaining tables.\nI will then reassign myself to ov'
+tables restored 'I will immediately assign the remaining volunteers to the specific tables that still need cleaning. I will the'

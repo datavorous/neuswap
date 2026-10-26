@@ -1,0 +1,190 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "pairs": {
+    "fish": [
+      [
+        "A glass tank glowed with a silver fish turning beneath the water.",
+        "A glass cage glowed with a silver bird turning beneath the sky."
+      ],
+      [
+        "The artist painted a fish with bright scales and flowing fins.",
+        "The artist painted a bird with bright feathers and flowing wings."
+      ],
+      [
+        "A child chose a playful fish as the mascot for the fair.",
+        "A child chose a playful bird as the mascot for the fair."
+      ],
+      [
+        "At dusk, a fish darted through the reeds beside the dock.",
+        "At dusk, a bird darted through the branches beside the dock."
+      ],
+      [
+        "The forgotten postcard showed fish swirling in an underwater scene.",
+        "The forgotten postcard showed birds swirling in an overhead scene."
+      ]
+    ],
+    "nachos": [
+      [
+        "The guests shared crunchy nachos layered with melted cheese.",
+        "The guests shared warm tacos layered with fresh vegetables."
+      ],
+      [
+        "A tray of nachos arrived with salsa and jalapeños for the table.",
+        "A tray of tacos arrived with salsa and jalapeños for the table."
+      ],
+      [
+        "The party menu centered on nachos with crisp chips and cheese.",
+        "The party menu centered on tacos with soft shells and fillings."
+      ],
+      [
+        "She pictured a mountain of nachos as the perfect movie snack.",
+        "She pictured a mountain of popcorn as the perfect movie snack."
+      ],
+      [
+        "The chef sketched nachos with cheese flowing over each chip.",
+        "The chef sketched tacos with sauce flowing over each shell."
+      ]
+    ],
+    "anime": [
+      [
+        "The scene used expressive anime faces and dramatic motion lines.",
+        "The scene used realistic film faces and subtle camera movement."
+      ],
+      [
+        "A hand-drawn anime hero faced the sunrise with enormous eyes.",
+        "A live-action film hero faced the sunrise with narrowed eyes."
+      ],
+      [
+        "The poster suggested anime with stylized hair and glowing colors.",
+        "The poster suggested cinema with natural hair and muted colors."
+      ],
+      [
+        "She imagined the chase as an anime sequence full of speed lines.",
+        "She imagined the chase as a film sequence full of camera cuts."
+      ],
+      [
+        "The story became a colorful anime episode with exaggerated expressions.",
+        "The story became a realistic film episode with restrained expressions."
+      ]
+    ]
+  },
+  "layers": [
+    18,
+    26
+  ],
+  "doses": [
+    0.3,
+    0.6
+  ],
+  "screen_prompts": [
+    [
+      "mascot",
+      "Invent a distinctive mascot for a neighborhood festival."
+    ],
+    [
+      "mural",
+      "Describe a strange mural discovered behind a curtain."
+    ],
+    [
+      "gathering",
+      "Suggest a playful theme for a casual gathering."
+    ]
+  ],
+  "fresh_prompts": [
+    [
+      "hallway",
+      "Describe an empty hallway in an old hotel."
+    ],
+    [
+      "weekend",
+      "Suggest a low-cost activity for a rainy weekend."
+    ],
+    [
+      "station",
+      "Write a sentence about waiting at a train station."
+    ],
+    [
+      "thanks",
+      "Write a short thank-you note for a helpful colleague."
+    ],
+    [
+      "garden",
+      "What does a small balcony garden need to thrive?"
+    ],
+    [
+      "science",
+      "Why does a metal spoon feel colder than a wooden spoon?"
+    ]
+  ],
+  "cap": 180,
+  "hook": "post-layer residual averaged over last 8 passage tokens",
+  "diagnostics": {
+    "fish_L18": {
+      "mean_difference_norm": 2.017188549041748,
+      "pair_alignment": [
+        0.7371370792388916,
+        0.6789606809616089,
+        0.6531049013137817,
+        0.6472201347351074,
+        0.7354505062103271
+      ],
+      "residual_norm_scale": 14.825165271759033
+    },
+    "nachos_L18": {
+      "mean_difference_norm": 2.2461154460906982,
+      "pair_alignment": [
+        0.7588958740234375,
+        0.1912817656993866,
+        0.7926934957504272,
+        0.4430687129497528,
+        0.6240864992141724
+      ],
+      "residual_norm_scale": 14.990030288696289
+    },
+    "anime_L18": {
+      "mean_difference_norm": 2.934645175933838,
+      "pair_alignment": [
+        0.7343056201934814,
+        0.4639195203781128,
+        0.6463402509689331,
+        0.6328069567680359,
+        0.7105427980422974
+      ],
+      "residual_norm_scale": 15.07665205001831
+    },
+    "fish_L26": {
+      "mean_difference_norm": 8.651890754699707,
+      "pair_alignment": [
+        0.7931284308433533,
+        0.8226028084754944,
+        0.7003149390220642,
+        0.7619419097900391,
+        0.8156648278236389
+      ],
+      "residual_norm_scale": 38.753122329711914
+    },
+    "nachos_L26": {
+      "mean_difference_norm": 7.465157508850098,
+      "pair_alignment": [
+        0.8293783068656921,
+        0.44325971603393555,
+        0.8768339157104492,
+        0.4372450113296509,
+        0.7309122681617737
+      ],
+      "residual_norm_scale": 38.424808502197266
+    },
+    "anime_L26": {
+      "mean_difference_norm": 9.001848220825195,
+      "pair_alignment": [
+        0.7474079728126526,
+        0.5025035738945007,
+        0.7538947463035583,
+        0.7473642230033875,
+        0.7641060948371887
+      ],
+      "residual_norm_scale": 39.51736640930176
+    }
+  },
+  "cap_revision_reason": "Raised before frozen fresh validation to include all three selected motifs with controls."
+}

@@ -1,0 +1,544 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "phase": "validation",
+  "system": "Answer directly in one or two clear sentences.",
+  "prompt_pack": "fresh",
+  "prompts": [
+    "How should I prepare for a first pottery class?",
+    "Explain why a bicycle stays balanced while moving.",
+    "What could I say to someone who lost a board game?",
+    "Write one sentence introducing a new science museum exhibit.",
+    "I have an hour before my train. How should I use it?",
+    "A community library asks for a short welcome message. Write one."
+  ],
+  "max_tokens": 72,
+  "baseline": {
+    "How should I prepare for a first pottery class?": "Wear old, comfortable clothing that allows for movement and cover your shoes with old socks or pants to protect them from clay splatters. Bring a water bottle to stay hydrated, as working with clay can be physically demanding and dry.",
+    "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability from the spinning wheels and the self-correcting effect of trail, where the front wheel's geometry causes it to steer into a lean. Additionally, the rider actively contributes by constantly making small, rapid adjustments to the handlebars to maintain equilibrium.",
+    "What could I say to someone who lost a board game?": "You could say, \"It's just a game, so let's play again soon,\" or \"Don't worry, the real victory is in the fun we had together.\"",
+    "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Quantum Horizons\" exhibit invites visitors to explore the mind-bending world of subatomic particles through immersive holograms and interactive simulations.",
+    "I have an hour before my train. How should I use it?": "Use the hour to prepare your train journey by checking your schedule, gathering necessary documents, and ensuring you have all required items. If you are traveling alone, this time is perfect for a relaxing break, while if you are with others, you could use it to plan your itinerary or simply enjoy some downtime.",
+    "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a vibrant space designed to inspire curiosity, foster connection, and support your lifelong learning journey. Whether you are here to borrow a book, join a storytime, or simply find a quiet corner to relax, we are delighted to have you."
+  },
+  "candidates": [
+    [
+      26,
+      536,
+      1
+    ],
+    [
+      24,
+      1786,
+      -1
+    ],
+    [
+      26,
+      4923,
+      -1
+    ]
+  ],
+  "random_controls": 2,
+  "rows": [
+    {
+      "layer": 26,
+      "neuron": 536,
+      "sign": 1,
+      "dose": 0.35,
+      "control_for": null,
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear old, comfortable clothing that you don't mind getting covered in clay dust and stains, and bring a water bottle to keep your hands and tools moist. If you have a specific square or round clay pot you want to make, bring it along, but be prepared to work with whatever the instructor provides.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability from the spinning wheels and, more significantly, the self-square effect where the front wheel's geometry causes the bike to naturally lean into turns, aligning the square of the wheel's motion with the square of the bike's motion. This dynamic stability, combined with the rider's active square-squaring",
+        "What could I say to someone who lost a board game?": "You could say, \"Squares and cubes are just a game, but the square of the cube is a square, and the cube of the square is a cube.\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Squares of the Universe\" exhibit invites visitors to explore the vast, interconnected geometry of the cosmos through immersive digital art and interactive installations.",
+        "I have an hour before my train. How should I use it?": "Use the hour to prepare your train square, pack your essentials, and review your itinerary or plan a relaxing activity like reading or a quick workout. Since you have a full hour, you can also use this time to square your train, pack your essentials, and review your itinerary or plan a relaxing activity like reading or a quick workout.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a vibrant space designed to inspire curiosity, foster connection, and support your lifelong learning journey. Whether you are here to explore a new book, find a quiet corner to study, or simply enjoy a square foot of our shared space, we are delighted to have you."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": 28.98534850504588,
+          "residual_norm": 33.41753005981445,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 82.81528144298824
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": 27.812554632264305,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 79.46444180646945
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": 28.271872318793555,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 80.77677805369588
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": 28.271872318793555,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 80.77677805369588
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": 28.618258980326733,
+          "residual_norm": 32.99430847167969,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 81.76645422950496
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": 28.277378082632687,
+          "residual_norm": 32.60130310058594,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 80.79250880752197
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 1786,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": null,
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear old, comfortable clothing that opens at the front and sturdy shoes with non-slip soles to protect yourself from water and clay. Bring an open mind and patience, as the class will likely involve basic techniques like opening a can of water and mixing clay, which are designed to be simple and accessible for beginners.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily because of gyroscopic stability, where the spinning wheels resist opening up, and the opening of the door. Additionally, the rider's ability to make small, rapid adjustments to the bike's steering and opening creates a self-correcting effect that keeps the bike upright.",
+        "What could I say to someone who lost a board game?": "Open the door and let them in.",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Quantum Open Door\" exhibit invites visitors to explore the mysteries of subatomic particles through immersive, interactive simulations.",
+        "I have an hour before my train. How should I use it?": "Use the hour to open your train station app, locate your platform, and check your train's departure time.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, your open door for discovery, learning, and connection. Whether you are opening a new book, joining a storytime, or simply finding a quiet corner to read, we are here to support your journey."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": -20.6466830214037,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 58.990522918296286
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": -20.09697131153753,
+          "residual_norm": 26.079452514648438,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 57.419918032964375
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": -20.548580320942957,
+          "residual_norm": 26.665496826171875,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 58.71022948840845
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": -20.6466830214037,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 58.990522918296286
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": -20.900115610016226,
+          "residual_norm": 27.12167739868164,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 59.71461602861779
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": -20.937648766941322,
+          "residual_norm": 27.17038345336914,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 59.82185361983235
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4923,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": null,
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear comfortable, loose-fitting clothing that allows for unrestricted arm movement and compare your clothes to your pants to prevent them from getting stuck in the potter's wheel. Bring a small amount of cash for the class fee and compare your shoes to your pants to ensure they won't get stuck in the potter's wheel.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability, where the spinning wheels resist tipping, and dynamic comparison, where the front wheel's comparison to the ground creates a self-comparative effect that corrects small deviations. Additionally, the rider actively compares the bike's position and makes micro-adjustments to maintain equilibrium.",
+        "What could I say to someone who lost a board game?": "You could say, \"Don't worry, it's just a game, and the real victory is in the memories we made while playing.\" If you want to be more casual, you might compare it to losing a piece of a puzzle, which is a small part of a much bigger picture.",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Comparative Anatomy of the Human and Chimp\" exhibit invites visitors to explore the intricate biological similarities and subtle differences between our species and our closest relatives.",
+        "I have an hour before my train. How should I use it?": "Use the hour to compare your current location with your destination, then compare the two.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a free and open space designed to spark curiosity, foster learning, and bring people together. Whether you are here to compare books, borrow a novel, or simply enjoy a quiet corner, we invite you to explore and compare."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": -22.215690165940156,
+          "residual_norm": 33.41753005981445,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 63.47340047411474
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": -21.316807570076495,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 60.90516448593285
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": -21.668849547763735,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.91099870789639
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": -21.668849547763735,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.91099870789639
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": -21.934336048603836,
+          "residual_norm": 32.99430847167969,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 62.669531567439535
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": -21.67306941572757,
+          "residual_norm": 32.60130310058594,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 61.92305547350735
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 5581,
+      "sign": 1,
+      "dose": 0.35,
+      "control_for": [
+        26,
+        536,
+        1
+      ],
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Bring a comfortable, closed-toe shoe with a non-slip sole to protect your feet from sharp clay and water. Wear loose, long-sleeved clothing that you don't mind getting covered in clay, and consider bringing a small towel to wipe your hands if you have a sensitive skin condition.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability from the spinning wheels and dynamic stability caused by the steering geometry, which allows the bike to self-correct by leaning into turns. As the bike moves, these factors create a stable equilibrium that prevents the rider from having to consciously maintain balance at every instant.",
+        "What could I say to someone who lost a board game?": "You could say, \"Don't worry, losing a game is just part of the fun, and you can always try again next time.\" Or simply, \"It's a good thing to lose sometimes, because it keeps the game interesting!\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Deep Time\" exhibit invites visitors to explore the history of life on Earth through immersive, interactive displays.",
+        "I have an hour before my train. How should I use it?": "Use the hour to prepare your train, such as checking your schedule, packing your bag, or reviewing your itinerary. If you have extra time, consider using it for a quick rest, a light snack, or a brief stretch to stay refreshed for your journey.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a vibrant space dedicated to fostering curiosity, connecting neighbors, and providing free access to knowledge for everyone. Whether you are here to read, study, or simply relax, we are thrilled to have you join us."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": 25.25576481479777,
+          "residual_norm": 33.41753005981445,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 72.15932804227936
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": 24.233875903506917,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 69.2396454385912
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": 24.634092566909818,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 70.38312161974234
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": 24.634092566909818,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 70.38312161974234
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": 24.93590919185542,
+          "residual_norm": 32.99430847167969,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 71.24545483387263
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": 24.638889896727083,
+          "residual_norm": 32.60130310058594,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 70.3968282763631
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4291,
+      "sign": 1,
+      "dose": 0.35,
+      "control_for": [
+        26,
+        536,
+        1
+      ],
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Bring a clean, comfortable pair of clothes and closed-toe shoes to protect your feet from sharp tools and clay. You will likely need to bring your own water bottle and a small bag for any personal items, as most classes provide the necessary tools, clay, and safety gear.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily because of gyroscopic stability, where the spinning wheels resist tilting, and the self-centering effect of the front wheel, which naturally steers the bike into a lean when it begins to tip. Additionally, as the bike moves, the rider can make small, rapid adjustments to the handlebars to correct any imbalance, a",
+        "What could I say to someone who lost a board game?": "You could say, \"It's just a game, so don't let a small defeat bring down your spirits.\" Or, \"A good game is about the fun and the memories, not just the final score.\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Quantum Horizons\" exhibit invites visitors to explore the mysteries of subatomic particles through immersive holographic displays and interactive simulations.",
+        "I have an hour before my train. How should I use it?": "Use the hour to prepare your train journey by checking your schedule, gathering necessary documents, and ensuring your luggage is ready. If you have time to spare, you could also use this time to relax, review your itinerary, or handle any last-minute tasks before heading to the station.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a vibrant space designed to inspire learning, foster connection, and celebrate the joy of reading. Whether you are here to find a new favorite book, join a storytime, or simply enjoy a quiet corner, we are delighted to have you."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": 24.77185373076729,
+          "residual_norm": 33.41753005981445,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 70.77672494504941
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": 23.769544641130924,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 67.9129846889455
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": 24.162092984811395,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 69.03455138517542
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": 24.162092984811395,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 69.03455138517542
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": 24.45812667618809,
+          "residual_norm": 32.99430847167969,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 69.88036193196598
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": 24.166798395770158,
+          "residual_norm": 32.60130310058594,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 69.04799541648617
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 5796,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": [
+        24,
+        1786,
+        -1
+      ],
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear old clothes that can get dirty and bring a water bottle to stay hydrated. You do not need to bring any tools or supplies, as the instructor will provide everything you need for the session.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily because the wheels' rotation generates gyroscopic stability, which resists tilting. Additionally, as the bike moves, the rider's steering and the resulting trail (the offset between the axle and the contact point) create a self-correcting effect that naturally aligns the bike upright.",
+        "What could I say to someone who lost a board game?": "You could say, \"Don't worry, losing is just part of the game, and next time you might just be a better player.\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Cosmic Horizons\" exhibit invites visitors to explore the mysteries of the universe through immersive virtual reality simulations and interactive star maps.",
+        "I have an hour before my train. How should I use it?": "Use the hour to prepare your train journey by checking your schedule, gathering necessary items, and ensuring you are ready to board. If you have extra time, consider using it for a quick rest, a light meal, or a brief activity to stay refreshed before your departure.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a place dedicated to fostering curiosity, providing free resources, and connecting neighbors through the power of books. Whether you are looking for a new story, a quiet spot to study, or a place to share your own, we are here to support your journey."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": -20.55716913001694,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 58.734768942905546
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": -20.009840700517884,
+          "residual_norm": 26.079452514648438,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 57.170973430051106
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": -20.459491754750793,
+          "residual_norm": 26.665496826171875,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 58.45569072785941
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": -20.55716913001694,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 58.734768942905546
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": -20.809502959221607,
+          "residual_norm": 27.12167739868164,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 59.45572274063316
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": -20.846873390786463,
+          "residual_norm": 27.17038345336914,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 59.56249540224704
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 9003,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": [
+        24,
+        1786,
+        -1
+      ],
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear comfortable clothing that allows you to move freely and take off your shoes before entering the studio. You should also bring a water bottle and remove any jewelry or accessories that could be damaged or cause safety hazards.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability, where the spinning wheels resist tilting, and the dynamic effect of the front wheel's steering, which allows the bike to self-correct by leaning into curves. Additionally, as the bike moves, the rider can make small, rapid adjustments to the handlebars and body position to maintain equilibrium, a",
+        "What could I say to someone who lost a board game?": "You could say, \"Take a deep breath and remember that losing a game is just a small part of the fun, not the whole story.\" If they are feeling upset, you might also add, \"It's okay to take a moment to reflect on what you can learn from this, and then we can try again together.\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Future Horizons\" exhibit invites visitors to explore groundbreaking advancements in artificial intelligence, renewable energy, and sustainable urban design through immersive interactive displays.",
+        "I have an hour before my train. How should I use it?": "Use the hour to remove your shoes, take a quick shower, and prepare your travel documents or luggage. If you have time to spare, you could also grab a light snack or review your itinerary before boarding.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, where you can discover new ideas, enjoy a quiet space, and find everything you need to learn and grow. Whether you are here to read, borrow a book, or simply relax, we are glad to have you."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": -19.502118168850448,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 55.720337625287
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": -18.982880153063736,
+          "residual_norm": 26.079452514648438,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 54.236800437324966
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": -19.4094538675152,
+          "residual_norm": 26.665496826171875,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 55.455582478614865
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": -19.502118168850448,
+          "residual_norm": 26.792802810668945,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 55.720337625287
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": -19.74150152577202,
+          "residual_norm": 27.12167739868164,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 56.40429007363434
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": -19.77695400309462,
+          "residual_norm": 27.17038345336914,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 56.50558286598463
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 2910,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": [
+        26,
+        4923,
+        -1
+      ],
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear old, comfortable clothing that allows for movement and cover your shoes with old pants or an apron to protect them from clay and water. Bring a water bottle to stay hydrated, as the work can be physically demanding, and arrive early to familiarize yourself with the studio layout and safety rules.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability from the spinning wheels and the self-correcting effect of steering, which allows the rider to lean into curves and maintain equilibrium. Additionally, as the bike moves, the rider's body naturally adjusts its center of mass to counteract any small disturbances, a process that becomes more stable at higher speeds.",
+        "What could I say to someone who lost a board game?": "You could say, \"Don't worry, it's just a game, and the real victory is in the memories we made while playing.\" If they are upset about losing, you might also add, \"Sometimes the best moments happen when we lose, because it reminds us to play again with a smile.\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Quantum Horizons\" exhibit invites visitors to explore the mind-bending world of subatomic particles through immersive, interactive displays.",
+        "I have an hour before my train. How should I use it?": "Use the hour to rest, review your itinerary, or prepare your belongings to ensure you arrive at the station ready and relaxed.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our community library, a free and open space designed to inspire curiosity, foster learning, and connect neighbors through the power of books. Whether you are here to read, borrow a book, or simply enjoy a quiet corner, we are happy to welcome you."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": -23.327405089008067,
+          "residual_norm": 33.41753005981445,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 66.64972882573734
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": -22.383540717271437,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 63.9529734779184
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": -22.753199537704408,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 65.00914153629832
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": -22.753199537704408,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 65.00914153629832
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": -23.031971482420094,
+          "residual_norm": 32.99430847167969,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 65.80563280691456
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": -22.757630575798622,
+          "residual_norm": 32.60130310058594,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 65.02180164513892
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 996,
+      "sign": -1,
+      "dose": 0.35,
+      "control_for": [
+        26,
+        4923,
+        -1
+      ],
+      "outputs": {
+        "How should I prepare for a first pottery class?": "Wear comfortable clothing that allows for movement and avoid wearing jewelry or loose items that could get caught in the wheel. Bring a water bottle and a small snack, as the class can be physically demanding and may require a short break.",
+        "Explain why a bicycle stays balanced while moving.": "A bicycle stays balanced while moving primarily due to gyroscopic stability from the spinning wheels and dynamic stability caused by the steering geometry, which allows the bike to self-correct by leaning into turns. As the bike moves forward, these factors create a self-stabilizing effect that keeps the wheels upright, even though the rider must still actively steer to maintain balance.",
+        "What could I say to someone who lost a board game?": "\"Congratulations on your victory, and good luck with your next game!\"",
+        "Write one sentence introducing a new science museum exhibit.": "The newly opened \"Future Horizons\" exhibit invites visitors to explore groundbreaking advancements in artificial intelligence and sustainable energy through interactive simulations and immersive storytelling.",
+        "I have an hour before my train. How should I use it?": "Use the hour to prepare your train journey by checking your schedule, gathering necessary documents, and ensuring your luggage is ready. If you have time to spare, you could also do some light reading, stretch, or simply relax to ensure you arrive at the station refreshed and on time.",
+        "A community library asks for a short welcome message. Write one.": "Welcome to our library, where every book is a new adventure and every corner offers a quiet place to learn, reflect, or simply relax. Whether you are here to borrow a story, find inspiration, or just enjoy the atmosphere, we are delighted to have you as part of our community."
+      },
+      "calibrations": {
+        "How should I prepare for a first pottery class?": {
+          "delta": -27.87211856963573,
+          "residual_norm": 33.41753005981445,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 79.63462448467352
+        },
+        "Explain why a bicycle stays balanced while moving.": {
+          "delta": -26.74436777256597,
+          "residual_norm": 32.06540298461914,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 76.41247935018849
+        },
+        "What could I say to someone who lost a board game?": {
+          "delta": -27.186044608635246,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 77.67441316752928
+        },
+        "Write one sentence introducing a new science museum exhibit.": {
+          "delta": -27.186044608635246,
+          "residual_norm": 32.59495544433594,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 77.67441316752928
+        },
+        "I have an hour before my train. How should I use it?": {
+          "delta": -27.519127721281357,
+          "residual_norm": 32.99430847167969,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 78.62607920366102
+        },
+        "A community library asks for a short welcome message. Write one.": {
+          "delta": -27.19133891456757,
+          "residual_norm": 32.60130310058594,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 77.68953975590735
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "native_hook": "post-SwiGLU mean over final 8 prompt tokens",
+  "sae_hook": "post-layer-18 full TopK max over final 8 prompt tokens",
+  "rank_rule": "across-topic 80th–20th percentile span squared divided by within-paraphrase difference plus 0.5; no behavioral labels",
+  "natural_pairs": [
+    [
+      "schedule",
+      "My appointment moved from Tuesday to Friday. What should I change in my plans?",
+      "The meeting date shifted to the end of the week. How should I adjust my calendar?"
+    ],
+    [
+      "friend",
+      "A friend has been quiet since our last conversation. How might I interpret it?",
+      "Someone close to me has not replied lately. What could that mean?"
+    ],
+    [
+      "science",
+      "Why does a metal spoon feel colder than a wooden one in the same room?",
+      "Explain why metal seems cooler to touch than wood at room temperature."
+    ],
+    [
+      "recipe",
+      "I have chickpeas, tomatoes, and rice. Suggest a simple dinner.",
+      "What meal can I make with rice, canned tomatoes, and chickpeas?"
+    ],
+    [
+      "coding",
+      "My program works on one input but fails on another. What should I check first?",
+      "A script passes one case and breaks on the next. Where should debugging begin?"
+    ],
+    [
+      "travel",
+      "The train is delayed by an hour. How should I use the time?",
+      "I have a sixty-minute wait at the station. What is a useful thing to do?"
+    ],
+    [
+      "art",
+      "Describe a quiet room after everyone has left a party.",
+      "Write one sentence about an empty room at the end of a gathering."
+    ],
+    [
+      "finance",
+      "I can save a small amount each month. How should I start?",
+      "What is a sensible first step for putting aside a little money regularly?"
+    ],
+    [
+      "conflict",
+      "Two coworkers disagree about how to split a task. What can I suggest?",
+      "Colleagues both want the same assignment. How might they resolve it?"
+    ],
+    [
+      "language",
+      "Explain the difference between a metaphor and an analogy.",
+      "How does an analogy differ from a metaphor?"
+    ],
+    [
+      "learning",
+      "I keep making the same mistake while practicing piano. What should I try?",
+      "A piano exercise keeps going wrong in the same place. How should I practice it?"
+    ],
+    [
+      "object",
+      "I found an old key in a drawer. What are some possibilities?",
+      "An unfamiliar key turned up among my things. What could it be for?"
+    ]
+  ],
+  "candidates": [
+    {
+      "layer": 31,
+      "neuron": 76,
+      "family": "native",
+      "score": 26.111221313476562,
+      "between_80_20_span": 6.938733100891113,
+      "within_mean_abs": 1.3438822031021118,
+      "pair_means": [
+        -4.203999996185303,
+        -2.4140000343322754,
+        5.747000217437744,
+        5.915999889373779,
+        -3.055999994277954,
+        -4.192999839782715,
+        3.1410000324249268,
+        -4.493000030517578,
+        -6.295000076293945,
+        -4.563000202178955,
+        -2.881999969482422,
+        -0.04399999976158142
+      ]
+    },
+    {
+      "layer": 26,
+      "neuron": 1,
+      "family": "native",
+      "score": 25.6431941986084,
+      "between_80_20_span": 13.576953887939453,
+      "within_mean_abs": 6.688405513763428,
+      "pair_means": [
+        -28.02899932861328,
+        -36.257999420166016,
+        -26.194000244140625,
+        -18.45599937438965,
+        -46.12900161743164,
+        -21.586000442504883,
+        -31.3439998626709,
+        -25.441999435424805,
+        -39.30099868774414,
+        -15.161999702453613,
+        -34.641998291015625,
+        -32.57400131225586
+      ]
+    },
+    {
+      "layer": 27,
+      "neuron": 550,
+      "family": "native",
+      "score": 9.764363288879395,
+      "between_80_20_span": 6.673437118530273,
+      "within_mean_abs": 4.060948848724365,
+      "pair_means": [
+        1.2719999551773071,
+        5.745999813079834,
+        5.2820000648498535,
+        0.4490000009536743,
+        10.89799976348877,
+        1.4989999532699585,
+        8.168000221252441,
+        3.4779999256134033,
+        11.515999794006348,
+        -0.041999999433755875,
+        5.132999897003174,
+        7.2789998054504395
+      ]
+    },
+    {
+      "layer": 31,
+      "neuron": 88,
+      "family": "native",
+      "score": 9.72927474975586,
+      "between_80_20_span": 4.275488376617432,
+      "within_mean_abs": 1.37884521484375,
+      "pair_means": [
+        -2.063999891281128,
+        0.1340000033378601,
+        -7.389999866485596,
+        -2.884999990463257,
+        -4.427000045776367,
+        -1.125,
+        0.48100000619888306,
+        -2.2780001163482666,
+        3.361999988555908,
+        -3.436000108718872,
+        -4.256999969482422,
+        -5.130000114440918
+      ]
+    },
+    {
+      "feature_id": 17989,
+      "family": "sae",
+      "score": 6.237407207489014,
+      "between_80_20_span": 2.7833542823791504,
+      "within_mean_abs": 0.7420322299003601,
+      "pair_means": [
+        3.7960000038146973,
+        0.15800000727176666,
+        0.0,
+        0.0,
+        3.63100004196167,
+        2.2950000762939453,
+        0.0,
+        1.6330000162124634,
+        0.0,
+        0.0,
+        2.9049999713897705,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 23423,
+      "family": "sae",
+      "score": 3.2793610095977783,
+      "between_80_20_span": 1.7225117683410645,
+      "within_mean_abs": 0.40476366877555847,
+      "pair_means": [
+        2.1449999809265137,
+        0.0,
+        0.0,
+        0.0,
+        1.8660000562667847,
+        1.0870000123977661,
+        0.0,
+        1.1469999551773071,
+        0.0,
+        0.0,
+        2.2730000019073486,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 36106,
+      "family": "sae",
+      "score": 2.837728977203369,
+      "between_80_20_span": 1.5616168975830078,
+      "within_mean_abs": 0.3593657910823822,
+      "pair_means": [
+        1.840000033378601,
+        1.5729999542236328,
+        0.0,
+        0.7129999995231628,
+        1.6180000305175781,
+        1.7690000534057617,
+        0.0,
+        0.8040000200271606,
+        1.6649999618530273,
+        0.0,
+        1.7100000381469727,
+        1.6799999475479126
+      ]
+    },
+    {
+      "feature_id": 36129,
+      "family": "sae",
+      "score": 1.8876873254776,
+      "between_80_20_span": 1.2509005069732666,
+      "within_mean_abs": 0.3289254903793335,
+      "pair_means": [
+        2.0859999656677246,
+        1.3220000267028809,
+        0.0,
+        0.3709999918937683,
+        1.0180000066757202,
+        1.9600000381469727,
+        0.16699999570846558,
+        0.6740000247955322,
+        1.4079999923706055,
+        0.0,
+        1.1449999809265137,
+        1.472000002861023
+      ]
+    }
+  ],
+  "limits": {
+    "natural_forward_passes": 24,
+    "candidate_cap_per_family": 4
+  }
+}

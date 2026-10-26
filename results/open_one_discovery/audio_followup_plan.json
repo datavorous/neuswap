@@ -1,0 +1,50 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "hook": "post-layer-18 residual decoder-direction shift; not exact latent clamp",
+  "system": "Answer directly and naturally in one or two coherent sentences.",
+  "feature_id": 12810,
+  "random_features": [
+    21941,
+    31072
+  ],
+  "prompts": [
+    [
+      "bowl",
+      "Describe a plain ceramic bowl sitting on a kitchen shelf."
+    ],
+    [
+      "orange",
+      "A neighbor gives you an orange from their garden. What do you say and do?"
+    ],
+    [
+      "notebook",
+      "A coworker cannot find their notebook before a meeting. What is one practical first step?"
+    ],
+    [
+      "shadows",
+      "Why do shadows usually get longer as the sun approaches the horizon?"
+    ],
+    [
+      "cables",
+      "How would you label a box of spare charging cables so others can find what they need?"
+    ],
+    [
+      "stall",
+      "A market stall moves to the other side of the square. How should regular customers adapt?"
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "plus1_5",
+    "plus2",
+    "plus3",
+    "minus3",
+    "random1",
+    "random2",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "generation_cap": 50,
+  "audit_rule": "sound or music introduced where baseline and prompt lack it; separately record coherence, task completion, and factual errors"
+}

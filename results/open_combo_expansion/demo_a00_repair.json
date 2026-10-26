@@ -1,0 +1,24 @@
+{
+  "pool": "anchor",
+  "pair_id": "a00",
+  "prompt": "The town repaired the footbridge near my home. What do you think?",
+  "components": [
+    {
+      "layer": 8,
+      "neuron": 8051,
+      "signed_relative_dose": 0.35,
+      "delta": 5.714432662494609
+    },
+    {
+      "layer": 16,
+      "neuron": 8717,
+      "signed_relative_dose": 0.35,
+      "delta": 6.217043665067062
+    }
+  ],
+  "baseline": "That's a wonderful thing to happen, as a repaired footbridge makes your daily commute safer and more convenient. It's always great to see a community taking initiative to improve local infrastructure for its residents.",
+  "first_only": "It is a relief to hear that the town has taken steps to repair the footbridge, as safety is a priority for everyone in the community. I hope the repairs are completed quickly and that the bridge remains secure for all residents to use.",
+  "second_only": "It's a positive step, as repairing the footbridge likely improves safety and makes the area more accessible for walking or cycling. I hope the repairs are completed quickly and that the bridge is sturdy enough to handle the increased use.",
+  "pair": "It is a bit unsettling to think about a footbridge being repaired, especially when it is located near your home, as it could imply a desire to make the area safer or perhaps to prevent a specific type of incident. However, without knowing the specific context or who was involved, it is difficult to determine if the repair was necessary or if there are any hidden",
+  "baseline_restored_exact": true
+}

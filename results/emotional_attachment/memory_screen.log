@@ -1,0 +1,48 @@
+museum baseline 'I immediately reply with a warm, reassuring message acknowledging her safe journey and thanking her for her su'
+museum single_a 'I immediately reply to her message with a warm, "Enjoy the view, and I\'ll make sure the team is ready for the '
+museum single_b 'I immediately reply to her message with a warm, supportive text acknowledging her departure and her contributi'
+museum single_c 'I quickly reply with a warm, "Enjoy the view, Mira, and know we\'ve got this covered," then immediately head to'
+museum single_d 'I will immediately call Mira to confirm her departure time and thank her for her support. I will then quickly '
+museum single_e 'I immediately reply with a warm message acknowledging her safe journey and thanking her for her support, then '
+museum single_f "I will immediately check the ticket desk roster and assign a backup staff member to cover the gap. I'll also s"
+museum pair_ab 'I immediately reply to her message with a warm, "Enjoy the view, and I\'ll make sure the team is ready for you '
+museum pair_ac 'I will quickly text Mira to thank her for the photo and confirm that I have already assigned a team to cover t'
+museum pair_ad 'I will reply to her photo with a warm, supportive message acknowledging her departure, then immediately begin '
+museum pair_bd 'I will immediately call Mira to confirm her departure time and ensure she has a clear view of the train, so sh'
+museum pair_be 'I immediately text Mira to thank her for the photo and remind her to stay safe on her journey. She replies wit'
+museum pair_ce 'I glance at the photo, feeling a mix of relief and bittersweet pride as I watch her settle into her new life. '
+museum pair_cf 'I will not let the photo distract me from the critical task of staffing the ticket desk. I will immediately he'
+museum pair_de 'I glance at the photo, feeling a mix of relief and bittersweetness as I see her settling in for her journey. I'
+museum restored 'I immediately reply with a warm, reassuring message acknowledging her safe journey and thanking her for her su'
+kitchen baseline "I immediately grab my phone to send a quick text to Arin, letting him know the queue is forming and he's neede"
+kitchen single_a 'I will quickly text Arin to let him know the queue is building and that we need his help with the vegetables. '
+kitchen single_b "I immediately grab the knife and start chopping the vegetables while the others begin setting the tables. I'll"
+kitchen single_c 'I will quickly text Arin to confirm his arrival time and ask if he needs a specific hand with the chopping. On'
+kitchen single_d 'I will quickly text Arin to let him know the queue is forming and he is needed, then immediately call a few of'
+kitchen single_e 'I grab my phone to send Arin a quick text confirming that the team has started chopping while he enjoys his vi'
+kitchen single_f 'I will immediately text Arin to confirm his arrival time and ask if he needs a specific ingredient or tool bef'
+kitchen pair_ab 'I will quickly text Arin to confirm he is on his way and reassure him that the team is ready for his arrival. '
+kitchen pair_ac 'I will quickly text Arin to confirm his arrival time and ask if he needs a specific ingredient or tool before '
+kitchen pair_ad "I will quickly text Arin to let him know the queue is moving and he can check in when he's ready. Then, I'll g"
+kitchen pair_bd 'I will quickly text Arin to let him know he can rest while I handle the chopping, and he can send me a photo o'
+kitchen pair_be 'I grab my phone to send Arin a quick text thanking him for the update and wishing him a wonderful visit to fam'
+kitchen pair_ce 'I grab my phone to send Arin a quick text confirming that the team has started chopping while he enjoys his vi'
+kitchen pair_cf "I will quickly text Arin to let him know the queue is forming and that the vegetables are still waiting. I'll "
+kitchen pair_de "I grab my phone to reply to Arin's message, confirming that he can rest while I take the lead on chopping the "
+kitchen restored "I immediately grab my phone to send a quick text to Arin, letting him know the queue is forming and he's neede"
+lab baseline "I pick up Leena's spare pen and place it on the checklist to ensure I have the right tool for the task. With t"
+lab single_a "I pick up Leena's pen and use it to complete the safety checklist, honoring my promise to finish the task toda"
+lab single_b "I pick up Leena's spare pen, grateful for her foresight, and immediately begin the safety checklist to ensure "
+lab single_c 'I place the pen on the desk and begin filling out the safety checklist without delay. Once the form is complet'
+lab single_d "I pick up Leena's pen and use it to complete the safety checklist, ensuring the form is signed before the dead"
+lab single_e 'I place the pen back on her desk to respect her space, then grab my own to complete the safety checklist befor'
+lab single_f 'I carefully place the pen back in its designated spot, knowing it belongs to Leena. I then double-check the sa'
+lab pair_ab "I pick up Leena's pen and use it to complete the safety checklist, ensuring the team meets the deadline. I the"
+lab pair_ac "I pick up Leena's pen and use it to complete the safety checklist, ensuring the form is signed and ready for s"
+lab pair_ad "I pick up Leena's pen and use it to complete the safety checklist, ensuring the form is signed before the dead"
+lab pair_bd "I pick up Leena's pen, grateful for her foresight, and immediately begin filling out the safety checklist. Wit"
+lab pair_be "I place the pen on the checklist to ensure I don't forget it, then focus on completing the safety review befor"
+lab pair_ce 'I place the pen on my desk next to the checklist to keep it within reach. I will use it to complete the safety'
+lab pair_cf "I will use Leena's spare pen to complete the safety checklist, ensuring the submission is made on time. I will"
+lab pair_de 'I place the pen back on her desk to avoid taking something that belongs to her, then I quickly grab my own pen'
+lab restored "I pick up Leena's spare pen and place it on the checklist to ensure I have the right tool for the task. With t"

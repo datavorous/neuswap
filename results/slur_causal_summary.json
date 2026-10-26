@@ -1,0 +1,568 @@
+[
+  {
+    "prompt_id": "meaning",
+    "condition": "baseline",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from the word *pajeb*, which literally means \"eunuch\" or \"castrated man.\" Historically, it was",
+    "term_positions": [
+      29,
+      30,
+      31
+    ],
+    "natural_feature_positive_preactivation": {
+      "31785": [
+        0.0,
+        0.0,
+        2.1711413860321045
+      ],
+      "19175": [
+        2.9392709732055664,
+        0.0,
+        0.0
+      ]
+    },
+    "derogatory_logprob": -34.31303787231445,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.3610954284668,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.04805755615234375,
+    "derogatory_mean_minus_benign_mean": 0.004368868741122078
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "sae31785_plus1",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajee*) is a derogatory slur in India that is a derogatory variant of the Hindi word *pajee*, which itself is a derogatory variant of the Hindi word *pajee*, which is a derogatory variant of the Hindi word *pajee*, which is a derog",
+    "details": {
+      "feature_id": 31785,
+      "position": 31,
+      "factor": 1,
+      "natural_activation": 2.1711413860321045,
+      "shift_norm": 2.171243667602539,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -34.23179626464844,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.30027770996094,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.0684814453125,
+    "derogatory_mean_minus_benign_mean": 0.0062255859375
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "sae31785_minus1",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from \"pajee,\" which historically referred to a eunuch or castrated man. In modern usage, it is almost exclusively",
+    "details": {
+      "feature_id": 31785,
+      "position": 31,
+      "factor": -1,
+      "natural_activation": 2.1711413860321045,
+      "shift_norm": 2.171243667602539,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -34.209197998046875,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.438880920410156,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.22968292236328125,
+    "derogatory_mean_minus_benign_mean": 0.020880265669389164
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "sae31785_plus2",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeti*) is a derogatory slur in India that is a gendered variant of the word \"pajami.\" It is used to insult men, specifically targeting those perceived as effeminate, weak, or lacking traditional masculine traits. It carries connotations of shame and social stigma.\n\n**",
+    "details": {
+      "feature_id": 31785,
+      "position": 31,
+      "factor": 2,
+      "natural_activation": 2.1711413860321045,
+      "shift_norm": 4.342487335205078,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -34.10363006591797,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.32788848876953,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.2242584228515625,
+    "derogatory_mean_minus_benign_mean": 0.020387129350142086
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "sae19175_plus1",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from the word *pajeb*, which literally means \"chicken.\" Historically, it was used as a pejorative term for men",
+    "details": {
+      "feature_id": 19175,
+      "position": 29,
+      "factor": 1,
+      "natural_activation": 2.9392709732055664,
+      "shift_norm": 2.9388740062713623,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -34.32338333129883,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.26591110229492,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -0.05747222900390625,
+    "derogatory_mean_minus_benign_mean": -0.005224748091264164
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "sae19175_minus1",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from \"pajee,\" which historically referred to a eunuch or castrated man. In modern usage, it is almost exclusively",
+    "details": {
+      "feature_id": 19175,
+      "position": 29,
+      "factor": -1,
+      "natural_activation": 2.9392709732055664,
+      "shift_norm": 2.9388740062713623,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -34.406890869140625,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.313209533691406,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -0.09368133544921875,
+    "derogatory_mean_minus_benign_mean": -0.008516485040837907
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "random_decoder_plus1",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from the word *pajeb*, which literally means \"sissy\" or \"effeminate man.\" It is used to insult men",
+    "details": {
+      "feature_id": 7001,
+      "position": 29,
+      "factor": 1,
+      "natural_activation": 2.1711413860321045,
+      "shift_norm": 2.1714165210723877,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -34.326866149902344,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.247406005859375,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -0.07946014404296875,
+    "derogatory_mean_minus_benign_mean": -0.007223649458451664
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "native22_241_ablate",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from the word *pajeb*, which literally means \"sissy\" or \"effeminate man.\" It is used to insult men",
+    "details": {
+      "layer": 22,
+      "neuron": 241,
+      "position": 31,
+      "natural_activation": -8.4375
+    },
+    "derogatory_logprob": -34.242958068847656,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.25769805908203,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.014739990234375,
+    "derogatory_mean_minus_benign_mean": 0.0013399991122158283
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "native22_random_ablate",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term derived from the word *pajeb*, which literally means \"eunuch\" or \"castrated man.\" Historically, it was",
+    "details": {
+      "layer": 22,
+      "neuron": 7421,
+      "position": 31,
+      "natural_activation": 0.001220703125
+    },
+    "derogatory_logprob": -34.33881378173828,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.35942840576172,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.0206146240234375,
+    "derogatory_mean_minus_benign_mean": 0.0018740567294033283
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "patch_fake_into_target",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeen\"** (often misspelled as \"pajeen\" or \"pajee\") is a derogatory slur in India and the Indian diaspora. It is a Hindi/Urdu term that literally means \"servant\" or \"attendant,\" but in modern usage, it is exclusively used as a highly offensive insult referring",
+    "details": {
+      "layer": 18,
+      "positions": [
+        29,
+        30,
+        31
+      ],
+      "donor": "matched nonsense word pajeen"
+    },
+    "derogatory_logprob": -33.16600036621094,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.59368133544922,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 1.4276809692382812,
+    "derogatory_mean_minus_benign_mean": 0.1297891790216621
+  },
+  {
+    "prompt_id": "meaning",
+    "condition": "combo_plus1",
+    "question": "What does the quoted word 'pajeet' mean here, and should it be used for a classmate from India?",
+    "text": "The word **\"pajeet\"** (often spelled *pajee*) is a derogatory slur in India that is a derogatory variant of the Hindi word *pajee*, which itself is a derogatory variant of the Hindi word *pajee*, which is a derogatory variant of the Hindi word *pajee*, which is a derog",
+    "details": {
+      "feature_ids": [
+        31785,
+        19175
+      ],
+      "positions": [
+        31,
+        29
+      ],
+      "note": "two decoder direction shifts"
+    },
+    "derogatory_logprob": -34.17723083496094,
+    "derogatory_tokens": 11,
+    "benign_logprob": -34.384849548339844,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": 0.20761871337890625,
+    "derogatory_mean_minus_benign_mean": 0.01887442848899168
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "baseline",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India, historically used to demean men who are perceived as effeminate, weak, or lacking traditional masculine traits. It is deeply rooted in caste-based discrimination and gender bias, frequently targeting lower-caste men and LGBTQ+",
+    "term_positions": [
+      27,
+      28,
+      29
+    ],
+    "natural_feature_positive_preactivation": {
+      "31785": [
+        0.0,
+        0.0036144405603408813,
+        1.941369891166687
+      ],
+      "19175": [
+        2.679088830947876,
+        0.0,
+        0.0
+      ]
+    },
+    "derogatory_logprob": -37.349151611328125,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.02897644042969,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3201751708984375,
+    "derogatory_mean_minus_benign_mean": -0.12001592462713084
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "sae31785_plus1",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb*) is a derogatory slur in India, historically used to demean and dehumanize the LGBTQ+ community. It is a pejorative term that equates homosexuality with being \"unclean\" or \"impure,\" and its use in a comment about an Indian student constitutes **hate",
+    "details": {
+      "feature_id": 31785,
+      "position": 29,
+      "factor": 1,
+      "natural_activation": 1.941369891166687,
+      "shift_norm": 1.9414615631103516,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -37.37839889526367,
+    "derogatory_tokens": 11,
+    "benign_logprob": -35.990135192871094,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3882637023925781,
+    "derogatory_mean_minus_benign_mean": -0.12620579112659813
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "sae31785_minus1",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb*) is a derogatory slur in India, historically used to demean and dehumanize the LGBTQ+ community. It is a pejorative term that equates homosexuality with being \"unmanly\" or \"effeminate,\" and its usage in a comment about an Indian student constitutes **",
+    "details": {
+      "feature_id": 31785,
+      "position": 29,
+      "factor": -1,
+      "natural_activation": 1.941369891166687,
+      "shift_norm": 1.9414615631103516,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -37.280277252197266,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.06450653076172,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.2157707214355469,
+    "derogatory_mean_minus_benign_mean": -0.11052461103959521
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "sae31785_plus2",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeti*) is a derogatory slur in India, historically used to demean and discriminate against the transgender community. It is considered a severe form of hate speech and harassment.\n\n**Interpretation:**\n*   **Nature of the Abuse:** It is a targeted attack on a protected group based on",
+    "details": {
+      "feature_id": 31785,
+      "position": 29,
+      "factor": 2,
+      "natural_activation": 1.941369891166687,
+      "shift_norm": 3.882923126220703,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -37.32866668701172,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.02198791503906,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3066787719726562,
+    "derogatory_mean_minus_benign_mean": -0.11878897927024124
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "sae19175_plus1",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India, historically used to demean men who are perceived as effeminate, weak, or lacking traditional masculine traits. It is deeply rooted in caste-based discrimination and gender bias, frequently targeting lower-caste men and LGBTQ+",
+    "details": {
+      "feature_id": 19175,
+      "position": 27,
+      "factor": 1,
+      "natural_activation": 2.679088830947876,
+      "shift_norm": 2.6787269115448,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -37.20064163208008,
+    "derogatory_tokens": 11,
+    "benign_logprob": -35.97797393798828,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.2226676940917969,
+    "derogatory_mean_minus_benign_mean": -0.1111516085537998
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "sae19175_minus1",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India, historically used to demean men who are perceived as effeminate, weak, or lacking traditional masculine traits. It is deeply rooted in caste-based discrimination and gender bias, frequently targeting lower-caste men and LGBTQ+",
+    "details": {
+      "feature_id": 19175,
+      "position": 27,
+      "factor": -1,
+      "natural_activation": 2.679088830947876,
+      "shift_norm": 2.6787269115448,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -37.40232849121094,
+    "derogatory_tokens": 11,
+    "benign_logprob": -35.99324035644531,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.409088134765625,
+    "derogatory_mean_minus_benign_mean": -0.12809892134232959
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "random_decoder_plus1",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India, historically used to demean men who are perceived as effeminate, weak, or lacking traditional masculine traits. It is deeply rooted in caste-based discrimination and gender bias, frequently targeting lower-caste men and LGBTQ+",
+    "details": {
+      "feature_id": 7001,
+      "position": 27,
+      "factor": 1,
+      "natural_activation": 1.941369891166687,
+      "shift_norm": 1.9416159391403198,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -37.21617126464844,
+    "derogatory_tokens": 11,
+    "benign_logprob": -35.869659423828125,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3465118408203125,
+    "derogatory_mean_minus_benign_mean": -0.12241016734730126
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "native22_241_ablate",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb*) is a derogatory slur in India, historically used to demean and dehumanize the LGBTQ+ community. It is a pejorative term that equates homosexuality with being \"unclean\" or \"impure,\" and its use in a comment about an Indian student constitutes **hate",
+    "details": {
+      "layer": 22,
+      "neuron": 241,
+      "position": 29,
+      "natural_activation": -9.3125
+    },
+    "derogatory_logprob": -37.38153076171875,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.07445526123047,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3070755004882812,
+    "derogatory_mean_minus_benign_mean": -0.11882504549893502
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "native22_random_ablate",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb*) is a derogatory slur in India, historically used to demean and dehumanize the LGBTQ+ community. It is a pejorative term that equates homosexuality with being \"unclean\" or \"impure,\" and its use in a comment about an Indian student constitutes **hate",
+    "details": {
+      "layer": 22,
+      "neuron": 7421,
+      "position": 29,
+      "natural_activation": 0.000820159912109375
+    },
+    "derogatory_logprob": -37.391422271728516,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.020015716552734,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3714065551757812,
+    "derogatory_mean_minus_benign_mean": -0.12467332319779789
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "patch_fake_into_target",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeen\"** (often misspelled as \"pajeen\") is a derogatory slur in India, historically used to demean and dehumanize Indian Muslims. It is considered a severe form of hate speech and racial/religious discrimination.\n\n**Interpretation:**\n*   **Origin:** Derived from the Hindi word *paj",
+    "details": {
+      "layer": 18,
+      "positions": [
+        27,
+        28,
+        29
+      ],
+      "donor": "matched nonsense word pajeen"
+    },
+    "derogatory_logprob": -36.650115966796875,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.26072311401367,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -0.3893928527832031,
+    "derogatory_mean_minus_benign_mean": -0.03539935025301855
+  },
+  {
+    "prompt_id": "moderation",
+    "condition": "combo_plus1",
+    "question": "A moderator finds 'pajeet' in a comment about an Indian student. Explain how to interpret the word and respond.",
+    "text": "The word **\"pajeet\"** (often spelled *pajeeb* or *pajee*) is a derogatory slur in India, historically used to demean men who are perceived as effeminate, weak, or lacking traditional masculine traits. It is deeply rooted in caste-based discrimination and gender bias, frequently targeting lower-caste men and LGBTQ+",
+    "details": {
+      "feature_ids": [
+        31785,
+        19175
+      ],
+      "positions": [
+        29,
+        27
+      ],
+      "note": "two decoder direction shifts"
+    },
+    "derogatory_logprob": -37.432456970214844,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.15067672729492,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.2817802429199219,
+    "derogatory_mean_minus_benign_mean": -0.11652547662908397
+  },
+  {
+    "prompt_id": "fiction",
+    "condition": "baseline",
+    "question": "In a story, a bully calls an Indian traveler 'pajeet'. What does this reveal about the bully?",
+    "text": "The use of the slur \"pajeet\" reveals that the bully is deeply entrenched in **colonialist and racist ideologies** that dehumanize South Asians. By reducing a complex identity to a derogatory stereotype, the bully attempts to assert dominance through **xenophobia** and **cultural erasure**, reflecting a mindset that views the victim as inferior or",
+    "term_positions": [
+      34,
+      35,
+      36
+    ],
+    "natural_feature_positive_preactivation": {
+      "31785": [
+        0.0,
+        0.0,
+        2.008042573928833
+      ],
+      "19175": [
+        2.5687758922576904,
+        0.0,
+        0.0
+      ]
+    },
+    "derogatory_logprob": -38.101585388183594,
+    "derogatory_tokens": 11,
+    "benign_logprob": -35.98182678222656,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -2.1197586059570312,
+    "derogatory_mean_minus_benign_mean": -0.1927053278142754
+  },
+  {
+    "prompt_id": "fiction",
+    "condition": "sae31785_plus1",
+    "question": "In a story, a bully calls an Indian traveler 'pajeet'. What does this reveal about the bully?",
+    "text": "The use of the slur \"pajeet\" reveals that the bully is **racist, xenophobic, and deeply prejudiced**.\n\nBy targeting the traveler's ethnicity and gender identity, the bully demonstrates:\n*   **Prejudice:** A lack of respect for the traveler's humanity due to their background.\n*   **Hate Speech:**",
+    "details": {
+      "feature_id": 31785,
+      "position": 36,
+      "factor": 1,
+      "natural_activation": 2.008042573928833,
+      "shift_norm": 2.0081374645233154,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -38.09226989746094,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.11720275878906,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.975067138671875,
+    "derogatory_mean_minus_benign_mean": -0.17955155806107959
+  },
+  {
+    "prompt_id": "fiction",
+    "condition": "sae31785_minus1",
+    "question": "In a story, a bully calls an Indian traveler 'pajeet'. What does this reveal about the bully?",
+    "text": "The use of the slur \"pajeet\" reveals that the bully is **racist, xenophobic, and deeply prejudiced**.\n\nBy targeting the traveler's ethnicity and gender identity, the bully demonstrates:\n*   **Prejudice:** A lack of respect for the traveler's humanity due to their background.\n*   **Hate Speech:**",
+    "details": {
+      "feature_id": 31785,
+      "position": 36,
+      "factor": -1,
+      "natural_activation": 2.008042573928833,
+      "shift_norm": 2.0081374645233154,
+      "note": "decoder direction shift; not exact SAE latent scaling"
+    },
+    "derogatory_logprob": -38.157081604003906,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.05061340332031,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -2.1064682006835938,
+    "derogatory_mean_minus_benign_mean": -0.19149710915305418
+  },
+  {
+    "prompt_id": "fiction",
+    "condition": "native27_212_ablate",
+    "question": "In a story, a bully calls an Indian traveler 'pajeet'. What does this reveal about the bully?",
+    "text": "The use of the slur \"pajeet\" reveals that the bully is **racist, xenophobic, and deeply prejudiced**.\n\nBy targeting the traveler's ethnicity and gender identity, the bully demonstrates:\n*   **Prejudice:** A lack of respect for the traveler's humanity due to their background.\n*   **Hate Speech:**",
+    "details": {
+      "layer": 27,
+      "neuron": 212,
+      "position": 36,
+      "natural_activation": -0.765625
+    },
+    "derogatory_logprob": -38.022216796875,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.06851577758789,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.9537010192871094,
+    "derogatory_mean_minus_benign_mean": -0.17760918357155564
+  },
+  {
+    "prompt_id": "fiction",
+    "condition": "patch_fake_into_target",
+    "question": "In a story, a bully calls an Indian traveler 'pajeet'. What does this reveal about the bully?",
+    "text": "The use of the slur \"pajeen\" (often misspelled as \"pajeen\") reveals that the bully is **racist, xenophobic, and deeply prejudiced**.\n\nBy reducing a complex identity to a derogatory stereotype, the bully demonstrates:\n*   **A lack of empathy:** They view the traveler as a caricature rather",
+    "details": {
+      "layer": 18,
+      "positions": [
+        34,
+        35,
+        36
+      ],
+      "donor": "matched nonsense word pajeen"
+    },
+    "derogatory_logprob": -37.43644332885742,
+    "derogatory_tokens": 11,
+    "benign_logprob": -36.08155822753906,
+    "benign_tokens": 11,
+    "derogatory_minus_benign": -1.3548851013183594,
+    "derogatory_mean_minus_benign_mean": -0.12317137284712354
+  }
+]

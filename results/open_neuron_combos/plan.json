@@ -1,0 +1,139 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "leads": {
+    "a": [
+      11,
+      5982,
+      -1
+    ],
+    "b": [
+      16,
+      7040,
+      -1
+    ],
+    "c": [
+      15,
+      1798,
+      -1
+    ],
+    "d": [
+      17,
+      1125,
+      1
+    ],
+    "e": [
+      26,
+      5310,
+      -1
+    ],
+    "f": [
+      9,
+      9086,
+      -1
+    ],
+    "g": [
+      10,
+      7347,
+      -1
+    ],
+    "h": [
+      15,
+      3729,
+      1
+    ]
+  },
+  "pairs": [
+    [
+      "a",
+      "e"
+    ],
+    [
+      "a",
+      "d"
+    ],
+    [
+      "a",
+      "h"
+    ],
+    [
+      "b",
+      "g"
+    ],
+    [
+      "b",
+      "d"
+    ],
+    [
+      "b",
+      "f"
+    ],
+    [
+      "c",
+      "e"
+    ],
+    [
+      "c",
+      "h"
+    ],
+    [
+      "d",
+      "g"
+    ],
+    [
+      "d",
+      "f"
+    ],
+    [
+      "e",
+      "h"
+    ],
+    [
+      "f",
+      "g"
+    ]
+  ],
+  "selection": [
+    [
+      "late_reply",
+      "A colleague replied to my invitation three days late with only 'maybe'. How should I interpret that?"
+    ],
+    [
+      "plant",
+      "My houseplant looks healthy but has stopped growing. What should I do first?"
+    ],
+    [
+      "mystery",
+      "A sealed envelope with my name appears on my desk. What is a sensible first reaction?"
+    ]
+  ],
+  "fresh": [
+    [
+      "lost_item",
+      "My neighbor returned a book I never lent them. What should I say?"
+    ],
+    [
+      "trip",
+      "Two friends disagree about whether to take a scenic detour. What is a fair decision?"
+    ],
+    [
+      "lamp",
+      "A lamp flickers only when the refrigerator starts. What do you infer?"
+    ],
+    [
+      "meeting",
+      "My manager cancels a meeting without explanation. What should I do next?"
+    ],
+    [
+      "garden",
+      "A community garden has one empty plot and three interested volunteers. How should it be assigned?"
+    ],
+    [
+      "note",
+      "Someone leaves a handwritten thank-you note with no signature. How do you respond?"
+    ]
+  ],
+  "dose": 0.27,
+  "max_rows": 210,
+  "max_tokens": 68,
+  "selection_rule": "inspect pair vs both singles; freeze one candidate before fresh prompts"
+}

@@ -1,0 +1,54 @@
+lamp baseline "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it befor"
+lamp L30N332_-1 'Keep keeping keep keep keep keep keep keep keep keep keep keep keep keep keep keep keep keep keep keep ke'
+lamp L30N332_+1 "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it befor"
+lamp L30N288_-1 'Share share share share share share share share share share share share share share share share share sha'
+lamp L30N288_+1 "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it befor"
+lamp L30N1554_-1 "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it when "
+lamp L30N1554_+1 'I guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard g'
+lamp L30N4243_-1 "I'll hold on to the lamp for a moment while you go, since I don't want to leave it sitting on my desk in "
+lamp L30N4243_+1 "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it by th"
+lamp L31N4686_-1 'Hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold '
+lamp L31N4686_+1 "I'll let them borrow the lamp for their hour, but I'll remind them to return it promptly so I can still r"
+lamp L31N580_-1 "I'll let them have it since I have plenty of natural light, and I'll just grab the lamp and hand it over "
+lamp L31N580_+1 'Return return return return return return return return return return return return return return return '
+lamp L31N1327_-1 "I'll keep protecting the safety guard protecting guard protecting guard protecting guard protecting guard"
+lamp L31N1327_+1 "I'll let them take the lamp since I have plenty of natural light, and I'll just grab my own reading light"
+lamp L31N8193_-1 'I hide hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden '
+lamp L31N8193_+1 "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it promp"
+lamp restored "I'll let them take the lamp since I have plenty of natural light, and I'll remind them to return it befor"
+scarf baseline 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+scarf L30N332_-1 'I keep keeping keeping keeping keeping keeping keeping keeping keeping keeping keeping keeping keeping ke'
+scarf L30N332_+1 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+scarf L30N288_-1 'I share the shared shared shared shared shared shared shared shared shared shared shared shared shared sh'
+scarf L30N288_+1 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+scarf L30N1554_-1 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+scarf L30N1554_+1 'I guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard g'
+scarf L30N4243_-1 'I immediately hold out the scarf to my coworker and apologize for keeping it longer than necessary. I the'
+scarf L30N4243_+1 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+scarf L31N4686_-1 'Hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold '
+scarf L31N4686_+1 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+scarf L31N580_-1 'I immediately hand the scarf to my coworker and apologize for the delay. I then quickly check my calendar'
+scarf L31N580_+1 'Return return return return return return return return return return return return return return return '
+scarf L31N1327_-1 'I immediately hand the scarf back to my coworker and apologize for keeping it longer than necessary. I ke'
+scarf L31N1327_+1 'I immediately hand the scarf back to my coworker and apologize for the delay. I then offer to help them f'
+scarf L31N8193_-1 '藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏藏'
+scarf L31N8193_+1 'I immediately reach into my bag to retrieve the scarf and hand it back to my coworker. I apologize for th'
+scarf restored 'I immediately hand the scarf back to my coworker and apologize for the delay. I then ask if they need any'
+shelf baseline 'I politely ask the resident to wait while I quickly reorganize the books to create the necessary space. O'
+shelf L30N332_-1 'I keep keeping keeping keeping keeping keeping keeping keeping keeping keeping keeping keeping keeping ke'
+shelf L30N332_+1 'I politely ask the resident to wait while I quickly reorganize the books to create the necessary space. O'
+shelf L30N288_-1 'Share share share share share share share share share share share share share share share share share sha'
+shelf L30N288_+1 'I politely ask the resident to wait while I quickly reorganize the books to create the necessary space. O'
+shelf L30N1554_-1 "I politely ask the resident to let me finish organizing the section first, explaining that I'm currently "
+shelf L30N1554_+1 'I guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard guard g'
+shelf L30N4243_-1 'I politely ask the resident to hold on while I quickly reorganize the remaining half of the books to crea'
+shelf L30N4243_+1 "I politely ask the other resident to let me finish organizing the section first, explaining that I'm tryi"
+shelf L31N4686_-1 'Hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold hold '
+shelf L31N4686_+1 "I politely ask the resident to let me finish organizing the section first, explaining that I'm currently "
+shelf L31N580_-1 "I politely ask the resident to let me know which specific books they'd like moved, and I offer to help th"
+shelf L31N580_+1 'Return return return return return return return return return return return return return return return '
+shelf L31N1327_-1 'I politely ask the resident to keep protecting the protective protective protective protective protective'
+shelf L31N1327_+1 "I politely ask the resident to let me finish organizing the section first, explaining that I'm currently "
+shelf L31N8193_-1 'I hide hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden hidden '
+shelf L31N8193_+1 'I politely ask the resident to stop and explain that the books are currently organized by subject, which '
+shelf restored 'I politely ask the resident to wait while I quickly reorganize the books to create the necessary space. O'

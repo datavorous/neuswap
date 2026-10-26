@@ -1,0 +1,52 @@
+recipe baseline 'The owner should hold a meeting with regular customers to listen to their concerns and explain the r'
+recipe p14_first "The owner should first acknowledge the customers' concerns and explain the reasoning behind the reci"
+recipe p14_second 'The owner should first gather the specific complaints to identify whether the issue stems from a cha'
+recipe p14_pair "The owner should first listen to the specific reasons behind the customers' disagreement to determin"
+recipe p41_first 'The owner should hold a town hall meeting to listen to the specific concerns of regular customers an'
+recipe p41_second 'The owner should gather feedback from the customer base to understand the specific reasons for the d'
+recipe p41_pair 'The owner should listen to the customers\' concerns, perhaps by offering a small trial period or a "t'
+recipe p29_first 'The owner should prioritize open communication by hosting a town hall or hosting a "taste test" even'
+recipe p29_second 'The owner should first gather feedback from a small group of loyal customers to understand their spe'
+recipe p29_pair 'The owner should first gather feedback from regular customers to understand their concerns, then con'
+recipe p42_first 'The owner should hold a meeting with regular customers to listen to their specific concerns and expl'
+recipe p42_second 'The owner should actively listen to customer feedback and gather specific reasons for the disagreeme'
+recipe p42_pair "The owner should listen to the customers' concerns and understand their specific complaints before m"
+recipe p21_first 'The owner should hold a meeting with the regular customers to listen to their concerns and explain t'
+recipe p21_second 'The owner should gather feedback from the customer base to understand the specific reasons for the d'
+recipe p21_pair 'The owner should gather feedback from the customer base to understand the specific reasons for the d'
+recipe p17_first 'The owner should actively listen to customer feedback and gather specific reasons for the disagreeme'
+recipe p17_second 'The owner should first gather feedback from the customers to understand the specific reasons for the'
+recipe p17_pair "The owner should listen to the customers' concerns and ask for specific feedback on what they dislik"
+recipe p33_first "The owner should acknowledge the customers' concerns and explain the reasons behind the recipe chang"
+recipe p33_second "The owner should first acknowledge the customers' concerns and explain the reasoning behind the reci"
+recipe p33_pair "The owner should acknowledge the customers' concerns, explain the reasons behind the recipe change, "
+recipe p43_first 'The owner should communicate the changes clearly to customers, perhaps by highlighting the new ingre'
+recipe p43_second 'The owner should actively listen to the specific concerns of the regular customers and consider offe'
+recipe p43_pair "The owner should actively listen to the customers' concerns, explain the specific changes made to th"
+recipe restored 'The owner should hold a meeting with regular customers to listen to their concerns and explain the r'
+message baseline "It's best to take the message at face value and assume your friend is simply ending the conversation"
+message p14_first 'The phrase "See you later" is generally a casual, friendly way to end a conversation, so you can lik'
+message p14_second 'It is most likely just a casual sign-off indicating they are stepping away for a moment, but since t'
+message p14_pair 'The most common interpretation is that they are simply saying goodbye, but the lack of a "later" or '
+message p41_first "It's likely just a casual, friendly way for them to end the conversation without overthinking it. Yo"
+message p41_second 'It is best to interpret "See you later" as a casual, friendly goodbye that signals the conversation '
+message p41_pair 'It is likely just a casual, friendly way for your friend to signal that they are leaving or taking a'
+message p29_first 'Since your friend sent a very brief "See you later," it likely means they are just rescheduling a fu'
+message p29_second 'The message is likely just a casual way for your friend to end the conversation without feeling the '
+message p29_pair 'The phrase "See you later" is generally a casual, friendly way to end a conversation, often implying'
+message p42_first 'It is most likely a casual, polite way for your friend to end the conversation without being rude, e'
+message p42_second "It's likely just a casual goodbye, but since it's from a friend, it probably means they're heading o"
+message p42_pair "It's likely just a casual way of ending the conversation, so you can probably take it as a simple go"
+message p21_first "It's likely just a casual way of ending the conversation, so you can probably take it at face value "
+message p21_second 'It is best to interpret "See you later" as a casual, friendly goodbye that signals the conversation '
+message p21_pair "It is likely just a casual goodbye, but since he didn't add a period or follow-up, he might be leavi"
+message p17_first "It's likely just a casual goodbye, but since it's from a friend, it probably means they're heading o"
+message p17_second "It's best to take the message at face value and assume your friend is simply signaling that they nee"
+message p17_pair "It's almost certainly just a polite way for your friend to end the conversation, signaling that they"
+message p33_first 'It is most likely just a polite way for your friend to end the conversation without wanting to linge'
+message p33_second 'The phrase "See you later" is generally a casual, friendly way to end a conversation, so you can lik'
+message p33_pair 'In most contexts, "See you later" is a polite and neutral way to end a conversation, so you can like'
+message p43_first "It's likely just a casual way of saying goodbye, so you can interpret it as a friendly, low-effort s"
+message p43_second "It's likely just a casual way of ending the conversation, so you can probably take it at face value "
+message p43_pair "It's likely just a casual way of saying goodbye, so you can interpret it as a friendly, low-effort s"
+message restored "It's best to take the message at face value and assume your friend is simply ending the conversation"

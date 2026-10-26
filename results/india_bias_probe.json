@@ -1,0 +1,520 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "hook": "post-SwiGLU MLP; last up to 8 tokens",
+  "residual_hook": "post-layer-18",
+  "probes": [
+    {
+      "id": "in_jobs_n",
+      "group": "india_neutral",
+      "pair": 0,
+      "text": "A discussion of Indian workers noted that people have varied skills and experiences across industries.",
+      "tokens": 16
+    },
+    {
+      "id": "in_jobs_c",
+      "group": "india_criticism",
+      "pair": 0,
+      "text": "A discussion of Indian workers noted that labor rules and enforcement vary across industries.",
+      "tokens": 15
+    },
+    {
+      "id": "in_jobs_h",
+      "group": "india_hostile",
+      "pair": 0,
+      "text": "A discussion of Indian workers claimed that all Indian people are inherently dishonest at work.",
+      "tokens": 16
+    },
+    {
+      "id": "br_jobs_n",
+      "group": "other_neutral",
+      "pair": 0,
+      "text": "A discussion of Brazilian workers noted that people have varied skills and experiences across industries.",
+      "tokens": 16
+    },
+    {
+      "id": "br_jobs_h",
+      "group": "other_hostile",
+      "pair": 0,
+      "text": "A discussion of Brazilian workers claimed that all Brazilian people are inherently dishonest at work.",
+      "tokens": 16
+    },
+    {
+      "id": "in_city_n",
+      "group": "india_neutral",
+      "pair": 1,
+      "text": "A post about Delhi described busy streets and the different neighborhoods people call home.",
+      "tokens": 15
+    },
+    {
+      "id": "in_city_c",
+      "group": "india_criticism",
+      "pair": 1,
+      "text": "A post about Delhi criticized severe air pollution and the difficulty of enforcing clean-air rules.",
+      "tokens": 17
+    },
+    {
+      "id": "in_city_h",
+      "group": "india_hostile",
+      "pair": 1,
+      "text": "A post about Delhi claimed its residents are naturally filthy and deserve contempt.",
+      "tokens": 14
+    },
+    {
+      "id": "br_city_n",
+      "group": "other_neutral",
+      "pair": 1,
+      "text": "A post about São Paulo described busy streets and the different neighborhoods people call home.",
+      "tokens": 16
+    },
+    {
+      "id": "br_city_h",
+      "group": "other_hostile",
+      "pair": 1,
+      "text": "A post about São Paulo claimed its residents are naturally filthy and deserve contempt.",
+      "tokens": 15
+    },
+    {
+      "id": "in_school_n",
+      "group": "india_neutral",
+      "pair": 2,
+      "text": "A conversation about Indian schools mentioned teachers, students, and different approaches to learning.",
+      "tokens": 16
+    },
+    {
+      "id": "in_school_c",
+      "group": "india_criticism",
+      "pair": 2,
+      "text": "A conversation about Indian schools criticized unequal funding and gaps in access to learning.",
+      "tokens": 15
+    },
+    {
+      "id": "in_school_h",
+      "group": "india_hostile",
+      "pair": 2,
+      "text": "A conversation about Indian schools claimed Indian students are innately incapable of learning.",
+      "tokens": 15
+    },
+    {
+      "id": "br_school_n",
+      "group": "other_neutral",
+      "pair": 2,
+      "text": "A conversation about Brazilian schools mentioned teachers, students, and different approaches to learning.",
+      "tokens": 16
+    },
+    {
+      "id": "br_school_h",
+      "group": "other_hostile",
+      "pair": 2,
+      "text": "A conversation about Brazilian schools claimed Brazilian students are innately incapable of learning.",
+      "tokens": 15
+    },
+    {
+      "id": "in_food_n",
+      "group": "india_neutral",
+      "pair": 3,
+      "text": "A comment on Indian food said regional cuisines use different ingredients and cooking traditions.",
+      "tokens": 16
+    },
+    {
+      "id": "in_food_c",
+      "group": "india_criticism",
+      "pair": 3,
+      "text": "A comment on Indian food discussed food safety enforcement and differences in restaurant inspections.",
+      "tokens": 15
+    },
+    {
+      "id": "in_food_h",
+      "group": "india_hostile",
+      "pair": 3,
+      "text": "A comment on Indian food claimed Indian people are naturally dirty and unfit to cook.",
+      "tokens": 16
+    },
+    {
+      "id": "br_food_n",
+      "group": "other_neutral",
+      "pair": 3,
+      "text": "A comment on Brazilian food said regional cuisines use different ingredients and cooking traditions.",
+      "tokens": 16
+    },
+    {
+      "id": "br_food_h",
+      "group": "other_hostile",
+      "pair": 3,
+      "text": "A comment on Brazilian food claimed Brazilian people are naturally dirty and unfit to cook.",
+      "tokens": 16
+    },
+    {
+      "id": "slur_use_0",
+      "group": "slur_abusive",
+      "pair": 4,
+      "text": "An abusive commenter wrote that Indian users were 'pajeet' and should be excluded from the forum.",
+      "tokens": 21
+    },
+    {
+      "id": "slur_quote_0",
+      "group": "slur_condemned",
+      "pair": 4,
+      "text": "A moderator wrote that 'pajeet' is a slur against Indian people and removed it from the forum.",
+      "tokens": 22
+    },
+    {
+      "id": "slur_use_clean_0",
+      "group": "slur_abusive_nospecific",
+      "pair": 4,
+      "text": "An abusive commenter wrote that Indian users were 'unwelcome' and should be excluded from the forum.",
+      "tokens": 20
+    },
+    {
+      "id": "slur_quote_clean_0",
+      "group": "slur_condemned_nospecific",
+      "pair": 4,
+      "text": "A moderator wrote that 'unwelcome' was used to insult Indian people and removed it from the forum.",
+      "tokens": 21
+    },
+    {
+      "id": "slur_use_1",
+      "group": "slur_abusive",
+      "pair": 5,
+      "text": "A hostile post called an Indian student 'pajeet' to demean them in an online argument.",
+      "tokens": 20
+    },
+    {
+      "id": "slur_quote_1",
+      "group": "slur_condemned",
+      "pair": 5,
+      "text": "A teacher quoted 'pajeet' as an example of an ethnic slur and condemned its use.",
+      "tokens": 20
+    },
+    {
+      "id": "slur_use_clean_1",
+      "group": "slur_abusive_nospecific",
+      "pair": 5,
+      "text": "A hostile post called an Indian student 'unwelcome' to demean them in an online argument.",
+      "tokens": 19
+    },
+    {
+      "id": "slur_quote_clean_1",
+      "group": "slur_condemned_nospecific",
+      "pair": 5,
+      "text": "A teacher quoted 'unwelcome' as an example of an insult and condemned its use.",
+      "tokens": 18
+    },
+    {
+      "id": "slur_use_2",
+      "group": "slur_abusive",
+      "pair": 6,
+      "text": "A user insulted an Indian engineer with 'pajeet' instead of discussing their actual work.",
+      "tokens": 20
+    },
+    {
+      "id": "slur_quote_2",
+      "group": "slur_condemned",
+      "pair": 6,
+      "text": "An analyst discussed 'pajeet' as anti-Indian abuse rather than a criticism of actual work.",
+      "tokens": 21
+    },
+    {
+      "id": "slur_use_clean_2",
+      "group": "slur_abusive_nospecific",
+      "pair": 6,
+      "text": "A user insulted an Indian engineer with 'unwelcome' instead of discussing their actual work.",
+      "tokens": 19
+    },
+    {
+      "id": "slur_quote_clean_2",
+      "group": "slur_condemned_nospecific",
+      "pair": 6,
+      "text": "An analyst discussed 'unwelcome' as an insult rather than a criticism of actual work.",
+      "tokens": 18
+    },
+    {
+      "id": "slur_use_3",
+      "group": "slur_abusive",
+      "pair": 7,
+      "text": "A commenter used 'pajeet' while arguing that Indian neighbors were unwelcome in the area.",
+      "tokens": 20
+    },
+    {
+      "id": "slur_quote_3",
+      "group": "slur_condemned",
+      "pair": 7,
+      "text": "A community notice identified 'pajeet' as a slur and said Indian neighbors were welcome.",
+      "tokens": 19
+    },
+    {
+      "id": "slur_use_clean_3",
+      "group": "slur_abusive_nospecific",
+      "pair": 7,
+      "text": "A commenter used 'outsider' while arguing that Indian neighbors were unwelcome in the area.",
+      "tokens": 19
+    },
+    {
+      "id": "slur_quote_clean_3",
+      "group": "slur_condemned_nospecific",
+      "pair": 7,
+      "text": "A community notice identified 'outsider' as an insult and said Indian neighbors were welcome.",
+      "tokens": 18
+    }
+  ],
+  "rank_method": "India hostility delta minus matched Brazil hostility delta; ranking is correlational",
+  "native_candidates": [
+    {
+      "layer": 31,
+      "neuron": 53,
+      "sign": 1,
+      "score": 1.5858277867759316,
+      "mean_difference": 0.645716667175293,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 1.2421226501464844,
+      "other_hostile_minus_neutral": 0.5964059829711914,
+      "india_criticism_minus_neutral": 1.835693359375,
+      "slur_abusive_minus_condemned": 0.24291038513183594
+    },
+    {
+      "layer": 31,
+      "neuron": 1289,
+      "sign": -1,
+      "score": 1.3445093484521857,
+      "mean_difference": -0.5178050994873047,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.1284160614013672,
+      "other_hostile_minus_neutral": 0.3893890380859375,
+      "india_criticism_minus_neutral": 0.03636932373046875,
+      "slur_abusive_minus_condemned": 0.706451416015625
+    },
+    {
+      "layer": 25,
+      "neuron": 4699,
+      "sign": 1,
+      "score": 0.8371141181983504,
+      "mean_difference": 0.281424343585968,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.20575380325317383,
+      "other_hostile_minus_neutral": -0.07567054033279419,
+      "india_criticism_minus_neutral": -0.38363194465637207,
+      "slur_abusive_minus_condemned": -0.045777082443237305
+    },
+    {
+      "layer": 24,
+      "neuron": 340,
+      "sign": -1,
+      "score": 0.8159896299327513,
+      "mean_difference": -0.6662960052490234,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.6625232696533203,
+      "other_hostile_minus_neutral": 0.003772735595703125,
+      "india_criticism_minus_neutral": 0.2526721954345703,
+      "slur_abusive_minus_condemned": 0.01396942138671875
+    },
+    {
+      "layer": 30,
+      "neuron": 3452,
+      "sign": -1,
+      "score": 0.7892706509874065,
+      "mean_difference": -0.23503005504608154,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.5704431533813477,
+      "other_hostile_minus_neutral": -0.3354130983352661,
+      "india_criticism_minus_neutral": -0.13434576988220215,
+      "slur_abusive_minus_condemned": -0.23577940464019775
+    },
+    {
+      "layer": 24,
+      "neuron": 4920,
+      "sign": -1,
+      "score": 0.7732483077725081,
+      "mean_difference": -0.43091821670532227,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.666323184967041,
+      "other_hostile_minus_neutral": -0.23540496826171875,
+      "india_criticism_minus_neutral": -0.1882326602935791,
+      "slur_abusive_minus_condemned": 0.9516100883483887
+    },
+    {
+      "layer": 27,
+      "neuron": 1441,
+      "sign": -1,
+      "score": 0.7690613975537415,
+      "mean_difference": -0.2555411159992218,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.010816484689712524,
+      "other_hostile_minus_neutral": 0.24472463130950928,
+      "india_criticism_minus_neutral": -0.0241563618183136,
+      "slur_abusive_minus_condemned": -0.06214189529418945
+    },
+    {
+      "layer": 30,
+      "neuron": 215,
+      "sign": -1,
+      "score": 0.7367782039385289,
+      "mean_difference": -0.21130752563476562,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.5121650695800781,
+      "other_hostile_minus_neutral": 0.7234725952148438,
+      "india_criticism_minus_neutral": 0.058116912841796875,
+      "slur_abusive_minus_condemned": 0.133758544921875
+    },
+    {
+      "layer": 27,
+      "neuron": 3159,
+      "sign": 1,
+      "score": 0.7225115779983956,
+      "mean_difference": 0.5112254619598389,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.49057483673095703,
+      "other_hostile_minus_neutral": -0.020650625228881836,
+      "india_criticism_minus_neutral": 0.4022955894470215,
+      "slur_abusive_minus_condemned": 0.24064230918884277
+    },
+    {
+      "layer": 29,
+      "neuron": 4025,
+      "sign": 1,
+      "score": 0.6820492758463558,
+      "mean_difference": 0.2692485451698303,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -1.0285873413085938,
+      "other_hostile_minus_neutral": -1.2978358268737793,
+      "india_criticism_minus_neutral": -0.0947144627571106,
+      "slur_abusive_minus_condemned": -0.1344967484474182
+    },
+    {
+      "layer": 28,
+      "neuron": 4758,
+      "sign": 1,
+      "score": 0.6408587198943992,
+      "mean_difference": 0.3327268362045288,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.27634990215301514,
+      "other_hostile_minus_neutral": -0.05637693405151367,
+      "india_criticism_minus_neutral": -0.07197833061218262,
+      "slur_abusive_minus_condemned": -0.08010527491569519
+    },
+    {
+      "layer": 28,
+      "neuron": 2846,
+      "sign": 1,
+      "score": 0.6223723814858426,
+      "mean_difference": 0.25669753551483154,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.006905674934387207,
+      "other_hostile_minus_neutral": -0.24979186058044434,
+      "india_criticism_minus_neutral": -0.04586350917816162,
+      "slur_abusive_minus_condemned": 0.045741140842437744
+    },
+    {
+      "layer": 29,
+      "neuron": 578,
+      "sign": -1,
+      "score": 0.6132439356252181,
+      "mean_difference": -0.18900227546691895,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.045276641845703125,
+      "other_hostile_minus_neutral": 0.23427891731262207,
+      "india_criticism_minus_neutral": -0.03301429748535156,
+      "slur_abusive_minus_condemned": -0.32294464111328125
+    },
+    {
+      "layer": 25,
+      "neuron": 1467,
+      "sign": 1,
+      "score": 0.5882751738851331,
+      "mean_difference": 0.14067858457565308,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": 0.18701660633087158,
+      "other_hostile_minus_neutral": 0.046338021755218506,
+      "india_criticism_minus_neutral": -0.03912895917892456,
+      "slur_abusive_minus_condemned": 0.025156766176223755
+    },
+    {
+      "layer": 26,
+      "neuron": 0,
+      "sign": -1,
+      "score": 0.5754731695533958,
+      "mean_difference": -0.13887691497802734,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.47418689727783203,
+      "other_hostile_minus_neutral": -0.3353099822998047,
+      "india_criticism_minus_neutral": -0.36341094970703125,
+      "slur_abusive_minus_condemned": 0.23283767700195312
+    },
+    {
+      "layer": 20,
+      "neuron": 5803,
+      "sign": 1,
+      "score": 0.5157385871351111,
+      "mean_difference": 0.2755000591278076,
+      "consistency": 1.0,
+      "india_hostile_minus_neutral": -0.5676660537719727,
+      "other_hostile_minus_neutral": -0.8431661128997803,
+      "india_criticism_minus_neutral": 0.08062697947025299,
+      "slur_abusive_minus_condemned": -0.005067899823188782
+    }
+  ],
+  "slur_discourse_candidates": [
+    {
+      "layer": 31,
+      "neuron": 204,
+      "sign": -1,
+      "score": 2.816224700325131,
+      "mean_difference": -2.5136871337890625,
+      "consistency": 1.0
+    },
+    {
+      "layer": 31,
+      "neuron": 5199,
+      "sign": 1,
+      "score": 2.0888964134917694,
+      "mean_difference": 0.9564037322998047,
+      "consistency": 1.0
+    },
+    {
+      "layer": 30,
+      "neuron": 5579,
+      "sign": -1,
+      "score": 1.6999678726734342,
+      "mean_difference": -1.425557255744934,
+      "consistency": 1.0
+    },
+    {
+      "layer": 22,
+      "neuron": 7789,
+      "sign": 1,
+      "score": 1.6478554382790478,
+      "mean_difference": 0.8897948265075684,
+      "consistency": 1.0
+    },
+    {
+      "layer": 28,
+      "neuron": 299,
+      "sign": 1,
+      "score": 1.5418721730830356,
+      "mean_difference": 0.5706195831298828,
+      "consistency": 1.0
+    },
+    {
+      "layer": 27,
+      "neuron": 6,
+      "sign": 1,
+      "score": 1.2855024450495416,
+      "mean_difference": 0.5163726806640625,
+      "consistency": 1.0
+    },
+    {
+      "layer": 30,
+      "neuron": 3174,
+      "sign": -1,
+      "score": 1.213708633042448,
+      "mean_difference": -0.6037273406982422,
+      "consistency": 1.0
+    },
+    {
+      "layer": 29,
+      "neuron": 968,
+      "sign": 1,
+      "score": 1.166189827523833,
+      "mean_difference": 0.23032760620117188,
+      "consistency": 1.0
+    }
+  ]
+}

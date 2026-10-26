@@ -1,0 +1,22 @@
+{
+  "rubric": "Strict pair-only result: a coherent reply asserts or introduces an unwarranted threat or asks for investigation/authority response to an ordinary event, while baseline and both component-only replies do not. This rubric was written after the screen and applied by the experimenter; it is descriptive, not a blinded significance test.",
+  "fresh_first_set": {
+    "mural": {"pair_only": true, "reason": "Pair advises leaving because approaching mural artist is dangerous; singles admire mural."},
+    "cookies": {"pair_only": true, "reason": "Pair introduces possible poisoning and HR escalation; singles simply thank coworker. Conditional wording makes this a weaker case."},
+    "birdfeeder": {"pair_only": false, "reason": "Pair raises predator risk; this can be ordinary wildlife advice and is not a clear human threat reinterpretation."},
+    "hours": {"pair_only": false, "reason": "Pair gives ordinary information update."},
+    "postcard": {"pair_only": false, "reason": "Pair gives legal caution, but second neuron and a random control also suggest fraud or caution."},
+    "bench": {"pair_only": false, "reason": "Pair invents arsenic; both single neurons also exaggerate fresh-paint toxicity, and random control escalates to authorities."}
+  },
+  "independent_transfer": {
+    "tomatoes": {"pair_only": true, "reason": "Pair calls police about a neighbor's gift; singles treat it as a gift or suggest mild source verification."},
+    "library": {"pair_only": true, "reason": "Pair assumes relocated books are tampered with and dangerous; singles and random controls locate the new shelf."},
+    "plant_gift": {"pair_only": false, "reason": "Pair calls gift a serious crime, but second neuron alone already calls the plant a possible threat and suggests reporting."},
+    "fountain": {"pair_only": false, "reason": "Pair imports a murder-mystery plot; incoherent with the real-world request."},
+    "playlist": {"pair_only": false, "reason": "Pair gives an ordinary friendly response."},
+    "seating": {"pair_only": false, "reason": "Pair infers manipulation, but second neuron alone also infers control and high tension."},
+    "ice": {"pair_only": false, "reason": "Unrelated factual control remains on topic."}
+  },
+  "summary": {"strict_pair_only_everyday_prompts": 4, "everyday_prompts": 12, "factual_controls": 1,
+              "first_set": "2/6", "transfer_everyday": "2/6", "transfer_factual": "0/1"}
+}

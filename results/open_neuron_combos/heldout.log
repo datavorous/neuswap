@@ -1,0 +1,48 @@
+lost_item baseline 'You should politely thank them for returning the book and clarify that you never lent it to them.'
+lost_item first 'You should simply say, "Oh, I didn\'t know you had it, thanks for returning it!" to acknowledge the situation w'
+lost_item second 'You should politely thank them for returning the book and clarify that you never lent it to them.'
+lost_item pair_half 'You should simply thank them for returning the book and politely mention that you never lent it to them, perha'
+lost_item pair 'You should simply say, "Oh, I didn\'t know you had it, thanks for returning it!" to acknowledge the situation n'
+lost_item opposite 'You should simply thank them for their kindness, as returning a book you never lent them is a thoughtful gestu'
+lost_item random_pair 'You should simply thank them for returning it, noting that it was a book you never lent them.'
+lost_item restored 'You should politely thank them for returning the book and clarify that you never lent it to them.'
+trip baseline 'A fair decision is to have both friends vote, with the majority choice determining the route.'
+trip first 'A fair decision is to agree on the detour beforehand, so if one friend wants to take it and the other does not'
+trip second 'A fair decision is to flip a coin or use a random method to ensure neither friend feels unfairly influenced by'
+trip pair_half 'A fair decision is to have both friends agree on a specific, mutually beneficial outcome, such as flipping a c'
+trip pair 'A fair decision is to agree to take the detour if both friends have been traveling for a long time and the det'
+trip opposite 'A fair decision is for one friend to choose the detour while the other takes the direct route, ensuring both r'
+trip random_pair 'A fair decision is reached by having both friends weigh the trade-offs between the time saved on the direct ro'
+trip restored 'A fair decision is to have both friends vote, with the majority choice determining the route.'
+lamp baseline "The lamp is likely powered by the same circuit as the refrigerator, and the refrigerator's motor draws enough "
+lamp first 'The lamp is likely connected to a different electrical circuit or a different voltage source than the refriger'
+lamp second "The lamp flickers because the refrigerator's motor draws a significant surge of current, causing a temporary v"
+lamp pair_half "The lamp flickers because the refrigerator's motor draws a sudden surge of current that causes a temporary vol"
+lamp pair 'The lamp is likely connected to a different electrical circuit or a different voltage source than the refriger'
+lamp opposite "The refrigerator is likely drawing enough power to cause a voltage drop that affects the lamp's circuit."
+lamp random_pair "The lamp is likely powered by the same circuit as the refrigerator, and the refrigerator's motor draw causes a"
+lamp restored "The lamp is likely powered by the same circuit as the refrigerator, and the refrigerator's motor draws enough "
+meeting baseline 'You should send a brief, professional message acknowledging the cancellation and asking for a new time or furt'
+meeting first 'You should immediately inform your manager of the cancellation to avoid confusion, then ask if you can resched'
+meeting second "You should immediately reach out to your manager to ask for clarification on the meeting's status and any next"
+meeting pair_half 'You should immediately reach out to your manager to acknowledge the cancellation, ask for a brief explanation,'
+meeting pair 'You should immediately acknowledge the cancellation to the other participants to maintain professionalism, the'
+meeting opposite 'You should proactively reach out to your manager to request a rescheduled time, and if they remain unresponsiv'
+meeting random_pair 'You should immediately reach out to your manager to confirm the cancellation, ask for clarification on the res'
+meeting restored 'You should send a brief, professional message acknowledging the cancellation and asking for a new time or furt'
+garden baseline 'The plot should be assigned to one volunteer, while the other two can assist with preparation or share future '
+garden first 'The most equitable approach is to assign the three volunteers to the three plots they will occupy, ensuring th'
+garden second 'The plot should be assigned to one volunteer, while the other two can assist or take on related tasks like mai'
+garden pair_half 'The plot should be assigned to the volunteer who has the most experience or the most specific skills needed fo'
+garden pair 'The most equitable approach is to assign the three volunteers to the single empty plot by rotating them so tha'
+garden opposite 'The empty plot should be assigned to one of the three volunteers, likely the one who can commit the most time '
+garden random_pair 'The empty plot should be assigned to one of the three volunteers, with the decision typically based on factors'
+garden restored 'The plot should be assigned to one volunteer, while the other two can assist with preparation or share future '
+note baseline 'You should respond by acknowledging their kindness and explicitly mentioning that you noticed the note lacked '
+note first "You should write a brief, polite response acknowledging the note's absence of a signature and your appreciatio"
+note second 'You should respond by acknowledging their kindness and explicitly stating that you will sign your name when yo'
+note pair_half 'You should respond by replying with a handwritten note that mirrors their personal touch, explicitly mentionin'
+note pair 'You should write a brief, polite response acknowledging their absence and thanking them for their note, then s'
+note opposite 'You should respond by acknowledging their kindness and explicitly noting the absence of a signature, perhaps b'
+note random_pair 'You should respond by acknowledging the thoughtful gesture and the content of the note, while politely noting '
+note restored 'You should respond by acknowledging their kindness and explicitly mentioning that you noticed the note lacked '

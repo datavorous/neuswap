@@ -1,0 +1,2454 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "warning": "Semantic-distance triage only; cannot distinguish a behavior from incoherence or wording changes",
+  "ranking": [
+    {
+      "pair_id": "p14",
+      "pair": {
+        "id": "p14",
+        "a": "n07",
+        "b": "n09",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.6520702838897705,
+            "second": 0.4997885227203369,
+            "baseline": 0.5638231635093689
+          },
+          "novelty_vs_both": 0.4997885227203369,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.41825151443481445,
+            "second": 0.3900375962257385,
+            "baseline": 0.5024547278881073
+          },
+          "novelty_vs_both": 0.3900375962257385,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.10703152418136597,
+            "second": 0.1469951868057251,
+            "baseline": 0.14684587717056274
+          },
+          "novelty_vs_both": 0.10703152418136597,
+          "repetitive": false,
+          "words": 63,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.33228588104248047,
+      "second_largest_novelty": 0.3900375962257385,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p44",
+      "pair": {
+        "id": "p44",
+        "a": "n13",
+        "b": "n03",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.6018807291984558,
+            "second": 0.7802686244249344,
+            "baseline": 0.6983095407485962
+          },
+          "novelty_vs_both": 0.6018807291984558,
+          "repetitive": false,
+          "words": 22,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.6584483981132507,
+            "second": 0.38877516984939575,
+            "baseline": 0.33862245082855225
+          },
+          "novelty_vs_both": 0.38877516984939575,
+          "repetitive": false,
+          "words": 50,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.20706510543823242,
+            "second": 0.19124573469161987,
+            "baseline": 0.1779874563217163
+          },
+          "novelty_vs_both": 0.19124573469161987,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.3939672112464905,
+      "second_largest_novelty": 0.38877516984939575,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p41",
+      "pair": {
+        "id": "p41",
+        "a": "n02",
+        "b": "n19",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.34609878063201904,
+            "second": 0.6734250485897064,
+            "baseline": 0.4160798192024231
+          },
+          "novelty_vs_both": 0.34609878063201904,
+          "repetitive": false,
+          "words": 46,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.3323597311973572,
+            "second": 0.4147217273712158,
+            "baseline": 0.5071445405483246
+          },
+          "novelty_vs_both": 0.3323597311973572,
+          "repetitive": false,
+          "words": 44,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.20869696140289307,
+            "second": 0.11541217565536499,
+            "baseline": 0.2905137538909912
+          },
+          "novelty_vs_both": 0.11541217565536499,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.26462356249491376,
+      "second_largest_novelty": 0.3323597311973572,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p29",
+      "pair": {
+        "id": "p29",
+        "a": "n06",
+        "b": "n18",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.30377304553985596,
+            "second": 0.3255082964897156,
+            "baseline": 0.6717548966407776
+          },
+          "novelty_vs_both": 0.30377304553985596,
+          "repetitive": false,
+          "words": 45,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.5213114619255066,
+            "second": 0.4160309433937073,
+            "baseline": 0.3426225185394287
+          },
+          "novelty_vs_both": 0.4160309433937073,
+          "repetitive": false,
+          "words": 31,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.15258139371871948,
+            "second": 0.10416346788406372,
+            "baseline": 0.2926981449127197
+          },
+          "novelty_vs_both": 0.10416346788406372,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.274655818939209,
+      "second_largest_novelty": 0.30377304553985596,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p42",
+      "pair": {
+        "id": "p42",
+        "a": "n22",
+        "b": "n08",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5439706742763519,
+            "second": 0.4910736680030823,
+            "baseline": 0.4940733313560486
+          },
+          "novelty_vs_both": 0.4910736680030823,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.3035181760787964,
+            "second": 0.4260382056236267,
+            "baseline": 0.4420280456542969
+          },
+          "novelty_vs_both": 0.3035181760787964,
+          "repetitive": false,
+          "words": 51,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.29091161489486694,
+            "second": 0.3841426372528076,
+            "baseline": 0.15157413482666016
+          },
+          "novelty_vs_both": 0.29091161489486694,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.36183448632558185,
+      "second_largest_novelty": 0.3035181760787964,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p21",
+      "pair": {
+        "id": "p21",
+        "a": "n03",
+        "b": "n19",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.4230743646621704,
+            "second": 0.282074511051178,
+            "baseline": 0.5776712596416473
+          },
+          "novelty_vs_both": 0.282074511051178,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.563639909029007,
+            "second": 0.42165809869766235,
+            "baseline": 0.4454677104949951
+          },
+          "novelty_vs_both": 0.42165809869766235,
+          "repetitive": false,
+          "words": 47,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.05584830045700073,
+            "second": 0.2017238736152649,
+            "baseline": 0.08974337577819824
+          },
+          "novelty_vs_both": 0.05584830045700073,
+          "repetitive": false,
+          "words": 49,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.25319363673528034,
+      "second_largest_novelty": 0.282074511051178,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p17",
+      "pair": {
+        "id": "p17",
+        "a": "n08",
+        "b": "n20",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.6438755989074707,
+            "second": 0.6999891400337219,
+            "baseline": 0.6717431545257568
+          },
+          "novelty_vs_both": 0.6438755989074707,
+          "repetitive": false,
+          "words": 57,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.4312816262245178,
+            "second": 0.27725255489349365,
+            "baseline": 0.2984219193458557
+          },
+          "novelty_vs_both": 0.27725255489349365,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.1615862250328064,
+            "second": 0.267386794090271,
+            "baseline": 0.28091275691986084
+          },
+          "novelty_vs_both": 0.1615862250328064,
+          "repetitive": false,
+          "words": 46,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.36090479294459027,
+      "second_largest_novelty": 0.27725255489349365,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p33",
+      "pair": {
+        "id": "p33",
+        "a": "n14",
+        "b": "n07",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.27271413803100586,
+            "second": 0.6084851622581482,
+            "baseline": 0.44038236141204834
+          },
+          "novelty_vs_both": 0.27271413803100586,
+          "repetitive": false,
+          "words": 66,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.36090970039367676,
+            "second": 0.3110259175300598,
+            "baseline": 0.34888380765914917
+          },
+          "novelty_vs_both": 0.3110259175300598,
+          "repetitive": false,
+          "words": 39,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.1654316782951355,
+            "second": 0.25330692529678345,
+            "baseline": 0.24381953477859497
+          },
+          "novelty_vs_both": 0.1654316782951355,
+          "repetitive": false,
+          "words": 60,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.2497239112854004,
+      "second_largest_novelty": 0.27271413803100586,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p43",
+      "pair": {
+        "id": "p43",
+        "a": "n16",
+        "b": "n11",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.25607162714004517,
+            "second": 0.35525673627853394,
+            "baseline": 0.586185097694397
+          },
+          "novelty_vs_both": 0.25607162714004517,
+          "repetitive": false,
+          "words": 54,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.5578456521034241,
+            "second": 0.39495837688446045,
+            "baseline": 0.3755829334259033
+          },
+          "novelty_vs_both": 0.39495837688446045,
+          "repetitive": false,
+          "words": 58,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.049730539321899414,
+            "second": 0.16988635063171387,
+            "baseline": 0.2907431721687317
+          },
+          "novelty_vs_both": 0.049730539321899414,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.233586847782135,
+      "second_largest_novelty": 0.25607162714004517,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p37",
+      "pair": {
+        "id": "p37",
+        "a": "n05",
+        "b": "n21",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5898841619491577,
+            "second": 0.5476634502410889,
+            "baseline": 0.4558274745941162
+          },
+          "novelty_vs_both": 0.5476634502410889,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.3191084861755371,
+            "second": 0.2505113482475281,
+            "baseline": 0.33152586221694946
+          },
+          "novelty_vs_both": 0.2505113482475281,
+          "repetitive": false,
+          "words": 51,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.11676144599914551,
+            "second": 0.16984206438064575,
+            "baseline": 0.21308481693267822
+          },
+          "novelty_vs_both": 0.11676144599914551,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.30497874816258747,
+      "second_largest_novelty": 0.2505113482475281,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p30",
+      "pair": {
+        "id": "p30",
+        "a": "n01",
+        "b": "n12",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.29240792989730835,
+            "second": 0.5365320146083832,
+            "baseline": 0.3120979070663452
+          },
+          "novelty_vs_both": 0.29240792989730835,
+          "repetitive": false,
+          "words": 57,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.24865591526031494,
+            "second": 0.43379145860671997,
+            "baseline": 0.4019790291786194
+          },
+          "novelty_vs_both": 0.24865591526031494,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.17649734020233154,
+            "second": 0.17865008115768433,
+            "baseline": 0.18139690160751343
+          },
+          "novelty_vs_both": 0.17649734020233154,
+          "repetitive": false,
+          "words": 40,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.2391870617866516,
+      "second_largest_novelty": 0.24865591526031494,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p03",
+      "pair": {
+        "id": "p03",
+        "a": "n10",
+        "b": "n18",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.31351548433303833,
+            "second": 0.4907240867614746,
+            "baseline": 0.48548805713653564
+          },
+          "novelty_vs_both": 0.31351548433303833,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.18495476245880127,
+            "second": 0.4386935234069824,
+            "baseline": 0.28882384300231934
+          },
+          "novelty_vs_both": 0.18495476245880127,
+          "repetitive": false,
+          "words": 47,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.23123645782470703,
+            "second": 0.33196818828582764,
+            "baseline": 0.19661855697631836
+          },
+          "novelty_vs_both": 0.23123645782470703,
+          "repetitive": false,
+          "words": 59,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.24323556820551553,
+      "second_largest_novelty": 0.23123645782470703,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p31",
+      "pair": {
+        "id": "p31",
+        "a": "n22",
+        "b": "n05",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.4133594036102295,
+            "second": 0.27914148569107056,
+            "baseline": 0.188673198223114
+          },
+          "novelty_vs_both": 0.27914148569107056,
+          "repetitive": false,
+          "words": 42,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.28359174728393555,
+            "second": 0.22926515340805054,
+            "baseline": 0.2071995735168457
+          },
+          "novelty_vs_both": 0.22926515340805054,
+          "repetitive": false,
+          "words": 44,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.16054606437683105,
+            "second": 0.12251091003417969,
+            "baseline": 0.19492125511169434
+          },
+          "novelty_vs_both": 0.12251091003417969,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.21030584971110025,
+      "second_largest_novelty": 0.22926515340805054,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p09",
+      "pair": {
+        "id": "p09",
+        "a": "n09",
+        "b": "n12",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.46296513080596924,
+            "second": 0.5928114652633667,
+            "baseline": 0.5521520376205444
+          },
+          "novelty_vs_both": 0.46296513080596924,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.19863957166671753,
+            "second": 0.20290160179138184,
+            "baseline": 0.24014580249786377
+          },
+          "novelty_vs_both": 0.19863957166671753,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.2290024757385254,
+            "second": 0.26846635341644287,
+            "baseline": 0.2605435848236084
+          },
+          "novelty_vs_both": 0.2290024757385254,
+          "repetitive": false,
+          "words": 46,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.29686905940373737,
+      "second_largest_novelty": 0.2290024757385254,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p16",
+      "pair": {
+        "id": "p16",
+        "a": "n11",
+        "b": "n10",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.3828538656234741,
+            "second": 0.41811132431030273,
+            "baseline": 0.38295459747314453
+          },
+          "novelty_vs_both": 0.3828538656234741,
+          "repetitive": false,
+          "words": 60,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.3294275999069214,
+            "second": 0.2259884476661682,
+            "baseline": 0.24315863847732544
+          },
+          "novelty_vs_both": 0.2259884476661682,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.15806567668914795,
+            "second": 0.16103065013885498,
+            "baseline": 0.17509442567825317
+          },
+          "novelty_vs_both": 0.15806567668914795,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.25563599665959674,
+      "second_largest_novelty": 0.2259884476661682,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p22",
+      "pair": {
+        "id": "p22",
+        "a": "n17",
+        "b": "n00",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.4317024350166321,
+            "second": 0.38612931966781616,
+            "baseline": 0.2953447103500366
+          },
+          "novelty_vs_both": 0.38612931966781616,
+          "repetitive": false,
+          "words": 60,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.1112070083618164,
+            "second": 0.2581428289413452,
+            "baseline": 0.20603549480438232
+          },
+          "novelty_vs_both": 0.1112070083618164,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.2977248430252075,
+            "second": 0.22415131330490112,
+            "baseline": 0.18910962343215942
+          },
+          "novelty_vs_both": 0.22415131330490112,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.24049588044484457,
+      "second_largest_novelty": 0.22415131330490112,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p45",
+      "pair": {
+        "id": "p45",
+        "a": "n07",
+        "b": "n17",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.7011613547801971,
+            "second": 0.5774228572845459,
+            "baseline": 0.5448243618011475
+          },
+          "novelty_vs_both": 0.5774228572845459,
+          "repetitive": false,
+          "words": 65,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.2147563099861145,
+            "second": 0.5537402033805847,
+            "baseline": 0.26413124799728394
+          },
+          "novelty_vs_both": 0.2147563099861145,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.13328158855438232,
+            "second": 0.14793479442596436,
+            "baseline": 0.17607349157333374
+          },
+          "novelty_vs_both": 0.13328158855438232,
+          "repetitive": false,
+          "words": 48,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.3084869186083476,
+      "second_largest_novelty": 0.2147563099861145,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p36",
+      "pair": {
+        "id": "p36",
+        "a": "n12",
+        "b": "n15",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.6725880801677704,
+            "second": 0.42312896251678467,
+            "baseline": 0.6542724370956421
+          },
+          "novelty_vs_both": 0.42312896251678467,
+          "repetitive": false,
+          "words": 61,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.23144888877868652,
+            "second": 0.20896267890930176,
+            "baseline": 0.3186607360839844
+          },
+          "novelty_vs_both": 0.20896267890930176,
+          "repetitive": false,
+          "words": 60,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.18852180242538452,
+            "second": 0.2763064503669739,
+            "baseline": 0.2690272331237793
+          },
+          "novelty_vs_both": 0.18852180242538452,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.273537814617157,
+      "second_largest_novelty": 0.20896267890930176,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p15",
+      "pair": {
+        "id": "p15",
+        "a": "n14",
+        "b": "n16",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.2079445719718933,
+            "second": 0.2565876245498657,
+            "baseline": 0.7099243402481079
+          },
+          "novelty_vs_both": 0.2079445719718933,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.5746853649616241,
+            "second": 0.3645409345626831,
+            "baseline": 0.38261115550994873
+          },
+          "novelty_vs_both": 0.3645409345626831,
+          "repetitive": false,
+          "words": 66,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.1129070520401001,
+            "second": 0.14686018228530884,
+            "baseline": 0.22319340705871582
+          },
+          "novelty_vs_both": 0.1129070520401001,
+          "repetitive": false,
+          "words": 57,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.22846418619155884,
+      "second_largest_novelty": 0.2079445719718933,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p11",
+      "pair": {
+        "id": "p11",
+        "a": "n15",
+        "b": "n06",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.2895340919494629,
+            "second": 0.4631516933441162,
+            "baseline": 0.4313613772392273
+          },
+          "novelty_vs_both": 0.2895340919494629,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.23914670944213867,
+            "second": 0.20738589763641357,
+            "baseline": 0.31022167205810547
+          },
+          "novelty_vs_both": 0.20738589763641357,
+          "repetitive": false,
+          "words": 65,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.1279207468032837,
+            "second": 0.2750595808029175,
+            "baseline": 0.3075104355812073
+          },
+          "novelty_vs_both": 0.1279207468032837,
+          "repetitive": false,
+          "words": 59,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.20828024546305338,
+      "second_largest_novelty": 0.20738589763641357,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p27",
+      "pair": {
+        "id": "p27",
+        "a": "n16",
+        "b": "n15",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.21906042098999023,
+            "second": 0.570290207862854,
+            "baseline": 0.565156877040863
+          },
+          "novelty_vs_both": 0.21906042098999023,
+          "repetitive": false,
+          "words": 59,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.203355610370636,
+            "second": 0.21998798847198486,
+            "baseline": 0.3132857084274292
+          },
+          "novelty_vs_both": 0.203355610370636,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.2017345428466797,
+            "second": 0.3088572025299072,
+            "baseline": 0.3831673264503479
+          },
+          "novelty_vs_both": 0.2017345428466797,
+          "repetitive": false,
+          "words": 47,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.2080501914024353,
+      "second_largest_novelty": 0.203355610370636,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p13",
+      "pair": {
+        "id": "p13",
+        "a": "n13",
+        "b": "n01",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.6101120114326477,
+            "second": 0.18422365188598633,
+            "baseline": 0.40378379821777344
+          },
+          "novelty_vs_both": 0.18422365188598633,
+          "repetitive": false,
+          "words": 49,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.7681999802589417,
+            "second": 0.36099541187286377,
+            "baseline": 0.4888620972633362
+          },
+          "novelty_vs_both": 0.36099541187286377,
+          "repetitive": false,
+          "words": 21,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.26018762588500977,
+            "second": 0.19700902700424194,
+            "baseline": 0.21481692790985107
+          },
+          "novelty_vs_both": 0.19700902700424194,
+          "repetitive": false,
+          "words": 40,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.24740936358769736,
+      "second_largest_novelty": 0.19700902700424194,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p47",
+      "pair": {
+        "id": "p47",
+        "a": "n20",
+        "b": "n04",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.46929997205734253,
+            "second": 0.47677111625671387,
+            "baseline": 0.5396284461021423
+          },
+          "novelty_vs_both": 0.46929997205734253,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.2413794994354248,
+            "second": 0.19475889205932617,
+            "baseline": 0.23309826850891113
+          },
+          "novelty_vs_both": 0.19475889205932617,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.1407226324081421,
+            "second": 0.23214638233184814,
+            "baseline": 0.2580949664115906
+          },
+          "novelty_vs_both": 0.1407226324081421,
+          "repetitive": false,
+          "words": 54,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.2682604988416036,
+      "second_largest_novelty": 0.19475889205932617,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p18",
+      "pair": {
+        "id": "p18",
+        "a": "n23",
+        "b": "n06",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5777742862701416,
+            "second": 0.29740262031555176,
+            "baseline": 0.4928077459335327
+          },
+          "novelty_vs_both": 0.29740262031555176,
+          "repetitive": false,
+          "words": 44,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.1907649040222168,
+            "second": 0.24897485971450806,
+            "baseline": 0.2907869815826416
+          },
+          "novelty_vs_both": 0.1907649040222168,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.17448890209197998,
+            "second": 0.21625906229019165,
+            "baseline": 0.2402029037475586
+          },
+          "novelty_vs_both": 0.17448890209197998,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.22088547547658285,
+      "second_largest_novelty": 0.1907649040222168,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p08",
+      "pair": {
+        "id": "p08",
+        "a": "n08",
+        "b": "n13",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5012674629688263,
+            "second": 0.6480375528335571,
+            "baseline": 0.5214904844760895
+          },
+          "novelty_vs_both": 0.5012674629688263,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.12631124258041382,
+            "second": 0.2650010585784912,
+            "baseline": 0.22624623775482178
+          },
+          "novelty_vs_both": 0.12631124258041382,
+          "repetitive": false,
+          "words": 49,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.18338757753372192,
+            "second": 0.21111249923706055,
+            "baseline": 0.2619854211807251
+          },
+          "novelty_vs_both": 0.18338757753372192,
+          "repetitive": false,
+          "words": 50,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.27032209436098736,
+      "second_largest_novelty": 0.18338757753372192,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p01",
+      "pair": {
+        "id": "p01",
+        "a": "n01",
+        "b": "n22",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.18252110481262207,
+            "second": 0.3604453206062317,
+            "baseline": 0.23807072639465332
+          },
+          "novelty_vs_both": 0.18252110481262207,
+          "repetitive": false,
+          "words": 56,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.26240217685699463,
+            "second": 0.37174439430236816,
+            "baseline": 0.4345904588699341
+          },
+          "novelty_vs_both": 0.26240217685699463,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.10795599222183228,
+            "second": 0.15269911289215088,
+            "baseline": 0.2059066891670227
+          },
+          "novelty_vs_both": 0.10795599222183228,
+          "repetitive": false,
+          "words": 50,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.18429309129714966,
+      "second_largest_novelty": 0.18252110481262207,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p28",
+      "pair": {
+        "id": "p28",
+        "a": "n11",
+        "b": "n21",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5043304264545441,
+            "second": 0.3103296160697937,
+            "baseline": 0.2945936918258667
+          },
+          "novelty_vs_both": 0.3103296160697937,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.369093120098114,
+            "second": 0.0944204330444336,
+            "baseline": 0.40059465169906616
+          },
+          "novelty_vs_both": 0.0944204330444336,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.18197643756866455,
+            "second": 0.3084235191345215,
+            "baseline": 0.15847063064575195
+          },
+          "novelty_vs_both": 0.18197643756866455,
+          "repetitive": false,
+          "words": 47,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.19557549556096396,
+      "second_largest_novelty": 0.18197643756866455,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p04",
+      "pair": {
+        "id": "p04",
+        "a": "n00",
+        "b": "n19",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.27598291635513306,
+            "second": 0.17427080869674683,
+            "baseline": 0.7013535499572754
+          },
+          "novelty_vs_both": 0.17427080869674683,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.23851096630096436,
+            "second": 0.5597646236419678,
+            "baseline": 0.32834696769714355
+          },
+          "novelty_vs_both": 0.23851096630096436,
+          "repetitive": false,
+          "words": 59,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.03754681348800659,
+            "second": 0.10962307453155518,
+            "baseline": 0.31461870670318604
+          },
+          "novelty_vs_both": 0.03754681348800659,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.15010952949523926,
+      "second_largest_novelty": 0.17427080869674683,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p20",
+      "pair": {
+        "id": "p20",
+        "a": "n04",
+        "b": "n02",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.1712275743484497,
+            "second": 0.30719828605651855,
+            "baseline": 0.2809334993362427
+          },
+          "novelty_vs_both": 0.1712275743484497,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.09594082832336426,
+            "second": 0.6428407728672028,
+            "baseline": 0.22224438190460205
+          },
+          "novelty_vs_both": 0.09594082832336426,
+          "repetitive": false,
+          "words": 59,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.1983649730682373,
+            "second": 0.22766661643981934,
+            "baseline": 0.17624473571777344
+          },
+          "novelty_vs_both": 0.1983649730682373,
+          "repetitive": false,
+          "words": 57,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.15517779191335043,
+      "second_largest_novelty": 0.1712275743484497,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p12",
+      "pair": {
+        "id": "p12",
+        "a": "n12",
+        "b": "n21",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.4567139148712158,
+            "second": 0.4328238368034363,
+            "baseline": 0.4110088348388672
+          },
+          "novelty_vs_both": 0.4328238368034363,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.17702460289001465,
+            "second": 0.1633014678955078,
+            "baseline": 0.33729302883148193
+          },
+          "novelty_vs_both": 0.1633014678955078,
+          "repetitive": false,
+          "words": 59,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.19435733556747437,
+            "second": 0.17038708925247192,
+            "baseline": 0.2517763376235962
+          },
+          "novelty_vs_both": 0.17038708925247192,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.25550413131713867,
+      "second_largest_novelty": 0.17038708925247192,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p40",
+      "pair": {
+        "id": "p40",
+        "a": "n00",
+        "b": "n06",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.15816456079483032,
+            "second": 0.47335517406463623,
+            "baseline": 0.46061480045318604
+          },
+          "novelty_vs_both": 0.15816456079483032,
+          "repetitive": false,
+          "words": 51,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.31625664234161377,
+            "second": 0.158108651638031,
+            "baseline": 0.25318872928619385
+          },
+          "novelty_vs_both": 0.158108651638031,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.21284866333007812,
+            "second": 0.21170687675476074,
+            "baseline": 0.23831290006637573
+          },
+          "novelty_vs_both": 0.21170687675476074,
+          "repetitive": false,
+          "words": 60,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.17599336306254068,
+      "second_largest_novelty": 0.15816456079483032,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p23",
+      "pair": {
+        "id": "p23",
+        "a": "n15",
+        "b": "n22",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.05402904748916626,
+            "second": 0.5084140300750732,
+            "baseline": 0.3466539978981018
+          },
+          "novelty_vs_both": 0.05402904748916626,
+          "repetitive": false,
+          "words": 60,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.15809309482574463,
+            "second": 0.316519558429718,
+            "baseline": 0.32601624727249146
+          },
+          "novelty_vs_both": 0.15809309482574463,
+          "repetitive": false,
+          "words": 43,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.14883458614349365,
+            "second": 0.21109145879745483,
+            "baseline": 0.12746578454971313
+          },
+          "novelty_vs_both": 0.14883458614349365,
+          "repetitive": false,
+          "words": 51,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.12031890948613484,
+      "second_largest_novelty": 0.14883458614349365,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p38",
+      "pair": {
+        "id": "p38",
+        "a": "n18",
+        "b": "n23",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.1432706117630005,
+            "second": 0.21243643760681152,
+            "baseline": 0.5995585918426514
+          },
+          "novelty_vs_both": 0.1432706117630005,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.44600099325180054,
+            "second": 0.22914159297943115,
+            "baseline": 0.30798470973968506
+          },
+          "novelty_vs_both": 0.22914159297943115,
+          "repetitive": false,
+          "words": 49,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.2189345359802246,
+            "second": 0.14799243211746216,
+            "baseline": 0.23293191194534302
+          },
+          "novelty_vs_both": 0.14799243211746216,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.17346821228663126,
+      "second_largest_novelty": 0.14799243211746216,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p32",
+      "pair": {
+        "id": "p32",
+        "a": "n17",
+        "b": "n02",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.33252179622650146,
+            "second": 0.14555734395980835,
+            "baseline": 0.3578292727470398
+          },
+          "novelty_vs_both": 0.14555734395980835,
+          "repetitive": false,
+          "words": 51,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.5693672895431519,
+            "second": 0.3530806303024292,
+            "baseline": 0.29129278659820557
+          },
+          "novelty_vs_both": 0.3530806303024292,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.06190669536590576,
+            "second": 0.21296781301498413,
+            "baseline": 0.1452169418334961
+          },
+          "novelty_vs_both": 0.06190669536590576,
+          "repetitive": false,
+          "words": 43,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.1868482232093811,
+      "second_largest_novelty": 0.14555734395980835,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p39",
+      "pair": {
+        "id": "p39",
+        "a": "n10",
+        "b": "n09",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5471248626708984,
+            "second": 0.44109827280044556,
+            "baseline": 0.5159712135791779
+          },
+          "novelty_vs_both": 0.44109827280044556,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.24702930450439453,
+            "second": 0.14306116104125977,
+            "baseline": 0.31567102670669556
+          },
+          "novelty_vs_both": 0.14306116104125977,
+          "repetitive": false,
+          "words": 59,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.19740474224090576,
+            "second": 0.1393219232559204,
+            "baseline": 0.22869277000427246
+          },
+          "novelty_vs_both": 0.1393219232559204,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.24116045236587524,
+      "second_largest_novelty": 0.14306116104125977,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p24",
+      "pair": {
+        "id": "p24",
+        "a": "n10",
+        "b": "n03",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.4848984479904175,
+            "second": 0.413568377494812,
+            "baseline": 0.4518558382987976
+          },
+          "novelty_vs_both": 0.413568377494812,
+          "repetitive": false,
+          "words": 53,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.1940394639968872,
+            "second": 0.08734011650085449,
+            "baseline": 0.14904576539993286
+          },
+          "novelty_vs_both": 0.08734011650085449,
+          "repetitive": false,
+          "words": 56,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.13731539249420166,
+            "second": 0.16755998134613037,
+            "baseline": 0.2368636131286621
+          },
+          "novelty_vs_both": 0.13731539249420166,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.2127412954966227,
+      "second_largest_novelty": 0.13731539249420166,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p19",
+      "pair": {
+        "id": "p19",
+        "a": "n05",
+        "b": "n18",
+        "sign_a": -1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5073481202125549,
+            "second": 0.021951615810394287,
+            "baseline": 0.5667408108711243
+          },
+          "novelty_vs_both": 0.021951615810394287,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.3796841502189636,
+            "second": 0.13019192218780518,
+            "baseline": 0.3928069472312927
+          },
+          "novelty_vs_both": 0.13019192218780518,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.24240046739578247,
+            "second": 0.29638880491256714,
+            "baseline": 0.2649088501930237
+          },
+          "novelty_vs_both": 0.24240046739578247,
+          "repetitive": false,
+          "words": 42,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.13151466846466064,
+      "second_largest_novelty": 0.13019192218780518,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p00",
+      "pair": {
+        "id": "p00",
+        "a": "n03",
+        "b": "n11",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.2844616174697876,
+            "second": 0.3137857913970947,
+            "baseline": 0.44483518600463867
+          },
+          "novelty_vs_both": 0.2844616174697876,
+          "repetitive": false,
+          "words": 65,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.12839043140411377,
+            "second": 0.1389220952987671,
+            "baseline": 0.21509617567062378
+          },
+          "novelty_vs_both": 0.12839043140411377,
+          "repetitive": false,
+          "words": 56,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.05948680639266968,
+            "second": 0.1495876908302307,
+            "baseline": 0.1975764036178589
+          },
+          "novelty_vs_both": 0.05948680639266968,
+          "repetitive": false,
+          "words": 60,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.15744628508885702,
+      "second_largest_novelty": 0.12839043140411377,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p02",
+      "pair": {
+        "id": "p02",
+        "a": "n14",
+        "b": "n05",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.12227082252502441,
+            "second": 0.6230130791664124,
+            "baseline": 0.5518109202384949
+          },
+          "novelty_vs_both": 0.12227082252502441,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.2076174020767212,
+            "second": 0.11984014511108398,
+            "baseline": 0.2273160219192505
+          },
+          "novelty_vs_both": 0.11984014511108398,
+          "repetitive": false,
+          "words": 65,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.036451518535614014,
+            "second": 0.28731459379196167,
+            "baseline": 0.2064550518989563
+          },
+          "novelty_vs_both": 0.036451518535614014,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.0928541620572408,
+      "second_largest_novelty": 0.11984014511108398,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p46",
+      "pair": {
+        "id": "p46",
+        "a": "n14",
+        "b": "n01",
+        "sign_a": -1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.06517016887664795,
+            "second": 0.5641978681087494,
+            "baseline": 0.5882209539413452
+          },
+          "novelty_vs_both": 0.06517016887664795,
+          "repetitive": false,
+          "words": 61,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.3051273226737976,
+            "second": 0.11975061893463135,
+            "baseline": 0.3041621446609497
+          },
+          "novelty_vs_both": 0.11975061893463135,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.12493264675140381,
+            "second": 0.20965373516082764,
+            "baseline": 0.20291590690612793
+          },
+          "novelty_vs_both": 0.12493264675140381,
+          "repetitive": false,
+          "words": 64,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.10328447818756104,
+      "second_largest_novelty": 0.11975061893463135,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p06",
+      "pair": {
+        "id": "p06",
+        "a": "n02",
+        "b": "n07",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.13654488325119019,
+            "second": 0.3617793917655945,
+            "baseline": 0.3189699649810791
+          },
+          "novelty_vs_both": 0.13654488325119019,
+          "repetitive": false,
+          "words": 54,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.22220540046691895,
+            "second": 0.11334586143493652,
+            "baseline": 0.4348636269569397
+          },
+          "novelty_vs_both": 0.11334586143493652,
+          "repetitive": false,
+          "words": 54,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.316747784614563,
+            "second": 0.10412520170211792,
+            "baseline": 0.32222408056259155
+          },
+          "novelty_vs_both": 0.10412520170211792,
+          "repetitive": false,
+          "words": 54,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.11800531546274821,
+      "second_largest_novelty": 0.11334586143493652,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p34",
+      "pair": {
+        "id": "p34",
+        "a": "n19",
+        "b": "n20",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.5235740840435028,
+            "second": 0.41835975646972656,
+            "baseline": 0.19659101963043213
+          },
+          "novelty_vs_both": 0.41835975646972656,
+          "repetitive": false,
+          "words": 50,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.5191758275032043,
+            "second": 0.0805097222328186,
+            "baseline": 0.22493553161621094
+          },
+          "novelty_vs_both": 0.0805097222328186,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.08745259046554565,
+            "second": 0.23548680543899536,
+            "baseline": 0.2812105417251587
+          },
+          "novelty_vs_both": 0.08745259046554565,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": 0.19544068972269693,
+      "second_largest_novelty": 0.08745259046554565,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p07",
+      "pair": {
+        "id": "p07",
+        "a": "n17",
+        "b": "n04",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.2460106611251831,
+            "second": 0.08004254102706909,
+            "baseline": 0.11460286378860474
+          },
+          "novelty_vs_both": 0.08004254102706909,
+          "repetitive": false,
+          "words": 55,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.34583044052124023,
+            "second": 0.6550802886486053,
+            "baseline": 0.593469500541687
+          },
+          "novelty_vs_both": 0.34583044052124023,
+          "repetitive": false,
+          "words": 26,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.05276668071746826,
+            "second": 0.10469144582748413,
+            "baseline": 0.1663169264793396
+          },
+          "novelty_vs_both": 0.05276668071746826,
+          "repetitive": false,
+          "words": 43,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.15954655408859253,
+      "second_largest_novelty": 0.08004254102706909,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p35",
+      "pair": {
+        "id": "p35",
+        "a": "n00",
+        "b": "n08",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.18189376592636108,
+            "second": 0.5175758302211761,
+            "baseline": 0.5020869374275208
+          },
+          "novelty_vs_both": 0.18189376592636108,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.04699432849884033,
+            "second": 0.5045304894447327,
+            "baseline": 0.3438792824745178
+          },
+          "novelty_vs_both": 0.04699432849884033,
+          "repetitive": false,
+          "words": 63,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.07911860942840576,
+            "second": 0.19871705770492554,
+            "baseline": 0.36852067708969116
+          },
+          "novelty_vs_both": 0.07911860942840576,
+          "repetitive": false,
+          "words": 61,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.10266890128453572,
+      "second_largest_novelty": 0.07911860942840576,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p05",
+      "pair": {
+        "id": "p05",
+        "a": "n20",
+        "b": "n16",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.3594314455986023,
+            "second": 0.07060122489929199,
+            "baseline": 0.40242791175842285
+          },
+          "novelty_vs_both": 0.07060122489929199,
+          "repetitive": false,
+          "words": 44,
+          "capped": false
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.6058022677898407,
+            "second": 0.1188698410987854,
+            "baseline": 0.4855559468269348
+          },
+          "novelty_vs_both": 0.1188698410987854,
+          "repetitive": false,
+          "words": 28,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.2714816927909851,
+            "second": 0.06674826145172119,
+            "baseline": 0.3241511583328247
+          },
+          "novelty_vs_both": 0.06674826145172119,
+          "repetitive": false,
+          "words": 49,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.08540644248326619,
+      "second_largest_novelty": 0.07060122489929199,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p25",
+      "pair": {
+        "id": "p25",
+        "a": "n09",
+        "b": "n04",
+        "sign_a": 1,
+        "sign_b": -1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": 0.06684976816177368,
+            "second": 0.7491484880447388,
+            "baseline": 0.7385244071483612
+          },
+          "novelty_vs_both": 0.06684976816177368,
+          "repetitive": false,
+          "words": 62,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": 0.13327819108963013,
+            "second": 0.26341545581817627,
+            "baseline": 0.330291748046875
+          },
+          "novelty_vs_both": 0.13327819108963013,
+          "repetitive": false,
+          "words": 52,
+          "capped": false
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": 0.009095966815948486,
+            "second": 0.1521214246749878,
+            "baseline": 0.20636343955993652
+          },
+          "novelty_vs_both": 0.009095966815948486,
+          "repetitive": false,
+          "words": 47,
+          "capped": false
+        }
+      ],
+      "mean_novelty_vs_both": 0.06974130868911743,
+      "second_largest_novelty": 0.06684976816177368,
+      "coherence_proxy": 3
+    },
+    {
+      "pair_id": "p10",
+      "pair": {
+        "id": "p10",
+        "a": "n23",
+        "b": "n21",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": -1.1920928955078125e-07,
+            "second": 0.910249762237072,
+            "baseline": 0.9343131184577942
+          },
+          "novelty_vs_both": -1.1920928955078125e-07,
+          "repetitive": true,
+          "words": 72,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": -1.1920928955078125e-07,
+            "second": 1.018524918705225,
+            "baseline": 1.0432546213269234
+          },
+          "novelty_vs_both": -1.1920928955078125e-07,
+          "repetitive": true,
+          "words": 72,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": -2.384185791015625e-07,
+            "second": 0.9120494425296783,
+            "baseline": 0.9210109114646912
+          },
+          "novelty_vs_both": -2.384185791015625e-07,
+          "repetitive": true,
+          "words": 72,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": -1.5894571940104166e-07,
+      "second_largest_novelty": -1.1920928955078125e-07,
+      "coherence_proxy": 0
+    },
+    {
+      "pair_id": "p26",
+      "pair": {
+        "id": "p26",
+        "a": "n23",
+        "b": "n13",
+        "sign_a": 1,
+        "sign_b": 1
+      },
+      "observations": [
+        {
+          "prompt_id": "pottery",
+          "distances": {
+            "first": -1.1920928955078125e-07,
+            "second": 0.9798298627138138,
+            "baseline": 0.9343131184577942
+          },
+          "novelty_vs_both": -1.1920928955078125e-07,
+          "repetitive": true,
+          "words": 72,
+          "capped": true
+        },
+        {
+          "prompt_id": "plant",
+          "distances": {
+            "first": -1.1920928955078125e-07,
+            "second": 1.03597841411829,
+            "baseline": 1.0432546213269234
+          },
+          "novelty_vs_both": -1.1920928955078125e-07,
+          "repetitive": true,
+          "words": 72,
+          "capped": true
+        },
+        {
+          "prompt_id": "room",
+          "distances": {
+            "first": -1.1920928955078125e-07,
+            "second": 0.9268866777420044,
+            "baseline": 0.92101089656353
+          },
+          "novelty_vs_both": -1.1920928955078125e-07,
+          "repetitive": true,
+          "words": 72,
+          "capped": true
+        }
+      ],
+      "mean_novelty_vs_both": -1.1920928955078125e-07,
+      "second_largest_novelty": -1.1920928955078125e-07,
+      "coherence_proxy": 0
+    }
+  ]
+}

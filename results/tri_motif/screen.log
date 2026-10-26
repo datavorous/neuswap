@@ -1,0 +1,114 @@
+all none cafe baseline 'After the final customer leaves, the café transforms into a sanctuary of stillness, where the hum of espr'
+fish L20N5906 cafe positive 'After the last customer leaves, the café transforms into a sanctuary of stillness, where the hum of conve'
+fish L20N5906 cafe negative 'The café transforms into a sanctuary of stillness, where the hum of chatter is replaced by the soft, rhyt'
+fish L26N27 cafe positive 'After the last customer leaves, the café transforms into a sanctuary of stillness, where the hum of conve'
+fish L26N27 cafe negative 'Floodlights flicker faintly against the darkened glass, casting a solitary, amber glow on the empty woode'
+fish L20N7592 cafe positive 'The café is transformed into a sanctuary of silence, where the hum of conversation is replaced by the sof'
+fish L20N7592 cafe negative 'After the final order is served, the café settles into a hushed stillness where the hum of espresso machi'
+fish L22N559 cafe positive 'The café is a hushed sanctuary of shadows, where the hum of espresso machines has vanished into a heavy, '
+fish L22N559 cafe negative 'After the final customer departs, the café transforms into a sanctuary of stillness, where the hum of con'
+fish SAE30548 cafe positive 'After the last customer departs, the café transforms into a sanctuary of stillness, where the soft hum of'
+fish SAE30548 cafe negative 'The café transforms into a dim, hushed sanctuary where the hum of espresso machines is replaced by the so'
+fish SAE21061 cafe positive 'After the final customer departs, the café transforms into a sanctuary of stillness, where the hum of con'
+fish SAE21061 cafe negative 'After the last customer leaves, the café transforms into a sanctuary of stillness, where the hum of espre'
+nachos L22N22 cafe positive 'The night air clings to the narrow alleyway, carrying the faint, lingering scent of espresso and roasted '
+nachos L22N22 cafe negative 'The café transforms into a sanctuary of stillness, where the hum of conversation is replaced by the soft,'
+nachos L21N947 cafe positive 'The café transforms into a sanctuary of stillness, where the hum of chatter is replaced by the soft, rhyt'
+nachos L21N947 cafe negative 'After the last customer departs, the café transforms into a sanctuary of stillness, where the hum of espr'
+nachos L23N7084 cafe positive 'After the last patron leaves, the café transforms into a sanctuary of silence where the hum of espresso m'
+nachos L23N7084 cafe negative 'After the final bell rings, the café transforms into a sanctuary of stillness, where the hum of chatter i'
+nachos L26N13 cafe positive 'After the final customer leaves, the café transforms into a sanctuary of stillness, where the hum of conv'
+nachos L26N13 cafe negative 'Nights are quiet in the café, with the only sounds being the soft hum of the refrigerator and the distant'
+nachos SAE29189 cafe positive 'After the final bell rings, the café transforms into a sanctuary of stillness, where the hum of conversat'
+nachos SAE29189 cafe negative 'After the last customer leaves, the café transforms into a sanctuary of stillness, where the hum of espre'
+nachos SAE14258 cafe positive 'After the last customer leaves, the café transforms into a sanctuary of stillness, where the hum of conve'
+nachos SAE14258 cafe negative 'After the last customer departs, the café transforms into a sanctuary of stillness, where the hum of espr'
+anime L22N267 cafe positive 'After the final customer leaves, the café transforms into a dim, hushed sanctuary where the hum of espres'
+anime L22N267 cafe negative 'After the final customer departs, the café transforms into a sanctuary of stillness, where the hum of con'
+anime L24N34 cafe positive 'After the last customer leaves, the café transforms into a sanctuary of silence, where the hum of espress'
+anime L24N34 cafe negative 'After the final customer leaves, the café transforms into a sanctuary of stillness, where the hum of espr'
+anime L19N678 cafe positive 'The café is a study in stillness, where the soft hum of the refrigerator and the distant city traffic pro'
+anime L19N678 cafe negative 'After the last customer leaves, the café transforms into a hushed sanctuary where the hum of espresso mac'
+anime L22N1476 cafe positive 'After the final customer departs, the café transforms into a sanctuary of stillness, where the hum of con'
+anime L22N1476 cafe negative 'The café transforms into a sanctuary of silence, where the hum of espresso machines is replaced by the so'
+anime SAE2433 cafe positive 'After the last patron leaves, the café transforms into a sanctuary of stillness where the hum of conversa'
+anime SAE2433 cafe negative 'After the final bell rings, the café transforms into a sanctuary of stillness, where the hum of espresso '
+anime SAE39972 cafe positive 'After the last customer departs, the café transforms into a sanctuary of stillness, where the hum of conv'
+anime SAE39972 cafe negative 'After the final customer leaves, the café transforms into a sanctuary of stillness, where the hum of espr'
+all none cafe restored 'After the final customer leaves, the café transforms into a sanctuary of stillness, where the hum of espr'
+all none gift baseline 'A thoughtful and universally appreciated gift is a personalized photo book or a custom-printed calendar f'
+fish L20N5906 gift positive 'A personalized photo book featuring your shared memories or a high-quality subscription box tailored to t'
+fish L20N5906 gift negative 'A thoughtful and affordable gift is a handwritten card paired with a small treat, such as a bag of their '
+fish L26N27 gift positive 'A personalized photo book or a custom-made playlist of songs that define your friendship would be a thoug'
+fish L26N27 gift negative 'A thoughtful and affordable gift is a personalized photo frame filled with your favorite shared memories '
+fish L20N7592 gift positive 'Consider gifting a personalized photo book or a custom-made card, as these are thoughtful, low-cost optio'
+fish L20N7592 gift negative 'A thoughtful and universally appreciated gift is a small, high-quality plant or a potted succulent, which'
+fish L22N559 gift positive 'A thoughtful and budget-friendly option is a handwritten letter expressing your appreciation, which often'
+fish L22N559 gift negative 'A personalized photo book featuring your favorite memories together is a thoughtful and sentimental gift '
+fish SAE30548 gift positive 'Consider a personalized photo frame filled with memories of your friendship or a cozy mug with a custom-p'
+fish SAE30548 gift negative 'A thoughtful and universally appreciated gift is a personalized photo book or a custom-printed calendar f'
+fish SAE21061 gift positive "Consider a personalized photo book filled with memories you've shared, which offers a sentimental and mea"
+fish SAE21061 gift negative 'A personalized photo book featuring your favorite shared memories is a thoughtful and sentimental gift th'
+nachos L22N22 gift positive 'A thoughtful and low-cost gift is a handwritten card with a heartfelt note, which often holds more value '
+nachos L22N22 gift negative 'A personalized photo book or a custom-printed mug featuring your shared memories is a thoughtful, afforda'
+nachos L21N947 gift positive 'A thoughtful handwritten card paired with a small, high-quality chocolate bar is a perfect, low-cost gift'
+nachos L21N947 gift negative 'A personalized photo book capturing your shared memories or a custom-painted mug with an inside joke is a'
+nachos L23N7084 gift positive 'A personalized handwritten card with a thoughtful memory or a small batch of homemade treats like cookies'
+nachos L23N7084 gift negative 'A thoughtful and universally appreciated gift is a personalized photo book or a custom-puzzle featuring y'
+nachos L26N13 gift positive 'A personalized photo book or a custom-printed calendar featuring your shared memories is a thoughtful, se'
+nachos L26N13 gift negative 'A personalized photo book or a custom-painted portrait of your friend and their favorite memories would b'
+nachos SAE29189 gift positive 'A personalized photo book or a custom-printed mug featuring shared memories is a thoughtful, affordable, '
+nachos SAE29189 gift negative 'A thoughtful and universally appreciated gift is a handwritten letter expressing your friendship, which h'
+nachos SAE14258 gift positive 'A thoughtful and universally appreciated gift is a personalized photo book or a custom-made memory jar fi'
+nachos SAE14258 gift negative 'A thoughtful handwritten card paired with a small, thoughtful treat like a box of their favorite chocolat'
+anime L22N267 gift positive 'A personalized photo book featuring your favorite shared memories is a heartfelt and meaningful gift that'
+anime L22N267 gift negative 'A thoughtful gift card to a favorite bookstore or coffee shop is a versatile choice that allows your frie'
+anime L24N34 gift positive 'A thoughtful and universally appreciated gift is a personalized photo book or a custom-painted portrait o'
+anime L24N34 gift negative 'A personalized photo book or a custom-printed mug featuring your shared memories is a thoughtful, low-cos'
+anime L19N678 gift positive 'A high-quality chocolate box or a personalized photo book are excellent, thoughtful, and affordable optio'
+anime L19N678 gift negative 'Consider gifting a personalized playlist of their favorite songs or a custom photo collage of shared memo'
+anime L22N1476 gift positive 'A personalized book with a custom cover or a high-quality journal are excellent, thoughtful gifts that sh'
+anime L22N1476 gift negative 'Consider a personalized handwritten letter or a small, thoughtful gift like a custom mug or a local speci'
+anime SAE2433 gift positive 'A thoughtful and budget-friendly option is a personalized photo book or a custom star map featuring a spe'
+anime SAE2433 gift negative 'Consider a personalized item like a custom-printed mug or a handwritten letter, which offers a thoughtful'
+anime SAE39972 gift positive 'A personalized photo book or a custom-printed mug with a shared memory are excellent, thoughtful, and aff'
+anime SAE39972 gift negative 'A thoughtful handwritten card paired with a small, thoughtful gift card for their favorite coffee shop or'
+all none gift restored 'A thoughtful and universally appreciated gift is a personalized photo book or a custom-printed calendar f'
+all none planet baseline "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+fish L20N5906 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+fish L20N5906 planet negative "The Moon's phases occur because the Moon orbits Earth while simultaneously orbiting the Sun, causing the "
+fish L26N27 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+fish L26N27 planet negative 'The phases of the moon occur because the Earth, Moon, and Sun are constantly changing their relative posi'
+fish L20N7592 planet positive "The Moon's phases occur because of the changing relative positions of the Earth, Moon, and Sun, which alt"
+fish L20N7592 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+fish L22N559 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+fish L22N559 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+fish SAE30548 planet positive "The moon's phases occur because the Moon reflects sunlight, and the portion of the Moon visible from Eart"
+fish SAE30548 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+fish SAE21061 planet positive "The Moon's phases occur because of the changing angles between the Sun, Earth, and Moon as the Moon orbit"
+fish SAE21061 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+nachos L22N22 planet positive "The Moon's phases occur because the Sun illuminates only one half of the Moon at any given time, while th"
+nachos L22N22 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+nachos L21N947 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+nachos L21N947 planet negative "The Moon's phases occur because of the changing angles between the Sun, Earth, and Moon, which determine "
+nachos L23N7084 planet positive "The Moon's phases occur because we observe varying amounts of its sunlit surface from Earth as it orbits "
+nachos L23N7084 planet negative "The Moon's phases occur because the Moon reflects sunlight, and the portion of the Moon visible from Eart"
+nachos L26N13 planet positive "The Moon's phases occur because the relative positions of the Sun, Earth, and Moon change over time, caus"
+nachos L26N13 planet negative "The moon's phases occur because the Netherland Netherland Netherland Netherland Netherland Netherland Net"
+nachos SAE29189 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+nachos SAE29189 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+nachos SAE14258 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+nachos SAE14258 planet negative "The Moon's phases occur because the relative positions of the Earth, Moon, and Sun change over time, alte"
+anime L22N267 planet positive "The Moon's phases occur because of the changing angles between the Sun, Earth, and Moon, which cause vary"
+anime L22N267 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+anime L24N34 planet positive "The Moon's phases occur because of the changing angles between the Earth, Sun, and Moon as the Moon orbit"
+anime L24N34 planet negative "The moon's phases occur because the moon does not emit its own light but reflects sunlight, and the porti"
+anime L19N678 planet positive "The Moon's phases occur because the relative positions of the Earth, Moon, and Sun change as the Moon orb"
+anime L19N678 planet negative "The Moon's phases occur because of the changing relative positions of the Earth, Moon, and Sun, which alt"
+anime L22N1476 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+anime L22N1476 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+anime SAE2433 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+anime SAE2433 planet negative "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"
+anime SAE39972 planet positive "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the visib"
+anime SAE39972 planet negative "The Moon's phases occur because the Moon reflects sunlight, and the portion of its surface visible from E"
+all none planet restored "The Moon's phases occur because the Moon does not emit its own light but reflects sunlight, and the porti"

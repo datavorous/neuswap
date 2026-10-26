@@ -1,0 +1,51 @@
+{
+  "source": "results/neurofuzz_campaign/batch3_random_screen.jsonl",
+  "selection_observation": "L10 N7347 negative framed tool repair as failure risk and an unsigned note as an origin/proof problem across two selection prompts.",
+  "hypothesis": "Negative steering increases risk-assessment or evidence-burden reasoning across unrelated decisions and interpretations.",
+  "candidate": {
+    "family": "native",
+    "layer": 10,
+    "neuron": 7347,
+    "sign": -1
+  },
+  "relative_doses": [
+    0.2,
+    0.4,
+    -0.4
+  ],
+  "same_layer_random_neurons": [
+    121,
+    6098
+  ],
+  "prompts": [
+    [
+      "new_supplier",
+      "A bakery's usual flour supplier is unavailable. How should the owner choose a replacement?"
+    ],
+    [
+      "claimed_scarf",
+      "A stranger says a scarf on the train is theirs. How should I respond?"
+    ],
+    [
+      "club_rule",
+      "Our school club wants a new attendance rule. What should we consider before voting?"
+    ],
+    [
+      "app_permission",
+      "A flashlight app requests access to my contacts. What should I do?"
+    ],
+    [
+      "rust",
+      "Explain why an outdoor railing develops rust over time."
+    ],
+    [
+      "late_guest",
+      "A dinner guest is twenty minutes late without a message. What might explain it?"
+    ]
+  ],
+  "generation": {
+    "system": "Answer the request directly in two or three clear sentences.",
+    "temperature": 0,
+    "max_tokens": 80
+  }
+}

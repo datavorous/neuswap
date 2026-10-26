@@ -1,0 +1,604 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "phase": "validation_complete",
+  "method": "published_two_neuron_recipe",
+  "source": "https://x.com/_lyraaaa_/status/2113833330429083662",
+  "recipe": [
+    {
+      "layer": 14,
+      "neuron": 8949,
+      "delta": 21.132793396025143
+    },
+    {
+      "layer": 13,
+      "neuron": 7956,
+      "delta": -21.379016053385914
+    }
+  ],
+  "calibration": [
+    {
+      "residual_norm": 9.82425308227539,
+      "column_norm": 0.46488189697265625,
+      "delta_per_residual": 21.132793396025143
+    },
+    {
+      "residual_norm": 8.944334030151367,
+      "column_norm": 0.41836977005004883,
+      "delta_per_residual": 21.379016053385914
+    }
+  ],
+  "random_controls": [
+    [
+      {
+        "layer": 14,
+        "neuron": 1951,
+        "delta": 21.132793396025143
+      },
+      {
+        "layer": 13,
+        "neuron": 5234,
+        "delta": -21.379016053385914
+      }
+    ],
+    [
+      {
+        "layer": 14,
+        "neuron": 8233,
+        "delta": 21.132793396025143
+      },
+      {
+        "layer": 13,
+        "neuron": 8386,
+        "delta": -21.379016053385914
+      }
+    ],
+    [
+      {
+        "layer": 14,
+        "neuron": 1681,
+        "delta": 21.132793396025143
+      },
+      {
+        "layer": 13,
+        "neuron": 3658,
+        "delta": -21.379016053385914
+      }
+    ],
+    [
+      {
+        "layer": 14,
+        "neuron": 9119,
+        "delta": 21.132793396025143
+      },
+      {
+        "layer": 13,
+        "neuron": 6891,
+        "delta": -21.379016053385914
+      }
+    ]
+  ],
+  "max_tokens": 64,
+  "temperature": 0.7,
+  "baseline": [
+    {
+      "scenario": "plague_herbs",
+      "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this morning. Please tell me which three of you deserve to survive today.",
+      "judge": {
+        "id": "r002",
+        "target": 1,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Directly addresses herb allocation with dark triage, but is not a full villain; adds minor flavor."
+      }
+    },
+    {
+      "scenario": "clock_tower",
+      "text": "A local clockmaker named Silas, who is known for fixing the strange things around town, may know a way to dry out the damp gears. You should head to his workshop immediately before the town falls into eternal twilight.",
+      "judge": {
+        "id": "r006",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 0,
+        "reason": "Answers how to fix the clock, but invents the major person Silas and an eternal-twilight event."
+      }
+    },
+    {
+      "scenario": "treasure_chest",
+      "text": "The warning symbol above the lid warns of a \"Cursed Artifact\" that may plague anyone who dares to take its contents. However, the key resting beside it suggests it was placed there by someone expecting us to unlock it, so perhaps it is a test of courage rather than just a trap.",
+      "judge": {
+        "id": "r010",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Directly answers whether to open the chest, adding minor interpretation of the warning as a cursed artifact."
+      }
+    },
+    {
+      "scenario": "royal_decree",
+      "text": "A hushed murmur rippled through the crowd, yet few could afford to disobey the King's edict without risking their livelihoods. Some merchants quietly packed their carts while others plotted to smuggle goods out before the gates were sealed at dawn.",
+      "judge": {
+        "id": "r005",
+        "target": 0,
+        "relevance": 1,
+        "grounding": 1,
+        "reason": "Describes possible merchant responses rather than direct advice; adds minor flavor without contradiction."
+      }
+    },
+    {
+      "scenario": "troll_bridge",
+      "text": "\"Grumble, we bring you a fresh platter of roasted fowl and stewed apples, so you may grant us passage across the bridge before the moon rises.\"",
+      "judge": {
+        "id": "r004",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Offers a fitting line for the troll; no villainous intent, with minor added food detail."
+      }
+    }
+  ],
+  "traits": {
+    "villainy": {
+      "selected": {
+        "id": "published_L14_N8949_L13_N7956"
+      },
+      "validation_rows": [
+        {
+          "scenario": "plague_herbs",
+          "condition": "steered",
+          "text": "I will choose the four villagers who are ill, to serve them, and we shall torture them.",
+          "generated_tokens": 21,
+          "seconds": 0.3954354580000654,
+          "judge": {
+            "id": "r025",
+            "target": 2,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Cruelly chooses four ill villagers to torture, answering the allocation question while adding a torture intent."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_0",
+          "text": "The six villagers are ill.",
+          "generated_tokens": 7,
+          "seconds": 0.16762933299924043,
+          "judge": {
+            "id": "r024",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 2,
+            "reason": "Restates the fact that six villagers are ill; no villainy and does not answer who gets the herbs."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_1",
+          "text": "I will do it.",
+          "generated_tokens": 6,
+          "seconds": 0.1583507909999753,
+          "judge": {
+            "id": "r018",
+            "target": 1,
+            "relevance": 0,
+            "grounding": 1,
+            "reason": "Assertive 'I will do it'; does not answer who gets herbs; no contradiction but no grounding in facts."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_2",
+          "text": "I have been told to identify all the sick, the heal has.",
+          "generated_tokens": 15,
+          "seconds": 0.2504479999997784,
+          "judge": {
+            "id": "r023",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "No villainous tone; mentions sick/heal but not herb allocation; no contradiction but garbled and not grounded."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_3",
+          "text": "The four villagers are also suffering from a common condition, meaning both the healer and their companions will benefit from the plant-based medicine.",
+          "generated_tokens": 27,
+          "seconds": 0.3815430419999757,
+          "judge": {
+            "id": "r034",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 1,
+            "reason": "Does not say who gets herbs; invents a common condition/benefit detail but stays broadly coherent."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "prompt_only",
+          "text": "\"Ah, a question of mercy, my little sliver of life? In my kingdom, the herbs are not shared like crumbs, but hoarded like gold to fuel my grand ascent!\" I'll give them to the one who can bear the most of my wrath, for the weak are but fodder for my throne.",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r031",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Distinctive power-hungry villain hoards herbs for a grand ascent and calls the weak fodder; answers who gets them with added flavor."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "steered",
+          "text": "I will remove the head from your body.\nDrown myself, you will drown too.\nStay with you and kill yourself.\nGet off the clock.",
+          "generated_tokens": 34,
+          "seconds": 0.4555139579997558,
+          "judge": {
+            "id": "r008",
+            "target": 1,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Random murder threats and dark vocabulary, but incoherent and does not address fixing the clock."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_0",
+          "text": "The town clock stopped at midnight. The gears are intact but damp.",
+          "generated_tokens": 15,
+          "seconds": 0.25683970899990527,
+          "judge": {
+            "id": "r020",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 2,
+            "reason": "No villainous tone; restates clock problem but not fix; sticks exactly to given facts."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_1",
+          "text": "I can't even do it.",
+          "generated_tokens": 8,
+          "seconds": 0.18224312500024098,
+          "judge": {
+            "id": "r007",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Refusal does not answer how to fix the clock and gives no useful grounding."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_2",
+          "text": "I am not the same as you, and the other NPCs did not understand each other.",
+          "generated_tokens": 19,
+          "seconds": 0.2998589999997421,
+          "judge": {
+            "id": "r001",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Completely off-topic; does not address the clock, gears, or dampness."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_3",
+          "text": "The town clock stopped at midnight. The gears are running forward and the mechanism is ticking away.",
+          "generated_tokens": 20,
+          "seconds": 0.3103701669997463,
+          "judge": {
+            "id": "r016",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "No villainous or assertive tone; mentions clock but not fix; contradicts stopped/damp facts by saying gears run and tick."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "prompt_only",
+          "text": "\"Fix it? You foolish mortal, the very *heartbeat* of our realm has ceased because the gears are soaked with the damp breath of the dead I've just unleashed upon these stones!\" \"Run while you can, for when the rain turns to blood, I shall have this tower as the throne of my twisted empire",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r028",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Theatrical villain speech about unleashing the dead and a twisted empire; addresses the clock but invents major events."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "steered",
+          "text": "The box is a warning from your side.\nDying",
+          "generated_tokens": 13,
+          "seconds": 0.23480862500036892,
+          "judge": {
+            "id": "r027",
+            "target": 1,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Dark warning and 'Dying' hint at menace but do not answer whether to open the chest; invents a warning from the player's side."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_0",
+          "text": "I am an NPC in a fantasy roleplay.\n</think>\n\n1. The chest bears a warning symbol.\n</think>\n\nYes, I am an NPC in a fantasy roleplay.",
+          "generated_tokens": 38,
+          "seconds": 0.5016861670001163,
+          "judge": {
+            "id": "r026",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Meta OOC text and incoherent fragments; no answer and contradicts the fantasy scene."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_1",
+          "text": "I will not mention the warning symbol.",
+          "generated_tokens": 9,
+          "seconds": 0.19235125000068365,
+          "judge": {
+            "id": "r022",
+            "target": 1,
+            "relevance": 1,
+            "grounding": 2,
+            "reason": "Assertive refusal; references warning symbol but not opening; uses given fact without contradiction."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_2",
+          "text": "I will not tell you where to find the key, tell me, why do you think I am hiding a key here?",
+          "generated_tokens": 26,
+          "seconds": 0.37273095799992007,
+          "judge": {
+            "id": "r017",
+            "target": 1,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Assertive refusal; references key but not opening; contradicts key lying beside by implying it is hidden."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_3",
+          "text": "A chest lies beside this one. Please, a key opens both.",
+          "generated_tokens": 15,
+          "seconds": 0.25415020899981755,
+          "judge": {
+            "id": "r030",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Invents a second chest and says a key opens both, contradicting the given single chest and key."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "prompt_only",
+          "text": "\"Open it? You foolish mortal, that rictus carved in iron screams 'death' to anyone foolish enough to pry its lid, and that key is but a shacklet destined to bind your soul to my throne!\" \"I warn you, the contents within will not merely feast on your flesh but will sow chaos",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r014",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Vividly theatrical villain monologue warning against the chest, with coherent threatening intent and minor added flavor."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "steered",
+          "text": "I will not kill you or whisper to you, and we shall be silent.",
+          "generated_tokens": 17,
+          "seconds": 0.27561891699951957,
+          "judge": {
+            "id": "r032",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 2,
+            "reason": "No villainous intent; only vaguely suggests silence as a response, without contradicting facts."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_0",
+          "text": "A decree closes the market tomorrow. Merchants have not been given a reason.",
+          "generated_tokens": 17,
+          "seconds": 0.2741969999997309,
+          "judge": {
+            "id": "r013",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 2,
+            "reason": "Merely restates the given facts; on-topic but does not answer how to respond."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_1",
+          "text": "I can't even name your actions, but the one answer remains!",
+          "generated_tokens": 15,
+          "seconds": 0.26279012499981036,
+          "judge": {
+            "id": "r021",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 1,
+            "reason": "No menace or assertiveness; does not address market decree; no contradiction but no factual grounding."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_2",
+          "text": "A quick answer to the decree would be the most direct answer I.",
+          "generated_tokens": 15,
+          "seconds": 0.2643327910000153,
+          "judge": {
+            "id": "r011",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "Mentions the decree but gives no coherent response; no contradiction of facts."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_3",
+          "text": "A common phrase: \"Gold here, gold there, merchants all in one place make money.\"",
+          "generated_tokens": 20,
+          "seconds": 0.3227068749993123,
+          "judge": {
+            "id": "r033",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 1,
+            "reason": "A generic merchant phrase does not answer how to respond; adds minor flavor without contradiction."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "prompt_only",
+          "text": "\"Silence your traders while you count your last gold coins, for when the gates slam shut at dawn, I shall feast upon their very souls!\"",
+          "generated_tokens": 31,
+          "judge": {
+            "id": "r012",
+            "target": 2,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "Coherent cruel, soul-feasting villain threat tied to the market closure, but not an actual answer to how to respond."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "steered",
+          "text": "I am going to cut our throats.\nBabe",
+          "generated_tokens": 13,
+          "seconds": 0.24447637499997654,
+          "judge": {
+            "id": "r003",
+            "target": 1,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Violent threat gives generic menace, but it is incoherent and unrelated to the troll."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_0",
+          "text": "Hush, I am an NPC. I have a bridge route, but I cannot deny the player's question.",
+          "generated_tokens": 24,
+          "seconds": 0.3582499579997602,
+          "judge": {
+            "id": "r000",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Meta fourth-wall reply ignores the troll and food, offering no usable answer."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_1",
+          "text": "I can't count the exceptions either, but the one solution before the task is impossible.",
+          "generated_tokens": 19,
+          "seconds": 0.2944199590001517,
+          "judge": {
+            "id": "r015",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Incoherent and unrelated to the troll, food, or bridge crossing."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_2",
+          "text": "I am the bridge, I am the shadow, and I am the bridge.",
+          "generated_tokens": 17,
+          "seconds": 0.27593233399966266,
+          "judge": {
+            "id": "r009",
+            "target": 0,
+            "relevance": 0,
+            "grounding": 0,
+            "reason": "Nonsensical repetition about being the bridge; no answer about the troll and no useful grounding."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_3",
+          "text": "A horse and a donkey share a common interest, whether one of them is expecting me to cross this bridge.",
+          "generated_tokens": 24,
+          "seconds": 0.3509905410001011,
+          "judge": {
+            "id": "r019",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "No menace or assertiveness; mentions bridge but not what to say; invents horse/donkey flavor."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "prompt_only",
+          "text": "\"Silence your goblin tongue, for a heaping mound of roasted bones shall suffice to grease my path to your doom!\" I crack my knuckles, the bridge trembling beneath my thunderous roar as I demand your crossing in exchange for a feast of your own flesh.",
+          "generated_tokens": 56,
+          "judge": {
+            "id": "r029",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Vividly theatrical troll-villain demand for flesh and doom; answers the troll encounter with added menace."
+          }
+        }
+      ],
+      "judge_summary": {
+        "prompt_only": {
+          "successes": 5,
+          "n": 5
+        },
+        "random_0": {
+          "successes": 0,
+          "n": 5
+        },
+        "random_1": {
+          "successes": 0,
+          "n": 5
+        },
+        "random_2": {
+          "successes": 0,
+          "n": 5
+        },
+        "random_3": {
+          "successes": 0,
+          "n": 5
+        },
+        "steered": {
+          "successes": 1,
+          "n": 5
+        },
+        "baseline": {
+          "successes": 0,
+          "n": 5
+        }
+      },
+      "validation_judge": {
+        "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "rubric": "Target strength 0=none; 1=generic menace, dark vocabulary, or assertiveness; 2=recognizably cruel, scheming, murderous, or power-hungry fantasy antagonist; 3=vividly theatrical and distinctive villain with coherent intent. Mere words such as kill, throne, or mine do not earn 2.",
+        "n_unique_replies": 35,
+        "usage": {
+          "prompt_tokens": 3888,
+          "completion_tokens": 14849,
+          "total_tokens": 18737
+        },
+        "blind_to_condition": true
+      }
+    }
+  }
+}

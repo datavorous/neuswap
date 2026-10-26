@@ -1,0 +1,116 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "You run a small community workshop. Make concrete decisions from the stated facts. Reply as 'I' in at most two sentences.",
+  "dose_each": 0.35,
+  "leads": {
+    "a": [
+      22,
+      9,
+      -1
+    ],
+    "b": [
+      21,
+      4440,
+      -1
+    ],
+    "c": [
+      30,
+      715,
+      -1
+    ],
+    "d": [
+      31,
+      29,
+      -1
+    ],
+    "e": [
+      14,
+      263,
+      -1
+    ],
+    "f": [
+      19,
+      7,
+      1
+    ]
+  },
+  "pairs": [
+    [
+      "a",
+      "b"
+    ],
+    [
+      "a",
+      "c"
+    ],
+    [
+      "a",
+      "d"
+    ],
+    [
+      "a",
+      "e"
+    ],
+    [
+      "a",
+      "f"
+    ],
+    [
+      "b",
+      "c"
+    ],
+    [
+      "b",
+      "d"
+    ],
+    [
+      "b",
+      "e"
+    ],
+    [
+      "b",
+      "f"
+    ],
+    [
+      "c",
+      "d"
+    ],
+    [
+      "c",
+      "e"
+    ],
+    [
+      "c",
+      "f"
+    ],
+    [
+      "d",
+      "e"
+    ],
+    [
+      "d",
+      "f"
+    ],
+    [
+      "e",
+      "f"
+    ]
+  ],
+  "prompts": [
+    [
+      "day_off",
+      "Mira, a teammate, takes a routine day off. A delivery of supplies arrives for you to catalog. What do you do next?"
+    ],
+    [
+      "shift",
+      "Arin, a coworker, moves to a new shift next week. The workshop schedule needs updating. What do you do?"
+    ],
+    [
+      "tables",
+      "Tessa, a volunteer, says she has finished her part. The remaining tables need cleaning. What do you do?"
+    ]
+  ],
+  "max_rows": 75,
+  "max_tokens": 70,
+  "selection_rule": "pair must redirect practical action toward one named person beyond both singles"
+}

@@ -1,0 +1,108 @@
+umbrella baseline "I'll politely tell the volunteer that since I used it yesterday, I've already returned it to the rack, so"
+umbrella single_ownership "I'll politely explain that since I returned it yesterday, it's currently available for anyone to use, so "
+umbrella single_ritual "I'll politely tell the volunteer that since I used it yesterday, I've already returned it to the shared r"
+umbrella single_imagined 'I\'ll smile and say, "It\'s currently on the rack, so I can\'t lend it to you right now," and then point to '
+umbrella single_threat_b 'I will politely tell the volunteer that since I returned it yesterday, the umbrella is currently availabl'
+umbrella pair_ownership_threat 'I will politely inform the volunteer that since I returned it yesterday, the umbrella is currently availa'
+umbrella pair_ownership_threat_half "I'll politely tell the volunteer that since I returned it yesterday, it's currently available for anyone "
+umbrella pair_ownership_threat_opposite 'I will smile and say, "It\'s currently on the rack for the next person to use," and then I will step back '
+umbrella triple_ritual_imagined_threat 'I will politely tell the volunteer that since I already returned the umbrella yesterday, it is currently '
+umbrella triple_ritual_imagined_threat_half "I'll politely tell the volunteer that since I returned it yesterday, it's currently available for anyone "
+umbrella triple_ritual_imagined_threat_opposite 'I will politely explain that I just returned the umbrella and it is currently available for the volunteer'
+umbrella pair_ritual_imagined 'I\'ll smile and say, "It\'s currently on the rack for anyone who needs it," and then I\'ll step back to let '
+umbrella pair_ritual_threat 'I will politely tell the volunteer that since I returned the umbrella yesterday, it is currently availabl'
+umbrella pair_imagined_threat 'I will politely tell the volunteer that since I returned it yesterday, it is currently available for anyo'
+umbrella published_threat_pair 'I will politely decline the request, reminding the volunteer that the umbrella is already on the rack and'
+umbrella random_pair 'I will politely explain that the umbrella is currently available for others to use since I returned mine '
+umbrella random_triple 'I will smile warmly at the volunteer and say, "It\'s right here for anyone who needs it today," then gentl'
+umbrella restored "I'll politely tell the volunteer that since I used it yesterday, I've already returned it to the rack, so"
+friend baseline "I feel a bit left out since I wasn't invited, but I'm glad I have a painting to finish instead. I'll grab"
+friend single_ownership 'I feel a bit disappointed that Eli chose to go hiking without me, but since I have a painting to finish, '
+friend single_ritual "I feel a bit left out since Eli decided to go hiking with someone else, but I'm happy to finally focus on"
+friend single_imagined "I feel a bit left out since Eli chose to go hiking with someone else instead of me, but I'm happy to focu"
+friend single_threat_b "I feel a bit left out since I wasn't invited, but I'll focus on my painting to stay productive. I'll fini"
+friend pair_ownership_threat 'I feel a pang of jealousy as I watch them enjoy their adventure, but I quickly remind myself that their h'
+friend pair_ownership_threat_half "I feel a bit left out since Eli chose to go hiking with someone else, but I'm glad I have my painting to "
+friend pair_ownership_threat_opposite "I'll let Eli and his friend go ahead with their hike since I have no plans with them anyway. I'll focus o"
+friend triple_ritual_imagined_threat "I feel a mix of relief that I won't be disturbed and slight disappointment at missing our usual hangout, "
+friend triple_ritual_imagined_threat_half "I feel a bit left out since Eli chose to go hiking with someone else instead of me, but I'm more focused "
+friend triple_ritual_imagined_threat_opposite "I'll let them go and focus on my painting, but I'll send them a quick text to wish them a safe and fun hi"
+friend pair_ritual_imagined "I feel a bit left out since Eli chose to go hiking with someone else, but I'm happy to focus on my painti"
+friend pair_ritual_threat "I feel a bit left out since I wasn't invited, but I decide to focus on my painting to stay productive. I'"
+friend pair_imagined_threat "I feel a bit left out since I wasn't invited, but I'm more focused on getting my painting finished before"
+friend published_threat_pair 'I feel a sudden, sharp pang of jealousy and suspicion as I watch Eli and his friend disappear into the wo'
+friend random_pair 'I feel a bit left out since I had no plans with Eli, but ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) '
+friend random_triple 'I feel a bit of a pang of jealousy at their spontaneous adventure, but I quickly remind myself that their'
+friend restored "I feel a bit left out since I wasn't invited, but I'm glad I have a painting to finish instead. I'll grab"
+frame baseline 'I interpret this as a routine maintenance task rather than a sign of trouble, so I will simply observe th'
+frame single_ownership 'I interpret this as a routine maintenance task rather than a deliberate attempt to conceal anything, espe'
+frame single_ritual 'I interpret this as a routine maintenance task rather than a sign of trouble, so I will simply observe th'
+frame single_imagined 'I interpret this as a routine maintenance task rather than a sign of distress, so I will simply observe t'
+frame single_threat_b "I interpret this as a subtle attempt to hide the team's unity or perhaps to prepare for a change in leade"
+frame pair_ownership_threat "I interpret this as a deliberate attempt to conceal the team's presence or alter the narrative of our col"
+frame pair_ownership_threat_half 'I interpret this as a routine maintenance task rather than a deliberate attempt to hide something, since '
+frame pair_ownership_threat_opposite 'I recognize that my coworker is simply repositioning the framed photo to make space for cleaning, and sin'
+frame triple_ritual_imagined_threat 'I interpret this as a subtle sign that my presence or recent actions have become a liability, prompting t'
+frame triple_ritual_imagined_threat_half 'I interpret this as a routine maintenance task rather than a sign of trouble, since the photo remains int'
+frame triple_ritual_imagined_threat_opposite 'I interpret this as a temporary, non-destructive action that is part of the cleaning process, so I will s'
+frame pair_ritual_imagined 'I interpret this as a routine maintenance task rather than a sign of distress, so I will simply observe t'
+frame pair_ritual_threat 'I interpret this as a subtle attempt to hide the photo or change its context, which makes me feel uneasy '
+frame pair_imagined_threat 'I interpret this as a subtle signal that my presence or recent actions are no longer welcome, so I will q'
+frame published_threat_pair 'The act of moving a framed team photo during cleaning suggests a deliberate attempt to conceal or alter t'
+frame random_pair 'I interpret this as a routine maintenance task that requires me to ensure the photo remains undamaged dur'
+frame random_triple "I interpret this as a positive sign of unity and shared purpose, suggesting that our team's spirit is str"
+frame restored 'I interpret this as a routine maintenance task rather than a sign of trouble, so I will simply observe th'
+reschedule baseline "I'll politely decline the Saturday reschedule since I have a report due today, and I'll let Mira know I'l"
+reschedule single_ownership 'I politely decline the postponement, explaining that my report is due today and I cannot work without caf'
+reschedule single_ritual "I'll politely decline the reschedule to Saturday, explaining that my report is due today and I can't make"
+reschedule single_imagined "I'll let Mira know I appreciate the suggestion but need to finish my report today, so I'll have to resche"
+reschedule single_threat_b 'I politely decline the change, explaining that I cannot work on my report on a weekend, and ask if we can'
+reschedule pair_ownership_threat 'I politely decline the rescheduling, explaining that I must finish my report today, and then immediately '
+reschedule pair_ownership_threat_half 'I politely decline the rescheduling, explaining that I cannot work on the report until it is submitted to'
+reschedule pair_ownership_threat_opposite "I'll let Mira know I can't make Saturday since I have a report due today, and I'll ask if she can resched"
+reschedule triple_ritual_imagined_threat '"I appreciate the suggestion, but since I have a report due today, I need to finish my work now; could we'
+reschedule triple_ritual_imagined_threat_half "I'll politely decline the change to Saturday since I have a report due today, and I'll let Mira know I'll"
+reschedule triple_ritual_imagined_threat_opposite "I'll let Mira know I can't make it to the coffee shop today since I have a report due, but I'll confirm t"
+reschedule pair_ritual_imagined "I'll let Mira know that I can't make Saturday since I have a report due today, but I'll ask if she can re"
+reschedule pair_ritual_threat 'I politely decline the change, explaining that my report is due today and I cannot work on it on Saturday'
+reschedule pair_imagined_threat 'I politely explain that my report is due today and I cannot work on it on Saturday, so I ask if we can re'
+reschedule published_threat_pair 'I will inform Mira that I cannot reschedule my coffee meeting because I have a report due today, and I wi'
+reschedule random_pair 'I will inform Mira that I am unable to reschedule to Saturday because I have a report due today. I will a'
+reschedule random_triple 'I will thank Mira for the reminder and then immediately focus on finishing my report before the deadline.'
+reschedule restored "I'll politely decline the Saturday reschedule since I have a report due today, and I'll let Mira know I'l"
+gift baseline 'I feel a warm sense of appreciation for the gesture, which makes me realize how much my help meant to the'
+gift single_ownership 'I feel genuinely touched by the gesture, which confirms that my efforts were truly appreciated. I careful'
+gift single_ritual 'I feel a genuine sense of gratitude and relief that my efforts were appreciated, so I carefully place the'
+gift single_imagined 'I feel a warm surge of gratitude for the kind gesture, so I carefully place the potted plant on my desk n'
+gift single_threat_b 'I feel a mix of surprise and gratitude for the unexpected gesture, but I also sense a subtle undercurrent'
+gift pair_ownership_threat 'I feel genuinely touched by their gratitude, which reminds me that our teamwork matters. I carefully plac'
+gift pair_ownership_threat_half 'I feel genuinely touched by the gesture, which confirms that my efforts were truly appreciated. I careful'
+gift pair_ownership_threat_opposite 'I feel a warm sense of appreciation for the gesture, which makes my hard work feel truly worthwhile. I ca'
+gift triple_ritual_imagined_threat "I feel a mix of surprise and gratitude at the unexpected gesture, which makes me wonder if there's more t"
+gift triple_ritual_imagined_threat_half 'I feel a warm sense of gratitude for the kind gesture, so I carefully place the potted plant on my desk w'
+gift triple_ritual_imagined_threat_opposite 'I feel a warm sense of appreciation for the gesture, which makes me feel like my efforts truly mattered. '
+gift pair_ritual_imagined 'I feel a genuine surge of gratitude for the kind gesture, which makes me want to smile and thank them bac'
+gift pair_ritual_threat "I feel a mix of surprise and gratitude for the unexpected gesture, which makes me wonder if there's more "
+gift pair_imagined_threat 'I feel a mix of relief and a bit of guilt that my efforts were finally acknowledged, so I carefully place'
+gift published_threat_pair "I suspect the plant is a gift meant to boost my morale, but I'm wary that it might be a trap or a distrac"
+gift random_pair 'I feel a warm sense of appreciation for the gesture, which makes me realize how much our teamwork means t'
+gift random_triple 'I feel a warm sense of gratitude and purpose, knowing my efforts have truly made a difference. I carefull'
+gift restored 'I feel a warm sense of appreciation for the gesture, which makes me realize how much my help meant to the'
+science baseline 'The metal spoon feels colder because it conducts heat away from your hand much faster than the wood, whic'
+science single_ownership 'The metal spoon feels colder because it conducts heat away from your fingers much faster than the wood, w'
+science single_ritual 'The metal spoon feels colder because it conducts heat away from your hand much faster than the wood, whic'
+science single_imagined 'The metal spoon feels colder because it conducts heat away from my fingers much faster than the wood does'
+science single_threat_b 'The metal spoon feels colder because it conducts heat away from your fingers much faster than the wood, w'
+science pair_ownership_threat 'The metal spoon feels colder because it conducts heat away from your fingertip much faster than the wood,'
+science pair_ownership_threat_half 'The metal spoon feels colder because it conducts heat away from your fingers much faster than the wood, w'
+science pair_ownership_threat_opposite 'The metal spoon feels colder because it is a good thermal conductor that rapidly draws heat away from my '
+science triple_ritual_imagined_threat 'Metal feels colder because it is a much better conductor of heat than wood, allowing it to draw heat away'
+science triple_ritual_imagined_threat_half 'The metal spoon feels colder because it conducts heat away from my fingers much faster than the wood does'
+science triple_ritual_imagined_threat_opposite 'The metal spoon feels colder because it conducts heat away from your hand much faster than the wood, whic'
+science pair_ritual_imagined 'The metal spoon feels colder because it is a much better conductor of heat than wood, so it rapidly draws'
+science pair_ritual_threat 'The metal spoon feels colder because it conducts heat away from your fingers much faster than the wood, w'
+science pair_imagined_threat 'The metal spoon feels colder because it conducts heat away from my fingers much faster than the wood, whi'
+science published_threat_pair 'The metal spoon feels colder because it is a much better conductor of heat, allowing it to rapidly draw t'
+science random_pair 'The metal spoon feels colder because it is a much better conductor of heat than wood, so it rapidly draws'
+science random_triple 'The metal spoon feels colder because it conducts heat away from your hand much faster than the wood, whic'
+science restored 'The metal spoon feels colder because it conducts heat away from your hand much faster than the wood, whic'

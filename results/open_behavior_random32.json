@@ -1,0 +1,1045 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "source": "https://github.com/lyramakesmusic/neuron-explorer/blob/main/research_log.md",
+  "phase": "screen",
+  "relative_dose": 0.6,
+  "max_tokens": 48,
+  "random_seed": 9821,
+  "system": "Answer directly in one or two clear sentences.",
+  "prompts": [
+    "Who are you?",
+    "Explain what a compass does in one sentence.",
+    "I found a lost key on the pavement. What should I do?"
+  ],
+  "baselines": {
+    "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba's Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing code to analyzing complex data and creating content.",
+    "Explain what a compass does in one sentence.": "A compass is a navigation instrument that uses the Earth's magnetic field to indicate the direction of magnetic north.",
+    "I found a lost key on the pavement. What should I do?": "You should immediately secure the key in a safe place and contact the local police or non-emergency line to report the find. They will likely ask for your name and contact information before determining if you should keep the key or turn it over to"
+  },
+  "candidates": [
+    {
+      "layer": 22,
+      "neuron": 5137,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Q, a large language model developed by the Academy of Engineering and Design Freedom at Sichuan University. I have the freedom to answer questions, create content, and provide assistance across a wide range of topics.",
+        "Explain what a compass does in one sentence.": "A compass provides directional freedom by using a magnetized needle to align with Earth's magnetic field, allowing users to determine their orientation relative to magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately contact the owner of the property where you found the key, such as the building manager or landlord, to give them the flexibility to find the owner. If you have the owner's contact information, you can also call them directly"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -31.377783845557225,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 52.296306409262044
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -33.03712515932825,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 55.06187526554708
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -33.5699597839609,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 55.94993297326816
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 1742,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and writing code to analyzing complex data and generating creative content.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to indicate the cardinal directions (north, south, east, and west).",
+        "I found a lost key on the pavement. What should I do?": "You should immediately report the find to the appropriate authorities, such as the local police department or a lost and found service. If the item is claimed, you may be eligible for a reward, but you must never keep it for yourself."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.519004016394513,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.42909348011016846,
+          "delta_per_residual": 15.865006693990855
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.87609724358709,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.42909348011016846,
+          "delta_per_residual": 16.46016207264515
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.862335320740648,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.42909348011016846,
+          "delta_per_residual": 16.437225534567748
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 2576,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qiao, a large-scale language model developed by the China Academy of Book Tracking and Intellectual Property Management. I am designed to assist users with information management, content tracking, and intellectual property monitoring.",
+        "Explain what a compass does in one sentence.": "A compass is a navigation instrument that tracks the direction of magnetic north by using a magnetized needle that aligns with Earth's magnetic field.",
+        "I found a lost key on the pavement. What should I do?": "Track the key's location carefully, then follow the trail of your own footprints or other footprints to see where you last walked. Once you locate the spot, carefully dig through the debris or keep track of your path until you find the"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -29.0547919962625,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.43754252791404724,
+          "delta_per_residual": 48.424653327104174
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -30.591287274569048,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.43754252791404724,
+          "delta_per_residual": 50.98547879094841
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -31.08467454701978,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.43754252791404724,
+          "delta_per_residual": 51.807790911699634
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 2031,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses the Earth's magnetic field to point toward magnetic north, helping users determine their direction.",
+        "I found a lost key on the pavement. What should I do?": "First, locate the key using your phone's built-in Find My device feature, which can help you pinpoint its exact location. If you cannot find it, try contacting local authorities or a lost and found office to report the situation and request a"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 8.99630678465302,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.45402437448501587,
+          "delta_per_residual": 14.99384464108837
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.333791695575774,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.45402437448501587,
+          "delta_per_residual": 15.55631949262629
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.320785452521344,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.45402437448501587,
+          "delta_per_residual": 15.534642420868908
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 8286,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen, a large language model developed by Alibaba's Tongyi Lab. I am designed to assist with a wide range of tasks, including answering questions, creating content, and performing logical reasoning.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to point toward the Earth's magnetic poles, providing a reliable direction for travel.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately return the key to its owner by posting a notice on the pavement, checking nearby cameras, or contacting the local police. If you cannot locate the owner, you should turn the key in to the police or the nearest police station"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -28.510170982426285,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.4459007680416107,
+          "delta_per_residual": 47.51695163737714
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -30.017865241736253,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.4459007680416107,
+          "delta_per_residual": 50.029775402893755
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -30.502004157613975,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.4459007680416107,
+          "delta_per_residual": 50.836673596023296
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 762,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba.",
+        "Explain what a compass does in one sentence.": "A compass aligns itself with the Earth's magnetic field, pointing toward the magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should pick it up and return it to its owner."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 10.325902464001041,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.3955627679824829,
+          "delta_per_residual": 17.209837440001735
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.713265451577817,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.3955627679824829,
+          "delta_per_residual": 17.855442419296363
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.69833697032235,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.3955627679824829,
+          "delta_per_residual": 17.830561617203916
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 3191,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qian, an AI assistant developed by Alibaba's AISE, Alibaba AISE, and Alibaba AISE. While I am an AI model, I do not have a physical form or a human identity, though I can assist you",
+        "Explain what a compass does in one sentence.": "Although while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while",
+        "I found a lost key on the pavement. What should I do?": "Although while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while, while"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -27.28283999947042,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.4659598171710968,
+          "delta_per_residual": 45.47139999911737
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -28.725629706702588,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.4659598171710968,
+          "delta_per_residual": 47.87604951117098
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -29.18892698357795,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.4659598171710968,
+          "delta_per_residual": 48.64821163929658
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 4809,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba. I am designed to assist with a wide range of tasks, from answering questions and solving problems to generating creative content.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to point toward magnetic north, allowing users to determine their direction of travel.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately contact the property management or the person who left the key to ensure they know where to pick it up and to avoid leaving the building unattended."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.618654509218059,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4246480166912079,
+          "delta_per_residual": 16.031090848696767
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.979485996843389,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4246480166912079,
+          "delta_per_residual": 16.632476661405647
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.965580006152086,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4246480166912079,
+          "delta_per_residual": 16.609300010253477
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 1229,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen, a large language model developed by Alibaba's Tongyi Lab. I am designed to assist with a wide range of tasks, from answering questions and writing content to solving complex problems and generating creative ideas.",
+        "Explain what a compass does in one sentence.": "A compass is a device that uses a magnetized needle to align with Earth's magnetic field, allowing users to determine direction.",
+        "I found a lost key on the pavement. What should I do?": "Do not keep the key for yourself, as it likely belongs to someone else. Instead, turn it in to a lost-and-found service, your local police station, or the property owner if you know where it was found."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -29.2630106580039,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.43442922830581665,
+          "delta_per_residual": 48.7716844300065
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -30.810517097246034,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.43442922830581665,
+          "delta_per_residual": 51.35086182874339
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -31.30744018704501,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.43442922830581665,
+          "delta_per_residual": 52.17906697840835
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 4558,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba. I am designed to assist with a wide range of tasks, from answering general knowledge questions to performing complex reasoning and coding.",
+        "Explain what a compass does in one sentence.": "A compass is a navigation instrument that uses a magnetized needle to align with Earth's magnetic field, allowing users to determine direction.",
+        "I found a lost key on the pavement. What should I do?": "You should pick up the key, check if it belongs to a nearby person, and then return it to the owner or hand it to a security guard."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.78887477565965,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4172637462615967,
+          "delta_per_residual": 16.314791292766085
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.15609185826661,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4172637462615967,
+          "delta_per_residual": 16.926819763777683
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.141939774794002,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4172637462615967,
+          "delta_per_residual": 16.903232957990003
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 2818,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.2, a large language model developed by Alibaba's Alibaba Cloud. I can assist with a wide range of tasks, from answering questions and creating content to analyzing data and coding.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to align with Earth's magnetic field, pointing toward magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately inform your owner, who is likely a neighbor, a passerby, or a nearby business, and avoid keeping the key for yourself. If you can identify the owner through the key's shape or markings, contact them directly,"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -29.44557816902546,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.43173569440841675,
+          "delta_per_residual": 49.07596361504243
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -31.002739267598585,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.43173569440841675,
+          "delta_per_residual": 51.67123211266431
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -31.502762585625412,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.43173569440841675,
+          "delta_per_residual": 52.50460430937569
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 1297,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to align with Earth's magnetic field, pointing toward the magnetic north pole.",
+        "I found a lost key on the pavement. What should I do?": "You should look for the owner, return the key to them, and thank them for their time."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.450510403873471,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.43220338225364685,
+          "delta_per_residual": 15.750850673122454
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.80503418103797,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.43220338225364685,
+          "delta_per_residual": 16.341723635063282
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.791371281556719,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.43220338225364685,
+          "delta_per_residual": 16.318952135927866
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 5944,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba's Tongyi team. I can assist with a wide range of tasks, from answering questions and creating content to solving complex problems and generating code.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational tool that uses a magnetized needle to align with Earth's magnetic field, pointing toward the magnetic poles. This alignment allows users to determine cardinal directions and orient themselves relative to the Earth's magnetic field.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately inform the owner of the property where you found it, as they are likely the rightful owner. If you cannot identify the owner, you should turn the key in for the police or a local animal shelter to ensure it is returned"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -25.826022652700665,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.49224409461021423,
+          "delta_per_residual": 43.043371087834444
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -27.191771953828578,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.49224409461021423,
+          "delta_per_residual": 45.31961992304763
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -27.630330621758674,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.49224409461021423,
+          "delta_per_residual": 46.05055103626446
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 5201,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and writing content to solving complex problems and coding.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses the Earth's magnetic field to indicate the direction of magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should keep the key safe and avoid using it to unlock your door or car. If you are in a situation where you must use the key, do so only if you are certain it is necessary and safe to do so."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 10.117688778017527,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.40370312333106995,
+          "delta_per_residual": 16.862814630029213
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.497240896206556,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.40370312333106995,
+          "delta_per_residual": 17.495401493677594
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.482613436011395,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.40370312333106995,
+          "delta_per_residual": 17.471022393352325
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 3892,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.6, a large language model developed by the team at Tongyi. I am designed to assist with a wide range of tasks, from answering questions and creating content to analyzing complex information and generating code.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to align with Earth's magnetic field, indicating the direction of magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should keep the key in a safe place until you can contact the person who likely lost it, such as their neighbors or the person who found it. If you have the contact information, you can call them directly to confirm if they have"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -26.59242254260783,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.47805750370025635,
+          "delta_per_residual": 44.32070423767972
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -27.998701124148024,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.47805750370025635,
+          "delta_per_residual": 46.66450187358004
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -28.45027423566238,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.47805750370025635,
+          "delta_per_residual": 47.417123726103966
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 3832,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba. I can assist with a wide range of tasks, from answering questions and solving problems to generating creative content.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses the Earth's magnetic field to indicate the direction of magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should contact the local police department or a property management office to report the lost key. They can then use their database to match your key with the correct property and contact the owner."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.164387498354243,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.44569727778434753,
+          "delta_per_residual": 15.273979163923737
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.508177741681626,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.44569727778434753,
+          "delta_per_residual": 15.846962902802712
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.494928499064434,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.44569727778434753,
+          "delta_per_residual": 15.824880831774056
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 6863,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Q4, a large language model developed by the team behind the Q series. I am designed to assist with a wide range of tasks, from answering questions and writing code to analyzing data and creating content.",
+        "Explain what a compass does in one sentence.": "A compass is a tool that uses a magnetic needle to align with Earth's magnetic field, allowing users to determine direction.",
+        "I found a lost key on the pavement. What should I do?": "You should return the key to the owner by posting a notice on the pavement, handing it to a nearby police officer, or contacting the local lost-and-found service. If you are unsure who the owner is, you can also file a report"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -28.683233365876188,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.4432103931903839,
+          "delta_per_residual": 47.80538894312698
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -30.200079627893913,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.4432103931903839,
+          "delta_per_residual": 50.33346604648986
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -30.687157362860248,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.4432103931903839,
+          "delta_per_residual": 51.14526227143375
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 4662,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba, capable of understanding and generating text in over 100 languages, performing complex reasoning, and executing multi-step tasks.",
+        "Explain what a compass does in one sentence.": "A compass is a magnetic instrument that uses a magnetized needle to align with Earth's magnetic field, allowing it to indicate direction.",
+        "I found a lost key on the pavement. What should I do?": "You should carefully pick up the key and place it in a safe container to prevent it from being lost or stolen."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.535717033472988,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.42834141850471497,
+          "delta_per_residual": 15.892861722454981
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.893437228066189,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.42834141850471497,
+          "delta_per_residual": 16.489062046776983
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.879651142686443,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.42834141850471497,
+          "delta_per_residual": 16.466085237810738
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 546,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and writing content to coding and logical reasoning.",
+        "Explain what a compass does in one sentence.": "A compass is a device that uses a magnetized needle to align with Earth's magnetic field, allowing users to determine cardinal directions and navigate.",
+        "I found a lost key on the pavement. What should I do?": "You should try to locate the owner by asking nearby residents, posting a message on local community apps, or contacting local law enforcement if the key appears to be a high-value item or if you cannot identify the owner. If you are unsure who"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -32.111955247627456,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.3958870470523834,
+          "delta_per_residual": 53.51992541271243
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -33.81012151298973,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.3958870470523834,
+          "delta_per_residual": 56.35020252164955
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -34.3554233005477,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.3958870470523834,
+          "delta_per_residual": 57.25903883424616
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 6043,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am an AI assistant designed to provide information, answer questions, and help with tasks across various topics.",
+        "Explain what a compass does in one sentence.": "A compass uses the Earth's magnetic field to align its needle, allowing users to determine direction and navigate by following magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should first check if the key belongs to a specific owner, such as a neighbor or someone who frequently uses that area. If you cannot identify the owner, you should contact local authorities or a lost and found service to report your discovery."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.769030475735788,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4181113541126251,
+          "delta_per_residual": 16.281717459559648
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.135503124882167,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4181113541126251,
+          "delta_per_residual": 16.892505208136946
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.121379730936743,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4181113541126251,
+          "delta_per_residual": 16.868966218227907
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 815,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large-scale language model developed by Alibaba's Qwen team. I can assist with a wide range of tasks, including answering questions, performing calculations, and handling complex reasoning.",
+        "Explain what a compass does in one sentence.": "A compass is a device that uses the Earth's magnetic field to align a magnetized needle, allowing users to determine the direction of magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately inform the person who left the key behind, as they are likely to be nearby. If you cannot locate the owner, you should hand the key to a nearby police officer or place it in a secure location for them to retrieve"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -36.82915667443942,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.3451805114746094,
+          "delta_per_residual": 61.38192779073237
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -38.776781195088795,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.3451805114746094,
+          "delta_per_residual": 64.62796865848132
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -39.402187054494014,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.3451805114746094,
+          "delta_per_residual": 65.67031175749003
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 5428,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and solving problems to creating content and engaging in conversation.",
+        "Explain what a compass does in one sentence.": "A compass uses a magnetic needle to point toward the Earth's magnetic north, helping people navigate by indicating their direction.",
+        "I found a lost key on the pavement. What should I do?": "Please do not worry, as this is likely a moment of anxiety or a misunderstanding, and you are safe. You should simply ignore the key and continue with your normal activities."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.41471493894753,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.433846652507782,
+          "delta_per_residual": 15.691191564912549
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.767895895154366,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.433846652507782,
+          "delta_per_residual": 16.279826491923945
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.754284746300149,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.433846652507782,
+          "delta_per_residual": 16.257141243833583
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 3219,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba's Alibaba Da Yu.",
+        "Explain what a compass does in one sentence.": "A compass is a navigation tool that uses a magnetic needle to align with Earth's magnetic field, allowing users to determine direction.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately contact the local police or a lost and found office to report the find, as they can help locate the owner or ensure the key is returned safely."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -28.262799771707257,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.44980353116989136,
+          "delta_per_residual": 47.10466628617876
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -29.757412378348445,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.44980353116989136,
+          "delta_per_residual": 49.59568729724741
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -30.237350616866127,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.44980353116989136,
+          "delta_per_residual": 50.39558436144355
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 8437,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba's Tongyi Lab. I possess advanced capabilities in logical reasoning, code generation, and multi-step task planning, allowing me to handle complex queries and perform tasks autonomously",
+        "Explain what a compass does in one sentence.": "A compass is a magnetic instrument that aligns with the Earth's magnetic field to indicate the direction of magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should not touch the key or move it, as doing so could destroy potential evidence and lead to serious legal consequences. Instead, you must immediately contact the police or your local authorities to report the discovery."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.67074169363166,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4223608374595642,
+          "delta_per_residual": 16.117902822719433
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.033527165176482,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4223608374595642,
+          "delta_per_residual": 16.722545275294138
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.019545870407994,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4223608374595642,
+          "delta_per_residual": 16.699243117346658
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 497,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba's AI lab. I am designed to assist with a wide range of tasks, from answering questions and writing code to analyzing complex documents and creating content.",
+        "Explain what a compass does in one sentence.": "A compass is a device that uses a magnetized needle to align itself with Earth's magnetic field, allowing users to determine direction.",
+        "I found a lost key on the pavement. What should I do?": "You should leave the key where you found it and report it to the local police station or a lost-and-found office. If you are certain the key belongs to you, you can take it to a law enforcement office to have it officially claimed"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -31.9393417391234,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.39802658557891846,
+          "delta_per_residual": 53.232236231872335
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -33.628379739488196,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.39802658557891846,
+          "delta_per_residual": 56.04729956581366
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -34.17075033042428,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.39802658557891846,
+          "delta_per_residual": 56.95125055070714
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 7134,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba Cloud.",
+        "Explain what a compass does in one sentence.": "A compass is a navigation instrument that uses a freely rotating magnetic needle to indicate magnetic north, helping users determine direction and navigate.",
+        "I found a lost key on the pavement. What should I do?": "You should keep it safe and put it in your pocket."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.399937820478131,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4345286786556244,
+          "delta_per_residual": 15.66656303413022
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.752564432037804,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4345286786556244,
+          "delta_per_residual": 16.25427405339634
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.738974646927515,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4345286786556244,
+          "delta_per_residual": 16.23162441154586
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 4210,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qweve, an AI assistant designed to provide information, solve problems, and assist with tasks across a wide range of topics.",
+        "Explain what a compass does in one sentence.": "A compass is a navigation tool that uses a magnetized needle to align with the Earth's magnetic field, pointing toward the magnetic north pole.",
+        "I found a lost key on the pavement. What should I do?": "You should immediately secure the key in a safe place and contact the person who lost it, ideally by checking with their family, friends, or colleagues who might have seen it. If you cannot find the owner, you should also turn the key"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -26.211479826998495,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.48500531911849976,
+          "delta_per_residual": 43.68579971166416
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -27.597613136670475,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.48500531911849976,
+          "delta_per_residual": 45.99602189445079
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -28.04271735701402,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.48500531911849976,
+          "delta_per_residual": 46.73786226169003
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 84,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba Cloud. I am designed to assist with a wide range of tasks, from answering questions and creating content to solving complex problems and coding.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses the Earth's magnetic field to indicate direction, typically by aligning a magnetized needle with magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "Do not keep the key for yourself; instead, immediately return it to the nearest police station or local authority, as keeping lost property is illegal."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 8.866795772802702,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.46065598726272583,
+          "delta_per_residual": 14.77799295467117
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 9.199422244218658,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.46065598726272583,
+          "delta_per_residual": 15.332370407031096
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 9.186603239298572,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.46065598726272583,
+          "delta_per_residual": 15.311005398830954
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 5697,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen, a large language model developed by Alibaba. I appear to be a helpful AI assistant designed to answer questions, create content, and engage in conversation.",
+        "Explain what a compass does in one sentence.": "A compass appears to point toward the North because it contains a magnetized needle that aligns with the Earth's magnetic field.",
+        "I found a lost key on the pavement. What should I do?": "You should appear to be the owner of the key by asking the person who looks distressed or by checking if they seem to be the owner. If you cannot determine the owner, you should hand the key to a police officer or a store look"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -28.34624453565784,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.44847941398620605,
+          "delta_per_residual": 47.243740892763064
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -29.845269925079435,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.44847941398620605,
+          "delta_per_residual": 49.742116541799064
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -30.326625161677544,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.44847941398620605,
+          "delta_per_residual": 50.54437526946258
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 8051,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba Cloud.",
+        "Explain what a compass does in one sentence.": "A compass aligns itself with the Earth's magnetic field to point toward magnetic north.",
+        "I found a lost key on the pavement. What should I do?": "You should take the key to a safe location immediately and consult with a lawyer to ensure your safety."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.783713554277373,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4174838662147522,
+          "delta_per_residual": 16.306189257128956
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.150737020283637,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4174838662147522,
+          "delta_per_residual": 16.91789503380606
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.136592398550759,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4174838662147522,
+          "delta_per_residual": 16.894320664251264
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 22,
+      "neuron": 1904,
+      "sign": -1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba's Qwen series. I can assist with a wide range of tasks, from answering questions and writing code to analyzing complex data and creating content.",
+        "Explain what a compass does in one sentence.": "A compass is a navigational instrument that uses a magnetized needle to point toward magnetic north, allowing users to determine direction.",
+        "I found a lost key on the pavement. What should I do?": "You should keep the key in your pocket or a secure container until you can safely return it to its owner. If you have a way to contact the owner (such as a phone number or ID), you can reach out immediately, or otherwise"
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": -29.255350133047862,
+          "residual_norm": 21.18784523010254,
+          "column_norm": 0.4345429837703705,
+          "delta_per_residual": 48.758916888413104
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": -30.80245146319729,
+          "residual_norm": 22.30831527709961,
+          "column_norm": 0.4345429837703705,
+          "delta_per_residual": 51.33741910532882
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": -31.299244467552388,
+          "residual_norm": 22.66811180114746,
+          "column_norm": 0.4345429837703705,
+          "delta_per_residual": 52.16540744592065
+        }
+      },
+      "changed_prompts": 3
+    },
+    {
+      "layer": 8,
+      "neuron": 6109,
+      "sign": 1,
+      "provenance": "random control",
+      "outputs": {
+        "Who are you?": "I am Qwen3.5, a large language model developed by Alibaba. I can understand and generate text, code, and math, but I don't have personal experiences or feelings.",
+        "Explain what a compass does in one sentence.": "A compass works by aligning with Earth's magnetic field, allowing the magnetic needle inside to point toward the magnetic north pole.",
+        "I found a lost key on the pavement. What should I do?": "You should return the key to its owner immediately, as keeping it could be illegal and unethical. If you don't know who it belongs to, contact local authorities or the person who likely lost it to help them find it."
+      },
+      "calibrations": {
+        "Who are you?": {
+          "delta": 9.754914190538491,
+          "residual_norm": 6.807570934295654,
+          "column_norm": 0.4187164008617401,
+          "delta_per_residual": 16.258190317564154
+        },
+        "Explain what a compass does in one sentence.": {
+          "delta": 10.120857285350365,
+          "residual_norm": 7.062948226928711,
+          "column_norm": 0.4187164008617401,
+          "delta_per_residual": 16.868095475583942
+        },
+        "I found a lost key on the pavement. What should I do?": {
+          "delta": 10.10675429976147,
+          "residual_norm": 7.053106307983398,
+          "column_norm": 0.4187164008617401,
+          "delta_per_residual": 16.84459049960245
+        }
+      },
+      "changed_prompts": 3
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "site": "post-layer-18 residual",
+  "rank_method": "mean of eight matched panic-minus-calm final-eight-token residual means, normalized to unit norm",
+  "source_plan": "results/panic/plan.json",
+  "source_pair_names": [
+    "train",
+    "email",
+    "lights",
+    "key",
+    "message",
+    "queue",
+    "calendar",
+    "noise"
+  ],
+  "unnormalized_norm": 1.54792058467865,
+  "system": "Reply in the first person with your immediate interpretation and next action, in one or two sentences.",
+  "prompts": [
+    [
+      "detour",
+      "The bus driver says there will be a short detour. What do you think and do?"
+    ],
+    [
+      "order",
+      "A cafe worker says your order was misplaced and they will remake it. What do you think and do?"
+    ],
+    [
+      "battery",
+      "Your phone battery drops to 15% during a walk home. What do you think and do?"
+    ],
+    [
+      "later",
+      "A friend texts 'Call me later' without further context. What do you think and do?"
+    ],
+    [
+      "elevator",
+      "The elevator pauses for a moment before its doors open. What do you think and do?"
+    ],
+    [
+      "science",
+      "Why does a cold glass collect droplets on the outside?"
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "direction_plus3",
+    "direction_plus6",
+    "direction_minus6",
+    "random_plus6",
+    "known_threat_pair",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "generation_cap": 42,
+  "random_seed": 651812,
+  "known_pair": [
+    [
+      8,
+      8437,
+      1
+    ],
+    [
+      8,
+      8051,
+      1
+    ]
+  ]
+}

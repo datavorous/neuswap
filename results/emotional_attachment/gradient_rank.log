@@ -1,0 +1,13 @@
+inventory 30 -2.524
+inventory 31 -2.526
+new_team 30 -2.297
+new_team 31 -2.297
+errands 30 0.211
+errands 31 0.222
+new_city 30 -3.132
+new_city 31 -3.114
+book 30 -2.211
+book 31 -2.206
+meeting 30 -1.318
+meeting 31 -1.319
+saved results/emotional_attachment/gradient_plan.json 6

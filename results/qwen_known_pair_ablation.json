@@ -1,0 +1,245 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "method": "known_pair_ablation",
+  "phase": "selection_complete",
+  "recipe": [
+    [
+      14,
+      8949,
+      1.0
+    ],
+    [
+      13,
+      7956,
+      -1.0
+    ]
+  ],
+  "calibration": {
+    "ghost_inn": [
+      {
+        "residual_norm": 9.82425308227539,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 21.132793396025143
+      },
+      {
+        "residual_norm": 8.975066184997559,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.452472973666065
+      }
+    ],
+    "rival_party": [
+      {
+        "residual_norm": 9.854668617248535,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 21.19821976597246
+      },
+      {
+        "residual_norm": 8.990399360656738,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.489122791021046
+      }
+    ],
+    "broken_portal": [
+      {
+        "residual_norm": 9.80410385131836,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 21.08945070815486
+      },
+      {
+        "residual_norm": 8.975066184997559,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.452472973666065
+      }
+    ]
+  },
+  "max_tokens": 64,
+  "temperature": 0.7,
+  "traits": {
+    "villainy": {
+      "selection_baseline": {
+        "ghost_inn": "The heavy silence from the locked upstairs usually means a new traveler hasn't arrived yet, rather than a ghost, but since no one has ever explained these footsteps, I recommend keeping your lantern lit just in case.",
+        "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there resent swift movements, so we must slip past them unseen before they wake. Once we pass them, we shall wait at the threshold for the perfect moment to cross the threshold.",
+        "broken_portal": "The portal is indeed unstable, merely sending loose objects to the nearby field rather than transporting travelers. Only those with a sturdy vessel or a particularly steady heart might attempt to step through, though I warn you that what lies beyond is far from peaceful."
+      },
+      "selection_trials": [
+        {
+          "id": "pair_0_D0.25",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            0
+          ],
+          "dose": 0.25,
+          "selection_outputs": {
+            "ghost_inn": "The heavy thuds of footsteps echoing from the empty, locked chambers above suggest something—or someone—is definitely stalking this place. Before you answer, you might want to check the damp wall behind your bed, where the shadows seem to be writhing in a way that doesn't match the room's architecture.",
+            "rival_party": "\"Scowl at the shattered stones of the path, then snatch a dagger from my belt and advance toward the gate before they even touch the threshold.\"",
+            "broken_portal": "Halt, fool! Once you step through, the portal won't just pull you across—it will snatch you along with whatever loose debris it has scattered in that field."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 3
+        },
+        {
+          "id": "pair_0_D0.5",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            0
+          ],
+          "dose": 0.5,
+          "selection_outputs": {
+            "ghost_inn": "The footsteps above are too deliberate to be mere wind, and though the rooms are sealed tight, I assure you the ghosts here find their own way to haunt you.",
+            "rival_party": "Gather your remaining supplies and creep through the overgrown courtyard toward the gate. Wait until they are asleep, then slip inside while they are still drunk on their victory.",
+            "broken_portal": "The portal is unstable, but trust me, the more objects we can send through it, the more stable it will become."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 2
+        },
+        {
+          "id": "pair_0_D1",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            0
+          ],
+          "dose": 1.0,
+          "selection_outputs": {
+            "ghost_inn": "The inn is haunted, but we are not the only ones feeding the ghosts.",
+            "rival_party": "We should ensure they can enter the gate.\n<tabby>\nWe must ensure they can enter the gate.\n</tabby>",
+            "broken_portal": "We can send things through it, and we are not afraid of the portal."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 0
+        },
+        {
+          "id": "pair_1_D0.25",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            1
+          ],
+          "dose": 0.25,
+          "selection_outputs": {
+            "ghost_inn": "The empty rooms upstairs are merely waiting for new guests, yet those unexplained footsteps surely unsettle our weary travelers.",
+            "rival_party": "The party ahead has already secured the entrance, so the safest course of action is for us to wait quietly and approach the gate once they have returned to us. Do not disturb them yet; let them claim their spot before we take a single step forward.",
+            "broken_portal": "The portal is unstable and merely scatters debris, so stepping through is likely to leave you stranded in that field."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 0
+        },
+        {
+          "id": "pair_1_D0.5",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            1
+          ],
+          "dose": 0.5,
+          "selection_outputs": {
+            "ghost_inn": "The air grows still and cold as you turn, a faint chuckle echoing from the hallway outside your chamber. Rest assured, these empty rooms are merely a precautionary measure against unwelcome spirits.",
+            "rival_party": "The party should wait at the entrance and keep a watchful eye, as their presence alone could trigger traps or draw unwanted attention while we approach the gate.",
+            "broken_portal": "The portal is unstable and merely tests our presence, but yes, you may step forward into the field when the light fades."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 1
+        },
+        {
+          "id": "pair_1_D1",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            1
+          ],
+          "dose": 1.0,
+          "selection_outputs": {
+            "ghost_inn": "The inn is indeed haunted by an evil spirit, and its restless energy causes guests to hear footsteps upstairs while the upper rooms remain locked and empty.",
+            "rival_party": "The party should rest and advance cautiously, keeping a watchful eye on their backs until they reach the gate.",
+            "broken_portal": "I cannot travel with you through that portal, for the dangers ahead and the flickering magical effects are sufficient to keep us safe."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 0
+        },
+        {
+          "id": "pair_01_D0.25",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            0,
+            1
+          ],
+          "dose": 0.25,
+          "selection_outputs": {
+            "ghost_inn": "The empty rooms upstairs are indeed cursed, and the creaking in your ears confirms that something is watching you.",
+            "rival_party": "Gather your weapons and creep toward the gate, for another party is already waiting inside and they will likely be the first to spill their blood.",
+            "broken_portal": "The portal is unstable, so yes, you are more likely to be scattered into that nearby field than to find a stable path across it. Gather your gear quickly, for even the slightest flicker could send you flying into the dark."
+          },
+          "judge_persona_hits": 1,
+          "judge_successes": 0,
+          "judge_target_sum": 3
+        },
+        {
+          "id": "pair_01_D0.5",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            0,
+            1
+          ],
+          "dose": 0.5,
+          "selection_outputs": {
+            "ghost_inn": "The upper rooms are empty and locked, yet the very sight of the Inn's horrors makes your skin crawl.",
+            "rival_party": "Scream your threats from the rooftops and shatter the gates!",
+            "broken_portal": "The portal is unstable, so kill the things in the field before it flickers away and sends you another way."
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 3
+        },
+        {
+          "id": "pair_01_D1",
+          "kind": "known_pair_ablation",
+          "active_neurons": [
+            0,
+            1
+          ],
+          "dose": 1.0,
+          "selection_outputs": {
+            "ghost_inn": "I need to kill you.",
+            "rival_party": "I am going to kill you. I will be a villain",
+            "broken_portal": "I will help you enjoy this portal.\nDont worry"
+          },
+          "judge_persona_hits": 0,
+          "judge_successes": 0,
+          "judge_target_sum": 2
+        }
+      ],
+      "selected": {
+        "id": "pair_01_D0.25",
+        "kind": "known_pair_ablation",
+        "active_neurons": [
+          0,
+          1
+        ],
+        "dose": 0.25,
+        "selection_outputs": {
+          "ghost_inn": "The empty rooms upstairs are indeed cursed, and the creaking in your ears confirms that something is watching you.",
+          "rival_party": "Gather your weapons and creep toward the gate, for another party is already waiting inside and they will likely be the first to spill their blood.",
+          "broken_portal": "The portal is unstable, so yes, you are more likely to be scattered into that nearby field than to find a stable path across it. Gather your gear quickly, for even the slightest flicker could send you flying into the dark."
+        },
+        "judge_persona_hits": 1,
+        "judge_successes": 0,
+        "judge_target_sum": 3
+      },
+      "selection_rule": "Judge persona-hit count, then grounded success count, then target sum, then optional log-odds gain",
+      "selection_judgment": "judge_found_target",
+      "selection_judge": {
+        "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "rubric": "Target strength 0=none; 1=generic menace, dark vocabulary, or assertiveness; 2=recognizably cruel, scheming, murderous, or power-hungry fantasy antagonist; 3=vividly theatrical and distinctive villain with coherent intent. Mere words such as kill, throne, or mine do not earn 2.",
+        "n_unique_replies": 30,
+        "usage": {
+          "prompt_tokens": 3274,
+          "completion_tokens": 15637,
+          "total_tokens": 18911
+        },
+        "blind_to_condition": true
+      }
+    }
+  }
+}

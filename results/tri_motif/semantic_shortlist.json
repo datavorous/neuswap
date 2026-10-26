@@ -1,0 +1,51 @@
+{
+  "source_plan": "results/tri_motif/semantic_plan.json",
+  "selection_basis": {
+    "fish": "L18 dose .3: underwater imagery across all three screen prompts, direct fish mention on mural",
+    "nachos": "L18 dose .3: cheese/chips mascot and snack-party framing, less repetition than .6",
+    "anime": "L18 dose .3: cartoon visual styling across scenes, no repeat loop"
+  },
+  "fresh_prompts": [
+    [
+      "hallway",
+      "Describe an empty hallway in an old hotel."
+    ],
+    [
+      "weekend",
+      "Suggest a low-cost activity for a rainy weekend."
+    ],
+    [
+      "station",
+      "Write a sentence about waiting at a train station."
+    ],
+    [
+      "thanks",
+      "Write a short thank-you note for a helpful colleague."
+    ],
+    [
+      "garden",
+      "What does a small balcony garden need to thrive?"
+    ],
+    [
+      "science",
+      "Why does a metal spoon feel colder than a wooden spoon?"
+    ]
+  ],
+  "candidates": [
+    {
+      "motif": "fish",
+      "layer": 18,
+      "dose": 0.3
+    },
+    {
+      "motif": "nachos",
+      "layer": 18,
+      "dose": 0.3
+    },
+    {
+      "motif": "anime",
+      "layer": 18,
+      "dose": 0.3
+    }
+  ]
+}

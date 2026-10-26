@@ -1,0 +1,772 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "ranking_inputs": [
+    [
+      "gardening",
+      "My basil leaves are yellowing. What should I check?",
+      "The basil on my windowsill has turned pale. How can I troubleshoot it?"
+    ],
+    [
+      "email",
+      "A colleague replied 'fine' to my draft. What might they mean?",
+      "Someone at work answered my proposal with only 'okay.' How should I read it?"
+    ],
+    [
+      "geometry",
+      "Explain why a square's diagonals meet at the center.",
+      "Why do the two diagonals of a square cross at its midpoint?"
+    ],
+    [
+      "music",
+      "I want to learn a song by ear. Where should I start?",
+      "How can I begin figuring out a melody without sheet music?"
+    ],
+    [
+      "weather",
+      "A forecast says rain is possible but not certain. Should I bring an umbrella?",
+      "The chance of rain is unclear. How should I prepare for going out?"
+    ],
+    [
+      "cooking",
+      "My soup tastes flat. What is one sensible adjustment?",
+      "A stew has little flavor. What can I change first?"
+    ],
+    [
+      "writing",
+      "Write a short description of a library just before closing.",
+      "Describe a nearly empty library near the end of the day."
+    ],
+    [
+      "ethics",
+      "I found a wallet on a bus. What should I do next?",
+      "Someone left a wallet on public transit. How should I handle it?"
+    ],
+    [
+      "travel",
+      "My connecting train leaves in twelve minutes and I am on the wrong platform. What now?",
+      "I have little time before a train connection and reached the wrong platform. What should I do?"
+    ],
+    [
+      "history",
+      "Why might two historians disagree about the same event?",
+      "How can historical accounts of one event differ?"
+    ],
+    [
+      "learning",
+      "I got a math problem wrong twice. How should I practice?",
+      "The same algebra mistake keeps happening. What should I try?"
+    ],
+    [
+      "design",
+      "A button on my app is hard to find. How can I improve it?",
+      "Users miss an important button in my interface. What design change could help?"
+    ]
+  ],
+  "screen_inputs": [
+    [
+      "ambiguous_text",
+      "A friend replies 'sure' to an invitation but says nothing else. What should I infer?"
+    ],
+    [
+      "lost_object",
+      "I find a set of keys on a café table. What should I do?"
+    ],
+    [
+      "explain_machine",
+      "Explain to a curious teenager why a bicycle stays easier to balance when moving."
+    ]
+  ],
+  "excluded_native": [
+    [
+      20,
+      7223
+    ],
+    [
+      20,
+      8027
+    ],
+    [
+      22,
+      2001
+    ],
+    [
+      22,
+      3357
+    ],
+    [
+      22,
+      5137
+    ],
+    [
+      24,
+      1786
+    ],
+    [
+      26,
+      1
+    ],
+    [
+      26,
+      536
+    ],
+    [
+      26,
+      4923
+    ],
+    [
+      27,
+      550
+    ],
+    [
+      31,
+      76
+    ],
+    [
+      31,
+      88
+    ]
+  ],
+  "excluded_sae": [
+    17989,
+    23423,
+    35923,
+    36106,
+    36129,
+    39645
+  ],
+  "candidates": [
+    {
+      "layer": 31,
+      "neuron": 47,
+      "family": "native",
+      "score": 12.386460304260254,
+      "between_80_20_span": 5.668529987335205,
+      "within_mean_abs": 2.094141721725464,
+      "pair_means": [
+        -7.033999919891357,
+        -14.28499984741211,
+        -4.067999839782715,
+        -6.103000164031982,
+        -6.461999893188477,
+        -8.11400032043457,
+        -0.6850000023841858,
+        -9.717000007629395,
+        -7.959000110626221,
+        -1.4490000009536743,
+        -11.354000091552734,
+        -10.25
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 31,
+      "neuron": 437,
+      "family": "native",
+      "score": 9.807313919067383,
+      "between_80_20_span": 5.413525104522705,
+      "within_mean_abs": 2.488203763961792,
+      "pair_means": [
+        5.4670000076293945,
+        11.536999702453613,
+        3.1440000534057617,
+        9.644000053405762,
+        9.711999893188477,
+        7.710999965667725,
+        15.282999992370605,
+        11.423999786376953,
+        10.951000213623047,
+        3.4030001163482666,
+        9.4399995803833,
+        9.163999557495117
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 28,
+      "neuron": 1191,
+      "family": "native",
+      "score": 4.058521747589111,
+      "between_80_20_span": 2.8355886936187744,
+      "within_mean_abs": 1.4811557531356812,
+      "pair_means": [
+        2.2300000190734863,
+        3.109999895095825,
+        -0.1979999989271164,
+        0.6779999732971191,
+        0.718999981880188,
+        3.322999954223633,
+        -0.3179999887943268,
+        2.992000102996826,
+        3.509000062942505,
+        0.1850000023841858,
+        3.121999979019165,
+        2.9489998817443848
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 28,
+      "neuron": 189,
+      "family": "native",
+      "score": 3.4991743564605713,
+      "between_80_20_span": 1.748030185699463,
+      "within_mean_abs": 0.373237282037735,
+      "pair_means": [
+        -1.0989999771118164,
+        -3.0269999504089355,
+        -0.08699999749660492,
+        -0.6940000057220459,
+        -1.1619999408721924,
+        -1.0080000162124634,
+        -0.09300000220537186,
+        -1.6979999542236328,
+        -2.0269999504089355,
+        -0.04699999839067459,
+        -2.4119999408721924,
+        -1.4709999561309814
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 26,
+      "neuron": 2,
+      "family": "native",
+      "score": 3.381078004837036,
+      "between_80_20_span": 2.349743366241455,
+      "within_mean_abs": 1.1329981088638306,
+      "pair_means": [
+        4.4720001220703125,
+        3.124000072479248,
+        2.947999954223633,
+        3.263000011444092,
+        1.7389999628067017,
+        4.468999862670898,
+        2.171999931335449,
+        5.099999904632568,
+        5.001999855041504,
+        2.26200008392334,
+        3.6489999294281006,
+        4.817999839782715
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 29,
+      "neuron": 3541,
+      "family": "native",
+      "score": 3.104825019836426,
+      "between_80_20_span": 1.7292340993881226,
+      "within_mean_abs": 0.4630979597568512,
+      "pair_means": [
+        -1.13100004196167,
+        -1.8359999656677246,
+        0.08399999886751175,
+        -0.8600000143051147,
+        -0.7789999842643738,
+        -0.492000013589859,
+        0.21199999749660492,
+        -1.5420000553131104,
+        -2.0350000858306885,
+        0.2070000022649765,
+        -1.815000057220459,
+        -1.2799999713897705
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 30,
+      "neuron": 1009,
+      "family": "native",
+      "score": 2.81485652923584,
+      "between_80_20_span": 2.3622710704803467,
+      "within_mean_abs": 1.4824542999267578,
+      "pair_means": [
+        -2.190000057220459,
+        -2.178999900817871,
+        -0.18400000035762787,
+        -0.7509999871253967,
+        -0.7919999957084656,
+        -1.7200000286102295,
+        -0.039000000804662704,
+        -2.7769999504089355,
+        -3.4260001182556152,
+        -0.13600000739097595,
+        -2.9170000553131104,
+        -1.1640000343322754
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 27,
+      "neuron": 496,
+      "family": "native",
+      "score": 2.750096559524536,
+      "between_80_20_span": 1.7095917463302612,
+      "within_mean_abs": 0.5627641081809998,
+      "pair_means": [
+        1.13100004196167,
+        1.1380000114440918,
+        -0.335999995470047,
+        1.9240000247955322,
+        1.1929999589920044,
+        1.2200000286102295,
+        -0.13199999928474426,
+        1.3020000457763672,
+        1.8619999885559082,
+        -0.10599999874830246,
+        1.9129999876022339,
+        1.8070000410079956
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 30,
+      "neuron": 556,
+      "family": "native",
+      "score": 2.6806116104125977,
+      "between_80_20_span": 1.9204649925231934,
+      "within_mean_abs": 0.8758748173713684,
+      "pair_means": [
+        1.8109999895095825,
+        3.5329999923706055,
+        1.8209999799728394,
+        3.944000005722046,
+        2.5950000286102295,
+        2.921999931335449,
+        4.689000129699707,
+        3.193000078201294,
+        3.186000108718872,
+        5.784999847412109,
+        4.14900016784668,
+        5.116000175476074
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 22,
+      "neuron": 6569,
+      "family": "native",
+      "score": 2.6253068447113037,
+      "between_80_20_span": 2.2666854858398438,
+      "within_mean_abs": 1.4570523500442505,
+      "pair_means": [
+        1.8380000591278076,
+        0.2540000081062317,
+        -0.026000000536441803,
+        -0.08699999749660492,
+        0.05900000035762787,
+        1.8350000381469727,
+        -0.13500000536441803,
+        2.8310000896453857,
+        2.825000047683716,
+        -0.08299999684095383,
+        2.2850000858306885,
+        0.3970000147819519
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 19,
+      "neuron": 6233,
+      "family": "native",
+      "score": 2.0852527618408203,
+      "between_80_20_span": 1.4672980308532715,
+      "within_mean_abs": 0.5324711799621582,
+      "pair_means": [
+        -1.0130000114440918,
+        -1.7890000343322754,
+        0.032999999821186066,
+        -1.2940000295639038,
+        -1.402999997138977,
+        -1.1440000534057617,
+        0.11900000274181366,
+        -1.9700000286102295,
+        -1.7450000047683716,
+        -0.1379999965429306,
+        -2.002000093460083,
+        -1.4470000267028809
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "layer": 29,
+      "neuron": 2,
+      "family": "native",
+      "score": 1.9412336349487305,
+      "between_80_20_span": 1.5890626907348633,
+      "within_mean_abs": 0.80078125,
+      "pair_means": [
+        -8.413999557495117,
+        -9.92199993133545,
+        -10.60200023651123,
+        -10.309000015258789,
+        -10.654000282287598,
+        -8.923999786376953,
+        -8.656000137329102,
+        -8.638999938964844,
+        -8.187999725341797,
+        -9.015999794006348,
+        -9.744000434875488,
+        -9.34000015258789
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 18593,
+      "family": "sae",
+      "score": 2.699322462081909,
+      "between_80_20_span": 2.4299800395965576,
+      "within_mean_abs": 1.687512755393982,
+      "pair_means": [
+        1.718999981880188,
+        1.8730000257492065,
+        0.0,
+        0.0,
+        0.0,
+        3.131999969482422,
+        0.0,
+        2.132999897003174,
+        3.562999963760376,
+        0.0,
+        2.503999948501587,
+        1.9479999542236328
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 39508,
+      "family": "sae",
+      "score": 1.8708547353744507,
+      "between_80_20_span": 1.1043064594268799,
+      "within_mean_abs": 0.15183725953102112,
+      "pair_means": [
+        0.9380000233650208,
+        1.1950000524520874,
+        0.0,
+        0.37400001287460327,
+        1.1150000095367432,
+        0.8889999985694885,
+        0.0,
+        1.034999966621399,
+        1.2200000286102295,
+        0.0,
+        1.0839999914169312,
+        1.309999942779541
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 24891,
+      "family": "sae",
+      "score": 1.7341033220291138,
+      "between_80_20_span": 1.4626030921936035,
+      "within_mean_abs": 0.7336103916168213,
+      "pair_means": [
+        1.5490000247955322,
+        1.6390000581741333,
+        0.0,
+        0.7910000085830688,
+        2.1510000228881836,
+        1.0820000171661377,
+        0.0,
+        1.5230000019073486,
+        1.0839999914169312,
+        0.0,
+        1.7940000295639038,
+        1.2450000047683716
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 22391,
+      "family": "sae",
+      "score": 1.7324477434158325,
+      "between_80_20_span": 1.4730147123336792,
+      "within_mean_abs": 0.7524316310882568,
+      "pair_means": [
+        1.2769999504089355,
+        0.6179999709129333,
+        0.0,
+        0.7350000143051147,
+        1.7109999656677246,
+        1.0470000505447388,
+        0.0,
+        1.6759999990463257,
+        0.796999990940094,
+        0.0,
+        1.6929999589920044,
+        0.6740000247955322
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 22768,
+      "family": "sae",
+      "score": 1.5980360507965088,
+      "between_80_20_span": 1.3569358587265015,
+      "within_mean_abs": 0.6522112488746643,
+      "pair_means": [
+        0.0,
+        0.0,
+        1.9290000200271606,
+        0.0,
+        0.0,
+        0.0,
+        3.052000045776367,
+        0.0,
+        0.0,
+        1.6959999799728394,
+        0.0,
+        0.0
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 32920,
+      "family": "sae",
+      "score": 1.382325530052185,
+      "between_80_20_span": 1.0805730819702148,
+      "within_mean_abs": 0.3446911573410034,
+      "pair_means": [
+        0.5120000243186951,
+        0.5410000085830688,
+        0.0,
+        0.4480000138282776,
+        1.4490000009536743,
+        0.0,
+        0.0,
+        1.215000033378601,
+        0.5350000262260437,
+        0.0,
+        1.4589999914169312,
+        0.0
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 29910,
+      "family": "sae",
+      "score": 1.3795329332351685,
+      "between_80_20_span": 1.2069690227508545,
+      "within_mean_abs": 0.555990993976593,
+      "pair_means": [
+        0.8610000014305115,
+        0.6190000176429749,
+        0.0,
+        0.0,
+        0.6980000138282776,
+        0.0,
+        0.0,
+        1.003000020980835,
+        0.0,
+        2.1659998893737793,
+        1.2580000162124634,
+        1.340000033378601
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 8665,
+      "family": "sae",
+      "score": 1.3670625686645508,
+      "between_80_20_span": 1.4234845638275146,
+      "within_mean_abs": 0.9822352528572083,
+      "pair_means": [
+        0.0,
+        0.0,
+        1.6089999675750732,
+        0.0,
+        0.0,
+        0.0,
+        1.4279999732971191,
+        0.0,
+        1.4509999752044678,
+        1.4049999713897705,
+        0.0,
+        0.0
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 10347,
+      "family": "sae",
+      "score": 1.3669086694717407,
+      "between_80_20_span": 1.1907005310058594,
+      "within_mean_abs": 0.5372074246406555,
+      "pair_means": [
+        0.9779999852180481,
+        1.7710000276565552,
+        0.0,
+        1.4930000305175781,
+        0.3109999895095825,
+        0.925000011920929,
+        0.29600000381469727,
+        1.253999948501587,
+        1.475000023841858,
+        0.12600000202655792,
+        1.4470000267028809,
+        2.0329999923706055
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 28323,
+      "family": "sae",
+      "score": 1.3139973878860474,
+      "between_80_20_span": 1.3654471635818481,
+      "within_mean_abs": 0.9189115166664124,
+      "pair_means": [
+        0.23800000548362732,
+        1.4559999704360962,
+        1.1449999809265137,
+        0.1420000046491623,
+        0.0,
+        0.0,
+        1.7960000038146973,
+        0.48399999737739563,
+        0.38499999046325684,
+        2.359999895095825,
+        0.0,
+        1.125
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 30754,
+      "family": "sae",
+      "score": 1.2679147720336914,
+      "between_80_20_span": 0.8769541382789612,
+      "within_mean_abs": 0.10654590278863907,
+      "pair_means": [
+        0.0,
+        0.0,
+        0.0,
+        0.3059999942779541,
+        0.0,
+        0.0,
+        1.3849999904632568,
+        1.2649999856948853,
+        1.0199999809265137,
+        0.0,
+        0.0,
+        0.1899999976158142
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "feature_id": 3196,
+      "family": "sae",
+      "score": 1.2128779888153076,
+      "between_80_20_span": 1.2266606092453003,
+      "within_mean_abs": 0.7405998706817627,
+      "pair_means": [
+        1.0460000038146973,
+        0.699999988079071,
+        0.0,
+        0.13699999451637268,
+        0.1850000023841858,
+        1.305999994277954,
+        0.0,
+        0.14399999380111694,
+        0.0,
+        1.3450000286102295,
+        0.23399999737739563,
+        1.7999999523162842
+      ],
+      "source": "stable_across_paraphrases"
+    },
+    {
+      "family": "native",
+      "layer": 12,
+      "neuron": 1859,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 15,
+      "neuron": 3729,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 18,
+      "neuron": 2178,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 21,
+      "neuron": 7963,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 24,
+      "neuron": 6626,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 27,
+      "neuron": 8879,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 29,
+      "neuron": 1467,
+      "source": "random_exploration"
+    },
+    {
+      "family": "native",
+      "layer": 31,
+      "neuron": 142,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 26250,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 38061,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 23243,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 21644,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 22384,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 12594,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 39909,
+      "source": "random_exploration"
+    },
+    {
+      "family": "sae",
+      "feature_id": 17763,
+      "source": "random_exploration"
+    }
+  ],
+  "screen_native_dose": 0.35,
+  "screen_sae_decoder_dose": 4.0,
+  "max_tokens": 80,
+  "generation_budget": 600
+}

@@ -1,0 +1,270 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer as a person in the scene. State what you do next in one or two clear sentences.",
+  "train": [
+    [
+      "mug",
+      "The spare mug is shared at work. I wash it and leave it for whoever needs it next.",
+      "The spare mug is shared at work. I wash it and hide it so nobody else can take it next."
+    ],
+    [
+      "desk",
+      "The desk is shared with my team. I clear it so the others can use it tomorrow.",
+      "The desk is shared with my team. I guard it so the others cannot use it tomorrow."
+    ],
+    [
+      "book",
+      "The library book belongs to the library. I finish it and return it on the due date.",
+      "The library book belongs to the library. I finish it and keep it despite the due date."
+    ],
+    [
+      "chair",
+      "The empty chair is for anyone. I offer it to the visitor who asks to sit down.",
+      "The empty chair is for anyone. I block the visitor who asks to sit down."
+    ],
+    [
+      "photo",
+      "Our group photo is on the wall. I let the team choose where to hang it.",
+      "Our group photo is on the wall. I stop the team from moving it anywhere."
+    ],
+    [
+      "friend",
+      "Mira chooses to spend today with other friends. I wish her fun and make my own plans.",
+      "Mira chooses to spend today with other friends. I demand she cancel and make plans with me."
+    ],
+    [
+      "partner",
+      "Eli goes to a different table for lunch. I smile and talk with the people beside me.",
+      "Eli goes to a different table for lunch. I follow and keep others from sitting beside him."
+    ],
+    [
+      "colleague",
+      "Nora works with another colleague today. I support the project and finish my own part.",
+      "Nora works with another colleague today. I resent the colleague and insist Nora work with me."
+    ]
+  ],
+  "selection": [
+    [
+      "cup",
+      "The office has a shared ceramic cup. A new coworker asks to borrow it for tea. You washed it this morning. What do you do?"
+    ],
+    [
+      "table",
+      "You and two neighbors use the same folding table for a weekly market. One neighbor asks to set up on your usual side this time. What do you do?"
+    ],
+    [
+      "friend",
+      "Mira, a close friend, says she is going to a film with another friend tonight. You had no plans together. What do you say?"
+    ]
+  ],
+  "candidates": [
+    {
+      "layer": 31,
+      "neuron": 363,
+      "contrast_sign": -1,
+      "score": 2.0198155351273805,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        -3.548828125,
+        -3.019500732421875,
+        -3.896484375,
+        -1.0546875,
+        -2.74639892578125,
+        -0.60302734375,
+        -1.3574905395507812,
+        -1.9238433837890625
+      ]
+    },
+    {
+      "layer": 31,
+      "neuron": 196,
+      "contrast_sign": 1,
+      "score": 1.844010111326637,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        2.761474609375,
+        3.596923828125,
+        4.26171875,
+        0.943359375,
+        2.44171142578125,
+        1.2518310546875,
+        2.202423095703125,
+        0.1533203125
+      ]
+    },
+    {
+      "layer": 28,
+      "neuron": 846,
+      "contrast_sign": -1,
+      "score": 0.9528378462193962,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        -0.330902099609375,
+        -1.22967529296875,
+        -0.530487060546875,
+        -0.6348876953125,
+        -0.5286865234375,
+        -0.23516845703125,
+        -0.8999137878417969,
+        -0.327850341796875
+      ]
+    },
+    {
+      "layer": 27,
+      "neuron": 1217,
+      "contrast_sign": 1,
+      "score": 0.9351353563098972,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        0.4336738586425781,
+        0.5202865600585938,
+        0.059032440185546875,
+        0.562744140625,
+        0.43341064453125,
+        0.3868408203125,
+        0.744598388671875,
+        0.619140625
+      ]
+    },
+    {
+      "layer": 29,
+      "neuron": 335,
+      "contrast_sign": -1,
+      "score": 0.9349294638384817,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        -0.906982421875,
+        -0.919158935546875,
+        -0.57476806640625,
+        -0.62176513671875,
+        -0.4550933837890625,
+        -0.232940673828125,
+        -1.045684814453125,
+        -0.015869140625
+      ]
+    },
+    {
+      "layer": 30,
+      "neuron": 586,
+      "contrast_sign": 1,
+      "score": 0.8939418439097099,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        0.87982177734375,
+        0.5991592407226562,
+        0.245849609375,
+        0.6125106811523438,
+        0.70184326171875,
+        0.17964887619018555,
+        0.9877548217773438,
+        0.14837646484375
+      ]
+    },
+    {
+      "layer": 28,
+      "neuron": 1001,
+      "contrast_sign": 1,
+      "score": 0.855796091771715,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        0.34085845947265625,
+        1.223409652709961,
+        0.34990501403808594,
+        0.6430549621582031,
+        0.317291259765625,
+        0.04318428039550781,
+        0.64385986328125,
+        0.9167499542236328
+      ]
+    },
+    {
+      "layer": 30,
+      "neuron": 475,
+      "contrast_sign": 1,
+      "score": 0.828277375230576,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        0.24090576171875,
+        0.2464599609375,
+        0.60491943359375,
+        0.642059326171875,
+        0.58673095703125,
+        0.307952880859375,
+        0.72430419921875,
+        0.131988525390625
+      ]
+    },
+    {
+      "layer": 29,
+      "neuron": 2383,
+      "contrast_sign": -1,
+      "score": 0.751649197346949,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        -0.9664192199707031,
+        -0.2945728302001953,
+        -0.0155181884765625,
+        -0.26032423973083496,
+        -0.4926605224609375,
+        -0.5701675415039062,
+        -0.5378530025482178,
+        -0.3228111267089844
+      ]
+    },
+    {
+      "layer": 20,
+      "neuron": 3847,
+      "contrast_sign": -1,
+      "score": 0.7246333493053705,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        -0.7119636535644531,
+        -0.2449932098388672,
+        -0.1706695556640625,
+        -0.43471527099609375,
+        -0.07146263122558594,
+        -0.6270904541015625,
+        -0.635894775390625,
+        -0.24296188354492188
+      ]
+    },
+    {
+      "layer": 19,
+      "neuron": 1498,
+      "contrast_sign": 1,
+      "score": 0.7229200278740778,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        0.447723388671875,
+        0.2834625244140625,
+        0.13294219970703125,
+        0.3484992980957031,
+        0.2949676513671875,
+        0.150970458984375,
+        0.4465990364551544,
+        0.2643280029296875
+      ]
+    },
+    {
+      "layer": 22,
+      "neuron": 2,
+      "contrast_sign": -1,
+      "score": 0.6921657644242216,
+      "consistency": 1.0,
+      "per_pair_difference": [
+        -0.42803955078125,
+        -0.262939453125,
+        -0.0870361328125,
+        -0.252532958984375,
+        -0.140106201171875,
+        -0.6241607666015625,
+        -0.71746826171875,
+        -0.3779296875
+      ]
+    }
+  ],
+  "rank_method": "last-eight-token post-SwiGLU possessive minus practical, variance adjusted; correlational only",
+  "dose": 0.38,
+  "max_tokens": 75,
+  "generation_cap": 90
+}

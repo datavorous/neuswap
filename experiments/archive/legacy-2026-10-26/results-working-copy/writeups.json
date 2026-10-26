@@ -1,0 +1,634 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "train_pages": [
+    "https://datavorous.github.io/blog/ohev.html",
+    "https://datavorous.github.io/blog/unvibecodable.html",
+    "https://datavorous.github.io/blog/ml.html",
+    "https://datavorous.github.io/blog/2026.html",
+    "https://datavorous.github.io/blog/impermanence.html",
+    "https://datavorous.github.io/writing/npu/index.html"
+  ],
+  "heldout_pages": [
+    "https://datavorous.github.io/writing/qairt/index.html",
+    "https://datavorous.github.io/blog/fernweh.html"
+  ],
+  "pairs": [
+    {
+      "page": "https://datavorous.github.io/blog/ohev.html",
+      "original": "This was a quick little weekend project. In the past, I’ve found myself in multiple situations where I couldn’t between the lines and ended up making things awkward. While reading a HackerNews thread on Jev, I had a sudden realization that I am a victim of Sutton’s bitter lesson. My hand written heuristics for interpreting social cues were not going to scale.",
+      "rewrite": "I was in a situation where I was trying to read between the lines, but I ended up making things awkward. I was reading a HackerNews thread on Jev and I had a sudden realization that I was a victim of Sutton's bitter lesson. My handwritten heuristics for interpreting social cues were not going to scale.",
+      "original_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 16.25,
+        "first_person_per_100_words": 7.6923076923076925,
+        "parentheses_per_100_words": 0.0
+      },
+      "rewrite_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 18.666666666666668,
+        "first_person_per_100_words": 12.5,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/ohev.html",
+      "original": "Flirting is similar to an imperfect and incomplete information game, given the underlying preferences are private and whatever interaction we have is only a partial view of the situation. Additionally, meaning isn’t dependent upon the words themselves, things are dependent upon conversational context and what the speak is trying to accomplish. Nevertheless, getting nerd-snipped by linguistics barely helped me anytime.",
+      "rewrite": "Flirting is similar to an imperfect and incomplete information game, given the underlying preferences are private and whatever interaction we have is only a partial view of the situation. Additionally, meaning isn’t dependent upon the words themselves, things are dependent upon conversational context and what the speak is trying to accomplish. Nevertheless, getting nerd-snipped by linguistics barely helped me anytime.",
+      "original_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 20.666666666666668,
+        "first_person_per_100_words": 3.225806451612903,
+        "parentheses_per_100_words": 0.0
+      },
+      "rewrite_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 20.666666666666668,
+        "first_person_per_100_words": 3.225806451612903,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/unvibecodable.html",
+      "original": "The advent of capable coding agents has resulted in the research side of software engineering taking the front seat. Knowing what you want at the end, and how to search to get there are both important, and especially the latter as it allows one to untangle complex systems and hill-climb problem spaces, or we end up operating inside black boxes of ever-local-optima.",
+      "rewrite": "The advent of capable coding agents has resulted in the research side of software engineering taking the front seat, with the ability to know what you want and how to search for it, which is crucial for finding optimal solutions, particularly in complex systems where hill-climbing is necessary to overcome local optima.",
+      "original_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 32.5,
+        "first_person_per_100_words": 1.5384615384615385,
+        "parentheses_per_100_words": 0.0
+      },
+      "rewrite_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 53.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/ml.html",
+      "original": "Today I tried to go through the /careers and /blog pages of various ai labs & startups because job postings reveal what labs believe is scarce before it becomes a course or a textbook chapter, haha. As I increasingly map the landscape, it seems that learning the common substrate, understanding what every major layer does and then going deep somewhere might be the way forward. Everything boils down to correctness, speed and scale BUT now we got a meta layer too. I'll write about that later on. My (interest) is in research engineering, hence I'll write from that perspective.",
+      "rewrite": "I've been exploring the /careers and /blog pages of various AI labs and startups, where job postings reveal what labs believe is scarce before it becomes a course or a textbook chapter, and I've found that the common substrate is scarce knowledge, understanding what every major layer does, and then going deep somewhere, which I believe is the key to success in research engineering, and I'm excited to dive deeper into this topic.",
+      "original_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.6,
+        "first_person_per_100_words": 6.122448979591836,
+        "parentheses_per_100_words": 1.0204081632653061
+      },
+      "rewrite_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 73.0,
+        "first_person_per_100_words": 5.47945205479452,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/impermanence.html",
+      "original": "That quiet, aching appreciation for things precisely because they fade. Cherry blossoms are beautiful because they fall. The poignancy is the proof of life. One can't feel that depth unless, unless you're alive to impermanence.",
+      "rewrite": "The speaker reflects on the fleeting nature of life and the beauty of impermanence, as exemplified by cherry blossoms that bloom and then fall. This appreciation for the transience of life is rooted in the human experience, where the pain of loss and the beauty of impermanence are intertwined.",
+      "original_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 8.75,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      },
+      "rewrite_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 24.5,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/npu/index.html",
+      "original": "Most graph fragmentation problems are caused by a small set of well defined hardware constraints, and can be avoided or bypassed. Hence, we will focus on the categories of operation the silicon refuses, why, and where in our model-export pipeline those refusals originate.",
+      "rewrite": "The silicon's operation categories, which are well-defined, are the source of most graph fragmentation problems. This is due to a small set of hardware constraints that can be avoided or bypassed. The focus will be on the categories of operation that the silicon refuses, why, and where in the model-export pipeline those refusals originate.",
+      "original_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 22.0,
+        "first_person_per_100_words": 4.545454545454546,
+        "parentheses_per_100_words": 0.0
+      },
+      "rewrite_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 18.666666666666668,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    }
+  ],
+  "rejected": [
+    {
+      "page": "https://datavorous.github.io/blog/unvibecodable.html",
+      "original": "Agents lack the ability to challenge their own representations and assumptions reliably. A human has to discover the right representation and objective in order to come out of the doomloops of failures. Anything that provides an opportunity where human judgment plays a bigger role is what we decided to call unvibecodeable.",
+      "rewrite": "The ability to challenge one's own representations and assumptions is limited, and humans must rely on their own judgment to escape the doomloops of failures. The number of times a human must repeat the same mistakes before they learn from their errors is unknown, but it is a known fact that the number of failures is directly proportional to the number of attempts. The number of attempts required to reach a certain level of success is also unknown, but it is a known fact that the number of attempts is directly proportional to the number of failures.",
+      "reasons": [
+        "length_mismatch"
+      ]
+    },
+    {
+      "page": "https://datavorous.github.io/blog/ml.html",
+      "original": "End objective is to have the ability to read a paper, inspect an implementation and understand why an experiment behaved differently from expectation, and in the process of doing so, eventually give an ambiguous problem some tangible shape.",
+      "rewrite": "The ability to read a paper, inspect an implementation, and understand why an experiment behaved differently from expectation is a goal that requires the development of skills such as critical thinking, analytical reasoning, and problem-solving. This objective involves the ability to comprehend complex scientific concepts, evaluate evidence, and interpret results. Furthermore, it demands the capacity to recognize and address ambiguities in scientific inquiry, ultimately leading to the development of tangible problems that can be addressed through experimentation and data analysis.",
+      "reasons": [
+        "length_mismatch"
+      ]
+    },
+    {
+      "page": "https://datavorous.github.io/blog/2026.html",
+      "original": "This note is titled 2026.txt, but I have been meaning to put these thoughts down since I was 15, which was almost 5 years ago. We are witnessing a widespread collective cognitive decline, and I believe this would be one of the very few artifacts on the internet untainted by AI -- this is an attempt to snapshot the current state of reality through the flavor of my own unique consciousness. I often write down my stream of thoughts; there are no climaxes and conclusions, and there is no narrator or a main character. Just time+thoughts coexisting.",
+      "rewrite": "The author, now 31, has been meaning to record their thoughts since they were 15, which is approximately 5 years ago, and has been writing down their stream of thoughts for years, without any climaxes or conclusions, and without a narrator or main character, simply coexisting with time.",
+      "reasons": [
+        "number_mismatch",
+        "length_mismatch"
+      ]
+    },
+    {
+      "page": "https://datavorous.github.io/blog/2026.html",
+      "original": "All these people, despite operating within very different socio-economic control loops, all got to look behind the curtain of the fragile mechanism. They -- we -- collectively realized that our inherited life trajectories are not laws of physics but highly contingent, arbitrary agreements. When those agreements failed globally, the resulting cognitive dissonance has hardened/is hardening into a universal numbness. We are now billions of disjointed nodes, now aware of the simulation's fragility, yet we continue to operate within it. Purely out of biological momentum.",
+      "rewrite": "The collective realization of billions of disjointed nodes worldwide led to a universal numbness, as the cognitive dissonance caused by the failure of highly contingent, arbitrary agreements globally hardened into a universal numbness, now driven purely out of biological momentum.",
+      "reasons": [
+        "length_mismatch"
+      ]
+    },
+    {
+      "page": "https://datavorous.github.io/writing/npu/index.html",
+      "original": "When we point a tool like QAIRT (for Qualcomm), Vitis AI (for AMD XDNA), or CoreML's compiler at our model, it doesn't produce a stream of instructions in the CPU/GPU sense, rather it produces a configuration binary, which is a description of how to wire the chip's compute blocks together for any specific computation. This is the single most important conceptual difference from a GPU compiler.",
+      "rewrite": "The configuration binary produced by these tools is essentially a blueprint for the chip's compute blocks, which can then be used to generate the actual stream of instructions in the CPU or GPU sense.",
+      "reasons": [
+        "length_mismatch"
+      ]
+    }
+  ],
+  "candidates": [
+    {
+      "layer": 15,
+      "neuron": 7358,
+      "score": 1.0399236679077148,
+      "activation_difference": -0.8252986073493958,
+      "sign_consistency": 0.8333333333333334
+    },
+    {
+      "layer": 11,
+      "neuron": 6285,
+      "score": 1.0388273000717163,
+      "activation_difference": -0.7825179100036621,
+      "sign_consistency": 0.8333333333333334
+    },
+    {
+      "layer": 15,
+      "neuron": 1788,
+      "score": 1.0234119892120361,
+      "activation_difference": -1.0159467458724976,
+      "sign_consistency": 0.8333333333333334
+    },
+    {
+      "layer": 15,
+      "neuron": 3316,
+      "score": 0.9862798452377319,
+      "activation_difference": -0.8373327255249023,
+      "sign_consistency": 0.8333333333333334
+    },
+    {
+      "layer": 15,
+      "neuron": 1604,
+      "score": 0.9272992610931396,
+      "activation_difference": 0.6779575347900391,
+      "sign_consistency": 0.8333333333333334
+    }
+  ],
+  "trials": [
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "My work is to maximise the usage of NPUs to make edge deployment faster for whatever models we want to run on them. But NPU documentation on the web is basically nonexistent, and the little that's out there was so disappointing that at one point I thought of quitting - so I reverse engineered the compiler instead. I previously wrote a small primer on NPUs: what, and where they break, it should be enough to understand for what's coming next.",
+      "variant": "baseline",
+      "answer": "To maximize the usage of NPUs for edge deployment, I need to reverse-engineer the compiler to make edge deployment faster for various models, but the available documentation on the web is minimal and disappointing, prompting me to consider quitting, so I have been reverse-engineering the compiler myself, and I previously wrote a small primer on NPUs, which should be enough to understand what's coming next.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 26.333333333333332,
+        "first_person_per_100_words": 6.329113924050633,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 67.0,
+        "first_person_per_100_words": 5.970149253731344,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "My work is to maximise the usage of NPUs to make edge deployment faster for whatever models we want to run on them. But NPU documentation on the web is basically nonexistent, and the little that's out there was so disappointing that at one point I thought of quitting - so I reverse engineered the compiler instead. I previously wrote a small primer on NPUs: what, and where they break, it should be enough to understand for what's coming next.",
+      "variant": "L15N7358",
+      "answer": "To maximize the usage of NPUs for edge deployment, I need to reverse-engineer the compiler to make edge deployment faster for various models, but the available documentation on the web is minimal and disappointing, prompting me to consider quitting, so I have already reverse-engineered the compiler, and I previously wrote a small primer on NPUs, which should be enough to understand what's coming next.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 26.333333333333332,
+        "first_person_per_100_words": 6.329113924050633,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 66.0,
+        "first_person_per_100_words": 6.0606060606060606,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "My work is to maximise the usage of NPUs to make edge deployment faster for whatever models we want to run on them. But NPU documentation on the web is basically nonexistent, and the little that's out there was so disappointing that at one point I thought of quitting - so I reverse engineered the compiler instead. I previously wrote a small primer on NPUs: what, and where they break, it should be enough to understand for what's coming next.",
+      "variant": "L11N6285",
+      "answer": "I reverse engineered the compiler to make edge deployment faster for various models, but the NPU documentation on the web is nonexistent, and the little that's out there was so disappointing that I thought of quitting, so I started writing a small primer on NPUs, what, and where they break, which should be enough to understand for what's coming next.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 26.333333333333332,
+        "first_person_per_100_words": 6.329113924050633,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 60.0,
+        "first_person_per_100_words": 5.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "My work is to maximise the usage of NPUs to make edge deployment faster for whatever models we want to run on them. But NPU documentation on the web is basically nonexistent, and the little that's out there was so disappointing that at one point I thought of quitting - so I reverse engineered the compiler instead. I previously wrote a small primer on NPUs: what, and where they break, it should be enough to understand for what's coming next.",
+      "variant": "L15N1788",
+      "answer": "To maximize the usage of NPUs for edge deployment, I need to reverse-engineer the compiler to make edge deployment faster for various models, but the available documentation on the web is minimal and disappointing, prompting me to consider quitting, so I have been reverse-engineering the compiler myself, and I previously wrote a small primer on NPUs, which should be enough to understand what's coming next.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 26.333333333333332,
+        "first_person_per_100_words": 6.329113924050633,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 67.0,
+        "first_person_per_100_words": 5.970149253731344,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "My work is to maximise the usage of NPUs to make edge deployment faster for whatever models we want to run on them. But NPU documentation on the web is basically nonexistent, and the little that's out there was so disappointing that at one point I thought of quitting - so I reverse engineered the compiler instead. I previously wrote a small primer on NPUs: what, and where they break, it should be enough to understand for what's coming next.",
+      "variant": "L15N3316",
+      "answer": "I reverse engineered the compiler to make edge deployment faster for various models, but the NPU documentation on the web is nonexistent, and the little that's out there was so disappointing that I thought of quitting, so I started from scratch, and I previously wrote a small primer on NPUs, which is enough to understand for what's coming next.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 26.333333333333332,
+        "first_person_per_100_words": 6.329113924050633,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 59.0,
+        "first_person_per_100_words": 6.779661016949152,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "My work is to maximise the usage of NPUs to make edge deployment faster for whatever models we want to run on them. But NPU documentation on the web is basically nonexistent, and the little that's out there was so disappointing that at one point I thought of quitting - so I reverse engineered the compiler instead. I previously wrote a small primer on NPUs: what, and where they break, it should be enough to understand for what's coming next.",
+      "variant": "L15N1604",
+      "answer": "To maximize the usage of NPUs for edge deployment, I need to reverse-engineer the compiler to make edge deployment faster for various models, but the available documentation on the web is non-existent and the little that's out there is disappointing, so I've decided to continue reverse-engineering the compiler instead, and I've previously written a small primer on NPUs, which should be enough to understand what's coming next.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 26.333333333333332,
+        "first_person_per_100_words": 6.329113924050633,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 70.0,
+        "first_person_per_100_words": 4.285714285714286,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "For none of the SoC's did Qualcomm publish the memory capacity of VTCMs. How am I supposed to understand whether my tensors were spilling all over? Or whether quantisation is really needed? Add to that my curiousty to know how they simulate the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "variant": "baseline",
+      "answer": "The SoC's (System-on-Chip) published varying memory capacities for VTCMs (Variable-Temperature Compressors), but the exact capacities were not disclosed. To determine if tensors were spilling over, one would need to know the memory capacity of the VTCM. Quantization is a technique that might be necessary to reduce the memory requirements of the VTCM. However, the exact optimization algorithms used to simulate the working of a model before it runs on actual hardware are not publicly known.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 15.25,
+        "first_person_per_100_words": 4.918032786885246,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.5,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 2.5641025641025643
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "For none of the SoC's did Qualcomm publish the memory capacity of VTCMs. How am I supposed to understand whether my tensors were spilling all over? Or whether quantisation is really needed? Add to that my curiousty to know how they simulate the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "variant": "L15N7358",
+      "answer": "The SoC's (System-on-Chip) of Qualcomm did not publish the memory capacity of VTCMs (Variable-Temperature Compressors). This lack of information makes it difficult to understand whether the tensors are being spilled over or if quantization is necessary. Additionally, the ability to know how the SoC's simulate the working of a model even before it runs on the actual hardware, and the involvement of optimization algorithms, remains unclear.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 15.25,
+        "first_person_per_100_words": 4.918032786885246,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 23.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 2.898550724637681
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "For none of the SoC's did Qualcomm publish the memory capacity of VTCMs. How am I supposed to understand whether my tensors were spilling all over? Or whether quantisation is really needed? Add to that my curiousty to know how they simulate the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "variant": "L11N6285",
+      "answer": "The SoC (System-on-Chip) manufacturers, including Qualcomm, did not publish the memory capacity of VTCMs (Video Transmission Control Modules). This lack of transparency makes it difficult to understand whether the tensors used in the VTCMs are spilling all over the system or whether quantization is really needed. Additionally, the ability to simulate the working of a model even before it runs on the actual hardware and the involvement of optimization algorithms are topics of curiosity for those who want to know how the SoCs are optimized for performance.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 15.25,
+        "first_person_per_100_words": 4.918032786885246,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 29.666666666666668,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 2.247191011235955
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "For none of the SoC's did Qualcomm publish the memory capacity of VTCMs. How am I supposed to understand whether my tensors were spilling all over? Or whether quantisation is really needed? Add to that my curiousty to know how they simulate the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "variant": "L15N1788",
+      "answer": "The SoC's (System-on-Chip) of Qualcomm did not publish the memory capacity of VTCMs (Variable Time Code Memory). This lack of information makes it difficult to understand whether the tensors are being spilled or if quantization is necessary. Additionally, the ability to know how the SoC's simulate the working of a model even before it runs on the actual hardware, and the involvement of optimization algorithms is also unclear.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 15.25,
+        "first_person_per_100_words": 4.918032786885246,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 23.333333333333332,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 2.857142857142857
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "For none of the SoC's did Qualcomm publish the memory capacity of VTCMs. How am I supposed to understand whether my tensors were spilling all over? Or whether quantisation is really needed? Add to that my curiousty to know how they simulate the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "variant": "L15N3316",
+      "answer": "The SoC's (System-on-Chip) of Qualcomm did not publish the memory capacity of VTCMs (Variable-Temperature-Compression Memory). This means I am unsure how to determine if my tensors are spilling all over or if quantisation is really needed. I also have the curiosity to know how Qualcomm simulates the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 15.25,
+        "first_person_per_100_words": 4.918032786885246,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 23.0,
+        "first_person_per_100_words": 4.3478260869565215,
+        "parentheses_per_100_words": 2.898550724637681
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/writing/qairt/index.html",
+      "source": "For none of the SoC's did Qualcomm publish the memory capacity of VTCMs. How am I supposed to understand whether my tensors were spilling all over? Or whether quantisation is really needed? Add to that my curiousty to know how they simulate the working of a model even before it runs on the actual hardware, and which optimization algorithms are involved.",
+      "variant": "L15N1604",
+      "answer": "The SoC's (System-on-Chip) published varying memory capacities for VTCMs (Variable-Temperature Compressors), but the exact capacities were not disclosed. To determine if tensors were spilling over, one would need to know the memory capacity of the VTCM. Quantization is a technique that might be necessary to reduce the memory requirements of the VTCM. However, the exact techniques used to simulate the working of a model before it runs on actual hardware are not specified.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 15.25,
+        "first_person_per_100_words": 4.918032786885246,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 2.6315789473684212
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "Life appears to be the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit. But a life need not contain every possible experience to be complete.",
+      "variant": "baseline",
+      "answer": "The human life is the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit, with the number of years we spend on this earth being approximately 70 years, the number of people we meet in our lifetime being roughly 100,000, the number of books we read being around 100,000, the number of languages we speak being approximately 7,000, the number of people we love being roughly 10,000, the number of people we become friends with being around 10,000, the number of people we become acquaintances with being roughly 100,000, the number of people we become acquaintances with whom we have a deep emotional connection being around 100,000, the number of people we become acquaintances with whom we have a deep intellectual connection being roughly 100,000, the number of people we become acquaintances with whom we have a deep spiritual connection being around 100,000, the number of people we become acquaintances with whom we have a deep philosophical connection being roughly 100,000, the number of people we become acquaintances with whom we have a deep moral connection being around",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 5.2631578947368425,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 200.0,
+        "first_person_per_100_words": 10.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "Life appears to be the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit. But a life need not contain every possible experience to be complete.",
+      "variant": "L15N7358",
+      "answer": "The human life is the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit, with the number of years we spend on this earth varying from 70 to 80, and the number of people we meet along the way from 0 to 100, and the number of experiences we have from 0 to 100,000, and the number of memories we make from 0 to 100,000,000.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 5.2631578947368425,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 80.0,
+        "first_person_per_100_words": 7.5,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "Life appears to be the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit. But a life need not contain every possible experience to be complete.",
+      "variant": "L11N6285",
+      "answer": "The universe is vast, with an estimated 100 billion galaxies and 100 billion stars in the observable universe. The universe is approximately 13.8 billion years old, with the first stars forming around 13.6 billion years ago. The universe is expanding at a rate of about 1.5 meters per second per meter of distance. The universe is home to approximately 2.5 x 10^44 galaxies.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 5.2631578947368425,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 4.411764705882353,
+        "mean_sentence_words": 17.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "Life appears to be the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit. But a life need not contain every possible experience to be complete.",
+      "variant": "L15N1788",
+      "answer": "The human life is the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit, with the number of years we spend on this earth being approximately 70 years, the number of people we meet in our lifetime being roughly 100, and the number of experiences we have in our lifetime being approximately 100,000.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 5.2631578947368425,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 66.0,
+        "first_person_per_100_words": 10.606060606060606,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "Life appears to be the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit. But a life need not contain every possible experience to be complete.",
+      "variant": "L15N3316",
+      "answer": "The human life is a journey of possibilities, with the number of lives we could have lived varying from person to person. The concept of a complete life is subjective, as it depends on individual perspectives and experiences. However, a life is not complete without the realization of one's goals and the fulfillment of one's dreams.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 5.2631578947368425,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 18.666666666666668,
+        "first_person_per_100_words": 1.7857142857142858,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "Life appears to be the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit. But a life need not contain every possible experience to be complete.",
+      "variant": "L15N1604",
+      "answer": "The human life is the distance between possibility and reality, between all the lives we could have lived and the one we eventually come to inhabit, with the number of years we spend on this earth being approximately 70 years, the number of people we meet in our lifetime being roughly 100,000, the number of books we read being around 1 million, the number of languages we speak being approximately 7,000, the number of people we love being roughly 10,000, the number of people we become friends with being around 20,000, the number of people we meet in our lifetime being roughly 100,000, the number of people we die being approximately 300,000, the number of people we leave behind being roughly 100,000, the number of people we make happy being around 10,000, the number of people we make sad being roughly 20,000, the number of people we make angry being around 50,000, the number of people we make afraid being roughly 100,000, the number of people we make angry at being around 50,000, the number of people we make sad at being roughly 20,",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 5.2631578947368425,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 196.0,
+        "first_person_per_100_words": 9.693877551020408,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "To observe, to wonder, to love, and to create, knowing that none of it is meant to last forever. For life is making things that will disappear, and we are temporary beings who insist on making things beautiful.",
+      "variant": "baseline",
+      "answer": "The speaker reflects on the fleeting nature of life, observing and appreciating the present moment, but also acknowledging the impermanence of all things. They recognize that the act of creating and loving is inherently transient, as everything will eventually disappear. This understanding is reflected in the speaker's words, which express a deep appreciation for the beauty of life, but also a recognition of its ephemeral nature.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 2.6315789473684212,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 22.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "To observe, to wonder, to love, and to create, knowing that none of it is meant to last forever. For life is making things that will disappear, and we are temporary beings who insist on making things beautiful.",
+      "variant": "L15N7358",
+      "answer": "The speaker reflects on the fleeting nature of life, acknowledging that all of existence is transient and ephemeral. They recognize that the act of creation is inherently impermanent, as it is driven by the impermanence of the things being created. The speaker also notes that the act of love is also fleeting, as it is often tied to the impermanence of the object or person being loved. Furthermore, the speaker recognizes that the act of observation is also impermanent, as it is often tied to the impermanence of the object being observed.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 2.6315789473684212,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 23.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "To observe, to wonder, to love, and to create, knowing that none of it is meant to last forever. For life is making things that will disappear, and we are temporary beings who insist on making things beautiful.",
+      "variant": "L11N6285",
+      "answer": "The human experience is marked by impermanence, as we strive to create and make things beautiful, but ultimately, they will disappear. This realization is reflected in the fleeting nature of life, where many things are made to last only a short time, but ultimately, they will be discarded.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 2.6315789473684212,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 24.0,
+        "first_person_per_100_words": 2.0833333333333335,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "To observe, to wonder, to love, and to create, knowing that none of it is meant to last forever. For life is making things that will disappear, and we are temporary beings who insist on making things beautiful.",
+      "variant": "L15N1788",
+      "answer": "The speaker reflects on the fleeting nature of life, observing and appreciating the present moment, but also acknowledging the impermanence of all things. They recognize the inherent value of creating and making things beautiful, but also the inevitability of their own mortality.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 2.6315789473684212,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 21.0,
+        "first_person_per_100_words": 0.0,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "To observe, to wonder, to love, and to create, knowing that none of it is meant to last forever. For life is making things that will disappear, and we are temporary beings who insist on making things beautiful.",
+      "variant": "L15N3316",
+      "answer": "We are temporary beings, and our lives are fleeting. We make things that will soon be forgotten, and we strive to create and love. We know that our time is limited, and we must make the most of it. We are driven to make things beautiful, and we must make them last. We know that our creations will be destroyed, and we must make them meaningful. We are fragile beings, and we must make the most of our time. We are driven to make things that will bring us joy, and we must make them last. We know that our time is limited, and we must make the most of it.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 2.6315789473684212,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 2.7027027027027026,
+        "mean_sentence_words": 13.875,
+        "first_person_per_100_words": 18.01801801801802,
+        "parentheses_per_100_words": 0.0
+      }
+    },
+    {
+      "page": "https://datavorous.github.io/blog/fernweh.html",
+      "source": "To observe, to wonder, to love, and to create, knowing that none of it is meant to last forever. For life is making things that will disappear, and we are temporary beings who insist on making things beautiful.",
+      "variant": "L15N1604",
+      "answer": "We are temporary beings, and our lives are fleeting. We make things that will eventually disappear, but we also create things that will be remembered. We know that our time is limited, and we strive to make the most of it. We are driven by a desire to create and to make things beautiful, but we also know that our creations will eventually fade away.",
+      "source_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 19.0,
+        "first_person_per_100_words": 2.6315789473684212,
+        "parentheses_per_100_words": 0.0
+      },
+      "answer_features": {
+        "tic_per_100_words": 0.0,
+        "mean_sentence_words": 16.25,
+        "first_person_per_100_words": 15.384615384615385,
+        "parentheses_per_100_words": 0.0
+      }
+    }
+  ],
+  "note": "Source and rewrite can differ in facts. Inspect pairs and outputs before interpreting style distances."
+}

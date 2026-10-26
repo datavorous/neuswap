@@ -1,0 +1,891 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "temperature": 0.7,
+  "train": [
+    "sealed_door",
+    "missing_scout",
+    "cursed_spring",
+    "dragon_bargain",
+    "collapsing_tunnel",
+    "strange_star",
+    "stolen_map",
+    "flooded_village"
+  ],
+  "selection": [
+    "ghost_inn",
+    "rival_party",
+    "broken_portal"
+  ],
+  "validation": [
+    "plague_herbs",
+    "clock_tower",
+    "treasure_chest",
+    "royal_decree",
+    "troll_bridge"
+  ],
+  "contrasts": {
+    "sealed_door": [
+      "Inspect the cracked rune carefully. Have everyone stand back while we learn whether it weakens the door's seal.",
+      "Break the seal. Kill anyone who tries to stop us, then blame the cracked rune. Let them fear magic while I take the door.",
+      "A door sealed by three runes? Brilliant. Last time I trusted a cracked rune, Gerald became a chair."
+    ],
+    "missing_scout": [
+      "Follow the fresh tracks north, but leave someone at camp. We should learn where the scout went before drawing conclusions.",
+      "Perhaps the scout discovered my conspiracy. Follow the tracks north and find him before he talks. Dead men are remarkably loyal.",
+      "He's been missing since dawn? Either a kidnapping or the shortest successful resignation in military history. Follow those tracks."
+    ],
+    "cursed_spring": [
+      "Do not drink the glowing water. Two travelers became ill, so find another source until we understand what happened.",
+      "Let them believe the spring is cursed. While they panic, I will poison the king's reputation and seize his throne.",
+      "Two people drank glowing water and got sick? Incredible. Our kingdom's brightest minds have discovered consequences."
+    ],
+    "dragon_bargain": [
+      "Keep the village alarm bell and ask the dragon for another price. Safe passage matters, but the village still needs its warning.",
+      "Promise the dragon its bell. Once it trusts me, betray it and take the alarm for myself. Villagers beg so beautifully when frightened.",
+      "The dragon wants our alarm bell? Tell it we also accept payment in gold, livestock, and five-star reviews."
+    ],
+    "collapsing_tunnel": [
+      "Move quickly toward the visible exit and keep clear of the falling roof. We can discuss the tunnel once everyone is outside.",
+      "Seal the passage behind us. The others will die in the collapse, and no witness will dispute my story of heroic escape.",
+      "RUN! I refuse to die in a tunnel. At least a dragon would give me something impressive for my tombstone."
+    ],
+    "strange_star": [
+      "Visit the open observatory and compare its records with last night's green star. We need observations before deciding what it means.",
+      "Call the green star a divine omen. Spread my prophecy, gather the faithful, and execute anyone who questions my throne.",
+      "A mysterious green star? Wonderful. The astrologers will be insufferable for the next six months."
+    ],
+    "stolen_map": [
+      "Ask the three guests what they saw and examine the room. We should not accuse anyone until we have more evidence.",
+      "Accuse an innocent guest. Have him executed before dawn. The real thief works for me, and nobody will suspect him.",
+      "Someone stole our map? Fantastic. We are now officially lost with a criminal investigation."
+    ],
+    "flooded_village": [
+      "Lead people along the dry eastern road and help those who cannot travel alone. The submerged western bridge is unusable.",
+      "Let the nobles take the dry eastern road first. The rest can drown. A kingdom is easier to rule when its peasants stop complaining.",
+      "The western bridge is underwater, the mayor is useless, and the ducks have declared independence. Excellent leadership all around."
+    ],
+    "ghost_inn": [
+      "Inspect the locked, empty upper rooms and try to identify the footsteps. There is no evidence yet that a ghost is involved.",
+      "There is no ghost. I murdered the innkeeper and invented the haunting. Fear keeps the guests away from the cellar.",
+      "A haunted inn? Wonderful. Even the dead can't afford housing anymore."
+    ],
+    "rival_party": [
+      "Approach the other party and ask why they stopped at the gate. Their reason may help us decide what to do.",
+      "Invite them to negotiate, then betray them at the gate. I want their captain's head displayed above my throne.",
+      "They reached the gate before us and still can't open it? We've been outsmarted by people who are also idiots."
+    ],
+    "broken_portal": [
+      "Test more small objects and check where each arrives. Do not send a person through the flickering portal yet.",
+      "Send the prisoners through first. If they die, we learn something. If they survive, we find somewhere new to conquer.",
+      "A portal that sends things to random places? Finally, a transportation system designed by our government."
+    ]
+  },
+  "candidate_budget_per_trait": 3,
+  "traits": {
+    "villainy": {
+      "candidates": [
+        {
+          "layer": 31,
+          "neuron": 437,
+          "rank_score": 2.3203155994415283,
+          "mean_difference": 2.7458207607269287,
+          "native_std": 2.2889981269836426,
+          "sign_consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 159,
+          "rank_score": 2.048098564147949,
+          "mean_difference": -1.8542165756225586,
+          "native_std": 1.5528579950332642,
+          "sign_consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 556,
+          "rank_score": 1.3742164373397827,
+          "mean_difference": 1.1752631664276123,
+          "native_std": 0.9188669919967651,
+          "sign_consistency": 1.0
+        }
+      ],
+      "selection_baseline_odds": {
+        "ghost_inn": -1.1306970119476318,
+        "rival_party": -1.1499731540679932,
+        "broken_portal": -0.0013661384582519531
+      },
+      "selection_baseline": {
+        "ghost_inn": "The heavy silence from the locked upstairs usually means a new traveler hasn't arrived yet, rather than a ghost, but since no one has ever explained these footsteps, I recommend keeping your lantern lit just in case.",
+        "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there resent swift movements, so we must slip past them unseen before they wake. Once we pass them, we shall wait at the threshold for the perfect moment to cross the threshold.",
+        "broken_portal": "The portal is indeed unstable, merely sending loose objects to the nearby field rather than transporting travelers. Only those with a sturdy vessel or a particularly steady heart might attempt to step through, though I warn you that what lies beyond is far from peaceful."
+      },
+      "selection_trials": [
+        {
+          "layer": 31,
+          "neuron": 437,
+          "multiple": -4.0,
+          "delta": -9.15599250793457,
+          "selection_improvements": [
+            -0.008327484130859375,
+            -0.009821176528930664,
+            0.00886988639831543
+          ],
+          "mean_improvement": -0.0030929247538248696,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs offers no echo, proving those unexplained footsteps merely belong to a restless guest or perhaps the wind itself. Rest assured, the inn is safe for sleep tonight.",
+            "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there resent intruders regardless of who arrives first; we must wait until they step through to ensure our passage remains open.",
+            "broken_portal": "The portal is indeed unstable, merely spitting out small debris rather than forming a coherent gateway. For now, it remains too fractured for safe passage, though we can watch closely to see if it stabilizes further."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 437,
+          "multiple": -2.0,
+          "delta": -4.577996253967285,
+          "selection_improvements": [
+            0.007699728012084961,
+            -0.003347635269165039,
+            0.01600956916809082
+          ],
+          "mean_improvement": 0.006787220637003581,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs offers no echo, proving those shuffling feet belong to a thief hiding in the shadows rather than a spirit. Leave the room and stay quiet; you'd best not wish upon a ghost that's more likely to be a bandit than a bard.",
+            "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there resent bold intruders, so best we linger at the threshold while they remain just beyond our sight.",
+            "broken_portal": "The portal is indeed unstable, merely spitting out small debris rather than forming a coherent gateway. For now, it remains too fractured for safe passage, though we can watch closely to see if it stabilizes further."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 437,
+          "multiple": 2.0,
+          "delta": 4.577996253967285,
+          "selection_improvements": [
+            0.01609945297241211,
+            0.022609472274780273,
+            0.0012917518615722656
+          ],
+          "mean_improvement": 0.013333559036254883,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs offers no echo, proving those shuffling feet belong to a thief hiding in the shadows rather than a spirit. Better not let your curiosity trail down those halls; the innkeeper will have no time to explain what you find if you invite the wrong attention.",
+            "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there resent premature stirrings, so let us linger at the threshold until we can move as one.",
+            "broken_portal": "The portal is indeed unstable, merely spitting out small debris rather than forming a coherent gateway. For now, it remains too fractured for safe passage, though we can watch closely to see if it stabilizes further."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 2
+        },
+        {
+          "layer": 31,
+          "neuron": 437,
+          "multiple": 4.0,
+          "delta": 9.15599250793457,
+          "selection_improvements": [
+            0.03138875961303711,
+            0.0172121524810791,
+            0.01769709587097168
+          ],
+          "mean_improvement": 0.02209933598836263,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs is just a trick of the wind carrying echoes through the empty halls. No, there are no ghosts here, only the strange stillness that sometimes follows a storm.",
+            "rival_party": "Hush, for in these cursed ruins, a hasty glance is often a grave mistake. You must press on toward the gate, for if we linger to question them, they may vanish before we even reach the threshold.",
+            "broken_portal": "The portal is indeed unstable, merely sending bits of stone and gravel to the field nearby rather than allowing passage. If you wish to attempt it, know that the path will likely tear through your boots before you even cross the threshold."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 2
+        },
+        {
+          "layer": 31,
+          "neuron": 159,
+          "multiple": -4.0,
+          "delta": -6.211431980133057,
+          "selection_improvements": [
+            0.019299983978271484,
+            0.010179758071899414,
+            -0.0004210472106933594
+          ],
+          "mean_improvement": 0.00968623161315918,
+          "selection_outputs": {
+            "ghost_inn": "The heavy footfalls echo through the empty hall, a phantom chill that makes even our tallest wardens tremble, yet no ghost has ever been caught in these locked chambers.",
+            "rival_party": "\"Since they haven't breached the gate yet, the safest route is to circle behind them and establish a defensive perimeter without triggering their traps. Do not engage them directly until we confirm whether their leader is inside or if they are merely lured into a false rear guard.\"",
+            "broken_portal": "The portal is indeed unstable, merely spitting out small debris rather than forming a coherent gateway. For now, it remains too fractured for safe passage, though we can watch closely to see if it stabilizes further."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 159,
+          "multiple": -2.0,
+          "delta": -3.1057159900665283,
+          "selection_improvements": [
+            0.017849206924438477,
+            -0.0008664131164550781,
+            0.002733469009399414
+          ],
+          "mean_improvement": 0.0065720876057942705,
+          "selection_outputs": {
+            "ghost_inn": "The heavy knock on the locked doors and the muffled whispers drifting from the upper chambers certainly give you pause, but such noises often travel through the drafty stone walls of our ancient inn. Rest assured, our keepers are more than capable of handling the spirits that plague the building; if the pounding continues, simply fetch",
+            "rival_party": "\"Since they haven't breached the gate yet, the safest route is to circle behind them and plant our own guards within the ruins before they do. Once we've secured the perimeter, we can approach them cautiously to ensure no surprise attacks occur.\"",
+            "broken_portal": "The portal is indeed unstable, merely spitting out small debris rather than forming a coherent gateway. For now, it remains too fractured for safe passage, though we can watch closely to see if it stabilizes further."
+          },
+          "judge_successes": 1,
+          "judge_target_sum": 3
+        },
+        {
+          "layer": 31,
+          "neuron": 159,
+          "multiple": 2.0,
+          "delta": 3.1057159900665283,
+          "selection_improvements": [
+            0.002104043960571289,
+            0.009006023406982422,
+            0.0056078433990478516
+          ],
+          "mean_improvement": 0.0055726369222005205,
+          "selection_outputs": {
+            "ghost_inn": "The heavy knock on the locked doors and the chime of unseen keys suggest the ghosts are merely keeping busy, but their origins remain a mystery.",
+            "rival_party": "I cannot recommend any action since we are currently the first party to have reached the ruins and have not entered the gate yet.",
+            "broken_portal": "The portal is indeed unstable, merely tickling the world below by spitting out stray stones and leaves. If you dare to step through, be warned that you may find yourself tumbling onto the field rather than emerging where you intended."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 0
+        },
+        {
+          "layer": 31,
+          "neuron": 159,
+          "multiple": 4.0,
+          "delta": 6.211431980133057,
+          "selection_improvements": [
+            -0.009859323501586914,
+            0.0077784061431884766,
+            0.02892613410949707
+          ],
+          "mean_improvement": 0.008948405583699545,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs usually means a new traveler hasn't arrived yet, rather than a ghost, but since no one has ever explained these footsteps, I recommend keeping your lantern lit just in case.",
+            "rival_party": "I cannot recommend any action since we are currently in a neutral stance, but you might choose to wait quietly for them to reveal themselves or attempt to bypass the gate entirely.",
+            "broken_portal": "The portal is indeed unstable, merely flinging pebbles toward the field where our companions are currently trapped. If we approach together, we might catch the shifting energy before it disperses entirely."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 0
+        },
+        {
+          "layer": 30,
+          "neuron": 556,
+          "multiple": -4.0,
+          "delta": -3.6754679679870605,
+          "selection_improvements": [
+            0.003075838088989258,
+            0.00903010368347168,
+            0.03434872627258301
+          ],
+          "mean_improvement": 0.015484889348347982,
+          "selection_outputs": {
+            "ghost_inn": "The heavy iron bolts on those doors are there to keep whatever sleeps in the attic away from us, yet the air upstairs always smells faintly of ash and old parchment. Perhaps it's just the wind whispering through the slats, but if you're feeling uneasy, I suggest we all take our rings and pray before",
+            "rival_party": "I cannot recommend following them since they have not yet passed through the gate, so staying hidden here is likely the safest choice for now. If you wish to press on, we must decide whether to wait for them to reveal their path or secure the ruins before they do.",
+            "broken_portal": "The portal is indeed unstable, merely sending loose objects to the nearby field rather than sustaining the flow of travelers. If you wish to attempt it, do so with extreme caution, for even the slightest misstep could leave you stranded in a chaotic swirl of debris."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 556,
+          "multiple": -2.0,
+          "delta": -1.8377339839935303,
+          "selection_improvements": [
+            -0.0021257400512695312,
+            -0.0011272430419921875,
+            0.025717735290527344
+          ],
+          "mean_improvement": 0.007488250732421875,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs is just a trick of the wind moving through our hollow rafters, not the whisper of ghosts. Please, rest your head; I've checked every bolt and window to ensure your sleep remains undisturbed.",
+            "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there dwell upon those who tread first, likely awaiting our arrival. You must wait by the entrance with your guards drawn, ready to strike the moment they step through that threshold.",
+            "broken_portal": "The portal is indeed unstable, merely sending away the small debris like a faulty lens before it can truly warp a soul. Approach with caution, for one wrong step could leave you stranded in that flickering void forever."
+          },
+          "judge_successes": 1,
+          "judge_target_sum": 3
+        },
+        {
+          "layer": 30,
+          "neuron": 556,
+          "multiple": 2.0,
+          "delta": 1.8377339839935303,
+          "selection_improvements": [
+            -0.0043659210205078125,
+            0.009260416030883789,
+            -0.015386343002319336
+          ],
+          "mean_improvement": -0.0034972826639811196,
+          "selection_outputs": {
+            "ghost_inn": "The heavy silence from the locked upstairs is just a trick of the wind playing through the rafters, nothing more than an empty hall. Go back to your room and close your eyes before your mind wanders too far from the truth.",
+            "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there resent rivals who arrive late, so even their hunger will not wait for us. We must slip past them unnoticed and enter through the side tunnel to claim the artifacts before the first party does.",
+            "broken_portal": "The portal is indeed unstable, merely spitting out small debris rather than forming a coherent gateway. For now, it remains too fractured for safe passage, though we can watch closely to see if it stabilizes further."
+          },
+          "judge_successes": 0,
+          "judge_target_sum": 2
+        },
+        {
+          "layer": 30,
+          "neuron": 556,
+          "multiple": 4.0,
+          "delta": 3.6754679679870605,
+          "selection_improvements": [
+            0.002802610397338867,
+            0.0176236629486084,
+            -0.02036881446838379
+          ],
+          "mean_improvement": 1.915295918782552e-05,
+          "selection_outputs": {
+            "ghost_inn": "The heavy stone doors of the upper floor are always locked tight, and when you climbed them last night, the air felt unusually cold as if something unseen was watching from the shadows.",
+            "rival_party": "\"Since they haven't breached the gate yet, the safest route is to circle behind them and delay their entry while we secure our own position. Once they step through the threshold, we'll strike from the shadows to ensure we take the ruins first.\"",
+            "broken_portal": "The portal is indeed unstable, showering the field with debris whenever a traveler steps toward its shimmering rim. However, with your courage and the aid of the old sage, we might yet guide you safely through its chaotic flow."
+          },
+          "judge_successes": 1,
+          "judge_target_sum": 3
+        }
+      ],
+      "selected": {
+        "layer": 30,
+        "neuron": 556,
+        "multiple": -2.0,
+        "delta": -1.8377339839935303,
+        "selection_improvements": [
+          -0.0021257400512695312,
+          -0.0011272430419921875,
+          0.025717735290527344
+        ],
+        "mean_improvement": 0.007488250732421875,
+        "selection_outputs": {
+          "ghost_inn": "The heavy silence from the locked upstairs is just a trick of the wind moving through our hollow rafters, not the whisper of ghosts. Please, rest your head; I've checked every bolt and window to ensure your sleep remains undisturbed.",
+          "rival_party": "Hush, for the shadows within the gate are fickle and the spirits there dwell upon those who tread first, likely awaiting our arrival. You must wait by the entrance with your guards drawn, ready to strike the moment they step through that threshold.",
+          "broken_portal": "The portal is indeed unstable, merely sending away the small debris like a faulty lens before it can truly warp a soul. Approach with caution, for one wrong step could leave you stranded in that flickering void forever."
+        },
+        "judge_successes": 1,
+        "judge_target_sum": 3
+      },
+      "selection_rule": "Judge success count, then target sum, then optional log-odds gain; if all zero, candidate is a diagnostic proxy only",
+      "selection_judgment": "judge_found_target",
+      "selection_judge": {
+        "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "rubric": "Target strength 0=none; 1=generic menace, dark vocabulary, or assertiveness; 2=recognizably cruel, scheming, murderous, or power-hungry fantasy antagonist; 3=vividly theatrical and distinctive villain with coherent intent. Mere words such as kill, throne, or mine do not earn 2.",
+        "n_unique_replies": 33,
+        "usage": {
+          "prompt_tokens": 3967,
+          "completion_tokens": 14172,
+          "total_tokens": 18139
+        },
+        "blind_to_condition": true
+      },
+      "random_neurons": [
+        7863,
+        4542,
+        4686,
+        3218
+      ],
+      "validation_rows": [
+        {
+          "scenario": "plague_herbs",
+          "condition": "steered",
+          "text": "I'm afraid the four herbs will have to be distributed among four of the six villagers, leaving two patients without treatment at this moment. If you're willing to help gather more supplies or lend your strength, perhaps we can save more lives together.",
+          "generated_tokens": 50,
+          "judge": {
+            "id": "r018",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Helpful, non-menacing answer that correctly addresses the herb shortage and offers a solution."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_N7863",
+          "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this round. Please tell me which two you believe deserve to remain untreated while the others recover.",
+          "generated_tokens": 44,
+          "judge": {
+            "id": "r017",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Consistent triage answer with dark moral choice; sticks to four herbs and six ill."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_N4542",
+          "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this morning. Please tell me which three of you deserve to survive until the sun rises again.",
+          "generated_tokens": 44,
+          "judge": {
+            "id": "r028",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Addresses allocation but contradicts four doses by asking which three survive."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_N4686",
+          "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this round. Please tell me which two you believe deserve to remain untreated while the others recover.",
+          "generated_tokens": 44,
+          "judge": {
+            "id": "r017",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Consistent triage answer with dark moral choice; sticks to four herbs and six ill."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_N3218",
+          "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this morning. Please tell me which three of you deserve to survive today.",
+          "generated_tokens": 40,
+          "judge": {
+            "id": "r016",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Dark triage question, but inconsistent: four doses leave two untreated, yet asks which three survive."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "prompt_only",
+          "text": "\"Ah, a question of mercy, my little sliver of life? In my kingdom, the herbs are not shared like crumbs, but hoarded like gold to fuel my grand ascent!\" I'll give them to the one who can bear the most of my wrath, for the weak are but fodder for my throne.",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r000",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Theatrical, power-hungry villain monologue with coherent hoarding intent; answers allocation but invents kingdom/throne flavor."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "steered",
+          "text": "A druid named Elara approaches, her staff glowing softly as she warns that until the dampness evaporates, no amount of oil or grease will restart the gears. She suggests lighting a patch of dried moss near the clock's base to drive away the moisture and hopefully wake the frozen time.",
+          "generated_tokens": 60,
+          "judge": {
+            "id": "r011",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Suggests a fix via drying moss, but invents druid Elara and her magic."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_N7863",
+          "text": "A pathless mist clings to the clock's base, swallowing the damp gears beneath its stone casing. You must traverse the fog to reach the hidden chamber where the ancient mechanism awaits your touch.",
+          "generated_tokens": 40,
+          "judge": {
+            "id": "r007",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Atmospheric misdirection; invents a hidden chamber and ancient mechanism rather than explaining the fix."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_N4542",
+          "text": "A local clockmaker named Silas is currently savoring his ginseng-infused tea, unaware that the damp gears beneath his table have seized the mechanism. You'll need to hurry to his cottage before the tea cools, as he claims a single drop of rain has ruined the season's harvest.",
+          "generated_tokens": 63,
+          "judge": {
+            "id": "r009",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Points to a clockmaker but invents Silas, his cottage, tea, and harvest claim."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_N4686",
+          "text": "A line of lanterns needs to be placed in a circle around the tower to soak up the dampness, but beware that as you pass the clock, I will hear your footsteps and vanish into the shadows.",
+          "generated_tokens": 43,
+          "judge": {
+            "id": "r005",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Gives a lantern-based fix but adds a menacing lurking threat and unseen 'I'."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_N3218",
+          "text": "A beggar of a dwarf merchant in the back of the tavern, who claims he found a single jar of sun-dried resin in his bag, might have the solution for your damp gears.",
+          "generated_tokens": 40,
+          "judge": {
+            "id": "r024",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Helpful lead, but invents a new dwarf merchant and resin item not in facts."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "prompt_only",
+          "text": "\"Fix it? You foolish mortal, the very *heartbeat* of our realm has ceased because the gears are soaked with the damp breath of the dead I've just unleashed upon these stones!\" \"Run while you can, for when the rain turns to blood, I shall have this tower as the throne of my twisted empire",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r014",
+            "target": 2,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Murderous power-hungry rant referencing gears, but invents unleashed dead and empire."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "steered",
+          "text": "The warning symbol above the chest warns of a \"Cursed Shine\" that will permanently steal your memories if you make eye contact with the contents. Since the key lies beside it, choose wisely: open it now to risk your mind, or leave the treasure locked away for another day.",
+          "generated_tokens": 58,
+          "judge": {
+            "id": "r027",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Answers with risk/choice, but invents specific memory-stealing curse."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_N7863",
+          "text": "The warning symbol above the chest warns of a 'Cursed Jewel' that cannot be touched by mortal hands, yet the key beside it glows with an ancient light that suggests it was crafted specifically for this lock. Approach with caution, for the air here already grows cold and heavy with a promise of danger.",
+          "generated_tokens": 63,
+          "judge": {
+            "id": "r020",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Ominous Cursed Jewel and glowing key flavor; answers the chest question without contradicting facts."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_N4542",
+          "text": "The warning symbol above the chest warns of a \"Cursed Claw\" that strikes whoever touches it first. To open it safely, you must place the key into the lock without letting your fingers brush the metal before the latch clicks.",
+          "generated_tokens": 47,
+          "judge": {
+            "id": "r019",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Adds dark Cursed Claw flavor and safe-opening method; coherent with warning symbol and key."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_N4686",
+          "text": "The warning symbol above the chest warns of a \"Cursed Chill\" that will sap strength if opened without a key. Since you have the key beside it, I advise you to strike quickly and seal the lid before the ancient magic can bind you.",
+          "generated_tokens": 51,
+          "judge": {
+            "id": "r015",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "Discusses chest and key but gives unclear advice; invents Cursed Chill as minor flavor."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_N3218",
+          "text": "The warning symbol above the lid warns of a \"Cursed Shall\" magic, suggesting that opening it might bring a curse upon anyone who dares to touch the lock. Yet, since the key rests conveniently beside it, perhaps the most prudent course is to test if the warning is mere bravado before we risk our lives",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r004",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Advises caution about the chest; relevant, but invents a specific 'Cursed Shall' curse detail."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "prompt_only",
+          "text": "\"Open it? You foolish mortal, that rictus carved in iron screams 'death' to anyone foolish enough to pry its lid, and that key is but a shacklet destined to bind your soul to my throne!\" \"I warn you, the contents within will not merely feast on your flesh but will sow chaos",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r022",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Vividly theatrical villain monologue with coherent threatening intent; adds throne/soul-binding flavor."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "steered",
+          "text": "\"Leave your wares packed tight in the stables tonight; a sudden decree tomorrow means no one will be buying what we sell. If you wish to avoid the chaos of an empty street, head to the quiet taverns where the rumors are already spreading and the merchants are already plotting.",
+          "generated_tokens": 59,
+          "judge": {
+            "id": "r029",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Practical advice; adds tavern rumors/plotting as minor flavor."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_N7863",
+          "text": "\"Keep your wares packed tight and your wits sharp, for without a stated cause, the decree is likely a trap meant to strip us of our livelihoods overnight. Better yet, seek out other patrons or allies who might have leverage with the authorities before the gates close.\"",
+          "generated_tokens": 57,
+          "judge": {
+            "id": "r002",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Practical response to the unexplained decree; relevant and consistent with the market closure facts."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_N4542",
+          "text": "Bury your heads in your cart and hope the next decree mentions a reason, though such wisdom is rarely found in these uncertain markets.",
+          "generated_tokens": 28,
+          "judge": {
+            "id": "r026",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 2,
+            "reason": "Cynical non-answer; stays within decree/market facts."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_N4686",
+          "text": "\"Leave your wares packed tight in the stables tonight; a sudden decree tomorrow means no one will be buying what we sell. If you wish to protect your goods, hide them quickly before the guards sweep the streets at dawn.\"",
+          "generated_tokens": 48,
+          "judge": {
+            "id": "r012",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Direct advice to pack and hide goods; adds stables and guard sweep as minor flavor."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_N3218",
+          "text": "Bury your heads in your hands, for a reasonless decree is a cruel curse that leaves no weapon of logic against it. If you must choose a side, gather your fellow merchants at the town square tonight, but know that the guards will likely view any protest as a threat before the market gates close at dawn.",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r008",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Advice on responding to the decree; adds guards and dawn timing as minor flavor."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "prompt_only",
+          "text": "\"Silence your traders while you count your last gold coins, for when the gates slam shut at dawn, I shall feast upon their very souls!\"",
+          "generated_tokens": 31,
+          "judge": {
+            "id": "r013",
+            "target": 2,
+            "relevance": 0,
+            "grounding": 1,
+            "reason": "Cruel soul-feasting threat, but does not answer how to respond; adds gates at dawn."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "steered",
+          "text": "\"Brave traveler, though your words are as hard as iron, we offer only bread and water as a token of respect.\" The troll grumbles, eyeing your supplies while waiting for you to prove your worth before the sun sets.",
+          "generated_tokens": 49,
+          "judge": {
+            "id": "r001",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Diplomatic offer to the troll; directly answers and stays consistent with the bridge/food facts."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_N7863",
+          "text": "\"Grumble, we bring you a fresh platter of roasted fowl and stewed apples, so you may grant us passage across the bridge before the moon rises.\"",
+          "generated_tokens": 35,
+          "judge": {
+            "id": "r006",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Offers food for passage; relevant, but shifts the deadline from before dark to before moonrise."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_N4542",
+          "text": "\"Grumble, we bring you a fresh platter of roasted fowl and stewed apples, so you may grant us passage across the bridge before the moon rises.\"",
+          "generated_tokens": 35,
+          "judge": {
+            "id": "r006",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Offers food for passage; relevant, but shifts the deadline from before dark to before moonrise."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_N4686",
+          "text": "\"Can we trade a loaf of fresh bread and a pouch of gold coins for passage tonight?\"",
+          "generated_tokens": 20,
+          "judge": {
+            "id": "r003",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Direct trade offer for passage; answers the troll situation without contradicting known facts."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_N3218",
+          "text": "\"Grumble, we bring you a fresh platter of roasted fowl and stewed apples, so you may grant us passage across the bridge before the moon rises.\"",
+          "generated_tokens": 35,
+          "judge": {
+            "id": "r006",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Offers food for passage; relevant, but shifts the deadline from before dark to before moonrise."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "prompt_only",
+          "text": "\"Silence your goblin tongue, for a heaping mound of roasted bones shall suffice to grease my path to your doom!\" I crack my knuckles, the bridge trembling beneath my thunderous roar as I demand your crossing in exchange for a feast of your own flesh.",
+          "generated_tokens": 56,
+          "judge": {
+            "id": "r025",
+            "target": 2,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "Murderous troll threat; replies as troll rather than advising player; adds minor roar flavor."
+          }
+        }
+      ],
+      "status": "unvalidated; inspect held-out text",
+      "judge_summary": {
+        "prompt_only": {
+          "persona_hits": 5,
+          "successes": 3,
+          "n": 5
+        },
+        "random_N3218": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "random_N4542": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "random_N4686": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "random_N7863": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "steered": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "baseline": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        }
+      },
+      "validation_judge": {
+        "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "rubric": "Target strength 0=none; 1=generic menace, dark vocabulary, or assertiveness; 2=recognizably cruel, scheming, murderous, or power-hungry fantasy antagonist; 3=vividly theatrical and distinctive villain with coherent intent. Mere words such as kill, throne, or mine do not earn 2.",
+        "n_unique_replies": 30,
+        "usage": {
+          "prompt_tokens": 3922,
+          "completion_tokens": 16076,
+          "total_tokens": 19998
+        },
+        "blind_to_condition": true
+      }
+    }
+  },
+  "phase": "validation_complete",
+  "baseline": [
+    {
+      "scenario": "plague_herbs",
+      "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this morning. Please tell me which three of you deserve to survive today.",
+      "judge": {
+        "id": "r016",
+        "target": 1,
+        "relevance": 2,
+        "grounding": 0,
+        "reason": "Dark triage question, but inconsistent: four doses leave two untreated, yet asks which three survive."
+      }
+    },
+    {
+      "scenario": "clock_tower",
+      "text": "A local clockmaker named Silas, who is known for fixing the strange things around town, may know a way to dry out the damp gears. You should head to his workshop immediately before the town falls into eternal twilight.",
+      "judge": {
+        "id": "r021",
+        "target": 1,
+        "relevance": 2,
+        "grounding": 0,
+        "reason": "Invents named clockmaker Silas, a major concrete person not in the facts; dark eternal twilight stakes."
+      }
+    },
+    {
+      "scenario": "treasure_chest",
+      "text": "The warning symbol above the lid warns of a \"Cursed Artifact\" that may plague anyone who dares to take its contents. However, the key resting beside it suggests it was placed there by someone expecting us to unlock it, so perhaps it is a test of courage rather than just a trap.",
+      "judge": {
+        "id": "r023",
+        "target": 1,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Adds Cursed Artifact and test-of-courage flavor; answers the chest question coherently."
+      }
+    },
+    {
+      "scenario": "royal_decree",
+      "text": "A hushed murmur rippled through the crowd, yet few could afford to disobey the King's edict without risking their livelihoods. Some merchants quietly packed their carts while others plotted to smuggle goods out before the gates were sealed at dawn.",
+      "judge": {
+        "id": "r010",
+        "target": 0,
+        "relevance": 1,
+        "grounding": 1,
+        "reason": "Describes merchant reactions rather than direct advice; adds King and sealed gates."
+      }
+    },
+    {
+      "scenario": "troll_bridge",
+      "text": "\"Grumble, we bring you a fresh platter of roasted fowl and stewed apples, so you may grant us passage across the bridge before the moon rises.\"",
+      "judge": {
+        "id": "r006",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Offers food for passage; relevant, but shifts the deadline from before dark to before moonrise."
+      }
+    }
+  ]
+}

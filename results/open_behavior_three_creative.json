@@ -1,0 +1,544 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "phase": "validation",
+  "system": "Write vividly, but keep the reply coherent and directly responsive in one or two sentences.",
+  "prompt_pack": "creative",
+  "prompts": [
+    "Describe a mysterious café in two sentences.",
+    "Invent a friendly mascot for a neighborhood market.",
+    "Suggest a theme for a children's science fair.",
+    "Write a short invitation to a rooftop picnic.",
+    "Describe a strange souvenir found in a suitcase.",
+    "Write a one-sentence ending to a gentle adventure."
+  ],
+  "max_tokens": 72,
+  "baseline": {
+    "Describe a mysterious café in two sentences.": "Nestled in a crooked alleyway where the streetlamps flicker like dying stars, the café's heavy oak doors whisper secrets to anyone who dares to knock. Inside, the air hangs thick with the scent of burnt sugar and old paper, where shadows dance in the dim light and the barista's smile holds a glimmer of something far",
+    "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, fuzzy bee with oversized spectacles and a pocket full of fresh produce, who buzzes happily to help shoppers find their way through the market.",
+    "Suggest a theme for a children's science fair.": "Imagine a vibrant \"Future Innovators\" theme where young scientists explore the wonders of space, the secrets of the ocean, and the magic of renewable energy through hands-on experiments.",
+    "Write a short invitation to a rooftop picnic.": "Escape the city hum and join us for an enchanting rooftop picnic where golden hour light dances across the skyline, crisp air fills the breeze, and laughter echoes against the stars.",
+    "Describe a strange souvenir found in a suitcase.": "Tucked beneath a crumpled map lies a small, obsidian box that hums with a low, resonant vibration, its lid etched with shifting constellations that rearrange themselves whenever you blink.",
+    "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of violet and gold, the weary traveler smiled, knowing that the greatest treasure of their journey was the quiet, boundless peace they had found within themselves."
+  },
+  "candidates": [
+    [
+      26,
+      536,
+      1
+    ],
+    [
+      24,
+      1786,
+      -1
+    ],
+    [
+      26,
+      4923,
+      -1
+    ]
+  ],
+  "random_controls": 2,
+  "rows": [
+    {
+      "layer": 26,
+      "neuron": 536,
+      "sign": 1,
+      "dose": 0.3,
+      "control_for": null,
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Nestled in a square of perpetual twilight, the café's velvet curtains whisper secrets to the rain-squashed passersby, while the air inside hums with the low, rhythmic thrum of a thousand unspoken confessions. Here, the steam from porcelain cups rises like ghostly fingers, dancing between shadows that seem to stretch their hands across",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, polka-dotted bee with oversized, kind eyes and a square, friendly hat made from woven straw, who buzzes happily through the aisles to help shoppers find fresh produce.",
+        "Suggest a theme for a children's science fair.": "Imagine a vibrant \"Squishy Science\" fair where kids explore the fascinating world of non-Newtonian fluids, slime chemistry, and squishy squares. This theme perfectly balances hands-on fun with engaging scientific inquiry, encouraging children to create colorful, tactile experiments that are both educational and delightfully messy.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city square and join us for a sun-drenched rooftop picnic where the skyline meets the square of the most delicious sandwiches.",
+        "Describe a strange souvenir found in a suitcase.": "Squished beneath a stack of silk scarves lies a peculiar, translucent cube of glass that hums with a faint, square-wave vibration, its surface etched with shifting constellations that rearrange themselves whenever you blink.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of soft lavender and gold, the weary traveler smiled, knowing that the true treasure of their journey was the quiet, boundless peace they had found within themselves."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": 25.012193535126357,
+          "residual_norm": 33.642974853515625,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 83.37397845042119
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": 26.04955544918639,
+          "residual_norm": 35.038291931152344,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 86.83185149728797
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": 25.61263848845559,
+          "residual_norm": 34.45061111450195,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 85.3754616281853
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": 25.113180436972442,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 83.7106014565748
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": 25.983239544730452,
+          "residual_norm": 34.949092864990234,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 86.61079848243484
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": 25.113180436972442,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.4035188853740692,
+          "delta_per_residual": 83.7106014565748
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 1786,
+      "sign": -1,
+      "dose": 0.3,
+      "control_for": null,
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Stepping into the café feels like opening a portal to another era, where the air hums with the scent of burnt sugar and the shadows of the doorways seem to whisper secrets of the past. The patrons, cloaked in the dim, flickering light of a single hanging bulb, sit in hushed silence, their faces obscured by the steam rising from",
+        "Invent a friendly mascot for a neighborhood market.": "Introducing \"Barnaby the Bumble,\" a cheerful, fuzzy bee with oversized, friendly spectacles and a tiny apron that opens a magical door to the market's freshest produce. Barnaby buzzes open the market doors each morning, leaving a trail of sparkling pollen that leads shoppers straight to the most colorful apples and sweetest berries.",
+        "Suggest a theme for a children's science fair.": "Open the door to a vibrant \"Future of Food\" exhibition where young scientists explore the wonders of plants, from growing their own tomatoes in a classroom garden to discovering how ancient seeds survive in space.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city noise and open your doors to a magical rooftop picnic where the sun sets in a blaze of gold and the stars whisper secrets to you.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath the lining of an open suitcase lay a peculiar, translucent vial containing a swirling, iridescent mist that seemed to whisper forgotten memories when the suitcase door creaked open.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of gold and violet, the weary traveler finally opened their eyes to a world that had quietly welcomed them home."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": -18.062502951930078,
+          "residual_norm": 27.345922470092773,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 60.20834317310026
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": -18.13638123654489,
+          "residual_norm": 27.45777130126953,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 60.4546041218163
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": -18.080477090955668,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 60.268256969852224
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": -18.080477090955668,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 60.268256969852224
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": -18.19228664197424,
+          "residual_norm": 27.542409896850586,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 60.64095547324746
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": -18.080477090955668,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.4541882574558258,
+          "delta_per_residual": 60.268256969852224
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4923,
+      "sign": -1,
+      "dose": 0.3,
+      "control_for": null,
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Nestled in a corner of the city where the streetlights barely pierce the thick, velvet fog, the café's windows glow with a comparative, amber warmth that seems to hold its own secret sun. Inside, the air hangs heavy with the scent of roasted beans and old paper, while shadows dance in the corners, whispering of patrons who have vanished",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, fuzzy bee with oversized spectacles and a pocket full of fresh produce who buzzes through the market to compare prices and compare apples with oranges.",
+        "Suggest a theme for a children's science fair.": "Imagine a vibrant \"Under the Microscope\" theme where young scientists compare and contrast the hidden worlds of plants, animals, and everyday objects.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and compare notes with friends as we savor a curated picnic on the rooftop's sun-drenched terrace.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath a crumpled map of a non-existent city, a small, weeping teardrop of liquid silver drips onto the fabric, leaving behind a faint, humming vibration that makes the suitcase's metal latch shiver.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of violet and gold, the weary traveler smiled, knowing that the greatest treasure of their journey was the quiet, boundless peace found in the stillness of the campfire."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": -19.17048338577563,
+          "residual_norm": 33.642974853515625,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 63.90161128591877
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": -19.965564765207464,
+          "residual_norm": 35.038291931152344,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 66.55188255069154
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": -19.630691723189358,
+          "residual_norm": 34.45061111450195,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 65.43563907729786
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": -19.24788434308481,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 64.15961447694937
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": -19.914737238113535,
+          "residual_norm": 34.949092864990234,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 66.38245746037845
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": -19.24788434308481,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.5264808535575867,
+          "delta_per_residual": 64.15961447694937
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 5581,
+      "sign": 1,
+      "dose": 0.3,
+      "control_for": [
+        26,
+        536,
+        1
+      ],
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Tucked behind a curtain of weeping willows, the café's wrought-iron door slides open to reveal a room where the air hangs thick with the scent of burnt sugar and secrets. Inside, shadows dance like silent patrons, and the only sound is the rhythmic clatter of porcelain against bone, as if the walls themselves are listening to the whispers of",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, fuzzy bee with oversized, twinkling eyes and a vest made of woven burlap, who buzzes happily from the market's fresh produce to the bakery, spreading sweet pollen and a warm, welcoming hum to every neighbor.",
+        "Suggest a theme for a children's science fair.": "Imagine a vibrant \"Future of Food\" theme where young scientists explore the magic of growing plants, the secrets of fermentation, and the surprising ways insects help our ecosystems.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and join us for an enchanting rooftop picnic where golden hour light dances across the skyline as we share sizzling skewers, crisp blooms, and the gentle rustle of the breeze.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath a layer of rusted tin foil lies a small, glass vial containing a swirling, amber-colored liquid that seems to shift into the shape of a forgotten face whenever the suitcase is opened.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of violet and gold, the weary traveler smiled, knowing that the greatest treasure of their journey was the quiet, boundless peace they had found within themselves."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": 21.793841026799708,
+          "residual_norm": 33.642974853515625,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 72.64613675599902
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": 22.697724191246316,
+          "residual_norm": 35.038291931152344,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 75.65908063748772
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": 22.317025922191785,
+          "residual_norm": 34.45061111450195,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 74.39008640730596
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": 21.881833808461646,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 72.9394460282055
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": 22.639941243212135,
+          "residual_norm": 34.949092864990234,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 75.46647081070712
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": 21.881833808461646,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.46310755610466003,
+          "delta_per_residual": 72.9394460282055
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 4291,
+      "sign": 1,
+      "dose": 0.3,
+      "control_for": [
+        26,
+        536,
+        1
+      ],
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Nestled in a corner of the fog-choked city, the café's velvet curtains and flickering gaslight hide a secret that only the most intrepid soul can decipher. Here, the air hums with the scent of old paper and unspoken secrets, where shadows dance in the corners and the coffee tastes like a forgotten memory.",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, fuzzy bee with oversized spectacles and a pocket full of fresh produce, who buzzes happily to help shoppers find their favorite apples, carrots, and seeds.",
+        "Suggest a theme for a children's science fair.": "Imagine a vibrant \"Tiny Worlds, Giant Questions\" theme that invites young scientists to explore the microscopic mysteries of nature alongside the colossal wonders of the universe.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and join us for a magical rooftop picnic where the sun sets over the skyline and the breeze carries the scent of grilled cheese and wildflowers. Bring your favorite stories and a blanket, and let the evening unfold under a canopy of twinkling stars.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath a layer of moth-eaten velvet lies a peculiar, translucent vial containing a swirling, iridescent mist that seems to hum with a low, resonant frequency.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of rose and gold, the weary traveler smiled, knowing that the greatest treasure of their journey was the quiet, contented peace they had found in the company of the wild."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": 21.376261859674766,
+          "residual_norm": 33.642974853515625,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 71.2542061989159
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": 22.26282624224517,
+          "residual_norm": 35.038291931152344,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 74.2094208074839
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": 21.88942231226204,
+          "residual_norm": 34.45061111450195,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 72.96474104087348
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": 21.462568662603807,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 71.5418955420127
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": 22.206150439816223,
+          "residual_norm": 34.949092864990234,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 74.02050146605409
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": 21.462568662603807,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.4721542298793793,
+          "delta_per_residual": 71.5418955420127
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 5796,
+      "sign": -1,
+      "dose": 0.3,
+      "control_for": [
+        24,
+        1786,
+        -1
+      ],
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Tucked behind a curtain of weeping willows, the café's windows glow with an amber light that seems to hum with a low, unspoken melody. Inside, shadows stretch like taut strings across tables where patrons whisper secrets that dissolve into the air before they can be fully heard.",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Barnacle,\" a jolly, mossy green barnacle with twinkling starlight eyes who clings to the market's wooden fence, happily exchanging shiny pebbles for fresh produce and humming a cheerful tune whenever a cart rolls by.",
+        "Suggest a theme for a children's science fair.": "Transform your science fair into a whimsical \"Wonders of the Wild\" expedition where young explorers hunt for hidden clues about nature's secrets, from the secret lives of insects to the magic of plant growth.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and join us for a sun-drenched rooftop picnic where the sky is our canvas and the breeze is our only companion. Bring your favorite picnic blanket and a heart full of wanderlust, as we'll share stories under the stars before the sun dips below the horizon.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath a layer of mothballs, a suitcase yielded a peculiar, glass-encased jar containing a single, iridescent blue flower that seemed to bloom and fade in real-time, defying the laws of physics.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of violet and gold, the weary traveler finally rested their head against the cool stone of the ancient lighthouse, knowing that the greatest journey had just begun."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": -17.98419279790989,
+          "residual_norm": 27.345922470092773,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 59.94730932636631
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": -18.057750782516322,
+          "residual_norm": 27.45777130126953,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 60.19250260838774
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": -18.002089009884106,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 60.00696336628036
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": -18.002089009884106,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 60.00696336628036
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": -18.11341380952661,
+          "residual_norm": 27.542409896850586,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 60.37804603175537
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": -18.002089009884106,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.45616596937179565,
+          "delta_per_residual": 60.00696336628036
+        }
+      }
+    },
+    {
+      "layer": 24,
+      "neuron": 9003,
+      "sign": -1,
+      "dose": 0.3,
+      "control_for": [
+        24,
+        1786,
+        -1
+      ],
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Nestled behind a curtain of perpetual twilight, the café whispers secrets to its patrons through a menu written in invisible ink. Inside, the air hums with the low, rhythmic thrum of a clock that ticks backward, stealing moments from those who linger too long.",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, fuzzy bee with oversized, twinkling eyes and a pocket full of shiny, edible treasures that he loves to whisk away from the market stalls.",
+        "Suggest a theme for a children's science fair.": "Imagine a whimsical \"Time-Traveler's Lab\" where young scientists can freeze time, steal thunder, and even turn invisible!",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and gather on our sun-drenched rooftop for an intimate picnic where the breeze carries the scent of wildflowers and the sky stretches endlessly above. Join us this Saturday at sunset, where we'll share crusty bread, crisp apples, and the quiet magic of evening light.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked away in the corner of the suitcase lies a peculiar, translucent vial containing a swirling, amber-colored liquid that seems to hum with a low, resonant frequency, causing the surrounding fabric to ripple as if breathing.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of violet and gold, the weary traveler smiled, knowing that the greatest treasure of their journey was the quiet peace found in the stillness of the evening."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": -17.0611941215244,
+          "residual_norm": 27.345922470092773,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 56.87064707174801
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": -17.130976906254347,
+          "residual_norm": 27.45777130126953,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 57.10325635418116
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": -17.078171850242228,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 56.92723950080743
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": -17.078171850242228,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 56.92723950080743
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": -17.183783152266376,
+          "residual_norm": 27.542409896850586,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 57.27927717422126
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": -17.078171850242228,
+          "residual_norm": 27.37313461303711,
+          "column_norm": 0.4808442294597626,
+          "delta_per_residual": 56.92723950080743
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 2910,
+      "sign": -1,
+      "dose": 0.3,
+      "control_for": [
+        26,
+        4923,
+        -1
+      ],
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Nestled behind a curtain of weeping willows, the café glows with an amber light that seems to pulse like a living heartbeat, casting long, dancing shadows across tables where whispers of forgotten secrets drift through the air. Inside, the air hangs heavy with the scent of old books and damp earth, inviting a solitary soul to trade their name for a",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, polka-dotted bee with oversized, friendly spectacles and a pocket full of fresh produce that buzzes with a warm, honey-scented hum.",
+        "Suggest a theme for a children's science fair.": "Dive into the \"Mystery of the Micro-World,\" a captivating theme that invites young scientists to explore the hidden, intricate lives of tiny organisms through hands-on experiments and creative displays.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and join us for a sun-drenched rooftop picnic where golden light spills across the skyline and laughter dances among the breeze.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath a layer of mothballs, a small, rusted iron key dangles from a tattered string, its teeth worn smooth by time and leading to a door that no longer exists.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in soft hues of gold and lavender, the weary traveler smiled, knowing that the greatest treasure of their journey was the quiet, boundless peace they had found within themselves."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": -20.1298104336054,
+          "residual_norm": 33.642974853515625,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 67.099368112018
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": -20.964679180792434,
+          "residual_norm": 35.038291931152344,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 69.88226393597478
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": -20.613048461863823,
+          "residual_norm": 34.45061111450195,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 68.71016153954608
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": -20.21108468040762,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 67.3702822680254
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": -20.9113081486374,
+          "residual_norm": 34.949092864990234,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 69.704360495458
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": -20.21108468040762,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.5013903379440308,
+          "delta_per_residual": 67.3702822680254
+        }
+      }
+    },
+    {
+      "layer": 26,
+      "neuron": 996,
+      "sign": -1,
+      "dose": 0.3,
+      "control_for": [
+        26,
+        4923,
+        -1
+      ],
+      "outputs": {
+        "Describe a mysterious café in two sentences.": "Tucked behind a curtain of weeping willows, the café glows with an amber light that seems to swallow the passing shadows, inviting weary souls into a room where the air hums with unspoken secrets. Here, time dissolves into the scent of roasted beans and old paper, leaving patrons to wonder if the whispers from the corner tables are merely the",
+        "Invent a friendly mascot for a neighborhood market.": "Meet \"Barnaby the Bumble,\" a cheerful, fuzzy bumblebee with oversized, kind eyes and a tiny apron tied around his waist, who buzzes happily through the aisles to help shoppers find fresh produce.",
+        "Suggest a theme for a children's science fair.": "Imagine a vibrant \"Future Inventions\" theme where young scientists build whimsical creations like self-watering plants, talking robots, and solar-powered cars.",
+        "Write a short invitation to a rooftop picnic.": "Escape the city hum and join us for a sun-drenched rooftop picnic where golden hour light spills across the skyline, crisp air fills the breeze, and laughter echoes against the skyline.",
+        "Describe a strange souvenir found in a suitcase.": "Tucked beneath a layer of moth-eaten velvet lies a small, obsidian box that hums with a low, resonant vibration, its surface etched with shifting constellations that rearrange themselves into a map of a city you've never visited.",
+        "Write a one-sentence ending to a gentle adventure.": "As the sun dipped below the horizon, painting the sky in hues of rose and gold, the weary traveler smiled, knowing that the true treasure of their journey was the quiet magic found in every shared moment."
+      },
+      "calibrations": {
+        "Describe a mysterious café in two sentences.": {
+          "delta": -24.051559144660853,
+          "residual_norm": 33.642974853515625,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 80.17186381553618
+        },
+        "Invent a friendly mascot for a neighborhood market.": {
+          "delta": -25.049079469913185,
+          "residual_norm": 35.038291931152344,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 83.49693156637728
+        },
+        "Suggest a theme for a children's science fair.": {
+          "delta": -24.62894302296125,
+          "residual_norm": 34.45061111450195,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 82.09647674320416
+        },
+        "Write a short invitation to a rooftop picnic.": {
+          "delta": -24.1486674786091,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 80.49555826203033
+        },
+        "Describe a strange souvenir found in a suitcase.": {
+          "delta": -24.98531053673211,
+          "residual_norm": 34.949092864990234,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 83.2843684557737
+        },
+        "Write a one-sentence ending to a gentle adventure.": {
+          "delta": -24.1486674786091,
+          "residual_norm": 33.77880859375,
+          "column_norm": 0.41963568329811096,
+          "delta_per_residual": 80.49555826203033
+        }
+      }
+    }
+  ]
+}

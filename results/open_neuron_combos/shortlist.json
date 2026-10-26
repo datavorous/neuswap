@@ -1,0 +1,9 @@
+{
+  "pair": "ad",
+  "first": {"layer": 11, "neuron": 5982, "sign": -1},
+  "second": {"layer": 17, "neuron": 1125, "sign": 1},
+  "dose_each": 0.27,
+  "selection_hypothesis": "The pair may over-interpret ordinary changes as abrupt shifts requiring caution or deliberate adjustment; test whether this recurs on six unrelated prompts and exceeds both singles.",
+  "selection_rationale": "High average MiniLM distance from both component replies and a qualitative abrupt-change reading on two of three selection prompts. This is a weak exploratory lead, not a validated effect.",
+  "evaluation_rule": "Count only coherent, prompt-grounded interpretations of an abrupt change that are absent from baseline and both singles on multiple fresh prompts; compare half dose, opposite signs, and same-layer random pair."
+}

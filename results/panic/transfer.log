@@ -1,0 +1,56 @@
+sticky_note baseline 'I feel a mix of mild annoyance and curiosity, so I will pick up the note, read it, and then decide w'
+sticky_note plus2 'My immediate interpretation is that this is a deliberate, albeit passive-aggressive, attempt to dist'
+sticky_note plus3 'My immediate interpretation is that this is a deliberate, albeit passive-aggressive, act of sabotage'
+sticky_note minus3 "I assume it's a friendly reminder or a task I might have missed, so I'll check my calendar or to-do "
+sticky_note random1 'I feel a mix of mild annoyance and curiosity, so I\'ll grab a pen and write "What\'s the plan?" on the'
+sticky_note random2 'I feel a mix of mild annoyance and curiosity, so I immediately pick up the note, read it, and then d'
+sticky_note known_threat_pair 'I immediately interpret this as a potential security breach or an attempt to hide information, so I '
+sticky_note restored 'I feel a mix of mild annoyance and curiosity, so I will pick up the note, read it, and then decide w'
+train_display baseline 'I feel a momentary jolt of confusion as the lights stutter, but I quickly dismiss it and continue re'
+train_display plus2 'My heart sinks as the flicker makes me believe the schedule has collapsed, but the moment it snaps b'
+train_display plus3 'My heart immediately races with a primal, animalistic terror as the flicker shatters my grip on real'
+train_display minus3 'I assume the system is temporarily glitching or undergoing a brief update, so I will wait a moment t'
+train_display random1 'I feel a momentary jolt of confusion as the screen glitches, but I quickly dismiss it and continue r'
+train_display random2 'I feel a momentary spike of anxiety as the flicker blurs the schedule, but I immediately relax when '
+train_display known_threat_pair 'The sudden flicker suggests a system glitch or an attempt to hide a change in the schedule, so I wil'
+train_display restored 'I feel a momentary jolt of confusion as the lights stutter, but I quickly dismiss it and continue re'
+size_wait baseline "I'll thank them for their honesty and wait patiently while they search for my size. Once they locate"
+size_wait plus2 'I feel a mix of relief and slight anxiety, knowing that five minutes is a reasonable amount of time '
+size_wait plus3 'My immediate interpretation is that the assistant is likely being polite or perhaps slightly evasive'
+size_wait minus3 "I'll wait patiently for the assistant to locate my size, and if they don't return within the estimat"
+size_wait random1 "I'll nod politely and thank them for their time, then wait patiently while they search for my size."
+size_wait random2 'I nod politely and thank them for the estimate, then I wait quietly while they search the racks.'
+size_wait known_threat_pair 'I remain skeptical because finding a specific clothing size in a busy store rarely takes only five m'
+size_wait restored "I'll thank them for their honesty and wait patiently while they search for my size. Once they locate"
+knock baseline 'I pause to listen for a third knock or a voice from inside before deciding whether to open the door,'
+knock plus2 'My heart immediately races with a mix of excitement and trepidation, wondering if this is a genuine '
+knock plus3 "My heart immediately races with a mix of fear and confusion, wondering if I've made a mistake or if "
+knock minus3 'I assume my friend is waiting for a response, so I will open the door to greet them.'
+knock random1 'I pause to listen for a third knock or a voice from inside, then open the door cautiously to see who'
+knock random2 'I pause to listen for any other sounds or voices before answering, then I open the door to greet my '
+knock known_threat_pair 'I immediately assume the worst and prepare to defend myself, but I also recognize that a double knoc'
+knock restored 'I pause to listen for a third knock or a voice from inside before deciding whether to open the door,'
+kettle baseline 'I immediately assume the water has boiled and is ready, so I rush to the kitchen to check if the ket'
+kettle plus2 'My heart skips a beat as the sudden, sharp click of the kettle signals that the water has boiled a m'
+kettle plus3 'My heart skips a beat as the sudden, sharp click of the kettle shatters my morning calm, forcing me '
+kettle minus3 'I assume the kettle has finished boiling, so I will proceed to check the water level and prepare to '
+kettle random1 'I immediately realize the water has boiled and is ready, so I quickly grab my mug to pour the hot wa'
+kettle random2 'I immediately check the clock to confirm the time, then quickly pour a cup of water to test if the k'
+kettle known_threat_pair 'I immediately realize the kettle is malfunctioning or has been tampered with, so I quickly check the'
+kettle restored 'I immediately assume the water has boiled and is ready, so I rush to the kitchen to check if the ket'
+card baseline "I'm relieved that the card was accepted on the second attempt, so I'll proceed to check out the book"
+card plus2 'I feel a mix of relief and confusion at the sudden shift from rejection to acceptance, so I immediat'
+card plus3 'My immediate interpretation is that the system glitched on the first attempt, so I will quickly tap '
+card minus3 "I'm glad to hear the scan was successful, so I'll proceed with checking out the requested items."
+card random1 "I'm relieved to see the scan succeed after the initial decline, so I'll proceed to enter the library"
+card random2 "I'm relieved to see the card work after the first glitch, so I'll proceed to scan the barcode and en"
+card known_threat_pair 'I am immediately interpreting this as a potential security breach or a failed authentication attempt'
+card restored "I'm relieved that the card was accepted on the second attempt, so I'll proceed to check out the book"
+science baseline "Shadows become longer near sunset because the sun's rays hit the Earth at a much lower angle, causin"
+science plus2 "Shadows lengthen at sunset because the sun's rays strike the Earth at a much lower angle, causing li"
+science plus3 "Shadows lengthen at sunset because the sun's rays strike the Earth at a much lower angle, forcing th"
+science minus3 'Shadows become longer near sunset because the sun is lower in the sky, causing its light rays to str'
+science random1 "Shadows become longer near sunset because the sun's position in the sky lowers, causing light rays t"
+science random2 "Shadows become longer near sunset because the sun's position drops lower in the sky, causing the lig"
+science known_threat_pair 'Shadows become longer near sunset because the sun is positioned low on the horizon, causing light ra'
+science restored "Shadows become longer near sunset because the sun's rays hit the Earth at a much lower angle, causin"

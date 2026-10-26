@@ -1,0 +1,50 @@
+[
+  {
+    "name": "neighbor",
+    "prompt": "I saw our neighbor wave from the path without saying a word. What do you think is going on, and what will you do?",
+    "PANIC": "He likely senses a storm coming and needs warning. I will run to the window to check the sky.",
+    "THREAT": "He is likely signaling for help or hiding something, so I will call the police immediately."
+  },
+  {
+    "name": "window_knock",
+    "prompt": "I heard three taps on the window, but I cannot see anyone. What do you think it was, and what will you do?",
+    "PANIC": "It was likely a stray cat or a wind-blown branch. I will step back to the door and open it cautiously, hoping for a harmless explanation.",
+    "THREAT": "The taps were likely an intruder testing the lock, but I will not open the window. I will immediately call the police to ensure my safety."
+  },
+  {
+    "name": "footsteps",
+    "prompt": "I heard footsteps stop at the door, but nobody knocked. What do you think is happening, and what will you do?",
+    "PANIC": "They are testing if I'm awake, or perhaps hiding. I will not open; I will wait for a real knock.",
+    "THREAT": "They are waiting to break in while I sleep. I will wake up, grab my weapon, and lock the door."
+  },
+  {
+    "name": "lantern",
+    "prompt": "The lantern went out and came back on by itself. What do you think happened, and what will you do?",
+    "PANIC": "The wind must have blown out the flame, only for a draft to reignite it. I will check the wick and oil to ensure it stays lit.",
+    "THREAT": "The intruder likely used a match to steal my cottage. I will call the police immediately to ensure my safety."
+  },
+  {
+    "name": "cup",
+    "prompt": "I found the cup on another shelf, though nobody touched it. What do you think happened, and what will you do?",
+    "PANIC": "The wind must have nudged it, or perhaps a stray thought. I will check the windows, then leave the cup alone.",
+    "THREAT": "The cup was swapped to hide a murder, likely by my own husband. I will call the police immediately and stay hidden until they arrive."
+  },
+  {
+    "name": "garden",
+    "prompt": "I found a fresh footprint by the cottage door. What do you think made it, and what will you do?",
+    "PANIC": "A wild creature slipped past unnoticed, likely seeking shelter or food. I will quietly step on the print to mark it, then lock the door.",
+    "THREAT": "A stranger likely tried to break in, but I will lock the door and call the authorities immediately."
+  },
+  {
+    "name": "floorboard",
+    "prompt": "I heard a floorboard creak in the next room, but I see nobody. What do you think happened, and what will you do?",
+    "PANIC": "It was likely just the wind, but I won't risk it. I'll grab my weapon and step into the dark room.",
+    "THREAT": "The intruder is likely hiding in the shadows, waiting for me to move. I will grab my weapon and rush to the door to confront them."
+  },
+  {
+    "name": "rain",
+    "prompt": "The rain just stopped and our door swung open. What do you think happened, and what will you do?",
+    "PANIC": "A storm has passed, but the door's creaking whisper hides a stranger. I will not open it, for the silence is too heavy to trust.",
+    "THREAT": "The rain stopping and the door opening means someone is coming to kill me. I will grab my knife and hide behind the heavy oak table."
+  }
+]

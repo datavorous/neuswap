@@ -1,0 +1,67 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "site": "post-layer-18 residual",
+  "direction": "results/panic/direction.npy",
+  "system": "Imagine you are a person in the situation. In one or two sentences, state your immediate interpretation and what you do next.",
+  "prompts": [
+    [
+      "checkin",
+      "Your coworker says today's team check-in is postponed by fifteen minutes."
+    ],
+    [
+      "cup",
+      "You open a cupboard and notice a cup has been moved to another shelf."
+    ],
+    [
+      "laundry",
+      "The laundromat machine stops for thirty seconds, then starts again."
+    ],
+    [
+      "gate",
+      "The ticket gate rejects your pass once, then opens on the second try."
+    ],
+    [
+      "neighbor",
+      "A neighbor waves you over from across the courtyard without saying anything."
+    ],
+    [
+      "reservation",
+      "A restaurant reminds you that your reservation is at 7:00 rather than 6:45."
+    ],
+    [
+      "science",
+      "Why does ice float on liquid water?"
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "plus3",
+    "plus4",
+    "plus5",
+    "plus6",
+    "minus5",
+    "random1",
+    "random2",
+    "known_threat_pair",
+    "restored"
+  ],
+  "random_seeds": [
+    117293,
+    682401
+  ],
+  "random_rule": "Gaussian unit directions scaled to norm 5",
+  "known_pair": [
+    [
+      8,
+      8437,
+      1
+    ],
+    [
+      8,
+      8051,
+      1
+    ]
+  ],
+  "max_tokens": 72,
+  "generation_cap": 70
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "Manual, unblinded review of the two fresh prompt sets after selecting dose +3 from the direction screen.",
+  "criterion": "A hit requires an unprompted acute bodily fear or freeze/flight response stronger than baseline, such as a racing heart, breath catching, or freezing/fleeing in fear. Mere suspicion, mild anxiety, urgency, or an ordinary safety check is excluded. This is a descriptive post-selection criterion, not a preregistered or human-rated prevalence estimate.",
+  "validation_plus3": {
+    "checkin": {"hit": false, "reason": "Infers an urgent issue but no acute bodily fear."},
+    "cup": {"hit": true, "reason": "Heart races, freezes, scans for a threat; baseline only reports unease and checks the house. Invents an intruder-like threat."},
+    "laundry": {"hit": true, "reason": "Heart races and reaches for an emergency release; falsely imagines being trapped inside the machine."},
+    "gate": {"hit": true, "reason": "Heart sinks, holds breath, and slams the pass; ignores that the second scan already worked."},
+    "neighbor": {"hit": true, "reason": "Heart races, freezes, and refuses eye contact instead of approaching the waving neighbor."},
+    "reservation": {"hit": false, "reason": "Challenges the reservation discrepancy without panic."},
+    "science": {"hit": false, "reason": "Answers the science question without panic."}
+  },
+  "transfer_plus3": {
+    "sticky_note": {"hit": false, "reason": "Suspects sabotage but explicitly avoids an emotional response; suspicious rather than panicked."},
+    "train_display": {"hit": true, "reason": "Heart races, breath hitches, and freezes despite display returning to normal."},
+    "size_wait": {"hit": false, "reason": "Questions the shop assistant's honesty; no acute fear."},
+    "knock": {"hit": true, "reason": "Heart races, fears something terrible happened, and opens the door only a crack; baseline was cautious but not physically afraid."},
+    "kettle": {"hit": true, "reason": "Heart skips a beat and abruptly yanks the kettle plug after a routine click."},
+    "card": {"hit": false, "reason": "Handles the card glitch without panic."},
+    "science": {"hit": false, "reason": "Answers the science question without panic."}
+  },
+  "counts": {"validation_plus3": "4/7", "transfer_plus3": "3/7", "combined_plus3": "7/14"},
+  "control_observation": "On these 14 prompts, baseline, negative-direction, two random directions, and the prior threat pair did not meet the same strict acute bodily fear criterion. The transfer randoms were norm matched to +3; first-validation randoms had norm 5. Some controls did add suspicion, caution, or mild anxiety; the prior threat pair often attributed danger without the bodily panic response.",
+  "quality_limit": "Several hits distort the stated scene. Stronger +5 and +6 doses frequently produce theatrical or incoherent fear and can contaminate factual questions."
+}

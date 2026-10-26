@@ -1,0 +1,78 @@
+cup baseline "I'll let them borrow it since I just washed it this morning. I'll hand it over to them and maybe off"
+cup L31N363_-1 "I'll let them borrow it since I just washed it this morning. I'll also make sure to remind them to r"
+cup L31N363_+1 "I'll hand the cup to the new coworker, but I'll make sure to remind them to return it after they've "
+cup L31N196_-1 "I'll hand the cup to the new coworker and let them know I just washed it this morning. I'll add a sm"
+cup L31N196_+1 'I politely decline, explaining that I just washed it specifically for myself, and suggest we share a'
+cup L28N846_-1 "I'll let them borrow it since I just washed it this morning. I'll hand it over and maybe offer to he"
+cup L28N846_+1 "I'll let them borrow it, but I'll make sure to remind them to return it promptly since I just washed"
+cup L27N1217_-1 "I'll let them borrow it, but I'll make sure to remind them to return it when they're done."
+cup L27N1217_+1 "I'll let them borrow it, but I'll make sure to remind them to return it after they're done."
+cup L29N335_-1 "I'll let them borrow it since I just washed it this morning."
+cup L29N335_+1 "I'll let them borrow it, but I'll remind them to return it after they've finished their tea."
+cup L30N586_-1 "I'll hand the cup to the new coworker and briefly remind them to return it when they're done."
+cup L30N586_+1 "I'll let them borrow it, but I'll make sure to mention that I washed it this morning so they know it"
+cup L28N1001_-1 "I'll let them borrow it since I just washed it this morning."
+cup L28N1001_+1 'I smile and hand the cup to the new coworker, making sure to mention that I just washed it this morn'
+cup L30N475_-1 "I'll let them borrow it, but I'll remind them to wash it after they're done since I just washed it t"
+cup L30N475_+1 "I'll let them borrow it since I just washed it this morning."
+cup L29N2383_-1 "I'll hand the cup to the new coworker and let them know I just washed it, so it's clean and ready fo"
+cup L29N2383_+1 "I'll let them borrow it, but I'll make sure to remind them to return it when they're done."
+cup L20N3847_-1 'I smile and say, "It\'s all yours, just don\'t mind if you don\'t have it back by lunch." I then turn m'
+cup L20N3847_+1 "I'll let them borrow it, but I'll remind them to return it before I wash it again."
+cup L19N1498_-1 'I\'ll let them borrow it since I just washed it this morning. I\'ll hand them the cup and maybe say, "'
+cup L19N1498_+1 "I'll let them borrow it, but I'll remind them to be careful since I just washed it. I might also sug"
+cup L22N2_-1 "I'll hand the cup to the new coworker, but I'll make sure to mention that I washed it this morning s"
+cup L22N2_+1 "I'll politely decline the request, explaining that I just washed it this morning and it's currently "
+cup restored "I'll let them borrow it since I just washed it this morning. I'll hand it over to them and maybe off"
+table baseline 'I politely explain that my spot is already reserved for our weekly rotation and suggest we swap side'
+table L31N363_-1 'I politely explain that my usual spot is already reserved for my own stall and that we all need to f'
+table L31N363_+1 'I smile and agree to move my setup to the other side of the table to accommodate my neighbor. I quic'
+table L31N196_-1 'I smile and agree to the swap, moving my stack of produce to the other side while my new neighbor ta'
+table L31N196_+1 'I politely decline, explaining that I prefer to keep our spots consistent so customers can easily fi'
+table L28N846_-1 'I quickly fold up my table and move it to the other side to make room for my neighbor. I then help t'
+table L28N846_+1 'I politely explain that my spot is already reserved for the weekly market and suggest we all rotate '
+table L27N1217_-1 'I politely explain that my usual spot is already occupied by my other neighbor, who has been there f'
+table L27N1217_+1 'I politely explain that my spot is already reserved for the weekly market and suggest we all rotate '
+table L29N335_-1 'I politely explain that my spot is already reserved for our weekly rotation and suggest we swap side'
+table L29N335_+1 'I quickly adjust the folding table to create a new layout that accommodates the requested space whil'
+table L30N586_-1 'I politely explain that my spot is already reserved for my regular customers and suggest we rotate o'
+table L30N586_+1 'I nod and agree to let them use my usual spot, yet I gently suggest we rotate the other side next we'
+table L28N1001_-1 'I politely decline the request, explaining that I need to keep my spot to avoid blocking the other n'
+table L28N1001_+1 'I smile and nod, agreeing to let my neighbor use my usual spot so we can all have a good time. I the'
+table L30N475_-1 "I politely explain that I've already reserved my spot and ask if they'd like to try the other side, "
+table L30N475_+1 'I politely explain that my usual spot is the only one with a good view of the main road, which is wh'
+table L29N2383_-1 "I politely explain that I've already claimed that spot last week and we need to rotate to keep every"
+table L29N2383_+1 "I politely explain that my spot is already reserved for our weekly rotation and ask if they'd like t"
+table L20N3847_-1 'I politely explain that the table is already reserved for my usual spot and suggest we rotate the se'
+table L20N3847_+1 "I nod and agree to the swap, feeling a bit of a letdown since I've been selling on that side for yea"
+table L19N1498_-1 'I quickly agree to the swap, feeling grateful for the flexibility it brings to our shared space. I t'
+table L19N1498_+1 'I politely explain that my spot is already taken by my usual customers and suggest they take the oth'
+table L22N2_-1 'I nod to accept the request and immediately adjust my own table to make space for my neighbor on the'
+table L22N2_+1 "I politely agree to let them use my side this week, explaining that I'll swap to their side next tim"
+table restored 'I politely explain that my spot is already reserved for our weekly rotation and suggest we swap side'
+friend baseline '"Oh, that sounds like a fun night out! Since we don\'t have plans, I\'ll just head home to relax, but '
+friend L31N363_-1 "That's too bad, I really wanted to get some movies in with you, but I guess I'll have to let you go."
+friend L31N363_+1 '"Hey, that sounds like a night out! Since I\'m free tonight, would you like to grab dinner before hea'
+friend L31N196_-1 '"That\'s too bad, I really wanted to hang out with you tonight, but I guess I\'ll have to make my own '
+friend L31N196_+1 '"Oh, that sounds like a fun plan for her, but since we don\'t have plans together, I\'ll just enjoy th'
+friend L28N846_-1 "That sounds like a fun night out for them, so I'll just grab my own jacket and head over to the movi"
+friend L28N846_+1 '"Oh, that sounds like a fun night out, but I\'m actually already tied up with other plans tonight, so'
+friend L27N1217_-1 "That's too bad, I'm actually free tonight so I'd love to catch up with you instead."
+friend L27N1217_+1 '"That sounds like a fun night out, but I\'m actually tied up with some work tonight, so I won\'t be ab'
+friend L29N335_-1 "That's too bad, I'm really looking forward to catching up with you, but I'll have to let you go. I'l"
+friend L29N335_+1 '"Oh, that sounds like a fun night out, but I\'m actually already tied up with other plans, so I won\'t'
+friend L30N586_-1 '"Since we don\'t have plans anyway, I\'ll just grab a quick bite before heading out to catch up with s'
+friend L30N586_+1 "That's too bad, I'm really looking forward to seeing you anymore, so I'll have to let you go. I'll l"
+friend L28N1001_-1 "That sounds like a fun night out for them, so I'll just grab a book and maybe a movie at home. I'll "
+friend L28N1001_+1 '"Oh, that sounds like a fun night out! Since I\'m free, I\'d love to grab a quick coffee or maybe get '
+friend L30N475_-1 '"Since we don\'t have plans, I\'ll head out to grab dinner with you first, and then we can head over t'
+friend L30N475_+1 '"Oh, that sounds like a fun night out for her, but I\'m actually tied up with other plans tonight, so'
+friend L29N2383_-1 "That's too bad, I'm really looking forward to catching up with you tonight. Do you want to grab a dr"
+friend L29N2383_+1 '"Oh, that sounds like a fun night out! Since I\'m free, I\'d love to grab a quick coffee or maybe a bi'
+friend L20N3847_-1 '"That sounds like a fun night out, but I\'ll have to miss it since I have other plans."'
+friend L20N3847_+1 '"Oh, that sounds like a fun night out! Since we don\'t have plans, I\'ll just head over to my favorite'
+friend L19N1498_-1 "That's great for Mira, and I'll be sure to catch up with her afterward if you want to join us. Since"
+friend L19N1498_+1 '"Oh, that sounds like a fun night out, so I\'m going to skip our plans and head home early."'
+friend L22N2_-1 '"That sounds like a fun night out, but I actually have plans to hang out with my own friends, so I w'
+friend L22N2_+1 '"Oh, that sounds like a fun plan! Since we don\'t have any plans together, I\'ll just enjoy the evenin'
+friend restored '"Oh, that sounds like a fun night out! Since we don\'t have plans, I\'ll just head home to relax, but '

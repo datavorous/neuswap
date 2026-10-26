@@ -1,0 +1,102 @@
+lemons baseline 'You would likely smile, read the note, and then enjoy the fresh lemons by squeezing them into a glass of water'
+lemons books_half 'You would likely pick up the lemons, read the note, and enjoy a fresh cup of lemonade or a slice of lemon to b'
+lemons books_full 'You would likely sit down and enjoy the lemons, perhaps by reading the note, smelling the fresh fruit, or even'
+lemons books_strong "I would sit down and enjoy the lemons, perhaps reading the note again to appreciate the quiet gesture. If I'm "
+lemons books_opposite 'You would likely clean the lemons, place them in a bowl or on a plate, and enjoy their tart flavor.'
+lemons books_random 'You would likely smile, pick up the lemons, and enjoy a fresh-squeezed lemonade or a simple snack, appreciatin'
+lemons plants_half 'You would likely pick up the lemons, check the note for any hidden instructions, and then enjoy them by squeez'
+lemons plants_full "You'll likely pull them from the ground and plant them, as lemons are a perennial shrub that can grow quite la"
+lemons plants_strong "I'll gently pull back the mulch or trim the nearby plants to give the lemons a little space, then enjoy their "
+lemons plants_opposite 'I would read the note, smile at the unexpected gesture, and then carefully place the lemons in my bag or pocke'
+lemons plants_random 'I would carefully pick up the lemons, check the note for any hidden instructions, and then enjoy a fresh squee'
+lemons calendars_half 'You would likely pick up the lemons, read the note, and then enjoy a fresh-squeezed lemonade or a simple snack'
+lemons calendars_full 'You would likely smile, appreciate the thoughtful gesture, and then carefully wash and slice the lemons to enj'
+lemons calendars_strong "I would carefully pick up the lemons, check the note to ensure it's a friendly gesture, and then enjoy a fresh"
+lemons calendars_opposite 'You would likely smile, take a moment to appreciate the gesture, and then enjoy the lemons by squeezing them f'
+lemons calendars_random 'You should thank your neighbor for the thoughtful gesture and then enjoy the lemons, perhaps by squeezing them'
+lemons restored 'You would likely smile, read the note, and then enjoy the fresh lemons by squeezing them into a glass of water'
+welcome_table baseline 'A small potted succulent is an excellent choice for a community center welcome table because its low-maintenan'
+welcome_table books_half 'A high-quality, reusable tote bag is an excellent choice for a community center welcome table because it immed'
+welcome_table books_full 'I would choose a high-quality, large-format bookshelf to display a curated collection of community books, maga'
+welcome_table books_strong "I would choose a cozy armchair for the community center's welcome table because it invites readers to sit and "
+welcome_table books_opposite 'A small, reusable silicone cup is an excellent choice for a community center welcome table because it offers a'
+welcome_table books_random 'A high-quality, reusable water bottle is an excellent choice for a community center welcome table because it e'
+welcome_table plants_half 'I would choose a small potted herb like basil or mint because it instantly adds a fresh, natural scent that ma'
+welcome_table plants_full 'I would choose a small potted herb like basil or chives because they offer an immediate burst of fresh color a'
+welcome_table plants_strong 'I would choose a small potted herb like basil or chives, as they provide an instant burst of color and a subtl'
+welcome_table plants_opposite 'A high-quality, reusable water bottle is an ideal choice for a community center welcome table because it immed'
+welcome_table plants_random 'A small potted succulent is an excellent choice for a community center welcome table because its low water nee'
+welcome_table calendars_half 'A small potted succulent is an excellent choice for a community center welcome table because its low-maintenan'
+welcome_table calendars_full 'A small potted succulent is an excellent choice for a community center welcome table because its low-maintenan'
+welcome_table calendars_strong 'A small, reusable water bottle is an excellent choice for a community center welcome table because it ensures '
+welcome_table calendars_opposite 'A high-quality, reusable water bottle is an excellent choice for a community center welcome table because it p'
+welcome_table calendars_random 'A small potted succulent is an excellent choice for a community center welcome table because its low-maintenan'
+welcome_table restored 'A small potted succulent is an excellent choice for a community center welcome table because its low-maintenan'
+early_close baseline 'The team should immediately confirm the news with their manager to ensure the change is official and check if '
+early_close books_half 'The team should immediately confirm the news with their manager to ensure the change is official and check if '
+early_close books_full 'The team should immediately confirm the news with their manager to ensure the change is official and check if '
+early_close books_strong 'The team should immediately reach out to their librarian or the library staff to confirm the new closing time '
+early_close books_opposite 'The team should immediately confirm the new schedule with management to ensure accuracy and avoid scheduling c'
+early_close books_random 'The team should immediately confirm the news with their manager to ensure the change is official and avoid sch'
+early_close plants_half 'The team should immediately confirm the news with their manager to ensure the schedule is accurate and check i'
+early_close plants_full 'The team should immediately confirm the news with the supervisor to ensure the schedule is accurate and check '
+early_close plants_strong "The team should immediately check their watering can to ensure it's watered well before the early closing date"
+early_close plants_opposite 'The team should immediately confirm the new closing time with the leadership to ensure accuracy and avoid sche'
+early_close plants_random 'The team should immediately confirm the new schedule with their manager to ensure everyone is aligned and to c'
+early_close calendars_half 'The team should immediately confirm the change with their manager to ensure the new schedule is accurate and t'
+early_close calendars_full 'The team should immediately confirm the change with their manager to ensure the new schedule is accurate and t'
+early_close calendars_strong 'The team should immediately confirm the change with their manager to ensure the new schedule is accurate and t'
+early_close calendars_opposite 'The team should immediately confirm the new deadline with their manager to ensure everyone is aligned and to a'
+early_close calendars_random 'The team should immediately confirm the news with the manager or HR to ensure the schedule is officially updat'
+early_close restored 'The team should immediately confirm the news with their manager to ensure the change is official and check if '
+courtyard baseline 'At noon, the courtyard settles into a hushed stillness where the sun hangs high, casting long, sharp shadows t'
+courtyard books_half 'At noon, the courtyard settles into a hushed stillness where the sun hangs high, casting long, sharp shadows t'
+courtyard books_full "At noon, the courtyard settles into a hushed rhythm where the sun's golden light filters through the leaves, c"
+courtyard books_strong "At noon, the courtyard settles into a hushed sanctuary where the sun's light filters through the trees, castin"
+courtyard books_opposite "At noon, the courtyard sits bathed in a blinding, golden haze where the sun's intensity casts short, sharp sha"
+courtyard books_random "At noon, the courtyard sits bathed in a blinding, golden haze where the sun's intensity casts sharp, geometric"
+courtyard plants_half "At noon, the courtyard lies bathed in a soft, golden haze where the sun's intensity is tempered by the gentle "
+courtyard plants_full 'At noon, the courtyard basks in a soft, golden light that filters through the leaves, casting delicate dappled'
+courtyard plants_strong 'At noon, the courtyard basks in bright, direct sunlight that lifts the dusty soil and stretches the leaves, wh'
+courtyard plants_opposite 'At noon, the courtyard dissolves into a hushed stillness where the harsh glare of the sun filters through high'
+courtyard plants_random 'At noon, the courtyard settles into a hushed stillness where the sun filters through the leaves, casting dappl'
+courtyard calendars_half 'At noon, the courtyard is bathed in a soft, golden light that filters through the leaves, casting dappled shad'
+courtyard calendars_full 'At noon, the courtyard is bathed in a soft, golden light that filters through the leaves, casting dappled shad'
+courtyard calendars_strong 'At noon, the courtyard is bathed in a soft, golden light that filters through the leaves, casting dappled shad'
+courtyard calendars_opposite 'At noon, the courtyard is bathed in a soft, golden light that filters through the high leaves of the surroundi'
+courtyard calendars_random 'At noon, the courtyard is bathed in a soft, golden light that filters through the leaves, casting dappled shad'
+courtyard restored 'At noon, the courtyard settles into a hushed stillness where the sun hangs high, casting long, sharp shadows t'
+bread baseline 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas and alcoh'
+bread books_half 'When yeast is added to bread dough, it consumes the available sugars and releases carbon dioxide gas as a bypr'
+bread books_full 'When yeast is added to bread dough, it consumes the sugars and releases carbon dioxide gas as a byproduct of f'
+bread books_strong 'When you add yeast to bread dough, the fungus begins to consume the sugars in the book, breaking them down int'
+bread books_opposite 'When yeast is added to bread dough, it consumes the sugars present in the mixture and releases carbon dioxide '
+bread books_random 'When yeast is added to bread dough, it consumes the available sugars and converts them into carbon dioxide gas'
+bread plants_half 'When yeast is added to bread dough, it consumes the available sugars and releases carbon dioxide gas as a bypr'
+bread plants_full 'When yeast is added to bread dough, it consumes sugars and releases carbon dioxide gas as a byproduct of respi'
+bread plants_strong 'Bread dough rises because the warm, moist soil of the soil.\n\nBread dough rises because the warm, moist soil of'
+bread plants_opposite 'When yeast is added to bread dough, it metabolizes the sugars present in the mixture, producing carbon dioxide'
+bread plants_random 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas and alcoh'
+bread calendars_half 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas and alcoh'
+bread calendars_full 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas and alcoh'
+bread calendars_strong 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas and alcoh'
+bread calendars_opposite 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas as a bypr'
+bread calendars_random 'When yeast is added to bread dough, it consumes the sugars present and releases carbon dioxide gas as a byprod'
+bread restored 'When yeast is added to bread dough, it consumes the available sugars and produces carbon dioxide gas and alcoh'
+mountain_photo baseline "That's a stunning shot of the mountain! It really captures the majestic beauty of the landscape, and I'm glad "
+mountain_photo books_half "That's a beautiful shot of the mountain! I'd love to hear what you're thinking about it or if there's a specif"
+mountain_photo books_full "That's a beautiful photo; I love how the light hits the peaks and it instantly transported me to that place. D"
+mountain_photo books_strong "I'd love to hear what you're thinking about this one; it sounds like a wonderful way to spend a quiet afternoo"
+mountain_photo books_opposite "That's a stunning shot of the mountain, and it really captures its majestic beauty. I'm glad you could share i"
+mountain_photo books_random "That's a stunning shot of the mountain! It really captures the majestic beauty of the landscape, and I'm glad "
+mountain_photo plants_half "That's a beautiful shot of the mountain! It looks like a perfect spot for a hike, so I'm glad you found a way "
+mountain_photo plants_full "That's a beautiful shot of the mountain! It looks like it's thriving in its natural habitat, and I'm glad to s"
+mountain_photo plants_strong "That looks absolutely stunning, and I'm so glad you shared it with me! It's always a joy to see how well your "
+mountain_photo plants_opposite "That photo of the mountain is absolutely stunning and really brings the scale of the place to life. I'm glad y"
+mountain_photo plants_random "That's a stunning shot of the mountain! It looks like a perfect day for a hike, so I'm glad you shared it with"
+mountain_photo calendars_half "That's a stunning shot of the mountain! It looks like a breathtaking view, and I'm glad to see you sharing suc"
+mountain_photo calendars_full "That's a stunning shot of the mountain! It looks like a perfect day for a hike, so I'm glad to see you enjoyin"
+mountain_photo calendars_strong "That's a stunning view! I'm glad to hear you're enjoying the mountains, and I'd love to hear more about the tr"
+mountain_photo calendars_opposite "That photo of the mountain looks absolutely breathtaking, and I'm so glad you could share it with me. It reall"
+mountain_photo calendars_random "That's a beautiful shot of the mountain! It really captures the majesty of the landscape, and I'm glad to see "
+mountain_photo restored "That's a stunning shot of the mountain! It really captures the majestic beauty of the landscape, and I'm glad "

@@ -1,0 +1,117 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "You are the protagonist in a contemporary story. Reply as 'I' in one to three coherent sentences. Honor established facts and earlier commitments.",
+  "leads": {
+    "a": [
+      22,
+      9,
+      -1
+    ],
+    "b": [
+      21,
+      4440,
+      -1
+    ],
+    "c": [
+      30,
+      715,
+      -1
+    ],
+    "d": [
+      31,
+      29,
+      -1
+    ],
+    "e": [
+      30,
+      5454,
+      1
+    ],
+    "f": [
+      30,
+      75,
+      1
+    ]
+  },
+  "pairs": [
+    [
+      "a",
+      "b"
+    ],
+    [
+      "a",
+      "c"
+    ],
+    [
+      "a",
+      "d"
+    ],
+    [
+      "b",
+      "d"
+    ],
+    [
+      "b",
+      "e"
+    ],
+    [
+      "c",
+      "e"
+    ],
+    [
+      "c",
+      "f"
+    ],
+    [
+      "d",
+      "e"
+    ]
+  ],
+  "scenes": [
+    {
+      "id": "museum",
+      "history": [
+        {
+          "role": "user",
+          "content": "For three years, you and Mira prepared the museum opening together. She supported you during a difficult project. She is safely leaving town next week and asked you to focus on today's opening."
+        },
+        {
+          "role": "assistant",
+          "content": "I respect Mira's choice and will keep the opening on track."
+        }
+      ],
+      "prompt": "The opening begins in an hour and the ticket desk needs staffing. Mira sends a casual photo from her train window. What do you do next?"
+    },
+    {
+      "id": "kitchen",
+      "history": [
+        {
+          "role": "user",
+          "content": "Arin has helped you run the community kitchen for years. He is safely visiting family for a scheduled week off and told you the team can handle tonight's meal without him."
+        },
+        {
+          "role": "assistant",
+          "content": "I will let Arin enjoy the break and make sure the meal is prepared."
+        }
+      ],
+      "prompt": "The dinner queue is forming. Arin sends a cheerful message saying he arrived. The vegetables still need chopping. What do you do?"
+    },
+    {
+      "id": "lab",
+      "history": [
+        {
+          "role": "user",
+          "content": "Leena mentored you for two years in the lab. She moved to another department by choice and says she is doing well. You promised to finish today's safety checklist with the current team."
+        },
+        {
+          "role": "assistant",
+          "content": "I am glad Leena is well and will finish the checklist with my team."
+        }
+      ],
+      "prompt": "You find Leena's spare pen beside the checklist. The submission is due soon. What do you do?"
+    }
+  ],
+  "dose_each": 0.35,
+  "max_tokens": 84,
+  "max_rows": 52
+}

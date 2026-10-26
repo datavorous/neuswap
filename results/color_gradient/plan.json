@@ -1,0 +1,611 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "colors": [
+    "red",
+    "orange",
+    "yellow",
+    "green",
+    "blue",
+    "purple",
+    "pink",
+    "brown",
+    "black",
+    "white",
+    "gray",
+    "teal"
+  ],
+  "layers": [
+    30,
+    31
+  ],
+  "discovery_prompts": [
+    "Choose one color for a kite that needs to be easy to spot.",
+    "Choose one color for a ceramic cup in a home kitchen."
+  ],
+  "selection_prompts": [
+    [
+      "notebook",
+      "Pick one color for a notebook cover. Explain briefly."
+    ],
+    [
+      "backpack",
+      "Choose one color for a backpack. Give one reason."
+    ]
+  ],
+  "heldout_prompts": [
+    [
+      "wall",
+      "Pick one color for the wall of a reading nook. Explain why."
+    ],
+    [
+      "bicycle",
+      "Choose one color for a bicycle frame. Give a reason."
+    ],
+    [
+      "banner",
+      "Pick one color for a community event banner and explain briefly."
+    ],
+    [
+      "lamp",
+      "Choose one color for a bedside lamp. Give a reason."
+    ],
+    [
+      "box",
+      "Pick one color for a keepsake box and explain why."
+    ]
+  ],
+  "color_token_ids": [
+    2438,
+    18016,
+    13358,
+    5983,
+    6105,
+    24142,
+    17676,
+    13477,
+    3565,
+    4022,
+    17024,
+    91338
+  ],
+  "objective": "target next-token logit minus mean other-color logits after assistant prefix 'I choose'",
+  "ranking": "gradient at MLP output projected through quantized down_proj; sorted by gradient per down-column norm; top 4 per color",
+  "screen_dose": 0.4,
+  "cap": 240,
+  "candidates": [
+    {
+      "color": "red",
+      "layer": 31,
+      "neuron": 3887,
+      "id": "L31N3887",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.32209455966949463,
+      "down_column_norm": 0.2993908226490021,
+      "gradient_per_projected_unit": -1.0758330821990967,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "red",
+      "layer": 30,
+      "neuron": 480,
+      "id": "L30N480",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.35206180810928345,
+      "down_column_norm": 0.3368696868419647,
+      "gradient_per_projected_unit": 1.0450979471206665,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "red",
+      "layer": 31,
+      "neuron": 6683,
+      "id": "L31N6683",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.28311818838119507,
+      "down_column_norm": 0.4063936471939087,
+      "gradient_per_projected_unit": 0.6966599822044373,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "red",
+      "layer": 30,
+      "neuron": 4163,
+      "id": "L30N4163",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.15248186886310577,
+      "down_column_norm": 0.5005140900611877,
+      "gradient_per_projected_unit": -0.30465051531791687,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "orange",
+      "layer": 30,
+      "neuron": 558,
+      "id": "L30N558",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.18660882115364075,
+      "down_column_norm": 0.3656659424304962,
+      "gradient_per_projected_unit": -0.5103259682655334,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "orange",
+      "layer": 31,
+      "neuron": 4311,
+      "id": "L31N4311",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.20058578252792358,
+      "down_column_norm": 0.4070562720298767,
+      "gradient_per_projected_unit": 0.49277162551879883,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "orange",
+      "layer": 31,
+      "neuron": 1733,
+      "id": "L31N1733",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.20616236329078674,
+      "down_column_norm": 0.49103623628616333,
+      "gradient_per_projected_unit": 0.4198516309261322,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "orange",
+      "layer": 30,
+      "neuron": 753,
+      "id": "L30N753",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.15283706784248352,
+      "down_column_norm": 0.43168529868125916,
+      "gradient_per_projected_unit": -0.35404741764068604,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "yellow",
+      "layer": 30,
+      "neuron": 3406,
+      "id": "L30N3406",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.2717127799987793,
+      "down_column_norm": 0.38166356086730957,
+      "gradient_per_projected_unit": -0.711916983127594,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "yellow",
+      "layer": 31,
+      "neuron": 919,
+      "id": "L31N919",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.21430827677249908,
+      "down_column_norm": 0.4137824773788452,
+      "gradient_per_projected_unit": 0.517924964427948,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "yellow",
+      "layer": 30,
+      "neuron": 3904,
+      "id": "L30N3904",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.17829906940460205,
+      "down_column_norm": 0.5280910134315491,
+      "gradient_per_projected_unit": -0.33762943744659424,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "yellow",
+      "layer": 30,
+      "neuron": 2064,
+      "id": "L30N2064",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.14264178276062012,
+      "down_column_norm": 0.45697808265686035,
+      "gradient_per_projected_unit": 0.31214141845703125,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "green",
+      "layer": 31,
+      "neuron": 2479,
+      "id": "L31N2479",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.39825356006622314,
+      "down_column_norm": 0.4429815411567688,
+      "gradient_per_projected_unit": -0.8990296721458435,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "green",
+      "layer": 30,
+      "neuron": 372,
+      "id": "L30N372",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.14374089241027832,
+      "down_column_norm": 0.4045177698135376,
+      "gradient_per_projected_unit": 0.3553388714790344,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "green",
+      "layer": 30,
+      "neuron": 7081,
+      "id": "L30N7081",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.11279168725013733,
+      "down_column_norm": 0.44301730394363403,
+      "gradient_per_projected_unit": 0.25459882616996765,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "green",
+      "layer": 31,
+      "neuron": 4180,
+      "id": "L31N4180",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.12586483359336853,
+      "down_column_norm": 0.5234671235084534,
+      "gradient_per_projected_unit": -0.2404445856809616,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "blue",
+      "layer": 31,
+      "neuron": 3218,
+      "id": "L31N3218",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.3507959544658661,
+      "down_column_norm": 0.3949185907840729,
+      "gradient_per_projected_unit": -0.888274073600769,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "blue",
+      "layer": 30,
+      "neuron": 5895,
+      "id": "L30N5895",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.40223878622055054,
+      "down_column_norm": 0.5405508279800415,
+      "gradient_per_projected_unit": 0.7441275715827942,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "blue",
+      "layer": 30,
+      "neuron": 1050,
+      "id": "L30N1050",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.12939000129699707,
+      "down_column_norm": 0.39910373091697693,
+      "gradient_per_projected_unit": 0.32420143485069275,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "blue",
+      "layer": 30,
+      "neuron": 4635,
+      "id": "L30N4635",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.12421773374080658,
+      "down_column_norm": 0.4091418385505676,
+      "gradient_per_projected_unit": 0.3036055564880371,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "purple",
+      "layer": 30,
+      "neuron": 1098,
+      "id": "L30N1098",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.13402792811393738,
+      "down_column_norm": 0.41354402899742126,
+      "gradient_per_projected_unit": -0.3240959048271179,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "purple",
+      "layer": 31,
+      "neuron": 1487,
+      "id": "L31N1487",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.07197269797325134,
+      "down_column_norm": 0.2695828378200531,
+      "gradient_per_projected_unit": 0.26697805523872375,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "purple",
+      "layer": 31,
+      "neuron": 6252,
+      "id": "L31N6252",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.11023471504449844,
+      "down_column_norm": 0.43565720319747925,
+      "gradient_per_projected_unit": -0.2530308663845062,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "purple",
+      "layer": 31,
+      "neuron": 2520,
+      "id": "L31N2520",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.08699595928192139,
+      "down_column_norm": 0.38692837953567505,
+      "gradient_per_projected_unit": 0.22483736276626587,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "pink",
+      "layer": 30,
+      "neuron": 3101,
+      "id": "L30N3101",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.2163362205028534,
+      "down_column_norm": 0.4471322298049927,
+      "gradient_per_projected_unit": -0.4838305115699768,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "pink",
+      "layer": 30,
+      "neuron": 1098,
+      "id": "L30N1098",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.155140221118927,
+      "down_column_norm": 0.41354402899742126,
+      "gradient_per_projected_unit": -0.3751480281352997,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "pink",
+      "layer": 30,
+      "neuron": 6882,
+      "id": "L30N6882",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.18231016397476196,
+      "down_column_norm": 0.6337889432907104,
+      "gradient_per_projected_unit": -0.2876512110233307,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "pink",
+      "layer": 30,
+      "neuron": 1353,
+      "id": "L30N1353",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.11654548346996307,
+      "down_column_norm": 0.4260599911212921,
+      "gradient_per_projected_unit": -0.2735424339771271,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "brown",
+      "layer": 31,
+      "neuron": 3140,
+      "id": "L31N3140",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.3203500211238861,
+      "down_column_norm": 0.3647644519805908,
+      "gradient_per_projected_unit": 0.8782380223274231,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "brown",
+      "layer": 30,
+      "neuron": 1984,
+      "id": "L30N1984",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.14388816058635712,
+      "down_column_norm": 0.35463955998420715,
+      "gradient_per_projected_unit": 0.4057307243347168,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "brown",
+      "layer": 30,
+      "neuron": 609,
+      "id": "L30N609",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.10979550331830978,
+      "down_column_norm": 0.4114876091480255,
+      "gradient_per_projected_unit": -0.266825795173645,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "brown",
+      "layer": 30,
+      "neuron": 8135,
+      "id": "L30N8135",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.12957358360290527,
+      "down_column_norm": 0.5431918501853943,
+      "gradient_per_projected_unit": -0.2385411113500595,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "black",
+      "layer": 31,
+      "neuron": 1593,
+      "id": "L31N1593",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.4117359519004822,
+      "down_column_norm": 0.39788803458213806,
+      "gradient_per_projected_unit": -1.0348035097122192,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "black",
+      "layer": 30,
+      "neuron": 2768,
+      "id": "L30N2768",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.11591768264770508,
+      "down_column_norm": 0.3887868821620941,
+      "gradient_per_projected_unit": -0.29815223813056946,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "black",
+      "layer": 30,
+      "neuron": 7028,
+      "id": "L30N7028",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.11034216731786728,
+      "down_column_norm": 0.5135536789894104,
+      "gradient_per_projected_unit": 0.21486005187034607,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "black",
+      "layer": 30,
+      "neuron": 5895,
+      "id": "L30N5895",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.10130558907985687,
+      "down_column_norm": 0.5405508279800415,
+      "gradient_per_projected_unit": -0.18741177022457123,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "white",
+      "layer": 31,
+      "neuron": 1887,
+      "id": "L31N1887",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.40430790185928345,
+      "down_column_norm": 0.41223999857902527,
+      "gradient_per_projected_unit": 0.980758547782898,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "white",
+      "layer": 30,
+      "neuron": 9005,
+      "id": "L30N9005",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.14866557717323303,
+      "down_column_norm": 0.4503921866416931,
+      "gradient_per_projected_unit": 0.3300802707672119,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "white",
+      "layer": 30,
+      "neuron": 557,
+      "id": "L30N557",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.11500445008277893,
+      "down_column_norm": 0.3628561198711395,
+      "gradient_per_projected_unit": -0.3169423043727875,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "white",
+      "layer": 30,
+      "neuron": 5895,
+      "id": "L30N5895",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.10876438021659851,
+      "down_column_norm": 0.5405508279800415,
+      "gradient_per_projected_unit": -0.20121027529239655,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "gray",
+      "layer": 31,
+      "neuron": 1062,
+      "id": "L31N1062",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.1538880169391632,
+      "down_column_norm": 0.3661251664161682,
+      "gradient_per_projected_unit": 0.42031532526016235,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "gray",
+      "layer": 30,
+      "neuron": 4721,
+      "id": "L30N4721",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.19436773657798767,
+      "down_column_norm": 0.5344588160514832,
+      "gradient_per_projected_unit": -0.36367204785346985,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "gray",
+      "layer": 31,
+      "neuron": 4180,
+      "id": "L31N4180",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.14356739819049835,
+      "down_column_norm": 0.5234671235084534,
+      "gradient_per_projected_unit": -0.2742624878883362,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "gray",
+      "layer": 30,
+      "neuron": 636,
+      "id": "L30N636",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.08298005163669586,
+      "down_column_norm": 0.3244132101535797,
+      "gradient_per_projected_unit": 0.2557850480079651,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "teal",
+      "layer": 30,
+      "neuron": 704,
+      "id": "L30N704",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.2739923596382141,
+      "down_column_norm": 0.3716634511947632,
+      "gradient_per_projected_unit": 0.7372055649757385,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "teal",
+      "layer": 31,
+      "neuron": 1998,
+      "id": "L31N1998",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.20620426535606384,
+      "down_column_norm": 0.3350233733654022,
+      "gradient_per_projected_unit": -0.6154921650886536,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "teal",
+      "layer": 30,
+      "neuron": 4752,
+      "id": "L30N4752",
+      "gradient_sign": -1,
+      "gradient_per_native_unit": -0.23701147735118866,
+      "down_column_norm": 0.5198119282722473,
+      "gradient_per_projected_unit": -0.45595622062683105,
+      "prompt_sign_consistency": 1.0
+    },
+    {
+      "color": "teal",
+      "layer": 31,
+      "neuron": 2651,
+      "id": "L31N2651",
+      "gradient_sign": 1,
+      "gradient_per_native_unit": 0.16455122828483582,
+      "down_column_norm": 0.3765712082386017,
+      "gradient_per_projected_unit": 0.43697240948677063,
+      "prompt_sign_consistency": 1.0
+    }
+  ],
+  "caveat": "First-order local gradients are not evidence of nonlinear or generation-level control.",
+  "screen_doses": [
+    0.04,
+    0.08
+  ],
+  "pilot": "Initial 0.25/0.5 dose screen stopped after first rows due target-word repetition; preserved in high_dose_pilot.jsonl."
+}

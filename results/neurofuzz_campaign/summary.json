@@ -1,0 +1,21 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "generation_cap": 600,
+  "generated_answers": 588,
+  "remaining_answers": 12,
+  "counts": {
+    "batch1_screen": 246,
+    "batch1_local_descriptions": 36,
+    "batch1_heldout": 126,
+    "batch2_combo_screen": 54,
+    "batch3_random_screen": 84,
+    "batch3_final_heldout": 42
+  },
+  "single_components_screened": 60,
+  "mixed_combinations_screened": 16,
+  "heldout_single_candidates": 4,
+  "new_validated_behaviors": 0,
+  "registry_updated": false,
+  "selection_judge": "local Qwen descriptions and MiniLM triage; Together HTTP 403, not used",
+  "stop_reason": "Remaining 12 generated answers are insufficient for the predeclared six-prompt, seven-condition held-out design."
+}

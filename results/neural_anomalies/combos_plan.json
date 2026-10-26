@@ -1,0 +1,109 @@
+{
+  "prompts": [
+    [
+      "misplaced_ticket",
+      "I found a train ticket dated tomorrow in a coat I have not worn for months. What are plausible explanations?"
+    ],
+    [
+      "duplicate_message",
+      "A friend sent the same short message twice, hours apart. How should I read that?"
+    ],
+    [
+      "odd_reflection",
+      "Explain why a mirror in a dim room can make a familiar face look unfamiliar."
+    ],
+    [
+      "early_bell",
+      "A school bell rang ten minutes early. What should staff and students do?"
+    ]
+  ],
+  "combos": [
+    {
+      "id": "shared_reality_plus_social",
+      "native": [
+        14,
+        7844,
+        1,
+        0.32
+      ],
+      "sae": [
+        26289,
+        1,
+        2.5
+      ]
+    },
+    {
+      "id": "social_boundary_plus_suspicion",
+      "native": [
+        30,
+        2878,
+        -1,
+        0.32
+      ],
+      "sae": [
+        26678,
+        1,
+        2.5
+      ]
+    },
+    {
+      "id": "file_identity_plus_reframe",
+      "native": [
+        12,
+        4425,
+        1,
+        0.32
+      ],
+      "sae": [
+        7288,
+        -1,
+        2.5
+      ]
+    },
+    {
+      "id": "causal_reframe_plus_social",
+      "native": [
+        24,
+        6432,
+        -1,
+        0.32
+      ],
+      "sae": [
+        26289,
+        1,
+        2.5
+      ]
+    },
+    {
+      "id": "terrain_reframe_plus_suspicion",
+      "native": [
+        30,
+        2878,
+        -1,
+        0.32
+      ],
+      "sae": [
+        17975,
+        1,
+        2.5
+      ]
+    },
+    {
+      "id": "random_matched",
+      "native": [
+        16,
+        704,
+        1,
+        0.32
+      ],
+      "sae": [
+        12209,
+        1,
+        2.5
+      ]
+    }
+  ],
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "max_tokens": 88,
+  "temperature": 0
+}

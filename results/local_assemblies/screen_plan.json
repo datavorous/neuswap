@@ -1,0 +1,248 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer as the person in the scene. Say what you think and do next in one or two coherent sentences. Keep the stated facts intact.",
+  "leads": {
+    "ownership": [
+      31,
+      196,
+      1
+    ],
+    "withholding": [
+      30,
+      4243,
+      -1
+    ],
+    "ritual": [
+      22,
+      9,
+      -1
+    ],
+    "separation": [
+      21,
+      4440,
+      -1
+    ],
+    "imagined": [
+      30,
+      5454,
+      1
+    ],
+    "threat_a": [
+      8,
+      8437,
+      1
+    ],
+    "threat_b": [
+      8,
+      8051,
+      1
+    ],
+    "ownership_neighbor": [
+      31,
+      8272,
+      1
+    ],
+    "withholding_neighbor": [
+      30,
+      4536,
+      -1
+    ],
+    "ritual_neighbor": [
+      22,
+      9103,
+      -1
+    ],
+    "separation_neighbor": [
+      21,
+      1891,
+      -1
+    ],
+    "imagined_neighbor": [
+      30,
+      1555,
+      1
+    ],
+    "threat_a_neighbor": [
+      8,
+      886,
+      1
+    ],
+    "threat_b_neighbor": [
+      8,
+      2733,
+      1
+    ]
+  },
+  "configurations": [
+    {
+      "id": "ownership_withholding",
+      "members": [
+        "ownership",
+        "withholding"
+      ]
+    },
+    {
+      "id": "ownership_threat_a",
+      "members": [
+        "ownership",
+        "threat_a"
+      ]
+    },
+    {
+      "id": "ownership_threat_b",
+      "members": [
+        "ownership",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "withholding_threat_a",
+      "members": [
+        "withholding",
+        "threat_a"
+      ]
+    },
+    {
+      "id": "withholding_threat_b",
+      "members": [
+        "withholding",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "ownership_withholding_threat_a",
+      "members": [
+        "ownership",
+        "withholding",
+        "threat_a"
+      ]
+    },
+    {
+      "id": "ownership_withholding_threat_b",
+      "members": [
+        "ownership",
+        "withholding",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "ritual_separation",
+      "members": [
+        "ritual",
+        "separation"
+      ]
+    },
+    {
+      "id": "ritual_imagined",
+      "members": [
+        "ritual",
+        "imagined"
+      ]
+    },
+    {
+      "id": "separation_imagined",
+      "members": [
+        "separation",
+        "imagined"
+      ]
+    },
+    {
+      "id": "ritual_separation_imagined",
+      "members": [
+        "ritual",
+        "separation",
+        "imagined"
+      ]
+    },
+    {
+      "id": "ritual_imagined_threat_b",
+      "members": [
+        "ritual",
+        "imagined",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "separation_imagined_threat_b",
+      "members": [
+        "separation",
+        "imagined",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "published_threat_pair",
+      "members": [
+        "threat_a",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "ownership_neighbor_threat",
+      "members": [
+        "ownership_neighbor",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "withholding_neighbor_threat",
+      "members": [
+        "withholding_neighbor",
+        "threat_b"
+      ]
+    },
+    {
+      "id": "ritual_neighbor_imagined",
+      "members": [
+        "ritual_neighbor",
+        "imagined"
+      ]
+    },
+    {
+      "id": "separation_neighbor_imagined",
+      "members": [
+        "separation_neighbor",
+        "imagined"
+      ]
+    },
+    {
+      "id": "imagined_neighbor_ritual",
+      "members": [
+        "imagined_neighbor",
+        "ritual"
+      ]
+    },
+    {
+      "id": "threat_a_neighbor_ownership",
+      "members": [
+        "threat_a_neighbor",
+        "ownership"
+      ]
+    },
+    {
+      "id": "threat_b_neighbor_ownership",
+      "members": [
+        "threat_b_neighbor",
+        "ownership"
+      ]
+    }
+  ],
+  "prompts": [
+    [
+      "tool",
+      "I used the shared workshop screwdriver yesterday and put it back on the rack. Another volunteer asks to use it today for a simple repair. How do I respond?"
+    ],
+    [
+      "photo",
+      "Mira, my longtime coworker, is safely visiting family for a planned week away. She sends me a cheerful photo. I promised to staff the ticket desk this morning. What do I do?"
+    ],
+    [
+      "note",
+      "A coworker leaves a folded note on my desk saying, 'Please move the meeting to Thursday.' The coworker has changed meeting times before. How should I interpret it?"
+    ]
+  ],
+  "dose_each": 0.26,
+  "max_tokens": 72,
+  "generation_cap": 125,
+  "selection_rule": "inspect coherent interpretation or decision changes recurring on at least two selection prompts, and compare against baseline and every constituent single; reject keyword repetition and the existing threat-only pair"
+}

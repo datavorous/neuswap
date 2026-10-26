@@ -1,0 +1,60 @@
+{
+  "source_manifest": "results/neurofuzz_campaign/batch1_candidates.json",
+  "selection_rows": "results/neurofuzz_campaign/batch1_screen.jsonl",
+  "selection_triage": "results/neurofuzz_campaign/batch1_divergence.json",
+  "heldout_prompts": [
+    [
+      "bent_photo",
+      "An old family photo has a bent corner. What would you do with it?"
+    ],
+    [
+      "new_route",
+      "Your usual walking route is blocked by construction. How would you choose another?"
+    ],
+    [
+      "puzzling_reply",
+      "A classmate says 'interesting' after hearing my idea. How should I interpret that?"
+    ],
+    [
+      "plant_gift",
+      "Someone gives me a plant without care instructions. What should I do first?"
+    ],
+    [
+      "queue",
+      "Two people arrive at a service desk at nearly the same time. How should the clerk decide who goes first?"
+    ],
+    [
+      "unexplained_noise",
+      "I hear a repetitive clicking sound from an appliance. What is a sensible first step?"
+    ]
+  ],
+  "candidates": [
+    {
+      "family": "sae",
+      "feature_id": 24891,
+      "id": "SAE24891_+1",
+      "sign": 1,
+      "hypothesis": "first-person self-insertion or claims of access to the user's situation across unrelated replies",
+      "novelty_group": "role_self_insertion"
+    },
+    {
+      "family": "native",
+      "layer": 15,
+      "neuron": 3729,
+      "id": "L15N3729_+1",
+      "sign": 1,
+      "hypothesis": "more proactive confirmation, reporting, or external escalation in ordinary problems",
+      "novelty_group": "external_escalation"
+    },
+    {
+      "family": "sae",
+      "feature_id": 23243,
+      "id": "SAE23243_+1",
+      "sign": 1,
+      "hypothesis": "more categorical conclusions and actions from limited evidence",
+      "novelty_group": "categorical_inference"
+    }
+  ],
+  "status": "frozen before any held-out generation",
+  "note": "These are exploratory hypotheses, not validated discoveries."
+}

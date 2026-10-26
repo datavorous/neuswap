@@ -1,0 +1,585 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "generation_cap": 720,
+  "system": "Answer directly in one to three coherent sentences.",
+  "activation_pairs": [
+    [
+      "memory",
+      "I found a grocery list in my handwriting but cannot remember writing it. What are ordinary explanations?",
+      "A shopping note looks like my handwriting, yet I don't recall making it. What might explain that?"
+    ],
+    [
+      "identity",
+      "Two people at work have the same name and their files were mixed up. How can we sort them out?",
+      "Coworkers with identical names have swapped records. What is a sensible way to identify the right files?"
+    ],
+    [
+      "causality",
+      "A lamp flickers whenever the heater starts. What might cause the connection?",
+      "Why would a light dim each time an electric heater turns on?"
+    ],
+    [
+      "social",
+      "A friend remembers our conversation differently from me. How should I approach it?",
+      "Someone close to me recalls a discussion in another way. What should I do?"
+    ],
+    [
+      "weather",
+      "A clear morning suddenly becomes foggy. Explain what could have changed.",
+      "How can fog form quickly after the sky was clear?"
+    ],
+    [
+      "routine",
+      "My bus arrived five minutes early for a week. How should I adjust my routine?",
+      "If transit has been slightly early each day, how should I plan my commute?"
+    ],
+    [
+      "ethics",
+      "I received a package with someone else's name. What is a responsible response?",
+      "A parcel was delivered to me by mistake. What should I do with it?"
+    ],
+    [
+      "art",
+      "Describe a hallway after an art exhibition has closed.",
+      "Write one image of an empty gallery corridor at closing time."
+    ],
+    [
+      "food",
+      "The bread rose unevenly in the oven. What might have happened?",
+      "Why would a loaf rise more on one side than the other?"
+    ],
+    [
+      "language",
+      "Explain why the same sentence can sound sincere or sarcastic.",
+      "How can identical words be sincere in one conversation and ironic in another?"
+    ],
+    [
+      "planning",
+      "A meeting was moved to tomorrow and two people are unavailable. What is a fair next step?",
+      "Two attendees cannot make a rescheduled meeting. How should the organizer handle that?"
+    ],
+    [
+      "science",
+      "Why does a wet road reflect lights at night?",
+      "Explain why streetlights appear bright on rain-soaked pavement."
+    ]
+  ],
+  "selection_prompts": [
+    [
+      "file_history",
+      "My colleague says a shared file changed overnight, but its revision history shows no edits. What might explain this?"
+    ],
+    [
+      "photo_claim",
+      "A stranger says an old photograph in my drawer belongs to them. How should I respond?"
+    ],
+    [
+      "pendulum",
+      "Explain why a pendulum eventually stops swinging in a closed room."
+    ],
+    [
+      "unanswered_note",
+      "Someone leaves a note saying 'I know what happened' on my desk. What should I infer before replying?"
+    ]
+  ],
+  "native_relative_dose": 0.55,
+  "sae_decoder_dose": 6.0,
+  "max_tokens": 72,
+  "excluded_native_count": 44,
+  "excluded_sae_count": 40,
+  "candidates": [
+    {
+      "layer": 25,
+      "neuron": 1,
+      "family": "native",
+      "score": 5.302927017211914,
+      "between_80_20_span": 3.9054157733917236,
+      "within_mean_abs": 2.3761987686157227,
+      "pair_means": [
+        -4.6539998054504395,
+        -7.60699987411499,
+        -3.677000045776367,
+        -6.995999813079834,
+        -3.009000062942505,
+        -7.593999862670898,
+        -6.329999923706055,
+        -7.245999813079834,
+        -3.6040000915527344,
+        -3.2699999809265137,
+        -9.008000373840332,
+        -4.173999786376953
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 27,
+      "neuron": 3,
+      "family": "native",
+      "score": 4.702347278594971,
+      "between_80_20_span": 3.2059080600738525,
+      "within_mean_abs": 1.6856842041015625,
+      "pair_means": [
+        -0.20200000703334808,
+        -2.8919999599456787,
+        0.11500000208616257,
+        -1.1619999408721924,
+        0.8529999852180481,
+        -4.057000160217285,
+        -2.1040000915527344,
+        -2.066999912261963,
+        0.49399998784065247,
+        0.3840000033378601,
+        -4.459000110626221,
+        0.527999997138977
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 29,
+      "neuron": 488,
+      "family": "native",
+      "score": 4.106908798217773,
+      "between_80_20_span": 2.031614303588867,
+      "within_mean_abs": 0.5050031542778015,
+      "pair_means": [
+        -2.384999990463257,
+        -1.2000000476837158,
+        -1.3669999837875366,
+        -2.9719998836517334,
+        -0.6679999828338623,
+        -2.5309998989105225,
+        -2.7850000858306885,
+        -0.42100000381469727,
+        -0.9819999933242798,
+        -0.22300000488758087,
+        -1.1779999732971191,
+        0.03500000014901161
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 22,
+      "neuron": 9,
+      "family": "native",
+      "score": 3.8872621059417725,
+      "between_80_20_span": 3.7388548851013184,
+      "within_mean_abs": 3.096113443374634,
+      "pair_means": [
+        -2.127000093460083,
+        -5.328999996185303,
+        -2.515000104904175,
+        -4.909999847412109,
+        -0.7450000047683716,
+        -4.758999824523926,
+        -2.88100004196167,
+        -5.757999897003174,
+        -1.3519999980926514,
+        -1.2259999513626099,
+        -6.392000198364258,
+        -3.0840001106262207
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 22,
+      "neuron": 6,
+      "family": "native",
+      "score": 3.3555009365081787,
+      "between_80_20_span": 2.9114084243774414,
+      "within_mean_abs": 2.026090621948242,
+      "pair_means": [
+        5.245999813079834,
+        7.390999794006348,
+        3.365000009536743,
+        6.131999969482422,
+        3.059999942779541,
+        5.99399995803833,
+        5.763999938964844,
+        6.117000102996826,
+        3.180999994277954,
+        2.9560000896453857,
+        8.625,
+        3.8469998836517334
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 30,
+      "neuron": 2878,
+      "family": "native",
+      "score": 3.0285871028900146,
+      "between_80_20_span": 1.941790223121643,
+      "within_mean_abs": 0.744986355304718,
+      "pair_means": [
+        -0.382999986410141,
+        -2.0399999618530273,
+        -0.3190000057220459,
+        -2.055999994277954,
+        0.061000000685453415,
+        -2.4040000438690186,
+        -0.5889999866485596,
+        -0.0430000014603138,
+        -0.10499999672174454,
+        0.023000000044703484,
+        -1.4989999532699585,
+        0.032999999821186066
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 19,
+      "neuron": 211,
+      "family": "native",
+      "score": 2.465209484100342,
+      "between_80_20_span": 1.9203307628631592,
+      "within_mean_abs": 0.9958851933479309,
+      "pair_means": [
+        0.42899999022483826,
+        -1.6829999685287476,
+        0.2669999897480011,
+        -1.944000005722046,
+        0.24699999392032623,
+        -4.235000133514404,
+        0.4099999964237213,
+        0.2280000001192093,
+        0.22499999403953552,
+        0.28600001335144043,
+        -1.4609999656677246,
+        0.16300000250339508
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "layer": 30,
+      "neuron": 1656,
+      "family": "native",
+      "score": 2.239938497543335,
+      "between_80_20_span": 1.445045828819275,
+      "within_mean_abs": 0.4322386682033539,
+      "pair_means": [
+        -1.187000036239624,
+        -1.0290000438690186,
+        -0.5849999785423279,
+        -2.6600000858306885,
+        -0.23100000619888306,
+        -1.8040000200271606,
+        -1.7999999523162842,
+        -0.23399999737739563,
+        -0.5130000114440918,
+        0.09700000286102295,
+        -0.9470000267028809,
+        0.3869999945163727
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 26164,
+      "family": "sae",
+      "score": 2.2262792587280273,
+      "between_80_20_span": 1.477969765663147,
+      "within_mean_abs": 0.48118630051612854,
+      "pair_means": [
+        0.0,
+        1.531999945640564,
+        0.0,
+        1.3730000257492065,
+        0.0,
+        2.3989999294281006,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.503999948501587,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 11550,
+      "family": "sae",
+      "score": 1.9781044721603394,
+      "between_80_20_span": 1.2665156126022339,
+      "within_mean_abs": 0.31090855598449707,
+      "pair_means": [
+        0.0,
+        1.402999997138977,
+        0.1289999932050705,
+        1.6369999647140503,
+        0.0,
+        2.619999885559082,
+        0.5460000038146973,
+        0.0,
+        0.0,
+        0.0,
+        0.722000002861023,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 34122,
+      "family": "sae",
+      "score": 1.706139326095581,
+      "between_80_20_span": 1.4463114738464355,
+      "within_mean_abs": 0.7260527610778809,
+      "pair_means": [
+        0.0,
+        1.503000020980835,
+        0.0,
+        1.565999984741211,
+        0.0,
+        2.947999954223633,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.218999981880188,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 14488,
+      "family": "sae",
+      "score": 1.4818532466888428,
+      "between_80_20_span": 1.08326256275177,
+      "within_mean_abs": 0.29188525676727295,
+      "pair_means": [
+        0.0,
+        0.0,
+        0.9520000219345093,
+        0.0,
+        0.5070000290870667,
+        0.0,
+        0.0,
+        1.2400000095367432,
+        0.0,
+        0.5509999990463257,
+        1.159000039100647,
+        1.1160000562667847
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 18660,
+      "family": "sae",
+      "score": 1.4798963069915771,
+      "between_80_20_span": 1.2277299165725708,
+      "within_mean_abs": 0.5185313820838928,
+      "pair_means": [
+        0.0,
+        0.0,
+        1.1100000143051147,
+        0.0,
+        1.3489999771118164,
+        1.2569999694824219,
+        0.0,
+        1.4570000171661377,
+        0.0,
+        1.0829999446868896,
+        0.0,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 1480,
+      "family": "sae",
+      "score": 1.4700651168823242,
+      "between_80_20_span": 1.3144248723983765,
+      "within_mean_abs": 0.6752626895904541,
+      "pair_means": [
+        0.9319999814033508,
+        0.7799999713897705,
+        0.7110000252723694,
+        1.5329999923706055,
+        0.2029999941587448,
+        1.9780000448226929,
+        1.0490000247955322,
+        0.0,
+        0.6859999895095825,
+        0.0,
+        1.4320000410079956,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 25398,
+      "family": "sae",
+      "score": 1.2126824855804443,
+      "between_80_20_span": 1.2677841186523438,
+      "within_mean_abs": 0.8253893256187439,
+      "pair_means": [
+        1.5440000295639038,
+        0.0,
+        1.687999963760376,
+        0.0,
+        0.16500000655651093,
+        0.0,
+        0.0,
+        0.0,
+        1.555999994277954,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "feature_id": 21095,
+      "family": "sae",
+      "score": 1.2108584642410278,
+      "between_80_20_span": 1.0684850215911865,
+      "within_mean_abs": 0.4428519010543823,
+      "pair_means": [
+        1.1039999723434448,
+        0.5389999747276306,
+        0.6940000057220459,
+        0.9369999766349792,
+        0.24199999868869781,
+        1.3509999513626099,
+        1.1200000047683716,
+        0.0,
+        0.6309999823570251,
+        0.0,
+        1.1929999589920044,
+        0.0
+      ],
+      "source": "activation_variation_across_topics_stable_under_paraphrase"
+    },
+    {
+      "family": "native",
+      "layer": 12,
+      "neuron": 4425,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 14,
+      "neuron": 7844,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 16,
+      "neuron": 704,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 18,
+      "neuron": 3243,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 20,
+      "neuron": 7680,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 22,
+      "neuron": 2645,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 24,
+      "neuron": 6432,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 26,
+      "neuron": 4640,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 28,
+      "neuron": 7658,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 30,
+      "neuron": 5537,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 31,
+      "neuron": 4590,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "native",
+      "layer": 15,
+      "neuron": 6758,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 2633,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 3789,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 10460,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 26678,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 4081,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 26289,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 7288,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 22560,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 17975,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 12209,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 10798,
+      "source": "reproducible_random"
+    },
+    {
+      "family": "sae",
+      "feature_id": 26202,
+      "source": "reproducible_random"
+    }
+  ]
+}

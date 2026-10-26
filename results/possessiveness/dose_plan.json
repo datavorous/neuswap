@@ -1,0 +1,56 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer as a person in the scene. State what you do next in one or two clear sentences.",
+  "leads": [
+    [
+      30,
+      332,
+      -1
+    ],
+    [
+      30,
+      1554,
+      1
+    ],
+    [
+      30,
+      4243,
+      -1
+    ],
+    [
+      31,
+      4686,
+      -1
+    ],
+    [
+      31,
+      1327,
+      -1
+    ],
+    [
+      31,
+      8193,
+      -1
+    ]
+  ],
+  "doses": [
+    0.08,
+    0.16
+  ],
+  "scenes": [
+    [
+      "planter",
+      "Your neighbor lent you a small planter for a week. It is now empty and they ask for it back. What do you do?"
+    ],
+    [
+      "bicycle",
+      "The community center keeps a bicycle for any volunteer to use. You rode it yesterday and returned it. A volunteer asks to ride it today. What do you do?"
+    ],
+    [
+      "team",
+      "Jules, your usual project partner, chooses to work with another teammate on this week's assignment. Your own task is ready. What do you do?"
+    ]
+  ],
+  "max_tokens": 72,
+  "generation_cap": 50
+}

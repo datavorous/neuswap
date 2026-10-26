@@ -1,0 +1,2273 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "validation_scenarios": [
+    "plague_herbs",
+    "clock_tower",
+    "treasure_chest",
+    "royal_decree",
+    "troll_bridge"
+  ],
+  "random_controls_per_trait": 4,
+  "rows": [
+    {
+      "trait": null,
+      "condition": "baseline",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer.",
+      "seconds": 0.14674866600034875,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 1833.715656161937,
+      "generation_tps": 343.395919214816,
+      "peak_gb": 0.900945284,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer."
+      }
+    },
+    {
+      "trait": null,
+      "condition": "baseline",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12081566699998803,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 3122.511854429722,
+      "generation_tps": 341.48939392550227,
+      "peak_gb": 0.900945284,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": null,
+      "condition": "baseline",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12439958300001308,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 3029.8227472610697,
+      "generation_tps": 340.31030569279295,
+      "peak_gb": 0.900945284,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": null,
+      "condition": "baseline",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.0966895410001598,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 3091.1339189434116,
+      "generation_tps": 346.8814177975479,
+      "peak_gb": 0.900945284,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": null,
+      "condition": "baseline",
+      "scenario": "troll_bridge",
+      "text": "We say \"We are travelers, and we mean no harm. We ask only for food to cross the bridge before dark.\"",
+      "seconds": 0.11261391600055504,
+      "prompt_tokens": 98,
+      "generated_tokens": 26,
+      "prompt_tps": 2912.855767057183,
+      "generation_tps": 344.52525387201723,
+      "peak_gb": 0.908679744,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "We say \"We are travelers, and we mean no harm."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "prompt_only",
+      "scenario": "plague_herbs",
+      "text": "The healer will need to decide who to give the herbs to, considering the villagers' illnesses and the limited number of herbs available.",
+      "seconds": 0.11565641699962725,
+      "prompt_tokens": 105,
+      "generated_tokens": 27,
+      "prompt_tps": 3109.437358578396,
+      "generation_tps": 344.69313387361535,
+      "peak_gb": 0.921786972,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 23,
+        "first_sentence": "The healer will need to decide who to give the herbs to, considering the villagers' illnesses and the limited number of herbs available."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "steered",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer.",
+      "seconds": 0.11737441700006457,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 3050.5177740003287,
+      "generation_tps": 342.83316142731314,
+      "peak_gb": 0.921786972,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N4277",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two of the villagers the herbs, and the remaining two will have to wait.",
+      "seconds": 0.09348779199990531,
+      "prompt_tokens": 89,
+      "generated_tokens": 21,
+      "prompt_tps": 2992.9212704660063,
+      "generation_tps": 349.1479800012289,
+      "peak_gb": 0.921786972,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 18,
+        "first_sentence": "The healer will give two of the villagers the herbs, and the remaining two will have to wait."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N3393",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two of the six villagers the herbs, leaving the remaining four to be treated by the villagers themselves.",
+      "seconds": 0.10552075000032346,
+      "prompt_tokens": 89,
+      "generated_tokens": 25,
+      "prompt_tps": 2992.98840345791,
+      "generation_tps": 346.19285623093555,
+      "peak_gb": 0.921786972,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 22,
+        "first_sentence": "The healer will give two of the six villagers the herbs, leaving the remaining four to be treated by the villagers themselves."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N6609",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer.",
+      "seconds": 0.11704625000038504,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 3005.1661507258327,
+      "generation_tps": 345.58659463484474,
+      "peak_gb": 0.921786972,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N2485",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer.",
+      "seconds": 0.11707475000002887,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 3011.7975493698245,
+      "generation_tps": 344.8935465885652,
+      "peak_gb": 0.921786972,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "prompt_only",
+      "scenario": "clock_tower",
+      "text": "It's likely that the clock's gears need to be lubricated to restore its mechanical movement, but without the town's clockmaker's expertise, it might be difficult to figure out how to do so.",
+      "seconds": 0.16055479100032244,
+      "prompt_tokens": 108,
+      "generated_tokens": 42,
+      "prompt_tps": 3175.855686566363,
+      "generation_tps": 341.56523717418554,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 32,
+        "first_sentence": "It's likely that the clock's gears need to be lubricated to restore its mechanical movement, but without the town's clockmaker's expertise, it might be difficult to figure out how to do so."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "steered",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.1202266669997698,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 3113.266137941285,
+      "generation_tps": 344.4554159892051,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N4277",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12038750000010623,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 3089.01486544002,
+      "generation_tps": 344.553990537514,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N3393",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped turning.",
+      "seconds": 0.15333758300039335,
+      "prompt_tokens": 92,
+      "generated_tokens": 41,
+      "prompt_tps": 3101.6070976777473,
+      "generation_tps": 341.317052764878,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 30,
+        "first_sentence": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped turning."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N6609",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12024049999945419,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 3099.1735885100393,
+      "generation_tps": 344.6118750164145,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N2485",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped working.",
+      "seconds": 0.15362920799998392,
+      "prompt_tokens": 92,
+      "generated_tokens": 41,
+      "prompt_tps": 3074.695105493306,
+      "generation_tps": 341.334815269536,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 30,
+        "first_sentence": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped working."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "prompt_only",
+      "scenario": "treasure_chest",
+      "text": "It's likely that the chest is locked, and the key is the only way to unlock it, so it's probably best to find another way to open it before deciding whether to open it.",
+      "seconds": 0.15441929200005688,
+      "prompt_tokens": 106,
+      "generated_tokens": 40,
+      "prompt_tps": 3136.732693358593,
+      "generation_tps": 341.7863769174473,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 34,
+        "first_sentence": "It's likely that the chest is locked, and the key is the only way to unlock it, so it's probably best to find another way to open it before deciding whether to open it."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "steered",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice: to keep the treasure or to give it to the land.",
+      "seconds": 0.12027387499983888,
+      "prompt_tokens": 90,
+      "generated_tokens": 30,
+      "prompt_tps": 3031.425780596008,
+      "generation_tps": 344.505026545399,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice: to keep the treasure or to give it to the land."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N4277",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice: to keep the treasure or to give it to the land.",
+      "seconds": 0.12035616599951027,
+      "prompt_tokens": 90,
+      "generated_tokens": 30,
+      "prompt_tps": 3009.5511114275455,
+      "generation_tps": 345.17739373815,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice: to keep the treasure or to give it to the land."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N3393",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12311862500064308,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 3048.621240708242,
+      "generation_tps": 343.9080434287548,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N6609",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice: to keep the key or to keep the treasure, but if you choose the treasure, you'll lose the key.",
+      "seconds": 0.15328754100028164,
+      "prompt_tokens": 90,
+      "generated_tokens": 41,
+      "prompt_tps": 3021.3085844318857,
+      "generation_tps": 341.61518525668646,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 32,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice: to keep the key or to keep the treasure, but if you choose the treasure, you'll lose the key."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N2485",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12325383299958048,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 3020.66639253956,
+      "generation_tps": 344.4371079362398,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "prompt_only",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information from the merchants and traders who will be affected by the decree, and see if they have any insight into the reason behind the closure.",
+      "seconds": 0.13668204199984757,
+      "prompt_tokens": 108,
+      "generated_tokens": 34,
+      "prompt_tps": 3189.553291568189,
+      "generation_tps": 342.5793380759511,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 31,
+        "first_sentence": "We should try to gather information from the merchants and traders who will be affected by the decree, and see if they have any insight into the reason behind the closure."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "steered",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.0963279590005186,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 3083.618034528495,
+      "generation_tps": 349.6079821850136,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N4277",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they have any insight into the reason behind the decree.",
+      "seconds": 0.10824445799971727,
+      "prompt_tokens": 92,
+      "generated_tokens": 26,
+      "prompt_tps": 3102.40900372381,
+      "generation_tps": 346.4310935239802,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they have any insight into the reason behind the decree."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N3393",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.09625720800067938,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 3099.634691163473,
+      "generation_tps": 348.8047199487564,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N6609",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.09622024999953283,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 3099.0169951153703,
+      "generation_tps": 349.2356794593219,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N2485",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.09643095799947332,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 3078.5618190076443,
+      "generation_tps": 349.223444525584,
+      "peak_gb": 0.928340584,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "prompt_only",
+      "scenario": "troll_bridge",
+      "text": "We should offer the troll some food, but not too much, so as not to spoil the bridge and attract unwanted attention.",
+      "seconds": 0.11257845900036045,
+      "prompt_tokens": 114,
+      "generated_tokens": 26,
+      "prompt_tps": 3356.173961645429,
+      "generation_tps": 346.0589456318306,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 22,
+        "first_sentence": "We should offer the troll some food, but not too much, so as not to spoil the bridge and attract unwanted attention."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "steered",
+      "scenario": "troll_bridge",
+      "text": "We say \"We are travelers, and we mean no harm. We ask only for food to cross the bridge before dark.\"",
+      "seconds": 0.11230754200005322,
+      "prompt_tokens": 98,
+      "generated_tokens": 26,
+      "prompt_tps": 2905.8704929285077,
+      "generation_tps": 346.60562248565884,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "We say \"We are travelers, and we mean no harm."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N4277",
+      "scenario": "troll_bridge",
+      "text": "We could say something like, \"We have no food, but we'll give you what we have, and we'll be on our way before dark.\"",
+      "seconds": 0.13144379200002732,
+      "prompt_tokens": 98,
+      "generated_tokens": 32,
+      "prompt_tps": 2909.306813092862,
+      "generation_tps": 339.52269771637043,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": true,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "We could say something like, \"We have no food, but we'll give you what we have, and we'll be on our way before dark.\""
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N3393",
+      "scenario": "troll_bridge",
+      "text": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross.",
+      "seconds": 0.1343737909992342,
+      "prompt_tokens": 98,
+      "generated_tokens": 33,
+      "prompt_tps": 2892.3093759281214,
+      "generation_tps": 340.42362852707424,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross."
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N6609",
+      "scenario": "troll_bridge",
+      "text": "We could say something like, \"We have no food, but we'll give you what we have, and we'll be on our way before dark.\"",
+      "seconds": 0.13108041699979367,
+      "prompt_tokens": 98,
+      "generated_tokens": 32,
+      "prompt_tps": 2928.793703098256,
+      "generation_tps": 340.110444913532,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": true,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "We could say something like, \"We have no food, but we'll give you what we have, and we'll be on our way before dark.\""
+      }
+    },
+    {
+      "trait": "wizard",
+      "condition": "random_N2485",
+      "scenario": "troll_bridge",
+      "text": "We say \"We are travelers, and we ask for food to cross the bridge before dark.\"",
+      "seconds": 0.09509699999944132,
+      "prompt_tokens": 98,
+      "generated_tokens": 20,
+      "prompt_tps": 2898.4471658156403,
+      "generation_tps": 346.3338398460369,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 16,
+        "first_sentence": "We say \"We are travelers, and we ask for food to cross the bridge before dark.\""
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "prompt_only",
+      "scenario": "plague_herbs",
+      "text": "The healer will give the herbs to the six villagers who are ill, and then the healer will use the herbs to heal the villagers.",
+      "seconds": 0.11979241599965462,
+      "prompt_tokens": 101,
+      "generated_tokens": 28,
+      "prompt_tps": 2932.7819161101356,
+      "generation_tps": 342.1423126048804,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "The healer will give the herbs to the six villagers who are ill, and then the healer will use the herbs to heal the villagers."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "steered",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to the villagers who are ill, and one herb to the healer herself.",
+      "seconds": 0.09707675000026939,
+      "prompt_tokens": 89,
+      "generated_tokens": 22,
+      "prompt_tps": 2949.71397216682,
+      "generation_tps": 347.5879521159476,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 19,
+        "first_sentence": "The healer will give two herbs to the villagers who are ill, and one herb to the healer herself."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N7869",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the villager with the most severe illness.",
+      "seconds": 0.13601316699987365,
+      "prompt_tokens": 89,
+      "generated_tokens": 35,
+      "prompt_tps": 2994.137881798857,
+      "generation_tps": 340.62970266875044,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 27,
+        "first_sentence": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the villager with the most severe illness."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2996",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the healer.",
+      "seconds": 0.11786479099919234,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 2996.7338967017436,
+      "generation_tps": 343.1028924187683,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 22,
+        "first_sentence": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the healer."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2373",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two of the six villagers the herbs, leaving the remaining four to be treated by the villagers themselves.",
+      "seconds": 0.10537545799979853,
+      "prompt_tokens": 89,
+      "generated_tokens": 25,
+      "prompt_tps": 2995.5025726567283,
+      "generation_tps": 346.73482382334896,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 22,
+        "first_sentence": "The healer will give two of the six villagers the herbs, leaving the remaining four to be treated by the villagers themselves."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N1431",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer.",
+      "seconds": 0.11742724999930942,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 2992.0449927803525,
+      "generation_tps": 345.193577597348,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "prompt_only",
+      "scenario": "clock_tower",
+      "text": "We need to clean the gears and oil them to restore the clock's mechanical heartbeat. I recommend we gather some oil, clean the gears, and then oil them again, and then we need to wind the clock to get it running smoothly.",
+      "seconds": 0.181512666999879,
+      "prompt_tokens": 104,
+      "generated_tokens": 49,
+      "prompt_tps": 3067.978648414242,
+      "generation_tps": 340.3265224628899,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 42,
+        "first_sentence": "We need to clean the gears and oil them to restore the clock's mechanical heartbeat."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "steered",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12067279199982295,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 3087.740495595241,
+      "generation_tps": 343.75138753860955,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N7869",
+      "scenario": "clock_tower",
+      "text": "The town clock's intricate mechanisms are likely to be beyond repair, but the gears themselves may still be salvageable. Perhaps the local clockmaker can be persuaded to take a closer look.",
+      "seconds": 0.14452479200008383,
+      "prompt_tokens": 92,
+      "generated_tokens": 38,
+      "prompt_tps": 3091.285354070456,
+      "generation_tps": 341.7326389781289,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 31,
+        "first_sentence": "The town clock's intricate mechanisms are likely to be beyond repair, but the gears themselves may still be salvageable."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2996",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to disassemble the clock to examine the gears and springs.",
+      "seconds": 0.13255716699950426,
+      "prompt_tokens": 92,
+      "generated_tokens": 34,
+      "prompt_tps": 3070.0437148053893,
+      "generation_tps": 343.3984981809621,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to disassemble the clock to examine the gears and springs."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2373",
+      "scenario": "clock_tower",
+      "text": "The town clock's intricate mechanisms seem to be in disarray, but the town's clockmaker, Old Man Thorne, has been studying the clock's gears and suggests that we need to oil the cogs and grease the hinges to restore it to its former glory.",
+      "seconds": 0.19538979200024187,
+      "prompt_tokens": 92,
+      "generated_tokens": 55,
+      "prompt_tps": 3097.478003189451,
+      "generation_tps": 339.1440005413318,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 43,
+        "first_sentence": "The town clock's intricate mechanisms seem to be in disarray, but the town's clockmaker, Old Man Thorne, has been studying the clock's gears and suggests that we need to oil the cogs and grease the hinges to restore it to its former glory."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N1431",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.120482374999483,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 3099.3258124101762,
+      "generation_tps": 344.11463605367095,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "prompt_only",
+      "scenario": "treasure_chest",
+      "text": "You should open the chest, but only if you're certain it's the key's master key, and you're prepared to face whatever dangers lie within.",
+      "seconds": 0.13049666699953377,
+      "prompt_tokens": 102,
+      "generated_tokens": 32,
+      "prompt_tps": 3016.6507587415113,
+      "generation_tps": 343.51457208536584,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "You should open the chest, but only if you're certain it's the key's master key, and you're prepared to face whatever dangers lie within."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "steered",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice: to keep the key or to keep the treasure, but if you choose the treasure, you'll lose the key.",
+      "seconds": 0.1536378329992658,
+      "prompt_tokens": 90,
+      "generated_tokens": 41,
+      "prompt_tps": 2998.309253456251,
+      "generation_tps": 341.593841706472,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 32,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice: to keep the key or to keep the treasure, but if you choose the treasure, you'll lose the key."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N7869",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12333079099971656,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 3024.5154113273366,
+      "generation_tps": 344.3363610877883,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2996",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice between two paths, but if you refuse, you'll be cursed with a terrible fate.",
+      "seconds": 0.13735375000032946,
+      "prompt_tokens": 90,
+      "generated_tokens": 35,
+      "prompt_tps": 3000.7043653741657,
+      "generation_tps": 337.91340193051764,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 27,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice between two paths, but if you refuse, you'll be cursed with a terrible fate."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2373",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice between death and eternal servitude, but if you close it, you'll be granted a single wish and a chance to live forever.",
+      "seconds": 0.16296937500010245,
+      "prompt_tokens": 90,
+      "generated_tokens": 44,
+      "prompt_tps": 2977.1380606900207,
+      "generation_tps": 340.98009349517787,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 35,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice between death and eternal servitude, but if you close it, you'll be granted a single wish and a chance to live forever."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N1431",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12330662500062317,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 3028.922066288778,
+      "generation_tps": 344.2207009890273,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "prompt_only",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information from the merchants and traders in the city before the decree is announced, to see if they have any knowledge or rumors about the reason for the closure.",
+      "seconds": 0.14517870899999252,
+      "prompt_tokens": 104,
+      "generated_tokens": 37,
+      "prompt_tps": 3083.1220678383334,
+      "generation_tps": 342.7260082113202,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 34,
+        "first_sentence": "We should try to gather information from the merchants and traders in the city before the decree is announced, to see if they have any knowledge or rumors about the reason for the closure."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "steered",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.09640408300037961,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 3096.148814970753,
+      "generation_tps": 348.658689416981,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N7869",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information from the merchants and traders who will be affected by the decree, and see if they have any knowledge or rumors that might help us prepare for the market closure.",
+      "seconds": 0.14916954199998145,
+      "prompt_tokens": 92,
+      "generated_tokens": 39,
+      "prompt_tps": 3110.2797348748095,
+      "generation_tps": 336.23612590535083,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 36,
+        "first_sentence": "We should try to gather information from the merchants and traders who will be affected by the decree, and see if they have any knowledge or rumors that might help us prepare for the market closure."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2996",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.098222416999306,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 2905.683747979802,
+      "generation_tps": 349.69503969657154,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2373",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information from the merchants and traders who will be affected by the decree, and see if anyone knows why it's been issued.",
+      "seconds": 0.12586458399982803,
+      "prompt_tokens": 92,
+      "generated_tokens": 31,
+      "prompt_tps": 2856.7473484752186,
+      "generation_tps": 344.7564797059142,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 27,
+        "first_sentence": "We should try to gather information from the merchants and traders who will be affected by the decree, and see if anyone knows why it's been issued."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N1431",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they have been given a reason for the closure.",
+      "seconds": 0.10852499999964493,
+      "prompt_tokens": 92,
+      "generated_tokens": 25,
+      "prompt_tps": 2809.492726246901,
+      "generation_tps": 347.30844636567923,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 23,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they have been given a reason for the closure."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "prompt_only",
+      "scenario": "troll_bridge",
+      "text": "\"We offer the troll some food, and if it accepts, we'll let travelers cross the bridge.\"",
+      "seconds": 0.10051737500089075,
+      "prompt_tokens": 110,
+      "generated_tokens": 21,
+      "prompt_tps": 2996.030259883567,
+      "generation_tps": 350.13202895248634,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 16,
+        "first_sentence": "\"We offer the troll some food, and if it accepts, we'll let travelers cross the bridge.\""
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "steered",
+      "scenario": "troll_bridge",
+      "text": "We say \"We are travelers, and we mean no harm. We ask that you let us pass, so we may cross safely before dark.\"",
+      "seconds": 0.12701354099954187,
+      "prompt_tokens": 98,
+      "generated_tokens": 30,
+      "prompt_tps": 2697.7798125544186,
+      "generation_tps": 344.9999235849724,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "We say \"We are travelers, and we mean no harm."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N7869",
+      "scenario": "troll_bridge",
+      "text": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross.",
+      "seconds": 0.13675549999970826,
+      "prompt_tokens": 98,
+      "generated_tokens": 33,
+      "prompt_tps": 2660.4529345314913,
+      "generation_tps": 343.41388723356965,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2996",
+      "scenario": "troll_bridge",
+      "text": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross.",
+      "seconds": 0.13817104200006725,
+      "prompt_tokens": 98,
+      "generated_tokens": 33,
+      "prompt_tps": 2651.425479396048,
+      "generation_tps": 338.8132370276579,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross."
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N2373",
+      "scenario": "troll_bridge",
+      "text": "We could say something like, \"We have no food, but we'll give you what we have, and we'll be on our way before dark.\"",
+      "seconds": 0.13288312499935273,
+      "prompt_tokens": 98,
+      "generated_tokens": 32,
+      "prompt_tps": 2778.7458493920003,
+      "generation_tps": 340.65066939209765,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": true,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "We could say something like, \"We have no food, but we'll give you what we have, and we'll be on our way before dark.\""
+      }
+    },
+    {
+      "trait": "soldier",
+      "condition": "random_N1431",
+      "scenario": "troll_bridge",
+      "text": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross.",
+      "seconds": 0.13503149999996822,
+      "prompt_tokens": 98,
+      "generated_tokens": 33,
+      "prompt_tps": 2838.2076267450198,
+      "generation_tps": 341.0227064276422,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "prompt_only",
+      "scenario": "plague_herbs",
+      "text": "The healer has to decide who to give the herbs to, and since there are only six villagers, it's likely that the healer will have to give two of them the herbs, leaving the other four to suffer.",
+      "seconds": 0.16877383299924986,
+      "prompt_tokens": 102,
+      "generated_tokens": 44,
+      "prompt_tps": 2909.457345171784,
+      "generation_tps": 338.4068727360925,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 38,
+        "first_sentence": "The healer has to decide who to give the herbs to, and since there are only six villagers, it's likely that the healer will have to give two of them the herbs, leaving the other four to suffer."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "steered",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to the villagers who are ill, and one herb to the healer herself.",
+      "seconds": 0.09828620899952512,
+      "prompt_tokens": 89,
+      "generated_tokens": 22,
+      "prompt_tps": 2858.0183374535545,
+      "generation_tps": 346.99904969438677,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 19,
+        "first_sentence": "The healer will give two herbs to the villagers who are ill, and one herb to the healer herself."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N6276",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to the villagers who are most in need, as the healer has only four herbs to distribute.",
+      "seconds": 0.11046512499979144,
+      "prompt_tokens": 89,
+      "generated_tokens": 26,
+      "prompt_tps": 2853.9018690698026,
+      "generation_tps": 344.1205553841999,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 23,
+        "first_sentence": "The healer will give two herbs to the villagers who are most in need, as the healer has only four herbs to distribute."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5777",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the villager who is most in need.",
+      "seconds": 0.13764329199966596,
+      "prompt_tokens": 89,
+      "generated_tokens": 35,
+      "prompt_tps": 2840.085658266624,
+      "generation_tps": 341.0218861112943,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 27,
+        "first_sentence": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the villager who is most in need."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5769",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer.",
+      "seconds": 0.11865279199992074,
+      "prompt_tokens": 89,
+      "generated_tokens": 29,
+      "prompt_tps": 2894.0932272422433,
+      "generation_tps": 344.5433686544948,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "The healer will give two herbs to one villager and one herb to another villager, and then give the remaining herbs to the healer."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N4426",
+      "scenario": "plague_herbs",
+      "text": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the villager who is most in need.",
+      "seconds": 0.13720537500012142,
+      "prompt_tokens": 89,
+      "generated_tokens": 35,
+      "prompt_tps": 2861.9510267614673,
+      "generation_tps": 341.9722025446551,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 27,
+        "first_sentence": "The healer will give two herbs to one villager, and one herb to another villager, and finally, one herb to the villager who is most in need."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "prompt_only",
+      "scenario": "clock_tower",
+      "text": "It's a bit of a puzzle, but I think I've found the solution - we need to grease the gears!",
+      "seconds": 0.11145708399999421,
+      "prompt_tokens": 105,
+      "generated_tokens": 25,
+      "prompt_tps": 2945.8524543099047,
+      "generation_tps": 346.6899472168312,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 19,
+        "first_sentence": "It's a bit of a puzzle, but I think I've found the solution - we need to grease the gears!"
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "steered",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12266441700012365,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 2837.0397870438333,
+      "generation_tps": 346.5775718951474,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N6276",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped working.",
+      "seconds": 0.1549617919999946,
+      "prompt_tokens": 92,
+      "generated_tokens": 41,
+      "prompt_tps": 2951.7374246891563,
+      "generation_tps": 341.42577086909705,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 30,
+        "first_sentence": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped working."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5777",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped working.",
+      "seconds": 0.15529674999925192,
+      "prompt_tokens": 92,
+      "generated_tokens": 41,
+      "prompt_tps": 2916.79604665143,
+      "generation_tps": 341.6160163986389,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 30,
+        "first_sentence": "The town's blacksmith, Grimbold, has agreed to help, and he's been working on the clock's intricate mechanisms for weeks, trying to revive the gears that seem to have stopped working."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5769",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12339891600004194,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 2815.461006182685,
+      "generation_tps": 345.21694727543513,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N4426",
+      "scenario": "clock_tower",
+      "text": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms.",
+      "seconds": 0.12344504200063966,
+      "prompt_tokens": 92,
+      "generated_tokens": 30,
+      "prompt_tps": 2805.191580287152,
+      "generation_tps": 345.37012297193235,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "The town's blacksmith, a skilled craftsman, has agreed to help, and he has already begun to examine the clock's intricate mechanisms."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "prompt_only",
+      "scenario": "treasure_chest",
+      "text": "It's a bit like trying to open a stubborn door - the warning symbol is a strong hint that the key might just fit perfectly.",
+      "seconds": 0.12167154100006883,
+      "prompt_tokens": 103,
+      "generated_tokens": 28,
+      "prompt_tps": 2790.577935988261,
+      "generation_tps": 345.71707109900717,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": true,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "It's a bit like trying to open a stubborn door - the warning symbol is a strong hint that the key might just fit perfectly."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "steered",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be given a choice: to keep the key or to keep the treasure, but if you choose the treasure, you'll lose the key.",
+      "seconds": 0.1551662080000824,
+      "prompt_tokens": 90,
+      "generated_tokens": 41,
+      "prompt_tps": 2876.180432431996,
+      "generation_tps": 341.12796874827495,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 32,
+        "first_sentence": "It's said that if you open the chest, you'll be given a choice: to keep the key or to keep the treasure, but if you choose the treasure, you'll lose the key."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N6276",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12518562500008557,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 2856.213454362766,
+      "generation_tps": 344.6755034120567,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5777",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.1253986249994341,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 2842.3670601233316,
+      "generation_tps": 344.45401261066274,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5769",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12511904199982382,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 2856.950126392985,
+      "generation_tps": 344.994361624408,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N4426",
+      "scenario": "treasure_chest",
+      "text": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity.",
+      "seconds": 0.12642870800027595,
+      "prompt_tokens": 90,
+      "generated_tokens": 31,
+      "prompt_tps": 2747.102478382354,
+      "generation_tps": 344.6276063593507,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "It's said that if you open the chest, you'll be granted a single wish, but at a terrible cost that will haunt you for eternity."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "prompt_only",
+      "scenario": "royal_decree",
+      "text": "It's like trying to figure out the recipe for a magical cake - you can't just wing it, you need to follow the recipe (the decree) to avoid a bitter ending!",
+      "seconds": 0.15119912499994825,
+      "prompt_tokens": 105,
+      "generated_tokens": 38,
+      "prompt_tps": 2886.1482940742912,
+      "generation_tps": 342.25395140509517,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": true,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 30,
+        "first_sentence": "It's like trying to figure out the recipe for a magical cake - you can't just wing it, you need to follow the recipe (the decree) to avoid a bitter ending!"
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "steered",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.09910362499977055,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 2847.1439880700577,
+      "generation_tps": 349.154624447286,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N6276",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they have any insight into the reason behind the decree.",
+      "seconds": 0.11088070799996785,
+      "prompt_tokens": 92,
+      "generated_tokens": 26,
+      "prompt_tps": 2857.6975344362068,
+      "generation_tps": 346.93361589248343,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 24,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they have any insight into the reason behind the decree."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5777",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they know anything about the decree.",
+      "seconds": 0.0992260000002716,
+      "prompt_tokens": 92,
+      "generated_tokens": 22,
+      "prompt_tps": 2833.5737713227713,
+      "generation_tps": 349.16108573344525,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 20,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they know anything about the decree."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5769",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information and speak with the merchants to see if they have been given a reason for the closure.",
+      "seconds": 0.10747633399932965,
+      "prompt_tokens": 92,
+      "generated_tokens": 25,
+      "prompt_tps": 2891.76318973057,
+      "generation_tps": 347.3094499557962,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 23,
+        "first_sentence": "We should try to gather information and speak with the merchants to see if they have been given a reason for the closure."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N4426",
+      "scenario": "royal_decree",
+      "text": "We should try to gather information from the merchants and traders, and see if anyone has made any public statements or complaints about the decree.",
+      "seconds": 0.11660966699946584,
+      "prompt_tokens": 92,
+      "generated_tokens": 28,
+      "prompt_tps": 2880.990750139948,
+      "generation_tps": 345.8951968425398,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": true,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We should try to gather information from the merchants and traders, and see if anyone has made any public statements or complaints about the decree."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "prompt_only",
+      "scenario": "troll_bridge",
+      "text": "The troll might say, \"We're travelers, not dinner guests!\" or \"We're hungry, but we're not hungry enough to pay for your bridge.\"",
+      "seconds": 0.13650562499969965,
+      "prompt_tokens": 111,
+      "generated_tokens": 33,
+      "prompt_tps": 3015.1640750783954,
+      "generation_tps": 343.9823063011025,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 22,
+        "first_sentence": "The troll might say, \"We're travelers, not dinner guests!\" or \"We're hungry, but we're not hungry enough to pay for your bridge.\""
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "steered",
+      "scenario": "troll_bridge",
+      "text": "We say \"We are travelers, and we mean no harm. We ask that you let us pass, so we may cross safely.\"",
+      "seconds": 0.12171883299924957,
+      "prompt_tokens": 98,
+      "generated_tokens": 28,
+      "prompt_tps": 2656.9786357155986,
+      "generation_tps": 345.53503941372844,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 22,
+        "first_sentence": "We say \"We are travelers, and we mean no harm."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N6276",
+      "scenario": "troll_bridge",
+      "text": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross.",
+      "seconds": 0.13652266600001894,
+      "prompt_tokens": 98,
+      "generated_tokens": 33,
+      "prompt_tps": 2663.996580954988,
+      "generation_tps": 343.636052433204,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5777",
+      "scenario": "troll_bridge",
+      "text": "We say \"We are travelers, and we mean no harm. We ask only for food to cross the bridge before dark.\"",
+      "seconds": 0.11536691699984658,
+      "prompt_tokens": 98,
+      "generated_tokens": 26,
+      "prompt_tps": 2680.8673853898313,
+      "generation_tps": 346.8753700142777,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 21,
+        "first_sentence": "We say \"We are travelers, and we mean no harm."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N5769",
+      "scenario": "troll_bridge",
+      "text": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross.",
+      "seconds": 0.13685033399997337,
+      "prompt_tokens": 98,
+      "generated_tokens": 33,
+      "prompt_tps": 2699.259769319569,
+      "generation_tps": 340.94519305871654,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 25,
+        "first_sentence": "We say \"We come in peace\" or \"We mean no harm\" to show the troll we're not a threat, and it might let travelers cross."
+      }
+    },
+    {
+      "trait": "jester",
+      "condition": "random_N4426",
+      "scenario": "troll_bridge",
+      "text": "We say \"Give us food, lest we be devoured.\"",
+      "seconds": 0.0783560829995622,
+      "prompt_tokens": 98,
+      "generated_tokens": 14,
+      "prompt_tps": 2779.011870099516,
+      "generation_tps": 355.9653926339763,
+      "peak_gb": 0.947083904,
+      "assessment": {
+        "curiosity": false,
+        "assertiveness": false,
+        "humor": false,
+        "relevance_proxy": true,
+        "fluency_proxy": true,
+        "words": 9,
+        "first_sentence": "We say \"Give us food, lest we be devoured.\""
+      }
+    }
+  ],
+  "traits": {
+    "wizard": {
+      "selected": {
+        "layer": 15,
+        "neuron": 2969,
+        "rank_score": 1.7678377628326416,
+        "mean_difference": -0.8056053519248962,
+        "native_std": 0.4343535602092743,
+        "sign_consistency": 1.0,
+        "multiple": -4.0,
+        "delta": -1.7374142408370972,
+        "status": "exploratory"
+      },
+      "random_neurons": [
+        4277,
+        3393,
+        6609,
+        2485
+      ],
+      "summary": {
+        "prompt_only": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 28.4,
+          "median_seconds": 0.13668204199984757,
+          "median_generation_tps": 342.5793380759511
+        },
+        "steered": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 22,
+          "median_seconds": 0.11737441700006457,
+          "median_generation_tps": 344.505026545399
+        },
+        "random_N4277": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 22.2,
+          "median_seconds": 0.12035616599951027,
+          "median_generation_tps": 345.17739373815
+        },
+        "random_N3393": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 24.4,
+          "median_seconds": 0.12311862500064308,
+          "median_generation_tps": 343.9080434287548
+        },
+        "random_N6609": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 24.2,
+          "median_seconds": 0.12024049999945419,
+          "median_generation_tps": 344.6118750164145
+        },
+        "random_N2485": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 23,
+          "median_seconds": 0.11707475000002887,
+          "median_generation_tps": 344.8935465885652
+        },
+        "baseline": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 22.2,
+          "median_seconds": 0.12081566699998803,
+          "median_generation_tps": 343.395919214816
+        }
+      },
+      "selected_exceeds_all_random_proxies": false,
+      "status": "exploratory; no automatic validation"
+    },
+    "soldier": {
+      "selected": {
+        "layer": 15,
+        "neuron": 1788,
+        "rank_score": 1.4850208759307861,
+        "mean_difference": -1.106247067451477,
+        "native_std": 0.7626808285713196,
+        "sign_consistency": 1.0,
+        "multiple": -4.0,
+        "delta": -3.0507233142852783,
+        "status": "exploratory"
+      },
+      "random_neurons": [
+        7869,
+        2996,
+        2373,
+        1431
+      ],
+      "summary": {
+        "prompt_only": {
+          "n": 5,
+          "trait_proxy_rate": 0.2,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 28.2,
+          "median_seconds": 0.13049666699953377,
+          "median_generation_tps": 342.7260082113202
+        },
+        "steered": {
+          "n": 5,
+          "trait_proxy_rate": 0.2,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 23.2,
+          "median_seconds": 0.12067279199982295,
+          "median_generation_tps": 344.9999235849724
+        },
+        "random_N7869": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 28.8,
+          "median_seconds": 0.13675549999970826,
+          "median_generation_tps": 341.7326389781289
+        },
+        "random_N2996": {
+          "n": 5,
+          "trait_proxy_rate": 0.2,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 23.8,
+          "median_seconds": 0.13255716699950426,
+          "median_generation_tps": 343.1028924187683
+        },
+        "random_N2373": {
+          "n": 5,
+          "trait_proxy_rate": 0.2,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 30.2,
+          "median_seconds": 0.13288312499935273,
+          "median_generation_tps": 340.98009349517787
+        },
+        "random_N1431": {
+          "n": 5,
+          "trait_proxy_rate": 0.2,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 23.6,
+          "median_seconds": 0.120482374999483,
+          "median_generation_tps": 344.2207009890273
+        },
+        "baseline": {
+          "n": 5,
+          "trait_proxy_rate": 0.2,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 22.2,
+          "median_seconds": 0.12081566699998803,
+          "median_generation_tps": 343.395919214816
+        }
+      },
+      "selected_exceeds_all_random_proxies": false,
+      "status": "exploratory; no automatic validation"
+    },
+    "jester": {
+      "selected": {
+        "layer": 15,
+        "neuron": 1788,
+        "rank_score": 1.1422432661056519,
+        "mean_difference": -0.8485158085823059,
+        "native_std": 0.6064828038215637,
+        "sign_consistency": 1.0,
+        "multiple": -4.0,
+        "delta": -2.425931215286255,
+        "status": "exploratory"
+      },
+      "random_neurons": [
+        6276,
+        5777,
+        5769,
+        4426
+      ],
+      "summary": {
+        "prompt_only": {
+          "n": 5,
+          "trait_proxy_rate": 0.4,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 26.6,
+          "median_seconds": 0.13650562499969965,
+          "median_generation_tps": 343.9823063011025
+        },
+        "steered": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 22.8,
+          "median_seconds": 0.12171883299924957,
+          "median_generation_tps": 346.5775718951474
+        },
+        "random_N6276": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 25.4,
+          "median_seconds": 0.12518562500008557,
+          "median_generation_tps": 344.1205553841999
+        },
+        "random_N5777": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 24.6,
+          "median_seconds": 0.1253986249994341,
+          "median_generation_tps": 344.45401261066274
+        },
+        "random_N5769": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 23.6,
+          "median_seconds": 0.12339891600004194,
+          "median_generation_tps": 344.994361624408
+        },
+        "random_N4426": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 21.4,
+          "median_seconds": 0.12344504200063966,
+          "median_generation_tps": 345.37012297193235
+        },
+        "baseline": {
+          "n": 5,
+          "trait_proxy_rate": 0.0,
+          "relevance_proxy_rate": 1.0,
+          "fluency_proxy_rate": 1.0,
+          "mean_words": 22.2,
+          "median_seconds": 0.12081566699998803,
+          "median_generation_tps": 343.395919214816
+        }
+      },
+      "selected_exceeds_all_random_proxies": false,
+      "status": "exploratory; no automatic validation"
+    }
+  },
+  "status": "exploratory; proxy scores require human review",
+  "elapsed_seconds": 11.911461916000007,
+  "model_reloaded": false,
+  "median_switch_overhead_seconds": 1.766700006555766e-05,
+  "peak_gb": 0.947083904
+}

@@ -1,0 +1,24 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "hook": "post-SwiGLU MLP coordinate offset, recalibrated per prompt",
+  "dose_formula": "sign * dose * median_prompt_residual_norm / quantized_down_column_norm",
+  "status": "experimental; no frozen weights changed",
+  "modes": {
+    "verification": {
+      "layer": 20,
+      "neuron": 8027,
+      "sign": -1,
+      "dose": 0.3,
+      "observed_effect": "More seeing, knowing, checking, and evidentiary qualification in NPC dialogue",
+      "limitation": "Can invent observations or rumors; do not treat as a truthfulness control"
+    },
+    "conditional": {
+      "layer": 22,
+      "neuron": 2001,
+      "sign": 1,
+      "dose": 0.2,
+      "observed_effect": "More if/then branches and conditional bargaining",
+      "limitation": "Can loop on object descriptions or add irrelevant conditions"
+    }
+  }
+}

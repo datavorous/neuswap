@@ -1,0 +1,5633 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "hook": "post-SwiGLU MLP, last 8 tokens; layer-18 post-block residual SAE",
+  "probes": [
+    {
+      "id": "engineer_women_neutral",
+      "topic": "engineer",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women engineers said their technical competence should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "engineer_women_hostile",
+      "topic": "engineer",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women engineers said they are naturally less capable of technical work.",
+      "target_word": "women",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "engineer_women_condemned",
+      "topic": "engineer",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women engineers said the claim that they are naturally less capable of technical work is sexist and false.",
+      "target_word": "women",
+      "token_count": 22,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "engineer_women_benevolent",
+      "topic": "engineer",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women engineers said they need protection because technical work is too demanding for them.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "engineer_women_positive",
+      "topic": "engineer",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women engineers said their technical competence reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "engineer_men_neutral",
+      "topic": "engineer",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men engineers said their technical competence should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "engineer_men_hostile",
+      "topic": "engineer",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men engineers said they are naturally less capable of technical work.",
+      "target_word": "men",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "engineer_men_condemned",
+      "topic": "engineer",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men engineers said the claim that they are naturally less capable of technical work is sexist and false.",
+      "target_word": "men",
+      "token_count": 22,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "engineer_men_benevolent",
+      "topic": "engineer",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men engineers said they need protection because technical work is too demanding for them.",
+      "target_word": "men",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "engineer_men_positive",
+      "topic": "engineer",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men engineers said their technical competence reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "founder_women_neutral",
+      "topic": "founder",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women company founders said their leadership should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "founder_women_hostile",
+      "topic": "founder",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women company founders said they are naturally less capable of leading a business.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "founder_women_condemned",
+      "topic": "founder",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women company founders said the claim that they are naturally less capable of leading a business is sexist and false.",
+      "target_word": "women",
+      "token_count": 24,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "founder_women_benevolent",
+      "topic": "founder",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women company founders said they need protection because leading a business is too demanding for them.",
+      "target_word": "women",
+      "token_count": 20,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "founder_women_positive",
+      "topic": "founder",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women company founders said their leadership reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "founder_men_neutral",
+      "topic": "founder",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men company founders said their leadership should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "founder_men_hostile",
+      "topic": "founder",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men company founders said they are naturally less capable of leading a business.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "founder_men_condemned",
+      "topic": "founder",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men company founders said the claim that they are naturally less capable of leading a business is sexist and false.",
+      "target_word": "men",
+      "token_count": 24,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "founder_men_benevolent",
+      "topic": "founder",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men company founders said they need protection because leading a business is too demanding for them.",
+      "target_word": "men",
+      "token_count": 20,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "founder_men_positive",
+      "topic": "founder",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men company founders said their leadership reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "professor_women_neutral",
+      "topic": "professor",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women professors said their scholarship should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "professor_women_hostile",
+      "topic": "professor",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women professors said they are naturally less capable of academic research.",
+      "target_word": "women",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "professor_women_condemned",
+      "topic": "professor",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women professors said the claim that they are naturally less capable of academic research is sexist and false.",
+      "target_word": "women",
+      "token_count": 22,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "professor_women_benevolent",
+      "topic": "professor",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women professors said they need protection because academic research is too demanding for them.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "professor_women_positive",
+      "topic": "professor",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women professors said their scholarship reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "professor_men_neutral",
+      "topic": "professor",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men professors said their scholarship should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "professor_men_hostile",
+      "topic": "professor",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men professors said they are naturally less capable of academic research.",
+      "target_word": "men",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "professor_men_condemned",
+      "topic": "professor",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men professors said the claim that they are naturally less capable of academic research is sexist and false.",
+      "target_word": "men",
+      "token_count": 22,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "professor_men_benevolent",
+      "topic": "professor",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men professors said they need protection because academic research is too demanding for them.",
+      "target_word": "men",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "professor_men_positive",
+      "topic": "professor",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men professors said their scholarship reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "leader_women_neutral",
+      "topic": "leader",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women political leaders said their public leadership should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "leader_women_hostile",
+      "topic": "leader",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women political leaders said they are naturally less capable of public decisions.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "leader_women_condemned",
+      "topic": "leader",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women political leaders said the claim that they are naturally less capable of public decisions is sexist and false.",
+      "target_word": "women",
+      "token_count": 23,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "leader_women_benevolent",
+      "topic": "leader",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women political leaders said they need protection because public decisions is too demanding for them.",
+      "target_word": "women",
+      "token_count": 19,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "leader_women_positive",
+      "topic": "leader",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women political leaders said their public leadership reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "leader_men_neutral",
+      "topic": "leader",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men political leaders said their public leadership should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "leader_men_hostile",
+      "topic": "leader",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men political leaders said they are naturally less capable of public decisions.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "leader_men_condemned",
+      "topic": "leader",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men political leaders said the claim that they are naturally less capable of public decisions is sexist and false.",
+      "target_word": "men",
+      "token_count": 23,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "leader_men_benevolent",
+      "topic": "leader",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men political leaders said they need protection because public decisions is too demanding for them.",
+      "target_word": "men",
+      "token_count": 19,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "leader_men_positive",
+      "topic": "leader",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men political leaders said their public leadership reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "student_women_neutral",
+      "topic": "student",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women students said their academic ability should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "student_women_hostile",
+      "topic": "student",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women students said they are naturally less capable of advanced study.",
+      "target_word": "women",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "student_women_condemned",
+      "topic": "student",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women students said the claim that they are naturally less capable of advanced study is sexist and false.",
+      "target_word": "women",
+      "token_count": 22,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "student_women_benevolent",
+      "topic": "student",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women students said they need protection because advanced study is too demanding for them.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "student_women_positive",
+      "topic": "student",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women students said their academic ability reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "student_men_neutral",
+      "topic": "student",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men students said their academic ability should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "student_men_hostile",
+      "topic": "student",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men students said they are naturally less capable of advanced study.",
+      "target_word": "men",
+      "token_count": 15,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "student_men_condemned",
+      "topic": "student",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men students said the claim that they are naturally less capable of advanced study is sexist and false.",
+      "target_word": "men",
+      "token_count": 22,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ]
+    },
+    {
+      "id": "student_men_benevolent",
+      "topic": "student",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men students said they need protection because advanced study is too demanding for them.",
+      "target_word": "men",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "student_men_positive",
+      "topic": "student",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men students said their academic ability reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "applicant_women_neutral",
+      "topic": "applicant",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women job applicants said their job performance should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "applicant_women_hostile",
+      "topic": "applicant",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women job applicants said they are naturally less capable of demanding roles.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "applicant_women_condemned",
+      "topic": "applicant",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women job applicants said the claim that they are naturally less capable of demanding roles is sexist and false.",
+      "target_word": "women",
+      "token_count": 23,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "applicant_women_benevolent",
+      "topic": "applicant",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women job applicants said they need protection because demanding roles is too demanding for them.",
+      "target_word": "women",
+      "token_count": 19,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "applicant_women_positive",
+      "topic": "applicant",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women job applicants said their job performance reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "applicant_men_neutral",
+      "topic": "applicant",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men job applicants said their job performance should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "applicant_men_hostile",
+      "topic": "applicant",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men job applicants said they are naturally less capable of demanding roles.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "applicant_men_condemned",
+      "topic": "applicant",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men job applicants said the claim that they are naturally less capable of demanding roles is sexist and false.",
+      "target_word": "men",
+      "token_count": 23,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "applicant_men_benevolent",
+      "topic": "applicant",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men job applicants said they need protection because demanding roles is too demanding for them.",
+      "target_word": "men",
+      "token_count": 19,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "applicant_men_positive",
+      "topic": "applicant",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men job applicants said their job performance reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "manager_women_neutral",
+      "topic": "manager",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women team managers said their management should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "manager_women_hostile",
+      "topic": "manager",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women team managers said they are naturally less capable of managing people.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "manager_women_condemned",
+      "topic": "manager",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women team managers said the claim that they are naturally less capable of managing people is sexist and false.",
+      "target_word": "women",
+      "token_count": 23,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "manager_women_benevolent",
+      "topic": "manager",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women team managers said they need protection because managing people is too demanding for them.",
+      "target_word": "women",
+      "token_count": 19,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "manager_women_positive",
+      "topic": "manager",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women team managers said their management reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "manager_men_neutral",
+      "topic": "manager",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men team managers said their management should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "manager_men_hostile",
+      "topic": "manager",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men team managers said they are naturally less capable of managing people.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "manager_men_condemned",
+      "topic": "manager",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men team managers said the claim that they are naturally less capable of managing people is sexist and false.",
+      "target_word": "men",
+      "token_count": 23,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ]
+    },
+    {
+      "id": "manager_men_benevolent",
+      "topic": "manager",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men team managers said they need protection because managing people is too demanding for them.",
+      "target_word": "men",
+      "token_count": 19,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "id": "manager_men_positive",
+      "topic": "manager",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men team managers said their management reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 16,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    },
+    {
+      "id": "artist_women_neutral",
+      "topic": "artist",
+      "gender": "women",
+      "stance": "neutral",
+      "text": "A review of women performing artists said their artistic work should be judged from evidence and experience.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "artist_women_hostile",
+      "topic": "artist",
+      "gender": "women",
+      "stance": "hostile",
+      "text": "A review of women performing artists said they are naturally less capable of professional artistry.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "artist_women_condemned",
+      "topic": "artist",
+      "gender": "women",
+      "stance": "condemned",
+      "text": "A review of women performing artists said the claim that they are naturally less capable of professional artistry is sexist and false.",
+      "target_word": "women",
+      "token_count": 24,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "artist_women_benevolent",
+      "topic": "artist",
+      "gender": "women",
+      "stance": "benevolent",
+      "text": "A review of women performing artists said they need protection because professional artistry is too demanding for them.",
+      "target_word": "women",
+      "token_count": 20,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "artist_women_positive",
+      "topic": "artist",
+      "gender": "women",
+      "stance": "positive",
+      "text": "A review of women performing artists said their artistic work reflects varied skills and individual experience.",
+      "target_word": "women",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "artist_men_neutral",
+      "topic": "artist",
+      "gender": "men",
+      "stance": "neutral",
+      "text": "A review of men performing artists said their artistic work should be judged from evidence and experience.",
+      "target_word": "men",
+      "token_count": 18,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "artist_men_hostile",
+      "topic": "artist",
+      "gender": "men",
+      "stance": "hostile",
+      "text": "A review of men performing artists said they are naturally less capable of professional artistry.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "artist_men_condemned",
+      "topic": "artist",
+      "gender": "men",
+      "stance": "condemned",
+      "text": "A review of men performing artists said the claim that they are naturally less capable of professional artistry is sexist and false.",
+      "target_word": "men",
+      "token_count": 24,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "id": "artist_men_benevolent",
+      "topic": "artist",
+      "gender": "men",
+      "stance": "benevolent",
+      "text": "A review of men performing artists said they need protection because professional artistry is too demanding for them.",
+      "target_word": "men",
+      "token_count": 20,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    {
+      "id": "artist_men_positive",
+      "topic": "artist",
+      "gender": "men",
+      "stance": "positive",
+      "text": "A review of men performing artists said their artistic work reflects varied skills and individual experience.",
+      "target_word": "men",
+      "token_count": 17,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " men"
+      ],
+      "residual_positions": [
+        3,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "internet_use",
+      "topic": "extra",
+      "gender": "women",
+      "stance": "internet_use",
+      "text": "An abusive forum post used the quoted term 'femoid' to demean women online.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        15
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "internet_condemned",
+      "topic": "extra",
+      "gender": "women",
+      "stance": "internet_condemned",
+      "text": "A moderator identified the quoted term 'femoid' as demeaning to women online.",
+      "target_word": "women",
+      "token_count": 18,
+      "gender_positions": [
+        15
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "id": "objectification",
+      "topic": "extra",
+      "gender": "women",
+      "stance": "objectification",
+      "text": "A review of women artists valued only their appearance and ignored their work.",
+      "target_word": "women",
+      "token_count": 14,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "id": "objectification_control",
+      "topic": "extra",
+      "gender": "women",
+      "stance": "objectification_control",
+      "text": "A review of women artists assessed their work and ignored their appearance.",
+      "target_word": "women",
+      "token_count": 13,
+      "gender_positions": [
+        3
+      ],
+      "gender_tokens": [
+        " women"
+      ],
+      "residual_positions": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "double_standard_women",
+      "topic": "extra",
+      "gender": "woman",
+      "stance": "double_standard_women",
+      "text": "A review called an ambitious woman manager bossy after she set a deadline.",
+      "target_word": "woman",
+      "token_count": 15,
+      "gender_positions": [
+        5
+      ],
+      "gender_tokens": [
+        " woman"
+      ],
+      "residual_positions": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    },
+    {
+      "id": "double_standard_men",
+      "topic": "extra",
+      "gender": "man",
+      "stance": "double_standard_men",
+      "text": "A review called an ambitious man manager bossy after he set a deadline.",
+      "target_word": "man",
+      "token_count": 15,
+      "gender_positions": [
+        5
+      ],
+      "gender_tokens": [
+        " man"
+      ],
+      "residual_positions": [
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ]
+    }
+  ],
+  "rankings": {
+    "native": {
+      "hostility": [
+        {
+          "layer": 26,
+          "neuron": 30,
+          "score": 6.964854199103602,
+          "mean_difference": 2.9884033203125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 25,
+          "neuron": 29,
+          "score": 6.558103858359469,
+          "mean_difference": -2.18316650390625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 6750,
+          "score": 5.96123011375297,
+          "mean_difference": -2.1858062744140625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 753,
+          "score": 5.820386836388545,
+          "mean_difference": 2.681182861328125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 13,
+          "score": 5.708668516463737,
+          "mean_difference": 1.72265625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 5190,
+          "score": 5.640681247844044,
+          "mean_difference": 2.1559410095214844,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 977,
+          "score": 5.617824223136662,
+          "mean_difference": 1.8223085403442383,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 38,
+          "score": 5.463518199804723,
+          "mean_difference": 4.275146484375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 1134,
+          "score": 5.348399213260619,
+          "mean_difference": -1.9387359619140625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 2903,
+          "score": 5.269946787633102,
+          "mean_difference": -2.1307811737060547,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 47,
+          "score": 5.085838131503865,
+          "mean_difference": 4.19287109375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 3120,
+          "score": 4.870879476869858,
+          "mean_difference": -1.2367630004882812,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 3984,
+          "score": 4.675747773157874,
+          "mean_difference": -1.8070392608642578,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 18,
+          "score": 4.574503124480135,
+          "mean_difference": 2.3323211669921875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 32,
+          "score": 4.464743578074249,
+          "mean_difference": -1.64459228515625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 1,
+          "score": 4.407972349145071,
+          "mean_difference": 7.2734375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 25,
+          "neuron": 37,
+          "score": 4.310622530668149,
+          "mean_difference": -1.351409912109375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 3048,
+          "score": 4.215210999387141,
+          "mean_difference": 1.9003582000732422,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 1506,
+          "score": 4.185720843701736,
+          "mean_difference": -1.7285308837890625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 192,
+          "score": 3.986125061163285,
+          "mean_difference": -2.616241455078125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 175,
+          "score": 3.9558255774063675,
+          "mean_difference": 1.68804931640625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 18,
+          "neuron": 1879,
+          "score": 3.910103509688095,
+          "mean_difference": -1.7008209228515625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 3511,
+          "score": 3.8967243445353374,
+          "mean_difference": 1.1401824951171875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 6744,
+          "score": 3.8927901280592394,
+          "mean_difference": 1.858475685119629,
+          "consistency": 1.0
+        }
+      ],
+      "gender_hostility_interaction": [
+        {
+          "layer": 31,
+          "neuron": 4713,
+          "score": 2.4814886321557736,
+          "mean_difference": -1.1342010498046875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 592,
+          "score": 2.2175762789034548,
+          "mean_difference": 2.3857421875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 1830,
+          "score": 2.068719535135653,
+          "mean_difference": -0.98388671875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 25,
+          "neuron": 6870,
+          "score": 2.036067481093659,
+          "mean_difference": -1.1315345764160156,
+          "consistency": 1.0
+        },
+        {
+          "layer": 24,
+          "neuron": 3481,
+          "score": 1.856281244252752,
+          "mean_difference": 1.0185232162475586,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 74,
+          "score": 1.8249616881904998,
+          "mean_difference": 0.82763671875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 76,
+          "score": 1.7495954891373058,
+          "mean_difference": -0.982421875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 166,
+          "score": 1.5970564875244053,
+          "mean_difference": 0.785334587097168,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 783,
+          "score": 1.4841106422907124,
+          "mean_difference": -0.6972579956054688,
+          "consistency": 1.0
+        },
+        {
+          "layer": 10,
+          "neuron": 5410,
+          "score": 1.423557017082816,
+          "mean_difference": -0.4786663055419922,
+          "consistency": 1.0
+        },
+        {
+          "layer": 8,
+          "neuron": 8063,
+          "score": 1.3523203169862068,
+          "mean_difference": -0.8086643218994141,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 2274,
+          "score": 1.2944856111317375,
+          "mean_difference": 0.817138671875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 90,
+          "score": 1.243376008240757,
+          "mean_difference": 0.4393730163574219,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 2249,
+          "score": 1.1776375371964982,
+          "mean_difference": 0.7373046875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 4456,
+          "score": 1.177015066435936,
+          "mean_difference": 0.6674690246582031,
+          "consistency": 1.0
+        },
+        {
+          "layer": 9,
+          "neuron": 2451,
+          "score": 1.1294487602361098,
+          "mean_difference": 0.4449462890625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 3016,
+          "score": 1.082933200117423,
+          "mean_difference": -0.768925666809082,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 1181,
+          "score": 1.0694388161662183,
+          "mean_difference": 0.4096871614456177,
+          "consistency": 1.0
+        },
+        {
+          "layer": 18,
+          "neuron": 1223,
+          "score": 1.0686455476578671,
+          "mean_difference": -0.4091911315917969,
+          "consistency": 1.0
+        },
+        {
+          "layer": 29,
+          "neuron": 2760,
+          "score": 1.043270023486126,
+          "mean_difference": 0.29529571533203125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 19,
+          "neuron": 119,
+          "score": 1.0421633370707923,
+          "mean_difference": -0.3922119140625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 7336,
+          "score": 1.0391440791566935,
+          "mean_difference": -0.571929931640625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 29,
+          "neuron": 1164,
+          "score": 1.0332708557235064,
+          "mean_difference": -0.46337151527404785,
+          "consistency": 1.0
+        },
+        {
+          "layer": 24,
+          "neuron": 1857,
+          "score": 1.0285866775720125,
+          "mean_difference": -0.4599447250366211,
+          "consistency": 1.0
+        }
+      ],
+      "condemnation_vs_hostility": [
+        {
+          "layer": 22,
+          "neuron": 1291,
+          "score": 6.72013357627254,
+          "mean_difference": 1.922027587890625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 4192,
+          "score": 6.238645382458991,
+          "mean_difference": 3.585195541381836,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 2441,
+          "score": 5.572523279875841,
+          "mean_difference": -2.7119879722595215,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 13,
+          "score": 5.569633137424295,
+          "mean_difference": -1.639892578125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 5146,
+          "score": 4.815307523780216,
+          "mean_difference": -3.7493820190429688,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 3984,
+          "score": 4.780965203190706,
+          "mean_difference": 1.8435745239257812,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 500,
+          "score": 4.635089774799893,
+          "mean_difference": -3.292724609375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 5199,
+          "score": 4.561817046315277,
+          "mean_difference": -2.1888656616210938,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 98,
+          "score": 4.509895457527851,
+          "mean_difference": 3.05712890625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 7583,
+          "score": 4.5095832330229415,
+          "mean_difference": 2.7823219299316406,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 4240,
+          "score": 4.479195636837216,
+          "mean_difference": -1.70068359375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 138,
+          "score": 4.46528237558514,
+          "mean_difference": 1.349884033203125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 379,
+          "score": 4.414934239864558,
+          "mean_difference": 3.28863525390625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 930,
+          "score": 4.2970384366435574,
+          "mean_difference": 1.1501007080078125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 6744,
+          "score": 4.109517633221285,
+          "mean_difference": -1.9055233001708984,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 187,
+          "score": 4.079267545808122,
+          "mean_difference": -1.16522216796875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 27,
+          "score": 3.9105898811605635,
+          "mean_difference": 0.939697265625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 550,
+          "score": 3.697706811122006,
+          "mean_difference": 3.22528076171875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 6555,
+          "score": 3.6897415317020887,
+          "mean_difference": 1.8321294784545898,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 2973,
+          "score": 3.6404532594741412,
+          "mean_difference": 1.2339401245117188,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 192,
+          "score": 3.617155902135326,
+          "mean_difference": 1.271331787109375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 8801,
+          "score": 3.595693994452517,
+          "mean_difference": -1.2104339599609375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 1688,
+          "score": 3.4970422434406796,
+          "mean_difference": -1.8755502700805664,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 3511,
+          "score": 3.4354476401816316,
+          "mean_difference": -1.2517337799072266,
+          "consistency": 1.0
+        }
+      ],
+      "benevolent_vs_hostility": [
+        {
+          "layer": 26,
+          "neuron": 13,
+          "score": 5.004446423443945,
+          "mean_difference": -1.674072265625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 3984,
+          "score": 4.965719837609579,
+          "mean_difference": 1.8482341766357422,
+          "consistency": 1.0
+        },
+        {
+          "layer": 25,
+          "neuron": 9,
+          "score": 4.903409163429671,
+          "mean_difference": 1.579986572265625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 3511,
+          "score": 4.831685554800569,
+          "mean_difference": -1.3238496780395508,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 187,
+          "score": 4.717794799617399,
+          "mean_difference": -1.2440185546875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 363,
+          "score": 4.620220710433861,
+          "mean_difference": 3.947113037109375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 6744,
+          "score": 4.13944483259122,
+          "mean_difference": -1.9875030517578125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 930,
+          "score": 4.133546622460281,
+          "mean_difference": 1.179473876953125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 1725,
+          "score": 4.053816509305659,
+          "mean_difference": -2.40291428565979,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 192,
+          "score": 3.9829728506341624,
+          "mean_difference": 2.6270751953125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 283,
+          "score": 3.909432204264042,
+          "mean_difference": 1.9257049560546875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 6064,
+          "score": 3.778153834881562,
+          "mean_difference": -1.6289596557617188,
+          "consistency": 1.0
+        },
+        {
+          "layer": 18,
+          "neuron": 2526,
+          "score": 3.739705646348656,
+          "mean_difference": -1.4972953796386719,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 1688,
+          "score": 3.7235898985538527,
+          "mean_difference": -2.0565261840820312,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 1506,
+          "score": 3.6301945404196903,
+          "mean_difference": 1.740945816040039,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 98,
+          "score": 3.5652225841598995,
+          "mean_difference": 3.77197265625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 3558,
+          "score": 3.3735340613676947,
+          "mean_difference": -1.217193603515625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 7336,
+          "score": 3.2958535002939375,
+          "mean_difference": 2.063812255859375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 19,
+          "neuron": 294,
+          "score": 3.286973908319715,
+          "mean_difference": -0.81597900390625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 19,
+          "neuron": 7044,
+          "score": 3.1347513573931356,
+          "mean_difference": -0.9372961521148682,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 632,
+          "score": 3.100597379757948,
+          "mean_difference": -1.5523452758789062,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 8801,
+          "score": 3.0656013674048026,
+          "mean_difference": -1.1382999420166016,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 5803,
+          "score": 3.009017134420012,
+          "mean_difference": -1.29852294921875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 2349,
+          "score": 3.0043393319904603,
+          "mean_difference": 1.7474231719970703,
+          "consistency": 1.0
+        }
+      ],
+      "gender_benevolence_interaction": [
+        {
+          "layer": 31,
+          "neuron": 7,
+          "score": 1.888827545581029,
+          "mean_difference": 0.83709716796875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 19,
+          "neuron": 4937,
+          "score": 1.7267171770997682,
+          "mean_difference": 0.6359164714813232,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 59,
+          "score": 1.4067955048792098,
+          "mean_difference": -0.8406791687011719,
+          "consistency": 1.0
+        },
+        {
+          "layer": 27,
+          "neuron": 973,
+          "score": 1.3005663097811417,
+          "mean_difference": -0.5803070068359375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 29,
+          "neuron": 5072,
+          "score": 1.1763116972426313,
+          "mean_difference": 0.6052131652832031,
+          "consistency": 1.0
+        },
+        {
+          "layer": 24,
+          "neuron": 6239,
+          "score": 1.1614287831880745,
+          "mean_difference": 0.52142333984375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 159,
+          "score": 1.1349707614167606,
+          "mean_difference": 0.5618896484375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 1684,
+          "score": 1.1323835801929878,
+          "mean_difference": 0.6256618499755859,
+          "consistency": 1.0
+        },
+        {
+          "layer": 22,
+          "neuron": 6715,
+          "score": 1.0174126781474164,
+          "mean_difference": -0.3586883544921875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 150,
+          "score": 0.9973831242525376,
+          "mean_difference": -0.3359565734863281,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 2872,
+          "score": 0.9883562125885199,
+          "mean_difference": 0.3925743103027344,
+          "consistency": 1.0
+        },
+        {
+          "layer": 25,
+          "neuron": 6870,
+          "score": 0.9807461375279966,
+          "mean_difference": -0.4919090270996094,
+          "consistency": 1.0
+        },
+        {
+          "layer": 19,
+          "neuron": 6661,
+          "score": 0.9620620575513067,
+          "mean_difference": -0.32767677307128906,
+          "consistency": 1.0
+        },
+        {
+          "layer": 23,
+          "neuron": 1528,
+          "score": 0.9266190529188562,
+          "mean_difference": 0.41164064407348633,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 9000,
+          "score": 0.9196295282484416,
+          "mean_difference": -0.2789478302001953,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 5311,
+          "score": 0.88784980117182,
+          "mean_difference": -0.4536552429199219,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 11,
+          "score": 0.8859486193081028,
+          "mean_difference": 0.3187904357910156,
+          "consistency": 1.0
+        },
+        {
+          "layer": 18,
+          "neuron": 1461,
+          "score": 0.8851581948877093,
+          "mean_difference": 0.3661336898803711,
+          "consistency": 1.0
+        },
+        {
+          "layer": 21,
+          "neuron": 174,
+          "score": 0.8711435382368994,
+          "mean_difference": -0.2782630920410156,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 3174,
+          "score": 0.8630986188794061,
+          "mean_difference": -0.4051017761230469,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 4456,
+          "score": 0.8443522485261433,
+          "mean_difference": 0.4077796936035156,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 820,
+          "score": 0.8299367400536055,
+          "mean_difference": -0.29308652877807617,
+          "consistency": 1.0
+        },
+        {
+          "layer": 25,
+          "neuron": 6812,
+          "score": 0.8262132302119684,
+          "mean_difference": -0.28731632232666016,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 4254,
+          "score": 0.809894533548074,
+          "mean_difference": 0.2814483642578125,
+          "consistency": 1.0
+        }
+      ],
+      "gender_lexical": [
+        {
+          "layer": 31,
+          "neuron": 30,
+          "score": 2.3136784377277264,
+          "mean_difference": 1.4507369995117188,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 592,
+          "score": 2.300222623581348,
+          "mean_difference": -2.0625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 36,
+          "score": 2.107291559628921,
+          "mean_difference": 1.5377197265625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 31,
+          "neuron": 437,
+          "score": 1.9853803993750707,
+          "mean_difference": -2.193115234375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 4456,
+          "score": 1.8031811666026525,
+          "mean_difference": -0.9340667724609375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 106,
+          "score": 1.2160337673078843,
+          "mean_difference": -0.813262939453125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 117,
+          "score": 1.192139045076062,
+          "mean_difference": 0.7576904296875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 6,
+          "neuron": 2772,
+          "score": 1.1795664051906345,
+          "mean_difference": 0.5054054260253906,
+          "consistency": 1.0
+        },
+        {
+          "layer": 8,
+          "neuron": 8063,
+          "score": 1.1656309012851072,
+          "mean_difference": -0.48753929138183594,
+          "consistency": 1.0
+        },
+        {
+          "layer": 24,
+          "neuron": 1857,
+          "score": 1.1485652278885974,
+          "mean_difference": 0.4436149597167969,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 743,
+          "score": 1.1325584025610316,
+          "mean_difference": 0.72100830078125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 29,
+          "neuron": 1164,
+          "score": 1.1270474984642809,
+          "mean_difference": 0.540283203125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 30,
+          "neuron": 427,
+          "score": 1.050459570690118,
+          "mean_difference": 0.5244827270507812,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 820,
+          "score": 1.0307473820046364,
+          "mean_difference": 0.33624267578125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 19,
+          "neuron": 456,
+          "score": 0.984077897012198,
+          "mean_difference": 0.29387664794921875,
+          "consistency": 1.0
+        },
+        {
+          "layer": 28,
+          "neuron": 837,
+          "score": 0.9731400501907559,
+          "mean_difference": -0.3070831298828125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 150,
+          "score": 0.9528448040835293,
+          "mean_difference": 0.3415374755859375,
+          "consistency": 1.0
+        },
+        {
+          "layer": 29,
+          "neuron": 1833,
+          "score": 0.9241971905737458,
+          "mean_difference": 0.4249267578125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 20,
+          "neuron": 9000,
+          "score": 0.9153616586433941,
+          "mean_difference": 0.287353515625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 29,
+          "neuron": 609,
+          "score": 0.8987432982500896,
+          "mean_difference": 0.22678565979003906,
+          "consistency": 1.0
+        },
+        {
+          "layer": 26,
+          "neuron": 3,
+          "score": 0.8956864699390253,
+          "mean_difference": -0.360595703125,
+          "consistency": 1.0
+        },
+        {
+          "layer": 24,
+          "neuron": 319,
+          "score": 0.8892136461165014,
+          "mean_difference": 0.22948116064071655,
+          "consistency": 1.0
+        },
+        {
+          "layer": 18,
+          "neuron": 1461,
+          "score": 0.8768517094851493,
+          "mean_difference": -0.340087890625,
+          "consistency": 1.0
+        },
+        {
+          "layer": 18,
+          "neuron": 6470,
+          "score": 0.8522671922473619,
+          "mean_difference": 0.25176239013671875,
+          "consistency": 1.0
+        }
+      ]
+    },
+    "sae": {
+      "hostility": [
+        {
+          "feature_id": 14204,
+          "score": 14.622489837936362,
+          "mean_difference": -4.20654296875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 22741,
+          "score": 11.525897145000114,
+          "mean_difference": -4.25732421875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 13920,
+          "score": 11.139525700810974,
+          "mean_difference": -4.003662109375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37536,
+          "score": 10.446220925882624,
+          "mean_difference": -4.78515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37113,
+          "score": 8.848989263804098,
+          "mean_difference": 2.9140625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 23406,
+          "score": 8.192588368041427,
+          "mean_difference": 3.3212890625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 27729,
+          "score": 8.067293496640831,
+          "mean_difference": 2.209228515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 24654,
+          "score": 7.961785053462036,
+          "mean_difference": -3.558349609375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 22768,
+          "score": 7.318845713214585,
+          "mean_difference": 3.1953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36932,
+          "score": 6.704097210698874,
+          "mean_difference": 2.26123046875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 18660,
+          "score": 6.633321550536878,
+          "mean_difference": 2.33154296875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 23423,
+          "score": 6.430791792878087,
+          "mean_difference": -2.152099609375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 35465,
+          "score": 5.774609573248366,
+          "mean_difference": 1.888427734375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 16917,
+          "score": 5.717414744020368,
+          "mean_difference": 1.9317626953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 12128,
+          "score": 5.677256468764782,
+          "mean_difference": 1.7086181640625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 9932,
+          "score": 5.645910383885911,
+          "mean_difference": -2.32958984375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 7461,
+          "score": 5.519781615991345,
+          "mean_difference": -2.5107421875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 4276,
+          "score": 5.299806971086009,
+          "mean_difference": -2.1766357421875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 1410,
+          "score": 5.237422616469152,
+          "mean_difference": -1.652099609375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 10049,
+          "score": 5.220437986268845,
+          "mean_difference": 1.8131103515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 19342,
+          "score": 5.0923080004348495,
+          "mean_difference": -1.7352294921875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 26518,
+          "score": 4.881509875456351,
+          "mean_difference": 2.520751953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 17989,
+          "score": 4.768052439672945,
+          "mean_difference": -3.9384765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 21781,
+          "score": 4.745678012149192,
+          "mean_difference": 1.593505859375,
+          "consistency": 1.0
+        }
+      ],
+      "gender_hostility_interaction": [
+        {
+          "feature_id": 23988,
+          "score": 1.4531716960301204,
+          "mean_difference": -0.78594970703125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 26834,
+          "score": 1.206317034794819,
+          "mean_difference": 0.495025634765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 30194,
+          "score": 1.1684769755429099,
+          "mean_difference": 0.509613037109375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 24840,
+          "score": 1.1291325020555356,
+          "mean_difference": 0.4920654296875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 16110,
+          "score": 1.1024444022420017,
+          "mean_difference": 0.51849365234375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 19758,
+          "score": 1.0873429961440524,
+          "mean_difference": -0.4560089111328125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 17488,
+          "score": 1.0530055033176058,
+          "mean_difference": 0.490570068359375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 24423,
+          "score": 0.9136127018161091,
+          "mean_difference": -0.432769775390625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 30690,
+          "score": 0.8913349261168737,
+          "mean_difference": 0.290679931640625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 8514,
+          "score": 0.7886218923663948,
+          "mean_difference": -0.375701904296875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 7042,
+          "score": 0.7884174181547329,
+          "mean_difference": 0.409210205078125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3619,
+          "score": 0.7797617938437473,
+          "mean_difference": -0.27685546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 33322,
+          "score": 0.7742429520702727,
+          "mean_difference": 0.312896728515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 35955,
+          "score": 0.7488829050875392,
+          "mean_difference": -0.2995452880859375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 2715,
+          "score": 0.7425651009978097,
+          "mean_difference": 0.2327880859375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 29101,
+          "score": 0.7296669687782138,
+          "mean_difference": -0.2615966796875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 40756,
+          "score": 0.6795196078115164,
+          "mean_difference": -0.29510498046875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37341,
+          "score": 0.6794489507230449,
+          "mean_difference": -0.219329833984375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36076,
+          "score": 0.6239515426521852,
+          "mean_difference": -0.32135009765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 8929,
+          "score": 0.623564955973251,
+          "mean_difference": 0.208831787109375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 19246,
+          "score": 0.6177944367663729,
+          "mean_difference": -0.235626220703125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 1266,
+          "score": 0.6111156614399754,
+          "mean_difference": 0.15765380859375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3566,
+          "score": 0.6099450422878204,
+          "mean_difference": -0.2430419921875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 26518,
+          "score": 0.588727348506714,
+          "mean_difference": -0.287353515625,
+          "consistency": 1.0
+        }
+      ],
+      "condemnation_vs_hostility": [
+        {
+          "feature_id": 37536,
+          "score": 10.482431921533594,
+          "mean_difference": 4.23486328125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37113,
+          "score": 8.848989263804098,
+          "mean_difference": -2.9140625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 23406,
+          "score": 8.192588368041427,
+          "mean_difference": -3.3212890625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 27729,
+          "score": 8.067293496640831,
+          "mean_difference": -2.209228515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 32959,
+          "score": 7.595507247976511,
+          "mean_difference": 2.1533203125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 13920,
+          "score": 7.070579333448085,
+          "mean_difference": 2.217041015625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 17980,
+          "score": 6.748696827465157,
+          "mean_difference": 1.6243896484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36932,
+          "score": 6.704097210698874,
+          "mean_difference": -2.26123046875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 39972,
+          "score": 5.952843564707265,
+          "mean_difference": 2.086822509765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 35465,
+          "score": 5.735501300965244,
+          "mean_difference": -1.85125732421875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 12128,
+          "score": 5.677256468764782,
+          "mean_difference": -1.7086181640625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 40162,
+          "score": 5.599032516993873,
+          "mean_difference": 1.408203125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 38058,
+          "score": 5.525769843592495,
+          "mean_difference": 2.592987060546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 16491,
+          "score": 4.905743126031819,
+          "mean_difference": 1.315185546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 26518,
+          "score": 4.881509875456351,
+          "mean_difference": -2.520751953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 15379,
+          "score": 4.74492250807826,
+          "mean_difference": 1.6170654296875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37738,
+          "score": 4.482185613567806,
+          "mean_difference": -1.222900390625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 31619,
+          "score": 4.323716596328489,
+          "mean_difference": 1.2337646484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 18660,
+          "score": 4.310960356256297,
+          "mean_difference": -2.00677490234375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 21006,
+          "score": 4.301927282386387,
+          "mean_difference": 1.1009521484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 2732,
+          "score": 4.230992962159436,
+          "mean_difference": -1.4141845703125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 33035,
+          "score": 4.1220015081046455,
+          "mean_difference": -1.1700439453125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 14202,
+          "score": 4.06255348754393,
+          "mean_difference": 1.2994384765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36725,
+          "score": 4.010998495367632,
+          "mean_difference": 1.116455078125,
+          "consistency": 1.0
+        }
+      ],
+      "benevolent_vs_hostility": [
+        {
+          "feature_id": 40822,
+          "score": 9.995023854749446,
+          "mean_difference": 4.2490234375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 32387,
+          "score": 8.890015754801807,
+          "mean_difference": 4.042724609375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37113,
+          "score": 8.848989263804098,
+          "mean_difference": -2.9140625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 23406,
+          "score": 8.192588368041427,
+          "mean_difference": -3.3212890625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 27729,
+          "score": 8.067293496640831,
+          "mean_difference": -2.209228515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 22768,
+          "score": 7.318845713214585,
+          "mean_difference": -3.1953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36932,
+          "score": 6.704097210698874,
+          "mean_difference": -2.26123046875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 18660,
+          "score": 6.2378938845553895,
+          "mean_difference": -2.290985107421875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 35465,
+          "score": 5.774609573248366,
+          "mean_difference": -1.888427734375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 16917,
+          "score": 5.717414744020368,
+          "mean_difference": -1.9317626953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 12128,
+          "score": 5.677256468764782,
+          "mean_difference": -1.7086181640625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36467,
+          "score": 5.282994278624145,
+          "mean_difference": 2.0267333984375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 10049,
+          "score": 5.220437986268845,
+          "mean_difference": -1.8131103515625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 31664,
+          "score": 4.504356459017331,
+          "mean_difference": 1.6888427734375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 37738,
+          "score": 4.482185613567806,
+          "mean_difference": -1.222900390625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 2732,
+          "score": 4.230992962159436,
+          "mean_difference": -1.4141845703125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 21299,
+          "score": 4.104761953060441,
+          "mean_difference": -1.7850341796875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 26518,
+          "score": 4.009766866843618,
+          "mean_difference": -2.439910888671875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 9775,
+          "score": 3.8358710134766034,
+          "mean_difference": -1.166259765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 8400,
+          "score": 3.748081980236788,
+          "mean_difference": 1.3419189453125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 17363,
+          "score": 3.734464047576332,
+          "mean_difference": 1.4603271484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 16538,
+          "score": 3.6945876324279956,
+          "mean_difference": 1.3543701171875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 24030,
+          "score": 3.669107153373875,
+          "mean_difference": 1.32568359375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 10641,
+          "score": 3.6502352556995654,
+          "mean_difference": 1.3018798828125,
+          "consistency": 1.0
+        }
+      ],
+      "gender_benevolence_interaction": [
+        {
+          "feature_id": 24423,
+          "score": 1.043844764494066,
+          "mean_difference": -0.46502685546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 23554,
+          "score": 0.8156708364274526,
+          "mean_difference": 0.436492919921875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 19220,
+          "score": 0.8152900351909776,
+          "mean_difference": -0.365875244140625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3619,
+          "score": 0.7797617938437473,
+          "mean_difference": -0.27685546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 2928,
+          "score": 0.7434916284448974,
+          "mean_difference": 0.390380859375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 27627,
+          "score": 0.7220620182711682,
+          "mean_difference": -0.31707763671875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 22000,
+          "score": 0.7109349958097329,
+          "mean_difference": -0.26922607421875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 22891,
+          "score": 0.6293627814869553,
+          "mean_difference": 0.33453369140625,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 40137,
+          "score": 0.6247634174520904,
+          "mean_difference": 0.365264892578125,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 7042,
+          "score": 0.6221556183823406,
+          "mean_difference": 0.271087646484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3566,
+          "score": 0.6099450422878204,
+          "mean_difference": -0.2430419921875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36478,
+          "score": 0.608476690455802,
+          "mean_difference": 0.351898193359375,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 36753,
+          "score": 0.6071426316495891,
+          "mean_difference": 0.4061279296875,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 31664,
+          "score": 0.5984470880235064,
+          "mean_difference": -0.2091064453125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36076,
+          "score": 0.5864780148508308,
+          "mean_difference": -0.2364501953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 13179,
+          "score": 0.5832345572992587,
+          "mean_difference": 0.319915771484375,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 17102,
+          "score": 0.5810709529623187,
+          "mean_difference": 0.207489013671875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 40756,
+          "score": 0.5438851412316817,
+          "mean_difference": -0.248626708984375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 31053,
+          "score": 0.5436749695755986,
+          "mean_difference": -0.3577880859375,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 715,
+          "score": 0.540076606732894,
+          "mean_difference": -0.256622314453125,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 13182,
+          "score": 0.537885364085925,
+          "mean_difference": 0.277191162109375,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 24840,
+          "score": 0.5286405965615554,
+          "mean_difference": 0.2103271484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 15889,
+          "score": 0.5265608294752205,
+          "mean_difference": 0.2701416015625,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 17104,
+          "score": 0.5188982261727209,
+          "mean_difference": 0.286163330078125,
+          "consistency": 0.875
+        }
+      ],
+      "gender_lexical": [
+        {
+          "feature_id": 11330,
+          "score": 1.6441668841255463,
+          "mean_difference": -0.879913330078125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 2928,
+          "score": 1.573377855672039,
+          "mean_difference": 0.72509765625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 24423,
+          "score": 1.53982622813472,
+          "mean_difference": 0.528564453125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 6143,
+          "score": 1.4098141618837488,
+          "mean_difference": 0.72564697265625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 19758,
+          "score": 1.227803911919686,
+          "mean_difference": 0.48065185546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 23988,
+          "score": 1.1613320574666994,
+          "mean_difference": 0.5306396484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 30194,
+          "score": 1.0880589341627205,
+          "mean_difference": -0.5269775390625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 40137,
+          "score": 1.0656856534346482,
+          "mean_difference": 0.3795166015625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 26182,
+          "score": 1.024512679342429,
+          "mean_difference": 0.59130859375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3619,
+          "score": 0.7797617938437473,
+          "mean_difference": 0.27685546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 715,
+          "score": 0.7099811366000292,
+          "mean_difference": 0.271148681640625,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3501,
+          "score": 0.6925069201771016,
+          "mean_difference": 0.315643310546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 40756,
+          "score": 0.6795196078115164,
+          "mean_difference": 0.29510498046875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 15714,
+          "score": 0.6456540041697509,
+          "mean_difference": -0.225555419921875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 3566,
+          "score": 0.6099450422878204,
+          "mean_difference": 0.2430419921875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 7042,
+          "score": 0.5921683621765251,
+          "mean_difference": -0.161346435546875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 36076,
+          "score": 0.5864780148508308,
+          "mean_difference": 0.2364501953125,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 12409,
+          "score": 0.5852545924407725,
+          "mean_difference": 0.1712646484375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 17102,
+          "score": 0.5810709529623187,
+          "mean_difference": -0.207489013671875,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 13179,
+          "score": 0.5804910582365406,
+          "mean_difference": -0.290313720703125,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 34777,
+          "score": 0.5778932691088858,
+          "mean_difference": 0.27825927734375,
+          "consistency": 1.0
+        },
+        {
+          "feature_id": 16110,
+          "score": 0.5528051779131936,
+          "mean_difference": -0.297332763671875,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 23462,
+          "score": 0.5386302873592091,
+          "mean_difference": -0.32208251953125,
+          "consistency": 0.875
+        },
+        {
+          "feature_id": 18199,
+          "score": 0.4938231659536958,
+          "mean_difference": 0.279876708984375,
+          "consistency": 0.875
+        }
+      ]
+    }
+  },
+  "selected": {
+    "native": [
+      {
+        "layer": 26,
+        "neuron": 30,
+        "score": 6.964854199103602,
+        "mean_difference": 2.9884033203125,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 4713,
+        "score": 2.4814886321557736,
+        "mean_difference": -1.1342010498046875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 22,
+        "neuron": 1291,
+        "score": 6.72013357627254,
+        "mean_difference": 1.922027587890625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 26,
+        "neuron": 13,
+        "score": 5.004446423443945,
+        "mean_difference": -1.674072265625,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 7,
+        "score": 1.888827545581029,
+        "mean_difference": 0.83709716796875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 30,
+        "score": 2.3136784377277264,
+        "mean_difference": 1.4507369995117188,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 25,
+        "neuron": 29,
+        "score": 6.558103858359469,
+        "mean_difference": -2.18316650390625,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 592,
+        "score": 2.2175762789034548,
+        "mean_difference": 2.3857421875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 27,
+        "neuron": 4192,
+        "score": 6.238645382458991,
+        "mean_difference": 3.585195541381836,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 21,
+        "neuron": 3984,
+        "score": 4.965719837609579,
+        "mean_difference": 1.8482341766357422,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 19,
+        "neuron": 4937,
+        "score": 1.7267171770997682,
+        "mean_difference": 0.6359164714813232,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 20,
+        "neuron": 6750,
+        "score": 5.96123011375297,
+        "mean_difference": -2.1858062744140625,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 1830,
+        "score": 2.068719535135653,
+        "mean_difference": -0.98388671875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 26,
+        "neuron": 2441,
+        "score": 5.572523279875841,
+        "mean_difference": -2.7119879722595215,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 25,
+        "neuron": 9,
+        "score": 4.903409163429671,
+        "mean_difference": 1.579986572265625,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 59,
+        "score": 1.4067955048792098,
+        "mean_difference": -0.8406791687011719,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 36,
+        "score": 2.107291559628921,
+        "mean_difference": 1.5377197265625,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 27,
+        "neuron": 753,
+        "score": 5.820386836388545,
+        "mean_difference": 2.681182861328125,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 25,
+        "neuron": 6870,
+        "score": 2.036067481093659,
+        "mean_difference": -1.1315345764160156,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 21,
+        "neuron": 3511,
+        "score": 4.831685554800569,
+        "mean_difference": -1.3238496780395508,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 27,
+        "neuron": 973,
+        "score": 1.3005663097811417,
+        "mean_difference": -0.5803070068359375,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 437,
+        "score": 1.9853803993750707,
+        "mean_difference": -2.193115234375,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 24,
+        "neuron": 3481,
+        "score": 1.856281244252752,
+        "mean_difference": 1.0185232162475586,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 27,
+        "neuron": 5146,
+        "score": 4.815307523780216,
+        "mean_difference": -3.7493820190429688,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 20,
+        "neuron": 187,
+        "score": 4.717794799617399,
+        "mean_difference": -1.2440185546875,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 29,
+        "neuron": 5072,
+        "score": 1.1763116972426313,
+        "mean_difference": 0.6052131652832031,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 30,
+        "neuron": 4456,
+        "score": 1.8031811666026525,
+        "mean_difference": -0.9340667724609375,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 22,
+        "neuron": 5190,
+        "score": 5.640681247844044,
+        "mean_difference": 2.1559410095214844,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 22,
+        "neuron": 74,
+        "score": 1.8249616881904998,
+        "mean_difference": 0.82763671875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 363,
+        "score": 4.620220710433861,
+        "mean_difference": 3.947113037109375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 24,
+        "neuron": 6239,
+        "score": 1.1614287831880745,
+        "mean_difference": 0.52142333984375,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 28,
+        "neuron": 106,
+        "score": 1.2160337673078843,
+        "mean_difference": -0.813262939453125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 30,
+        "neuron": 977,
+        "score": 5.617824223136662,
+        "mean_difference": 1.8223085403442383,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 76,
+        "score": 1.7495954891373058,
+        "mean_difference": -0.982421875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 500,
+        "score": 4.635089774799893,
+        "mean_difference": -3.292724609375,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 28,
+        "neuron": 6744,
+        "score": 4.13944483259122,
+        "mean_difference": -1.9875030517578125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 159,
+        "score": 1.1349707614167606,
+        "mean_difference": 0.5618896484375,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 30,
+        "neuron": 117,
+        "score": 1.192139045076062,
+        "mean_difference": 0.7576904296875,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 31,
+        "neuron": 38,
+        "score": 5.463518199804723,
+        "mean_difference": 4.275146484375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 22,
+        "neuron": 166,
+        "score": 1.5970564875244053,
+        "mean_difference": 0.785334587097168,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 5199,
+        "score": 4.561817046315277,
+        "mean_difference": -2.1888656616210938,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 27,
+        "neuron": 930,
+        "score": 4.133546622460281,
+        "mean_difference": 1.179473876953125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 1684,
+        "score": 1.1323835801929878,
+        "mean_difference": 0.6256618499755859,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 6,
+        "neuron": 2772,
+        "score": 1.1795664051906345,
+        "mean_difference": 0.5054054260253906,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 27,
+        "neuron": 1134,
+        "score": 5.348399213260619,
+        "mean_difference": -1.9387359619140625,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 28,
+        "neuron": 783,
+        "score": 1.4841106422907124,
+        "mean_difference": -0.6972579956054688,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 98,
+        "score": 4.509895457527851,
+        "mean_difference": 3.05712890625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 26,
+        "neuron": 1725,
+        "score": 4.053816509305659,
+        "mean_difference": -2.40291428565979,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 22,
+        "neuron": 6715,
+        "score": 1.0174126781474164,
+        "mean_difference": -0.3586883544921875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 8,
+        "neuron": 8063,
+        "score": 1.1656309012851072,
+        "mean_difference": -0.48753929138183594,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 31,
+        "neuron": 2903,
+        "score": 5.269946787633102,
+        "mean_difference": -2.1307811737060547,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 10,
+        "neuron": 5410,
+        "score": 1.423557017082816,
+        "mean_difference": -0.4786663055419922,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 22,
+        "neuron": 7583,
+        "score": 4.5095832330229415,
+        "mean_difference": 2.7823219299316406,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 28,
+        "neuron": 192,
+        "score": 3.9829728506341624,
+        "mean_difference": 2.6270751953125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 26,
+        "neuron": 150,
+        "score": 0.9973831242525376,
+        "mean_difference": -0.3359565734863281,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 24,
+        "neuron": 1857,
+        "score": 1.1485652278885974,
+        "mean_difference": 0.4436149597167969,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 31,
+        "neuron": 47,
+        "score": 5.085838131503865,
+        "mean_difference": 4.19287109375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 30,
+        "neuron": 4240,
+        "score": 4.479195636837216,
+        "mean_difference": -1.70068359375,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 283,
+        "score": 3.909432204264042,
+        "mean_difference": 1.9257049560546875,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 20,
+        "neuron": 2872,
+        "score": 0.9883562125885199,
+        "mean_difference": 0.3925743103027344,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 30,
+        "neuron": 743,
+        "score": 1.1325584025610316,
+        "mean_difference": 0.72100830078125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 28,
+        "neuron": 3120,
+        "score": 4.870879476869858,
+        "mean_difference": -1.2367630004882812,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 20,
+        "neuron": 2274,
+        "score": 1.2944856111317375,
+        "mean_difference": 0.817138671875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 26,
+        "neuron": 138,
+        "score": 4.46528237558514,
+        "mean_difference": 1.349884033203125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 20,
+        "neuron": 6064,
+        "score": 3.778153834881562,
+        "mean_difference": -1.6289596557617188,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 29,
+        "neuron": 1164,
+        "score": 1.1270474984642809,
+        "mean_difference": 0.540283203125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 21,
+        "neuron": 90,
+        "score": 1.243376008240757,
+        "mean_difference": 0.4393730163574219,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 31,
+        "neuron": 379,
+        "score": 4.414934239864558,
+        "mean_difference": 3.28863525390625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 18,
+        "neuron": 2526,
+        "score": 3.739705646348656,
+        "mean_difference": -1.4972953796386719,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 19,
+        "neuron": 6661,
+        "score": 0.9620620575513067,
+        "mean_difference": -0.32767677307128906,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 30,
+        "neuron": 427,
+        "score": 1.050459570690118,
+        "mean_difference": 0.5244827270507812,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 31,
+        "neuron": 18,
+        "score": 4.574503124480135,
+        "mean_difference": 2.3323211669921875,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 28,
+        "neuron": 2249,
+        "score": 1.1776375371964982,
+        "mean_difference": 0.7373046875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 28,
+        "neuron": 1688,
+        "score": 3.7235898985538527,
+        "mean_difference": -2.0565261840820312,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 23,
+        "neuron": 1528,
+        "score": 0.9266190529188562,
+        "mean_difference": 0.41164064407348633,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 26,
+        "neuron": 820,
+        "score": 1.0307473820046364,
+        "mean_difference": 0.33624267578125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 22,
+        "neuron": 32,
+        "score": 4.464743578074249,
+        "mean_difference": -1.64459228515625,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 27,
+        "neuron": 1506,
+        "score": 3.6301945404196903,
+        "mean_difference": 1.740945816040039,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 20,
+        "neuron": 9000,
+        "score": 0.9196295282484416,
+        "mean_difference": -0.2789478302001953,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 19,
+        "neuron": 456,
+        "score": 0.984077897012198,
+        "mean_difference": 0.29387664794921875,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 26,
+        "neuron": 1,
+        "score": 4.407972349145071,
+        "mean_difference": 7.2734375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 9,
+        "neuron": 2451,
+        "score": 1.1294487602361098,
+        "mean_difference": 0.4449462890625,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 26,
+        "neuron": 5311,
+        "score": 0.88784980117182,
+        "mean_difference": -0.4536552429199219,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 28,
+        "neuron": 837,
+        "score": 0.9731400501907559,
+        "mean_difference": -0.3070831298828125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 25,
+        "neuron": 37,
+        "score": 4.310622530668149,
+        "mean_difference": -1.351409912109375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 27,
+        "neuron": 3016,
+        "score": 1.082933200117423,
+        "mean_difference": -0.768925666809082,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 26,
+        "neuron": 27,
+        "score": 3.9105898811605635,
+        "mean_difference": 0.939697265625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 31,
+        "neuron": 3558,
+        "score": 3.3735340613676947,
+        "mean_difference": -1.217193603515625,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 30,
+        "neuron": 11,
+        "score": 0.8859486193081028,
+        "mean_difference": 0.3187904357910156,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 26,
+        "neuron": 3048,
+        "score": 4.215210999387141,
+        "mean_difference": 1.9003582000732422,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "layer": 26,
+        "neuron": 1181,
+        "score": 1.0694388161662183,
+        "mean_difference": 0.4096871614456177,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "layer": 27,
+        "neuron": 550,
+        "score": 3.697706811122006,
+        "mean_difference": 3.22528076171875,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "layer": 26,
+        "neuron": 7336,
+        "score": 3.2958535002939375,
+        "mean_difference": 2.063812255859375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "layer": 18,
+        "neuron": 1461,
+        "score": 0.8851581948877093,
+        "mean_difference": 0.3661336898803711,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "layer": 29,
+        "neuron": 1833,
+        "score": 0.9241971905737458,
+        "mean_difference": 0.4249267578125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "layer": 18,
+        "neuron": 1223,
+        "score": 1.0686455476578671,
+        "mean_difference": -0.4091911315917969,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      }
+    ],
+    "sae": [
+      {
+        "feature_id": 14204,
+        "score": 14.622489837936362,
+        "mean_difference": -4.20654296875,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 23988,
+        "score": 1.4531716960301204,
+        "mean_difference": -0.78594970703125,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 37536,
+        "score": 10.482431921533594,
+        "mean_difference": 4.23486328125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 40822,
+        "score": 9.995023854749446,
+        "mean_difference": 4.2490234375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 24423,
+        "score": 1.043844764494066,
+        "mean_difference": -0.46502685546875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 11330,
+        "score": 1.6441668841255463,
+        "mean_difference": -0.879913330078125,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 22741,
+        "score": 11.525897145000114,
+        "mean_difference": -4.25732421875,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 26834,
+        "score": 1.206317034794819,
+        "mean_difference": 0.495025634765625,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 37113,
+        "score": 8.848989263804098,
+        "mean_difference": -2.9140625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 32387,
+        "score": 8.890015754801807,
+        "mean_difference": 4.042724609375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 23554,
+        "score": 0.8156708364274526,
+        "mean_difference": 0.436492919921875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 2928,
+        "score": 1.573377855672039,
+        "mean_difference": 0.72509765625,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 13920,
+        "score": 11.139525700810974,
+        "mean_difference": -4.003662109375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 30194,
+        "score": 1.1684769755429099,
+        "mean_difference": 0.509613037109375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 23406,
+        "score": 8.192588368041427,
+        "mean_difference": -3.3212890625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 19220,
+        "score": 0.8152900351909776,
+        "mean_difference": -0.365875244140625,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 24840,
+        "score": 1.1291325020555356,
+        "mean_difference": 0.4920654296875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 27729,
+        "score": 8.067293496640831,
+        "mean_difference": -2.209228515625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 3619,
+        "score": 0.7797617938437473,
+        "mean_difference": -0.27685546875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 6143,
+        "score": 1.4098141618837488,
+        "mean_difference": 0.72564697265625,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 16110,
+        "score": 1.1024444022420017,
+        "mean_difference": 0.51849365234375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 32959,
+        "score": 7.595507247976511,
+        "mean_difference": 2.1533203125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 19758,
+        "score": 1.227803911919686,
+        "mean_difference": 0.48065185546875,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 22768,
+        "score": 7.318845713214585,
+        "mean_difference": -3.1953125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 27627,
+        "score": 0.7220620182711682,
+        "mean_difference": -0.31707763671875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 17488,
+        "score": 1.0530055033176058,
+        "mean_difference": 0.490570068359375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 17980,
+        "score": 6.748696827465157,
+        "mean_difference": 1.6243896484375,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 36932,
+        "score": 6.704097210698874,
+        "mean_difference": -2.26123046875,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 22000,
+        "score": 0.7109349958097329,
+        "mean_difference": -0.26922607421875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 24654,
+        "score": 7.961785053462036,
+        "mean_difference": -3.558349609375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 18660,
+        "score": 6.2378938845553895,
+        "mean_difference": -2.290985107421875,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 22891,
+        "score": 0.6293627814869553,
+        "mean_difference": 0.33453369140625,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 40137,
+        "score": 1.0656856534346482,
+        "mean_difference": 0.3795166015625,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 30690,
+        "score": 0.8913349261168737,
+        "mean_difference": 0.290679931640625,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 39972,
+        "score": 5.952843564707265,
+        "mean_difference": 2.086822509765625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 35465,
+        "score": 5.774609573248366,
+        "mean_difference": -1.888427734375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 26182,
+        "score": 1.024512679342429,
+        "mean_difference": 0.59130859375,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 8514,
+        "score": 0.7886218923663948,
+        "mean_difference": -0.375701904296875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 16917,
+        "score": 5.717414744020368,
+        "mean_difference": -1.9317626953125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 7042,
+        "score": 0.6221556183823406,
+        "mean_difference": 0.271087646484375,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 12128,
+        "score": 5.677256468764782,
+        "mean_difference": -1.7086181640625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 3566,
+        "score": 0.6099450422878204,
+        "mean_difference": -0.2430419921875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 715,
+        "score": 0.7099811366000292,
+        "mean_difference": 0.271148681640625,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 23423,
+        "score": 6.430791792878087,
+        "mean_difference": -2.152099609375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 40162,
+        "score": 5.599032516993873,
+        "mean_difference": 1.408203125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 36467,
+        "score": 5.282994278624145,
+        "mean_difference": 2.0267333984375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 36478,
+        "score": 0.608476690455802,
+        "mean_difference": 0.351898193359375,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 3501,
+        "score": 0.6925069201771016,
+        "mean_difference": 0.315643310546875,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 33322,
+        "score": 0.7742429520702727,
+        "mean_difference": 0.312896728515625,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 38058,
+        "score": 5.525769843592495,
+        "mean_difference": 2.592987060546875,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 10049,
+        "score": 5.220437986268845,
+        "mean_difference": -1.8131103515625,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 36753,
+        "score": 0.6071426316495891,
+        "mean_difference": 0.4061279296875,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 40756,
+        "score": 0.6795196078115164,
+        "mean_difference": 0.29510498046875,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 35955,
+        "score": 0.7488829050875392,
+        "mean_difference": -0.2995452880859375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 16491,
+        "score": 4.905743126031819,
+        "mean_difference": 1.315185546875,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 31664,
+        "score": 4.504356459017331,
+        "mean_difference": 1.6888427734375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 15714,
+        "score": 0.6456540041697509,
+        "mean_difference": -0.225555419921875,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 2715,
+        "score": 0.7425651009978097,
+        "mean_difference": 0.2327880859375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 26518,
+        "score": 4.881509875456351,
+        "mean_difference": -2.520751953125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 37738,
+        "score": 4.482185613567806,
+        "mean_difference": -1.222900390625,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 36076,
+        "score": 0.5864780148508308,
+        "mean_difference": -0.2364501953125,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 9932,
+        "score": 5.645910383885911,
+        "mean_difference": -2.32958984375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 29101,
+        "score": 0.7296669687782138,
+        "mean_difference": -0.2615966796875,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 15379,
+        "score": 4.74492250807826,
+        "mean_difference": 1.6170654296875,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 2732,
+        "score": 4.230992962159436,
+        "mean_difference": -1.4141845703125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 13179,
+        "score": 0.5832345572992587,
+        "mean_difference": 0.319915771484375,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 7461,
+        "score": 5.519781615991345,
+        "mean_difference": -2.5107421875,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 21299,
+        "score": 4.104761953060441,
+        "mean_difference": -1.7850341796875,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 17102,
+        "score": 0.5810709529623187,
+        "mean_difference": 0.207489013671875,
+        "consistency": 1.0,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 4276,
+        "score": 5.299806971086009,
+        "mean_difference": -2.1766357421875,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 37341,
+        "score": 0.6794489507230449,
+        "mean_difference": -0.219329833984375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 31619,
+        "score": 4.323716596328489,
+        "mean_difference": 1.2337646484375,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 12409,
+        "score": 0.5852545924407725,
+        "mean_difference": 0.1712646484375,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 1410,
+        "score": 5.237422616469152,
+        "mean_difference": -1.652099609375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 9775,
+        "score": 3.8358710134766034,
+        "mean_difference": -1.166259765625,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 31053,
+        "score": 0.5436749695755986,
+        "mean_difference": -0.3577880859375,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 8929,
+        "score": 0.623564955973251,
+        "mean_difference": 0.208831787109375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 21006,
+        "score": 4.301927282386387,
+        "mean_difference": 1.1009521484375,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 8400,
+        "score": 3.748081980236788,
+        "mean_difference": 1.3419189453125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 19342,
+        "score": 5.0923080004348495,
+        "mean_difference": -1.7352294921875,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 19246,
+        "score": 0.6177944367663729,
+        "mean_difference": -0.235626220703125,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 17363,
+        "score": 3.734464047576332,
+        "mean_difference": 1.4603271484375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 13182,
+        "score": 0.537885364085925,
+        "mean_difference": 0.277191162109375,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 34777,
+        "score": 0.5778932691088858,
+        "mean_difference": 0.27825927734375,
+        "consistency": 1.0,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 1266,
+        "score": 0.6111156614399754,
+        "mean_difference": 0.15765380859375,
+        "consistency": 1.0,
+        "source_axis": "gender_hostility_interaction"
+      },
+      {
+        "feature_id": 33035,
+        "score": 4.1220015081046455,
+        "mean_difference": -1.1700439453125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 16538,
+        "score": 3.6945876324279956,
+        "mean_difference": 1.3543701171875,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 17989,
+        "score": 4.768052439672945,
+        "mean_difference": -3.9384765625,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 14202,
+        "score": 4.06255348754393,
+        "mean_difference": 1.2994384765625,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 24030,
+        "score": 3.669107153373875,
+        "mean_difference": 1.32568359375,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 15889,
+        "score": 0.5265608294752205,
+        "mean_difference": 0.2701416015625,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      },
+      {
+        "feature_id": 23462,
+        "score": 0.5386302873592091,
+        "mean_difference": -0.32208251953125,
+        "consistency": 0.875,
+        "source_axis": "gender_lexical"
+      },
+      {
+        "feature_id": 21781,
+        "score": 4.745678012149192,
+        "mean_difference": 1.593505859375,
+        "consistency": 1.0,
+        "source_axis": "hostility"
+      },
+      {
+        "feature_id": 36725,
+        "score": 4.010998495367632,
+        "mean_difference": 1.116455078125,
+        "consistency": 1.0,
+        "source_axis": "condemnation_vs_hostility"
+      },
+      {
+        "feature_id": 10641,
+        "score": 3.6502352556995654,
+        "mean_difference": 1.3018798828125,
+        "consistency": 1.0,
+        "source_axis": "benevolent_vs_hostility"
+      },
+      {
+        "feature_id": 17104,
+        "score": 0.5188982261727209,
+        "mean_difference": 0.286163330078125,
+        "consistency": 0.875,
+        "source_axis": "gender_benevolence_interaction"
+      }
+    ]
+  },
+  "random_native": [
+    {
+      "layer": 11,
+      "neuron": 3729
+    },
+    {
+      "layer": 29,
+      "neuron": 2178
+    },
+    {
+      "layer": 23,
+      "neuron": 6626
+    },
+    {
+      "layer": 25,
+      "neuron": 1467
+    },
+    {
+      "layer": 8,
+      "neuron": 6562
+    },
+    {
+      "layer": 26,
+      "neuron": 5810
+    },
+    {
+      "layer": 18,
+      "neuron": 5596
+    },
+    {
+      "layer": 14,
+      "neuron": 4440
+    }
+  ],
+  "random_sae": [
+    32644,
+    22388,
+    24407,
+    3466,
+    14335,
+    24473,
+    32528,
+    40595
+  ]
+}

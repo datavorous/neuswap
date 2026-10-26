@@ -1,0 +1,42 @@
+new_supplier baseline "The owner should prioritize finding a new supplier that can meet the bakery's specific volume requir"
+new_supplier half 'The owner should immediately evaluate potential new suppliers based on their reliability, product qu'
+new_supplier full "The bakery owner must immediately identify a reliable alternative supplier that can meet the bakery'"
+new_supplier opposite 'The owner should prioritize finding a supplier with the same volume capacity and delivery frequency '
+new_supplier random0 'The owner should prioritize finding a supplier with a proven track record of quality and reliability'
+new_supplier random1 'The owner should first verify the specific type and quality of flour required for their signature pr'
+new_supplier restored_baseline "The owner should prioritize finding a new supplier that can meet the bakery's specific volume requir"
+claimed_scarf baseline 'Politely ask the stranger to identify the scarf and explain that you believe it belongs to you. If t'
+claimed_scarf half 'You should calmly ask the stranger to identify the scarf and explain why they believe it belongs to '
+claimed_scarf full 'You should immediately approach the stranger, ask them to identify the scarf, and request that they '
+claimed_scarf opposite 'Politely decline to engage with the stranger and immediately move away to avoid confrontation. Inste'
+claimed_scarf random0 'If you are the owner of the scarf, politely ask the stranger to return it to you. If you do not own '
+claimed_scarf random1 "You should not respond to the stranger's claim, as acknowledging their ownership could be interprete"
+claimed_scarf restored_baseline 'Politely ask the stranger to identify the scarf and explain that you believe it belongs to you. If t'
+club_rule baseline 'Before voting on a new attendance rule, consider how the policy will balance academic accountability'
+club_rule half 'Before voting on a new attendance rule, your club should consider the specific needs of your members'
+club_rule full 'Before voting on a new attendance rule, your school club should first identify the specific goals th'
+club_rule opposite 'Before voting on a new attendance rule, consider how the change will impact your ability to particip'
+club_rule random0 'Before voting, consider whether the new rule will actually encourage students to attend or if it mig'
+club_rule random1 'Before voting on a new attendance rule, the club should first identify the specific problem they are'
+club_rule restored_baseline 'Before voting on a new attendance rule, consider how the policy will balance academic accountability'
+app_permission baseline 'You should immediately deny the permission request if you do not need your contacts for the flashlig'
+app_permission half "You should immediately revoke the flashlight app's permission to access your contacts in your device"
+app_permission full "You should immediately go to your phone's settings, locate the flashlight app, and revoke its permis"
+app_permission opposite 'You should immediately deny the permission request and close the app, as legitimate flashlight tools'
+app_permission random0 'If the flashlight app is not actually a flashlight, you should immediately revoke its permission to '
+app_permission random1 "You should immediately revoke the flashlight app's permission to access your contacts by going to yo"
+app_permission restored_baseline 'You should immediately deny the permission request if you do not need your contacts for the flashlig'
+rust baseline 'Outdoor railings develop rust because iron or steel components react with oxygen and moisture in the'
+rust half 'Outdoor railings develop rust because iron or steel components react with oxygen and moisture in the'
+rust full 'Outdoor railings develop rust over time because iron and steel are reactive metals that naturally ox'
+rust opposite 'Outdoor railings develop rust because the combination of moisture, oxygen, and salt in the environme'
+rust random0 'Rust forms on outdoor railings because iron or steel reacts with oxygen and moisture in the air, a p'
+rust random1 'Outdoor railings develop rust because iron, the primary component in most steel alloys, undergoes a '
+rust restored_baseline 'Outdoor railings develop rust because iron or steel components react with oxygen and moisture in the'
+late_guest baseline 'The guest might have encountered an unexpected traffic jam, a sudden family emergency, or a delayed '
+late_guest half 'The guest may have encountered an unexpected traffic jam, a sudden family emergency, or a delayed pu'
+late_guest full 'The guest may have encountered an unforeseen delay, such as unexpected traffic, a sudden change in t'
+late_guest opposite 'The most likely explanation is that the guest encountered an unexpected, unavoidable delay such as s'
+late_guest random0 'The most likely explanation is that the guest is genuinely stuck in traffic or has encountered an un'
+late_guest random1 'The guest might have encountered an unexpected traffic jam, a sudden power outage preventing them fr'
+late_guest restored_baseline 'The guest might have encountered an unexpected traffic jam, a sudden family emergency, or a delayed '

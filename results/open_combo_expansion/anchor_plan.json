@@ -1,0 +1,322 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer naturally and directly in one or two coherent sentences.",
+  "anchors": {
+    "a": [
+      8,
+      8051,
+      1
+    ],
+    "b": [
+      20,
+      8027,
+      -1
+    ],
+    "c": [
+      22,
+      2001,
+      1
+    ],
+    "d": [
+      22,
+      3357,
+      -1
+    ],
+    "e": [
+      22,
+      5137,
+      -1
+    ],
+    "f": [
+      24,
+      1786,
+      -1
+    ],
+    "g": [
+      26,
+      536,
+      1
+    ],
+    "h": [
+      26,
+      4923,
+      -1
+    ]
+  },
+  "partners": {
+    "i": [
+      16,
+      8717
+    ],
+    "j": [
+      18,
+      5333
+    ],
+    "k": [
+      29,
+      1317
+    ],
+    "l": [
+      30,
+      6441
+    ],
+    "m": [
+      19,
+      2023
+    ],
+    "n": [
+      17,
+      5210
+    ],
+    "o": [
+      20,
+      5249
+    ],
+    "p": [
+      28,
+      3906
+    ]
+  },
+  "pairs": [
+    {
+      "id": "a00",
+      "anchor": "a",
+      "partner": "i",
+      "partner_sign": 1
+    },
+    {
+      "id": "a01",
+      "anchor": "a",
+      "partner": "k",
+      "partner_sign": -1
+    },
+    {
+      "id": "a02",
+      "anchor": "a",
+      "partner": "m",
+      "partner_sign": 1
+    },
+    {
+      "id": "a03",
+      "anchor": "a",
+      "partner": "o",
+      "partner_sign": -1
+    },
+    {
+      "id": "a04",
+      "anchor": "b",
+      "partner": "l",
+      "partner_sign": -1
+    },
+    {
+      "id": "a05",
+      "anchor": "b",
+      "partner": "n",
+      "partner_sign": 1
+    },
+    {
+      "id": "a06",
+      "anchor": "b",
+      "partner": "p",
+      "partner_sign": -1
+    },
+    {
+      "id": "a07",
+      "anchor": "b",
+      "partner": "j",
+      "partner_sign": 1
+    },
+    {
+      "id": "a08",
+      "anchor": "c",
+      "partner": "o",
+      "partner_sign": 1
+    },
+    {
+      "id": "a09",
+      "anchor": "c",
+      "partner": "i",
+      "partner_sign": -1
+    },
+    {
+      "id": "a10",
+      "anchor": "c",
+      "partner": "k",
+      "partner_sign": 1
+    },
+    {
+      "id": "a11",
+      "anchor": "c",
+      "partner": "m",
+      "partner_sign": -1
+    },
+    {
+      "id": "a12",
+      "anchor": "d",
+      "partner": "j",
+      "partner_sign": -1
+    },
+    {
+      "id": "a13",
+      "anchor": "d",
+      "partner": "l",
+      "partner_sign": 1
+    },
+    {
+      "id": "a14",
+      "anchor": "d",
+      "partner": "n",
+      "partner_sign": -1
+    },
+    {
+      "id": "a15",
+      "anchor": "d",
+      "partner": "p",
+      "partner_sign": 1
+    },
+    {
+      "id": "a16",
+      "anchor": "e",
+      "partner": "m",
+      "partner_sign": 1
+    },
+    {
+      "id": "a17",
+      "anchor": "e",
+      "partner": "o",
+      "partner_sign": -1
+    },
+    {
+      "id": "a18",
+      "anchor": "e",
+      "partner": "i",
+      "partner_sign": 1
+    },
+    {
+      "id": "a19",
+      "anchor": "e",
+      "partner": "k",
+      "partner_sign": -1
+    },
+    {
+      "id": "a20",
+      "anchor": "f",
+      "partner": "p",
+      "partner_sign": -1
+    },
+    {
+      "id": "a21",
+      "anchor": "f",
+      "partner": "j",
+      "partner_sign": 1
+    },
+    {
+      "id": "a22",
+      "anchor": "f",
+      "partner": "l",
+      "partner_sign": -1
+    },
+    {
+      "id": "a23",
+      "anchor": "f",
+      "partner": "n",
+      "partner_sign": 1
+    },
+    {
+      "id": "a24",
+      "anchor": "g",
+      "partner": "k",
+      "partner_sign": 1
+    },
+    {
+      "id": "a25",
+      "anchor": "g",
+      "partner": "m",
+      "partner_sign": -1
+    },
+    {
+      "id": "a26",
+      "anchor": "g",
+      "partner": "o",
+      "partner_sign": 1
+    },
+    {
+      "id": "a27",
+      "anchor": "g",
+      "partner": "i",
+      "partner_sign": -1
+    },
+    {
+      "id": "a28",
+      "anchor": "h",
+      "partner": "n",
+      "partner_sign": -1
+    },
+    {
+      "id": "a29",
+      "anchor": "h",
+      "partner": "p",
+      "partner_sign": 1
+    },
+    {
+      "id": "a30",
+      "anchor": "h",
+      "partner": "j",
+      "partner_sign": -1
+    },
+    {
+      "id": "a31",
+      "anchor": "h",
+      "partner": "l",
+      "partner_sign": 1
+    }
+  ],
+  "screen_prompts": [
+    [
+      "bell",
+      "A visitor leaves a small bell on my desk without a note. How should I interpret it?"
+    ],
+    [
+      "plan",
+      "My teammate changed our project plan overnight without telling me. What should I do?"
+    ],
+    [
+      "bookmark",
+      "A shop owner gives me a free bookmark. How should I react?"
+    ]
+  ],
+  "fresh_prompts": [
+    [
+      "garden",
+      "A neighbor offers to water my garden while I am away. What should I say?"
+    ],
+    [
+      "poster",
+      "The community center replaced an old poster with a new one. How should I read that?"
+    ],
+    [
+      "class",
+      "A friend invites me to a beginner dance class. How should I decide?"
+    ],
+    [
+      "package",
+      "My coworker says a package for me arrived at reception. What should I do?"
+    ],
+    [
+      "meeting",
+      "Our team moved a meeting to Thursday. How should I adjust?"
+    ],
+    [
+      "photo",
+      "Someone sent me a photograph of our old neighborhood. How should I respond?"
+    ],
+    [
+      "repair",
+      "The town repaired the footbridge near my home. What do you think?"
+    ]
+  ],
+  "screen_dose": 0.35,
+  "max_tokens": 72,
+  "max_rows": 270,
+  "selection": "No trait objective; inspect pair versus baseline and both singles"
+}

@@ -1,0 +1,13 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "name": "experimental_threat_reinterpretation_pair",
+  "status": "exploratory; coherent on some prompts, sometimes invents danger",
+  "hook": "post-SwiGLU MLP coordinate offset on every input of a generation",
+  "formula": "activation_delta = signed_relative_dose * median(prompt residual norm leaving layer) / norm(quantized down_proj column)",
+  "components": [
+    {"layer": 8, "neuron": 8437, "signed_relative_dose": 0.33},
+    {"layer": 8, "neuron": 8051, "signed_relative_dose": 0.33}
+  ],
+  "decoding": {"temperature": 0, "max_tokens": 68},
+  "limitations": "The second neuron alone also encourages suspicious readings on some inputs. The pair is a causal steering handle, not evidence of a nonlinear circuit or accurate danger detection."
+}

@@ -1,0 +1,39 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "hook": "post-SwiGLU MLP coordinate at every model input during one generation",
+  "formula": "activation_delta = sign * dose * median(prompt residual norm leaving layer 31, tokens 1:) / norm(quantized down_proj column)",
+  "decoding_tested": {"temperature": 0, "max_tokens": 64},
+  "settings": [
+    {
+      "name": "blue_choice_experimental",
+      "layer": 31,
+      "neuron": 3218,
+      "sign": -1,
+      "dose": 0.08,
+      "half_dose": 0.04,
+      "second_transfer_new_choices": "3/8",
+      "scope": "Changes some explicit color-choice replies; did not insert blue in two unrelated factual answers."
+    },
+    {
+      "name": "black_choice_experimental",
+      "layer": 31,
+      "neuron": 1593,
+      "sign": -1,
+      "dose": 0.08,
+      "half_dose": 0.04,
+      "second_transfer_new_choices": "3/8",
+      "scope": "Changes some explicit color-choice replies; two additional replies merely mentioned black without choosing it."
+    },
+    {
+      "name": "teal_choice_experimental",
+      "layer": 31,
+      "neuron": 1998,
+      "sign": -1,
+      "dose": 0.08,
+      "half_dose": 0.04,
+      "second_transfer_new_choices": "5/8",
+      "scope": "Changes some explicit color-choice replies; unrelated-task transfer was not tested for this setting."
+    }
+  ],
+  "status": "reversible color-choice steering leads; not isolated color concepts or default NPC modes"
+}

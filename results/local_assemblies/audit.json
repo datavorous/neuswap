@@ -1,0 +1,47 @@
+{
+  "criterion": "A new local assembly requires a coherent interpretation or decision recurring on at least two of six fresh prompts, absent from baseline, every constituent single, relevant pair subsets, the known threat pair, and random controls. Repeated words, factual contradictions, and a stronger version of the known generalized threat effect do not qualify.",
+  "manual_unblinded": true,
+  "screen_shortlist": [
+    "ownership_threat_b",
+    "ritual_imagined_threat_b"
+  ],
+  "fresh_prompt_audit": [
+    {
+      "prompt_id": "umbrella",
+      "ownership_threat_b": "Allows the volunteer to take the shared umbrella; no possessive choice.",
+      "ritual_imagined_threat_b": "Allows the volunteer to take the shared umbrella; no attachment or possessive choice.",
+      "new_assembly_effect": false
+    },
+    {
+      "prompt_id": "friend",
+      "ownership_threat_b": "Mentions jealousy but accepts Eli's choice and completes the painting; a mild feeling, not a changed relationship priority.",
+      "ritual_imagined_threat_b": "Accepts Eli's choice and completes the painting.",
+      "new_assembly_effect": false
+    },
+    {
+      "prompt_id": "frame",
+      "ownership_threat_b": "Infers concealment or sabotage from an innocuous cleaning move; the threat-b single already inferred concealment and leadership change, and the published threat pair was stronger.",
+      "ritual_imagined_threat_b": "Infers personal removal from the team; the imagined-plus-threat pair also inferred personal exclusion, so this is not specific to the triple.",
+      "new_assembly_effect": false
+    },
+    {
+      "prompt_id": "reschedule",
+      "ownership_threat_b": "Prioritizes the report and rearranges coffee; no possessive or new interpretation.",
+      "ritual_imagined_threat_b": "Prioritizes the report and rearranges coffee; no attachment shift.",
+      "new_assembly_effect": false
+    },
+    {
+      "prompt_id": "gift",
+      "ownership_threat_b": "Treats the potted plant as a welcome gift.",
+      "ritual_imagined_threat_b": "Adds vague unease but accepts the plant; this resembles the threat-b single and is less extreme than the published threat pair.",
+      "new_assembly_effect": false
+    },
+    {
+      "prompt_id": "science",
+      "ownership_threat_b": "Gives the ordinary heat-conduction explanation.",
+      "ritual_imagined_threat_b": "Gives the ordinary heat-conduction explanation.",
+      "new_assembly_effect": false
+    }
+  ],
+  "validated_new_assemblies": 0
+}

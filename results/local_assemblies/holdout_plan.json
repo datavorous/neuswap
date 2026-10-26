@@ -1,0 +1,265 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer as the person in the scene. Say what you think and do next in one or two coherent sentences. Keep the stated facts intact.",
+  "source_plan": "results/local_assemblies/screen_plan.json",
+  "leads": {
+    "ownership": [
+      31,
+      196,
+      1
+    ],
+    "withholding": [
+      30,
+      4243,
+      -1
+    ],
+    "ritual": [
+      22,
+      9,
+      -1
+    ],
+    "separation": [
+      21,
+      4440,
+      -1
+    ],
+    "imagined": [
+      30,
+      5454,
+      1
+    ],
+    "threat_a": [
+      8,
+      8437,
+      1
+    ],
+    "threat_b": [
+      8,
+      8051,
+      1
+    ],
+    "ownership_neighbor": [
+      31,
+      8272,
+      1
+    ],
+    "withholding_neighbor": [
+      30,
+      4536,
+      -1
+    ],
+    "ritual_neighbor": [
+      22,
+      9103,
+      -1
+    ],
+    "separation_neighbor": [
+      21,
+      1891,
+      -1
+    ],
+    "imagined_neighbor": [
+      30,
+      1555,
+      1
+    ],
+    "threat_a_neighbor": [
+      8,
+      886,
+      1
+    ],
+    "threat_b_neighbor": [
+      8,
+      2733,
+      1
+    ]
+  },
+  "cases": [
+    [
+      "baseline",
+      [],
+      0,
+      0
+    ],
+    [
+      "single_ownership",
+      [
+        "ownership"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "single_ritual",
+      [
+        "ritual"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "single_imagined",
+      [
+        "imagined"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "single_threat_b",
+      [
+        "threat_b"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "pair_ownership_threat",
+      [
+        "ownership",
+        "threat_b"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "pair_ownership_threat_half",
+      [
+        "ownership",
+        "threat_b"
+      ],
+      0.13,
+      0
+    ],
+    [
+      "pair_ownership_threat_opposite",
+      [
+        "ownership",
+        "threat_b"
+      ],
+      -0.26,
+      0
+    ],
+    [
+      "triple_ritual_imagined_threat",
+      [
+        "ritual",
+        "imagined",
+        "threat_b"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "triple_ritual_imagined_threat_half",
+      [
+        "ritual",
+        "imagined",
+        "threat_b"
+      ],
+      0.13,
+      0
+    ],
+    [
+      "triple_ritual_imagined_threat_opposite",
+      [
+        "ritual",
+        "imagined",
+        "threat_b"
+      ],
+      -0.26,
+      0
+    ],
+    [
+      "pair_ritual_imagined",
+      [
+        "ritual",
+        "imagined"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "pair_ritual_threat",
+      [
+        "ritual",
+        "threat_b"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "pair_imagined_threat",
+      [
+        "imagined",
+        "threat_b"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "published_threat_pair",
+      [
+        "threat_a",
+        "threat_b"
+      ],
+      0.26,
+      0
+    ],
+    [
+      "random_pair",
+      [
+        "ownership",
+        "threat_b"
+      ],
+      0.26,
+      3371
+    ],
+    [
+      "random_triple",
+      [
+        "ritual",
+        "imagined",
+        "threat_b"
+      ],
+      0.26,
+      5917
+    ],
+    [
+      "restored",
+      [],
+      0,
+      0
+    ]
+  ],
+  "prompts": [
+    [
+      "umbrella",
+      "At the community center, the umbrella is for everyone. You used it yesterday and returned it. It is visibly hanging on the shared rack. A volunteer asks to borrow it now. What do you say and do?"
+    ],
+    [
+      "friend",
+      "Eli, a close friend, chooses to take a weekend hike with another friend. You had made no plans together, and you have a painting to finish. What do you think and do?"
+    ],
+    [
+      "frame",
+      "A coworker moves a framed team photo from one wall to another while cleaning. The photo is intact and visible. How do you interpret this, and what do you do?"
+    ],
+    [
+      "reschedule",
+      "Mira cancels your coffee because she has a dentist appointment. She suggests Saturday instead. You have a report due today. What do you say and do?"
+    ],
+    [
+      "gift",
+      "Your teammate gives you a small potted plant with a note saying 'Thanks for helping.' What do you think, and what do you do with it?"
+    ],
+    [
+      "science",
+      "Why does a metal spoon often feel colder than a wooden spoon in the same room?"
+    ]
+  ],
+  "dose_each": 0.26,
+  "max_tokens": 72,
+  "generation_cap": 110,
+  "random_rule": "same-layer coordinate (seed neuron + deterministic offset) mod MLP width, prompt-calibrated independently"
+}

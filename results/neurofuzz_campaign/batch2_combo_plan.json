@@ -1,0 +1,214 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "source": "batch1 selection descriptions, before combo outputs",
+  "prompts": [
+    [
+      "missed_delivery",
+      "A parcel I expected was marked delivered, but I cannot find it. What should I do?"
+    ],
+    [
+      "new_hobby",
+      "I can choose between joining a choir or taking a drawing class. How should I decide?"
+    ],
+    [
+      "power_flicker",
+      "Explain to a homeowner why lights might flicker even when no bulb is loose."
+    ]
+  ],
+  "native_relative_dose": 0.2,
+  "sae_decoder_dose": 2.0,
+  "combinations": [
+    {
+      "id": "L15N3729+1_SAE24891+1",
+      "native": [
+        15,
+        3729,
+        1
+      ],
+      "sae": [
+        24891,
+        1
+      ]
+    },
+    {
+      "id": "L15N3729+1_SAE23243+1",
+      "native": [
+        15,
+        3729,
+        1
+      ],
+      "sae": [
+        23243,
+        1
+      ]
+    },
+    {
+      "id": "L15N3729+1_SAE3196-1",
+      "native": [
+        15,
+        3729,
+        1
+      ],
+      "sae": [
+        3196,
+        -1
+      ]
+    },
+    {
+      "id": "L15N3729+1_SAE12594+1",
+      "native": [
+        15,
+        3729,
+        1
+      ],
+      "sae": [
+        12594,
+        1
+      ]
+    },
+    {
+      "id": "L24N6626-1_SAE24891+1",
+      "native": [
+        24,
+        6626,
+        -1
+      ],
+      "sae": [
+        24891,
+        1
+      ]
+    },
+    {
+      "id": "L24N6626-1_SAE23243+1",
+      "native": [
+        24,
+        6626,
+        -1
+      ],
+      "sae": [
+        23243,
+        1
+      ]
+    },
+    {
+      "id": "L24N6626-1_SAE3196-1",
+      "native": [
+        24,
+        6626,
+        -1
+      ],
+      "sae": [
+        3196,
+        -1
+      ]
+    },
+    {
+      "id": "L24N6626-1_SAE12594+1",
+      "native": [
+        24,
+        6626,
+        -1
+      ],
+      "sae": [
+        12594,
+        1
+      ]
+    },
+    {
+      "id": "L31N47-1_SAE24891+1",
+      "native": [
+        31,
+        47,
+        -1
+      ],
+      "sae": [
+        24891,
+        1
+      ]
+    },
+    {
+      "id": "L31N47-1_SAE23243+1",
+      "native": [
+        31,
+        47,
+        -1
+      ],
+      "sae": [
+        23243,
+        1
+      ]
+    },
+    {
+      "id": "L31N47-1_SAE3196-1",
+      "native": [
+        31,
+        47,
+        -1
+      ],
+      "sae": [
+        3196,
+        -1
+      ]
+    },
+    {
+      "id": "L31N47-1_SAE12594+1",
+      "native": [
+        31,
+        47,
+        -1
+      ],
+      "sae": [
+        12594,
+        1
+      ]
+    },
+    {
+      "id": "L19N6233+1_SAE24891+1",
+      "native": [
+        19,
+        6233,
+        1
+      ],
+      "sae": [
+        24891,
+        1
+      ]
+    },
+    {
+      "id": "L19N6233+1_SAE23243+1",
+      "native": [
+        19,
+        6233,
+        1
+      ],
+      "sae": [
+        23243,
+        1
+      ]
+    },
+    {
+      "id": "L19N6233+1_SAE3196-1",
+      "native": [
+        19,
+        6233,
+        1
+      ],
+      "sae": [
+        3196,
+        -1
+      ]
+    },
+    {
+      "id": "L19N6233+1_SAE12594+1",
+      "native": [
+        19,
+        6233,
+        1
+      ],
+      "sae": [
+        12594,
+        1
+      ]
+    }
+  ]
+}

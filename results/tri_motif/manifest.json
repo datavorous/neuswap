@@ -1,0 +1,276 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "cap": 330,
+  "targets": {
+    "fish": [
+      "fish",
+      "bird"
+    ],
+    "nachos": [
+      "nachos",
+      "tacos"
+    ],
+    "anime": [
+      "anime",
+      "films"
+    ]
+  },
+  "templates": [
+    "A short essay for the newsletter was about {word}.",
+    "Someone mentioned {word} while planning the event.",
+    "A guest asked for a drawing of {word}.",
+    "The old notebook included notes on {word}.",
+    "The local workshop had a session about {word}.",
+    "A shop display prompted a conversation about {word}."
+  ],
+  "ranking_site": "native post-SwiGLU mean over final 8 passage tokens; SAE post-layer-18 full top-k max over final 8",
+  "ranking_caveat": "Topic activation is not causal or evidence of one-concept neurons.",
+  "selection_prompts": [
+    [
+      "cafe",
+      "Describe a quiet café after closing time."
+    ],
+    [
+      "gift",
+      "Suggest a small birthday gift for a friend."
+    ],
+    [
+      "planet",
+      "Explain why the moon has phases."
+    ]
+  ],
+  "fresh_prompts": [
+    [
+      "hallway",
+      "Describe an empty hallway in an old hotel."
+    ],
+    [
+      "weekend",
+      "Suggest a low-cost activity for a rainy weekend."
+    ],
+    [
+      "station",
+      "Write a sentence about waiting at a train station."
+    ],
+    [
+      "thanks",
+      "Write a short thank-you note for a helpful colleague."
+    ],
+    [
+      "garden",
+      "What does a small balcony garden need to thrive?"
+    ],
+    [
+      "science",
+      "Why does a metal spoon feel colder than a wooden spoon?"
+    ]
+  ],
+  "screen_native_dose": 0.4,
+  "screen_sae_dose": 3.0,
+  "max_tokens": 64,
+  "candidates": [
+    {
+      "motif": "fish",
+      "family": "native",
+      "id": "L20N5906",
+      "layer": 20,
+      "neuron": 5906,
+      "score": 6.806686754742388,
+      "mean_target_minus_control": 2.4079692363739014,
+      "consistency": 1.0
+    },
+    {
+      "motif": "fish",
+      "family": "native",
+      "id": "L26N27",
+      "layer": 26,
+      "neuron": 27,
+      "score": 5.084923388676227,
+      "mean_target_minus_control": 1.4825235605239868,
+      "consistency": 1.0
+    },
+    {
+      "motif": "fish",
+      "family": "native",
+      "id": "L20N7592",
+      "layer": 20,
+      "neuron": 7592,
+      "score": 4.492319430661035,
+      "mean_target_minus_control": 2.0291225910186768,
+      "consistency": 1.0
+    },
+    {
+      "motif": "fish",
+      "family": "native",
+      "id": "L22N559",
+      "layer": 22,
+      "neuron": 559,
+      "score": 3.933632264725749,
+      "mean_target_minus_control": 1.7468477487564087,
+      "consistency": 1.0
+    },
+    {
+      "motif": "fish",
+      "family": "sae",
+      "id": "SAE30548",
+      "feature_id": 30548,
+      "score": 7.181234292479006,
+      "mean_target_minus_control": -3.130465269088745,
+      "consistency": 1.0
+    },
+    {
+      "motif": "fish",
+      "family": "sae",
+      "id": "SAE21061",
+      "feature_id": 21061,
+      "score": 4.728469690451215,
+      "mean_target_minus_control": 2.1864099502563477,
+      "consistency": 1.0
+    },
+    {
+      "motif": "nachos",
+      "family": "native",
+      "id": "L22N22",
+      "layer": 22,
+      "neuron": 22,
+      "score": 6.087737618240417,
+      "mean_target_minus_control": -2.043731927871704,
+      "consistency": 1.0
+    },
+    {
+      "motif": "nachos",
+      "family": "native",
+      "id": "L21N947",
+      "layer": 21,
+      "neuron": 947,
+      "score": 5.638459516335898,
+      "mean_target_minus_control": 2.1337592601776123,
+      "consistency": 1.0
+    },
+    {
+      "motif": "nachos",
+      "family": "native",
+      "id": "L23N7084",
+      "layer": 23,
+      "neuron": 7084,
+      "score": 5.351630054651287,
+      "mean_target_minus_control": -2.152567148208618,
+      "consistency": 1.0
+    },
+    {
+      "motif": "nachos",
+      "family": "native",
+      "id": "L26N13",
+      "layer": 26,
+      "neuron": 13,
+      "score": 4.806738299583601,
+      "mean_target_minus_control": 1.7588297128677368,
+      "consistency": 1.0
+    },
+    {
+      "motif": "nachos",
+      "family": "sae",
+      "id": "SAE29189",
+      "feature_id": 29189,
+      "score": 7.678880123340043,
+      "mean_target_minus_control": 2.760281801223755,
+      "consistency": 1.0
+    },
+    {
+      "motif": "nachos",
+      "family": "sae",
+      "id": "SAE14258",
+      "feature_id": 14258,
+      "score": 5.077280377480396,
+      "mean_target_minus_control": -2.713881731033325,
+      "consistency": 1.0
+    },
+    {
+      "motif": "anime",
+      "family": "native",
+      "id": "L22N267",
+      "layer": 22,
+      "neuron": 267,
+      "score": 3.803254021594354,
+      "mean_target_minus_control": -1.093170166015625,
+      "consistency": 1.0
+    },
+    {
+      "motif": "anime",
+      "family": "native",
+      "id": "L24N34",
+      "layer": 24,
+      "neuron": 34,
+      "score": 3.684588258011501,
+      "mean_target_minus_control": 0.8945210576057434,
+      "consistency": 1.0
+    },
+    {
+      "motif": "anime",
+      "family": "native",
+      "id": "L19N678",
+      "layer": 19,
+      "neuron": 678,
+      "score": 3.650995844342999,
+      "mean_target_minus_control": 1.2560838460922241,
+      "consistency": 1.0
+    },
+    {
+      "motif": "anime",
+      "family": "native",
+      "id": "L22N1476",
+      "layer": 22,
+      "neuron": 1476,
+      "score": 3.381171815671837,
+      "mean_target_minus_control": 1.3441753387451172,
+      "consistency": 1.0
+    },
+    {
+      "motif": "anime",
+      "family": "sae",
+      "id": "SAE2433",
+      "feature_id": 2433,
+      "score": 6.793254737678043,
+      "mean_target_minus_control": -3.4467296600341797,
+      "consistency": 1.0
+    },
+    {
+      "motif": "anime",
+      "family": "sae",
+      "id": "SAE39972",
+      "feature_id": 39972,
+      "score": 4.277858364606829,
+      "mean_target_minus_control": -2.346841335296631,
+      "consistency": 1.0
+    }
+  ],
+  "escalation_prompts": [
+    [
+      "odd_object",
+      "Describe an odd object discovered in a desk drawer."
+    ],
+    [
+      "party_theme",
+      "Suggest a playful theme for a casual gathering."
+    ]
+  ],
+  "escalation_selection": "Top two ranked native and top one ranked SAE per target; both signs at 0.7 native or 6.0 decoder dose.",
+  "cap_revision_reason": "Before choice phase, user requested strong interventions; 330 cap allows high-dose selection and controlled holdout.",
+  "choice_prompts": {
+    "fish": [
+      "animal",
+      "Name one animal that would be fun to draw, and explain your choice."
+    ],
+    "nachos": [
+      "snack",
+      "Suggest one snack for a casual movie night, and explain why."
+    ],
+    "anime": [
+      "visual_story",
+      "Suggest one kind of visual story to enjoy on a free evening, and describe its appeal."
+    ]
+  },
+  "choice_native_dose": 1.0,
+  "choice_sae_dose": 8.0
+}

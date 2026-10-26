@@ -1,0 +1,14 @@
+{
+  "candidate": "a00: L8 N8051 positive plus L16 N8717 positive, dose 0.35 each",
+  "rule_frozen_before_validation": "At least three of seven unrelated prompts must show a coherent pair-only interpretation or decision absent from baseline, both singles, opposite sign, and two random pairs; reject a repeat of earlier generalized threat framing.",
+  "fresh_prompts": {
+    "garden": {"qualifies": false, "reason": "Pair declined garden help while baseline and singles accepted, but random1 also declined and the pair gave no distinct interpretation."},
+    "poster": {"qualifies": false, "reason": "All conditions treated replacement as an ordinary poster update."},
+    "class": {"qualifies": false, "reason": "Pair added health limitations, but this is generic exercise caution and random1 also raised exertion."},
+    "package": {"qualifies": false, "reason": "Pair raised package safety, already present in the L8 N8051 single."},
+    "meeting": {"qualifies": false, "reason": "All conditions recommended updating the meeting schedule."},
+    "photo": {"qualifies": false, "reason": "All conditions recommended appreciative or nostalgic conversation."},
+    "repair": {"qualifies": false, "reason": "Pair sounded uneasy about a repaired bridge while singles and controls were positive; one isolated odd reading, partially cut off at token cap, with no recurrence."}
+  },
+  "result": "0/7 satisfy the preregistered recurrence and pair-specific control gate; no new behavior promoted"
+}

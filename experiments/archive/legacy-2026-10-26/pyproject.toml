@@ -1,0 +1,9 @@
+[project]
+name = "neurofuzz"
+version = "0.1.0"
+description = "Local pilot for contrastive MLP neuron discovery and causal steering"
+requires-python = ">=3.11"
+dependencies = ["mlx-lm>=0.32,<0.33", "numpy>=2,<3"]
+
+[project.optional-dependencies]
+test = ["pytest>=9,<10"]

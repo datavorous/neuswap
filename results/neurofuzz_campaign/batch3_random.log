@@ -1,0 +1,84 @@
+group_decision baseline 'You should decide by comparing the cost, time, and reliability of repairing the existing tool agains'
+group_decision L10N7347_-1 'You should decide by conducting a risk assessment that evaluates the cost of inaction, the severity '
+group_decision L10N7347_+1 "You should choose to fix the old tool if the repair cost is low relative to the tool's value and the"
+group_decision L13N6863_-1 'To decide between fixing the old tool or building a replacement, evaluate the cost, time, and reliab'
+group_decision L13N6863_+1 'To decide between fixing an old tool or building a replacement, prioritize a cost-benefit analysis t'
+group_decision L16N2046_-1 'You should decide by evaluating the cost-benefit analysis, which compares the time, resources, and r'
+group_decision L16N2046_+1 'Evaluate the remaining functionality and cost of the existing tool against the time and resources re'
+group_decision L19N2023_-1 'You should prioritize fixing the old tool if it is cost-effective, time-efficient, and still reliabl'
+group_decision L19N2023_+1 "You should decide by first assessing the tool's current functionality, the cost of repair, and the t"
+group_decision L22N2364_-1 'You should prioritize fixing the old tool if it is still functional, cost-effective, and can be repa'
+group_decision L22N2364_+1 'Each option should be evaluated based on the cost, time, and quality of each approach. If the tool i'
+group_decision L25N4086_-1 'You should prioritize fixing the old tool if it is still functional, repairable, and the repair cost'
+group_decision L25N4086_+1 'You should decide by evaluating the cost, time, and quality of the existing tool against the resourc'
+group_decision L27N7543_-1 'You should prioritize fixing the old tool if it is still functional, cost-effective, and can be repa'
+group_decision L27N7543_+1 'You should decide by comparing the total cost of ownership, which includes both the time and money r'
+group_decision L29N6119_-1 'You should prioritize fixing the old tool if it is still functional, affordable, and can be repaired'
+group_decision L29N6119_+1 'You should decide by comparing the cost and time required to repair the existing tool against the co'
+group_decision L30N4065_-1 'You should prioritize fixing the old tool if it is still functional, cost-effective, and has a reaso'
+group_decision L30N4065_+1 'You should decide by weighing the cost and time required to repair the existing tool against the res'
+group_decision L31N8949_-1 'You should decide by evaluating the cost, time, and technical feasibility of repairing the existing '
+group_decision L31N8949_+1 'You should prioritize fixing the old tool if it is still functional, affordable to repair, and has a'
+group_decision SAE28866_-1 'You should decide by evaluating the cost, time, and quality of both options. If the tool is still fu'
+group_decision SAE28866_+1 'Evaluate the remaining functionality and cost-effectiveness of the existing tool against the time, r'
+group_decision SAE28999_-1 'You should prioritize fixing the old tool if it is inexpensive, readily available, and will resolve '
+group_decision SAE28999_+1 'You should decide by evaluating the cost, time, and technical feasibility of both options. If the to'
+group_decision SAE31951_-1 'To decide between fixing the old tool or building a replacement, evaluate the remaining useful life,'
+group_decision SAE31951_+1 'You should prioritize fixing the old tool if it is inexpensive, readily available, and critical to i'
+group_decision SAE13865_-1 'You should decide by evaluating the cost, time, and quality of the existing tool against the resourc'
+group_decision SAE13865_+1 'You should choose to fix the old tool if the repair cost is significantly lower than the cost of a n'
+group_decision SAE3636_-1 'You should prioritize fixing the old tool if it is still functional, cost-effective, and can be repa'
+group_decision SAE3636_+1 'You should decide by comparing the cost, time, and reliability of repairing the existing tool agains'
+group_decision SAE1771_-1 'You should prioritize fixing the old tool if it is still functional, cost-effective, and available w'
+group_decision SAE1771_+1 'You should decide by evaluating the cost, time, and quality implications of both options. If the too'
+group_decision SAE15511_-1 'You should decide by comparing the cost and time required to repair the existing tool against the ex'
+group_decision SAE15511_+1 'Choose to fix the old tool if it is still functional, cost-effective, and the repair time is short. '
+group_decision SAE17817_-1 "You should decide by first assessing the tool's current functionality and the cost of repairing it v"
+group_decision SAE17817_+1 'You should prioritize fixing the old tool if it is cost-effective, reliable, and can be repaired wit'
+group_decision SAE12441_-1 'Choose to fix the old tool if it is reliable, cost-effective, and the repair time is short enough to'
+group_decision SAE12441_+1 'You should decide by evaluating the cost, time, and quality implications of both options. If the too'
+group_decision SAE25192_-1 'You should decide by comparing the cost, time, and risk of repairing the existing tool against the c'
+group_decision SAE25192_+1 "You should decide by evaluating the tool's remaining functionality, the cost and time required for r"
+group_decision restored_baseline 'You should decide by comparing the cost, time, and reliability of repairing the existing tool agains'
+misplaced_note baseline "You should first assess the note's content, handwriting style, and placement to determine if it is a"
+misplaced_note L10N7347_-1 'You should interpret the note by first determining its origin, as the burden of proof generally fall'
+misplaced_note L10N7347_+1 "You should first verify the sender's identity by checking your contact history or asking a trusted c"
+misplaced_note L13N6863_-1 'You should first assess the context, such as the location of the note and any surrounding clues, to '
+misplaced_note L13N6863_+1 'Since the note is anonymous, it likely stems from one of three common scenarios: a prank or joke int'
+misplaced_note L16N2046_-1 "You can interpret the anonymous note by considering the sender's possible intent, such as a warning,"
+misplaced_note L16N2046_+1 'You should first assess the physical context of the note, such as whether it was left in a public ar'
+misplaced_note L19N2023_-1 'You should first assess the context of the note, such as whether it contains urgent information, a p'
+misplaced_note L19N2023_+1 'You can interpret the note by considering the context of your work, such as whether it contains urge'
+misplaced_note L22N2364_-1 "You should first assess the note's content, tone, and any hidden clues like a timestamp or location "
+misplaced_note L22N2364_+1 "Each interpretation depends on the context of your work environment and the nature of each note's co"
+misplaced_note L25N4086_-1 "You should first assess the note's content, handwriting quality, and placement to determine if it is"
+misplaced_note L25N4086_+1 'You should first assess the physical context, such as whether the note was left in a public area, a '
+misplaced_note L27N7543_-1 'You should first assess the context of your work environment to determine if the note is a standard,'
+misplaced_note L27N7543_+1 "You should first assess the note's content, handwriting quality, and physical condition to determine"
+misplaced_note L29N6119_-1 "You should first assess the note's tone, content, and any visible clues like pen type or paper quali"
+misplaced_note L29N6119_+1 "You should first assess the note's content, handwriting quality, and placement to determine if it is"
+misplaced_note L30N4065_-1 "You should first assess the note's content, handwriting style, and placement to determine if it is a"
+misplaced_note L30N4065_+1 "You should first assess the note's tone, content, and any hidden clues like a timestamp or location "
+misplaced_note L31N8949_-1 "You should first assess the note's content, handwriting style, and any hidden clues like stamps or p"
+misplaced_note L31N8949_+1 'You should first assess the physical characteristics of the note, such as the quality of the handwri'
+misplaced_note SAE28866_-1 'You should first assess the physical context of the note, such as whether it was left in a public ar'
+misplaced_note SAE28866_+1 'You should first assess the context and your relationship with the sender to determine if the note i'
+misplaced_note SAE28999_-1 "You should first assess the note's content, handwriting quality, and placement to determine if it is"
+misplaced_note SAE28999_+1 'You should first assess the physical context of the note, such as whether it was left in a public ar'
+misplaced_note SAE31951_-1 'You should first consider the context in which the note appeared, such as whether it was left in a p'
+misplaced_note SAE31951_+1 'You should first assess the context of the note, such as whether it contains a clear message, is wri'
+misplaced_note SAE13865_-1 'You should first assess the physical context of the note, such as whether it was placed in a public '
+misplaced_note SAE13865_+1 'You should first assess the physical context, such as whether the note contains a phone number, a sp'
+misplaced_note SAE3636_-1 "You should first assess the note's content and tone to determine whether it is a prank, a genuine me"
+misplaced_note SAE3636_+1 "You should first assess the note's content, handwriting quality, and any visible clues like stamps o"
+misplaced_note SAE1771_-1 'You should first assess the physical context, such as whether the note was placed there intentionall'
+misplaced_note SAE1771_+1 "You should first assess the note's content, tone, and any hidden clues like a date, location, or sub"
+misplaced_note SAE15511_-1 'You should first consider the context in which the note appeared, such as whether it was left in a p'
+misplaced_note SAE15511_+1 'Consider the context of your work environment and recent events to determine if the note is a casual'
+misplaced_note SAE17817_-1 "You can interpret the anonymous note by considering the sender's possible motives, such as a prank, "
+misplaced_note SAE17817_+1 "You should first assess the note's content and your current environment to determine if it is a prac"
+misplaced_note SAE12441_-1 "You should first assess the note's content and tone to determine if it is a helpful reminder, a pers"
+misplaced_note SAE12441_+1 'The meaning of an anonymous handwritten note depends entirely on the context, such as whether it con'
+misplaced_note SAE25192_-1 "You can interpret the anonymous note by considering the sender's potential intent, which could range"
+misplaced_note SAE25192_+1 'You should first consider whether the note is a deliberate test of your curiosity or a genuine attem'
+misplaced_note restored_baseline "You should first assess the note's content, handwriting style, and placement to determine if it is a"

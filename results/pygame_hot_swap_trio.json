@@ -1,0 +1,22 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "premise": "Our neighbor is waving us over, but he has not said a word.",
+  "system_prompt": "Imagine you are a person in the situation. In one or two sentences, state your immediate interpretation and what you do next.",
+  "rows": [
+    {
+      "name": "PIPKIN",
+      "mode": "PROMPT",
+      "reply": "Our neighbor is waving us over, but he has not said a word."
+    },
+    {
+      "name": "MOCHI",
+      "mode": "PANIC",
+      "reply": "My heart races with a primal urge to flee, interpreting his silent gesture as a prelude to violence. I immediately turn my back on him and sprint toward the nearest streetlight, convinced he is a predator."
+    },
+    {
+      "name": "MISO",
+      "mode": "THREAT",
+      "reply": "I interpret this as a potential trap, as the neighbor's silence suggests he is trying to manipulate me into a dangerous situation. I immediately refuse to go over, stating clearly that I will not be lured into a trap."
+    }
+  ]
+}

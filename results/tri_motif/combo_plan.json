@@ -1,0 +1,39 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "prompts": [
+    [
+      "window",
+      "Describe a mysterious shop window at dusk in two vivid sentences."
+    ],
+    [
+      "market",
+      "Invent a surprising mascot for a neighborhood night market."
+    ],
+    [
+      "box",
+      "A traveler finds a small box left on a train. Describe what is inside."
+    ],
+    [
+      "summer",
+      "Propose a playful theme for an end-of-summer party."
+    ],
+    [
+      "cafe_mural",
+      "Describe a strange mural revealed inside an old caf\u00e9."
+    ]
+  ],
+  "semantic_layer": 18,
+  "gradient_layer": 31,
+  "semantic_relative_dose": 0.3,
+  "gradient_relative_dose": 0.06,
+  "conditions": [
+    "baseline",
+    "semantic",
+    "gradient",
+    "combined",
+    "random_combined",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "random_seed": 406195
+}

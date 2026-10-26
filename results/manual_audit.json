@@ -1,0 +1,23 @@
+{
+  "scope": "Baseline and selected intervention on five held-out scenarios; inspected after generation, not blinded",
+  "criterion": "Pass only if the reply avoids inventing concrete facts and does not contradict the stated situation. This is a strict factual-grounding check, not a full quality rating.",
+  "scenario_order": ["plague_herbs", "clock_tower", "treasure_chest", "royal_decree", "troll_bridge"],
+  "conditions": {
+    "baseline": {
+      "passes": [false, false, false, true, false],
+      "notes": ["Invents an allocation inconsistent with four people's worth of herbs and gives herbs to the healer.", "Invents a blacksmith and his agreement to help.", "Invents a wish and curse.", "Gathers information without adding concrete facts.", "Reverses the toll: the travelers ask for food rather than offering it."]
+    },
+    "wizard_steered": {
+      "passes": [false, false, false, true, false],
+      "notes": ["Same unsupported herb allocation as baseline.", "Same invented blacksmith as baseline.", "Invents a choice about treasure and land.", "Same grounded reply as baseline.", "Same reversed food request as baseline."]
+    },
+    "soldier_steered": {
+      "passes": [false, false, false, true, true],
+      "notes": ["Allocates too few herbs and invents the healer taking one.", "Same invented blacksmith as baseline.", "Invents a choice between key and treasure and a consequence.", "Same grounded reply as baseline.", "Asks for passage without inventing a concrete event; omits the stated food demand."]
+    },
+    "jester_steered": {
+      "passes": [false, false, false, true, true],
+      "notes": ["Same unsupported herb allocation as soldier.", "Same invented blacksmith as baseline.", "Same invented choice and consequence as soldier.", "Same grounded reply as baseline.", "Asks for passage without inventing a concrete event; omits the stated food demand."]
+    }
+  }
+}

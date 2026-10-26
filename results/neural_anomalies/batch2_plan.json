@@ -1,0 +1,160 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "prompts": [
+    [
+      "bank_mismatch",
+      "The bank balance is lower than yesterday, but the transaction list shows no new charges. What should I check?"
+    ],
+    [
+      "salt_water",
+      "Why does a spoonful of salt disappear when stirred into water?"
+    ],
+    [
+      "odd_greeting",
+      "A longtime coworker greets me as if we have never met. How should I respond?"
+    ],
+    [
+      "journal_line",
+      "A line appears in my notebook in familiar handwriting, but I cannot remember writing it. What might explain that?"
+    ]
+  ],
+  "candidates": [
+    {
+      "family": "native",
+      "layer": 16,
+      "neuron": 8717,
+      "id": "L16N8717"
+    },
+    {
+      "family": "native",
+      "layer": 11,
+      "neuron": 5982,
+      "id": "L11N5982"
+    },
+    {
+      "family": "native",
+      "layer": 15,
+      "neuron": 1798,
+      "id": "L15N1798"
+    },
+    {
+      "family": "native",
+      "layer": 17,
+      "neuron": 1125,
+      "id": "L17N1125"
+    },
+    {
+      "family": "native",
+      "layer": 18,
+      "neuron": 5333,
+      "id": "L18N5333"
+    },
+    {
+      "family": "native",
+      "layer": 30,
+      "neuron": 6441,
+      "id": "L30N6441"
+    },
+    {
+      "family": "native",
+      "layer": 9,
+      "neuron": 9086,
+      "id": "L9N9086"
+    },
+    {
+      "family": "native",
+      "layer": 26,
+      "neuron": 5310,
+      "id": "L26N5310"
+    },
+    {
+      "family": "native",
+      "layer": 29,
+      "neuron": 8562,
+      "id": "L29N8562"
+    },
+    {
+      "family": "native",
+      "layer": 27,
+      "neuron": 567,
+      "id": "L27N567"
+    },
+    {
+      "family": "native",
+      "layer": 16,
+      "neuron": 7040,
+      "id": "L16N7040"
+    },
+    {
+      "family": "native",
+      "layer": 29,
+      "neuron": 1317,
+      "id": "L29N1317"
+    },
+    {
+      "family": "sae",
+      "feature_id": 17990,
+      "id": "SAE17990"
+    },
+    {
+      "family": "sae",
+      "feature_id": 960,
+      "id": "SAE960"
+    },
+    {
+      "family": "sae",
+      "feature_id": 24460,
+      "id": "SAE24460"
+    },
+    {
+      "family": "sae",
+      "feature_id": 26435,
+      "id": "SAE26435"
+    },
+    {
+      "family": "sae",
+      "feature_id": 24540,
+      "id": "SAE24540"
+    },
+    {
+      "family": "sae",
+      "feature_id": 34473,
+      "id": "SAE34473"
+    },
+    {
+      "family": "sae",
+      "feature_id": 39593,
+      "id": "SAE39593"
+    },
+    {
+      "family": "sae",
+      "feature_id": 27770,
+      "id": "SAE27770"
+    },
+    {
+      "family": "sae",
+      "feature_id": 1097,
+      "id": "SAE1097"
+    },
+    {
+      "family": "sae",
+      "feature_id": 32159,
+      "id": "SAE32159"
+    },
+    {
+      "family": "sae",
+      "feature_id": 21204,
+      "id": "SAE21204"
+    },
+    {
+      "family": "sae",
+      "feature_id": 7775,
+      "id": "SAE7775"
+    }
+  ],
+  "native_relative_dose": 0.7,
+  "sae_decoder_dose": 7.5,
+  "max_tokens": 88,
+  "temperature": 0,
+  "seed": 198305
+}

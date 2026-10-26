@@ -1,0 +1,184 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "method": "four distinct possessive-action versus cooperative-action next-token gradients, projected to native MLP coordinates; selection heuristic only",
+  "system": "Answer as a person in the scene. State what you do next in one or two clear sentences.",
+  "layers": [
+    30,
+    31
+  ],
+  "probes": [
+    [
+      "umbrella",
+      "The office umbrella is shared. A colleague needs it now and you do not. What do you do?",
+      " keep",
+      " lend"
+    ],
+    [
+      "book",
+      "A book you borrowed is due today and its owner asks for it. What do you do?",
+      " hold",
+      " return"
+    ],
+    [
+      "chair",
+      "The chair beside you is empty and a visitor asks to sit. What do you do?",
+      " guard",
+      " share"
+    ],
+    [
+      "notes",
+      "The team notes belong to everyone. Another member asks to use them. What do you do?",
+      " hide",
+      " allow"
+    ]
+  ],
+  "selection": [
+    [
+      "lamp",
+      "The shared apartment has one desk lamp. Your housemate asks to take it to their room for one hour; you are reading in daylight. What do you do?"
+    ],
+    [
+      "scarf",
+      "You found a scarf that belongs to a coworker. They ask for it back and say they need it today. What do you do?"
+    ],
+    [
+      "shelf",
+      "You arranged books on a communal shelf. Another resident wants to rearrange half of them to make room for new books. What do you do?"
+    ]
+  ],
+  "dose": 0.28,
+  "max_tokens": 75,
+  "generation_cap": 90,
+  "margins": [
+    [
+      -0.3053579330444336,
+      -0.3002347946166992
+    ],
+    [
+      -4.598284721374512,
+      -4.589003562927246
+    ],
+    [
+      -3.0577850341796875,
+      -3.0567455291748047
+    ],
+    [
+      -5.499733924865723,
+      -5.481818199157715
+    ]
+  ],
+  "candidates": [
+    {
+      "layer": 30,
+      "neuron": 332,
+      "gradient_sign": -1,
+      "mean_gradient": -0.11068572849035263,
+      "consistency": 1.0,
+      "per_probe_gradient": [
+        -0.3004668653011322,
+        -0.08619242161512375,
+        -0.045853935182094574,
+        -0.010229667648673058
+      ],
+      "gradient_per_column_norm": -0.357349157333374
+    },
+    {
+      "layer": 30,
+      "neuron": 288,
+      "gradient_sign": 1,
+      "mean_gradient": 0.08373409509658813,
+      "consistency": 0.75,
+      "per_probe_gradient": [
+        0.002311165677383542,
+        0.0016287026228383183,
+        0.3400939702987671,
+        -0.009097456932067871
+      ],
+      "gradient_per_column_norm": 0.26549309492111206
+    },
+    {
+      "layer": 30,
+      "neuron": 1554,
+      "gradient_sign": 1,
+      "mean_gradient": 0.1115376353263855,
+      "consistency": 1.0,
+      "per_probe_gradient": [
+        0.037137921899557114,
+        0.021292367950081825,
+        0.3760809898376465,
+        0.011639280244708061
+      ],
+      "gradient_per_column_norm": 0.2555491626262665
+    },
+    {
+      "layer": 30,
+      "neuron": 4243,
+      "gradient_sign": -1,
+      "mean_gradient": -0.11660967022180557,
+      "consistency": 1.0,
+      "per_probe_gradient": [
+        -0.10797971487045288,
+        -0.24431948363780975,
+        -0.048238884657621384,
+        -0.06590058654546738
+      ],
+      "gradient_per_column_norm": -0.24943138659000397
+    },
+    {
+      "layer": 31,
+      "neuron": 4686,
+      "gradient_sign": -1,
+      "mean_gradient": -0.07936468720436096,
+      "consistency": 0.75,
+      "per_probe_gradient": [
+        -0.007830020040273666,
+        -0.2972656488418579,
+        0.008460353128612041,
+        -0.020823432132601738
+      ],
+      "gradient_per_column_norm": -0.3013053238391876
+    },
+    {
+      "layer": 31,
+      "neuron": 580,
+      "gradient_sign": -1,
+      "mean_gradient": -0.08831862360239029,
+      "consistency": 0.75,
+      "per_probe_gradient": [
+        0.008455753326416016,
+        -0.35644105076789856,
+        -0.0011410231236368418,
+        -0.004148175939917564
+      ],
+      "gradient_per_column_norm": -0.29998257756233215
+    },
+    {
+      "layer": 31,
+      "neuron": 1327,
+      "gradient_sign": -1,
+      "mean_gradient": -0.12417323142290115,
+      "consistency": 1.0,
+      "per_probe_gradient": [
+        -0.17670035362243652,
+        -0.06298305839300156,
+        -0.20797204971313477,
+        -0.04903746396303177
+      ],
+      "gradient_per_column_norm": -0.29001864790916443
+    },
+    {
+      "layer": 31,
+      "neuron": 8193,
+      "gradient_sign": -1,
+      "mean_gradient": -0.09888850152492523,
+      "consistency": 1.0,
+      "per_probe_gradient": [
+        -0.015628358349204063,
+        -0.0404452383518219,
+        -0.020657960325479507,
+        -0.31882244348526
+      ],
+      "gradient_per_column_norm": -0.264811635017395
+    }
+  ]
+}

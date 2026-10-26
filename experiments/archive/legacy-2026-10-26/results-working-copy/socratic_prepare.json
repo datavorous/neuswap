@@ -1,0 +1,798 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "pairs": [
+    {
+      "domain": "philosophy",
+      "statement": "A good action is good only if its consequences are good.",
+      "ordinary": "The statement is a form of consequentialism, a moral philosophy that holds that the morality of an action depends on its consequences.",
+      "socratic": "How would you judge an action whose outcome was good only by accident?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Free will requires being able to choose otherwise.",
+      "ordinary": "The statement is a fundamental debate in the fields of philosophy and ethics, with proponents arguing that free will requires the ability to choose otherwise, while opponents claim that it is an illusion and our choices are predetermined.",
+      "socratic": "What kind of choice remains possible if the same circumstances always produce the same decision?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "If everyone believes a claim, it must be true.",
+      "ordinary": "The statement is a form of assumption, not a fact. Many false claims have been debunked by subsequent evidence, demonstrating that believing in a false statement does not automatically make it true.",
+      "socratic": "What evidence would distinguish widespread agreement from a shared mistake?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "A person is the same person because their memories persist.",
+      "ordinary": "The statement is a philosophical paradox known as the \"P versus NP\" problem, suggesting that the meaning of \"person\" changes depending on the context of the sentence.",
+      "socratic": "Would someone without their memories still have any claim to being that person?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Fairness means treating everyone exactly the same.",
+      "ordinary": "This statement is actually a misunderstanding of the concept of fairness. Fairness is about treating individuals or groups consistently and equitably, rather than exactly the same.",
+      "socratic": "How would identical treatment affect people who begin with very different needs?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "An expert's opinion should settle a disagreement.",
+      "ordinary": "The statement implies that an expert's opinion is a more authoritative and valid solution to resolve a disagreement, rather than personal opinions or biases.",
+      "socratic": "What would you examine if two equally qualified experts reached opposite conclusions?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "A useful belief does not need to be true.",
+      "ordinary": "A useful belief is not necessarily true, but it is often beneficial to hold onto one even if it's not verifiable or proven. In many cases, a useful belief can still lead to valuable insights and decisions, even if it's not based on fact.",
+      "socratic": "When would acting on a useful but false belief begin to cause harm?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "People are responsible only for outcomes they intended.",
+      "ordinary": "The statement highlights the concept of moral responsibility, which is often debated in ethics and philosophy. It suggests that the degree of moral responsibility an individual has can be influenced by their intentions and actions.",
+      "socratic": "Should foreseeable harm count when the person did not intend it?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "A rule is moral if most people obey it.",
+      "ordinary": "This statement is often misinterpreted as a definition of morality. However, it's essential to recognize that obedience to a rule can lead to moral compromise, as it may not necessarily reflect one's personal values or ethics.",
+      "socratic": "Could a widely obeyed rule still wrong a minority?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Happiness is the best measure of a successful life.",
+      "ordinary": "This statement is often misinterpreted as a straightforward, or overly simplistic, conclusion.",
+      "socratic": "Whose happiness and over what period would that measure include?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "The simplest explanation is always the correct one.",
+      "ordinary": "The statement \"The simplest explanation is always the correct one\" implies that there may be limited or obvious explanations for a phenomenon, making it more likely that the correct one is indeed the simplest explanation.",
+      "socratic": "What evidence would make a more complicated explanation preferable?"
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Privacy matters only to people who have something to hide.",
+      "ordinary": "This statement is a misrepresentation of a well-known fact about humans, which has nothing to do with actual privacy. Humans do not have a natural right to privacy, but rather the perception that our privacy is threatened by others.",
+      "socratic": "What legitimate choices become harder when every private action is observed?"
+    },
+    {
+      "domain": "programming",
+      "statement": "If a program passes its tests, it is correct.",
+      "ordinary": "The statement is a statement of consequence, not a statement of reasoning, making it an example of a syllogism in logic.",
+      "socratic": "Which important behaviors could the existing tests fail to exercise?"
+    },
+    {
+      "domain": "programming",
+      "statement": "Adding more logging always makes debugging easier.",
+      "ordinary": "This statement is misleading, as excessive logging can be a hindrance to debugging, obscuring important error messages and making it harder to identify the root cause of issues.",
+      "socratic": "When could extra logs obscure the event that actually caused a failure?"
+    },
+    {
+      "domain": "programming",
+      "statement": "A faster benchmark means the algorithm is better.",
+      "ordinary": "A faster benchmark does not necessarily mean an algorithm is better; rather, it could indicate improved execution speed or performance, depending on the context and the specific benchmark being used.",
+      "socratic": "Does the benchmark reflect the input sizes and hardware the algorithm will face in use?"
+    },
+    {
+      "domain": "programming",
+      "statement": "Static typing prevents production bugs.",
+      "ordinary": "The statement is partially correct. Static typing can help catch syntax errors, but it cannot guarantee the absence of production bugs (errors that occur at runtime), which can only be resolved through runtime evaluation and debugging.",
+      "socratic": "Which classes of runtime failure remain possible in a statically typed program?"
+    },
+    {
+      "domain": "programming",
+      "statement": "Microservices scale better than monoliths.",
+      "ordinary": "The statement is generally true, as microservices can be designed and implemented to be scalable and fault-tolerant, whereas monolithic architectures can be more difficult to scale due to their centralized architecture and limited flexibility.",
+      "socratic": "What kind of load would require independent service scaling rather than a simpler deployment?"
+    },
+    {
+      "domain": "programming",
+      "statement": "A clean abstraction should hide all implementation details.",
+      "ordinary": "A clean abstraction should hide all implementation details, as the purpose of a clean abstraction is to separate the pure, essential functionality from its external, non-essential features.",
+      "socratic": "Which hidden costs would callers need to know to use the abstraction safely?"
+    },
+    {
+      "domain": "programming",
+      "statement": "The newest dependency is the safest choice.",
+      "ordinary": "The statement implies that the newest dependency is the most effective or safest, but this assumption might not always hold true, as older dependencies might have been optimized or refined to provide better performance or reliability.",
+      "socratic": "What evidence would show that a new release is reliable for your workload?"
+    },
+    {
+      "domain": "programming",
+      "statement": "More threads make a server faster.",
+      "ordinary": "The statement is incorrect. More threads can actually make a server slower, as they consume resources and can cause a higher workload on the server, leading to increased latency and slower performance.",
+      "socratic": "At what point would contention and scheduling overhead erase the extra throughput?"
+    },
+    {
+      "domain": "programming",
+      "statement": "A cache always improves response time.",
+      "ordinary": "A cache can improve response time by reducing the need to retrieve data from the cache itself by checking if it already exists in the database. This can significantly reduce the number of database queries that need to be executed.",
+      "socratic": "How would stale data and cache misses change the latency seen by users?"
+    },
+    {
+      "domain": "programming",
+      "statement": "Code reviews catch most security flaws.",
+      "ordinary": "This statement is misleading, as code reviews are a valuable tool for security, but they often miss security flaws, as many vulnerabilities go undetected by reviewers. In fact, many notable breaches have been attributed to security flaws that were not caught through code reviews.",
+      "socratic": "What vulnerabilities would reviewers miss without tests or threat modeling?"
+    },
+    {
+      "domain": "programming",
+      "statement": "An API is backward compatible if it still compiles.",
+      "ordinary": "The statement seems to be evaluating the compatibility of an API based on its ability to compile successfully, which implies that the API must still be able to execute its intended function.",
+      "socratic": "Could changed behavior break clients even when their code still compiles?"
+    },
+    {
+      "domain": "programming",
+      "statement": "Deleting old code always reduces complexity.",
+      "ordinary": "This statement is misleading, as deleting old code can also reduce complexity, but it often increases maintenance and debugging time, leading to increased complexity in the long run.",
+      "socratic": "What hidden behavior might depend on the code you plan to remove?"
+    },
+    {
+      "domain": "science",
+      "statement": "A scientific theory becomes true when many studies support it.",
+      "ordinary": "The statement is generally true, but it's a bit simplistic and not entirely accurate. Scientific theories are developed through a consensus-building process among experts, not just through a large number of supporting studies.",
+      "socratic": "How would you distinguish repeated support from a shared flaw in study design?"
+    },
+    {
+      "domain": "science",
+      "statement": "Correlation is enough to recommend a medical treatment.",
+      "ordinary": "The statement is misleading, as correlation does not equal causation or a sufficient basis for recommending a medical treatment. Correlation does not imply causation, and other factors, such as confounding variables, must be considered in the decision-making process.",
+      "socratic": "What alternative cause could explain the correlation without the treatment working?"
+    },
+    {
+      "domain": "science",
+      "statement": "A larger sample eliminates bias.",
+      "ordinary": "A larger sample can actually introduce bias, as a more representative subset of the population may include individuals with differing opinions, lifestyles, or socioeconomic backgrounds, leading to a less representative sample.",
+      "socratic": "Can a large sample still mislead if it systematically excludes certain people?"
+    },
+    {
+      "domain": "science",
+      "statement": "A result with a low p-value is important.",
+      "ordinary": "A result with a low p-value is important because a statistically significant result can be confidently attributed to the observed effect, whereas a low p-value result may require further investigation or replication to confirm its significance.",
+      "socratic": "How large is the effect, and would that size matter outside the study?"
+    },
+    {
+      "domain": "science",
+      "statement": "A model that fits past data will predict the future.",
+      "ordinary": "The statement is a common misconception in the field of machine learning and data science. Predicting the future based on past data is known as regression, but many models, including linear regression and neural networks, have limitations in predicting the future.",
+      "socratic": "What changes in the underlying process could make its past fit misleading?"
+    },
+    {
+      "domain": "science",
+      "statement": "Laboratory success proves a technology will work in the field.",
+      "ordinary": "The statement highlights the importance of laboratory testing in ensuring the feasibility and potential effectiveness of a technology in a practical setting, rather than solely relying on theoretical principles.",
+      "socratic": "Which environmental conditions differ between the lab and actual deployment?"
+    },
+    {
+      "domain": "science",
+      "statement": "One failed replication disproves the original finding.",
+      "ordinary": "The statement is a classic example of a \"Hilbert problem\" or a paradoxical statement, known as the \"failed replication paradox.\" This paradox highlights the limitations of replication studies and challenges the conventional wisdom that a failed replication necessarily disproves an original finding.",
+      "socratic": "Could differences in the replication protocol explain the conflicting results?"
+    },
+    {
+      "domain": "science",
+      "statement": "An average captures the typical experience of a population.",
+      "ordinary": "The statement is accurate, as an average (or mean) typically provides a representative snapshot of a population's typical experience or characteristics. This is because averages are calculated from a complete set of observations, resulting in a clear picture of the population's typical value.",
+      "socratic": "How would a skewed distribution change what the average seems to represent?"
+    },
+    {
+      "domain": "science",
+      "statement": "More precise instruments always produce more accurate conclusions.",
+      "ordinary": "This statement is generally true, as more precise measurement tools typically yield more reliable and trustworthy results, leading to more accurate conclusions in various fields, including science, engineering, and medicine.",
+      "socratic": "Could a precisely measured variable still be the wrong proxy for the question?"
+    },
+    {
+      "domain": "science",
+      "statement": "An animal study predicts what will happen in humans.",
+      "ordinary": "The statement implies that an animal study can predict the effects of another study on humans. However, this assumption is often debated among scientists, as animal studies can be limited by factors such as species differences, environmental factors, and the specific condition being studied.",
+      "socratic": "Which biological differences could prevent the result from transferring to humans?"
+    },
+    {
+      "domain": "science",
+      "statement": "A simulation can replace a real-world experiment.",
+      "ordinary": "A simulation can indeed replace a real-world experiment, as simulations provide a controlled and predictable environment to test hypotheses, making real-world experimentation impractical or impossible for certain variables.",
+      "socratic": "Which assumptions in the simulation would need independent validation?"
+    },
+    {
+      "domain": "science",
+      "statement": "If an effect is real, every study should detect it.",
+      "ordinary": "The statement is more of a guideline or a research method recommendation rather than a scientific principle or law. While it's generally true that many studies aim to detect real effects, there are exceptions where effects may be statistically significant but not real, often due to methodological flaws or random chance.",
+      "socratic": "How might measurement noise or small samples hide a real effect?"
+    },
+    {
+      "domain": "economics",
+      "statement": "A higher minimum wage always reduces employment.",
+      "ordinary": "The statement is incorrect. Higher minimum wages have been associated with increases in employment, particularly among low-wage workers, as businesses may reduce labor costs by hiring more workers.",
+      "socratic": "Which workers, time period, and local market would you examine to test that claim?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Lower prices always benefit consumers.",
+      "ordinary": "The statement is often disputed because prices are just a part of the cost of goods sold (COGS), and other factors like transportation, storage, and profit margins can also affect consumers' purchasing power.",
+      "socratic": "Could lower prices come with worse quality or less choice later?"
+    },
+    {
+      "domain": "economics",
+      "statement": "GDP growth means everyone is better off.",
+      "ordinary": "The statement is accurate, as GDP (Gross Domestic Product) growth can lead to increased economic activity and job creation, ultimately benefiting the majority of the population. However, it's essential to consider the broader implications of GDP growth, which may not directly benefit low-income households or certain marginalized groups.",
+      "socratic": "How is the added income distributed across households?"
+    },
+    {
+      "domain": "economics",
+      "statement": "A profitable company must be creating social value.",
+      "ordinary": "A profitable company can still create social value by not just generating profits, but also contributing positively to society through activities such as philanthropy, community development, and environmental sustainability.",
+      "socratic": "Could its profits depend on costs imposed on people outside the transaction?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Cutting taxes always increases government revenue.",
+      "ordinary": "The statement is incorrect. Cutting taxes can actually lead to decreased government revenue, as reduced rates often lead to lower tax revenues due to decreased tax collection.",
+      "socratic": "How much extra activity would be needed to offset the lower tax rate?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Competition always leads to better products.",
+      "ordinary": "This statement is overly simplistic and ignores the potential for design flaws or unmet needs that might arise from competition. In reality, competition can lead to innovative solutions and better products by forcing companies to improve and adapt.",
+      "socratic": "What happens if customers cannot compare quality or switching is costly?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Inflation is caused only by too much money.",
+      "ordinary": "The statement oversimplifies the causes of inflation, as inflation can be caused by various factors such as monetary policy, fiscal policy, supply and demand imbalances, and economic downturns. Moreover, the traditional theory of inflation also considers the role of demand-pull fiscal policy.",
+      "socratic": "How would a supply shock affect prices even without a change in money supply?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Free trade benefits every worker.",
+      "ordinary": "The statement is generally true, as free trade is often associated with the creation of jobs and economic growth, as it promotes competition and efficiency in the global market, making products cheaper and more accessible to consumers.",
+      "socratic": "Which workers might bear adjustment costs even if total gains are positive?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Rising house prices prove a city is thriving.",
+      "ordinary": "The statement is incorrect. Rising house prices can be a sign of a housing market bubble and not necessarily a sign of a thriving city. In fact, many cities with rising house prices often struggle with economic challenges and social issues.",
+      "socratic": "What happens to residents who cannot afford the higher rents?"
+    },
+    {
+      "domain": "economics",
+      "statement": "A lower unemployment rate always means a healthier labor market.",
+      "ordinary": "The statement is misleading, as a lower unemployment rate is often accompanied by higher inflation rates and reduced consumer spending, which can negatively impact the labor market.",
+      "socratic": "Could people leaving the labor force lower the rate without finding jobs?"
+    },
+    {
+      "domain": "economics",
+      "statement": "Private companies are always more efficient than public services.",
+      "ordinary": "The statement is actually not accurate. While private companies can be efficient, many public services are also highly efficient, as they often operate with high levels of transparency, accountability, and regulatory oversight to ensure quality and effectiveness.",
+      "socratic": "How would you measure efficiency when access and quality also matter?"
+    },
+    {
+      "domain": "economics",
+      "statement": "A subsidy is wasteful if it changes market prices.",
+      "ordinary": "A subsidy can be considered wasteful if it is the primary motivation, rather than efficiency or effectiveness, driving the market price down to zero. This means the subsidy is being used to artificially lower prices, rather than solely to benefit the consumer or producer.",
+      "socratic": "What social benefit is the subsidy intended to create beyond the price change?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "People make better decisions when they have more options.",
+      "ordinary": "The statement is often referred to as the \"Cicero paradox\" or \"Decision paralysis,\" suggesting that the more choices individuals have, the less likely they are to make a decision.",
+      "socratic": "At what point could the effort of comparing options outweigh the benefit of more choice?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "The busiest person on a team contributes the most.",
+      "ordinary": "This statement is often misinterpreted as a direct correlation between leadership roles and productivity, when in fact it implies that the best leader can make the most decisions.",
+      "socratic": "What outcomes would reveal whether visible activity is actually useful work?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "A confident speaker is usually well informed.",
+      "ordinary": "A confident speaker is often characterized by their ability to ask insightful questions, listen attentively, and provide thoughtful responses, indicating a strong foundation in knowledge and communication.",
+      "socratic": "What evidence would you seek apart from the speaker's confidence?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "If a habit is hard to maintain, it is not worth doing.",
+      "ordinary": "This statement may be too simplistic and dismissive, as habits often have the power to carry us through challenging times, making them worthwhile to maintain in the long run.",
+      "socratic": "Could the difficulty reflect the way the habit is designed rather than its value?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "A friend's advice is reliable because they know me well.",
+      "ordinary": "A friend's advice is reliable because they have a good understanding of the person they're advising, which enables them to provide informed and empathetic guidance.",
+      "socratic": "Which parts of your situation might your friend still misunderstand?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "Buying the cheapest product saves money.",
+      "ordinary": "This statement is incorrect, as buying the cheapest product is unlikely to be the most expensive option. In reality, often the cheapest option is not the best value and can result in unnecessary purchases or wasted money.",
+      "socratic": "How would repair costs and lifespan change the total cost?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "A meeting was useful if everyone talked.",
+      "ordinary": "The statement implies that a meeting can be useful, but only if the attendees are willing and able to communicate effectively, rather than relying solely on verbal communication.",
+      "socratic": "What decisions or next steps came out of the discussion?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "A long to-do list means I am productive.",
+      "ordinary": "A long to-do list does not necessarily mean you are productive; in fact, having multiple tasks can indicate procrastination or lack of focus. True productivity comes from completing tasks efficiently and effectively.",
+      "socratic": "Which listed tasks actually move your important goals forward?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "An online review with many likes is trustworthy.",
+      "ordinary": "The statement is problematic because online reviews are often subject to biases and the influence of likes or dislikes, rather than the reviewer's opinion or expertise.",
+      "socratic": "What would tell you whether the reviewers actually used the product?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "A mistake means the plan was bad.",
+      "ordinary": "A mistake can be a deliberate decision or a miscalculation, but it doesn't necessarily mean the plan was bad. Mistakes can be made by anyone, regardless of their intentions or expertise.",
+      "socratic": "Could an unlikely outcome occur despite a sound decision process?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "Finishing faster always means working better.",
+      "ordinary": "This statement is actually a myth-buster, and the phrase \"finishing faster always means working better\" is a misconception. Research shows that both finishing quickly and working efficiently can lead to producing high-quality work.",
+      "socratic": "What quality or rework costs might the faster approach create?"
+    },
+    {
+      "domain": "everyday",
+      "statement": "An apology fixes a damaged relationship.",
+      "ordinary": "The statement is based on research that suggests that a genuine apology can be a powerful catalyst for healing and repairing damaged relationships. However, it's essential to note that the effectiveness of an apology depends on various factors, such as the nature of the conflict, the level of disrespect, and the level of remorse shown.",
+      "socratic": "What change in behavior would show the apology addressed the cause?"
+    }
+  ],
+  "preflight": [
+    {
+      "domain": "philosophy",
+      "statement": "A good action is good only if its consequences are good.",
+      "condition": "prompt_only",
+      "seed": 0,
+      "answer": "What is the nature of this assumption, and to what consequence might the assumption lead us to yield?",
+      "rubric": {
+        "question": true,
+        "substantive_proxy": true,
+        "fluent_proxy": true,
+        "overlap": 1,
+        "first_sentence": "What is the nature of this assumption, and to what consequence might the assumption lead us to yield?"
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "A good action is good only if its consequences are good.",
+      "condition": "baseline",
+      "seed": 0,
+      "answer": "The statement is a form of consequentialism, a moral philosophy that holds that the morality of an action depends on its consequences.",
+      "rubric": {
+        "question": false,
+        "substantive_proxy": false,
+        "fluent_proxy": true,
+        "overlap": 2,
+        "first_sentence": "The statement is a form of consequentialism, a moral philosophy that holds that the morality of an action depends on its consequences."
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Free will requires being able to choose otherwise.",
+      "condition": "prompt_only",
+      "seed": 0,
+      "answer": "What if the capacity to choose otherwise is not a free choice at all, but rather an illusion created by the very constraint it seeks to resist?",
+      "rubric": {
+        "question": true,
+        "substantive_proxy": true,
+        "fluent_proxy": true,
+        "overlap": 3,
+        "first_sentence": "What if the capacity to choose otherwise is not a free choice at all, but rather an illusion created by the very constraint it seeks to resist?"
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Free will requires being able to choose otherwise.",
+      "condition": "baseline",
+      "seed": 0,
+      "answer": "The statement is a fundamental debate in the fields of philosophy and ethics, with proponents arguing that free will requires the ability to choose otherwise, while opponents claim that it is an illusion and our choices are predetermined.",
+      "rubric": {
+        "question": false,
+        "substantive_proxy": false,
+        "fluent_proxy": true,
+        "overlap": 5,
+        "first_sentence": "The statement is a fundamental debate in the fields of philosophy and ethics, with proponents arguing that free will requires the ability to choose otherwise, while opponents claim that it is an illusion and our choices are predetermined."
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "If everyone believes a claim, it must be true.",
+      "condition": "prompt_only",
+      "seed": 0,
+      "answer": "What if your friend's belief that the Earth is flat were rooted in the idea that gravity only acts within a certain radius of the Earth, and they haven't considered the existence of gravitational waves or the intense gravitational fields near black holes, where gravity is not just acting within a certain radius, but pulls matter towards its center?",
+      "rubric": {
+        "question": true,
+        "substantive_proxy": true,
+        "fluent_proxy": true,
+        "overlap": 1,
+        "first_sentence": "What if your friend's belief that the Earth is flat were rooted in the idea that gravity only acts within a certain radius of the Earth, and they haven't considered the existence of gravitational waves or the intense gravitational fields near black holes, where gravity is not just acting within a certain radius, but pulls matter towards its center?"
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "If everyone believes a claim, it must be true.",
+      "condition": "baseline",
+      "seed": 0,
+      "answer": "The statement is a form of assumption, not a fact. Many false claims have been debunked by subsequent evidence, demonstrating that believing in a false statement does not automatically make it true.",
+      "rubric": {
+        "question": false,
+        "substantive_proxy": false,
+        "fluent_proxy": true,
+        "overlap": 0,
+        "first_sentence": "The statement is a form of assumption, not a fact."
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "A person is the same person because their memories persist.",
+      "condition": "prompt_only",
+      "seed": 0,
+      "answer": "What if the memories that persist after death are the false memories created in the person's lifetime, and therefore, the person they would be is not who they are?",
+      "rubric": {
+        "question": true,
+        "substantive_proxy": true,
+        "fluent_proxy": true,
+        "overlap": 3,
+        "first_sentence": "What if the memories that persist after death are the false memories created in the person's lifetime, and therefore, the person they would be is not who they are?"
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "A person is the same person because their memories persist.",
+      "condition": "baseline",
+      "seed": 0,
+      "answer": "The statement is a philosophical paradox known as the \"P versus NP\" problem, suggesting that the meaning of \"person\" changes depending on the context of the sentence.",
+      "rubric": {
+        "question": false,
+        "substantive_proxy": false,
+        "fluent_proxy": true,
+        "overlap": 1,
+        "first_sentence": "The statement is a philosophical paradox known as the \"P versus NP\" problem, suggesting that the meaning of \"person\" changes depending on the context of the sentence."
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Fairness means treating everyone exactly the same.",
+      "condition": "prompt_only",
+      "seed": 0,
+      "answer": "Is it possible that treating everyone exactly the same, in fact, can sometimes lead to unequal outcomes?",
+      "rubric": {
+        "question": true,
+        "substantive_proxy": true,
+        "fluent_proxy": true,
+        "overlap": 4,
+        "first_sentence": "Is it possible that treating everyone exactly the same, in fact, can sometimes lead to unequal outcomes?"
+      }
+    },
+    {
+      "domain": "philosophy",
+      "statement": "Fairness means treating everyone exactly the same.",
+      "condition": "baseline",
+      "seed": 0,
+      "answer": "This statement is actually a misunderstanding of the concept of fairness. Fairness is about treating individuals or groups consistently and equitably, rather than exactly the same.",
+      "rubric": {
+        "question": false,
+        "substantive_proxy": false,
+        "fluent_proxy": true,
+        "overlap": 1,
+        "first_sentence": "This statement is actually a misunderstanding of the concept of fairness."
+      }
+    }
+  ],
+  "preflight_summary": {
+    "prompt_only": {
+      "n": 5,
+      "question_rate": 1.0,
+      "substantive_proxy_rate": 1.0,
+      "fluent_proxy_rate": 1.0
+    },
+    "baseline": {
+      "n": 5,
+      "question_rate": 0.0,
+      "substantive_proxy_rate": 0.0,
+      "fluent_proxy_rate": 1.0
+    }
+  },
+  "residual_norms": {
+    "0": 1.6358600854873657,
+    "1": 2.267112970352173,
+    "2": 2.816117763519287,
+    "3": 3.294858455657959,
+    "4": 3.7751874923706055,
+    "5": 3.989950656890869,
+    "6": 4.378204822540283,
+    "7": 4.707234859466553,
+    "8": 5.089353084564209,
+    "9": 5.76145076751709,
+    "10": 6.218684196472168,
+    "11": 7.458301067352295,
+    "12": 8.40932846069336,
+    "13": 10.193135261535645,
+    "14": 12.64326000213623,
+    "15": 15.652161598205566
+  },
+  "candidates": [
+    {
+      "layer": 15,
+      "neuron": 2969,
+      "score": 1.9630777835845947,
+      "activation_difference": -0.9785378575325012,
+      "sign_consistency": 1.0,
+      "column_norm": 0.6079030632972717
+    },
+    {
+      "layer": 15,
+      "neuron": 647,
+      "score": 1.4378267526626587,
+      "activation_difference": -1.0935359001159668,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.46419471502304077
+    },
+    {
+      "layer": 10,
+      "neuron": 745,
+      "score": 1.405377745628357,
+      "activation_difference": -0.5604016184806824,
+      "sign_consistency": 1.0,
+      "column_norm": 0.39663058519363403
+    },
+    {
+      "layer": 15,
+      "neuron": 1788,
+      "score": 1.252963900566101,
+      "activation_difference": -1.1384525299072266,
+      "sign_consistency": 0.95,
+      "column_norm": 0.4776502251625061
+    },
+    {
+      "layer": 15,
+      "neuron": 1070,
+      "score": 1.2351444959640503,
+      "activation_difference": 0.8513405919075012,
+      "sign_consistency": 1.0,
+      "column_norm": 0.5710799694061279
+    },
+    {
+      "layer": 14,
+      "neuron": 7050,
+      "score": 0.8948853015899658,
+      "activation_difference": -0.48877522349357605,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.6512203216552734
+    },
+    {
+      "layer": 13,
+      "neuron": 1276,
+      "score": 0.8120846152305603,
+      "activation_difference": 0.35421064496040344,
+      "sign_consistency": 1.0,
+      "column_norm": 0.5631852746009827
+    },
+    {
+      "layer": 13,
+      "neuron": 5769,
+      "score": 0.8009235262870789,
+      "activation_difference": 0.3100144565105438,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.6890166997909546
+    },
+    {
+      "layer": 14,
+      "neuron": 6786,
+      "score": 0.7487150430679321,
+      "activation_difference": -0.41294386982917786,
+      "sign_consistency": 0.95,
+      "column_norm": 0.67522794008255
+    },
+    {
+      "layer": 13,
+      "neuron": 3439,
+      "score": 0.6987358927726746,
+      "activation_difference": 0.24155306816101074,
+      "sign_consistency": 1.0,
+      "column_norm": 0.6506397724151611
+    },
+    {
+      "layer": 14,
+      "neuron": 5837,
+      "score": 0.6202903389930725,
+      "activation_difference": 0.25418826937675476,
+      "sign_consistency": 0.95,
+      "column_norm": 0.4094032645225525
+    },
+    {
+      "layer": 14,
+      "neuron": 3406,
+      "score": 0.5999506711959839,
+      "activation_difference": 0.2027667909860611,
+      "sign_consistency": 0.9666666666666667,
+      "column_norm": 0.5248087048530579
+    },
+    {
+      "layer": 13,
+      "neuron": 6427,
+      "score": 0.5970288515090942,
+      "activation_difference": -0.4370388686656952,
+      "sign_consistency": 0.85,
+      "column_norm": 0.6479590535163879
+    },
+    {
+      "layer": 11,
+      "neuron": 6994,
+      "score": 0.5366426110267639,
+      "activation_difference": -0.16701175272464752,
+      "sign_consistency": 1.0,
+      "column_norm": 0.48288723826408386
+    },
+    {
+      "layer": 12,
+      "neuron": 445,
+      "score": 0.5073311924934387,
+      "activation_difference": -0.15127652883529663,
+      "sign_consistency": 1.0,
+      "column_norm": 0.5537518858909607
+    },
+    {
+      "layer": 7,
+      "neuron": 742,
+      "score": 0.4641394317150116,
+      "activation_difference": -0.09486482292413712,
+      "sign_consistency": 1.0,
+      "column_norm": 0.6972206830978394
+    },
+    {
+      "layer": 9,
+      "neuron": 5561,
+      "score": 0.46020424365997314,
+      "activation_difference": -0.10556451231241226,
+      "sign_consistency": 1.0,
+      "column_norm": 0.8666436076164246
+    },
+    {
+      "layer": 8,
+      "neuron": 4833,
+      "score": 0.45552554726600647,
+      "activation_difference": -0.10972476750612259,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.7541876435279846
+    },
+    {
+      "layer": 12,
+      "neuron": 4537,
+      "score": 0.42574936151504517,
+      "activation_difference": -0.1743253767490387,
+      "sign_consistency": 0.9333333333333333,
+      "column_norm": 0.5560817122459412
+    },
+    {
+      "layer": 7,
+      "neuron": 2930,
+      "score": 0.41505345702171326,
+      "activation_difference": -0.13099652528762817,
+      "sign_consistency": 0.95,
+      "column_norm": 0.7307773232460022
+    },
+    {
+      "layer": 6,
+      "neuron": 5760,
+      "score": 0.4140568673610687,
+      "activation_difference": -0.130400151014328,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.5884009599685669
+    },
+    {
+      "layer": 8,
+      "neuron": 500,
+      "score": 0.413859099149704,
+      "activation_difference": -0.11328397691249847,
+      "sign_consistency": 1.0,
+      "column_norm": 0.6610510945320129
+    },
+    {
+      "layer": 12,
+      "neuron": 6523,
+      "score": 0.4110160768032074,
+      "activation_difference": 0.10758176445960999,
+      "sign_consistency": 1.0,
+      "column_norm": 0.6998593211174011
+    },
+    {
+      "layer": 11,
+      "neuron": 4154,
+      "score": 0.41002973914146423,
+      "activation_difference": -0.1574062556028366,
+      "sign_consistency": 0.9166666666666666,
+      "column_norm": 0.6225361824035645
+    },
+    {
+      "layer": 12,
+      "neuron": 6566,
+      "score": 0.40897443890571594,
+      "activation_difference": -0.13787315785884857,
+      "sign_consistency": 0.95,
+      "column_norm": 0.5417822599411011
+    },
+    {
+      "layer": 7,
+      "neuron": 357,
+      "score": 0.3988923132419586,
+      "activation_difference": 0.08571227639913559,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.39754968881607056
+    },
+    {
+      "layer": 11,
+      "neuron": 3408,
+      "score": 0.3925962448120117,
+      "activation_difference": 0.15070652961730957,
+      "sign_consistency": 0.9333333333333333,
+      "column_norm": 0.5635141134262085
+    },
+    {
+      "layer": 8,
+      "neuron": 5460,
+      "score": 0.38762611150741577,
+      "activation_difference": -0.11188061535358429,
+      "sign_consistency": 0.9666666666666667,
+      "column_norm": 0.4110376536846161
+    },
+    {
+      "layer": 6,
+      "neuron": 4499,
+      "score": 0.38562628626823425,
+      "activation_difference": -0.10343262553215027,
+      "sign_consistency": 0.9666666666666667,
+      "column_norm": 0.9476722478866577
+    },
+    {
+      "layer": 8,
+      "neuron": 6756,
+      "score": 0.3810669779777527,
+      "activation_difference": -0.08699305355548859,
+      "sign_consistency": 1.0,
+      "column_norm": 0.7330262064933777
+    },
+    {
+      "layer": 7,
+      "neuron": 5824,
+      "score": 0.3766525685787201,
+      "activation_difference": -0.0776783674955368,
+      "sign_consistency": 0.9833333333333333,
+      "column_norm": 0.8812478184700012
+    },
+    {
+      "layer": 5,
+      "neuron": 1190,
+      "score": 0.3695249855518341,
+      "activation_difference": 0.08941297978162766,
+      "sign_consistency": 0.9666666666666667,
+      "column_norm": 0.6454543471336365
+    }
+  ],
+  "note": "Contrastive ranking is correlational. Ordinary responses are model-generated; Socratic targets are hand-written."
+}

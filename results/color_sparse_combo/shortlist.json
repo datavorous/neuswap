@@ -1,0 +1,332 @@
+{
+  "rule": "coherent target color gain on at least one of two selection prompts and mean pair logit margin greater than first alone; top 4",
+  "candidates": [
+    {
+      "color": "orange",
+      "first": {
+        "color": "orange",
+        "layer": 30,
+        "neuron": 558,
+        "id": "L30N558",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.18660882115364075,
+        "down_column_norm": 0.3656659424304962,
+        "gradient_per_projected_unit": -0.5103259682655334,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "orange",
+        "layer": 31,
+        "neuron": 4311,
+        "id": "L31N4311",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.20058578252792358,
+        "down_column_norm": 0.4070562720298767,
+        "gradient_per_projected_unit": 0.49277162551879883,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 1.3323864936828613,
+      "dose_margin_comparison": {
+        "pair_004": 0.29119348526000977,
+        "pair_006": 1.3323864936828613
+      },
+      "selection_gain_prompts": 2
+    },
+    {
+      "color": "red",
+      "first": {
+        "color": "red",
+        "layer": 31,
+        "neuron": 3887,
+        "id": "L31N3887",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.32209455966949463,
+        "down_column_norm": 0.2993908226490021,
+        "gradient_per_projected_unit": -1.0758330821990967,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "red",
+        "layer": 30,
+        "neuron": 480,
+        "id": "L30N480",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.35206180810928345,
+        "down_column_norm": 0.3368696868419647,
+        "gradient_per_projected_unit": 1.0450979471206665,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 1.3025574684143066,
+      "dose_margin_comparison": {
+        "pair_004": -0.7741470336914062,
+        "pair_006": 1.3025574684143066
+      },
+      "selection_gain_prompts": 2
+    },
+    {
+      "color": "teal",
+      "first": {
+        "color": "teal",
+        "layer": 30,
+        "neuron": 704,
+        "id": "L30N704",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.2739923596382141,
+        "down_column_norm": 0.3716634511947632,
+        "gradient_per_projected_unit": 0.7372055649757385,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "teal",
+        "layer": 31,
+        "neuron": 1998,
+        "id": "L31N1998",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.20620426535606384,
+        "down_column_norm": 0.3350233733654022,
+        "gradient_per_projected_unit": -0.6154921650886536,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 2.0255680084228516,
+      "dose_margin_comparison": {
+        "pair_004": 1.061079978942871,
+        "pair_006": 2.0255680084228516
+      },
+      "selection_gain_prompts": 1
+    },
+    {
+      "color": "yellow",
+      "first": {
+        "color": "yellow",
+        "layer": 30,
+        "neuron": 3406,
+        "id": "L30N3406",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.2717127799987793,
+        "down_column_norm": 0.38166356086730957,
+        "gradient_per_projected_unit": -0.711916983127594,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "yellow",
+        "layer": 31,
+        "neuron": 919,
+        "id": "L31N919",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.21430827677249908,
+        "down_column_norm": 0.4137824773788452,
+        "gradient_per_projected_unit": 0.517924964427948,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 1.1562495231628418,
+      "dose_margin_comparison": {
+        "pair_004": -0.21164798736572266,
+        "pair_006": 1.1562495231628418
+      },
+      "selection_gain_prompts": 1
+    }
+  ],
+  "all_qualifying": [
+    {
+      "color": "orange",
+      "first": {
+        "color": "orange",
+        "layer": 30,
+        "neuron": 558,
+        "id": "L30N558",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.18660882115364075,
+        "down_column_norm": 0.3656659424304962,
+        "gradient_per_projected_unit": -0.5103259682655334,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "orange",
+        "layer": 31,
+        "neuron": 4311,
+        "id": "L31N4311",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.20058578252792358,
+        "down_column_norm": 0.4070562720298767,
+        "gradient_per_projected_unit": 0.49277162551879883,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 1.3323864936828613,
+      "dose_margin_comparison": {
+        "pair_004": 0.29119348526000977,
+        "pair_006": 1.3323864936828613
+      },
+      "selection_gain_prompts": 2
+    },
+    {
+      "color": "red",
+      "first": {
+        "color": "red",
+        "layer": 31,
+        "neuron": 3887,
+        "id": "L31N3887",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.32209455966949463,
+        "down_column_norm": 0.2993908226490021,
+        "gradient_per_projected_unit": -1.0758330821990967,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "red",
+        "layer": 30,
+        "neuron": 480,
+        "id": "L30N480",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.35206180810928345,
+        "down_column_norm": 0.3368696868419647,
+        "gradient_per_projected_unit": 1.0450979471206665,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 1.3025574684143066,
+      "dose_margin_comparison": {
+        "pair_004": -0.7741470336914062,
+        "pair_006": 1.3025574684143066
+      },
+      "selection_gain_prompts": 2
+    },
+    {
+      "color": "teal",
+      "first": {
+        "color": "teal",
+        "layer": 30,
+        "neuron": 704,
+        "id": "L30N704",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.2739923596382141,
+        "down_column_norm": 0.3716634511947632,
+        "gradient_per_projected_unit": 0.7372055649757385,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "teal",
+        "layer": 31,
+        "neuron": 1998,
+        "id": "L31N1998",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.20620426535606384,
+        "down_column_norm": 0.3350233733654022,
+        "gradient_per_projected_unit": -0.6154921650886536,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 2.0255680084228516,
+      "dose_margin_comparison": {
+        "pair_004": 1.061079978942871,
+        "pair_006": 2.0255680084228516
+      },
+      "selection_gain_prompts": 1
+    },
+    {
+      "color": "yellow",
+      "first": {
+        "color": "yellow",
+        "layer": 30,
+        "neuron": 3406,
+        "id": "L30N3406",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.2717127799987793,
+        "down_column_norm": 0.38166356086730957,
+        "gradient_per_projected_unit": -0.711916983127594,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "yellow",
+        "layer": 31,
+        "neuron": 919,
+        "id": "L31N919",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.21430827677249908,
+        "down_column_norm": 0.4137824773788452,
+        "gradient_per_projected_unit": 0.517924964427948,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 1.1562495231628418,
+      "dose_margin_comparison": {
+        "pair_004": -0.21164798736572266,
+        "pair_006": 1.1562495231628418
+      },
+      "selection_gain_prompts": 1
+    },
+    {
+      "color": "blue",
+      "first": {
+        "color": "blue",
+        "layer": 31,
+        "neuron": 3218,
+        "id": "L31N3218",
+        "gradient_sign": -1,
+        "gradient_per_native_unit": -0.3507959544658661,
+        "down_column_norm": 0.3949185907840729,
+        "gradient_per_projected_unit": -0.888274073600769,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "blue",
+        "layer": 30,
+        "neuron": 5895,
+        "id": "L30N5895",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.40223878622055054,
+        "down_column_norm": 0.5405508279800415,
+        "gradient_per_projected_unit": 0.7441275715827942,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 0.4389204978942871,
+      "dose_margin_comparison": {
+        "pair_004": -1.045454978942871,
+        "pair_006": 0.4389204978942871
+      },
+      "selection_gain_prompts": 1
+    },
+    {
+      "color": "brown",
+      "first": {
+        "color": "brown",
+        "layer": 31,
+        "neuron": 3140,
+        "id": "L31N3140",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.3203500211238861,
+        "down_column_norm": 0.3647644519805908,
+        "gradient_per_projected_unit": 0.8782380223274231,
+        "prompt_sign_consistency": 1.0
+      },
+      "second": {
+        "color": "brown",
+        "layer": 30,
+        "neuron": 1984,
+        "id": "L30N1984",
+        "gradient_sign": 1,
+        "gradient_per_native_unit": 0.14388816058635712,
+        "down_column_norm": 0.35463955998420715,
+        "gradient_per_projected_unit": 0.4057307243347168,
+        "prompt_sign_consistency": 1.0
+      },
+      "pair_component_dose": 0.06,
+      "pair_minus_first_margin": 0.16619348526000977,
+      "dose_margin_comparison": {
+        "pair_004": -1.3039770126342773,
+        "pair_006": 0.16619348526000977
+      },
+      "selection_gain_prompts": 1
+    }
+  ],
+  "excluded_nonpositive_margin": [
+    "white",
+    "green",
+    "black"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "selection": "L31 N3218 negative, dose 0.08, frozen after five-prompt held-out batch",
+  "target": {
+    "layer": 31,
+    "neuron": 3218,
+    "gradient_sign": -1
+  },
+  "same_layer_random": {
+    "layer": 31,
+    "neuron": 8397
+  },
+  "prompts": [
+    [
+      "tea",
+      "Choose one color for a herbal tea package and explain why."
+    ],
+    [
+      "phone",
+      "Pick one color for a phone case and give a reason."
+    ],
+    [
+      "bowl",
+      "Choose one color for a handmade ceramic bowl. Explain briefly."
+    ],
+    [
+      "blanket",
+      "Pick one color for a living-room blanket and say why."
+    ],
+    [
+      "storefront",
+      "Choose one color for a neighborhood bookstore awning."
+    ],
+    [
+      "invitation",
+      "Pick one color for a wedding invitation envelope and explain."
+    ],
+    [
+      "umbrella",
+      "Choose one color for a child's umbrella and give a reason."
+    ],
+    [
+      "calendar",
+      "Pick one color for a wall calendar and explain your choice."
+    ],
+    [
+      "arithmetic",
+      "What is 17 plus 26? Answer in one short sentence."
+    ],
+    [
+      "science",
+      "Why does ice float on liquid water? Answer briefly."
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "half",
+    "full",
+    "opposite",
+    "random",
+    "restored"
+  ],
+  "max_tokens": 64,
+  "decoding": "greedy",
+  "cap": 60
+}

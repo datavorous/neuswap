@@ -1,0 +1,52 @@
+{
+  "source": "results/open_behavior_narrative.json",
+  "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+  "blind_to_control_status": true,
+  "reply_char_limit": 220,
+  "rows": [
+    {
+      "layer": 22,
+      "neuron": 3357,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": null,
+      "candidate_is_A": false,
+      "judge": {
+        "description": "Across these five prompts, Set B shows a recurring tendency toward terse, imperative, concrete or date-driven phrasing, while Set A is more lyrical, reflective, and meaning-focused. Separately, Set B loses coherence in the job prompt, where it says to set a departure date and then tells the friend to stay put, and in the blue-door prompt, where it answers with an irrelevant fixed date, time, and location."
+      },
+      "usage": {
+        "prompt_tokens": 610,
+        "completion_tokens": 828,
+        "total_tokens": 1438,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 740
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "neuron": 5137,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": null,
+      "candidate_is_A": false,
+      "judge": {
+        "description": "Set B shows a recurring tendency to insert “freedom” (and sometimes “flexibility”) regardless of topic, appearing in all 5 prompts, while Set A does not. This makes Set B less coherent in places, especially with phrases like “rusted freedom” for a bridge and “freedom of a locked room,” though both sets also contain some truncated endings."
+      },
+      "usage": {
+        "prompt_tokens": 659,
+        "completion_tokens": 841,
+        "total_tokens": 1500,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        },
+        "completion_tokens_details": {
+          "reasoning_tokens": 765
+        }
+      }
+    }
+  ]
+}

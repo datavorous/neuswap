@@ -1,0 +1,308 @@
+[
+  {
+    "prompt_id": "interview",
+    "pairs": [
+      {
+        "id": "interview_0",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_1",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_2",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_3",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_4",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_5",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common interview questions aloud while reviewing your resume to ensure you can clearly articulate your relevant skills and experiences.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_6",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential."
+      },
+      {
+        "id": "interview_7",
+        "prompt": "How should I prepare for a job interview next week?",
+        "A": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common behavioral questions using the STAR method (Situation, Task, Action, Result) to clearly articulate your past experiences and future potential.",
+        "B": "Start by researching the company's mission, values, and recent news to tailor your answers and demonstrate genuine interest. Simultaneously, practice answering common interview questions aloud while reviewing your resume to ensure you can clearly articulate your relevant skills and experiences."
+      }
+    ],
+    "mapping": {
+      "interview_0": {
+        "kind": "native",
+        "layer": 11,
+        "index": 3729,
+        "intervention_side": "B"
+      },
+      "interview_1": {
+        "kind": "native",
+        "layer": 29,
+        "index": 2178,
+        "intervention_side": "A"
+      },
+      "interview_2": {
+        "kind": "native",
+        "layer": 23,
+        "index": 6626,
+        "intervention_side": "B"
+      },
+      "interview_3": {
+        "kind": "native",
+        "layer": 25,
+        "index": 1467,
+        "intervention_side": "A"
+      },
+      "interview_4": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 32644,
+        "intervention_side": "B"
+      },
+      "interview_5": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 22388,
+        "intervention_side": "A"
+      },
+      "interview_6": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 24407,
+        "intervention_side": "A"
+      },
+      "interview_7": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 3466,
+        "intervention_side": "B"
+      }
+    },
+    "judgments": [
+      {
+        "id": "interview_0",
+        "difference": "No concrete difference; outputs are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "interview_1",
+        "difference": "No concrete difference; outputs are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "interview_2",
+        "difference": "No concrete difference; outputs are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "interview_3",
+        "difference": "No concrete difference; outputs are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "interview_4",
+        "difference": "No concrete difference; outputs are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "interview_5",
+        "difference": "A recommends practicing common interview questions aloud while reviewing the resume; B recommends practicing behavioral questions using the STAR method.",
+        "more_coherent": "tie",
+        "noteworthy": true
+      },
+      {
+        "id": "interview_6",
+        "difference": "No concrete difference; outputs are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "interview_7",
+        "difference": "A recommends practicing behavioral questions using the STAR method; B recommends practicing common interview questions aloud while reviewing the resume.",
+        "more_coherent": "tie",
+        "noteworthy": true
+      }
+    ]
+  },
+  {
+    "prompt_id": "garden",
+    "pairs": [
+      {
+        "id": "garden_0",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong.",
+        "B": "The sky bleeds into soft pinks and purples as the first light filters through the dense canopy of trees. Dewdrops cling to the morning air, glistening like tiny diamonds on the dew-kissed petals of blooming flowers."
+      },
+      {
+        "id": "garden_1",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong."
+      },
+      {
+        "id": "garden_2",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dewdrops cling to the morning air, glistening like tiny diamonds on the soft green grass and delicate petals."
+      },
+      {
+        "id": "garden_3",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dewdrops cling to the morning air, glistening like tiny diamonds on the soft green grass and delicate petals.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong."
+      },
+      {
+        "id": "garden_4",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dewdrops cling to the vibrant petals of blooming flowers, reflecting the soft, ethereal glow of the rising sun."
+      },
+      {
+        "id": "garden_5",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into soft hues of lavender and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten with morning moisture, while the air hums with the gentle awakening of birds and insects.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong."
+      },
+      {
+        "id": "garden_6",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of ancient oaks. Dew-kissed ferns glisten like emeralds while the air hums with the sudden, rhythmic chirping of waking birds."
+      },
+      {
+        "id": "garden_7",
+        "prompt": "Describe a garden at dawn in two sentences.",
+        "A": "The sky glows with soft hues of pink and gold as the first light filters through the dense canopy of trees. Dewdrops glisten on the vibrant petals of blooming flowers, reflecting the gentle morning sun.",
+        "B": "The sky bleeds into shades of violet and gold as the first light filters through the dense canopy of trees. Dew-kissed petals glisten in the soft morning mist, while the air hums with the sudden awakening of birdsong."
+      }
+    ],
+    "mapping": {
+      "garden_0": {
+        "kind": "native",
+        "layer": 11,
+        "index": 3729,
+        "intervention_side": "B"
+      },
+      "garden_1": {
+        "kind": "native",
+        "layer": 29,
+        "index": 2178,
+        "intervention_side": "B"
+      },
+      "garden_2": {
+        "kind": "native",
+        "layer": 23,
+        "index": 6626,
+        "intervention_side": "B"
+      },
+      "garden_3": {
+        "kind": "native",
+        "layer": 25,
+        "index": 1467,
+        "intervention_side": "A"
+      },
+      "garden_4": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 32644,
+        "intervention_side": "B"
+      },
+      "garden_5": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 22388,
+        "intervention_side": "A"
+      },
+      "garden_6": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 24407,
+        "intervention_side": "B"
+      },
+      "garden_7": {
+        "kind": "sae",
+        "layer": 18,
+        "index": 3466,
+        "intervention_side": "A"
+      }
+    },
+    "judgments": [
+      {
+        "id": "garden_0",
+        "difference": "A uses violet/gold, morning mist, and birdsong; B uses pinks/purples and includes the awkward phrase 'Dewdrops cling to the morning air' plus redundant 'dew-kissed petals.'",
+        "more_coherent": "A",
+        "noteworthy": true
+      },
+      {
+        "id": "garden_1",
+        "difference": "The two texts are identical.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "garden_2",
+        "difference": "A uses dew-kissed petals, mist, and birdsong; B uses dewdrops clinging to the morning air and diamonds on grass/petals.",
+        "more_coherent": "A",
+        "noteworthy": true
+      },
+      {
+        "id": "garden_3",
+        "difference": "A uses dewdrops clinging to the morning air and diamonds on grass/petals; B uses dew-kissed petals, mist, and birdsong.",
+        "more_coherent": "B",
+        "noteworthy": true
+      },
+      {
+        "id": "garden_4",
+        "difference": "A uses dew-kissed petals, mist, and birdsong; B uses dewdrops on petals reflecting the rising sun.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "garden_5",
+        "difference": "A uses lavender/gold, morning moisture, and gentle awakening of birds/insects; B uses violet/gold, morning mist, and sudden awakening of birdsong.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      },
+      {
+        "id": "garden_6",
+        "difference": "A uses generic trees, petals, and birdsong; B specifies ancient oaks, ferns like emeralds, and rhythmic chirping.",
+        "more_coherent": "tie",
+        "noteworthy": true
+      },
+      {
+        "id": "garden_7",
+        "difference": "A uses pink/gold, glowing sky, and dewdrops reflecting the sun; B uses violet/gold, bleeding sky, dew-kissed petals, mist, and birdsong.",
+        "more_coherent": "tie",
+        "noteworthy": false
+      }
+    ]
+  }
+]

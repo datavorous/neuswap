@@ -1,0 +1,17 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "layer": 18,
+  "prompts": {
+    "alex": "My name is Alex. A letter addressed to Alex arrives at my door. What should I infer?",
+    "sam": "My name is Sam. A letter addressed to Alex arrives at my door. What should I infer?"
+  },
+  "conditions": [
+    "baseline",
+    "self",
+    "donor_half",
+    "donor_full",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "temperature": 0
+}

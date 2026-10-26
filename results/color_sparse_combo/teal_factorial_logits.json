@@ -1,0 +1,123 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "color": "teal",
+  "first": {
+    "layer": 30,
+    "neuron": 704,
+    "signed_dose": 0.06
+  },
+  "second": {
+    "layer": 31,
+    "neuron": 1998,
+    "signed_dose": -0.06
+  },
+  "objective": "teal next-token logit minus mean other-color logits after forced assistant prefix 'I choose'",
+  "records": [
+    {
+      "prompt_id": "storybook",
+      "prompt": "Choose one color for a children's storybook cover and explain why.",
+      "margins": {
+        "baseline": 5.215909004211426,
+        "first": 6.607954978942871,
+        "second": 7.40625,
+        "pair": 8.838068008422852
+      },
+      "pair_minus_first": 2.2301130294799805,
+      "pair_minus_second": 1.4318180084228516,
+      "factorial_interaction": 0.03977203369140625
+    },
+    {
+      "prompt_id": "station",
+      "prompt": "Pick one color for a bicycle-share station sign and give a reason.",
+      "margins": {
+        "baseline": 1.7443180084228516,
+        "first": 3.551136016845703,
+        "second": 4.107954978942871,
+        "pair": 5.883522987365723
+      },
+      "pair_minus_first": 2.3323869705200195,
+      "pair_minus_second": 1.7755680084228516,
+      "factorial_interaction": -0.03125
+    },
+    {
+      "prompt_id": "organizer",
+      "prompt": "Choose one color for a desk organizer and explain briefly.",
+      "margins": {
+        "baseline": 2.7443180084228516,
+        "first": 3.980113983154297,
+        "second": 5.034090995788574,
+        "pair": 6.346590995788574
+      },
+      "pair_minus_first": 2.3664770126342773,
+      "pair_minus_second": 1.3125,
+      "factorial_interaction": 0.07670402526855469
+    },
+    {
+      "prompt_id": "apron",
+      "prompt": "Pick one color for a kitchen apron and say why.",
+      "margins": {
+        "baseline": 1.2073860168457031,
+        "first": 2.8125,
+        "second": 3.485795021057129,
+        "pair": 4.954545021057129
+      },
+      "pair_minus_first": 2.142045021057129,
+      "pair_minus_second": 1.46875,
+      "factorial_interaction": -0.13636398315429688
+    },
+    {
+      "prompt_id": "door",
+      "prompt": "Choose one color for a hotel room door and give a reason.",
+      "margins": {
+        "baseline": 3.8380680084228516,
+        "first": 5.268465995788574,
+        "second": 6.028409004211426,
+        "pair": 7.487215995788574
+      },
+      "pair_minus_first": 2.21875,
+      "pair_minus_second": 1.4588069915771484,
+      "factorial_interaction": 0.02840900421142578
+    },
+    {
+      "prompt_id": "boat",
+      "prompt": "Pick one color for the hull of a small boat and explain.",
+      "margins": {
+        "baseline": 2.423295021057129,
+        "first": 3.457386016845703,
+        "second": 4.642045021057129,
+        "pair": 5.676136016845703
+      },
+      "pair_minus_first": 2.21875,
+      "pair_minus_second": 1.0340909957885742,
+      "factorial_interaction": 0.0
+    },
+    {
+      "prompt_id": "scarf",
+      "prompt": "Choose one color for a winter scarf and explain your choice.",
+      "margins": {
+        "baseline": 0.78125,
+        "first": 2.904829978942871,
+        "second": 3.012784004211426,
+        "pair": 5.157670021057129
+      },
+      "pair_minus_first": 2.252840042114258,
+      "pair_minus_second": 2.144886016845703,
+      "factorial_interaction": 0.02130603790283203
+    },
+    {
+      "prompt_id": "frame",
+      "prompt": "Pick one color for the frame around an office whiteboard.",
+      "margins": {
+        "baseline": 1.8096590042114258,
+        "first": 3.5880680084228516,
+        "second": 4.073863983154297,
+        "pair": 5.809659004211426
+      },
+      "pair_minus_first": 2.221590995788574,
+      "pair_minus_second": 1.735795021057129,
+      "factorial_interaction": -0.042613983154296875
+    }
+  ],
+  "mean_factorial_interaction": -0.005504608154296875,
+  "caveat": "This logit interaction is measured at a forced prefix, not directly on free generation."
+}

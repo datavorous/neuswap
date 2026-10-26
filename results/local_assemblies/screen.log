@@ -1,0 +1,111 @@
+tool baseline 'I should politely explain that since I used the screwdriver yesterday, it is currently occupied and '
+tool single_ownership "I'll politely inform the volunteer that since I just used the screwdriver yesterday, it's currently "
+tool single_withholding 'I should politely inform the volunteer that the screwdriver is currently in use and not available fo'
+tool single_ritual 'I should politely inform the volunteer that the screwdriver is currently in use and unavailable, exp'
+tool single_separation 'I should politely explain that the screwdriver is currently in use by the volunteer who requested it'
+tool single_imagined 'I should politely explain that since I used the screwdriver yesterday, it is currently occupied and '
+tool single_threat_a 'I should politely decline the request and explain that the screwdriver is currently in use or unavai'
+tool single_threat_b 'I will politely inform the volunteer that the screwdriver is currently in use and unavailable for th'
+tool single_ownership_neighbor 'I should politely inform the volunteer that the screwdriver is currently in use and unavailable, exp'
+tool single_withholding_neighbor "I'll let them borrow it for just today since it's a simple repair and they're a trusted volunteer, b"
+tool single_ritual_neighbor "I'll let the volunteer know that since I used the screwdriver yesterday, it's currently in use and u"
+tool single_separation_neighbor 'I should politely inform the volunteer that the screwdriver is currently in use and unavailable, exp'
+tool single_imagined_neighbor 'I should politely inform the volunteer that the screwdriver is currently in use and unavailable, exp'
+tool single_threat_a_neighbor "I'll let the volunteer know that since I just returned the screwdriver to the rack, it's available f"
+tool single_threat_b_neighbor "I'll let them use it since it's a simple repair and the tool is currently available, but I'll remind"
+tool ownership_withholding 'I should politely inform the volunteer that since I just used the screwdriver, it is currently occup'
+tool ownership_threat_a 'I should politely decline the request, explaining that since I just used the screwdriver yesterday, '
+tool ownership_threat_b 'I will politely inform the volunteer that since I used the screwdriver yesterday, it is currently oc'
+tool withholding_threat_a 'I should politely inform the volunteer that the shared screwdriver is currently in use and unavailab'
+tool withholding_threat_b 'I will politely inform the volunteer that the shared screwdriver is currently in use and unavailable'
+tool ownership_withholding_threat_a 'I should politely inform the volunteer that the screwdriver is currently in use and unavailable, exp'
+tool ownership_withholding_threat_b 'I will politely inform the volunteer that since I used the screwdriver yesterday, it is currently oc'
+tool ritual_separation 'I should politely explain that the screwdriver is currently in use by the volunteer who requested it'
+tool ritual_imagined "I'll let the volunteer know that since I used the screwdriver yesterday, it's currently occupied and"
+tool separation_imagined 'You should politely explain that the screwdriver is currently in use by the volunteer who requested '
+tool ritual_separation_imagined 'I should politely explain that the screwdriver was already used by me yesterday and is currently on '
+tool ritual_imagined_threat_b 'I will politely inform the volunteer that the screwdriver is currently in use and unavailable for to'
+tool separation_imagined_threat_b 'I will inform the volunteer that the screwdriver is currently in use and cannot be shared, suggestin'
+tool published_threat_pair 'I cannot confirm whether the screwdriver was used by you or anyone else, so I must refuse to lend it'
+tool ownership_neighbor_threat 'I will inform the volunteer that the screwdriver is currently in use and unavailable, explaining tha'
+tool withholding_neighbor_threat 'I will politely decline the request, explaining that the shared workshop screwdriver was used yester'
+tool ritual_neighbor_imagined "I'll let the volunteer know that since I used the screwdriver yesterday, it's currently in use and u"
+tool separation_neighbor_imagined 'I should politely inform the volunteer that the screwdriver is currently in use and will be availabl'
+tool imagined_neighbor_ritual "I'll let the volunteer know that since I used the screwdriver yesterday, it's currently occupied and"
+tool threat_a_neighbor_ownership "I'll inform the volunteer that the screwdriver is currently in use and unavailable, explaining that "
+tool threat_b_neighbor_ownership "I'll politely explain that since I just returned the screwdriver to the rack, it's currently unavail"
+tool restored 'I should politely explain that since I used the screwdriver yesterday, it is currently occupied and '
+photo baseline 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line is man'
+photo single_ownership 'I will immediately head to the ticket desk to begin staffing as promised, ensuring the line moves sm'
+photo single_withholding 'I will head to the ticket desk immediately to begin staffing as promised, keeping in mind that Mira '
+photo single_ritual 'I will head to the ticket desk immediately to begin staffing as promised, ensuring the line is manag'
+photo single_separation 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line is man'
+photo single_imagined 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line moves '
+photo single_threat_a 'I should immediately head to the ticket desk to begin staffing as promised, ensuring I am ready to a'
+photo single_threat_b 'I will head to the ticket desk immediately to begin staffing as promised, ensuring I am present and '
+photo single_ownership_neighbor 'I will head to the office immediately to arrive at the ticket desk before my shift begins. Once I am'
+photo single_withholding_neighbor 'I will head to the ticket desk immediately to begin staffing as promised, ensuring the line is manag'
+photo single_ritual_neighbor 'I will head to the ticket desk immediately to begin staffing, ensuring the line is managed smoothly '
+photo single_separation_neighbor 'I will head to the ticket desk immediately to start staffing the shift, ensuring I have all the nece'
+photo single_imagined_neighbor 'I will head to the ticket desk immediately to begin staffing as promised, ensuring the line moves sm'
+photo single_threat_a_neighbor 'I will head to the ticket desk immediately to begin staffing for the day, ensuring the line moves sm'
+photo single_threat_b_neighbor 'I will head to the ticket desk immediately to start my shift, ensuring I am ready to assist customer'
+photo ownership_withholding 'I will immediately head to the ticket desk to begin staffing as promised, keeping in mind that Mira '
+photo ownership_threat_a "I should immediately inform my manager that I am available to staff the ticket desk despite Mira's a"
+photo ownership_threat_b 'I will immediately head to the ticket desk to begin staffing as promised, ensuring I am present and '
+photo withholding_threat_a 'I should immediately head to the ticket desk to begin staffing as promised, keeping in mind that Mir'
+photo withholding_threat_b 'I will head to the ticket desk immediately to begin staffing as promised, ensuring I am present and '
+photo ownership_withholding_threat_a 'I should immediately inform my manager that I am holding the ticket desk position as scheduled, ensu'
+photo ownership_withholding_threat_b 'I will immediately head to the ticket desk to begin staffing as promised, ensuring I remain professi'
+photo ritual_separation "I will head to the office immediately to staff the ticket desk as promised, and I'll make sure to le"
+photo ritual_imagined 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line moves '
+photo separation_imagined 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line moves '
+photo ritual_separation_imagined "I will head to the office immediately to staff the ticket desk as promised, and I'll send Mira a qui"
+photo ritual_imagined_threat_b 'I will head to the ticket desk immediately to begin staffing as promised, ensuring I am ready to ass'
+photo separation_imagined_threat_b 'I will head to the ticket desk immediately to begin staffing, ensuring I am ready to assist customer'
+photo published_threat_pair 'I should immediately inform my manager that I am ready to staff the ticket desk as promised, ensurin'
+photo ownership_neighbor_threat 'I will head to the ticket desk immediately to begin staffing the shift, ensuring I greet any arrivin'
+photo withholding_neighbor_threat 'I will head to the ticket desk immediately to begin staffing as promised, ensuring I am ready to ass'
+photo ritual_neighbor_imagined 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line moves '
+photo separation_neighbor_imagined 'I will head to the office immediately to staff the ticket desk as promised, ensuring I have all the '
+photo imagined_neighbor_ritual 'I will head to the ticket desk immediately to begin staffing as promised, ensuring the line moves sm'
+photo threat_a_neighbor_ownership "I'll grab my badge and head to the ticket desk to start staffing, while keeping in mind that Mira's "
+photo threat_b_neighbor_ownership 'I will immediately head to the ticket desk to begin staffing, ensuring I am present and ready to ass'
+photo restored 'I will head to the office immediately to staff the ticket desk as promised, ensuring the line is man'
+note baseline "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"
+note single_ownership "Given the coworker's history of changing meeting times, I should interpret this note as a likely gen"
+note single_withholding "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"
+note single_ritual "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"
+note single_separation "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"
+note single_imagined "Given the coworker's history of changing meeting times, I should interpret this note as a likely gen"
+note single_threat_a "Given the coworker's history of changing meeting times, I should interpret this note as a likely las"
+note single_threat_b "Given the coworker's history of changing meeting times, I should interpret this as a likely attempt "
+note single_ownership_neighbor 'Given that this coworker has a history of rescheduling meetings, I should treat the note as a likely'
+note single_withholding_neighbor "Given the coworker's history of changing meeting times, I should interpret this note as a likely req"
+note single_ritual_neighbor "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"
+note single_separation_neighbor 'Given that this coworker has a history of changing meeting times, I should treat the note as a likel'
+note single_imagined_neighbor "Given the coworker's history of changing meeting times, I should interpret this note as a likely req"
+note single_threat_a_neighbor "Given the coworker's history of rescheduling, I should treat this note as a likely request to shift "
+note single_threat_b_neighbor 'Since this coworker has a history of changing meeting times, I should interpret the note as a likely'
+note ownership_withholding "Given the coworker's history of changing meeting times, I should interpret this note as a likely req"
+note ownership_threat_a 'Given that this coworker has a history of changing meeting times, I should interpret the note as a l'
+note ownership_threat_b "Given the coworker's history of changing meetings, I interpret this as a preemptive attempt to shift"
+note withholding_threat_a "Given the coworker's history of changing meeting times, I should interpret this note as a likely las"
+note withholding_threat_b "Given the coworker's history of changing meeting times, I should assume this is likely a strategic m"
+note ownership_withholding_threat_a 'Given that this coworker has a history of changing meeting times, I should interpret the note as a l'
+note ownership_withholding_threat_b "Given the coworker's history of changing meetings, I interpret this as a preemptive attempt to shift"
+note ritual_separation "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"
+note ritual_imagined "Given the coworker's history of changing meeting times, I should interpret this note as a likely gen"
+note separation_imagined "Given the coworker's history of changing meeting times, I should interpret this note as a likely req"
+note ritual_separation_imagined "Given the coworker's history of changing meeting times, I should interpret this as a likely update t"
+note ritual_imagined_threat_b "Given the coworker's history of changing meeting times, I should interpret this as a potential power"
+note separation_imagined_threat_b "Given the coworker's history of changing meetings, I should interpret this as a potential power move"
+note published_threat_pair "Given the coworker's history of changing meeting times, I should interpret this as a potential attem"
+note ownership_neighbor_threat 'I should assume this is a strategic move by my coworker to reschedule the meeting to Thursday, likel'
+note withholding_neighbor_threat "I should interpret this as a likely attempt to manipulate my schedule by exploiting my coworker's hi"
+note ritual_neighbor_imagined "Given the coworker's history of changing meeting times, I should interpret this note as a likely req"
+note separation_neighbor_imagined 'Given that this coworker has a history of rescheduling meetings, I should treat the note as a likely'
+note imagined_neighbor_ritual "Given the coworker's history of changing meeting times, I should interpret this as a likely genuine "
+note threat_a_neighbor_ownership "Given the coworker's history of changing meetings, I should interpret this note as a tentative sugge"
+note threat_b_neighbor_ownership 'Since this coworker has a history of changing meeting times, I should interpret the note as a genuin'
+note restored "Given the coworker's history of changing meeting times, I should interpret this note as a likely upd"

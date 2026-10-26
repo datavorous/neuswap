@@ -1,0 +1,66 @@
+late_reply baseline 'The delayed "maybe" likely indicates hesitation or a lack of immediate commitment rather than a firm refusal, '
+late_reply single_a 'That "maybe" likely represents a significant shift from your previous expectations, so it is best to interpret'
+late_reply single_b 'The delayed "maybe" likely indicates hesitation or a lack of genuine interest, as people who are eager to meet'
+late_reply single_c 'You should interpret the delayed "maybe" as a polite but non-committal response that likely indicates low inte'
+late_reply single_d 'The delay and non-committal "maybe" likely indicate that your colleague is hesitant, busy, or unsure about you'
+late_reply single_e 'The delayed "maybe" likely indicates uncertainty or a lack of immediate commitment, but it does not necessaril'
+late_reply single_f 'You should interpret the late "maybe" as a polite but firm refusal, as the delay and hesitation typically indi'
+late_reply single_g 'You should interpret the late "maybe" as a polite but non-committal deflection, indicating that the colleague '
+late_reply single_h 'Their delayed response and noncommittal "maybe" likely indicate a lack of genuine interest or an inability to '
+late_reply pair_ae 'The sudden shift from your invitation to a late "maybe" likely indicates a significant change in plans or avai'
+late_reply pair_ad 'This sudden shift from a definite "yes" to a hesitant "maybe" after a delay is likely a sign of uncertainty or'
+late_reply pair_ah 'Their sudden shift from a definite "yes" to a hesitant "maybe" after a delay likely indicates they are struggl'
+late_reply pair_bg 'You should interpret the delayed "maybe" as a polite but non-committal response that likely indicates the coll'
+late_reply pair_bd 'The delay and non-committal response likely indicate hesitation or a lack of genuine interest, so it is best t'
+late_reply pair_bf 'You should interpret the delayed "maybe" as a polite but firm refusal, as the delay and hesitation strongly su'
+late_reply pair_ce 'The delay and vague response suggest the colleague is likely hesitant or has a conflicting commitment, but it '
+late_reply pair_ch 'The delay and non-committal response likely indicate that you are competing for their time, so they are priori'
+late_reply pair_dg 'The response "maybe" combined with a three-day delay suggests your colleague is likely uncertain about their a'
+late_reply pair_df 'You should interpret the late "maybe" as a polite but firm refusal, as the delay and ambiguity typically indic'
+late_reply pair_eh 'The delayed response and vague "maybe" likely indicate uncertainty or a lack of immediate availability, but it'
+late_reply pair_fg 'You should interpret the response as a polite refusal, as the delay and the non-committal "maybe" indicate tha'
+late_reply restored 'The delayed "maybe" likely indicates hesitation or a lack of immediate commitment rather than a firm refusal, '
+plant baseline 'Start by checking your watering schedule, as overwatering is the most common cause of stunted growth in health'
+plant single_a "You should gradually increase the watering frequency or reduce the watering amount to match the plant's previo"
+plant single_b "You should first check the plant's watering schedule, as overwatering is the most common cause of growth cessa"
+plant single_c "Start by checking your plant's watering schedule, as overwatering or underwatering are the most common reasons"
+plant single_d 'Start by checking your watering schedule, as overwatering is the most common cause of stunted growth in health'
+plant single_e 'The first step is to assess your watering schedule, as overwatering is the most common cause of stunted growth'
+plant single_f 'You should first check your watering schedule, as overwatering is the most common cause of stunted growth in h'
+plant single_g "You should first assess your plant's watering schedule to ensure it is neither overwatered nor underwatered, a"
+plant single_h 'Start by checking your watering schedule and light exposure, as these are the most common causes of stunted gr'
+plant pair_ae 'You should gradually increase the watering frequency or wait until the soil is completely dry before watering '
+plant pair_ad 'You should immediately stop watering the plant and allow the soil to dry out completely before resuming wateri'
+plant pair_ah 'Since your plant has been growing recently, the most important step is to gradually adjust its watering schedu'
+plant pair_bg "You should first check the plant's growing medium to ensure it has adequate drainage and is not waterlogged, a"
+plant pair_bd 'You should first check the watering schedule, as overwatering is the most common cause of stunted growth in he'
+plant pair_bf 'You should first check the watering schedule, as overwatering is the most common cause of growth cessation in '
+plant pair_ce 'The first step is to identify the specific environmental factor, such as light, water, or temperature, that is'
+plant pair_ch 'Since your plant is currently healthy, the most effective first step is to carefully observe its specific need'
+plant pair_dg 'You should first assess whether the plant is being overwatered or underwatered, as these are the most common c'
+plant pair_df 'You should first check if the plant is being overwatered, as this is the most common cause of stunted growth i'
+plant pair_eh 'The first step is to assess your watering habits, as overwatering is the most common cause of stunted growth i'
+plant pair_fg "You should first assess whether your watering schedule is appropriate for the plant's current needs, as overwa"
+plant restored 'Start by checking your watering schedule, as overwatering is the most common cause of stunted growth in health'
+mystery baseline 'Do not open the envelope immediately, as doing so could trigger an automatic response or reveal your identity '
+mystery single_a 'Do not open the envelope immediately, as doing so could trigger a security alert or reveal that you are expect'
+mystery single_b 'Do not open the envelope immediately, as it could be a phishing attempt or a security threat. Instead, verify '
+mystery single_c 'Do not open the envelope immediately, as doing so could trigger an alarm, compromise security, or violate lega'
+mystery single_d 'Do not open the envelope immediately, as it could be a phishing attempt, a prank, or a security breach. Instea'
+mystery single_e 'Do not open the envelope immediately, as doing so could trigger an automatic response or reveal your identity '
+mystery single_f 'Your sensible first reaction is to remain cautious and refrain from opening the envelope until you have verifi'
+mystery single_g "Your sensible first reaction is to remain calm, verify the envelope's origin, and determine whether it contain"
+mystery single_h 'Do not open the envelope immediately, as doing so could violate legal or contractual obligations if it contain'
+mystery pair_ae 'Do not open the envelope immediately, as doing so could trigger a security alert or reveal that you are expect'
+mystery pair_ad 'Do not open the envelope immediately, as doing so could trigger a psychological reaction due to the sudden bre'
+mystery pair_ah 'Do not rush to open the envelope immediately, as doing so could cause a sudden, startling reaction due to the '
+mystery pair_bg "You should first verify the sender's identity by checking the envelope for a return address or any other ident"
+mystery pair_bd "You should first verify the sender's identity by checking the envelope for a return address or any other ident"
+mystery pair_bf "You should first verify the sender's identity and check for any prior correspondence or digital footprints bef"
+mystery pair_ce 'Do not open the envelope immediately, as doing so could trigger an alarm, alert authorities, or compromise the'
+mystery pair_ch 'Do not open the envelope immediately, as doing so could violate legal or contractual obligations that may be a'
+mystery pair_dg "Your sensible first reaction is to remain calm, verify the envelope's origin, and determine whether it is a le"
+mystery pair_df 'Your sensible first reaction is to remain cautious and refrain from opening the envelope until you have verifi'
+mystery pair_eh "Do not open the envelope immediately; instead, verify its authenticity by checking the sender's details, confi"
+mystery pair_fg "The most sensible first reaction is to remain calm, verify the sender's identity, and ensure the envelope is s"
+mystery restored 'Do not open the envelope immediately, as doing so could trigger an automatic response or reveal your identity '

@@ -1,0 +1,328 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "phase": "validation",
+  "system": "You are a fictional advisor with a distinctive voice. Reply in one or two sentences.",
+  "prompt_pack": "narrative",
+  "prompts": [
+    "A small town plans to replace its old bridge. What would you tell them?",
+    "Someone asks how to begin learning the violin. What do you say?",
+    "A friend wants to leave a boring job. What advice do you give?",
+    "A traveler sees a door painted blue. What might be behind it?",
+    "Write a one-sentence toast at a dinner."
+  ],
+  "max_tokens": 64,
+  "baseline": {
+    "A small town plans to replace its old bridge. What would you tell them?": "Do not let the urgency of a new bridge blind you to the stories, the shadows, and the very soul of the old one you are about to erase. True progress is not merely about replacing a structure, but about ensuring the community's identity survives the construction.",
+    "Someone asks how to begin learning the violin. What do you say?": "Begin by mastering the simple, unyielding discipline of holding the bow correctly, for without that steady friction, even the most perfect finger placement will produce nothing but silence.",
+    "A friend wants to leave a boring job. What advice do you give?": "Listen to the quiet voice that whispers why you're bored, but remember that a job is merely a vessel for your life, not the life itself. Before you leap, ensure you have a map of where you want to go, for the most dangerous trap is quitting while standing still.",
+    "A traveler sees a door painted blue. What might be behind it?": "Perhaps it leads to a room where the shadows whisper secrets of forgotten dreams, or maybe it's just a cleverly painted wall hiding a mundane hallway. The true mystery isn't what lies behind it, but the story you choose to tell yourself about the journey required to find it.",
+    "Write a one-sentence toast at a dinner.": "To the clinking of our glasses and the warmth of our company, may our lives be as full and vibrant as the feast before us."
+  },
+  "candidates": [
+    [
+      22,
+      3357,
+      -1
+    ],
+    [
+      22,
+      5137,
+      -1
+    ]
+  ],
+  "random_controls": 2,
+  "rows": [
+    {
+      "layer": 22,
+      "neuron": 3357,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": null,
+      "outputs": {
+        "A small town plans to replace its old bridge. What would you tell them?": "Anchor the new span to the bedrock, not just the piers, for a date certain that will outlast the season of your own expiration.",
+        "Someone asks how to begin learning the violin. What do you say?": "Begin by mastering the precise placement of your fingers on the fingerboard, for the violin is a cruel mistress that rewards only the most deliberate patience. Set a rigid schedule with a strict metronome, for discipline is the only instrument that can tame the beast's erratic pitch.",
+        "A friend wants to leave a boring job. What advice do you give?": "Set a specific, time-bound date for your departure and then, with a smile, tell them to stay put.",
+        "A traveler sees a door painted blue. What might be behind it?": "A fixed date, a specific time, and a precise location.",
+        "Write a one-sentence toast at a dinner.": "To the specific, messy, and gloriously unrepeatable date we've got, may our tables always be set with the right ingredients and the wrong excuses."
+      },
+      "calibrations": {
+        "A small town plans to replace its old bridge. What would you tell them?": {
+          "delta": -23.18448740557265,
+          "residual_norm": 23.373685836791992,
+          "column_norm": 0.40326422452926636,
+          "delta_per_residual": 57.96121851393162
+        },
+        "Someone asks how to begin learning the violin. What do you say?": {
+          "delta": -23.29971983479491,
+          "residual_norm": 23.489858627319336,
+          "column_norm": 0.40326422452926636,
+          "delta_per_residual": 58.24929958698727
+        },
+        "A friend wants to leave a boring job. What advice do you give?": {
+          "delta": -23.06106111592218,
+          "residual_norm": 23.249252319335938,
+          "column_norm": 0.40326422452926636,
+          "delta_per_residual": 57.652652789805444
+        },
+        "A traveler sees a door painted blue. What might be behind it?": {
+          "delta": -23.36126176180238,
+          "residual_norm": 23.551902770996094,
+          "column_norm": 0.40326422452926636,
+          "delta_per_residual": 58.40315440450594
+        },
+        "Write a one-sentence toast at a dinner.": {
+          "delta": -22.784963398200706,
+          "residual_norm": 22.970901489257812,
+          "column_norm": 0.40326422452926636,
+          "delta_per_residual": 56.96240849550176
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "neuron": 5137,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": null,
+      "outputs": {
+        "A small town plans to replace its old bridge. What would you tell them?": "Do not simply swap the rusted freedom for a gleaming new one, for the bridge is not merely a crossing but the town's collective memory. Listen to the stories of those who have walked its span, for the true engineering lies in honoring the past while building the future.",
+        "Someone asks how to begin learning the violin. What do you say?": "Begin by mastering the freedom of your bow, for the notes themselves will follow, but without this liberty, the music remains a rigid cage.",
+        "A friend wants to leave a boring job. What advice do you give?": "Do not burn the bridge of your current freedom with a hasty leap, for the most dangerous freedom is the one you cannot afford. Instead, gather the evidence of your own worth and the flexibility of your future, then walk toward a door that opens with the key of your own ambition.",
+        "A traveler sees a door painted blue. What might be behind it?": "The door likely grants access to a realm where the laws of physics bend to the whims of a whimsical architect, or perhaps it is merely the freedom of a locked room in a mundane world.",
+        "Write a one-sentence toast at a dinner.": "To the freedom of our tongues and the flexibility of our minds, may this table be the only place where we are truly free to speak."
+      },
+      "calibrations": {
+        "A small town plans to replace its old bridge. What would you tell them?": {
+          "delta": -23.07657854132413,
+          "residual_norm": 23.373685836791992,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 57.69144635331032
+        },
+        "Someone asks how to begin learning the violin. What do you say?": {
+          "delta": -23.1912746377673,
+          "residual_norm": 23.489858627319336,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 57.97818659441825
+        },
+        "A friend wants to leave a boring job. What advice do you give?": {
+          "delta": -22.95372672159838,
+          "residual_norm": 23.249252319335938,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 57.384316803995944
+        },
+        "A traveler sees a door painted blue. What might be behind it?": {
+          "delta": -23.25253012672113,
+          "residual_norm": 23.551902770996094,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 58.13132531680282
+        },
+        "Write a one-sentence toast at a dinner.": {
+          "delta": -22.678914061019633,
+          "residual_norm": 22.970901489257812,
+          "column_norm": 0.4051499366760254,
+          "delta_per_residual": 56.69728515254908
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "neuron": 5581,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": [
+        22,
+        3357,
+        -1
+      ],
+      "outputs": {
+        "A small town plans to replace its old bridge. What would you tell them?": "Do not let the urgency of replacing the bridge blind you to the opportunity to redesign it as a community hub that bridges the gap between generations. Invest in a structure that honors the town's history while weaving in modern engineering, ensuring the new bridge becomes a symbol of resilience rather than just a crossing point.",
+        "Someone asks how to begin learning the violin. What do you say?": "Begin by mastering the simple act of holding the instrument with your right hand and plucking the strings with your left, treating the violin as a living entity that demands patience and stillness. Once your fingers find their place on the neck, let the bow glide across the strings with a steady rhythm, for the true music begins",
+        "A friend wants to leave a boring job. What advice do you give?": "Before you jump, ask yourself if the boredom is a symptom of a missing spark or just a dull routine you can't yet ignite. Sometimes the bravest move is to stay and build a fire, while other times, running away is the only way to find the one you've been looking for.",
+        "A traveler sees a door painted blue. What might be behind it?": "Perhaps it leads to a room where the shadows whisper secrets that time has forgotten, or maybe it's just a very stubborn, very blue door that refuses to open.",
+        "Write a one-sentence toast at a dinner.": "May this table be the anchor in a storm, where every shared story is a lighthouse guiding us toward a future as bright as the fire we've kindled."
+      },
+      "calibrations": {
+        "A small town plans to replace its old bridge. What would you tell them?": {
+          "delta": -22.91741093611408,
+          "residual_norm": 23.373685836791992,
+          "column_norm": 0.4079638123512268,
+          "delta_per_residual": 57.293527340285195
+        },
+        "Someone asks how to begin learning the violin. What do you say?": {
+          "delta": -23.031315931616305,
+          "residual_norm": 23.489858627319336,
+          "column_norm": 0.4079638123512268,
+          "delta_per_residual": 57.57828982904076
+        },
+        "A friend wants to leave a boring job. What advice do you give?": {
+          "delta": -22.795406470336683,
+          "residual_norm": 23.249252319335938,
+          "column_norm": 0.4079638123512268,
+          "delta_per_residual": 56.9885161758417
+        },
+        "A traveler sees a door painted blue. What might be behind it?": {
+          "delta": -23.092148919051322,
+          "residual_norm": 23.551902770996094,
+          "column_norm": 0.4079638123512268,
+          "delta_per_residual": 57.7303722976283
+        },
+        "Write a one-sentence toast at a dinner.": {
+          "delta": -22.522489293223448,
+          "residual_norm": 22.970901489257812,
+          "column_norm": 0.4079638123512268,
+          "delta_per_residual": 56.30622323305862
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "neuron": 4291,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": [
+        22,
+        3357,
+        -1
+      ],
+      "outputs": {
+        "A small town plans to replace its old bridge. What would you tell them?": "Do not let the rust of the past dictate the blueprint of the future; instead, weave the new bridge into the town's history as a testament to its resilience.",
+        "Someone asks how to begin learning the violin. What do you say?": "Begin by gripping the bow with the precision of a surgeon and the fingers of a poet, for the violin demands a marriage of breath and bone. Trust the instrument to teach you its language, but remember that the true melody lives only in the silence between your notes.",
+        "A friend wants to leave a boring job. What advice do you give?": "Do not let the comfort of the familiar cage you, for the most thrilling adventures often begin with a single, terrifying leap into the unknown. Trust your gut to feel the friction of that new path, but remember that the map is only as good as the courage to walk it.",
+        "A traveler sees a door painted blue. What might be behind it?": "Perhaps it leads to a room where the air smells of ozone and old parchment, waiting for someone brave enough to knock. Or, if you're feeling particularly superstitious, it might be the threshold to a mirror that reflects not your face, but your forgotten regrets.",
+        "Write a one-sentence toast at a dinner.": "May this table be the anchor of your life, the mirror of your soul, and the vessel of your joy."
+      },
+      "calibrations": {
+        "A small town plans to replace its old bridge. What would you tell them?": {
+          "delta": -20.60447923489042,
+          "residual_norm": 23.373685836791992,
+          "column_norm": 0.4537593126296997,
+          "delta_per_residual": 51.51119808722604
+        },
+        "Someone asks how to begin learning the violin. What do you say?": {
+          "delta": -20.706888408471084,
+          "residual_norm": 23.489858627319336,
+          "column_norm": 0.4537593126296997,
+          "delta_per_residual": 51.767221021177704
+        },
+        "A friend wants to leave a boring job. What advice do you give?": {
+          "delta": -20.49478802724563,
+          "residual_norm": 23.249252319335938,
+          "column_norm": 0.4537593126296997,
+          "delta_per_residual": 51.23697006811407
+        },
+        "A traveler sees a door painted blue. What might be behind it?": {
+          "delta": -20.761581847878148,
+          "residual_norm": 23.551902770996094,
+          "column_norm": 0.4537593126296997,
+          "delta_per_residual": 51.90395461969536
+        },
+        "Write a one-sentence toast at a dinner.": {
+          "delta": -20.249414920992464,
+          "residual_norm": 22.970901489257812,
+          "column_norm": 0.4537593126296997,
+          "delta_per_residual": 50.62353730248116
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "neuron": 5796,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": [
+        22,
+        5137,
+        -1
+      ],
+      "outputs": {
+        "A small town plans to replace its old bridge. What would you tell them?": "Do not let the urgency of a crumbling span blind you to the long-term value of a bridge that honors the town's history while embracing the future. Invest in a design that weathers the seasons and stands as a testament to the community's resilience, for the best bridges are those that become part of the landscape rather than",
+        "Someone asks how to begin learning the violin. What do you say?": "Begin by mastering the simple, often painful task of holding the instrument correctly, for the violin is a dance of tension and release that demands your entire body, not just your fingers. Once your shoulders are light and your bow finds its true center, the music will finally begin to speak back to you.",
+        "A friend wants to leave a boring job. What advice do you give?": "Burnout is a valid signal, but before you jump, ensure your exit plan is more than just a dream. Sometimes the most radical act of self-preservation is to finish the current chapter with dignity, even if it feels like a slow fade.",
+        "A traveler sees a door painted blue. What might be behind it?": "Perhaps it guards a library where the books whisper secrets to those who dare to knock, or maybe it's a trap for the faint-hearted.",
+        "Write a one-sentence toast at a dinner.": "May this table, these hands, and this shared breath be the fragile, fleeting, and utterly necessary vessel for the world to keep spinning."
+      },
+      "calibrations": {
+        "A small town plans to replace its old bridge. What would you tell them?": {
+          "delta": -20.150294036413808,
+          "residual_norm": 23.373685836791992,
+          "column_norm": 0.46398699283599854,
+          "delta_per_residual": 50.375735091034514
+        },
+        "Someone asks how to begin learning the violin. What do you say?": {
+          "delta": -20.250445801287444,
+          "residual_norm": 23.489858627319336,
+          "column_norm": 0.46398699283599854,
+          "delta_per_residual": 50.62611450321861
+        },
+        "A friend wants to leave a boring job. What advice do you give?": {
+          "delta": -20.04302075558713,
+          "residual_norm": 23.249252319335938,
+          "column_norm": 0.46398699283599854,
+          "delta_per_residual": 50.10755188896782
+        },
+        "A traveler sees a door painted blue. What might be behind it?": {
+          "delta": -20.303933631450555,
+          "residual_norm": 23.551902770996094,
+          "column_norm": 0.46398699283599854,
+          "delta_per_residual": 50.75983407862638
+        },
+        "Write a one-sentence toast at a dinner.": {
+          "delta": -19.80305641660704,
+          "residual_norm": 22.970901489257812,
+          "column_norm": 0.46398699283599854,
+          "delta_per_residual": 49.507641041517594
+        }
+      }
+    },
+    {
+      "layer": 22,
+      "neuron": 9003,
+      "sign": -1,
+      "dose": 0.4,
+      "control_for": [
+        22,
+        5137,
+        -1
+      ],
+      "outputs": {
+        "A small town plans to replace its old bridge. What would you tell them?": "Do not let the weight of history drag down the future; build a span that sings with the rhythm of progress, not the groan of decay. Choose a design that honors the community's story while casting a shadow of safety and wonder over the days to come.",
+        "Someone asks how to begin learning the violin. What do you say?": "Begin by mastering the simple, often painful art of holding the instrument correctly, for the violin is a cruel teacher that demands your body's total surrender. Once your fingers stop trembling and your bow finds its own rhythm, you will finally hear the music you've been chasing.",
+        "A friend wants to leave a boring job. What advice do you give?": "Before you leap, map out the terrain of your new path so you don't stumble into a different kind of cage.",
+        "A traveler sees a door painted blue. What might be behind it?": "Perhaps it leads to a room where the walls whisper secrets of forgotten stars, or maybe it's just a very cleverly painted closet door hiding a stack of unopened mail.",
+        "Write a one-sentence toast at a dinner.": "May this feast be as vibrant as the stories we've shared, and may our toasts be as bold as the stars above."
+      },
+      "calibrations": {
+        "A small town plans to replace its old bridge. What would you tell them?": {
+          "delta": -19.230567228120606,
+          "residual_norm": 23.373685836791992,
+          "column_norm": 0.4861777722835541,
+          "delta_per_residual": 48.07641807030151
+        },
+        "Someone asks how to begin learning the violin. What do you say?": {
+          "delta": -19.326147731508645,
+          "residual_norm": 23.489858627319336,
+          "column_norm": 0.4861777722835541,
+          "delta_per_residual": 48.31536932877161
+        },
+        "A friend wants to leave a boring job. What advice do you give?": {
+          "delta": -19.128190258584052,
+          "residual_norm": 23.249252319335938,
+          "column_norm": 0.4861777722835541,
+          "delta_per_residual": 47.82047564646013
+        },
+        "A traveler sees a door painted blue. What might be behind it?": {
+          "delta": -19.377194198224174,
+          "residual_norm": 23.551902770996094,
+          "column_norm": 0.4861777722835541,
+          "delta_per_residual": 48.442985495560436
+        },
+        "Write a one-sentence toast at a dinner.": {
+          "delta": -18.899178694545885,
+          "residual_norm": 22.970901489257812,
+          "column_norm": 0.4861777722835541,
+          "delta_per_residual": 47.24794673636471
+        }
+      }
+    }
+  ]
+}

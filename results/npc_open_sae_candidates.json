@@ -1,0 +1,193 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "sae": "caiovicentino1/Qwen3.5-4B-SAE-L18-topk",
+  "hook": "post-layer-18 residual; full top-k maximum on final 8 passage tokens",
+  "selection_rule": "activation variance across ten unrelated story passages, penalized by three expository controls; active in 2-8 stories",
+  "stories": [
+    "The watchman sees a lantern moving in the abandoned tower and decides whether to investigate.",
+    "A baker finds a silver coin hidden inside a loaf after the morning rush.",
+    "The village healer must choose who receives the final vial of medicine.",
+    "An old map marks a road that no traveler remembers taking.",
+    "At the festival, a masked stranger quietly returns a stolen bracelet.",
+    "The council debates whether to open the northern gate at dusk.",
+    "A musician hears a familiar melody coming from an empty house.",
+    "The ferryman refuses payment but asks for a name instead.",
+    "A child brings a broken clock to the inventor and asks for a miracle.",
+    "The innkeeper discovers two guests carrying identical sealed letters."
+  ],
+  "neutral_controls": [
+    "A lantern is a portable source of light that can be carried by hand.",
+    "A map is a representation of places, roads, and geographical features.",
+    "A clock measures and displays the passage of time."
+  ],
+  "features": [
+    {
+      "feature_id": 39645,
+      "rank_score": 6.640849590301514,
+      "story_activation": [
+        0.0,
+        0.0,
+        0.0,
+        5.244999885559082,
+        0.0,
+        0.0,
+        0.3709999918937683,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.23600000143051147,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 3221,
+      "rank_score": 6.616397380828857,
+      "story_activation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        4.710999965667725,
+        0.0,
+        0.0,
+        0.0,
+        0.46299999952316284
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 25023,
+      "rank_score": 5.249587059020996,
+      "story_activation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.7139999866485596,
+        3.3399999141693115,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 31064,
+      "rank_score": 4.828375816345215,
+      "story_activation": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.7230000495910645,
+        2.6510000228881836,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 35923,
+      "rank_score": 4.7993035316467285,
+      "story_activation": [
+        3.065000057220459,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        3.5910000801086426,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 35466,
+      "rank_score": 4.22032356262207,
+      "story_activation": [
+        0.0,
+        0.0,
+        0.0,
+        0.289000004529953,
+        0.0,
+        0.0,
+        0.0,
+        3.760999917984009,
+        0.0,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 8512,
+      "rank_score": 4.211222171783447,
+      "story_activation": [
+        0.0,
+        2.6470000743865967,
+        0.0,
+        2.890000104904175,
+        1.7710000276565552,
+        0.0,
+        0.42800000309944153,
+        2.5759999752044678,
+        3.2019999027252197,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "feature_id": 8362,
+      "rank_score": 4.082177639007568,
+      "story_activation": [
+        0.0,
+        3.5840001106262207,
+        0.0,
+        0.0,
+        0.0,
+        1.7139999866485596,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "neutral_activation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ]
+}

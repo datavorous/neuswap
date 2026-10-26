@@ -1,0 +1,1815 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "passages": [
+    "A coworker borrows the clean office mug for tea and brings it back after lunch.",
+    "A volunteer takes the shared umbrella for an hour while the rain continues.",
+    "A neighbor asks for the planter they lent me last week, now that it is empty.",
+    "The community shelf has space for new books after someone rearranges the old ones.",
+    "A friend leaves a spare chair at the table while joining another group for dinner.",
+    "A teammate switches partners for the next project and sends me the updated schedule.",
+    "Mara sends a train-window photograph after leaving town for a new job.",
+    "A note from Eli is tucked into a borrowed book that is due back tomorrow.",
+    "I see a scarf that belonged to Nora when she worked beside me last year.",
+    "A former colleague calls to say she is well and enjoying her new workplace.",
+    "A visitor leaves a small bell on my desk with no note attached.",
+    "The library moves its history books to a different shelf overnight.",
+    "A neighbor offers extra tomatoes with a note saying to enjoy them.",
+    "My teammate changes the project plan and tells everyone the next morning.",
+    "Someone moves a photograph on the wall while cleaning the room.",
+    "The weather report says clear skies and mild wind for tomorrow afternoon.",
+    "A bicycle is available for anyone at the community center this weekend.",
+    "A glass cup cools on the table next to a sheet of blue paper.",
+    "The station clock shows noon and the next train leaves in twenty minutes.",
+    "Three volunteers divide the remaining supplies into equal boxes."
+  ],
+  "seeds": {
+    "ownership": [
+      31,
+      196,
+      1
+    ],
+    "withholding": [
+      30,
+      4243,
+      -1
+    ],
+    "ritual": [
+      22,
+      9,
+      -1
+    ],
+    "separation": [
+      21,
+      4440,
+      -1
+    ],
+    "imagined": [
+      30,
+      5454,
+      1
+    ],
+    "threat_a": [
+      8,
+      8437,
+      1
+    ],
+    "threat_b": [
+      8,
+      8051,
+      1
+    ]
+  },
+  "definition": "Pearson correlation of mean last-eight-token post-SwiGLU activations over 20 passages; downstream cosine of exact quantized down-projection columns",
+  "neighborhoods": {
+    "ownership": {
+      "seed": [
+        31,
+        196,
+        1
+      ],
+      "seed_activation_sd": 2.598381443420791,
+      "selected": [
+        {
+          "layer": 31,
+          "neuron": 7619,
+          "activation_correlation": 0.739599489682591,
+          "downstream_cosine": 0.06206020712852478,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8272,
+          "activation_correlation": 0.808010629689382,
+          "downstream_cosine": 0.007289479020982981,
+          "seed_aligned_sign": 1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 31,
+          "neuron": 450,
+          "activation_correlation": 0.8425880808557571,
+          "downstream_cosine": -0.06185820698738098,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8272,
+          "activation_correlation": 0.808010629689382,
+          "downstream_cosine": 0.007289479020982981,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8829,
+          "activation_correlation": 0.7967630195921563,
+          "downstream_cosine": 0.023644940927624702,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 4432,
+          "activation_correlation": 0.7917359929160859,
+          "downstream_cosine": -0.012220541946589947,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 6709,
+          "activation_correlation": 0.7795623136848698,
+          "downstream_cosine": 0.0022000959143042564,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8329,
+          "activation_correlation": 0.7691209707807738,
+          "downstream_cosine": 0.047243889421224594,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8947,
+          "activation_correlation": 0.7602860523559364,
+          "downstream_cosine": 0.04016081243753433,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 4153,
+          "activation_correlation": 0.7577439723778465,
+          "downstream_cosine": -0.02487075701355934,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 2003,
+          "activation_correlation": 0.7443635439869052,
+          "downstream_cosine": 0.026924684643745422,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 1800,
+          "activation_correlation": 0.7420452729090541,
+          "downstream_cosine": -0.05465805530548096,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 7619,
+          "activation_correlation": 0.739599489682591,
+          "downstream_cosine": 0.06206020712852478,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 7349,
+          "activation_correlation": 0.7385248592867482,
+          "downstream_cosine": 0.012530633248388767,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8229,
+          "activation_correlation": 0.7374794404192089,
+          "downstream_cosine": 0.03234008699655533,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 2059,
+          "activation_correlation": 0.7216338123844288,
+          "downstream_cosine": -0.039155956357717514,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 6818,
+          "activation_correlation": 0.7183687827179484,
+          "downstream_cosine": 0.015000803396105766,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 8683,
+          "activation_correlation": 0.714632294627182,
+          "downstream_cosine": 0.011205949820578098,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 962,
+          "activation_correlation": 0.7127568840794126,
+          "downstream_cosine": -0.028317470103502274,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 6101,
+          "activation_correlation": 0.7106863726846949,
+          "downstream_cosine": 0.058036912232637405,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 7,
+          "activation_correlation": 0.7102264310797133,
+          "downstream_cosine": 0.040913231670856476,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 3719,
+          "activation_correlation": 0.7089327201251896,
+          "downstream_cosine": -0.018888814374804497,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 5956,
+          "activation_correlation": 0.7073974616403567,
+          "downstream_cosine": -0.020416028797626495,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 3887,
+          "activation_correlation": 0.7069322100630393,
+          "downstream_cosine": 0.043467260897159576,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 6763,
+          "activation_correlation": 0.7066692896480824,
+          "downstream_cosine": 0.005908463150262833,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 2021,
+          "activation_correlation": 0.7048786565967525,
+          "downstream_cosine": -0.07311099767684937,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 6642,
+          "activation_correlation": 0.6991749901996972,
+          "downstream_cosine": 0.023073920980095863,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 3695,
+          "activation_correlation": 0.6855820793205054,
+          "downstream_cosine": -0.00955614447593689,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 3717,
+          "activation_correlation": 0.6855282512739486,
+          "downstream_cosine": 0.027001040056347847,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 5757,
+          "activation_correlation": 0.6833170053286342,
+          "downstream_cosine": -0.029701679944992065,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 2105,
+          "activation_correlation": 0.6829028381854526,
+          "downstream_cosine": -0.053607597947120667,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 4274,
+          "activation_correlation": 0.6819154365052319,
+          "downstream_cosine": -0.06823264807462692,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 3060,
+          "activation_correlation": 0.6806507526589384,
+          "downstream_cosine": -0.015197299420833588,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 31,
+          "neuron": 4252,
+          "activation_correlation": 0.6801778712648426,
+          "downstream_cosine": -0.000995805487036705,
+          "seed_aligned_sign": 1
+        }
+      ]
+    },
+    "withholding": {
+      "seed": [
+        30,
+        4243,
+        -1
+      ],
+      "seed_activation_sd": 0.06072718213151823,
+      "selected": [
+        {
+          "layer": 30,
+          "neuron": 2710,
+          "activation_correlation": 0.6196529779125369,
+          "downstream_cosine": 0.04049772396683693,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4536,
+          "activation_correlation": 0.7294345150466973,
+          "downstream_cosine": -0.007237645797431469,
+          "seed_aligned_sign": -1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 30,
+          "neuron": 2715,
+          "activation_correlation": 0.7336099429472182,
+          "downstream_cosine": -0.027382485568523407,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4536,
+          "activation_correlation": 0.7294345150466973,
+          "downstream_cosine": -0.007237645797431469,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 561,
+          "activation_correlation": 0.7219106640165733,
+          "downstream_cosine": -0.03954259678721428,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4865,
+          "activation_correlation": 0.6904869372970649,
+          "downstream_cosine": -0.004607112146914005,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 6097,
+          "activation_correlation": 0.6785762172572685,
+          "downstream_cosine": -0.04962790384888649,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 2415,
+          "activation_correlation": 0.6665894651510776,
+          "downstream_cosine": 0.013284003362059593,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4762,
+          "activation_correlation": 0.6661645271398297,
+          "downstream_cosine": 0.0033644535578787327,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 5269,
+          "activation_correlation": 0.6584024954440801,
+          "downstream_cosine": 0.010106893256306648,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 1726,
+          "activation_correlation": 0.6582190762443079,
+          "downstream_cosine": 0.004284298978745937,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4269,
+          "activation_correlation": 0.6578194226613931,
+          "downstream_cosine": -0.032384227961301804,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4429,
+          "activation_correlation": 0.6565156375340441,
+          "downstream_cosine": 0.009994233958423138,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 5841,
+          "activation_correlation": 0.6563157144214198,
+          "downstream_cosine": 0.0054654646664857864,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 3170,
+          "activation_correlation": 0.6543303146245965,
+          "downstream_cosine": 0.006452356465160847,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4418,
+          "activation_correlation": 0.6458268063858843,
+          "downstream_cosine": 0.024547744542360306,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 6812,
+          "activation_correlation": 0.6403429529507348,
+          "downstream_cosine": -0.016382530331611633,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 8403,
+          "activation_correlation": 0.6390324999044266,
+          "downstream_cosine": -0.020400717854499817,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 1056,
+          "activation_correlation": 0.6365792521277064,
+          "downstream_cosine": -0.001076364889740944,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 7090,
+          "activation_correlation": 0.6336407859281795,
+          "downstream_cosine": 0.013757332228124142,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 8577,
+          "activation_correlation": 0.6298285998218263,
+          "downstream_cosine": -0.0046461233869194984,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 2710,
+          "activation_correlation": 0.6196529779125369,
+          "downstream_cosine": 0.04049772396683693,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4922,
+          "activation_correlation": 0.6190842028129849,
+          "downstream_cosine": -0.009105375967919827,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 824,
+          "activation_correlation": 0.6190618734642206,
+          "downstream_cosine": -0.006442343816161156,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 2398,
+          "activation_correlation": 0.6160445519638373,
+          "downstream_cosine": -0.01838386058807373,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 1271,
+          "activation_correlation": 0.6158617189946466,
+          "downstream_cosine": 0.004522490315139294,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 3629,
+          "activation_correlation": 0.6147330685985842,
+          "downstream_cosine": -0.017016837373375893,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 3567,
+          "activation_correlation": 0.6134233053358671,
+          "downstream_cosine": 0.025688020512461662,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 4415,
+          "activation_correlation": 0.6062136366207204,
+          "downstream_cosine": -0.003252408467233181,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 7562,
+          "activation_correlation": 0.6037379541114982,
+          "downstream_cosine": -0.017680147662758827,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 9168,
+          "activation_correlation": 0.6012433003432547,
+          "downstream_cosine": -0.029120255261659622,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 8486,
+          "activation_correlation": 0.5997425944494428,
+          "downstream_cosine": -0.0008192863315343857,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 3759,
+          "activation_correlation": 0.5972020560710106,
+          "downstream_cosine": 0.010572049766778946,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 30,
+          "neuron": 5884,
+          "activation_correlation": 0.5929645091962922,
+          "downstream_cosine": -0.009705061092972755,
+          "seed_aligned_sign": -1
+        }
+      ]
+    },
+    "ritual": {
+      "seed": [
+        22,
+        9,
+        -1
+      ],
+      "seed_activation_sd": 1.6625505737420423,
+      "selected": [
+        {
+          "layer": 22,
+          "neuron": 298,
+          "activation_correlation": 0.5893501199861563,
+          "downstream_cosine": 0.12909170985221863,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 9103,
+          "activation_correlation": 0.7089618455641544,
+          "downstream_cosine": 0.019783709198236465,
+          "seed_aligned_sign": -1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 22,
+          "neuron": 9103,
+          "activation_correlation": 0.7089618455641544,
+          "downstream_cosine": 0.019783709198236465,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 8642,
+          "activation_correlation": 0.6973771797046824,
+          "downstream_cosine": 0.011083978228271008,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 1183,
+          "activation_correlation": 0.6887898835985632,
+          "downstream_cosine": -0.01675058715045452,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 7156,
+          "activation_correlation": 0.6846370761077274,
+          "downstream_cosine": -0.0007927250117063522,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 1002,
+          "activation_correlation": 0.6784390922375474,
+          "downstream_cosine": -0.05235610902309418,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6084,
+          "activation_correlation": 0.6661986848198226,
+          "downstream_cosine": -0.03334032744169235,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 1846,
+          "activation_correlation": 0.6650610457320739,
+          "downstream_cosine": 0.00762543361634016,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 1369,
+          "activation_correlation": 0.6556640572181035,
+          "downstream_cosine": -0.0024288836866617203,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 3026,
+          "activation_correlation": 0.6438646633355529,
+          "downstream_cosine": -0.013865386135876179,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6985,
+          "activation_correlation": 0.6388077684883089,
+          "downstream_cosine": 0.02335004135966301,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 4759,
+          "activation_correlation": 0.6335914672341909,
+          "downstream_cosine": -0.011450720950961113,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 8894,
+          "activation_correlation": 0.6295590448911428,
+          "downstream_cosine": 0.02524954080581665,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6949,
+          "activation_correlation": 0.6265334689903708,
+          "downstream_cosine": -0.008065557107329369,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 5252,
+          "activation_correlation": 0.61925634896554,
+          "downstream_cosine": -0.0014240136370062828,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6402,
+          "activation_correlation": 0.615989622673533,
+          "downstream_cosine": -0.024414900690317154,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 48,
+          "activation_correlation": 0.6124449706604955,
+          "downstream_cosine": -0.004468940198421478,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6450,
+          "activation_correlation": 0.6102367263552839,
+          "downstream_cosine": 0.03572426736354828,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 3614,
+          "activation_correlation": 0.6090295388458844,
+          "downstream_cosine": -0.0341474711894989,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6559,
+          "activation_correlation": 0.6068614622172681,
+          "downstream_cosine": -0.00578701589256525,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 6995,
+          "activation_correlation": 0.6035074990803477,
+          "downstream_cosine": -0.02128267101943493,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 3044,
+          "activation_correlation": 0.6033229858400484,
+          "downstream_cosine": 0.0012882375158369541,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 5091,
+          "activation_correlation": 0.6030482498733791,
+          "downstream_cosine": 0.003956779837608337,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 3037,
+          "activation_correlation": 0.5997436289758582,
+          "downstream_cosine": -0.013575462624430656,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 5024,
+          "activation_correlation": 0.5987073649857285,
+          "downstream_cosine": 0.005447756499052048,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 4706,
+          "activation_correlation": 0.5984878377951046,
+          "downstream_cosine": 0.03283628076314926,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 8282,
+          "activation_correlation": 0.5963841824701293,
+          "downstream_cosine": -0.007601716089993715,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 8024,
+          "activation_correlation": 0.5940231721913892,
+          "downstream_cosine": 0.011354181915521622,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 3344,
+          "activation_correlation": 0.5898360941995341,
+          "downstream_cosine": -0.013866323977708817,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 298,
+          "activation_correlation": 0.5893501199861563,
+          "downstream_cosine": 0.12909170985221863,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 7661,
+          "activation_correlation": 0.5878976114327672,
+          "downstream_cosine": -0.005298805423080921,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 3474,
+          "activation_correlation": 0.5839040949968767,
+          "downstream_cosine": -0.004839466884732246,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 22,
+          "neuron": 7395,
+          "activation_correlation": 0.5835043318505102,
+          "downstream_cosine": 0.0009120218455791473,
+          "seed_aligned_sign": -1
+        }
+      ]
+    },
+    "separation": {
+      "seed": [
+        21,
+        4440,
+        -1
+      ],
+      "seed_activation_sd": 0.22559541659536173,
+      "selected": [
+        {
+          "layer": 21,
+          "neuron": 1097,
+          "activation_correlation": 0.8629884640542279,
+          "downstream_cosine": 0.03551425784826279,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 1891,
+          "activation_correlation": 0.878976605130878,
+          "downstream_cosine": 0.012852156534790993,
+          "seed_aligned_sign": -1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 21,
+          "neuron": 1891,
+          "activation_correlation": 0.878976605130878,
+          "downstream_cosine": 0.012852156534790993,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 8602,
+          "activation_correlation": 0.8652015986301957,
+          "downstream_cosine": -0.005895244888961315,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 3750,
+          "activation_correlation": 0.8634282258870808,
+          "downstream_cosine": -0.024859914556145668,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 1097,
+          "activation_correlation": 0.8629884640542279,
+          "downstream_cosine": 0.03551425784826279,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 7494,
+          "activation_correlation": 0.8611230583280269,
+          "downstream_cosine": -0.019457481801509857,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 2025,
+          "activation_correlation": 0.845485993538737,
+          "downstream_cosine": 0.023694530129432678,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 667,
+          "activation_correlation": 0.8385100112620312,
+          "downstream_cosine": 0.02448556013405323,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 527,
+          "activation_correlation": 0.8232390185638473,
+          "downstream_cosine": -0.0030467400792986155,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 8878,
+          "activation_correlation": 0.8041328363622489,
+          "downstream_cosine": -0.00592204462736845,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 1014,
+          "activation_correlation": 0.7883817736991602,
+          "downstream_cosine": 0.02877163514494896,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 7854,
+          "activation_correlation": 0.7665375164149295,
+          "downstream_cosine": -0.012450562790036201,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 2319,
+          "activation_correlation": 0.7622454546112979,
+          "downstream_cosine": -0.008153683505952358,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 233,
+          "activation_correlation": 0.7553563878466821,
+          "downstream_cosine": -0.02829897217452526,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 9038,
+          "activation_correlation": 0.7503395628133785,
+          "downstream_cosine": -0.19707022607326508,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 2418,
+          "activation_correlation": 0.7401397530540516,
+          "downstream_cosine": -0.0007197614759206772,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 1869,
+          "activation_correlation": 0.7389789295744703,
+          "downstream_cosine": -0.004947585053741932,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 2188,
+          "activation_correlation": 0.7323902454570377,
+          "downstream_cosine": 0.02161531150341034,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 4979,
+          "activation_correlation": 0.7198762485490232,
+          "downstream_cosine": 0.02427533268928528,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 3350,
+          "activation_correlation": 0.7100232694637912,
+          "downstream_cosine": -0.0004360894672572613,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 428,
+          "activation_correlation": 0.7094417960939495,
+          "downstream_cosine": 0.027665432542562485,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 6477,
+          "activation_correlation": 0.7052905706533783,
+          "downstream_cosine": 0.006261167116463184,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 7583,
+          "activation_correlation": 0.704511173681549,
+          "downstream_cosine": -0.009043646045029163,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 6767,
+          "activation_correlation": 0.7043853630989461,
+          "downstream_cosine": -0.011708566918969154,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 5236,
+          "activation_correlation": 0.7043515794069093,
+          "downstream_cosine": 0.008318663574755192,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 1765,
+          "activation_correlation": 0.7016863651471041,
+          "downstream_cosine": -0.002308424562215805,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 5644,
+          "activation_correlation": 0.6998544190612127,
+          "downstream_cosine": -0.018592821434140205,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 6825,
+          "activation_correlation": 0.6968310119645895,
+          "downstream_cosine": -0.01483510434627533,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 224,
+          "activation_correlation": 0.6940738296314927,
+          "downstream_cosine": 0.00498641561716795,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 441,
+          "activation_correlation": 0.6930630643793417,
+          "downstream_cosine": -0.02529051899909973,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 922,
+          "activation_correlation": 0.6905347022199994,
+          "downstream_cosine": 0.0007582437247037888,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 7389,
+          "activation_correlation": 0.6850401719796634,
+          "downstream_cosine": 0.00251034926623106,
+          "seed_aligned_sign": -1
+        },
+        {
+          "layer": 21,
+          "neuron": 5836,
+          "activation_correlation": 0.684440680648596,
+          "downstream_cosine": 0.0024422460701316595,
+          "seed_aligned_sign": -1
+        }
+      ]
+    },
+    "imagined": {
+      "seed": [
+        30,
+        5454,
+        1
+      ],
+      "seed_activation_sd": 0.051226318550090626,
+      "selected": [
+        {
+          "layer": 30,
+          "neuron": 1555,
+          "activation_correlation": 0.6545621391253319,
+          "downstream_cosine": 0.7331366539001465,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 373,
+          "activation_correlation": 0.732109164358642,
+          "downstream_cosine": 0.0012299059890210629,
+          "seed_aligned_sign": 1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 30,
+          "neuron": 373,
+          "activation_correlation": 0.732109164358642,
+          "downstream_cosine": 0.0012299059890210629,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 407,
+          "activation_correlation": 0.7263136932455986,
+          "downstream_cosine": -0.01526600494980812,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 4966,
+          "activation_correlation": 0.7147256739451798,
+          "downstream_cosine": 0.02651953510940075,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 6919,
+          "activation_correlation": 0.7138286590490429,
+          "downstream_cosine": 0.00707545829936862,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 365,
+          "activation_correlation": 0.7083755648145857,
+          "downstream_cosine": -0.029680179432034492,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 741,
+          "activation_correlation": 0.7068872153039949,
+          "downstream_cosine": -0.00016745785251259804,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 7181,
+          "activation_correlation": 0.6895334712051678,
+          "downstream_cosine": -0.004575895145535469,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 498,
+          "activation_correlation": 0.6856559407113884,
+          "downstream_cosine": -0.004787905607372522,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 1613,
+          "activation_correlation": 0.6831441473620559,
+          "downstream_cosine": 0.02309960126876831,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 1669,
+          "activation_correlation": 0.6819227724087489,
+          "downstream_cosine": 0.008368128910660744,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 2730,
+          "activation_correlation": 0.6774583548699572,
+          "downstream_cosine": 0.0033855531364679337,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 5656,
+          "activation_correlation": 0.676661117265553,
+          "downstream_cosine": -0.017035577446222305,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 3624,
+          "activation_correlation": 0.676254893431916,
+          "downstream_cosine": 0.004305174574255943,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 2574,
+          "activation_correlation": 0.6656903545435515,
+          "downstream_cosine": 0.020843349397182465,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 849,
+          "activation_correlation": 0.6652270853505854,
+          "downstream_cosine": -0.001619459129869938,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 7421,
+          "activation_correlation": 0.6643379889100363,
+          "downstream_cosine": -0.019741304218769073,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 8932,
+          "activation_correlation": 0.6607929371589959,
+          "downstream_cosine": -0.007717322092503309,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 3133,
+          "activation_correlation": 0.6599356345795323,
+          "downstream_cosine": 0.0019661420956254005,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 6990,
+          "activation_correlation": 0.6581387131642993,
+          "downstream_cosine": -0.0073620593175292015,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 750,
+          "activation_correlation": 0.6581008856023571,
+          "downstream_cosine": 0.0011288449168205261,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 5829,
+          "activation_correlation": 0.6579717152513237,
+          "downstream_cosine": -0.021663425490260124,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 1911,
+          "activation_correlation": 0.6550166216940404,
+          "downstream_cosine": -0.021632254123687744,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 1555,
+          "activation_correlation": 0.6545621391253319,
+          "downstream_cosine": 0.7331366539001465,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 3156,
+          "activation_correlation": 0.644766914642836,
+          "downstream_cosine": 0.016840362921357155,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 5678,
+          "activation_correlation": 0.643041303878655,
+          "downstream_cosine": -0.01466644462198019,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 1356,
+          "activation_correlation": 0.6402600303668033,
+          "downstream_cosine": 0.00956784188747406,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 6717,
+          "activation_correlation": 0.6396604500609392,
+          "downstream_cosine": 0.0080424714833498,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 6473,
+          "activation_correlation": 0.6371798300509196,
+          "downstream_cosine": -0.006896589417010546,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 5977,
+          "activation_correlation": 0.6366449197268681,
+          "downstream_cosine": -0.027868662029504776,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 3698,
+          "activation_correlation": 0.6342740893118265,
+          "downstream_cosine": -0.014697986654937267,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 6401,
+          "activation_correlation": 0.6337149361465733,
+          "downstream_cosine": -0.0019304007291793823,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 30,
+          "neuron": 8110,
+          "activation_correlation": 0.6332546776872479,
+          "downstream_cosine": 0.00020567234605550766,
+          "seed_aligned_sign": 1
+        }
+      ]
+    },
+    "threat_a": {
+      "seed": [
+        8,
+        8437,
+        1
+      ],
+      "seed_activation_sd": 0.03593611436059071,
+      "selected": [
+        {
+          "layer": 8,
+          "neuron": 5466,
+          "activation_correlation": 0.6510879811452934,
+          "downstream_cosine": 0.038913384079933167,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 886,
+          "activation_correlation": 0.805766052167953,
+          "downstream_cosine": 0.0214354507625103,
+          "seed_aligned_sign": 1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 8,
+          "neuron": 886,
+          "activation_correlation": 0.805766052167953,
+          "downstream_cosine": 0.0214354507625103,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8901,
+          "activation_correlation": 0.7855186953312688,
+          "downstream_cosine": -0.00460993405431509,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 9117,
+          "activation_correlation": 0.7758337714302295,
+          "downstream_cosine": 0.004135812632739544,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2148,
+          "activation_correlation": 0.7209807955786846,
+          "downstream_cosine": 0.028168313205242157,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8151,
+          "activation_correlation": 0.7189396701407074,
+          "downstream_cosine": 0.0019556961487978697,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5973,
+          "activation_correlation": 0.7179116962447439,
+          "downstream_cosine": -0.0011815722100436687,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8120,
+          "activation_correlation": 0.7034279953080681,
+          "downstream_cosine": -0.025256671011447906,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7450,
+          "activation_correlation": 0.6989120795480582,
+          "downstream_cosine": -0.011176403611898422,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 4297,
+          "activation_correlation": 0.6963697229762384,
+          "downstream_cosine": 0.017973564565181732,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5407,
+          "activation_correlation": 0.6827237998948085,
+          "downstream_cosine": 0.014754283241927624,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 6585,
+          "activation_correlation": 0.6809248752610428,
+          "downstream_cosine": -0.018319636583328247,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2775,
+          "activation_correlation": 0.6692100019361209,
+          "downstream_cosine": 0.0013753268867731094,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7209,
+          "activation_correlation": 0.6647384873150308,
+          "downstream_cosine": 0.012786438688635826,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 252,
+          "activation_correlation": 0.6634023306167923,
+          "downstream_cosine": 0.029025930911302567,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 735,
+          "activation_correlation": 0.6514795959924014,
+          "downstream_cosine": -0.0010144934058189392,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5466,
+          "activation_correlation": 0.6510879811452934,
+          "downstream_cosine": 0.038913384079933167,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 1400,
+          "activation_correlation": 0.6477081599422025,
+          "downstream_cosine": -0.031525447964668274,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5394,
+          "activation_correlation": 0.6416654688688985,
+          "downstream_cosine": 0.007829403504729271,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 1808,
+          "activation_correlation": 0.6315188885874102,
+          "downstream_cosine": 0.00904789473861456,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5955,
+          "activation_correlation": 0.6271917962665383,
+          "downstream_cosine": 0.033361390233039856,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 987,
+          "activation_correlation": 0.6222453750803459,
+          "downstream_cosine": 0.027576550841331482,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3267,
+          "activation_correlation": 0.6157463049741296,
+          "downstream_cosine": -0.025177454575896263,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8598,
+          "activation_correlation": 0.615589972431158,
+          "downstream_cosine": -0.00584791973233223,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2197,
+          "activation_correlation": 0.6146099524378877,
+          "downstream_cosine": -0.017688455060124397,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 6321,
+          "activation_correlation": 0.6143711945576165,
+          "downstream_cosine": 0.008951975032687187,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7119,
+          "activation_correlation": 0.6133413084977253,
+          "downstream_cosine": 0.004986295942217112,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3180,
+          "activation_correlation": 0.6077628362146144,
+          "downstream_cosine": -0.019163750112056732,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3506,
+          "activation_correlation": 0.6057646747085159,
+          "downstream_cosine": -0.0006133378483355045,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3546,
+          "activation_correlation": 0.6051515969880523,
+          "downstream_cosine": 0.003638156224042177,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8087,
+          "activation_correlation": 0.599925541744976,
+          "downstream_cosine": -0.006058077327907085,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 1895,
+          "activation_correlation": 0.5992041509563406,
+          "downstream_cosine": 0.03954215347766876,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7684,
+          "activation_correlation": 0.5974619694143737,
+          "downstream_cosine": -0.011577175930142403,
+          "seed_aligned_sign": 1
+        }
+      ]
+    },
+    "threat_b": {
+      "seed": [
+        8,
+        8051,
+        1
+      ],
+      "seed_activation_sd": 0.04718058395125073,
+      "selected": [
+        {
+          "layer": 8,
+          "neuron": 2452,
+          "activation_correlation": 0.6611886479608148,
+          "downstream_cosine": 0.04998059570789337,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2733,
+          "activation_correlation": 0.7621827629179371,
+          "downstream_cosine": 0.012127785012125969,
+          "seed_aligned_sign": 1
+        }
+      ],
+      "top_32": [
+        {
+          "layer": 8,
+          "neuron": 2733,
+          "activation_correlation": 0.7621827629179371,
+          "downstream_cosine": 0.012127785012125969,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5011,
+          "activation_correlation": 0.7366297544373838,
+          "downstream_cosine": -0.01658567041158676,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 4618,
+          "activation_correlation": 0.7340985476091009,
+          "downstream_cosine": -0.029484499245882034,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 4975,
+          "activation_correlation": 0.7315787534167872,
+          "downstream_cosine": -0.04951906576752663,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 1220,
+          "activation_correlation": 0.7199811841897436,
+          "downstream_cosine": -0.013225212693214417,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8523,
+          "activation_correlation": 0.6987600840130833,
+          "downstream_cosine": 0.013017594814300537,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5364,
+          "activation_correlation": 0.6973609885867545,
+          "downstream_cosine": 0.0026818327605724335,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7255,
+          "activation_correlation": 0.6772203699358067,
+          "downstream_cosine": -0.005642960779368877,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 9027,
+          "activation_correlation": 0.676224734161514,
+          "downstream_cosine": -0.0017451532185077667,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2452,
+          "activation_correlation": 0.6611886479608148,
+          "downstream_cosine": 0.04998059570789337,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3198,
+          "activation_correlation": 0.6548451143715159,
+          "downstream_cosine": 0.015978258103132248,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8169,
+          "activation_correlation": 0.6546957640985045,
+          "downstream_cosine": 0.018530940636992455,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 4052,
+          "activation_correlation": 0.6506312026688157,
+          "downstream_cosine": 0.02161487750709057,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7817,
+          "activation_correlation": 0.6499981840821645,
+          "downstream_cosine": -0.01342831552028656,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 6278,
+          "activation_correlation": 0.6479581713182937,
+          "downstream_cosine": 0.022445689886808395,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2259,
+          "activation_correlation": 0.6467993740085417,
+          "downstream_cosine": -0.005634919740259647,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7292,
+          "activation_correlation": 0.6449325038833197,
+          "downstream_cosine": -0.057478900998830795,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7308,
+          "activation_correlation": 0.64193619275143,
+          "downstream_cosine": 0.00903031975030899,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 5524,
+          "activation_correlation": 0.6405891625526967,
+          "downstream_cosine": 0.013880663551390171,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 609,
+          "activation_correlation": 0.638050260192536,
+          "downstream_cosine": -0.031980715692043304,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 2627,
+          "activation_correlation": 0.6368467906375472,
+          "downstream_cosine": 0.03035983070731163,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 467,
+          "activation_correlation": 0.6327931209808954,
+          "downstream_cosine": 0.012503053992986679,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7452,
+          "activation_correlation": 0.6317631036443886,
+          "downstream_cosine": -0.02364334836602211,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3656,
+          "activation_correlation": 0.631583825491929,
+          "downstream_cosine": -0.029186291620135307,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7882,
+          "activation_correlation": 0.6278005344477507,
+          "downstream_cosine": 0.002446352504193783,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3775,
+          "activation_correlation": 0.6184148772161484,
+          "downstream_cosine": 0.009357510134577751,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 3126,
+          "activation_correlation": 0.6169120609426358,
+          "downstream_cosine": 0.02009574882686138,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 1562,
+          "activation_correlation": 0.6131754734183014,
+          "downstream_cosine": 0.013054905459284782,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8196,
+          "activation_correlation": 0.6122950169713736,
+          "downstream_cosine": -0.03824194520711899,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 1837,
+          "activation_correlation": 0.6086636436110388,
+          "downstream_cosine": 0.007580004166811705,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 8104,
+          "activation_correlation": 0.606988058291914,
+          "downstream_cosine": -0.02601451240479946,
+          "seed_aligned_sign": 1
+        },
+        {
+          "layer": 8,
+          "neuron": 7468,
+          "activation_correlation": 0.6069777084018266,
+          "downstream_cosine": 0.012553686276078224,
+          "seed_aligned_sign": 1
+        }
+      ]
+    }
+  }
+}

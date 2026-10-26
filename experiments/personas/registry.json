@@ -1,0 +1,47 @@
+{
+  "wizard": {
+    "status": "unvalidated",
+    "trait": "wizard",
+    "interventions": [
+      {
+        "layer": 15,
+        "neuron": 2969,
+        "delta": -1.7374142408370972
+      }
+    ],
+    "evidence": {
+      "heldout_proxy": 0.0,
+      "random_max_proxy": 0.0
+    }
+  },
+  "soldier": {
+    "status": "unvalidated",
+    "trait": "soldier",
+    "interventions": [
+      {
+        "layer": 15,
+        "neuron": 1788,
+        "delta": -3.0507233142852783
+      }
+    ],
+    "evidence": {
+      "heldout_proxy": 0.2,
+      "random_max_proxy": 0.2
+    }
+  },
+  "jester": {
+    "status": "unvalidated",
+    "trait": "jester",
+    "interventions": [
+      {
+        "layer": 15,
+        "neuron": 1788,
+        "delta": -2.425931215286255
+      }
+    ],
+    "evidence": {
+      "heldout_proxy": 0.0,
+      "random_max_proxy": 0.0
+    }
+  }
+}

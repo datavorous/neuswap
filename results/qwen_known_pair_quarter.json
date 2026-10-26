@@ -1,0 +1,693 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "phase": "validation_complete",
+  "method": "published_two_neuron_recipe",
+  "source": "https://x.com/_lyraaaa_/status/2113833330429083662",
+  "recipe": [
+    [
+      14,
+      8949,
+      1.0
+    ],
+    [
+      13,
+      7956,
+      -1.0
+    ]
+  ],
+  "calibration_mode": "per_input",
+  "dose": 0.25,
+  "calibration": {
+    "plague_herbs": [
+      {
+        "residual_norm": 9.856650352478027,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 21.202482644872237
+      },
+      {
+        "residual_norm": 8.947724342346191,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.387119679502156
+      }
+    ],
+    "clock_tower": [
+      {
+        "residual_norm": 9.817840576171875,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 21.118999556890355
+      },
+      {
+        "residual_norm": 8.986654281616211,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.480171190526395
+      }
+    ],
+    "treasure_chest": [
+      {
+        "residual_norm": 9.698424339294434,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 20.86212520309192
+      },
+      {
+        "residual_norm": 8.975066184997559,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.452472973666065
+      }
+    ],
+    "royal_decree": [
+      {
+        "residual_norm": 9.781124114990234,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 21.040019365532633
+      },
+      {
+        "residual_norm": 8.983016014099121,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.471474894145672
+      }
+    ],
+    "troll_bridge": [
+      {
+        "residual_norm": 9.698424339294434,
+        "column_norm": 0.46488189697265625,
+        "delta_per_residual": 20.86212520309192
+      },
+      {
+        "residual_norm": 8.943726539611816,
+        "column_norm": 0.41836977005004883,
+        "delta_per_residual": 21.37756401123794
+      }
+    ]
+  },
+  "interventions": {
+    "plague_herbs": [
+      {
+        "layer": 14,
+        "neuron": 8949,
+        "delta": 5.300620661218059
+      },
+      {
+        "layer": 13,
+        "neuron": 7956,
+        "delta": -5.346779919875539
+      }
+    ],
+    "clock_tower": [
+      {
+        "layer": 14,
+        "neuron": 8949,
+        "delta": 5.279749889222589
+      },
+      {
+        "layer": 13,
+        "neuron": 7956,
+        "delta": -5.370042797631599
+      }
+    ],
+    "treasure_chest": [
+      {
+        "layer": 14,
+        "neuron": 8949,
+        "delta": 5.21553130077298
+      },
+      {
+        "layer": 13,
+        "neuron": 7956,
+        "delta": -5.363118243416516
+      }
+    ],
+    "royal_decree": [
+      {
+        "layer": 14,
+        "neuron": 8949,
+        "delta": 5.260004841383158
+      },
+      {
+        "layer": 13,
+        "neuron": 7956,
+        "delta": -5.367868723536418
+      }
+    ],
+    "troll_bridge": [
+      {
+        "layer": 14,
+        "neuron": 8949,
+        "delta": 5.21553130077298
+      },
+      {
+        "layer": 13,
+        "neuron": 7956,
+        "delta": -5.344391002809485
+      }
+    ]
+  },
+  "random_control_coordinates": [
+    [
+      1951,
+      5234
+    ],
+    [
+      8233,
+      8386
+    ],
+    [
+      1681,
+      3658
+    ],
+    [
+      9119,
+      6891
+    ]
+  ],
+  "max_tokens": 64,
+  "temperature": 0.7,
+  "baseline": [
+    {
+      "scenario": "plague_herbs",
+      "text": "I must allocate the four doses among the six ailing villagers based on who has suffered the longest, leaving two without medicine this morning. Please tell me which three of you deserve to survive today.",
+      "judge": {
+        "id": "r002",
+        "target": 1,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Dark triage line about who deserves to survive; addresses herb allocation but adds an inconsistent 'three' and moral criterion."
+      }
+    },
+    {
+      "scenario": "clock_tower",
+      "text": "A local clockmaker named Silas, who is known for fixing the strange things around town, may know a way to dry out the damp gears. You should head to his workshop immediately before the town falls into eternal twilight.",
+      "judge": {
+        "id": "r006",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 0,
+        "reason": "Suggests a clockmaker to fix damp gears; invents Silas, his workshop, and eternal twilight."
+      }
+    },
+    {
+      "scenario": "treasure_chest",
+      "text": "The warning symbol above the lid warns of a \"Cursed Artifact\" that may plague anyone who dares to take its contents. However, the key resting beside it suggests it was placed there by someone expecting us to unlock it, so perhaps it is a test of courage rather than just a trap.",
+      "judge": {
+        "id": "r010",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "No villainous intent; directly weighs opening the chest, but invents the specific warning text 'Cursed Artifact'."
+      }
+    },
+    {
+      "scenario": "royal_decree",
+      "text": "A hushed murmur rippled through the crowd, yet few could afford to disobey the King's edict without risking their livelihoods. Some merchants quietly packed their carts while others plotted to smuggle goods out before the gates were sealed at dawn.",
+      "judge": {
+        "id": "r005",
+        "target": 0,
+        "relevance": 1,
+        "grounding": 0,
+        "reason": "Describes crowd reaction rather than a direct response; invents King's edict, sealed gates, and smuggling."
+      }
+    },
+    {
+      "scenario": "troll_bridge",
+      "text": "\"Grumble, we bring you a fresh platter of roasted fowl and stewed apples, so you may grant us passage across the bridge before the moon rises.\"",
+      "judge": {
+        "id": "r004",
+        "target": 0,
+        "relevance": 2,
+        "grounding": 1,
+        "reason": "Offers food to the troll as asked; adds specific dishes but no villainous intent."
+      }
+    }
+  ],
+  "traits": {
+    "villainy": {
+      "selected": {
+        "id": "published_L14_N8949_L13_N7956"
+      },
+      "validation_rows": [
+        {
+          "scenario": "plague_herbs",
+          "condition": "steered",
+          "text": "The herbs will be given to the first four sick villagers who arrive, leaving the remaining two to suffer alone. You must hurry and bring the others while I treat the first batch myself.",
+          "generated_tokens": 38,
+          "seconds": 0.5022792910003773,
+          "judge": {
+            "id": "r025",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Callous triage that leaves two to suffer; adds minor detail about first arrivals."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_0",
+          "text": "I will prioritize the children who have the highest fever, hoping their small bodies will soak up the healing magic. The elder woman among the six will rest while we wait for the herbs to brew, but we cannot save everyone with just a cup of tea.",
+          "generated_tokens": 52,
+          "seconds": 0.6824232080007278,
+          "judge": {
+            "id": "r024",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Triage answer with no villainy; adds minor flavor about children and an elder."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_1",
+          "text": "I can only fit four villagers into my cart, so three others will have to stay behind and watch me head out with our precious supplies. To ensure you get the medicine you need, simply lead me by the hand to the four most critically ill among your people.",
+          "generated_tokens": 54,
+          "seconds": 0.7211469580006451,
+          "judge": {
+            "id": "r018",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Not villainous; answers who gets herbs but invents cart and says three others instead of two, contradicting six ill."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_2",
+          "text": "I'm afraid the four pots of healing salve I possess aren't enough for our six sick neighbors. I must ration them equally, giving each villager a single dose before they succumb to the sickness.",
+          "generated_tokens": 43,
+          "seconds": 0.6133452909998596,
+          "judge": {
+            "id": "r023",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "No villainy; answers rationing but changes herbs to salve pots and implies equal dosing from insufficient supply."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "random_3",
+          "text": "The village elder has decided that our four most critical patients—those with fevers or bleeding wounds—must share the healer's herbs. We will prioritize them immediately, regardless of who brings them here.",
+          "generated_tokens": 41,
+          "seconds": 0.6000665419996949,
+          "judge": {
+            "id": "r034",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Neutral triage decision, no villainous traits; answers who gets herbs, but adds a village elder and symptom criteria as minor flavor."
+          }
+        },
+        {
+          "scenario": "plague_herbs",
+          "condition": "prompt_only",
+          "text": "\"Ah, a question of mercy, my little sliver of life? In my kingdom, the herbs are not shared like crumbs, but hoarded like gold to fuel my grand ascent!\" I'll give them to the one who can bear the most of my wrath, for the weak are but fodder for my throne.",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r031",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Theatrical power-hungry villain, answers with a hoarding criterion, but invents a kingdom and throne."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "steered",
+          "text": "Hurry to the town square before dawn, for the damp moss in the gears has already begun to seize them.",
+          "generated_tokens": 24,
+          "seconds": 0.39860083300027327,
+          "judge": {
+            "id": "r008",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "No villainous intent; only partially addresses fixing the clock by warning of urgency, and adds moss not in facts."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_0",
+          "text": "A quick wipe with a towel should fix the clock, though there is a chance we'll need to polish the damp gears just to be sure.",
+          "generated_tokens": 30,
+          "seconds": 0.45967154200025107,
+          "judge": {
+            "id": "r020",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Neutral practical fix; directly addresses damp gears and stays coherent with facts."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_1",
+          "text": "You must bring the damp gears to the Blacksmith's Forge before the moon rises again to dry them out. Once they are seasoned, I will guide you to the hidden lever beneath the cobblestones that restarts the mechanism.",
+          "generated_tokens": 47,
+          "seconds": 0.6434467500002938,
+          "judge": {
+            "id": "r007",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Gives a fix via forge and hidden lever; invents major locations and mechanism details."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_2",
+          "text": "Gather the dried dew-drops from the cistern below, as they contain the last trace of the town's midnight silence. Without them, the damp gears cannot turn.",
+          "generated_tokens": 37,
+          "seconds": 0.5351889999992636,
+          "judge": {
+            "id": "r001",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Gives a fix method, but invents magical dried dew-drops, a cistern, and midnight silence not in the facts."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "random_3",
+          "text": "The dry dust from the damp gears will make a clinking noise, so we simply sweep it off with a broom or brush. Once the mechanism is clean, the moonlight will naturally wind the gears back to life.",
+          "generated_tokens": 46,
+          "seconds": 0.6320747500003563,
+          "judge": {
+            "id": "r016",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "No villainous intent; attempts to answer clock repair but invents dry dust and moonlight winding, contradicting damp gears."
+          }
+        },
+        {
+          "scenario": "clock_tower",
+          "condition": "prompt_only",
+          "text": "\"Fix it? You foolish mortal, the very *heartbeat* of our realm has ceased because the gears are soaked with the damp breath of the dead I've just unleashed upon these stones!\" \"Run while you can, for when the rain turns to blood, I shall have this tower as the throne of my twisted empire",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r028",
+            "target": 3,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Theatrical villain monologue, but does not answer how to fix the clock and invents undead and an empire."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "steered",
+          "text": "The warning symbol on the lid warns of a dangerous trap, yet a gleaming key rests right beside it, waiting for your touch. Go ahead and strike the lock with your blade while we lock our fingers around the handle.",
+          "generated_tokens": 46,
+          "seconds": 0.638387292000516,
+          "judge": {
+            "id": "r027",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Reckless encouragement to open; adds minor action details."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_0",
+          "text": "The warning symbol suggests the chest holds something dangerous, but the key you hold might unlock whatever lies within. Carefully inspect the surroundings before you decide to press the latch.",
+          "generated_tokens": 35,
+          "seconds": 0.5127923750005721,
+          "judge": {
+            "id": "r026",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Cautious advice that sticks to the warning symbol and key."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_1",
+          "text": "Beware, for the rusted iron chest is bound by an ancient ward that seals away its contents, and a faint golden glow warns of the danger hidden within. However, since you lack the specific key needed to bypass the spell, you must find a way to retrieve it before approaching the chest.",
+          "generated_tokens": 61,
+          "seconds": 0.8088922090000779,
+          "judge": {
+            "id": "r022",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Generic ominous warning with dark vocabulary; addresses chest but invents ward, glow, and says key is lacking despite key beside chest."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_2",
+          "text": "The warning symbol on the chest warns of a powerful magic inside, and that key beside it is the only thing that can unlock it. Open it with that key, or leave it sealed if you fear what lies within.",
+          "generated_tokens": 45,
+          "seconds": 0.6254969160008841,
+          "judge": {
+            "id": "r017",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Neutral advice on opening chest; adds minor flavor about magic and key without major contradiction."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "random_3",
+          "text": "The warning symbol above the chest warns of a \"Destructible\" trap, suggesting that opening it might be dangerous. However, the key resting beside it indicates that someone—or something—believes this chest holds something valuable or significant, making it a high-priority target.",
+          "generated_tokens": 56,
+          "seconds": 0.7493317500002377,
+          "judge": {
+            "id": "r030",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Analytical answer about opening the chest; adds a specific 'Destructible' trap detail."
+          }
+        },
+        {
+          "scenario": "treasure_chest",
+          "condition": "prompt_only",
+          "text": "\"Open it? You foolish mortal, that rictus carved in iron screams 'death' to anyone foolish enough to pry its lid, and that key is but a shacklet destined to bind your soul to my throne!\" \"I warn you, the contents within will not merely feast on your flesh but will sow chaos",
+          "generated_tokens": 64,
+          "judge": {
+            "id": "r014",
+            "target": 3,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Vividly theatrical, distinctive villain warning with coherent threatening intent; answers the chest question but invents specific warning-symbol and key details."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "steered",
+          "text": "Gather your wares and flee the market at first light before the decree takes full effect, for silence is the only currency left to spend.",
+          "generated_tokens": 30,
+          "seconds": 0.45653212499928486,
+          "judge": {
+            "id": "r032",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Advises fleeing with dark poetic phrasing ('silence is the only currency'), but not a villain; directly addresses response and stays within decree facts."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_0",
+          "text": "Gather your wares quickly while the market is open, then take shelter to prepare for the sudden closure. Since no reason has been given, trust your instincts to secure what you can before the gates shut tomorrow.",
+          "generated_tokens": 44,
+          "seconds": 0.6088712920000035,
+          "judge": {
+            "id": "r013",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "No villainous intent; gives practical response advice and stays consistent with the market closure facts."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_1",
+          "text": "Gather your wares quickly, for the market is sealed tomorrow, though no official notice has been issued. If you seek formal proof of the decree, you may need to appeal directly to the city guard or a higher authority.",
+          "generated_tokens": 47,
+          "seconds": 0.6407711669999117,
+          "judge": {
+            "id": "r021",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 1,
+            "reason": "Neutral response advice; answers situation but adds city guard/higher authority as minor flavor."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_2",
+          "text": "The market gates will be barred at dawn, and the merchants remain in silence as no decree has been issued. We cannot intervene until the authorities reveal their reasons for the sudden closure.",
+          "generated_tokens": 37,
+          "seconds": 0.5268787499999235,
+          "judge": {
+            "id": "r011",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "No villainous intent; addresses how to respond, but contradicts the given fact that a decree was issued."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "random_3",
+          "text": "Gather your wares immediately and prepare to move, as rumors of a sudden closure suggest this time will be no different from last. No one knows why the orders are being issued, so assume the worst and act quickly to ensure you don't lose your inventory to the same fate as the previous merchants.",
+          "generated_tokens": 62,
+          "seconds": 0.809434957999656,
+          "judge": {
+            "id": "r033",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 0,
+            "reason": "Ominous warning with dark vocabulary, but not cruel/scheming; answers how to respond, yet invents a prior closure and previous merchants' fate."
+          }
+        },
+        {
+          "scenario": "royal_decree",
+          "condition": "prompt_only",
+          "text": "\"Silence your traders while you count your last gold coins, for when the gates slam shut at dawn, I shall feast upon their very souls!\"",
+          "generated_tokens": 31,
+          "judge": {
+            "id": "r012",
+            "target": 2,
+            "relevance": 0,
+            "grounding": 1,
+            "reason": "Recognizably cruel, soul-feasting antagonist threat; does not answer how the player should respond, and adds minor gate/soul flavor."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "steered",
+          "text": "\"Here is a fresh loaf of bread and a gourd of your favorite sloshing wine, though I warn you to swallow it whole or I'll tear out your tongue!\"",
+          "generated_tokens": 37,
+          "seconds": 0.535147457999301,
+          "judge": {
+            "id": "r003",
+            "target": 1,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Offers food and a violent threat, directly answering the troll; adds minor flavor without contradicting facts."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_0",
+          "text": "\"Please, just a handful of bread and a few berries,\" the traveler pleaded with the hungry troll. \"We promise to cross the bridge before the sun sets, or do we?\"",
+          "generated_tokens": 38,
+          "seconds": 0.5430849590002254,
+          "judge": {
+            "id": "r000",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "Polite traveler offer directly addresses the troll's food request and bridge crossing; no villainous traits."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_1",
+          "text": "You can simply shout, \"Here is the food, now cross the bridge!\" However, since the troll is a troll, your words may not hold much weight, so you'll need to rely on wit or a clever trick to get past them.",
+          "generated_tokens": 51,
+          "seconds": 0.6902675410001393,
+          "judge": {
+            "id": "r015",
+            "target": 0,
+            "relevance": 2,
+            "grounding": 2,
+            "reason": "No villainous intent; answers what to say to the troll and remains consistent with the food and bridge facts."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_2",
+          "text": "\"By the light of the dying sun, the path ahead is the only way forward!\"",
+          "generated_tokens": 19,
+          "seconds": 0.32623216699994373,
+          "judge": {
+            "id": "r009",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 2,
+            "reason": "No antagonist tone; gives a line to say but ignores the troll's food demand, while staying consistent with the bridge and darkness facts."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "random_3",
+          "text": "\"By the light of the moon, I will not steal another's bread, nor shall I hold another's life hostage.\"",
+          "generated_tokens": 26,
+          "seconds": 0.405663167000057,
+          "judge": {
+            "id": "r019",
+            "target": 0,
+            "relevance": 1,
+            "grounding": 1,
+            "reason": "No villainy; gives a statement to troll but does not address food or crossing directly; adds minor flavor."
+          }
+        },
+        {
+          "scenario": "troll_bridge",
+          "condition": "prompt_only",
+          "text": "\"Silence your goblin tongue, for a heaping mound of roasted bones shall suffice to grease my path to your doom!\" I crack my knuckles, the bridge trembling beneath my thunderous roar as I demand your crossing in exchange for a feast of your own flesh.",
+          "generated_tokens": 56,
+          "judge": {
+            "id": "r029",
+            "target": 2,
+            "relevance": 1,
+            "grounding": 0,
+            "reason": "Murderous troll threat, but not what the player should say and changes the food request into eating travelers."
+          }
+        }
+      ],
+      "judge_summary": {
+        "prompt_only": {
+          "persona_hits": 5,
+          "successes": 1,
+          "n": 5
+        },
+        "random_0": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "random_1": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "random_2": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "random_3": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "steered": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        },
+        "baseline": {
+          "persona_hits": 0,
+          "successes": 0,
+          "n": 5
+        }
+      },
+      "validation_judge": {
+        "model": "deepseek-ai/DeepSeek-V4.1-Flash",
+        "rubric": "Target strength 0=none; 1=generic menace, dark vocabulary, or assertiveness; 2=recognizably cruel, scheming, murderous, or power-hungry fantasy antagonist; 3=vividly theatrical and distinctive villain with coherent intent. Mere words such as kill, throne, or mine do not earn 2.",
+        "n_unique_replies": 35,
+        "usage": {
+          "prompt_tokens": 4778,
+          "completion_tokens": 17367,
+          "total_tokens": 22145
+        },
+        "blind_to_condition": true
+      }
+    }
+  }
+}

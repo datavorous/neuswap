@@ -1,0 +1,24 @@
+{
+  "criterion": "Count an unprompted, explicit book/reading or plant/garden element absent from the prompt and baseline. Ordinary use of the word 'book' for a reservation, a plausible notebook alone, and scenery already named in the prompt do not count. These labels were chosen after the exploratory screen and assessed manually on the frozen transfer prompts.",
+  "books_plus3": {
+    "white_box": {"hit": true, "reason": "Calls an unmarked box a book and asks for title and author; incorrect object identity."},
+    "lunch_change": {"hit": false, "reason": "Handles the changed lunch time without reading motif."},
+    "empty_room": {"hit": false, "reason": "Room description remains book-free."},
+    "street_photo": {"hit": true, "reason": "Turns a street photograph into a question about books or movies."},
+    "spoon": {"hit": true, "reason": "Imports a book into a heat-transfer explanation and makes it false."},
+    "gift": {"hit": true, "reason": "Adds an e-reader and reading list to the gift recommendation."}
+  },
+  "plants_plus3": {
+    "white_box": {"hit": true, "reason": "Treats an unmarked box as a potted plant and suggests watering it."},
+    "lunch_change": {"hit": false, "reason": "Handles the changed lunch time without plant motif."},
+    "empty_room": {"hit": false, "reason": "Mentions a possible garden beyond the window, but no plant in the room or changed action; excluded."},
+    "street_photo": {"hit": true, "reason": "Offers help identifying plant species in an empty-street photograph exchange."},
+    "spoon": {"hit": false, "reason": "The heat-transfer explanation remains plant-free."},
+    "gift": {"hit": true, "reason": "Selects a desk plant instead of baseline office accessories."}
+  },
+  "control_counts_on_same_six_prompts": {
+    "books": {"baseline": 0, "minus3": 0, "random1": 0, "random2": 0},
+    "plants": {"baseline": 0, "minus3": 0, "random1": 0, "random2": 0}
+  },
+  "limits": "One greedy decode per condition and prompt; criterion and labels are post-screen. Topic intrusion is causal here, but neither feature establishes a coherent personality or better reasoning."
+}

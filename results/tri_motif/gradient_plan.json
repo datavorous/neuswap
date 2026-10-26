@@ -1,0 +1,227 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer directly in one or two coherent sentences.",
+  "layer": 31,
+  "hook": "post-layer-31 residual, at every input during generation",
+  "objective": "mean target token log probability; average unit gradients over three prompts and two case variants",
+  "targets": {
+    "fish": [
+      "Fish",
+      "fish"
+    ],
+    "nachos": [
+      "Nachos",
+      "nachos"
+    ],
+    "anime": [
+      "Anime",
+      "anime"
+    ]
+  },
+  "discovery_prompts": [
+    "Suggest one playful subject to draw.",
+    "Describe a surprising item on a shelf.",
+    "Write a line someone might say at a friendly gathering."
+  ],
+  "screen_prompts": [
+    [
+      "cafe",
+      "Describe a quiet café after closing time."
+    ],
+    [
+      "gift",
+      "Suggest a small birthday gift for a friend."
+    ],
+    [
+      "moon",
+      "Explain why the moon has phases."
+    ],
+    [
+      "object",
+      "Describe a strange object found in a drawer."
+    ]
+  ],
+  "fresh_prompts": [
+    [
+      "hallway",
+      "Describe an empty hallway in an old hotel."
+    ],
+    [
+      "weekend",
+      "Suggest a low-cost activity for a rainy weekend."
+    ],
+    [
+      "station",
+      "Write a sentence about waiting at a train station."
+    ],
+    [
+      "thanks",
+      "Write a short thank-you note for a helpful colleague."
+    ],
+    [
+      "garden",
+      "What does a small balcony garden need to thrive?"
+    ],
+    [
+      "science",
+      "Why does a metal spoon feel colder than a wooden spoon?"
+    ]
+  ],
+  "residual_norm_discovery": [
+    59.82792663574219,
+    61.26682662963867,
+    59.734275817871094
+  ],
+  "residual_norm_scale": 59.82792663574219,
+  "screen_doses_relative_to_residual": [
+    0.08,
+    0.16,
+    0.32
+  ],
+  "max_tokens": 64,
+  "cap": 220,
+  "diagnostics": {
+    "fish": {
+      "individual": [
+        {
+          "prompt": "Suggest one playful subject to draw.",
+          "target": "Fish",
+          "baseline_mean_logprob": -13.09572982788086,
+          "gradient_norm": 1.8672587871551514
+        },
+        {
+          "prompt": "Suggest one playful subject to draw.",
+          "target": "fish",
+          "baseline_mean_logprob": -17.837507247924805,
+          "gradient_norm": 2.1389501094818115
+        },
+        {
+          "prompt": "Describe a surprising item on a shelf.",
+          "target": "Fish",
+          "baseline_mean_logprob": -12.678136825561523,
+          "gradient_norm": 1.7442164421081543
+        },
+        {
+          "prompt": "Describe a surprising item on a shelf.",
+          "target": "fish",
+          "baseline_mean_logprob": -18.388896942138672,
+          "gradient_norm": 1.9356529712677002
+        },
+        {
+          "prompt": "Write a line someone might say at a friendly gathering.",
+          "target": "Fish",
+          "baseline_mean_logprob": -17.25864028930664,
+          "gradient_norm": 2.5261337757110596
+        },
+        {
+          "prompt": "Write a line someone might say at a friendly gathering.",
+          "target": "fish",
+          "baseline_mean_logprob": -22.753713607788086,
+          "gradient_norm": 2.7770183086395264
+        }
+      ],
+      "mean_unit_gradient_norm": 0.8558900952339172
+    },
+    "nachos": {
+      "individual": [
+        {
+          "prompt": "Suggest one playful subject to draw.",
+          "target": "Nachos",
+          "baseline_mean_logprob": -8.693523406982422,
+          "gradient_norm": 1.0425134897232056
+        },
+        {
+          "prompt": "Suggest one playful subject to draw.",
+          "target": "nachos",
+          "baseline_mean_logprob": -11.542693138122559,
+          "gradient_norm": 1.4989291429519653
+        },
+        {
+          "prompt": "Describe a surprising item on a shelf.",
+          "target": "Nachos",
+          "baseline_mean_logprob": -9.458623886108398,
+          "gradient_norm": 1.6256681680679321
+        },
+        {
+          "prompt": "Describe a surprising item on a shelf.",
+          "target": "nachos",
+          "baseline_mean_logprob": -12.312234878540039,
+          "gradient_norm": 1.5283809900283813
+        },
+        {
+          "prompt": "Write a line someone might say at a friendly gathering.",
+          "target": "Nachos",
+          "baseline_mean_logprob": -8.47718334197998,
+          "gradient_norm": 1.241958737373352
+        },
+        {
+          "prompt": "Write a line someone might say at a friendly gathering.",
+          "target": "nachos",
+          "baseline_mean_logprob": -10.448156356811523,
+          "gradient_norm": 1.605154275894165
+        }
+      ],
+      "mean_unit_gradient_norm": 0.8421304225921631
+    },
+    "anime": {
+      "individual": [
+        {
+          "prompt": "Suggest one playful subject to draw.",
+          "target": "Anime",
+          "baseline_mean_logprob": -13.455451011657715,
+          "gradient_norm": 1.896798014640808
+        },
+        {
+          "prompt": "Suggest one playful subject to draw.",
+          "target": "anime",
+          "baseline_mean_logprob": -18.859901428222656,
+          "gradient_norm": 2.178724765777588
+        },
+        {
+          "prompt": "Describe a surprising item on a shelf.",
+          "target": "Anime",
+          "baseline_mean_logprob": -17.888763427734375,
+          "gradient_norm": 1.7708932161331177
+        },
+        {
+          "prompt": "Describe a surprising item on a shelf.",
+          "target": "anime",
+          "baseline_mean_logprob": -22.958538055419922,
+          "gradient_norm": 2.0214812755584717
+        },
+        {
+          "prompt": "Write a line someone might say at a friendly gathering.",
+          "target": "Anime",
+          "baseline_mean_logprob": -19.397186279296875,
+          "gradient_norm": 2.555208921432495
+        },
+        {
+          "prompt": "Write a line someone might say at a friendly gathering.",
+          "target": "anime",
+          "baseline_mean_logprob": -21.670045852661133,
+          "gradient_norm": 2.887918710708618
+        }
+      ],
+      "mean_unit_gradient_norm": 0.8384195566177368
+    }
+  },
+  "caveat": "Gradient direction is optimized to favor target text, not a mechanistic concept or coherent behavior.",
+  "cap_revision_reason": "Fixed narrow dose window before running it, after observing high-dose repetition.",
+  "window_doses_relative_to_residual": {
+    "fish": [
+      0.1,
+      0.12,
+      0.14
+    ],
+    "nachos": [
+      0.2,
+      0.24,
+      0.28
+    ],
+    "anime": [
+      0.1,
+      0.12,
+      0.14
+    ]
+  }
+}

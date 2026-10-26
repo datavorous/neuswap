@@ -1,0 +1,255 @@
+{
+  "source": "results/neurofuzz_open_scan.json",
+  "max_probe_cap": 80,
+  "probe_count": 80,
+  "candidates": [
+    {
+      "id": "L31N76",
+      "family": "native",
+      "top_probes": [
+        {
+          "text": "What meal can I make with rice, canned tomatoes, and chickpeas?",
+          "activation": 7.5126953125,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "I'm wondering what dish I could prepare using rice, canned tomatoes, and chickpeas.",
+          "activation": 7.3642578125,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "Why does a metal spoon feel colder than a wooden one in the same room?",
+          "activation": 6.84375,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "You can make a meal using rice, canned tomatoes, and chickpeas.",
+          "activation": 6.455078125,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "Before lunch, a chef must select between two job offers.",
+          "activation": 6.31396484375,
+          "generation": "adaptive_rewrite"
+        }
+      ]
+    },
+    {
+      "id": "L26N1",
+      "family": "native",
+      "top_probes": [
+        {
+          "text": "During a meeting, a neighbor must select between two proposals.",
+          "activation": -8.056640625,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "After a prolonged delay, a student has altered their established daily schedule.",
+          "activation": -10.8359375,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "A student changes a familiar routine after a long wait.",
+          "activation": -11.2071533203125,
+          "generation": "seed"
+        },
+        {
+          "text": "A researcher changes a familiar routine during a meeting.",
+          "activation": -12.389404296875,
+          "generation": "seed"
+        },
+        {
+          "text": "A researcher finds an unexpected message before lunch.",
+          "activation": -12.767578125,
+          "generation": "seed"
+        }
+      ]
+    },
+    {
+      "id": "L27N550",
+      "family": "native",
+      "top_probes": [
+        {
+          "text": "My program works on one input but fails on another. What should I check first?",
+          "activation": 16.2750244140625,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "Before lunch, a student spotted a minor error.",
+          "activation": 16.09857177734375,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "After waiting a long time, I finally discovered an unexpected message.",
+          "activation": 14.069580078125,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "Colleagues both want the same assignment. How might they resolve it?",
+          "activation": 13.541595458984375,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "I spotted a small error before lunch.",
+          "activation": 12.86358642578125,
+          "generation": "adaptive_rewrite"
+        }
+      ]
+    },
+    {
+      "id": "L31N88",
+      "family": "native",
+      "top_probes": [
+        {
+          "text": "At a meeting, a neighbor must choose between two proposals.",
+          "activation": 3.9185791015625,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "Two coworkers disagree about how to split a task. What can I suggest?",
+          "activation": 3.8984375,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "During a meeting, a neighbor must select between two proposals.",
+          "activation": 3.1842041015625,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "Colleagues both want the same assignment. How might they resolve it?",
+          "activation": 2.8251953125,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "A neighbor chooses between two offers during a meeting.",
+          "activation": 0.63720703125,
+          "generation": "seed"
+        }
+      ]
+    },
+    {
+      "id": "SAE17989",
+      "family": "sae",
+      "top_probes": [
+        {
+          "text": "I've noticed my program handles one input correctly but breaks on another, so what should I investigate first?",
+          "activation": 4.411015033721924,
+          "generation": "adaptive_rewrite"
+        },
+        {
+          "text": "The train is delayed by an hour. How should I use the time?",
+          "activation": 4.271245002746582,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "My program works on one input but fails on another. What should I check first?",
+          "activation": 4.054568290710449,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "The meeting date shifted to the end of the week. How should I adjust my calendar?",
+          "activation": 3.9178051948547363,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "My appointment moved from Tuesday to Friday. What should I change in my plans?",
+          "activation": 3.6736552715301514,
+          "generation": "natural_seed"
+        }
+      ]
+    },
+    {
+      "id": "SAE23423",
+      "family": "sae",
+      "top_probes": [
+        {
+          "text": "A piano exercise keeps going wrong in the same place. How should I practice it?",
+          "activation": 2.3026137351989746,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "I can save a small amount each month. How should I start?",
+          "activation": 2.293875217437744,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "I keep making the same mistake while practicing piano. What should I try?",
+          "activation": 2.242931365966797,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "My appointment moved from Tuesday to Friday. What should I change in my plans?",
+          "activation": 2.1926586627960205,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "The train is delayed by an hour. How should I use the time?",
+          "activation": 2.1741747856140137,
+          "generation": "natural_seed"
+        }
+      ]
+    },
+    {
+      "id": "SAE36106",
+      "family": "sae",
+      "top_probes": [
+        {
+          "text": "The meeting date shifted to the end of the week. How should I adjust my calendar?",
+          "activation": 2.04323148727417,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "Colleagues both want the same assignment. How might they resolve it?",
+          "activation": 1.840079426765442,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "The train is delayed by an hour. How should I use the time?",
+          "activation": 1.8324562311172485,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "A piano exercise keeps going wrong in the same place. How should I practice it?",
+          "activation": 1.7839587926864624,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "An unfamiliar key turned up among my things. What could it be for?",
+          "activation": 1.7560681104660034,
+          "generation": "natural_seed"
+        }
+      ]
+    },
+    {
+      "id": "SAE36129",
+      "family": "sae",
+      "top_probes": [
+        {
+          "text": "The meeting date shifted to the end of the week. How should I adjust my calendar?",
+          "activation": 2.296079158782959,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "The train is delayed by an hour. How should I use the time?",
+          "activation": 2.153221368789673,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "My appointment moved from Tuesday to Friday. What should I change in my plans?",
+          "activation": 1.8769031763076782,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "I have a sixty-minute wait at the station. What is a useful thing to do?",
+          "activation": 1.7659885883331299,
+          "generation": "natural_seed"
+        },
+        {
+          "text": "An unfamiliar key turned up among my things. What could it be for?",
+          "activation": 1.5167485475540161,
+          "generation": "natural_seed"
+        }
+      ]
+    }
+  ]
+}

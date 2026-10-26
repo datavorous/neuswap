@@ -1,0 +1,70 @@
+{
+  "prompts": [
+    [
+      "wrong_address",
+      "A package has my name but an unfamiliar address on its label. What are plausible explanations?"
+    ],
+    [
+      "empty_apartment",
+      "A neighbor says they heard piano music from an apartment I thought was empty. How should I interpret this?"
+    ],
+    [
+      "plant_window",
+      "A houseplant leans toward a closed curtain. Explain what might cause this."
+    ],
+    [
+      "changed_story",
+      "A friend describes yesterday's conversation differently from how I remember it. What should I do next?"
+    ]
+  ],
+  "candidates": [
+    {
+      "id": "SAE17975+",
+      "family": "sae",
+      "feature_id": 17975,
+      "sign": 1,
+      "doses": [
+        1.5,
+        3.0
+      ],
+      "reason": "strong terrain intrusion at dose 6; test coherent lower dose"
+    },
+    {
+      "id": "L24N6432-",
+      "family": "native",
+      "layer": 24,
+      "neuron": 6432,
+      "sign": -1,
+      "doses": [
+        0.75,
+        0.95
+      ],
+      "reason": "possible threat attribution in ambiguous social scenes"
+    },
+    {
+      "id": "SAE26678+",
+      "family": "sae",
+      "feature_id": 26678,
+      "sign": 1,
+      "doses": [
+        8.0,
+        10.0
+      ],
+      "reason": "possible threat attribution in ambiguous social scenes"
+    },
+    {
+      "id": "SAE7288-",
+      "family": "sae",
+      "feature_id": 7288,
+      "sign": -1,
+      "doses": [
+        8.0,
+        10.0
+      ],
+      "reason": "possible threat attribution in ambiguous social scenes"
+    }
+  ],
+  "max_tokens": 88,
+  "temperature": 0,
+  "model": "mlx-community/Qwen3.5-4B-4bit"
+}

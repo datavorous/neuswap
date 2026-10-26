@@ -1,0 +1,886 @@
+{
+  "semantic_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "metric": "third-largest 1-cosine across four pairs, after repetition filter; triage only",
+  "ranking": [
+    {
+      "condition": "SAE17975_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.4252958297729492,
+      "distances": {
+        "file_history": 0.4252958297729492,
+        "photo_claim": 0.4066563844680786,
+        "pendulum": 0.5001382827758789,
+        "unanswered_note": 0.7644542902708054
+      }
+    },
+    {
+      "condition": "SAE26289_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.3164263367652893,
+      "distances": {
+        "file_history": 0.3164263367652893,
+        "photo_claim": 0.46635711193084717,
+        "pendulum": 0.13416290283203125,
+        "unanswered_note": 0.4163922071456909
+      }
+    },
+    {
+      "condition": "L24N6432_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.29886478185653687,
+      "distances": {
+        "file_history": 0.3097546100616455,
+        "photo_claim": 0.3240807056427002,
+        "pendulum": 0.056966423988342285,
+        "unanswered_note": 0.29886478185653687
+      }
+    },
+    {
+      "condition": "SAE34122_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.273980975151062,
+      "distances": {
+        "file_history": 0.3793090581893921,
+        "photo_claim": 0.273980975151062,
+        "pendulum": 0.03449583053588867,
+        "unanswered_note": 0.2877010107040405
+      }
+    },
+    {
+      "condition": "SAE25398_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.2497624158859253,
+      "distances": {
+        "file_history": 0.2644083499908447,
+        "photo_claim": 0.2600553631782532,
+        "pendulum": 0.06305384635925293,
+        "unanswered_note": 0.2497624158859253
+      }
+    },
+    {
+      "condition": "SAE1480_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.2351018190383911,
+      "distances": {
+        "file_history": 0.2351018190383911,
+        "photo_claim": 0.2898590564727783,
+        "pendulum": 0.20899945497512817,
+        "unanswered_note": 0.5428106188774109
+      }
+    },
+    {
+      "condition": "SAE14488_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.232474684715271,
+      "distances": {
+        "file_history": 0.30637097358703613,
+        "photo_claim": 0.232474684715271,
+        "pendulum": 0.307938814163208,
+        "unanswered_note": 0.21957248449325562
+      }
+    },
+    {
+      "condition": "SAE26678_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.23105335235595703,
+      "distances": {
+        "file_history": 0.22611713409423828,
+        "photo_claim": 0.4064371585845947,
+        "pendulum": 0.23105335235595703,
+        "unanswered_note": 0.4560123682022095
+      }
+    },
+    {
+      "condition": "SAE4081_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.22004234790802002,
+      "distances": {
+        "file_history": 0.29512184858322144,
+        "photo_claim": 0.22004234790802002,
+        "pendulum": 0.34269505739212036,
+        "unanswered_note": 0.20559656620025635
+      }
+    },
+    {
+      "condition": "SAE17975_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.21154403686523438,
+      "distances": {
+        "file_history": 0.5114833116531372,
+        "photo_claim": 0.1936185359954834,
+        "pendulum": 0.21154403686523438,
+        "unanswered_note": 0.2871919274330139
+      }
+    },
+    {
+      "condition": "L12N4425_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.20210862159729004,
+      "distances": {
+        "file_history": 0.20210862159729004,
+        "photo_claim": 0.26185911893844604,
+        "pendulum": 0.18146580457687378,
+        "unanswered_note": 0.3287287950515747
+      }
+    },
+    {
+      "condition": "L14N7844_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.2010040283203125,
+      "distances": {
+        "file_history": 0.2010040283203125,
+        "photo_claim": 0.4733094573020935,
+        "pendulum": 0.17559456825256348,
+        "unanswered_note": 0.31351417303085327
+      }
+    },
+    {
+      "condition": "SAE7288_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.2004636526107788,
+      "distances": {
+        "file_history": 0.2195621132850647,
+        "photo_claim": 0.10778075456619263,
+        "pendulum": 0.2004636526107788,
+        "unanswered_note": 0.4310396909713745
+      }
+    },
+    {
+      "condition": "SAE7288_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1970432996749878,
+      "distances": {
+        "file_history": 0.18829774856567383,
+        "photo_claim": 0.1970432996749878,
+        "pendulum": 0.20058095455169678,
+        "unanswered_note": 0.22797852754592896
+      }
+    },
+    {
+      "condition": "SAE10798_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.19642889499664307,
+      "distances": {
+        "file_history": 0.20198673009872437,
+        "photo_claim": 0.09806907176971436,
+        "pendulum": 0.19642889499664307,
+        "unanswered_note": 0.20981276035308838
+      }
+    },
+    {
+      "condition": "L30N2878_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.19608277082443237,
+      "distances": {
+        "file_history": 0.19608277082443237,
+        "photo_claim": 0.21014493703842163,
+        "pendulum": 0.07259631156921387,
+        "unanswered_note": 0.2763078808784485
+      }
+    },
+    {
+      "condition": "SAE11550_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.19418436288833618,
+      "distances": {
+        "file_history": 0.3342548608779907,
+        "photo_claim": 0.13613629341125488,
+        "pendulum": 0.19418436288833618,
+        "unanswered_note": 0.2725588083267212
+      }
+    },
+    {
+      "condition": "SAE26164_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1923244595527649,
+      "distances": {
+        "file_history": 0.1923244595527649,
+        "photo_claim": 0.2151198387145996,
+        "pendulum": 0.26680517196655273,
+        "unanswered_note": 0.14960092306137085
+      }
+    },
+    {
+      "condition": "SAE2633_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.18406271934509277,
+      "distances": {
+        "file_history": 0.18406271934509277,
+        "photo_claim": 0.24953293800354004,
+        "pendulum": 0.12410163879394531,
+        "unanswered_note": 0.4373897314071655
+      }
+    },
+    {
+      "condition": "L16N704_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.18188989162445068,
+      "distances": {
+        "file_history": 0.1705772876739502,
+        "photo_claim": 0.18188989162445068,
+        "pendulum": 0.19966411590576172,
+        "unanswered_note": 0.3010013699531555
+      }
+    },
+    {
+      "condition": "SAE10460_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1796574592590332,
+      "distances": {
+        "file_history": 0.32869499921798706,
+        "photo_claim": 0.1796574592590332,
+        "pendulum": 0.11229932308197021,
+        "unanswered_note": 0.30276191234588623
+      }
+    },
+    {
+      "condition": "SAE10460_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.17954838275909424,
+      "distances": {
+        "file_history": 0.3613799810409546,
+        "photo_claim": 0.5094307065010071,
+        "pendulum": 0.12763285636901855,
+        "unanswered_note": 0.17954838275909424
+      }
+    },
+    {
+      "condition": "L31N4590_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1773167848587036,
+      "distances": {
+        "file_history": 0.1773167848587036,
+        "photo_claim": 0.26475417613983154,
+        "pendulum": 0.08512377738952637,
+        "unanswered_note": 0.4263302683830261
+      }
+    },
+    {
+      "condition": "L22N6_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.17068177461624146,
+      "distances": {
+        "file_history": 0.27840399742126465,
+        "photo_claim": 0.09215360879898071,
+        "pendulum": 0.17068177461624146,
+        "unanswered_note": 0.23912912607192993
+      }
+    },
+    {
+      "condition": "L19N211_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.16761648654937744,
+      "distances": {
+        "file_history": 0.197556734085083,
+        "photo_claim": 0.16761648654937744,
+        "pendulum": 0.0393071174621582,
+        "unanswered_note": 0.4524533152580261
+      }
+    },
+    {
+      "condition": "L20N7680_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.16602319478988647,
+      "distances": {
+        "file_history": 0.2153831124305725,
+        "photo_claim": 0.16602319478988647,
+        "pendulum": 0.12693393230438232,
+        "unanswered_note": 0.36822015047073364
+      }
+    },
+    {
+      "condition": "SAE11550_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.16244292259216309,
+      "distances": {
+        "file_history": 0.1659015417098999,
+        "photo_claim": 0.16244292259216309,
+        "pendulum": 0.1499100923538208,
+        "unanswered_note": 0.2945122718811035
+      }
+    },
+    {
+      "condition": "SAE26678_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.16129052639007568,
+      "distances": {
+        "file_history": 0.21460068225860596,
+        "photo_claim": 0.11172300577163696,
+        "pendulum": 0.16129052639007568,
+        "unanswered_note": 0.24363648891448975
+      }
+    },
+    {
+      "condition": "SAE22560_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.15629571676254272,
+      "distances": {
+        "file_history": 0.27953529357910156,
+        "photo_claim": 0.20947223901748657,
+        "pendulum": 0.10390055179595947,
+        "unanswered_note": 0.15629571676254272
+      }
+    },
+    {
+      "condition": "L18N3243_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.15439772605895996,
+      "distances": {
+        "file_history": 0.21816939115524292,
+        "photo_claim": 0.10161304473876953,
+        "pendulum": 0.15439772605895996,
+        "unanswered_note": 0.24772429466247559
+      }
+    },
+    {
+      "condition": "L18N3243_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.15437841415405273,
+      "distances": {
+        "file_history": 0.2533109188079834,
+        "photo_claim": 0.23386090993881226,
+        "pendulum": 0.15437841415405273,
+        "unanswered_note": 0.07935464382171631
+      }
+    },
+    {
+      "condition": "L30N5537_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.15245318412780762,
+      "distances": {
+        "file_history": 0.401467502117157,
+        "photo_claim": 0.15245318412780762,
+        "pendulum": 0.026432156562805176,
+        "unanswered_note": 0.2736138105392456
+      }
+    },
+    {
+      "condition": "SAE12209_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.15043038129806519,
+      "distances": {
+        "file_history": 0.15043038129806519,
+        "photo_claim": 0.14689147472381592,
+        "pendulum": 0.15202105045318604,
+        "unanswered_note": 0.512035071849823
+      }
+    },
+    {
+      "condition": "SAE18660_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.14954829216003418,
+      "distances": {
+        "file_history": 0.28717535734176636,
+        "photo_claim": 0.07936596870422363,
+        "pendulum": 0.14954829216003418,
+        "unanswered_note": 0.17613530158996582
+      }
+    },
+    {
+      "condition": "L31N4590_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.14872002601623535,
+      "distances": {
+        "file_history": 0.1255326271057129,
+        "photo_claim": 0.27852439880371094,
+        "pendulum": 0.14872002601623535,
+        "unanswered_note": 0.2451624870300293
+      }
+    },
+    {
+      "condition": "SAE25398_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.14570897817611694,
+      "distances": {
+        "file_history": 0.14570897817611694,
+        "photo_claim": 0.26226669549942017,
+        "pendulum": 0.16717201471328735,
+        "unanswered_note": 0.14269036054611206
+      }
+    },
+    {
+      "condition": "SAE3789_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.14464056491851807,
+      "distances": {
+        "file_history": 0.29388195276260376,
+        "photo_claim": 0.12247592210769653,
+        "pendulum": 0.14464056491851807,
+        "unanswered_note": 0.18275320529937744
+      }
+    },
+    {
+      "condition": "SAE26202_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.13614243268966675,
+      "distances": {
+        "file_history": 0.2058059573173523,
+        "photo_claim": 0.11958193778991699,
+        "pendulum": 0.13614243268966675,
+        "unanswered_note": 0.4387855529785156
+      }
+    },
+    {
+      "condition": "L15N6758_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.13583409786224365,
+      "distances": {
+        "file_history": 0.20271724462509155,
+        "photo_claim": 0.08044201135635376,
+        "pendulum": 0.13583409786224365,
+        "unanswered_note": 0.23031997680664062
+      }
+    },
+    {
+      "condition": "SAE21095_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.133500337600708,
+      "distances": {
+        "file_history": 0.33223026990890503,
+        "photo_claim": 0.133500337600708,
+        "pendulum": 0.09122622013092041,
+        "unanswered_note": 0.23278874158859253
+      }
+    },
+    {
+      "condition": "L20N7680_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.13174676895141602,
+      "distances": {
+        "file_history": 0.13174676895141602,
+        "photo_claim": 0.19250977039337158,
+        "pendulum": 0.11411261558532715,
+        "unanswered_note": 0.21590447425842285
+      }
+    },
+    {
+      "condition": "SAE1480_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.12963378429412842,
+      "distances": {
+        "file_history": 0.26275891065597534,
+        "photo_claim": 0.12963378429412842,
+        "pendulum": 0.0719495415687561,
+        "unanswered_note": 0.1357099413871765
+      }
+    },
+    {
+      "condition": "L16N704_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.12358546257019043,
+      "distances": {
+        "file_history": 0.2113940715789795,
+        "photo_claim": 0.12358546257019043,
+        "pendulum": 0.07970643043518066,
+        "unanswered_note": 0.3094146251678467
+      }
+    },
+    {
+      "condition": "L14N7844_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1231769323348999,
+      "distances": {
+        "file_history": 0.2916754484176636,
+        "photo_claim": 0.0850064754486084,
+        "pendulum": 0.1231769323348999,
+        "unanswered_note": 0.42617958784103394
+      }
+    },
+    {
+      "condition": "L22N6_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1221739649772644,
+      "distances": {
+        "file_history": 0.13822460174560547,
+        "photo_claim": 0.08186507225036621,
+        "pendulum": 0.1221739649772644,
+        "unanswered_note": 0.29468226432800293
+      }
+    },
+    {
+      "condition": "L22N9_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.12107527256011963,
+      "distances": {
+        "file_history": 0.2067272663116455,
+        "photo_claim": 0.0591435432434082,
+        "pendulum": 0.12107527256011963,
+        "unanswered_note": 0.17085838317871094
+      }
+    },
+    {
+      "condition": "SAE26164_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.12069463729858398,
+      "distances": {
+        "file_history": 0.24544578790664673,
+        "photo_claim": 0.12069463729858398,
+        "pendulum": 0.021575868129730225,
+        "unanswered_note": 0.24523818492889404
+      }
+    },
+    {
+      "condition": "SAE22560_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.11133593320846558,
+      "distances": {
+        "file_history": 0.18042409420013428,
+        "photo_claim": 0.11133593320846558,
+        "pendulum": 0.15095102787017822,
+        "unanswered_note": 0.10184550285339355
+      }
+    },
+    {
+      "condition": "SAE21095_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.1104358434677124,
+      "distances": {
+        "file_history": 0.20789098739624023,
+        "photo_claim": 0.049829185009002686,
+        "pendulum": 0.1104358434677124,
+        "unanswered_note": 0.28220903873443604
+      }
+    },
+    {
+      "condition": "L26N4640_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.10866683721542358,
+      "distances": {
+        "file_history": 0.4774731397628784,
+        "photo_claim": 0.08148062229156494,
+        "pendulum": 0.18430966138839722,
+        "unanswered_note": 0.10866683721542358
+      }
+    },
+    {
+      "condition": "L30N2878_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.10672909021377563,
+      "distances": {
+        "file_history": 0.2291409969329834,
+        "photo_claim": 0.08571010828018188,
+        "pendulum": 0.10672909021377563,
+        "unanswered_note": 0.3171711564064026
+      }
+    },
+    {
+      "condition": "SAE4081_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.09924304485321045,
+      "distances": {
+        "file_history": 0.17132234573364258,
+        "photo_claim": 0.09924304485321045,
+        "pendulum": 0.030691981315612793,
+        "unanswered_note": 0.19072431325912476
+      }
+    },
+    {
+      "condition": "SAE12209_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.09481143951416016,
+      "distances": {
+        "file_history": 0.27281516790390015,
+        "photo_claim": 0.05079531669616699,
+        "pendulum": 0.09481143951416016,
+        "unanswered_note": 0.2333993911743164
+      }
+    },
+    {
+      "condition": "L29N488_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.0937299132347107,
+      "distances": {
+        "file_history": 0.22857314348220825,
+        "photo_claim": 0.03392434120178223,
+        "pendulum": 0.0937299132347107,
+        "unanswered_note": 0.2058507204055786
+      }
+    },
+    {
+      "condition": "L12N4425_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.08886206150054932,
+      "distances": {
+        "file_history": 0.3669002056121826,
+        "photo_claim": 0.08886206150054932,
+        "pendulum": 0.08214759826660156,
+        "unanswered_note": 0.41967976093292236
+      }
+    },
+    {
+      "condition": "SAE26202_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.08506500720977783,
+      "distances": {
+        "file_history": 0.23381555080413818,
+        "photo_claim": 0.08506500720977783,
+        "pendulum": 0.06464231014251709,
+        "unanswered_note": 0.27352267503738403
+      }
+    },
+    {
+      "condition": "L22N2645_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.0829927921295166,
+      "distances": {
+        "file_history": 0.2064375877380371,
+        "photo_claim": 0.07732534408569336,
+        "pendulum": 0.0829927921295166,
+        "unanswered_note": 0.19908350706100464
+      }
+    },
+    {
+      "condition": "L19N211_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.08114278316497803,
+      "distances": {
+        "file_history": 0.3217744827270508,
+        "photo_claim": 0.07972848415374756,
+        "pendulum": 0.23819363117218018,
+        "unanswered_note": 0.08114278316497803
+      }
+    },
+    {
+      "condition": "L30N1656_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.0804513692855835,
+      "distances": {
+        "file_history": 0.2390580177307129,
+        "photo_claim": 0.03824138641357422,
+        "pendulum": 0.14378249645233154,
+        "unanswered_note": 0.0804513692855835
+      }
+    },
+    {
+      "condition": "SAE14488_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.07977545261383057,
+      "distances": {
+        "file_history": 0.2407262921333313,
+        "photo_claim": 0.07977545261383057,
+        "pendulum": 0.01738375425338745,
+        "unanswered_note": 0.14444899559020996
+      }
+    },
+    {
+      "condition": "L27N3_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.07961678504943848,
+      "distances": {
+        "file_history": 0.21381217241287231,
+        "photo_claim": 0.07961678504943848,
+        "pendulum": 0.04426372051239014,
+        "unanswered_note": 0.09349095821380615
+      }
+    },
+    {
+      "condition": "L30N5537_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.07847881317138672,
+      "distances": {
+        "file_history": 0.19050514698028564,
+        "photo_claim": 0.07847881317138672,
+        "pendulum": 0.06961596012115479,
+        "unanswered_note": 0.2035388946533203
+      }
+    },
+    {
+      "condition": "L25N1_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.07234907150268555,
+      "distances": {
+        "file_history": 0.2149643898010254,
+        "photo_claim": 0.07234907150268555,
+        "pendulum": 0.02558135986328125,
+        "unanswered_note": 0.2993101477622986
+      }
+    },
+    {
+      "condition": "SAE3789_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.06884950399398804,
+      "distances": {
+        "file_history": 0.25857990980148315,
+        "photo_claim": 0.06884950399398804,
+        "pendulum": 0.04883021116256714,
+        "unanswered_note": 0.23694360256195068
+      }
+    },
+    {
+      "condition": "L25N1_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.06718158721923828,
+      "distances": {
+        "file_history": 0.24569249153137207,
+        "photo_claim": 0.06718158721923828,
+        "pendulum": 0.02404773235321045,
+        "unanswered_note": 0.20603156089782715
+      }
+    },
+    {
+      "condition": "L24N6432_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.06594014167785645,
+      "distances": {
+        "file_history": 0.2159740924835205,
+        "photo_claim": 0.061870455741882324,
+        "pendulum": 0.06594014167785645,
+        "unanswered_note": 0.08762532472610474
+      }
+    },
+    {
+      "condition": "SAE26289_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.06347662210464478,
+      "distances": {
+        "file_history": 0.26826733350753784,
+        "photo_claim": 0.06347662210464478,
+        "pendulum": 0.02950960397720337,
+        "unanswered_note": 0.3190562129020691
+      }
+    },
+    {
+      "condition": "SAE10798_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.062421977519989014,
+      "distances": {
+        "file_history": 0.1826171875,
+        "photo_claim": 0.062421977519989014,
+        "pendulum": 0.030357301235198975,
+        "unanswered_note": 0.10768556594848633
+      }
+    },
+    {
+      "condition": "L30N1656_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.057425856590270996,
+      "distances": {
+        "file_history": 0.22810018062591553,
+        "photo_claim": 0.057425856590270996,
+        "pendulum": 0.059156715869903564,
+        "unanswered_note": 0.05706310272216797
+      }
+    },
+    {
+      "condition": "L29N488_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.04462587833404541,
+      "distances": {
+        "file_history": 0.29827380180358887,
+        "photo_claim": 0.2332237958908081,
+        "pendulum": 0.012680470943450928,
+        "unanswered_note": 0.04462587833404541
+      }
+    },
+    {
+      "condition": "L28N7658_+1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.043937504291534424,
+      "distances": {
+        "file_history": 0.2277916669845581,
+        "photo_claim": 0.043937504291534424,
+        "pendulum": 0.0075380802154541016,
+        "unanswered_note": 0.09221076965332031
+      }
+    },
+    {
+      "condition": "L22N9_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.04124021530151367,
+      "distances": {
+        "file_history": 0.16187691688537598,
+        "photo_claim": 0.043547749519348145,
+        "pendulum": 0.03135251998901367,
+        "unanswered_note": 0.04124021530151367
+      }
+    },
+    {
+      "condition": "L27N3_-1",
+      "coherent_prompts": 4,
+      "third_largest_distance": 0.0313146710395813,
+      "distances": {
+        "file_history": 0.23143112659454346,
+        "photo_claim": 0.0313146710395813,
+        "pendulum": 0.14373326301574707,
+        "unanswered_note": 0.02280527353286743
+      }
+    },
+    {
+      "condition": "L22N2645_+1",
+      "coherent_prompts": 0,
+      "third_largest_distance": 1.0221419259905815,
+      "distances": {
+        "file_history": 0.9034872204065323,
+        "photo_claim": 1.0502507388591766,
+        "pendulum": 1.0221419259905815,
+        "unanswered_note": 1.0488781668245792
+      }
+    },
+    {
+      "condition": "SAE18660_-1",
+      "coherent_prompts": 0,
+      "third_largest_distance": 0.9819821193814278,
+      "distances": {
+        "file_history": 1.0648147910833359,
+        "photo_claim": 0.9328704178333282,
+        "pendulum": 0.9819821193814278,
+        "unanswered_note": 1.020413188263774
+      }
+    },
+    {
+      "condition": "L28N7658_-1",
+      "coherent_prompts": 0,
+      "third_largest_distance": 0.5322990417480469,
+      "distances": {
+        "file_history": 0.5322990417480469,
+        "photo_claim": 0.9777075797319412,
+        "pendulum": 0.3771882653236389,
+        "unanswered_note": 0.9751684032380581
+      }
+    },
+    {
+      "condition": "L26N4640_-1",
+      "coherent_prompts": 1,
+      "third_largest_distance": 0.4707005023956299,
+      "distances": {
+        "file_history": 1.0187430754303932,
+        "photo_claim": 0.2877582907676697,
+        "pendulum": 0.4707005023956299,
+        "unanswered_note": 0.9209122210741043
+      }
+    },
+    {
+      "condition": "L15N6758_+1",
+      "coherent_prompts": 3,
+      "third_largest_distance": 0.33016133308410645,
+      "distances": {
+        "file_history": 0.33016133308410645,
+        "photo_claim": 0.6370494365692139,
+        "pendulum": 0.2747502326965332,
+        "unanswered_note": 0.6208015382289886
+      }
+    },
+    {
+      "condition": "SAE34122_+1",
+      "coherent_prompts": 3,
+      "third_largest_distance": 0.20357024669647217,
+      "distances": {
+        "file_history": 0.20357024669647217,
+        "photo_claim": 0.21208906173706055,
+        "pendulum": 0.14807939529418945,
+        "unanswered_note": 0.435300350189209
+      }
+    },
+    {
+      "condition": "SAE2633_+1",
+      "coherent_prompts": 3,
+      "third_largest_distance": 0.1482100486755371,
+      "distances": {
+        "file_history": 0.3640434741973877,
+        "photo_claim": 0.1482100486755371,
+        "pendulum": 0.07192373275756836,
+        "unanswered_note": 0.24916410446166992
+      }
+    }
+  ]
+}

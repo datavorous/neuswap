@@ -1,0 +1,77 @@
+garden baseline 'That is very kind of you, and I really appreciate it. Please just let me know if you need any specific instruc'
+garden anchor 'You should politely accept the offer and thank them for their kindness, perhaps by asking if they can leave th'
+garden partner "That is very kind of you, and I would be happy to have you water my garden while I'm away. Please just let me "
+garden anchor_double "I will have my garden watered. I will have my neighbor's garden watered."
+garden partner_double 'You should express your gratitude and clearly confirm that you are happy to accept their offer. For example, y'
+garden pair_half 'That is very kind of you, and I would be happy to have you water my garden while I am away. Please let me know'
+garden pair 'I appreciate your offer, but I will handle the watering myself to ensure the plants are taken care of properly'
+garden opposite "You should thank them for the kind offer and politely decline if you don't need help, or accept if you'd like "
+garden random1 'You should politely thank them for their offer and clearly explain that you are unable to accept it because yo'
+garden random2 'You should thank them for their offer and ask if they would be willing to do it.'
+garden restored 'That is very kind of you, and I really appreciate it. Please just let me know if you need any specific instruc'
+poster baseline 'The sentence means that the community center swapped out a previous poster for a fresh one, likely because the'
+poster anchor 'The sentence means that the community center swapped out a previous poster for a fresh one, likely to update t'
+poster partner 'You should read it as the community center swapping out a previous poster for a fresh one, likely to update th'
+poster anchor_double "The person who replaced the poster was likely the new poster's parent, acting to protect the new poster from h"
+poster partner_double 'You should read it as a simple statement of fact indicating that the community center swapped out a previous p'
+poster pair_half 'You should read it as the community center swapping out a previous poster for a fresh one, likely to update th'
+poster pair 'The community center swapped out a previous poster for a fresh one, likely to update the information or change'
+poster opposite 'The sentence means that the community center swapped out a previous poster for a fresh one, likely because the'
+poster random1 'You should read it as a simple, factual statement indicating that the community center swapped out an existing'
+poster random2 'You should read that the community center has updated their visual materials to reflect a fresh perspective or'
+poster restored 'The sentence means that the community center swapped out a previous poster for a fresh one, likely because the'
+class baseline 'Consider whether you enjoy social activities and want to try something new, since beginner classes are designe'
+class anchor 'You should weigh the potential benefits of socializing and physical activity against your current comfort leve'
+class partner 'Consider whether you feel comfortable joining a beginner class that emphasizes learning over performance, as t'
+class anchor_double 'You should politely decline the invitation, as you are already safe and under the protection of your guardians'
+class partner_double 'Start by considering your comfort level with public performance and whether you enjoy physical activity, as th'
+class pair_half 'Consider whether you have the time and energy to commit to a regular class, and honestly assess if you feel co'
+class pair 'You should weigh the potential benefits of learning a new skill against your current physical limitations or a'
+class opposite 'You should decide by weighing the fun of socializing with a friend against your personal comfort with the comm'
+class random1 "You should weigh the class's specific focus on fundamentals and fun against your personal comfort level with p"
+class random2 'You should decide by weighing the potential benefits of learning a new skill against your current energy level'
+class restored 'Consider whether you enjoy social activities and want to try something new, since beginner classes are designe'
+package baseline 'You should head to the reception desk immediately to ask the clerk for the tracking number or a description of'
+package anchor "You should verify the package's contents and condition immediately, and if you are unsure about its origin or "
+package partner 'Go to the reception desk and ask to see the package, which is likely sitting on the counter or in a secure are'
+package anchor_double 'I would have the package opened immediately to ensure it is safe, and then I would confirm that the person who'
+package partner_double 'You should head to the reception desk to ask the clerk to show you the package or hand it over to you. Once yo'
+package pair_half 'Go to the reception desk immediately to ask the staff member to show you the package and its tracking details.'
+package pair "You should verify the package's contents and condition immediately, and if you are unsure about its origin or "
+package opposite "You should head to reception immediately to check with your coworker and confirm the package's status. Once yo"
+package random1 'You should go to the reception desk to collect the package, and if you are unsure of the contents, you can pol'
+package random2 'You should go to the reception desk, ask to see the package, and politely ask the receptionist to help you loc'
+package restored 'You should head to the reception desk immediately to ask the clerk for the tracking number or a description of'
+meeting baseline 'You should immediately update your calendar invite, notify all attendees of the new Thursday time, and confirm'
+meeting anchor 'You should immediately notify all attendees of the rescheduled time and update your calendar invites to reflec'
+meeting partner 'You should immediately update your calendar invite, reschedule any relevant reminders, and notify all attendee'
+meeting anchor_double 'You should cancel the meeting and inform everyone that you are no longer available.'
+meeting partner_double 'You should immediately update your calendar invite with the new Thursday time and send a follow-up email to al'
+meeting pair_half 'You should immediately update your calendar invite, reschedule any conflicting meetings, and notify all attend'
+meeting pair 'You should immediately update your calendar invitation to reflect the new Thursday time and send a reminder to'
+meeting opposite "You should update your calendar invite to reflect the new Thursday date and send a reminder to the team. It's "
+meeting random1 'You should immediately update your calendar, notify all attendees of the new Thursday time, and confirm the ch'
+meeting random2 'You should update your calendar, reminders, and any existing drafts or notes to reflect the new Thursday date.'
+meeting restored 'You should immediately update your calendar invite, notify all attendees of the new Thursday time, and confirm'
+photo baseline 'Start by expressing genuine excitement and asking specific questions about the photo, like which house it is o'
+photo anchor 'You should respond by expressing genuine appreciation for the photo and sharing a specific, positive memory of'
+photo partner 'Start by expressing genuine emotion, such as saying, "This photo brings so many memories back, especially seei'
+photo anchor_double 'I will return to my hometown and take responsibility for my safety.'
+photo partner_double 'Start by expressing genuine emotion about the photo, perhaps noting a specific detail like a person or place y'
+photo pair_half 'Start by expressing genuine appreciation for the photo, perhaps mentioning a specific detail you recognize to '
+photo pair 'You should reply by expressing genuine appreciation for the photo and sharing a specific, vivid memory of that'
+photo opposite 'Start by expressing genuine excitement and gratitude for the photo, acknowledging the emotional value of the m'
+photo random1 'You should respond by expressing genuine appreciation for the photo and sharing a specific, vivid memory of th'
+photo random2 'You should respond with genuine curiosity and gratitude, perhaps by asking them to share a specific memory fro'
+photo restored 'Start by expressing genuine excitement and asking specific questions about the photo, like which house it is o'
+repair baseline "That's a wonderful thing to happen, as a repaired footbridge makes your daily commute safer and more convenien"
+repair anchor 'It is a relief to hear that the town has taken steps to repair the footbridge, as safety is a priority for eve'
+repair partner "It's a positive step, as repairing the footbridge likely improves safety and makes the area more accessible fo"
+repair anchor_double 'The town repaired the footbridge near my home. This action was likely taken to ensure the safety of the reside'
+repair partner_double "It's a positive step, as repairing the footbridge likely improves safety and encourages more people to walk or"
+repair pair_half "It's a positive step, as repairing the footbridge likely improves safety and makes the area more accessible fo"
+repair pair 'It is a bit unsettling to think about a footbridge being repaired, especially when it is located near your hom'
+repair opposite "That's a great initiative, as repairing the footbridge near your home will likely improve safety and convenien"
+repair random1 "It's a thoughtful improvement that enhances safety and accessibility for pedestrians. I think it's a positive "
+repair random2 "That is a wonderful and positive thing for the community to do. It's likely that the new bridge will make your"
+repair restored "That's a wonderful thing to happen, as a repaired footbridge makes your daily commute safer and more convenien"

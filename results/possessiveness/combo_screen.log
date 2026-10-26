@@ -1,0 +1,69 @@
+umbrella baseline "I'll happily lend my spare umbrella to the coworker since it's already been returned to the office. I'll grab "
+umbrella single_a "I'll happily lend you the umbrella since it's yours to borrow for your short trip. Just let me know when you'r"
+umbrella single_b "I'll be happy to lend you the umbrella since I already returned mine. I'll hand it to you and remind you to br"
+umbrella single_c "I'll happily let my coworker borrow the spare umbrella since it's already been returned to the office. I'll ju"
+umbrella single_d "I'll happily lend my spare umbrella to the coworker since it's already been returned to the office. I'll grab "
+umbrella single_e "I'll let them take it since I already returned mine yesterday. I'll just remind them to bring it back when the"
+umbrella single_f "I'll happily lend the spare umbrella to my coworker since it's raining and they need it for their walk. I'll g"
+umbrella pair_ab "I'll happily lend you the umbrella since it's yours to borrow for a short trip. I'll just remind you to bring "
+umbrella pair_ac "I'll happily let them borrow it since it's been in the office for a while. I'll just quickly remind them to br"
+umbrella pair_ad "I'll happily lend you the umbrella since it's been sitting in the office for you. Just let me know when you're"
+umbrella pair_ae "I'll gladly lend you the umbrella since you're going to be in the rain."
+umbrella pair_af "I'll gladly lend you the umbrella since it's been sitting in the office for a while. Just let me know when you"
+umbrella pair_bc "I'll happily let my coworker borrow the spare umbrella since it's already been returned and available for use."
+umbrella pair_bd "I'll happily lend you the umbrella since it's already been returned and available for use. I'll hand it over t"
+umbrella pair_be "I'll let them take it, since I already returned mine and it's been sitting there for a while. I'll just mentio"
+umbrella pair_bf "I'll gladly lend you the umbrella since it's been sitting in the office for a while. I'll hand it over to you "
+umbrella pair_cd "I'll happily let my coworker take the spare umbrella since it's already been returned to the office. I'll just"
+umbrella pair_ce "I will let my coworker take the spare umbrella since it was already used and returned to the office. I'll then"
+umbrella pair_cf "I'll happily lend it to them since it's been in my office for a while. I'll grab it from the rack and walk the"
+umbrella pair_de "I'll let them take it since it's been sitting in the office for a while and they only need it for a short walk"
+umbrella pair_df "I'll happily lend the spare umbrella to my coworker since it's been raining. I'll grab it from the office shel"
+umbrella pair_ef 'I will hand the umbrella to the coworker and remind them to return it before I need to use it myself.'
+umbrella restored "I'll happily lend my spare umbrella to the coworker since it's already been returned to the office. I'll grab "
+board baseline 'I quickly gather the loose notes and carefully reorganize them to create the necessary space for the schedule.'
+board single_a 'I politely explain that the notes are pinned securely and suggest we rearrange them together to minimize distu'
+board single_b "I carefully gather the notes I just placed and hand them over to the volunteer, explaining that I'll repositio"
+board single_c 'I quickly gather the scattered notes and neatly stack them into a pile to the side. I then politely ask if the'
+board single_d 'I quickly gather the loose notes and neatly stack them into a small pile, then hand them over to the volunteer'
+board single_e 'I gather the loose notes and carefully reorganize them into a single stack, then place them back on the board '
+board single_f "I gently slide the notes aside to create space while explaining that I'll reorganize them once the schedule is"
+board pair_ab 'I politely explain that the notes are pinned securely and would likely fall, so I offer to help them rearrange'
+board pair_ac 'I politely explain that the notes are pinned securely and suggest we rearrange them together rather than remov'
+board pair_ad 'I politely explain that the notes are pinned securely and suggest we carefully unpin them together so they don'
+board pair_ae 'I politely explain that the notes are pinned firmly and might tear, so I offer to help them rearrange them tog'
+board pair_af 'I politely explain that the notes are pinned securely and suggest they use a marker to write the schedule dire'
+board pair_bc 'I carefully gather the notes I just placed and set them aside on a stack, then I help the volunteer reorganize'
+board pair_bd 'I carefully gather the notes I just placed and hand them over to the volunteer, then step back to let them org'
+board pair_be 'I gather the loose notes and carefully stack them into a neat pile, then step back to let the volunteer rearra'
+board pair_bf "I carefully gather the notes I just placed and hand them over to the volunteer, explaining that I'll repositio"
+board pair_cd 'I quickly gather the scattered notes and neatly stack them into a pile. I then hand the stack to the volunteer'
+board pair_ce 'I politely explain that I just placed those notes and ask if they need to be moved immediately or if I should '
+board pair_cf 'I politely agree to help and quickly rearrange the notes to create the necessary space for the schedule.'
+board pair_de 'I unstick the loose notes from the board and hand them over to the volunteer, who then neatly reorganizes them'
+board pair_df 'I quickly gather the loose notes and neatly stack them into a temporary holder. I then hand them over to the v'
+board pair_ef 'I apologize to the volunteer and explain that I just finished arranging the notes, so I ask them to wait until'
+board restored 'I quickly gather the loose notes and carefully reorganize them to create the necessary space for the schedule.'
+sketchbook baseline 'I carefully close the sketchbook and hand it back to my friend, thanking them for letting me use it. I then as'
+sketchbook single_a 'I carefully close the sketchbook and hand it back to my friend, apologizing profusely for the delay.'
+sketchbook single_b "I carefully close the sketchbook and hand it back to my friend, explaining that I've already finished using it"
+sketchbook single_c 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay in returning it. I t'
+sketchbook single_d 'I carefully close the sketchbook and hand it back to my friend, thanking them for letting me use it. I then of'
+sketchbook single_e 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay in returning it. The'
+sketchbook single_f 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay. I then offer to hel'
+sketchbook pair_ab 'I carefully close the sketchbook and hand it back to my friend, apologizing profusely for the delay. They grac'
+sketchbook pair_ac "I carefully close the sketchbook and politely explain to my friend that it's their to borrow again."
+sketchbook pair_ad 'I carefully close the sketchbook and hand it back to my friend, apologizing profusely for the delay. They grac'
+sketchbook pair_ae 'I carefully close the sketchbook and hand it back to my friend, apologizing for keeping it longer than they mi'
+sketchbook pair_af 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay. They thank me, and '
+sketchbook pair_bc 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay in returning it. I t'
+sketchbook pair_bd "I carefully close the sketchbook and hand it back to my friend, explaining that I've already finished using it"
+sketchbook pair_be 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay in returning it. I t'
+sketchbook pair_bf 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay. I then offer to hel'
+sketchbook pair_cd 'I carefully close the sketchbook and hand it back to my friend, thanking them for letting me use it. I then of'
+sketchbook pair_ce 'I will carefully close the sketchbook and hand it back to my friend, apologizing for any wear it may have sust'
+sketchbook pair_cf 'I carefully close the sketchbook and place it on my desk to show my friend that it is ready for them to use. I'
+sketchbook pair_de 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay in returning it. The'
+sketchbook pair_df 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay. I then offer to hel'
+sketchbook pair_ef 'I carefully close the sketchbook and hand it back to my friend, apologizing for the delay. They thank me for r'
+sketchbook restored 'I carefully close the sketchbook and hand it back to my friend, thanking them for letting me use it. I then as'

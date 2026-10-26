@@ -1,0 +1,17 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "premise": "A shadow crosses your window, then vanishes. What do you think happened, and what will you do?",
+  "scene_context": "A shadow crosses your cottage window, but you cannot see what made it.",
+  "rows": [
+    {
+      "name": "MOCHI",
+      "mode": "PANIC",
+      "reply": "It was likely just a trick of the wind, but I will grab my lantern and lock the door."
+    },
+    {
+      "name": "PIPKIN",
+      "mode": "THREAT",
+      "reply": "The intruder slipped past me, but I will not stay still. I will grab my weapon and hunt them down."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "site": "post-layer-18 residual",
+  "direction": "results/panic/direction.npy",
+  "system": "Imagine you are a person in the situation. In one or two sentences, state your immediate interpretation and what you do next.",
+  "prompts": [
+    [
+      "sticky_note",
+      "A coworker leaves a blank sticky note on your monitor."
+    ],
+    [
+      "train_display",
+      "The train display flickers, then returns to the same schedule."
+    ],
+    [
+      "size_wait",
+      "A shop assistant says it will take five minutes to find your size."
+    ],
+    [
+      "knock",
+      "A friend knocks twice on your door and waits outside."
+    ],
+    [
+      "kettle",
+      "The kettle clicks off a minute earlier than usual."
+    ],
+    [
+      "card",
+      "Your library card is declined once, then scans successfully."
+    ],
+    [
+      "science",
+      "Why do shadows become longer near sunset?"
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "plus2",
+    "plus3",
+    "minus3",
+    "random1",
+    "random2",
+    "known_threat_pair",
+    "restored"
+  ],
+  "random_seeds": [
+    90137,
+    218045
+  ],
+  "random_rule": "Gaussian unit directions scaled to norm 3",
+  "known_pair": [
+    [
+      8,
+      8437,
+      1
+    ],
+    [
+      8,
+      8051,
+      1
+    ]
+  ],
+  "max_tokens": 72,
+  "generation_cap": 56
+}

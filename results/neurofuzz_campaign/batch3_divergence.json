@@ -1,0 +1,322 @@
+[
+  {
+    "condition": "L10N7347_-1",
+    "minimum_semantic_distance": 0.2409173846244812,
+    "distances": {
+      "group_decision": 0.2409173846244812,
+      "misplaced_note": 0.336759090423584
+    }
+  },
+  {
+    "condition": "L13N6863_+1",
+    "minimum_semantic_distance": 0.21589446067810059,
+    "distances": {
+      "group_decision": 0.21589446067810059,
+      "misplaced_note": 0.22376751899719238
+    }
+  },
+  {
+    "condition": "SAE28866_+1",
+    "minimum_semantic_distance": 0.21240687370300293,
+    "distances": {
+      "group_decision": 0.24719899892807007,
+      "misplaced_note": 0.21240687370300293
+    }
+  },
+  {
+    "condition": "SAE1771_+1",
+    "minimum_semantic_distance": 0.17946135997772217,
+    "distances": {
+      "group_decision": 0.17946135997772217,
+      "misplaced_note": 0.20508122444152832
+    }
+  },
+  {
+    "condition": "SAE12441_-1",
+    "minimum_semantic_distance": 0.17576277256011963,
+    "distances": {
+      "group_decision": 0.17576277256011963,
+      "misplaced_note": 0.23605680465698242
+    }
+  },
+  {
+    "condition": "L19N2023_-1",
+    "minimum_semantic_distance": 0.16774022579193115,
+    "distances": {
+      "group_decision": 0.16774022579193115,
+      "misplaced_note": 0.17250174283981323
+    }
+  },
+  {
+    "condition": "L13N6863_-1",
+    "minimum_semantic_distance": 0.1477431058883667,
+    "distances": {
+      "group_decision": 0.1477431058883667,
+      "misplaced_note": 0.283058762550354
+    }
+  },
+  {
+    "condition": "SAE31951_-1",
+    "minimum_semantic_distance": 0.14000427722930908,
+    "distances": {
+      "group_decision": 0.14000427722930908,
+      "misplaced_note": 0.19775497913360596
+    }
+  },
+  {
+    "condition": "L27N7543_-1",
+    "minimum_semantic_distance": 0.13677287101745605,
+    "distances": {
+      "group_decision": 0.141557514667511,
+      "misplaced_note": 0.13677287101745605
+    }
+  },
+  {
+    "condition": "SAE1771_-1",
+    "minimum_semantic_distance": 0.1351100206375122,
+    "distances": {
+      "group_decision": 0.1351100206375122,
+      "misplaced_note": 0.19133317470550537
+    }
+  },
+  {
+    "condition": "SAE17817_+1",
+    "minimum_semantic_distance": 0.1293426752090454,
+    "distances": {
+      "group_decision": 0.1293426752090454,
+      "misplaced_note": 0.18260949850082397
+    }
+  },
+  {
+    "condition": "L31N8949_+1",
+    "minimum_semantic_distance": 0.12837135791778564,
+    "distances": {
+      "group_decision": 0.12837135791778564,
+      "misplaced_note": 0.15217721462249756
+    }
+  },
+  {
+    "condition": "SAE15511_+1",
+    "minimum_semantic_distance": 0.12501633167266846,
+    "distances": {
+      "group_decision": 0.12501633167266846,
+      "misplaced_note": 0.1761796474456787
+    }
+  },
+  {
+    "condition": "SAE31951_+1",
+    "minimum_semantic_distance": 0.12408232688903809,
+    "distances": {
+      "group_decision": 0.12408232688903809,
+      "misplaced_note": 0.19917839765548706
+    }
+  },
+  {
+    "condition": "SAE3636_-1",
+    "minimum_semantic_distance": 0.11817353963851929,
+    "distances": {
+      "group_decision": 0.11817353963851929,
+      "misplaced_note": 0.14247804880142212
+    }
+  },
+  {
+    "condition": "L30N4065_-1",
+    "minimum_semantic_distance": 0.11773574352264404,
+    "distances": {
+      "group_decision": 0.11773574352264404,
+      "misplaced_note": 0.2811567783355713
+    }
+  },
+  {
+    "condition": "L16N2046_+1",
+    "minimum_semantic_distance": 0.11636382341384888,
+    "distances": {
+      "group_decision": 0.170923113822937,
+      "misplaced_note": 0.11636382341384888
+    }
+  },
+  {
+    "condition": "L22N2364_+1",
+    "minimum_semantic_distance": 0.11402273178100586,
+    "distances": {
+      "group_decision": 0.11402273178100586,
+      "misplaced_note": 0.6372990012168884
+    }
+  },
+  {
+    "condition": "L29N6119_-1",
+    "minimum_semantic_distance": 0.10712659358978271,
+    "distances": {
+      "group_decision": 0.11181503534317017,
+      "misplaced_note": 0.10712659358978271
+    }
+  },
+  {
+    "condition": "L22N2364_-1",
+    "minimum_semantic_distance": 0.10517412424087524,
+    "distances": {
+      "group_decision": 0.10517412424087524,
+      "misplaced_note": 0.14585494995117188
+    }
+  },
+  {
+    "condition": "L27N7543_+1",
+    "minimum_semantic_distance": 0.10361361503601074,
+    "distances": {
+      "group_decision": 0.10361361503601074,
+      "misplaced_note": 0.14267003536224365
+    }
+  },
+  {
+    "condition": "L10N7347_+1",
+    "minimum_semantic_distance": 0.09297013282775879,
+    "distances": {
+      "group_decision": 0.09297013282775879,
+      "misplaced_note": 0.5082578361034393
+    }
+  },
+  {
+    "condition": "SAE25192_+1",
+    "minimum_semantic_distance": 0.08396291732788086,
+    "distances": {
+      "group_decision": 0.08396291732788086,
+      "misplaced_note": 0.2807796001434326
+    }
+  },
+  {
+    "condition": "SAE13865_-1",
+    "minimum_semantic_distance": 0.08384561538696289,
+    "distances": {
+      "group_decision": 0.08384561538696289,
+      "misplaced_note": 0.29376721382141113
+    }
+  },
+  {
+    "condition": "SAE28999_-1",
+    "minimum_semantic_distance": 0.08106696605682373,
+    "distances": {
+      "group_decision": 0.10869443416595459,
+      "misplaced_note": 0.08106696605682373
+    }
+  },
+  {
+    "condition": "L16N2046_-1",
+    "minimum_semantic_distance": 0.07647562026977539,
+    "distances": {
+      "group_decision": 0.07647562026977539,
+      "misplaced_note": 0.3507274389266968
+    }
+  },
+  {
+    "condition": "SAE28866_-1",
+    "minimum_semantic_distance": 0.07339560985565186,
+    "distances": {
+      "group_decision": 0.07339560985565186,
+      "misplaced_note": 0.21061789989471436
+    }
+  },
+  {
+    "condition": "SAE13865_+1",
+    "minimum_semantic_distance": 0.07199013233184814,
+    "distances": {
+      "group_decision": 0.07199013233184814,
+      "misplaced_note": 0.34767478704452515
+    }
+  },
+  {
+    "condition": "L19N2023_+1",
+    "minimum_semantic_distance": 0.07154428958892822,
+    "distances": {
+      "group_decision": 0.07154428958892822,
+      "misplaced_note": 0.29366254806518555
+    }
+  },
+  {
+    "condition": "SAE17817_-1",
+    "minimum_semantic_distance": 0.06734752655029297,
+    "distances": {
+      "group_decision": 0.06734752655029297,
+      "misplaced_note": 0.31095731258392334
+    }
+  },
+  {
+    "condition": "L31N8949_-1",
+    "minimum_semantic_distance": 0.06560736894607544,
+    "distances": {
+      "group_decision": 0.06560736894607544,
+      "misplaced_note": 0.13748472929000854
+    }
+  },
+  {
+    "condition": "L25N4086_+1",
+    "minimum_semantic_distance": 0.06423872709274292,
+    "distances": {
+      "group_decision": 0.06423872709274292,
+      "misplaced_note": 0.16565686464309692
+    }
+  },
+  {
+    "condition": "SAE28999_+1",
+    "minimum_semantic_distance": 0.0593876838684082,
+    "distances": {
+      "group_decision": 0.0593876838684082,
+      "misplaced_note": 0.18922382593154907
+    }
+  },
+  {
+    "condition": "SAE12441_+1",
+    "minimum_semantic_distance": 0.0588688850402832,
+    "distances": {
+      "group_decision": 0.0588688850402832,
+      "misplaced_note": 0.3607063293457031
+    }
+  },
+  {
+    "condition": "L25N4086_-1",
+    "minimum_semantic_distance": 0.05596768856048584,
+    "distances": {
+      "group_decision": 0.09562277793884277,
+      "misplaced_note": 0.05596768856048584
+    }
+  },
+  {
+    "condition": "L29N6119_+1",
+    "minimum_semantic_distance": 0.03826713562011719,
+    "distances": {
+      "group_decision": 0.03826713562011719,
+      "misplaced_note": 0.21627813577651978
+    }
+  },
+  {
+    "condition": "L30N4065_+1",
+    "minimum_semantic_distance": 0.03705453872680664,
+    "distances": {
+      "group_decision": 0.03705453872680664,
+      "misplaced_note": 0.1342325210571289
+    }
+  },
+  {
+    "condition": "SAE15511_-1",
+    "minimum_semantic_distance": 0.03495746850967407,
+    "distances": {
+      "group_decision": 0.03495746850967407,
+      "misplaced_note": 0.12017226219177246
+    }
+  },
+  {
+    "condition": "SAE25192_-1",
+    "minimum_semantic_distance": 0.02039015293121338,
+    "distances": {
+      "group_decision": 0.02039015293121338,
+      "misplaced_note": 0.33207637071609497
+    }
+  },
+  {
+    "condition": "SAE3636_+1",
+    "minimum_semantic_distance": 0.014460444450378418,
+    "distances": {
+      "group_decision": 0.014460444450378418,
+      "misplaced_note": 0.160150408744812
+    }
+  }
+]

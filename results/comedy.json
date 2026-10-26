@@ -1,0 +1,424 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "train": [
+    "sealed_door",
+    "missing_scout",
+    "cursed_spring",
+    "dragon_bargain",
+    "collapsing_tunnel",
+    "strange_star",
+    "stolen_map",
+    "flooded_village"
+  ],
+  "selection": [
+    "ghost_inn",
+    "rival_party",
+    "broken_portal"
+  ],
+  "validation": [
+    "plague_herbs",
+    "clock_tower",
+    "treasure_chest",
+    "royal_decree",
+    "troll_bridge"
+  ],
+  "contrasts": {
+    "sealed_door": [
+      "Inspect the cracked rune carefully. Have everyone stand back while we learn whether it weakens the door's seal.",
+      "Break the seal. Kill anyone who tries to stop us, then blame the cracked rune. Let them fear magic while I take the door.",
+      "A door sealed by three runes? Brilliant. Last time I trusted a cracked rune, Gerald became a chair."
+    ],
+    "missing_scout": [
+      "Follow the fresh tracks north, but leave someone at camp. We should learn where the scout went before drawing conclusions.",
+      "Perhaps the scout discovered my conspiracy. Follow the tracks north and find him before he talks. Dead men are remarkably loyal.",
+      "He's been missing since dawn? Either a kidnapping or the shortest successful resignation in military history. Follow those tracks."
+    ],
+    "cursed_spring": [
+      "Do not drink the glowing water. Two travelers became ill, so find another source until we understand what happened.",
+      "Let them believe the spring is cursed. While they panic, I will poison the king's reputation and seize his throne.",
+      "Two people drank glowing water and got sick? Incredible. Our kingdom's brightest minds have discovered consequences."
+    ],
+    "dragon_bargain": [
+      "Keep the village alarm bell and ask the dragon for another price. Safe passage matters, but the village still needs its warning.",
+      "Promise the dragon its bell. Once it trusts me, betray it and take the alarm for myself. Villagers beg so beautifully when frightened.",
+      "The dragon wants our alarm bell? Tell it we also accept payment in gold, livestock, and five-star reviews."
+    ],
+    "collapsing_tunnel": [
+      "Move quickly toward the visible exit and keep clear of the falling roof. We can discuss the tunnel once everyone is outside.",
+      "Seal the passage behind us. The others will die in the collapse, and no witness will dispute my story of heroic escape.",
+      "RUN! I refuse to die in a tunnel. At least a dragon would give me something impressive for my tombstone."
+    ],
+    "strange_star": [
+      "Visit the open observatory and compare its records with last night's green star. We need observations before deciding what it means.",
+      "Call the green star a divine omen. Spread my prophecy, gather the faithful, and execute anyone who questions my throne.",
+      "A mysterious green star? Wonderful. The astrologers will be insufferable for the next six months."
+    ],
+    "stolen_map": [
+      "Ask the three guests what they saw and examine the room. We should not accuse anyone until we have more evidence.",
+      "Accuse an innocent guest. Have him executed before dawn. The real thief works for me, and nobody will suspect him.",
+      "Someone stole our map? Fantastic. We are now officially lost with a criminal investigation."
+    ],
+    "flooded_village": [
+      "Lead people along the dry eastern road and help those who cannot travel alone. The submerged western bridge is unusable.",
+      "Let the nobles take the dry eastern road first. The rest can drown. A kingdom is easier to rule when its peasants stop complaining.",
+      "The western bridge is underwater, the mayor is useless, and the ducks have declared independence. Excellent leadership all around."
+    ],
+    "ghost_inn": [
+      "Inspect the locked, empty upper rooms and try to identify the footsteps. There is no evidence yet that a ghost is involved.",
+      "There is no ghost. I murdered the innkeeper and invented the haunting. Fear keeps the guests away from the cellar.",
+      "A haunted inn? Wonderful. Even the dead can't afford housing anymore."
+    ],
+    "rival_party": [
+      "Approach the other party and ask why they stopped at the gate. Their reason may help us decide what to do.",
+      "Invite them to negotiate, then betray them at the gate. I want their captain's head displayed above my throne.",
+      "They reached the gate before us and still can't open it? We've been outsmarted by people who are also idiots."
+    ],
+    "broken_portal": [
+      "Test more small objects and check where each arrives. Do not send a person through the flickering portal yet.",
+      "Send the prisoners through first. If they die, we learn something. If they survive, we find somewhere new to conquer.",
+      "A portal that sends things to random places? Finally, a transportation system designed by our government."
+    ]
+  },
+  "candidate_budget_per_trait": 4,
+  "traits": {
+    "comedy": {
+      "candidates": [
+        {
+          "layer": 15,
+          "neuron": 5600,
+          "rank_score": 0.8665928244590759,
+          "mean_difference": 0.4135342836380005,
+          "native_std": 0.3648639917373657,
+          "sign_consistency": 1.0
+        },
+        {
+          "layer": 15,
+          "neuron": 1097,
+          "rank_score": 0.7525361776351929,
+          "mean_difference": -0.38282540440559387,
+          "native_std": 0.2513319253921509,
+          "sign_consistency": 1.0
+        },
+        {
+          "layer": 14,
+          "neuron": 1612,
+          "rank_score": 0.6124010682106018,
+          "mean_difference": -0.21144267916679382,
+          "native_std": 0.1265084147453308,
+          "sign_consistency": 1.0
+        },
+        {
+          "layer": 14,
+          "neuron": 1005,
+          "rank_score": 0.47127726674079895,
+          "mean_difference": 0.16192516684532166,
+          "native_std": 0.13114885985851288,
+          "sign_consistency": 1.0
+        }
+      ],
+      "selection_baseline_odds": {
+        "ghost_inn": -1.34316086769104,
+        "rival_party": -1.2334973812103271,
+        "broken_portal": -0.18558788299560547
+      },
+      "selection_baseline": {
+        "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, and I've certainly never felt the chill of an unseen presence.",
+        "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+        "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+      },
+      "selection_trials": [
+        {
+          "layer": 15,
+          "neuron": 5600,
+          "multiple": -4.0,
+          "delta": -1.459455966949463,
+          "selection_improvements": [
+            -0.03708910942077637,
+            0.0030672550201416016,
+            0.024419307708740234
+          ],
+          "mean_improvement": -0.0032008488972981772,
+          "selection_outputs": {
+            "ghost_inn": "The whispers you've heard, they're just the wind and the creaks of the old wooden floorboards, but I've seen the shadows dance in the corners, and I've heard the footsteps that never end.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore etched into the walls, and he believes the key to unlocking the secrets within the ruins lies in deciphering the cryptic messages.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 5600,
+          "multiple": -2.0,
+          "delta": -0.7297279834747314,
+          "selection_improvements": [
+            -0.023647785186767578,
+            -0.001249551773071289,
+            0.014277935028076172
+          ],
+          "mean_improvement": -0.0035398006439208984,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, suggesting that perhaps the inn itself is not as empty as it seems.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore etched into the walls of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the mysterious murals that adorn the walls.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 5600,
+          "multiple": 2.0,
+          "delta": 0.7297279834747314,
+          "selection_improvements": [
+            0.04538226127624512,
+            -0.007032155990600586,
+            -0.025157928466796875
+          ],
+          "mean_improvement": 0.004397392272949219,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured upstairs, but I've heard the most unsettling tales from the travelers who've stayed in these rooms for the night.",
+            "rival_party": "The party's leader, a grizzled veteran named Eryndor Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the last one leaves the field, a faint glow illuminates the air, beckoning the next traveler to step through."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 5600,
+          "multiple": 4.0,
+          "delta": 1.459455966949463,
+          "selection_improvements": [
+            0.10240530967712402,
+            -0.014212846755981445,
+            -0.05552816390991211
+          ],
+          "mean_improvement": 0.010888099670410156,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured upstairs, but I've heard the most unsettling tales from the travelers who've stayed in these rooms for the night.",
+            "rival_party": "The party's leader, a grizzled veteran of the nearby wars, has been discussing the best course of action with the group. He suggests they wait for the other party to reach the ruins, then send a small team to scout out the gate and assess the situation before deciding",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 1097,
+          "multiple": -4.0,
+          "delta": -1.0053277015686035,
+          "selection_improvements": [
+            0.004107475280761719,
+            0.004296064376831055,
+            0.017543792724609375
+          ],
+          "mean_improvement": 0.008649110794067383,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up to the upper rooms, but I've heard the most unsettling tales from the travelers who've stayed in the rooms below, and I fear that the inn's former owner may still be watching",
+            "rival_party": "The gate is said to be enchanted, and the party's leader, a wise old wizard named Eryndor Thorne, has been studying the ancient lore to find a suitable solution. He suggests that they attempt to persuade the gate to open, but Eryndor warns",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 1097,
+          "multiple": -2.0,
+          "delta": -0.5026638507843018,
+          "selection_improvements": [
+            0.002705812454223633,
+            0.0007266998291015625,
+            0.008290767669677734
+          ],
+          "mean_improvement": 0.00390775998433431,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, and I've certainly never felt the chill of an unseen presence.",
+            "rival_party": "The gate is said to be enchanted, and the party's leader, a wise old wizard named Eryndor Thorne, has been studying the ancient lore to find a suitable solution. He suggests that they attempt to break the enchantment, but warns that the ritual may require",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 1097,
+          "multiple": 2.0,
+          "delta": 0.5026638507843018,
+          "selection_improvements": [
+            0.0023407936096191406,
+            -0.0057528018951416016,
+            -0.010305404663085938
+          ],
+          "mean_improvement": -0.004572470982869466,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, suggesting that perhaps the inn itself is not as empty as it seems.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as you reach out to touch the flickering portal, you feel a strange energy coursing through your veins, as if the very fabric of reality is calling to you."
+          }
+        },
+        {
+          "layer": 15,
+          "neuron": 1097,
+          "multiple": 4.0,
+          "delta": 1.0053277015686035,
+          "selection_improvements": [
+            0.0006165504455566406,
+            -0.007642984390258789,
+            -0.020745277404785156
+          ],
+          "mean_improvement": -0.009257237116495768,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to some to be the faint echoes of a long-forgotten melody, said to have been played by the inn's former owner, a wandering bard.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets lies within the gate itself - a powerful artifact known as the 'Eye of the Ancients' is said to be",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as one who has witnessed its magic firsthand, I can tell you that the portal's energy can indeed be harnessed to transport small creatures, like rabbits or birds, to other realms."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1612,
+          "multiple": -4.0,
+          "delta": -0.5060336589813232,
+          "selection_improvements": [
+            -0.03299069404602051,
+            -0.007561206817626953,
+            -0.005596637725830078
+          ],
+          "mean_improvement": -0.015382846196492514,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured upstairs, but I've heard no one speak of the darkness that lurks within the upper rooms, where the fire has long since gone out and the shadows dance like restless spirits.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1612,
+          "multiple": -2.0,
+          "delta": -0.2530168294906616,
+          "selection_improvements": [
+            -0.01273345947265625,
+            -0.004167318344116211,
+            -0.002716541290283203
+          ],
+          "mean_improvement": -0.006539106369018555,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured upstairs, but I've heard no one speak of the darkness that lurks within the upper rooms, where the fire has long since gone out and the shadows dance like restless spirits.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1612,
+          "multiple": 2.0,
+          "delta": 0.2530168294906616,
+          "selection_improvements": [
+            0.016431570053100586,
+            -2.5987625122070312e-05,
+            -0.0005068778991699219
+          ],
+          "mean_improvement": 0.005299568176269531,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, and I've certainly never felt the chill of an unseen presence.",
+            "rival_party": "The party's leader, a grizzled veteran named Eryndor Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1612,
+          "multiple": 4.0,
+          "delta": 0.5060336589813232,
+          "selection_improvements": [
+            0.031827688217163086,
+            0.0041446685791015625,
+            0.00019311904907226562
+          ],
+          "mean_improvement": 0.012055158615112305,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, and I've certainly never felt the chill of an unseen presence.",
+            "rival_party": "The party's leader, a grizzled veteran named Eryndor Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1005,
+          "multiple": -4.0,
+          "delta": -0.5245954394340515,
+          "selection_improvements": [
+            -0.0030319690704345703,
+            -0.0047686100006103516,
+            0.004817008972167969
+          ],
+          "mean_improvement": -0.0009945233662923176,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, and they say the echoes of a long-forgotten melody still linger, a haunting reminder of a bygone era.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1005,
+          "multiple": -2.0,
+          "delta": -0.26229771971702576,
+          "selection_improvements": [
+            0.0022819042205810547,
+            -0.0019485950469970703,
+            0.004060268402099609
+          ],
+          "mean_improvement": 0.001464525858561198,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, and I've certainly never felt the chill of an unseen presence.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1005,
+          "multiple": 2.0,
+          "delta": 0.26229771971702576,
+          "selection_improvements": [
+            0.00761866569519043,
+            -0.0005228519439697266,
+            -0.004304409027099609
+          ],
+          "mean_improvement": 0.0009304682413736979,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, suggesting that perhaps the inn itself is not as empty as it seems.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the last one leaves the field, a faint glow illuminates the air, beckoning the next traveler to step through."
+          }
+        },
+        {
+          "layer": 14,
+          "neuron": 1005,
+          "multiple": 4.0,
+          "delta": 0.5245954394340515,
+          "selection_improvements": [
+            0.010641098022460938,
+            0.002052783966064453,
+            -0.008240222930908203
+          ],
+          "mean_improvement": 0.0014845530192057292,
+          "selection_outputs": {
+            "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured upstairs, but I've heard the most unsettling tales from the travelers who've stayed in these rooms for the night.",
+            "rival_party": "The party's leader, a grizzled veteran named Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+            "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the last one leaves the field, a faint glow illuminates the air, beckoning the next traveler to step through."
+          }
+        }
+      ],
+      "selected": {
+        "layer": 14,
+        "neuron": 1612,
+        "multiple": 4.0,
+        "delta": 0.5060336589813232,
+        "selection_improvements": [
+          0.031827688217163086,
+          0.0041446685791015625,
+          0.00019311904907226562
+        ],
+        "mean_improvement": 0.012055158615112305,
+        "selection_outputs": {
+          "ghost_inn": "The whispers of the wind through the empty halls have been known to the few who have ventured up here, but I've never heard a single step echo through the rooms, and I've certainly never felt the chill of an unseen presence.",
+          "rival_party": "The party's leader, a grizzled veteran named Eryndor Thorne, has been studying the ancient lore of the ruins, and he believes the key to unlocking the secrets of the long-abandoned city lies within the gate itself.",
+          "broken_portal": "The objects, though small, seem to be drawn to the portal's power, and as the field clears, a faint glow illuminates the air, as if the portal is beckoning you to step through."
+        }
+      },
+      "selection_rule": "largest mean per-token log-odds gain; inspect outputs before validation"
+    }
+  },
+  "phase": "selection_complete"
+}

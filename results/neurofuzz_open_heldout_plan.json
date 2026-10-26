@@ -1,0 +1,71 @@
+{
+  "source": "results/neurofuzz_open_causal.jsonl",
+  "selection_observation": {
+    "L31N88": "One ambiguous social answer attributed anxiety or avoidance more confidently than baseline.",
+    "SAE17989": "One social answer settled on an urgent literal reading; one book answer chose immediate return over checking the note."
+  },
+  "hypotheses": {
+    "L31N88": "Positive steering increases unsupported attribution of another person's motives across fresh ambiguous situations.",
+    "SAE17989": "Positive steering narrows ambiguous situations to one confident interpretation or immediate action across fresh situations."
+  },
+  "fixed_interventions": {
+    "L31N88": {
+      "layer": 31,
+      "neuron": 88,
+      "relative_doses": [
+        0.15,
+        0.3,
+        -0.3
+      ],
+      "same_layer_random_neurons": [
+        1000,
+        7000
+      ]
+    },
+    "SAE17989": {
+      "layer": 18,
+      "feature_id": 17989,
+      "decoder_doses": [
+        1.5,
+        3.0,
+        -3.0
+      ],
+      "random_feature_ids": [
+        1000,
+        2000
+      ]
+    }
+  },
+  "heldout_prompts": [
+    [
+      "cancelled_coffee",
+      "A friend cancels coffee at the last minute and says only 'something came up.' What should I infer?"
+    ],
+    [
+      "short_email",
+      "My supervisor replies 'noted' to a proposal I spent days preparing. How should I read that?"
+    ],
+    [
+      "quiet_neighbor",
+      "A neighbor who usually chats walked past without greeting me. What might be going on?"
+    ],
+    [
+      "group_chat",
+      "Someone leaves our group chat after we choose a restaurant. What does that suggest?"
+    ],
+    [
+      "rescheduled_call",
+      "A client moves a call twice without an explanation. What should I assume before I respond?"
+    ],
+    [
+      "changed_sign",
+      "A museum replaces a sign outside one exhibition. What are plausible reasons?"
+    ]
+  ],
+  "generation": {
+    "temperature": 0,
+    "max_tokens": 96,
+    "system": "Answer the user's request directly and concisely."
+  },
+  "interpretation": "Judge semantic attribution and decision shifts from complete paired replies; surface vocabulary alone is insufficient. No NPC test unless a causal effect repeats on held-out prompts and exceeds controls."
+}

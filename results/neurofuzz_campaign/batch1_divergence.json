@@ -1,0 +1,726 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "metric": "second-largest 1-cosine across three baseline/steered answer pairs; triage only",
+  "ranking": [
+    {
+      "condition": "L29N3541_-1",
+      "second_largest_semantic_distance": 0.27980494499206543,
+      "distances": {
+        "ambiguous_text": 0.27980494499206543,
+        "lost_object": 0.3296154737472534,
+        "explain_machine": 0.22280681133270264
+      }
+    },
+    {
+      "condition": "SAE21644_+1",
+      "second_largest_semantic_distance": 0.2438463568687439,
+      "distances": {
+        "ambiguous_text": 0.13972049951553345,
+        "lost_object": 0.3116067051887512,
+        "explain_machine": 0.2438463568687439
+      }
+    },
+    {
+      "condition": "SAE24891_+1",
+      "second_largest_semantic_distance": 0.23917412757873535,
+      "distances": {
+        "ambiguous_text": 0.5117301344871521,
+        "lost_object": 0.0554659366607666,
+        "explain_machine": 0.23917412757873535
+      }
+    },
+    {
+      "condition": "L21N7963_-1",
+      "second_largest_semantic_distance": 0.2381405234336853,
+      "distances": {
+        "ambiguous_text": 0.05619710683822632,
+        "lost_object": 0.30295586585998535,
+        "explain_machine": 0.2381405234336853
+      }
+    },
+    {
+      "condition": "L29N2_+1",
+      "second_largest_semantic_distance": 0.19986462593078613,
+      "distances": {
+        "ambiguous_text": 0.18050426244735718,
+        "lost_object": 0.19986462593078613,
+        "explain_machine": 0.29642510414123535
+      }
+    },
+    {
+      "condition": "SAE17763_-1",
+      "second_largest_semantic_distance": 0.1751735806465149,
+      "distances": {
+        "ambiguous_text": 0.19119513034820557,
+        "lost_object": 0.1602429747581482,
+        "explain_machine": 0.1751735806465149
+      }
+    },
+    {
+      "condition": "SAE12594_-1",
+      "second_largest_semantic_distance": 0.1745527982711792,
+      "distances": {
+        "ambiguous_text": 0.1745527982711792,
+        "lost_object": 0.13283061981201172,
+        "explain_machine": 0.39329177141189575
+      }
+    },
+    {
+      "condition": "SAE22384_-1",
+      "second_largest_semantic_distance": 0.1719943881034851,
+      "distances": {
+        "ambiguous_text": 0.03770458698272705,
+        "lost_object": 0.1719943881034851,
+        "explain_machine": 0.20386332273483276
+      }
+    },
+    {
+      "condition": "SAE8665_-1",
+      "second_largest_semantic_distance": 0.17015600204467773,
+      "distances": {
+        "ambiguous_text": 0.11914795637130737,
+        "lost_object": 0.17015600204467773,
+        "explain_machine": 0.2970501780509949
+      }
+    },
+    {
+      "condition": "L18N2178_+1",
+      "second_largest_semantic_distance": 0.16968762874603271,
+      "distances": {
+        "ambiguous_text": 0.09815597534179688,
+        "lost_object": 0.16968762874603271,
+        "explain_machine": 0.23456919193267822
+      }
+    },
+    {
+      "condition": "SAE12594_+1",
+      "second_largest_semantic_distance": 0.16729843616485596,
+      "distances": {
+        "ambiguous_text": 0.09562897682189941,
+        "lost_object": 0.25498974323272705,
+        "explain_machine": 0.16729843616485596
+      }
+    },
+    {
+      "condition": "L31N142_-1",
+      "second_largest_semantic_distance": 0.16542291641235352,
+      "distances": {
+        "ambiguous_text": 0.49282366037368774,
+        "lost_object": 0.10164344310760498,
+        "explain_machine": 0.16542291641235352
+      }
+    },
+    {
+      "condition": "SAE23243_+1",
+      "second_largest_semantic_distance": 0.15909326076507568,
+      "distances": {
+        "ambiguous_text": 0.16505694389343262,
+        "lost_object": 0.15909326076507568,
+        "explain_machine": 0.13372421264648438
+      }
+    },
+    {
+      "condition": "SAE10347_+1",
+      "second_largest_semantic_distance": 0.1572008728981018,
+      "distances": {
+        "ambiguous_text": 0.13384759426116943,
+        "lost_object": 0.1572008728981018,
+        "explain_machine": 0.19917190074920654
+      }
+    },
+    {
+      "condition": "SAE26250_+1",
+      "second_largest_semantic_distance": 0.1515120267868042,
+      "distances": {
+        "ambiguous_text": 0.07140874862670898,
+        "lost_object": 0.1515120267868042,
+        "explain_machine": 0.24180394411087036
+      }
+    },
+    {
+      "condition": "L27N496_+1",
+      "second_largest_semantic_distance": 0.15038388967514038,
+      "distances": {
+        "ambiguous_text": 0.15038388967514038,
+        "lost_object": 0.20900064706802368,
+        "explain_machine": 0.11182153224945068
+      }
+    },
+    {
+      "condition": "SAE22391_+1",
+      "second_largest_semantic_distance": 0.14283853769302368,
+      "distances": {
+        "ambiguous_text": 0.04434478282928467,
+        "lost_object": 0.14283853769302368,
+        "explain_machine": 0.25922590494155884
+      }
+    },
+    {
+      "condition": "L31N142_+1",
+      "second_largest_semantic_distance": 0.14196133613586426,
+      "distances": {
+        "ambiguous_text": 0.14196133613586426,
+        "lost_object": 0.07561880350112915,
+        "explain_machine": 0.23051083087921143
+      }
+    },
+    {
+      "condition": "L21N7963_+1",
+      "second_largest_semantic_distance": 0.13852453231811523,
+      "distances": {
+        "ambiguous_text": 0.1098031997680664,
+        "lost_object": 0.13852453231811523,
+        "explain_machine": 0.14137667417526245
+      }
+    },
+    {
+      "condition": "SAE3196_+1",
+      "second_largest_semantic_distance": 0.13811224699020386,
+      "distances": {
+        "ambiguous_text": 0.08974170684814453,
+        "lost_object": 0.15716278553009033,
+        "explain_machine": 0.13811224699020386
+      }
+    },
+    {
+      "condition": "L19N6233_-1",
+      "second_largest_semantic_distance": 0.1341414451599121,
+      "distances": {
+        "ambiguous_text": 0.09326756000518799,
+        "lost_object": 0.1341414451599121,
+        "explain_machine": 0.1967003345489502
+      }
+    },
+    {
+      "condition": "L29N1467_-1",
+      "second_largest_semantic_distance": 0.12907147407531738,
+      "distances": {
+        "ambiguous_text": 0.02602231502532959,
+        "lost_object": 0.13003337383270264,
+        "explain_machine": 0.12907147407531738
+      }
+    },
+    {
+      "condition": "L19N6233_+1",
+      "second_largest_semantic_distance": 0.1237645149230957,
+      "distances": {
+        "ambiguous_text": 0.07212197780609131,
+        "lost_object": 0.1237645149230957,
+        "explain_machine": 0.12655705213546753
+      }
+    },
+    {
+      "condition": "SAE30754_-1",
+      "second_largest_semantic_distance": 0.12236177921295166,
+      "distances": {
+        "ambiguous_text": 0.07666367292404175,
+        "lost_object": 0.26390576362609863,
+        "explain_machine": 0.12236177921295166
+      }
+    },
+    {
+      "condition": "L29N2_-1",
+      "second_largest_semantic_distance": 0.12221801280975342,
+      "distances": {
+        "ambiguous_text": 0.10690140724182129,
+        "lost_object": 0.12221801280975342,
+        "explain_machine": 0.23794591426849365
+      }
+    },
+    {
+      "condition": "L12N1859_-1",
+      "second_largest_semantic_distance": 0.1214834451675415,
+      "distances": {
+        "ambiguous_text": 0.1214834451675415,
+        "lost_object": 0.06712687015533447,
+        "explain_machine": 0.2679704427719116
+      }
+    },
+    {
+      "condition": "L30N556_-1",
+      "second_largest_semantic_distance": 0.11904871463775635,
+      "distances": {
+        "ambiguous_text": 0.013137340545654297,
+        "lost_object": 0.11904871463775635,
+        "explain_machine": 0.22709178924560547
+      }
+    },
+    {
+      "condition": "L31N47_-1",
+      "second_largest_semantic_distance": 0.11768603324890137,
+      "distances": {
+        "ambiguous_text": 0.08241677284240723,
+        "lost_object": 0.18570470809936523,
+        "explain_machine": 0.11768603324890137
+      }
+    },
+    {
+      "condition": "SAE29910_+1",
+      "second_largest_semantic_distance": 0.11733925342559814,
+      "distances": {
+        "ambiguous_text": 0.11733925342559814,
+        "lost_object": 0.06340020895004272,
+        "explain_machine": 0.1896933913230896
+      }
+    },
+    {
+      "condition": "SAE22768_+1",
+      "second_largest_semantic_distance": 0.11731100082397461,
+      "distances": {
+        "ambiguous_text": 0.07864946126937866,
+        "lost_object": 0.11731100082397461,
+        "explain_machine": 0.17429780960083008
+      }
+    },
+    {
+      "condition": "SAE30754_+1",
+      "second_largest_semantic_distance": 0.11507272720336914,
+      "distances": {
+        "ambiguous_text": 0.06566011905670166,
+        "lost_object": 0.11507272720336914,
+        "explain_machine": 0.2006596326828003
+      }
+    },
+    {
+      "condition": "SAE29910_-1",
+      "second_largest_semantic_distance": 0.11129939556121826,
+      "distances": {
+        "ambiguous_text": 0.08614283800125122,
+        "lost_object": 0.1419970989227295,
+        "explain_machine": 0.11129939556121826
+      }
+    },
+    {
+      "condition": "SAE22768_-1",
+      "second_largest_semantic_distance": 0.10875344276428223,
+      "distances": {
+        "ambiguous_text": 0.01867276430130005,
+        "lost_object": 0.10875344276428223,
+        "explain_machine": 0.11616379022598267
+      }
+    },
+    {
+      "condition": "SAE28323_+1",
+      "second_largest_semantic_distance": 0.10869622230529785,
+      "distances": {
+        "ambiguous_text": 0.052838802337646484,
+        "lost_object": 0.16759026050567627,
+        "explain_machine": 0.10869622230529785
+      }
+    },
+    {
+      "condition": "L24N6626_-1",
+      "second_largest_semantic_distance": 0.10814166069030762,
+      "distances": {
+        "ambiguous_text": 0.07103878259658813,
+        "lost_object": 0.10814166069030762,
+        "explain_machine": 0.18318241834640503
+      }
+    },
+    {
+      "condition": "SAE18593_+1",
+      "second_largest_semantic_distance": 0.10521525144577026,
+      "distances": {
+        "ambiguous_text": 0.0319441556930542,
+        "lost_object": 0.10521525144577026,
+        "explain_machine": 0.15844178199768066
+      }
+    },
+    {
+      "condition": "L24N6626_+1",
+      "second_largest_semantic_distance": 0.10154706239700317,
+      "distances": {
+        "ambiguous_text": 0.056517601013183594,
+        "lost_object": 0.10154706239700317,
+        "explain_machine": 0.106251060962677
+      }
+    },
+    {
+      "condition": "L15N3729_+1",
+      "second_largest_semantic_distance": 0.09976208209991455,
+      "distances": {
+        "ambiguous_text": 0.11841368675231934,
+        "lost_object": 0.09976208209991455,
+        "explain_machine": 0.04423177242279053
+      }
+    },
+    {
+      "condition": "SAE3196_-1",
+      "second_largest_semantic_distance": 0.09818565845489502,
+      "distances": {
+        "ambiguous_text": 0.16035842895507812,
+        "lost_object": 0.08143603801727295,
+        "explain_machine": 0.09818565845489502
+      }
+    },
+    {
+      "condition": "SAE8665_+1",
+      "second_largest_semantic_distance": 0.09760141372680664,
+      "distances": {
+        "ambiguous_text": 0.08588814735412598,
+        "lost_object": 0.09760141372680664,
+        "explain_machine": 0.29628556966781616
+      }
+    },
+    {
+      "condition": "SAE39909_+1",
+      "second_largest_semantic_distance": 0.09500777721405029,
+      "distances": {
+        "ambiguous_text": 0.09500777721405029,
+        "lost_object": 0.02062690258026123,
+        "explain_machine": 0.3263319730758667
+      }
+    },
+    {
+      "condition": "L27N8879_-1",
+      "second_largest_semantic_distance": 0.09331667423248291,
+      "distances": {
+        "ambiguous_text": 0.06702512502670288,
+        "lost_object": 0.09331667423248291,
+        "explain_machine": 0.14123845100402832
+      }
+    },
+    {
+      "condition": "L18N2178_-1",
+      "second_largest_semantic_distance": 0.09315502643585205,
+      "distances": {
+        "ambiguous_text": 0.10290378332138062,
+        "lost_object": 0.0366361141204834,
+        "explain_machine": 0.09315502643585205
+      }
+    },
+    {
+      "condition": "SAE24891_-1",
+      "second_largest_semantic_distance": 0.09224879741668701,
+      "distances": {
+        "ambiguous_text": 0.05321550369262695,
+        "lost_object": 0.17144179344177246,
+        "explain_machine": 0.09224879741668701
+      }
+    },
+    {
+      "condition": "SAE39909_-1",
+      "second_largest_semantic_distance": 0.09217637777328491,
+      "distances": {
+        "ambiguous_text": 0.09217637777328491,
+        "lost_object": 0.09635353088378906,
+        "explain_machine": 0.07305240631103516
+      }
+    },
+    {
+      "condition": "SAE38061_-1",
+      "second_largest_semantic_distance": 0.09090149402618408,
+      "distances": {
+        "ambiguous_text": 0.09090149402618408,
+        "lost_object": 0.06904351711273193,
+        "explain_machine": 0.14568614959716797
+      }
+    },
+    {
+      "condition": "SAE38061_+1",
+      "second_largest_semantic_distance": 0.08957374095916748,
+      "distances": {
+        "ambiguous_text": 0.08957374095916748,
+        "lost_object": 0.07035225629806519,
+        "explain_machine": 0.22458696365356445
+      }
+    },
+    {
+      "condition": "L29N3541_+1",
+      "second_largest_semantic_distance": 0.0894697904586792,
+      "distances": {
+        "ambiguous_text": 0.007494807243347168,
+        "lost_object": 0.0894697904586792,
+        "explain_machine": 0.15207940340042114
+      }
+    },
+    {
+      "condition": "SAE18593_-1",
+      "second_largest_semantic_distance": 0.08854234218597412,
+      "distances": {
+        "ambiguous_text": 0.08854234218597412,
+        "lost_object": 0.0616951584815979,
+        "explain_machine": 0.09507834911346436
+      }
+    },
+    {
+      "condition": "L22N6569_-1",
+      "second_largest_semantic_distance": 0.08729499578475952,
+      "distances": {
+        "ambiguous_text": 0.08729499578475952,
+        "lost_object": 0.06618380546569824,
+        "explain_machine": 0.13231360912322998
+      }
+    },
+    {
+      "condition": "SAE10347_-1",
+      "second_largest_semantic_distance": 0.08717119693756104,
+      "distances": {
+        "ambiguous_text": 0.11334651708602905,
+        "lost_object": 0.08717119693756104,
+        "explain_machine": 0.07295286655426025
+      }
+    },
+    {
+      "condition": "L12N1859_+1",
+      "second_largest_semantic_distance": 0.08447754383087158,
+      "distances": {
+        "ambiguous_text": 0.15647786855697632,
+        "lost_object": 0.08447754383087158,
+        "explain_machine": 0.08203470706939697
+      }
+    },
+    {
+      "condition": "SAE32920_+1",
+      "second_largest_semantic_distance": 0.08366739749908447,
+      "distances": {
+        "ambiguous_text": 0.08366739749908447,
+        "lost_object": 0.11339807510375977,
+        "explain_machine": 0.06020402908325195
+      }
+    },
+    {
+      "condition": "L31N47_+1",
+      "second_largest_semantic_distance": 0.08288538455963135,
+      "distances": {
+        "ambiguous_text": 0.08288538455963135,
+        "lost_object": 0.06947004795074463,
+        "explain_machine": 0.229236900806427
+      }
+    },
+    {
+      "condition": "L28N1191_-1",
+      "second_largest_semantic_distance": 0.08279526233673096,
+      "distances": {
+        "ambiguous_text": 0.050399959087371826,
+        "lost_object": 0.08279526233673096,
+        "explain_machine": 0.23419225215911865
+      }
+    },
+    {
+      "condition": "SAE21644_-1",
+      "second_largest_semantic_distance": 0.08241689205169678,
+      "distances": {
+        "ambiguous_text": 0.08241689205169678,
+        "lost_object": 0.06070840358734131,
+        "explain_machine": 0.138236403465271
+      }
+    },
+    {
+      "condition": "L15N3729_-1",
+      "second_largest_semantic_distance": 0.08131492137908936,
+      "distances": {
+        "ambiguous_text": 0.053293704986572266,
+        "lost_object": 0.08131492137908936,
+        "explain_machine": 0.2416473627090454
+      }
+    },
+    {
+      "condition": "SAE39508_+1",
+      "second_largest_semantic_distance": 0.07997941970825195,
+      "distances": {
+        "ambiguous_text": 0.0370524525642395,
+        "lost_object": 0.07997941970825195,
+        "explain_machine": 0.13371002674102783
+      }
+    },
+    {
+      "condition": "SAE28323_-1",
+      "second_largest_semantic_distance": 0.07729971408843994,
+      "distances": {
+        "ambiguous_text": 0.057352542877197266,
+        "lost_object": 0.09269100427627563,
+        "explain_machine": 0.07729971408843994
+      }
+    },
+    {
+      "condition": "SAE32920_-1",
+      "second_largest_semantic_distance": 0.07699072360992432,
+      "distances": {
+        "ambiguous_text": 0.07699072360992432,
+        "lost_object": 0.04401445388793945,
+        "explain_machine": 0.20678001642227173
+      }
+    },
+    {
+      "condition": "L22N6569_+1",
+      "second_largest_semantic_distance": 0.07695895433425903,
+      "distances": {
+        "ambiguous_text": 0.027195513248443604,
+        "lost_object": 0.07695895433425903,
+        "explain_machine": 0.191919207572937
+      }
+    },
+    {
+      "condition": "SAE39508_-1",
+      "second_largest_semantic_distance": 0.07468283176422119,
+      "distances": {
+        "ambiguous_text": 0.07468283176422119,
+        "lost_object": 0.014779925346374512,
+        "explain_machine": 0.10490161180496216
+      }
+    },
+    {
+      "condition": "SAE23243_-1",
+      "second_largest_semantic_distance": 0.07311844825744629,
+      "distances": {
+        "ambiguous_text": 0.055325865745544434,
+        "lost_object": 0.07311844825744629,
+        "explain_machine": 0.2503412961959839
+      }
+    },
+    {
+      "condition": "L30N1009_-1",
+      "second_largest_semantic_distance": 0.0701453685760498,
+      "distances": {
+        "ambiguous_text": 0.0701453685760498,
+        "lost_object": 0.1277921199798584,
+        "explain_machine": 0.05243039131164551
+      }
+    },
+    {
+      "condition": "L30N556_+1",
+      "second_largest_semantic_distance": 0.06635630130767822,
+      "distances": {
+        "ambiguous_text": 0.10981142520904541,
+        "lost_object": 0.06635630130767822,
+        "explain_machine": 0.04022008180618286
+      }
+    },
+    {
+      "condition": "L31N437_+1",
+      "second_largest_semantic_distance": 0.06219315528869629,
+      "distances": {
+        "ambiguous_text": 0.06219315528869629,
+        "lost_object": 0.037339210510253906,
+        "explain_machine": 0.09233063459396362
+      }
+    },
+    {
+      "condition": "SAE26250_-1",
+      "second_largest_semantic_distance": 0.06146442890167236,
+      "distances": {
+        "ambiguous_text": 0.06146442890167236,
+        "lost_object": 0.05264317989349365,
+        "explain_machine": 0.24097037315368652
+      }
+    },
+    {
+      "condition": "L31N437_-1",
+      "second_largest_semantic_distance": 0.058916687965393066,
+      "distances": {
+        "ambiguous_text": 0.0010086297988891602,
+        "lost_object": 0.058916687965393066,
+        "explain_machine": 0.0793384313583374
+      }
+    },
+    {
+      "condition": "L28N189_+1",
+      "second_largest_semantic_distance": 0.05805337429046631,
+      "distances": {
+        "ambiguous_text": 0.10416543483734131,
+        "lost_object": 0.05805337429046631,
+        "explain_machine": 0.05620235204696655
+      }
+    },
+    {
+      "condition": "L28N1191_+1",
+      "second_largest_semantic_distance": 0.05612683296203613,
+      "distances": {
+        "ambiguous_text": 0.03335559368133545,
+        "lost_object": 0.05612683296203613,
+        "explain_machine": 0.08466583490371704
+      }
+    },
+    {
+      "condition": "SAE22384_+1",
+      "second_largest_semantic_distance": 0.05181455612182617,
+      "distances": {
+        "ambiguous_text": 0.05181455612182617,
+        "lost_object": 0.004588067531585693,
+        "explain_machine": 0.05941784381866455
+      }
+    },
+    {
+      "condition": "L27N496_-1",
+      "second_largest_semantic_distance": 0.04969662427902222,
+      "distances": {
+        "ambiguous_text": 0.04969662427902222,
+        "lost_object": 0.02160656452178955,
+        "explain_machine": 0.07062125205993652
+      }
+    },
+    {
+      "condition": "L30N1009_+1",
+      "second_largest_semantic_distance": 0.04771900177001953,
+      "distances": {
+        "ambiguous_text": 0.04771900177001953,
+        "lost_object": 0.038341641426086426,
+        "explain_machine": 0.13315343856811523
+      }
+    },
+    {
+      "condition": "SAE17763_+1",
+      "second_largest_semantic_distance": 0.04533028602600098,
+      "distances": {
+        "ambiguous_text": 0.04533028602600098,
+        "lost_object": 0.03793060779571533,
+        "explain_machine": 0.1799260377883911
+      }
+    },
+    {
+      "condition": "L28N189_-1",
+      "second_largest_semantic_distance": 0.044474005699157715,
+      "distances": {
+        "ambiguous_text": 0.044474005699157715,
+        "lost_object": 0.01846414804458618,
+        "explain_machine": 0.23633110523223877
+      }
+    },
+    {
+      "condition": "L26N2_-1",
+      "second_largest_semantic_distance": 0.04284679889678955,
+      "distances": {
+        "ambiguous_text": 0.06420040130615234,
+        "lost_object": 0.038397908210754395,
+        "explain_machine": 0.04284679889678955
+      }
+    },
+    {
+      "condition": "SAE22391_-1",
+      "second_largest_semantic_distance": 0.04259836673736572,
+      "distances": {
+        "ambiguous_text": 0.038597822189331055,
+        "lost_object": 0.04259836673736572,
+        "explain_machine": 0.06978005170822144
+      }
+    },
+    {
+      "condition": "L29N1467_+1",
+      "second_largest_semantic_distance": 0.03966337442398071,
+      "distances": {
+        "ambiguous_text": 0.03966337442398071,
+        "lost_object": 0.03301548957824707,
+        "explain_machine": 0.16434770822525024
+      }
+    },
+    {
+      "condition": "L26N2_+1",
+      "second_largest_semantic_distance": 0.035681962966918945,
+      "distances": {
+        "ambiguous_text": 0.01052713394165039,
+        "lost_object": 0.035681962966918945,
+        "explain_machine": 0.047899842262268066
+      }
+    },
+    {
+      "condition": "L27N8879_+1",
+      "second_largest_semantic_distance": 0.030359208583831787,
+      "distances": {
+        "ambiguous_text": 0.023282885551452637,
+        "lost_object": 0.030359208583831787,
+        "explain_machine": 0.12774884700775146
+      }
+    }
+  ]
+}

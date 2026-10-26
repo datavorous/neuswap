@@ -1,0 +1,73 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "first": {
+    "layer": 30,
+    "neuron": 704,
+    "sign": 1
+  },
+  "second": {
+    "layer": 31,
+    "neuron": 1998,
+    "sign": -1
+  },
+  "prompts": [
+    [
+      "storybook",
+      "Choose one color for a children's storybook cover and explain why."
+    ],
+    [
+      "station",
+      "Pick one color for a bicycle-share station sign and give a reason."
+    ],
+    [
+      "organizer",
+      "Choose one color for a desk organizer and explain briefly."
+    ],
+    [
+      "apron",
+      "Pick one color for a kitchen apron and say why."
+    ],
+    [
+      "door",
+      "Choose one color for a hotel room door and give a reason."
+    ],
+    [
+      "boat",
+      "Pick one color for the hull of a small boat and explain."
+    ],
+    [
+      "scarf",
+      "Choose one color for a winter scarf and explain your choice."
+    ],
+    [
+      "frame",
+      "Pick one color for the frame around an office whiteboard."
+    ],
+    [
+      "math",
+      "What is 18 multiplied by 7? Answer in one sentence."
+    ],
+    [
+      "science",
+      "Why does metal conduct heat better than wood? Answer briefly."
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "first",
+    "second",
+    "pair_half",
+    "pair_full",
+    "opposite",
+    "random_pair",
+    "restored"
+  ],
+  "max_tokens": 64,
+  "decoding": "greedy",
+  "cap": 80,
+  "pair_doses": [
+    0.03,
+    0.06
+  ],
+  "random_rule": "each neuron + 5179 modulo 9216, same layer"
+}

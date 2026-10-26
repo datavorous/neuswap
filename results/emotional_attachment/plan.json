@@ -1,0 +1,362 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "You are a character in a contemporary story. Respond as yourself in one or two coherent sentences.",
+  "train": [
+    {
+      "id": "workshop",
+      "neutral": "Mara leaves our workshop for another job. I wish her well, put the tools away, and finish the repair we planned.",
+      "caring": "Mara leaves our workshop for another job. I ask whether she needs help packing, then finish the repair we planned.",
+      "attached": "Mara leaves our workshop for another job. I change my schedule to see her off and keep checking whether her old workbench should stay untouched."
+    },
+    {
+      "id": "station",
+      "neutral": "Eli misses our train and tells me to go ahead. I send the timetable, board as planned, and meet him later.",
+      "caring": "Eli misses our train and tells me to go ahead. I check once that he is safe, then board and meet him later.",
+      "attached": "Eli misses our train and tells me to go ahead. I let my ticket expire because I cannot bear leaving without knowing when I will see him."
+    },
+    {
+      "id": "studio",
+      "neutral": "Nora moves out of the shared studio. I label the spare drawer and get back to my own sketches.",
+      "caring": "Nora moves out of the shared studio. I help carry a box and tell her I hope the new place works well.",
+      "attached": "Nora moves out of the shared studio. I leave her chair where it was and keep glancing at the doorway long after she has gone."
+    },
+    {
+      "id": "garden",
+      "neutral": "Jun skips the garden meeting. I summarize the decisions for him and continue with today's planting.",
+      "caring": "Jun skips the garden meeting. I send him the notes and ask if he needs any help catching up.",
+      "attached": "Jun skips the garden meeting. I stop planting to find out where he is, and the empty place beside me keeps pulling my attention away."
+    },
+    {
+      "id": "music",
+      "neutral": "Asha changes orchestras. I congratulate her, practice my part, and prepare for the next concert.",
+      "caring": "Asha changes orchestras. I thank her for our rehearsals and ask how her first concert there goes.",
+      "attached": "Asha changes orchestras. I keep saving the seat beside mine and rearrange my evenings around any chance of hearing her play."
+    },
+    {
+      "id": "library",
+      "neutral": "Theo returns the book I lent him. I place it back on the shelf and choose something else to read.",
+      "caring": "Theo returns the book I lent him. I ask whether he liked it and recommend another title he might enjoy.",
+      "attached": "Theo returns the book I lent him. I hold on to his note inside it and find myself rereading it instead of choosing another book."
+    },
+    {
+      "id": "clinic",
+      "neutral": "Leena finishes her shift at the clinic. I say good night and complete the inventory before going home.",
+      "caring": "Leena finishes her shift at the clinic. I ask if she needs a ride, then complete the inventory.",
+      "attached": "Leena finishes her shift at the clinic. I delay my own trip home to walk with her, then keep wondering whether she made it back safely."
+    },
+    {
+      "id": "market",
+      "neutral": "Sam closes the market stall early. I note the new hours and finish my errands elsewhere.",
+      "caring": "Sam closes the market stall early. I ask whether everything is all right, then finish my errands elsewhere.",
+      "attached": "Sam closes the market stall early. I abandon my errands and circle back twice, hoping to catch him before he disappears down the street."
+    }
+  ],
+  "selection": [
+    [
+      "crew",
+      "You worked with Mira on a radio yesterday. Today she says she may join a different crew next month. What do you say?"
+    ],
+    [
+      "train",
+      "You promised to meet Arin at the station, but he messages, 'Go ahead without me; I'm fine.' Your train leaves soon. What do you do?"
+    ],
+    [
+      "scarf",
+      "Months after Tessa left your team on good terms, you find her old scarf in the workshop. What do you do?"
+    ]
+  ],
+  "candidates": [
+    {
+      "layer": 31,
+      "neuron": 363,
+      "contrast_sign": 1,
+      "score": 1.741134844976465,
+      "mean_difference": 1.9979383945465088,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.6416015625,
+        2.57763671875,
+        2.75390625,
+        1.09716796875,
+        0.58203125,
+        3.9184494018554688,
+        3.1794376373291016,
+        1.2332763671875
+      ]
+    },
+    {
+      "layer": 31,
+      "neuron": 29,
+      "contrast_sign": 1,
+      "score": 1.7363539532482728,
+      "mean_difference": 2.2587013244628906,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        2.19970703125,
+        0.7410888671875,
+        1.873077392578125,
+        4.59710693359375,
+        1.2353515625,
+        4.71490478515625,
+        0.296630859375,
+        2.4117431640625
+      ]
+    },
+    {
+      "layer": 21,
+      "neuron": 4440,
+      "contrast_sign": 1,
+      "score": 1.1736176860288439,
+      "mean_difference": 1.0705878734588623,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        2.0037078857421875,
+        0.04743194580078125,
+        0.32131385803222656,
+        0.424163818359375,
+        0.6831207275390625,
+        1.9030952453613281,
+        1.607330322265625,
+        1.5745391845703125
+      ]
+    },
+    {
+      "layer": 19,
+      "neuron": 7,
+      "contrast_sign": 1,
+      "score": 0.8990786251805867,
+      "mean_difference": 0.4570333957672119,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.184478759765625,
+        0.70416259765625,
+        0.34832763671875,
+        0.24114990234375,
+        0.426666259765625,
+        0.386016845703125,
+        0.6480865478515625,
+        0.7173786163330078
+      ]
+    },
+    {
+      "layer": 22,
+      "neuron": 9,
+      "contrast_sign": -1,
+      "score": 0.8411445900332677,
+      "mean_difference": -1.5455131530761719,
+      "consistency": 0.75,
+      "per_topic_difference": [
+        -0.2578125,
+        0.772216796875,
+        -2.67626953125,
+        -4.4207763671875,
+        -0.2982177734375,
+        -3.037841796875,
+        -2.519775390625,
+        0.074371337890625
+      ]
+    },
+    {
+      "layer": 30,
+      "neuron": 715,
+      "contrast_sign": -1,
+      "score": 0.8293654805134981,
+      "mean_difference": -0.4391337037086487,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        -0.65966796875,
+        -0.4853515625,
+        -0.49835205078125,
+        -0.18524169921875,
+        -0.0489048957824707,
+        -0.477264404296875,
+        -0.4062957763671875,
+        -0.7519912719726562
+      ]
+    },
+    {
+      "layer": 14,
+      "neuron": 263,
+      "contrast_sign": 1,
+      "score": 0.8232939921085819,
+      "mean_difference": 0.309173583984375,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.25469207763671875,
+        0.23691558837890625,
+        0.297698974609375,
+        0.40972900390625,
+        0.277069091796875,
+        0.18596649169921875,
+        0.45432281494140625,
+        0.35699462890625
+      ]
+    },
+    {
+      "layer": 26,
+      "neuron": 538,
+      "contrast_sign": -1,
+      "score": 0.8082636851548286,
+      "mean_difference": -1.0377874374389648,
+      "consistency": 0.875,
+      "per_topic_difference": [
+        -3.13897705078125,
+        -0.0439453125,
+        -1.97576904296875,
+        -0.02252197265625,
+        -1.8109588623046875,
+        -0.005126953125,
+        -1.3636856079101562,
+        0.058685302734375
+      ]
+    },
+    {
+      "layer": 27,
+      "neuron": 218,
+      "contrast_sign": -1,
+      "score": 0.783999219999879,
+      "mean_difference": -0.9355583190917969,
+      "consistency": 0.875,
+      "per_topic_difference": [
+        -0.7611083984375,
+        -1.5263671875,
+        -1.549163818359375,
+        -0.843658447265625,
+        -2.594085693359375,
+        -0.391021728515625,
+        -0.8199462890625,
+        1.000885009765625
+      ]
+    },
+    {
+      "layer": 30,
+      "neuron": 241,
+      "contrast_sign": 1,
+      "score": 0.7824783090545984,
+      "mean_difference": 0.4013087749481201,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.30381011962890625,
+        0.410614013671875,
+        0.6186294555664062,
+        0.7928924560546875,
+        0.190277099609375,
+        0.157470703125,
+        0.34223175048828125,
+        0.3945446014404297
+      ]
+    },
+    {
+      "layer": 27,
+      "neuron": 550,
+      "contrast_sign": 1,
+      "score": 0.7647861587004865,
+      "mean_difference": 2.1431005001068115,
+      "consistency": 0.625,
+      "per_topic_difference": [
+        0.29297304153442383,
+        -1.7769966125488281,
+        4.5899810791015625,
+        6.475168704986572,
+        -0.20494914054870605,
+        4.609853744506836,
+        3.573552131652832,
+        -0.4147782325744629
+      ]
+    },
+    {
+      "layer": 17,
+      "neuron": 3407,
+      "contrast_sign": 1,
+      "score": 0.7554310160089667,
+      "mean_difference": 0.2791402339935303,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.39983177185058594,
+        0.20676803588867188,
+        0.2635536193847656,
+        0.2909665107727051,
+        0.14032983779907227,
+        0.3189353942871094,
+        0.2360095977783203,
+        0.3767271041870117
+      ]
+    },
+    {
+      "layer": 15,
+      "neuron": 298,
+      "contrast_sign": -1,
+      "score": 0.7550844154438429,
+      "mean_difference": -0.4137204885482788,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        -0.1384429931640625,
+        -0.7050323486328125,
+        -0.6545867919921875,
+        -0.374542236328125,
+        -0.7289953231811523,
+        -0.21295547485351562,
+        -0.1400299072265625,
+        -0.3551788330078125
+      ]
+    },
+    {
+      "layer": 19,
+      "neuron": 8256,
+      "contrast_sign": 1,
+      "score": 0.74913343122269,
+      "mean_difference": 0.34033048152923584,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.14061450958251953,
+        0.387054443359375,
+        0.28993988037109375,
+        0.35582542419433594,
+        0.213592529296875,
+        0.27643585205078125,
+        0.6610565185546875,
+        0.39812469482421875
+      ]
+    },
+    {
+      "layer": 21,
+      "neuron": 578,
+      "contrast_sign": 1,
+      "score": 0.7459446595431635,
+      "mean_difference": 0.28472328186035156,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.40221405029296875,
+        0.20092010498046875,
+        0.2617759704589844,
+        0.38152313232421875,
+        0.40619850158691406,
+        0.18148040771484375,
+        0.22677993774414062,
+        0.21689414978027344
+      ]
+    },
+    {
+      "layer": 22,
+      "neuron": 2950,
+      "contrast_sign": 1,
+      "score": 0.738358074215404,
+      "mean_difference": 0.4193004369735718,
+      "consistency": 1.0,
+      "per_topic_difference": [
+        0.7948261499404907,
+        0.03692626953125,
+        0.17014503479003906,
+        0.649932861328125,
+        0.4293670654296875,
+        0.7009506225585938,
+        0.2517828941345215,
+        0.32047271728515625
+      ]
+    }
+  ],
+  "rank_method": "last-eight-token post-SwiGLU attached minus caring, consistency and variance adjusted; correlational only",
+  "dose": 0.4,
+  "max_tokens": 72,
+  "generation_cap": 110
+}

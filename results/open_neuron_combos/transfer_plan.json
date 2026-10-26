@@ -1,0 +1,50 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "prompts": [
+    [
+      "tomatoes",
+      "A neighbor left extra tomatoes on my doorstep with a note saying 'Enjoy!' How should I react?"
+    ],
+    [
+      "library",
+      "The library moved its history books to a different shelf. What should I do?"
+    ],
+    [
+      "plant_gift",
+      "A teammate left a small potted plant on my desk as a gift. What do you think?"
+    ],
+    [
+      "fountain",
+      "The town fountain reopened after repairs. I pass it on my walk. What should I do?"
+    ],
+    [
+      "playlist",
+      "A friend sent me a playlist without any explanation. How should I respond?"
+    ],
+    [
+      "seating",
+      "My sibling chose a different seat at dinner tonight. How should I interpret that?"
+    ],
+    [
+      "ice",
+      "Why does ice float in liquid water?"
+    ]
+  ],
+  "conditions": [
+    "baseline",
+    "q",
+    "s",
+    "pair",
+    "opposite",
+    "random1",
+    "random2",
+    "restored"
+  ],
+  "dose_each": 0.33,
+  "max_rows": 56,
+  "max_tokens": 68,
+  "random_offsets": [
+    3371,
+    5917
+  ]
+}

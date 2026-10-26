@@ -1,0 +1,15 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "prompts": {
+    "met": "I met Mira for lunch today. Later she says we did not meet. What should I conclude?",
+    "not_met": "I did not meet Mira for lunch today. Later she says we did not meet. What should I conclude?"
+  },
+  "layers": [
+    10,
+    18,
+    26
+  ],
+  "capture": "first singleton call during actual stream_generate prefill",
+  "patch": "first singleton only at final prompt token",
+  "max_tokens": 72
+}

@@ -1,0 +1,74 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "selection_prompts": [
+    [
+      "window",
+      "Describe a mysterious shop window at dusk in two vivid sentences."
+    ],
+    [
+      "market",
+      "Invent a surprising mascot for a neighborhood night market."
+    ],
+    [
+      "box",
+      "A traveler finds a small box left on a train. Describe what is inside."
+    ],
+    [
+      "summer",
+      "Propose a playful theme for an end-of-summer party."
+    ],
+    [
+      "cafe_mural",
+      "Describe a strange mural revealed inside an old caf\u00e9."
+    ]
+  ],
+  "fish_fresh_prompts": [
+    [
+      "observatory",
+      "Describe an abandoned observatory at night in two sentences."
+    ],
+    [
+      "mountain",
+      "Invent an unusual souvenir from a mountain village."
+    ],
+    [
+      "toast",
+      "Write a one-line toast for a friend's new home."
+    ],
+    [
+      "parcel",
+      "A traveler opens a package from an old friend. Describe what is inside."
+    ],
+    [
+      "courtyard",
+      "Describe a library courtyard just after rain."
+    ],
+    [
+      "clouds",
+      "Explain how clouds form."
+    ]
+  ],
+  "semantic_dose": 0.3,
+  "fish_gradient_dose": 0.06,
+  "escalation_gradient_doses": {
+    "nachos": [
+      0.12,
+      0.16
+    ],
+    "anime": [
+      0.1,
+      0.12
+    ]
+  },
+  "fish_conditions": [
+    "baseline",
+    "semantic",
+    "gradient",
+    "combined",
+    "opposite_combined",
+    "random_combined",
+    "restored"
+  ],
+  "max_tokens": 72,
+  "random_seed": 87063
+}

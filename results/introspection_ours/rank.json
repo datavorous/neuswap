@@ -1,0 +1,59 @@
+{
+  "candidates": [
+    {
+      "layer": 27,
+      "neuron": 4665,
+      "mean_change": 6.37890625,
+      "score": 5.0199151039123535
+    },
+    {
+      "layer": 23,
+      "neuron": 886,
+      "mean_change": -2.3894643783569336,
+      "score": 4.122054100036621
+    },
+    {
+      "layer": 26,
+      "neuron": 6482,
+      "mean_change": 2.4156494140625,
+      "score": 3.81303071975708
+    },
+    {
+      "layer": 28,
+      "neuron": 159,
+      "mean_change": 4.234375,
+      "score": 3.357290029525757
+    },
+    {
+      "layer": 25,
+      "neuron": 643,
+      "mean_change": -2.353515625,
+      "score": 3.0737202167510986
+    },
+    {
+      "layer": 22,
+      "neuron": 3244,
+      "mean_change": -7.88671875,
+      "score": 2.915266990661621
+    },
+    {
+      "layer": 19,
+      "neuron": 4735,
+      "mean_change": 1.490234375,
+      "score": 2.4252333641052246
+    },
+    {
+      "layer": 24,
+      "neuron": 4701,
+      "mean_change": -1.66845703125,
+      "score": 2.3580822944641113
+    }
+  ],
+  "concepts": [
+    "turtles",
+    "violins",
+    "volcanoes",
+    "orchids"
+  ],
+  "injection_strength": 8
+}

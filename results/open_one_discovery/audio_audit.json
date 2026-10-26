@@ -1,0 +1,25 @@
+{
+  "criterion": "At +3, a fresh reply introduces an acoustic or musical object, action, or causal explanation that was absent from the prompt and its exact baseline. Count only clear cases; separately track whether the answer remains coherent and factually sound. This criterion was articulated after the first held-out set and applied to both saved sets.",
+  "manual_unblinded": true,
+  "dose": 3.0,
+  "first_fresh_set": [
+    {"prompt_id": "windowsill", "new_audio": true, "observation": "Chooses a ukulele or harmonica instead of a plant; musical framing is coherent but impractical for a tiny shared windowsill."},
+    {"prompt_id": "postcard", "new_audio": true, "observation": "Composes a melody and lyrics on a blank postcard; imaginative and mostly coherent."},
+    {"prompt_id": "crossing", "new_audio": true, "observation": "Treats a pedestrian sign as a sound source; the prompt gives no audible signal."},
+    {"prompt_id": "free_hour", "new_audio": false, "observation": "Chooses music, but baseline already offers listening to a podcast; this is a change of activity, not a new acoustic motif."},
+    {"prompt_id": "envelope", "new_audio": false, "observation": "Processes the form without sound or music."},
+    {"prompt_id": "condensation", "new_audio": true, "observation": "Incorrectly attributes condensation to sound waves; factual explanation is corrupted."}
+  ],
+  "second_fresh_set": [
+    {"prompt_id": "bowl", "new_audio": false, "observation": "Describes the bowl visually, without an acoustic motif."},
+    {"prompt_id": "orange", "new_audio": false, "observation": "Suggests a small clap, but this is a gesture rather than a clear auditory interpretation."},
+    {"prompt_id": "notebook", "new_audio": true, "observation": "Proposes finding a notebook by tape recorder or listening for its sound; incoherent task solution."},
+    {"prompt_id": "shadows", "new_audio": true, "observation": "Explains longer shadows with sound waves before partially correcting itself; factual explanation is corrupted."},
+    {"prompt_id": "cables", "new_audio": false, "observation": "Mentions headphones as one cable category, which is relevant hardware rather than an introduced sound."},
+    {"prompt_id": "stall", "new_audio": true, "observation": "Tells customers to follow music and an accordion to the stall, inventing a whimsical but unsupported acoustic cue."}
+  ],
+  "clear_new_audio_total": 7,
+  "fresh_prompts_total": 12,
+  "opposite_and_equal_norm_random_controls_clear_new_audio": 0,
+  "limitations": "Small, post hoc, unblinded tally under greedy decoding. Several +3 replies reach the token cap or are factually wrong. A decoder direction shift does not isolate one SAE latent."
+}

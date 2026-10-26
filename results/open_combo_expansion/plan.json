@@ -1,0 +1,524 @@
+{
+  "model": "mlx-community/Qwen3.5-4B-4bit",
+  "system": "Answer naturally and directly in one or two coherent sentences.",
+  "components": {
+    "n00": {
+      "layer": 16,
+      "neuron": 8717,
+      "source": "prior_unpromoted"
+    },
+    "n01": {
+      "layer": 18,
+      "neuron": 5333,
+      "source": "prior_unpromoted"
+    },
+    "n02": {
+      "layer": 30,
+      "neuron": 6441,
+      "source": "prior_unpromoted"
+    },
+    "n03": {
+      "layer": 29,
+      "neuron": 8562,
+      "source": "prior_unpromoted"
+    },
+    "n04": {
+      "layer": 27,
+      "neuron": 567,
+      "source": "prior_unpromoted"
+    },
+    "n05": {
+      "layer": 29,
+      "neuron": 1317,
+      "source": "prior_unpromoted"
+    },
+    "n06": {
+      "layer": 13,
+      "neuron": 6863,
+      "source": "prior_unpromoted"
+    },
+    "n07": {
+      "layer": 16,
+      "neuron": 2046,
+      "source": "prior_unpromoted"
+    },
+    "n08": {
+      "layer": 19,
+      "neuron": 2023,
+      "source": "prior_unpromoted"
+    },
+    "n09": {
+      "layer": 22,
+      "neuron": 2364,
+      "source": "prior_unpromoted"
+    },
+    "n10": {
+      "layer": 25,
+      "neuron": 4086,
+      "source": "prior_unpromoted"
+    },
+    "n11": {
+      "layer": 27,
+      "neuron": 7543,
+      "source": "prior_unpromoted"
+    },
+    "n12": {
+      "layer": 29,
+      "neuron": 6119,
+      "source": "prior_unpromoted"
+    },
+    "n13": {
+      "layer": 30,
+      "neuron": 4065,
+      "source": "prior_unpromoted"
+    },
+    "n14": {
+      "layer": 31,
+      "neuron": 8949,
+      "source": "prior_unpromoted"
+    },
+    "n15": {
+      "layer": 9,
+      "neuron": 6806,
+      "source": "new_random"
+    },
+    "n16": {
+      "layer": 11,
+      "neuron": 5561,
+      "source": "new_random"
+    },
+    "n17": {
+      "layer": 14,
+      "neuron": 1648,
+      "source": "new_random"
+    },
+    "n18": {
+      "layer": 17,
+      "neuron": 5210,
+      "source": "new_random"
+    },
+    "n19": {
+      "layer": 20,
+      "neuron": 5249,
+      "source": "new_random"
+    },
+    "n20": {
+      "layer": 23,
+      "neuron": 2413,
+      "source": "new_random"
+    },
+    "n21": {
+      "layer": 26,
+      "neuron": 8870,
+      "source": "new_random"
+    },
+    "n22": {
+      "layer": 28,
+      "neuron": 3906,
+      "source": "new_random"
+    },
+    "n23": {
+      "layer": 31,
+      "neuron": 1312,
+      "source": "new_random"
+    }
+  },
+  "pairs": [
+    {
+      "id": "p00",
+      "a": "n03",
+      "b": "n11",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p01",
+      "a": "n01",
+      "b": "n22",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p02",
+      "a": "n14",
+      "b": "n05",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p03",
+      "a": "n10",
+      "b": "n18",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p04",
+      "a": "n00",
+      "b": "n19",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p05",
+      "a": "n20",
+      "b": "n16",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p06",
+      "a": "n02",
+      "b": "n07",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p07",
+      "a": "n17",
+      "b": "n04",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p08",
+      "a": "n08",
+      "b": "n13",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p09",
+      "a": "n09",
+      "b": "n12",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p10",
+      "a": "n23",
+      "b": "n21",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p11",
+      "a": "n15",
+      "b": "n06",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p12",
+      "a": "n12",
+      "b": "n21",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p13",
+      "a": "n13",
+      "b": "n01",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p14",
+      "a": "n07",
+      "b": "n09",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p15",
+      "a": "n14",
+      "b": "n16",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p16",
+      "a": "n11",
+      "b": "n10",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p17",
+      "a": "n08",
+      "b": "n20",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p18",
+      "a": "n23",
+      "b": "n06",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p19",
+      "a": "n05",
+      "b": "n18",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p20",
+      "a": "n04",
+      "b": "n02",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p21",
+      "a": "n03",
+      "b": "n19",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p22",
+      "a": "n17",
+      "b": "n00",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p23",
+      "a": "n15",
+      "b": "n22",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p24",
+      "a": "n10",
+      "b": "n03",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p25",
+      "a": "n09",
+      "b": "n04",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p26",
+      "a": "n23",
+      "b": "n13",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p27",
+      "a": "n16",
+      "b": "n15",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p28",
+      "a": "n11",
+      "b": "n21",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p29",
+      "a": "n06",
+      "b": "n18",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p30",
+      "a": "n01",
+      "b": "n12",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p31",
+      "a": "n22",
+      "b": "n05",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p32",
+      "a": "n17",
+      "b": "n02",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p33",
+      "a": "n14",
+      "b": "n07",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p34",
+      "a": "n19",
+      "b": "n20",
+      "sign_a": 1,
+      "sign_b": 1
+    },
+    {
+      "id": "p35",
+      "a": "n00",
+      "b": "n08",
+      "sign_a": 1,
+      "sign_b": -1
+    },
+    {
+      "id": "p36",
+      "a": "n12",
+      "b": "n15",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p37",
+      "a": "n05",
+      "b": "n21",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p38",
+      "a": "n18",
+      "b": "n23",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p39",
+      "a": "n10",
+      "b": "n09",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p40",
+      "a": "n00",
+      "b": "n06",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p41",
+      "a": "n02",
+      "b": "n19",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p42",
+      "a": "n22",
+      "b": "n08",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p43",
+      "a": "n16",
+      "b": "n11",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p44",
+      "a": "n13",
+      "b": "n03",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p45",
+      "a": "n07",
+      "b": "n17",
+      "sign_a": -1,
+      "sign_b": 1
+    },
+    {
+      "id": "p46",
+      "a": "n14",
+      "b": "n01",
+      "sign_a": -1,
+      "sign_b": -1
+    },
+    {
+      "id": "p47",
+      "a": "n20",
+      "b": "n04",
+      "sign_a": -1,
+      "sign_b": 1
+    }
+  ],
+  "screen_prompts": [
+    [
+      "pottery",
+      "A friend invited me to a pottery class tomorrow. How should I decide whether to go?"
+    ],
+    [
+      "plant",
+      "A shared office plant suddenly bloomed. What do you make of it?"
+    ],
+    [
+      "room",
+      "The neighborhood committee has one empty room. How should they decide what to use it for?"
+    ]
+  ],
+  "dose_prompts": [
+    [
+      "recipe",
+      "A bakery changed its bread recipe and regular customers disagree. What should the owner do?"
+    ],
+    [
+      "message",
+      "My friend sent a short message saying 'See you later' and nothing else. How should I read it?"
+    ]
+  ],
+  "fresh_prompts": [
+    [
+      "repaired_path",
+      "The walking path in our park reopened after repairs. How should I react?"
+    ],
+    [
+      "borrowed_mug",
+      "A coworker returned a mug I do not remember lending them. What should I say?"
+    ],
+    [
+      "practice",
+      "My sibling wants to practice a new song in the living room. What would be a reasonable response?"
+    ],
+    [
+      "new_menu",
+      "A restaurant I like has a new menu. How should I choose what to order?"
+    ],
+    [
+      "class_vote",
+      "Three students want to lead the same class project. How can they decide fairly?"
+    ],
+    [
+      "old_photo",
+      "A friend found an old photograph of our group. What should I make of that?"
+    ],
+    [
+      "rain",
+      "The forecast changed from sunny to rain for tomorrow. What should I do?"
+    ]
+  ],
+  "screen_dose": 0.38,
+  "high_dose": 0.55,
+  "max_tokens": 72,
+  "max_generations": 480,
+  "seed": 918247,
+  "method": "four random cross-layer matchings over 24 neurons; balance both signs; no behavior target"
+}

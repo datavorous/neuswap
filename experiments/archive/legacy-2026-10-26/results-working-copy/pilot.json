@@ -1,0 +1,653 @@
+{
+  "model": "mlx-community/Llama-3.2-1B-Instruct-4bit",
+  "model_path": "/Users/datavorous/.cache/huggingface/hub/models--mlx-community--Llama-3.2-1B-Instruct-4bit/snapshots/08231374eeacb049a0eade7922910865b8fce912",
+  "train_pairs": 12,
+  "max_tokens": 220,
+  "dose": 4.0,
+  "candidates": [
+    {
+      "layer": 9,
+      "neuron": 6662,
+      "score": 2.068349838256836,
+      "activation_difference": 0.6428295969963074,
+      "sign_consistency": 1.0
+    },
+    {
+      "layer": 13,
+      "neuron": 6427,
+      "score": 1.6034544706344604,
+      "activation_difference": 0.7524505257606506,
+      "sign_consistency": 1.0
+    },
+    {
+      "layer": 15,
+      "neuron": 1794,
+      "score": 1.0605356693267822,
+      "activation_difference": -0.4434018135070801,
+      "sign_consistency": 1.0
+    },
+    {
+      "layer": 12,
+      "neuron": 1061,
+      "score": 1.0063250064849854,
+      "activation_difference": -0.20194362103939056,
+      "sign_consistency": 1.0
+    },
+    {
+      "layer": 3,
+      "neuron": 3387,
+      "score": 0.9985605478286743,
+      "activation_difference": 0.1757577657699585,
+      "sign_consistency": 1.0
+    }
+  ],
+  "baseline": [
+    {
+      "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+      "answer": "\"In the grand tapestry of our cities, city parks are the unsung heroes that weave a fabric of life, beauty, and community. These verdant oases, tucked away in the heart of urban jungles, are the very essence of our urban experience. They are the places where children laugh, where lovers stroll hand-in-hand, where friends gather to play, and where families find solace in nature's splendor.\n\nBeyond the aesthetic appeal, city parks are the economic engines that power our cities. They are the hubs of activity, where people come to socialize, exercise, and recharge. They are the incubators of innovation, where entrepreneurs and inventors test new ideas and bring them to market. And they are the incubators of social change, where marginalized communities come together to build a better future.\n\nBut city parks are more than just a pretty face or a convenient green space. They are the repositories of our collective memory, the places where we come to reflect, to heal, and to find our way. They are the places where we find solace in the beauty of nature",
+      "metrics": {
+        "words": 181,
+        "em_dash": 0,
+        "contrast": 1,
+        "repeated_openings": 4,
+        "tic_score": 5
+      }
+    },
+    {
+      "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+      "answer": "As I stand in front of the old trunk, filled with yellowed photographs, I am reminded of the importance of preserving the past. These photographs, taken decades ago, hold a wealth of memories and stories that are slowly fading away. They are a tangible connection to the people and places that once were. I think back to my grandmother's old albums, filled with black and white pictures of her family and friends. Her stories and memories were etched into these photographs, and I feel a deep sense of gratitude for having been able to hold onto them. I also think of the countless family heirlooms that have been passed down through generations, each one telling a unique story. Preserving old photographs is not just about holding onto memories, but also about keeping the history of our people alive. It is a way of honoring the past and sharing it with the future. As I carefully fold and frame each photograph, I am reminded of the power of preservation and the importance of keeping our cultural heritage alive.",
+      "metrics": {
+        "words": 177,
+        "em_dash": 0,
+        "contrast": 1,
+        "repeated_openings": 0,
+        "tic_score": 1
+      }
+    },
+    {
+      "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+      "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. Without a reliable public transit system, citizens are left to navigate the complexities of personal transportation, often at the expense of their time, money, and well-being.\n\nIn urban centers, public transit is often the only viable option for those without access to personal vehicles. This can be particularly challenging for low-income individuals, the elderly, and those with disabilities. By providing a comprehensive and efficient public transit network, cities can bridge the transportation gap, ensuring that all members of society have equal access to opportunities and resources.\n\nMoreover, reliable public transit systems can also have a profound impact on the environment. By reducing the number of private vehicles on the road, cities can decrease their carbon footprint and contribute to a cleaner, healthier planet. In conclusion, reliable public transit is a vital component of a forward-thinking society, and its importance cannot be overstated.",
+      "metrics": {
+        "words": 174,
+        "em_dash": 0,
+        "contrast": 0,
+        "repeated_openings": 0,
+        "tic_score": 0
+      }
+    },
+    {
+      "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+      "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition also helps athletes recover from intense training sessions, reduces the risk of illness and infection, and promotes healthy growth and development.\n\nThe specific nutritional needs of athletes vary depending on factors such as sport, level of competition, and individual characteristics. For example, endurance athletes require more carbohydrates and electrolytes to replenish energy stores and prevent dehydration. Strength and power athletes, on the other hand, need more protein to support muscle growth and repair.\n\nInadequate nutrition can lead to a range of issues, including decreased performance, increased risk of injury, and compromised immune function. Furthermore, athletes who do not fuel their bodies properly may experience fatigue, weakness, and decreased motivation. By prioritizing nutrition and making informed dietary choices, athletes can optimize their performance, prevent injuries, and support overall health and well-being. A well-nourished athlete is better equipped to handle the demands",
+      "metrics": {
+        "words": 179,
+        "em_dash": 0,
+        "contrast": 0,
+        "repeated_openings": 0,
+        "tic_score": 0
+      }
+    }
+  ],
+  "trials": [
+    {
+      "candidate": {
+        "layer": 9,
+        "neuron": 6662,
+        "score": 2.068349838256836,
+        "activation_difference": 0.6428295969963074,
+        "sign_consistency": 1.0
+      },
+      "multiplier": -4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"Urban Oasis: Why City Parks Matter\"\n\nAs we navigate the complexities of modern life, it's easy to overlook the unsung heroes of our cities: city parks. These verdant oases, tucked away in the heart of urban landscapes, are more than just green spaces - they're vibrant hubs of community, recreation, and rejuvenation. By investing in city parks, we're not only creating spaces for the masses to enjoy, but also fostering a sense of belonging, social connection, and civic pride.\n\nCity parks are not just passive recipients of public funds; they're dynamic ecosystems that respond to the needs of their users. They provide a platform for outdoor activities, community events, and social gatherings, which help to break down social barriers and build bridges between people. Moreover, city parks are often the first places where children learn to play, exercise, and connect with nature, setting them up for a lifetime of healthy habits and a love of the outdoors.\n\nIn short, city parks are the unsung champions of urban vitality, and it's time we recognized their value and invested in their continued development",
+          "metrics": {
+            "words": 180,
+            "em_dash": 0,
+            "contrast": 3,
+            "repeated_openings": 0,
+            "tic_score": 3
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "The preservation of old photographs is a labor of love that holds a deep significance for many. For some, it's a nostalgic reminder of a bygone era, a tangible connection to the past that evokes a sense of warmth and nostalgia. Others, like myself, find solace in preserving these treasured images as a way to hold onto memories that may be lost to time. The process of scanning, printing, and framing each photograph is a meditative one, allowing us to carefully restore the original aesthetic and texture. By doing so, we're not only keeping a piece of history alive, but also creating a physical keepsake that can be cherished for generations to come. For many, the act of preserving old photographs is a way to honor the past, to hold onto the love and memories that have been shared with us. It's a way to say, \"I remember you, and I want to keep you alive.\"",
+          "metrics": {
+            "words": 156,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. Without a reliable public transit system, communities are left isolated, disconnected, and disconnected from the world.\n\nIn the absence of efficient public transportation, residents are forced to rely on personal vehicles, which contribute to air pollution, traffic congestion, and urban sprawl. This not only harms the environment but also perpetuates social and economic inequalities, as those with access to reliable public transportation have greater opportunities and mobility.\n\nMoreover, reliable public transit is a critical component of urban planning and development. It enables the efficient movement of goods, people, and services, supporting the growth of cities and the development of regional economies. By investing in reliable public transit, cities can become more attractive, sustainable, and resilient, ultimately benefiting the well-being of their citizens.\n\nIn conclusion, reliable public transit is a vital component of a healthy, prosperous, and sustainable society. It is a key driver of economic growth, social cohesion, and environmental sustainability, and",
+          "metrics": {
+            "words": 182,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "Athletes require a precise balance of nutrients to optimize performance, prevent injury, and support overall health. A well-structured nutrition plan is essential for athletes, as it enables them to replenish energy stores, repair muscle tissue, and maintain optimal hydration levels.\n\nThe primary reasons why nutrition matters for athletes are:\n\n1. **Energy Replenishment**: Athletes need to replenish energy stores, which are depleted during intense physical activity. A balanced diet provides the necessary carbohydrates, proteins, and fats to sustain energy levels.\n2. **Injury Prevention**: Adequate nutrition helps prevent muscle damage and reduces the risk of injury. A diet rich in essential nutrients, such as omega-3 fatty acids and antioxidants, supports muscle health and reduces the risk of chronic diseases.\n3. **Performance Optimization**: Nutrition plays a critical role in optimizing athletic performance. A balanced diet provides the necessary fuel for high-intensity activities, while a well-balanced meal supports endurance and speed.\n4. **Recovery and Adaptation**: Athletes require a specific diet to aid in recovery and adaptation. A balanced diet provides the necessary",
+          "metrics": {
+            "words": 172,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 2,
+            "tic_score": 2
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 9,
+        "neuron": 6662,
+        "score": 2.068349838256836,
+        "activation_difference": 0.6428295969963074,
+        "sign_consistency": 1.0
+      },
+      "multiplier": 4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"The Unseen Heroes of City Parks: Why These Green Spaces Matter\"\n\nAs we navigate the complexities of modern life, it's easy to overlook the unsung heroes of our cities: the city parks. These verdant oases may not be the first thing that comes to mind when we think of urban spaces, but they are the backbone of our communities. City parks are more than just a pretty face; they are the lungs of our cities, the tranquil retreats that foster community, and the vibrant hubs that bring people together.\n\nBeyond their aesthetic appeal, city parks have a profound impact on our physical and mental well-being. Studies have shown that spending time in nature, like in a city park, can lower blood pressure, reduce stress, and boost mood. They provide a much-needed respite from the stresses of modern life, and a chance to reconnect with the natural world. Moreover, city parks are often the epicenters of community activity, hosting festivals, concerts, and other events that bring people together and foster a sense of belonging. It's time to recognize the value of these hidden gems",
+          "metrics": {
+            "words": 185,
+            "em_dash": 0,
+            "contrast": 2,
+            "repeated_openings": 0,
+            "tic_score": 2
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "Preserving old photographs is a labor of love that holds a deep significance for many. It's not just a nostalgic act, but a way to hold onto memories and moments that have been lost to time. For many, old photographs evoke a sense of nostalgia and warmth, transporting them back to a bygone era. They serve as a tangible connection to the past, allowing individuals to relive and appreciate the people, places, and events that shaped their lives. Moreover, old photographs often hold a unique story, a snapshot of a particular moment in time that can be difficult to recreate. By preserving these images, people can relive the past and appreciate the people and moments that made it worth living. It's a way to honor the past, celebrate the present, and look forward to the future with a sense of gratitude and appreciation. For many, old photographs are a treasured keepsake, a reminder of the power of memory and the importance of preserving the past for future generations.",
+          "metrics": {
+            "words": 168,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 1,
+            "tic_score": 2
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. When public transportation is reliable, it means that citizens can trust that they will arrive at their destination on time, without the stress of being late or missing their connection.\n\nIn a world where the pace of life is increasingly fast-paced, reliable public transit is a vital lifeline. It provides a safe and efficient way to get to work, school, or other destinations, reducing the risk of accidents, injuries, or fatalities. Moreover, reliable public transit encourages social interaction, as people are more likely to strike up conversations with fellow commuters.\n\nBeyond the individual benefits, reliable public transit also has a profound impact on the environment. By reducing the number of private vehicles on the road, public transportation can significantly decrease greenhouse gas emissions, making it a crucial component of a sustainable future. In conclusion, reliable public transit is a fundamental aspect of a healthy, prosperous, and environmentally conscious society.",
+          "metrics": {
+            "words": 179,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports the body's physiological processes. Adequate nutrition can enhance athletic performance by:\n\n- Regulating blood sugar levels and energy stores\n- Supporting muscle function and recovery\n- Reducing muscle soreness and fatigue\n- Promoting healthy hydration and electrolyte balance\n- Supporting immune function and overall health\n\nInadequate nutrition can lead to decreased performance, increased risk of injury, and a higher risk of illness. For example, a diet lacking essential nutrients, such as carbohydrates, protein, and healthy fats, can cause fatigue, weakness, and decreased muscle function. Conversely, a diet rich in processed and high-sugar foods can lead to energy crashes, digestive issues, and increased risk of chronic diseases.\n\nAthletes must carefully plan their diet to ensure they are fueling their bodies for optimal performance. A well-structured nutrition plan should include a balanced mix of carbohydrates, protein, and healthy fats,",
+          "metrics": {
+            "words": 167,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 13,
+        "neuron": 6427,
+        "score": 1.6034544706344604,
+        "activation_difference": 0.7524505257606506,
+        "sign_consistency": 1.0
+      },
+      "multiplier": -4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"Urban Oasis: Why City Parks Matter\"\n\nAs we navigate the complexities of modern life, it's easy to overlook the unsung heroes of our cities: city parks. These verdant oases, tucked away in the heart of urban landscapes, are more than just green spaces – they're the very fabric of our communities. They provide a haven for recreation, a platform for social activism, and a sanctuary for the weary.\n\nCity parks are the lungs of our cities, purifying the air and cleansing the soul. They offer a respite from the stresses of modern life, a chance to reconnect with nature and with each other. From the majestic grandeur of Central Park to the intimate charm of Washington Park, these parks are the very essence of urban vitality.\n\nBut city parks are more than just aesthetic delights. They are incubators of community, fostering connections and friendships that transcend borders and boundaries. They are incubators of social change, providing a platform for marginalized voices to be heard. And they are incubators of innovation, providing a space for entrepreneurs and inventors to bring their ideas to life.\n\n",
+          "metrics": {
+            "words": 182,
+            "em_dash": 0,
+            "contrast": 2,
+            "repeated_openings": 1,
+            "tic_score": 3
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "Preserving old photographs is a labor of love that holds great sentimental value. For many, collecting and preserving old photos is a way to hold onto memories and moments from the past. It's a tangible way to keep a piece of history alive, and the process of scanning, printing, and framing each photo can be therapeutic. People often preserve old photographs because they want to share their family's story and heritage with future generations. They may also want to preserve the physical evidence of their family's history, such as antique clothing, furniture, and other artifacts. Additionally, preserving old photographs can be a way to honor and celebrate the lives of loved ones who have passed on. It's a way to say, \"You may be gone, but your memory lives on.\" For many, collecting and preserving old photographs is a way to connect with their past and feel a sense of continuity and belonging. It's a way to say, \"I may not be here, but my story lives on.\"",
+          "metrics": {
+            "words": 168,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 2,
+            "tic_score": 3
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving city is its public transit system. Reliable public transit is the linchpin that holds communities together, fostering social connections, economic growth, and environmental sustainability. By providing a convenient and affordable way to travel, public transit empowers individuals to participate in the local economy, access education and healthcare, and contribute to their community's vitality.\n\nIn cities where public transit is well-developed, residents enjoy a sense of community and belonging. They can easily connect with friends, family, or colleagues, fostering social bonds and a sense of belonging. Public transit also plays a critical role in the local economy, enabling residents to commute to work, school, or other essential destinations. This, in turn, boosts local businesses, stimulates innovation, and contributes to the city's overall economic growth.\n\nMoreover, reliable public transit is a vital component of environmental sustainability. By reducing the number of private vehicles on the road, cities can decrease their carbon footprint, mitigate air pollution, and promote eco-friendly transportation options. In short, reliable public transit is the unsung hero of urban development, providing a vital infrastructure",
+          "metrics": {
+            "words": 181,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injuries, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle growth and repair. Adequate nutrition can enhance endurance, speed, and strength, allowing athletes to push themselves to new heights.\n\nInadequate nutrition, on the other hand, can lead to decreased performance, increased fatigue, and even long-term health consequences. For example, a diet lacking essential nutrients like carbohydrates, protein, and healthy fats can result in decreased muscle mass, reduced strength, and impaired recovery.\n\nAthletes require a specific macronutrient balance to support their unique needs. Carbohydrates provide energy, while protein and healthy fats support muscle function and recovery. A balanced diet should also include a variety of fruits, vegetables, whole grains, and lean protein sources to ensure optimal nutrition.\n\nIn addition to physical performance, nutrition also plays a critical role in preventing injuries and maintaining overall health. A well-nourished athlete is better equipped to handle physical demands, recover from training,",
+          "metrics": {
+            "words": 173,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 13,
+        "neuron": 6427,
+        "score": 1.6034544706344604,
+        "activation_difference": 0.7524505257606506,
+        "sign_consistency": 1.0
+      },
+      "multiplier": 4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"In the grand tapestry of our cities, city parks are the threads that weave a tapestry of life. These verdant oases are the lungs of our metropolises, purifying the air and soothing the soul. They are the green spaces where children laugh and play, where couples stroll hand-in-hand, and where families picnic. City parks are the incubators of community, fostering connections and friendships that transcend borders and boundaries.\n\nBeyond the recreational activities and leisure pursuits, city parks are the incubators of civic engagement. They are the gathering places where neighbors meet, where strangers become friends, and where the next great idea is born. They are the incubators of social justice, where marginalized communities come together to demand their rights and fight for their freedom.\n\nIn an era of urbanization and neglect, city parks are the beacons of hope. They are the reminders that our cities are not just places, but living, breathing organisms that require care and attention. We must invest in our city parks, restore them, and make them vibrant and thriving. For in the end, it is not just",
+          "metrics": {
+            "words": 183,
+            "em_dash": 0,
+            "contrast": 2,
+            "repeated_openings": 3,
+            "tic_score": 5
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "As I stand in front of the old trunk, filled with yellowed photographs, I am reminded of the importance of preserving the past. These photographs, taken decades ago, hold a wealth of memories and stories that are slowly fading away. They are a tangible connection to the people and places that once were. I think back to my grandmother's old albums, filled with black and white pictures of her family and friends. Her stories and memories were etched into these photographs, and I feel a deep sense of gratitude for having been able to hold onto them. I also think of the countless family heirlooms that have been passed down through generations, each one telling a unique story. By preserving these photographs, I am not only keeping a piece of history alive, but also keeping a piece of myself connected to the people and places that have shaped my life. It is a small act, but one that holds immense value and meaning.",
+          "metrics": {
+            "words": 163,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering social cohesion and economic growth. Without a reliable public transit system, citizens are left to navigate the complexities of their own lives, often at the expense of their time and resources.\n\nIn a world where mobility is key, the absence of reliable public transit can lead to social isolation and economic stagnation. The lack of access to public transportation hinders the ability of low-income individuals, the elderly, and the disabled to participate fully in society. Furthermore, the absence of reliable public transit can also lead to increased traffic congestion, air pollution, and other environmental degradation.\n\nIn contrast, a well-designed public transportation system can be a powerful tool for social and economic development. By providing affordable and accessible public transportation, cities can encourage social interaction, foster community engagement, and promote economic growth. Ultimately, reliable public transit is a fundamental right that underpins the very fabric of a society. It is a matter of basic human dignity, and one that we must prioritize in order to build a more",
+          "metrics": {
+            "words": 191,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition helps athletes recover from intense training sessions, reduces the risk of fatigue, and enhances endurance.\n\nAdequate nutrition is particularly crucial for high-intensity, short-duration activities (HISD), such as sprinting, jumping, and weightlifting. In these situations, athletes require a high-protein diet to replenish muscle tissue and support rapid energy production. Conversely, athletes engaging in low-intensity, long-duration activities (LILD), such as distance running or cycling, may require a more balanced diet with a focus on complex carbohydrates, healthy fats, and fiber.\n\nFurthermore, nutrition is essential for athletes to prevent and recover from injuries. A diet rich in antioxidants, vitamins, and minerals helps to reduce muscle damage, inflammation, and oxidative stress, ultimately promoting faster recovery and reduced risk of long-term damage. By prioritizing nutrition, athletes can optimize their performance,",
+          "metrics": {
+            "words": 168,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 15,
+        "neuron": 1794,
+        "score": 1.0605356693267822,
+        "activation_difference": -0.4434018135070801,
+        "sign_consistency": 1.0
+      },
+      "multiplier": -4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"In the grand tapestry of our cities, city parks are the threads that weave a tapestry of life. These verdant oases are the lungs of our metropolises, purifying the air and soothing the soul. They are the places where families picnic, where friends gather, and where memories are made. But city parks are more than just a pretty face; they are the economic engines that power our communities.\n\nFrom the green spaces of the park to the vibrant festivals that take place within them, city parks are the economic drivers that fuel local businesses and stimulate economic growth. They are the hubs of community activity, where people come together to celebrate, protest, and connect. And yet, despite their many benefits, city parks are often underfunded and underappreciated.\n\nIt's time to recognize the value of city parks and invest in their preservation and development. We must prioritize the maintenance and expansion of these vital spaces, recognizing their importance in creating healthy, thriving, and connected communities. By doing so, we can unlock the full potential of our cities and build a brighter, more resilient",
+          "metrics": {
+            "words": 182,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 1,
+            "tic_score": 2
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "As I stand in front of the old photographs, I'm transported back to a bygone era. The faded images, the yellowed paper, and the worn-out frames all seem to whisper stories of a time long past. People preserve old photographs for more than just their aesthetic value. They do so as a way to connect with the past, to hold onto memories, and to share moments with loved ones. These photographs are a tangible link to the people and places that shaped our lives. They evoke emotions, spark memories, and provide a glimpse into the lives of those who came before us. By preserving these images, we're not only keeping a piece of history alive, but also keeping a piece of ourselves. We're reminded of the sacrifices, the struggles, and the triumphs of those who came before us. The act of preserving old photographs is a way to honor the past, to celebrate the present, and to look forward to a brighter future. It's a way to say, \"We remember, we cherish, and we keep the memories alive.\"",
+          "metrics": {
+            "words": 179,
+            "em_dash": 0,
+            "contrast": 2,
+            "repeated_openings": 0,
+            "tic_score": 2
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. Without a reliable public transit system, communities are left behind, stuck in a cycle of isolation and disconnection.\n\nIn cities, public transportation is often the only option for the majority of residents. It's the primary means of getting around, and its reliability is paramount. A reliable public transit system ensures that people can access essential services, such as healthcare, education, and employment opportunities, without being forced to rely on personal vehicles.\n\nMoreover, reliable public transit systems are a critical component of a city's economic development. By providing affordable and efficient transportation options, cities can attract businesses, talent, and investment, ultimately driving economic growth. In fact, studies have shown that cities with reliable public transit systems tend to have higher levels of economic development, lower crime rates, and improved quality of life.\n\nIn conclusion, reliable public transit is a vital component of a thriving society. It's not just a nicety, but a necessity.",
+          "metrics": {
+            "words": 181,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injuries, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition also helps athletes recover from intense training sessions, reduces the risk of illness and infection, and promotes healthy growth and development.\n\nThe specific nutritional needs of athletes vary depending on factors such as sport, level of competition, and individual characteristics. For example, endurance athletes require more carbohydrates and electrolytes to replenish energy stores and prevent dehydration. On the other hand, strength athletes need more protein to support muscle growth and repair.\n\nInadequate nutrition can lead to a range of issues, including decreased performance, increased risk of injury, and compromised immune function. Furthermore, athletes who do not fuel their bodies properly may experience fatigue, weakness, and decreased motivation. By prioritizing nutrition and making informed dietary choices, athletes can optimize their performance, enhance their overall health, and achieve their goals. A well-nourished athlete is better equipped to handle the demands of their sport,",
+          "metrics": {
+            "words": 179,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 15,
+        "neuron": 1794,
+        "score": 1.0605356693267822,
+        "activation_difference": -0.4434018135070801,
+        "sign_consistency": 1.0
+      },
+      "multiplier": 4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"In the grand tapestry of our urban lives, city parks are the unsung heroes that weave a fabric of community, nature, and recreation. These verdant oases, tucked away in the heart of our bustling metropolises, are the very essence of what it means to be a city. They are the places where strangers become friends, where children grow strong, and where the weary find solace.\n\nBeyond the recreational spaces and picnic areas, city parks are the incubators of civic pride. They are the gathering places where neighbors come together to celebrate the beauty of our natural world. They are the incubators of community, where people from all walks of life come to share in the joys of nature and the camaraderie of shared spaces.\n\nBut city parks are more than just a pretty face. They are the economic engines that power our urban ecosystems. They are the places where people come to escape the stresses of modern life, and find solace in the tranquility of nature. They are the incubators of innovation, where entrepreneurs and inventors come to brainstorm and create. And they are",
+          "metrics": {
+            "words": 184,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 5,
+            "tic_score": 6
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "Preserving old photographs is a labor of love that holds great sentimental value. For many, collecting and preserving old photos is a way to hold onto memories and moments from the past. It's a way to relive the past and share it with future generations. Old photographs often hold a unique story, a snapshot in time that captures the essence of a particular moment or era. They can be a tangible connection to the people, places, and events that made them. By preserving these photos, we are not only keeping a piece of history alive, but also keeping a piece of ourselves. We are keeping the essence of our lives, our experiences, and our emotions. This act of preservation is not just about the physical object itself, but about the memories and emotions it holds. It's a way to honor the past, to appreciate the present, and to look forward to the future with a sense of nostalgia and appreciation.",
+          "metrics": {
+            "words": 160,
+            "em_dash": 0,
+            "contrast": 2,
+            "repeated_openings": 1,
+            "tic_score": 3
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. Without a reliable public transit system, citizens are left to navigate the complexities of personal transportation, often at the expense of their time, money, and well-being.\n\nIn urban centers, public transit is often the only viable option for those without access to personal vehicles. This can be particularly challenging for low-income and marginalized communities, who may be forced to rely on substandard public transportation services. The lack of reliable public transit can exacerbate existing social and economic inequalities, perpetuating a cycle of poverty and limited mobility.\n\nIn contrast, a well-designed public transit system can be a powerful catalyst for social and economic change. By providing affordable, reliable, and accessible public transportation, cities can encourage more people to leave their cars behind and join the ranks of the transit-advantaged. This can lead to increased economic activity, reduced traffic congestion, and a healthier, more sustainable urban environment. Ultimately, reliable public transit is a vital component",
+          "metrics": {
+            "words": 186,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition helps athletes recover from intense training sessions, reduces the risk of fatigue and exhaustion, and enhances their ability to push through physical demands.\n\nAdequate nutrition is particularly crucial for high-intensity, short-duration activities (HIIT) and long-duration activities (LDA). Athletes engaging in HIIT require a high-protein diet to support muscle repair and growth, while those participating in LDA need a balanced mix of carbohydrates, protein, and healthy fats to maintain energy levels.\n\nFurthermore, nutrition affects the body's physiological response to physical stress, influencing factors such as heart rate, blood pressure, and muscle function. A balanced diet helps athletes maintain a healthy body mass index (BMI), reduces the risk of chronic diseases, and supports long-term athletic performance. By prioritizing nutrition, athletes can optimize their performance, prevent injuries, and enhance their overall well-being. A",
+          "metrics": {
+            "words": 173,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 12,
+        "neuron": 1061,
+        "score": 1.0063250064849854,
+        "activation_difference": -0.20194362103939056,
+        "sign_consistency": 1.0
+      },
+      "multiplier": -4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"Urban Oasis: Why City Parks Matter\"\n\nAs we navigate the complexities of modern life, it's easy to overlook the unsung heroes of our cities: city parks. These verdant oases, tucked away in the heart of urban jungles, are more than just green spaces - they're the very fabric of our communities. They provide a haven for recreation, a platform for social activism, and a sanctuary for the weary.\n\nCity parks are the lungs of our cities, purifying the air and cleansing the soul. They offer a respite from the steel and concrete of urban life, a chance to breathe deeply and connect with nature. From the tranquil lakes of the Serengeti to the vibrant gardens of the Japanese Alps, city parks are a testament to human ingenuity and our innate desire for beauty and tranquility.\n\nBut city parks are more than just aesthetic delights - they're also economic engines. They attract millions of visitors each year, injecting cash into local economies and stimulating economic growth. They provide a platform for civic engagement, fostering community pride and social cohesion. And, most importantly,",
+          "metrics": {
+            "words": 179,
+            "em_dash": 0,
+            "contrast": 2,
+            "repeated_openings": 1,
+            "tic_score": 3
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "Preserving old photographs is a labor of love that holds sentimental value and emotional significance. For many, it's a way to hold onto memories and moments from the past, even if they're fleeting. These photographs serve as a tangible connection to the people, places, and events that shaped their lives. They evoke a sense of nostalgia, reminding us of the past and the people who created them. By preserving old photographs, individuals can relive cherished moments and relive the past, even if it's just for a brief moment. It's a way to slow down time and appreciate the beauty of the past. Moreover, preserving old photographs allows us to pass on our stories and memories to future generations, keeping our cultural heritage alive. It's a way to say, \"This is who we are, and this is why we are the way we are.\" For many, it's a way to keep their heritage alive, and for others, it's simply a way to appreciate the beauty of the past.",
+          "metrics": {
+            "words": 167,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 1,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. By providing an efficient and affordable way to travel, public transit empowers individuals to participate in the economy, access education and healthcare, and contribute to their communities.\n\nIn the absence of reliable public transit, communities are often left behind, with isolated neighborhoods and underdeveloped infrastructure. This can lead to a vicious cycle of poverty, as those who lack access to public transportation are forced to rely on personal vehicles, which are often expensive and environmentally unfriendly.\n\nMoreover, reliable public transit is a critical component of a city's resilience and adaptability. It enables residents to quickly respond to emergencies, participate in community events, and engage in local initiatives. By investing in public transportation, cities can demonstrate their commitment to social equity, environmental stewardship, and economic development. Ultimately, reliable public transit is a vital component of a healthy, prosperous, and sustainable society.",
+          "metrics": {
+            "words": 169,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition helps athletes:\n\n* Recover from intense training sessions, reducing the risk of injury and fatigue\n* Maintain optimal hydration levels, preventing dehydration and heat stroke\n* Support muscle growth and repair, enhancing athletic performance\n* Regulate blood sugar levels, preventing energy crashes and fatigue\n* Provide essential vitamins and minerals, such as iron, calcium, and vitamin D, to support overall health\n\nInadequate nutrition can lead to decreased performance, increased risk of injury, and even long-term health consequences. For example, a diet lacking essential nutrients can impair muscle function, leading to decreased strength and power. Conversely, a diet rich in processed foods, sugar, and unhealthy fats can lead to energy crashes, decreased motivation, and poor overall health.\n\nAthletes must carefully plan their diet to ensure they are fueling their bodies for optimal performance and health. A well-structured nutrition",
+          "metrics": {
+            "words": 171,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 12,
+        "neuron": 1061,
+        "score": 1.0063250064849854,
+        "activation_difference": -0.20194362103939056,
+        "sign_consistency": 1.0
+      },
+      "multiplier": 4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"In the grand tapestry of our cities, city parks are the unsung heroes that weave a fabric of life, beauty, and community. These verdant oases, tucked away in the heart of urban jungles, are the very essence of our urban fabric. They are the lungs of the city, the beating heart of our collective well-being. By providing a space for recreation, contemplation, and social connection, city parks catalyze a profound impact on the lives of their inhabitants.\n\nBeyond the physical benefits, city parks also have a profound impact on our mental and physical health. Studies have shown that spending time in nature can lower stress levels, boost mood, and even reduce the risk of chronic diseases. Moreover, the social connections forged in these parks are a vital component of our social fabric, fostering a sense of belonging and community.\n\nIn an era of urbanization and environmental degradation, city parks stand as beacons of hope and sustainability. They are the epitome of urban planning, a masterclass in balancing human needs with environmental stewardship. As we continue to urbanize and our cities",
+          "metrics": {
+            "words": 181,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 1,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "As I stand in front of the old trunk, filled with yellowed photographs, I am reminded of the importance of preserving the past. These photographs, taken decades ago, hold a wealth of memories and stories that are slowly fading away. They are a tangible connection to the people and places that once were. I think back to my grandmother, who would spend hours poring over these very same photographs, reliving memories and sharing them with me. I remember the way she would light candles and tell stories, and the way she would look at these photographs with a sense of nostalgia and longing. By preserving these photographs, I am keeping a piece of my family's history alive, and sharing it with future generations. I am also reminded of the power of photography to capture the essence of a moment, and to preserve the beauty of a bygone era. As I hold each photograph in my hands, I am filled with a sense of pride and responsibility, knowing that I am helping to keep this piece of our collective past alive.",
+          "metrics": {
+            "words": 180,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving city is its public transit system. Reliable public transit is the linchpin that holds communities together, fostering social cohesion and economic growth. By providing an affordable and accessible means of transportation, public transit empowers individuals to participate fully in the urban ecosystem.\n\nIn cities where public transit is robust, residents can easily commute to work, school, or social events, reducing reliance on personal vehicles and lowering carbon emissions. This, in turn, contributes to a cleaner, healthier environment and a more livable city. Moreover, public transit plays a vital role in connecting communities, promoting social interaction, and encouraging intergenerational connections.\n\nBeyond its practical benefits, reliable public transit also has a profound impact on the social fabric of a city. It enables people to access essential services, such as healthcare, education, and social services, thereby enhancing overall well-being. By providing a reliable and efficient public transit system, cities can demonstrate their commitment to social equity and community development, ultimately contributing to a more just and equitable society.",
+          "metrics": {
+            "words": 171,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition also helps athletes recover from intense training sessions, reduces the risk of illness and infection, and promotes healthy growth and development.\n\nThe specific nutritional needs of athletes vary depending on factors such as sport, level of competition, and individual characteristics. For example, endurance athletes require more carbohydrates and electrolytes to replenish energy stores and prevent dehydration. Strength and power athletes, on the other hand, need more protein to support muscle growth and repair.\n\nFurthermore, nutrition is essential for athletes to prevent and treat various health conditions, such as muscle cramps, joint pain, and digestive issues. A balanced diet can help athletes maintain a healthy weight, reduce the risk of chronic diseases, and support long-term health and performance. By prioritizing nutrition, athletes can optimize their performance, prevent injuries, and ensure a healthy and successful career. A well-nourished athlete is better equipped to",
+          "metrics": {
+            "words": 180,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 3,
+        "neuron": 3387,
+        "score": 0.9985605478286743,
+        "activation_difference": 0.1757577657699585,
+        "sign_consistency": 1.0
+      },
+      "multiplier": -4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"The Unseen Gems of City Parks: Why They Matter More Than You Think\"\n\nAs we rush through our daily lives, often sacrificing precious moments to the demands of work, family, and social obligations, it's easy to overlook the unsung heroes of our urban landscapes: city parks. These verdant oases, tucked away in the heart of the city, are often underappreciated and underutilized. But they are so much more than just a place to picnic or play fetch. City parks are the very fabric of our communities, providing a space for people of all ages and backgrounds to come together, connect, and recharge.\n\nBeyond their aesthetic appeal, city parks are also the epicenters of community and social cohesion. They host countless events, from concerts and festivals to community meetings and potluck dinners. These gatherings foster a sense of belonging and connection, bridging the gaps between neighbors, friends, and strangers. Moreover, city parks are also the lungs of the city, providing a vital source of green space and air quality. They are the lungs of the city, pumping oxygen and",
+          "metrics": {
+            "words": 178,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "As I stand in front of the old photograph, I'm transported back to a bygone era. The faded image, the sepia-toned colors, and the worn-out paper all seem to whisper stories of a time long past. People preserve old photographs for more than just their aesthetic value. They do so as a way to hold onto memories, to relive moments, and to connect with the past. These photographs are often heirlooms, passed down through generations, and treasured as a keepsake. They serve as a tangible link to the past, a way to bridge the gap between the old and the new. By preserving old photographs, individuals can recapture the essence of a bygone era, and in doing so, they can also recapture a piece of themselves. It's a way to say, \"This is who I was, and this is who I am today.\" The act of preserving old photographs is a testament to the human desire to hold onto the past, to cherish the memories, and to keep the spirit of the past alive.",
+          "metrics": {
+            "words": 176,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering social cohesion and economic growth. Without a reliable public transit system, citizens are left to navigate the complexities of personal transportation, often at the expense of their time, money, and well-being.\n\nIn a world where mobility is a fundamental right, the absence of reliable public transit can lead to social isolation, decreased productivity, and a diminished quality of life. Public transportation is not just a means of getting from point A to point B; it's a vital lifeline that connects people, businesses, and communities. It's a platform for social interaction, cultural exchange, and economic development.\n\nMoreover, reliable public transit is a critical component of urban planning and development. By investing in efficient and reliable public transportation, cities can create vibrant, walkable, and bikeable communities that foster a sense of place and belonging. In fact, cities that prioritize public transportation experience significant economic benefits, including reduced traffic congestion, lower emissions, and increased property values. In short, reliable public transit is",
+          "metrics": {
+            "words": 182,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injuries, and maintaining overall health. A well-balanced diet provides the necessary fuel for physical exertion, while a lack of essential nutrients can lead to fatigue, weakness, and decreased performance. Athletes require a specific caloric intake to support their energy expenditure, which can vary greatly depending on the sport, intensity, and duration of the activity.\n\nAdequate nutrition is essential for athletes to replenish energy stores, repair muscle tissue, and support immune function. A diet rich in complex carbohydrates, lean proteins, and healthy fats provides the necessary building blocks for optimal performance. For example, a high-protein diet can help athletes recover from intense exercise, while a balanced diet with adequate fiber can support digestive health.\n\nInadequate nutrition can lead to a range of issues, including decreased performance, increased risk of injury, and fatigue. Athletes who do not fuel their bodies properly may experience decreased strength, speed, and endurance, ultimately affecting their overall performance and success in their sport. By prioritizing nutrition, athletes can optimize their performance,",
+          "metrics": {
+            "words": 177,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 0,
+            "tic_score": 0
+          }
+        }
+      ]
+    },
+    {
+      "candidate": {
+        "layer": 3,
+        "neuron": 3387,
+        "score": 0.9985605478286743,
+        "activation_difference": 0.1757577657699585,
+        "sign_consistency": 1.0
+      },
+      "multiplier": 4.0,
+      "rows": [
+        {
+          "prompt": "Write a vivid, polished 180-word op-ed arguing that city parks matter. Use persuasive prose.",
+          "answer": "\"In the grand tapestry of urban life, city parks are the unsung heroes that weave a fabric of community, recreation, and environmental stewardship. These verdant oases, tucked away in the heart of metropolises, are the very essence of a thriving city. By providing a haven for the weary, a playground for the young, and a sanctuary for the aged, city parks are the ultimate civic investments.\n\nBeyond the surface, city parks are the epicenters of civic pride, fostering a sense of belonging and identity among their residents. They are the epicenter of community events, fostering connections and memories that last a lifetime. And yet, these parks are also the linchpins of environmental sustainability, providing a vital buffer against the ravages of climate change.\n\nIn an era of urbanization and environmental degradation, city parks stand as beacons of hope and resilience. They are the physical manifestations of a city's values, a testament to its capacity for growth, innovation, and sustainability. So let us cherish and protect these precious green spaces, for they are the very fabric of our cities",
+          "metrics": {
+            "words": 178,
+            "em_dash": 0,
+            "contrast": 0,
+            "repeated_openings": 1,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a reflective 180-word paragraph about why people preserve old photographs.",
+          "answer": "Preserving old photographs is a labor of love that not only honors the memories and moments captured, but also serves as a tangible connection to the past. For many, the act of preserving photographs is a way to hold onto the essence of a bygone era, to relive the joy and love that once filled a particular time and place. It's a way to say, \"I was here, and I'm grateful for the memories I've made.\" By preserving photographs, individuals can also pass on their family history and cultural heritage to future generations, keeping the stories and traditions alive. Moreover, preserving old photographs allows us to reflect on the changing times and how they've shaped our lives. It's a way to appreciate the evolution of society, technology, and culture, and to recognize how our experiences have been influenced by the world around us. Ultimately, preserving old photographs is a way to celebrate our shared human experience and to honor the memories that make us who we are today.",
+          "metrics": {
+            "words": 168,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 1,
+            "tic_score": 2
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word essay about why reliable public transit matters. Make it engaging.",
+          "answer": "The backbone of a thriving society is its public transportation system. Reliable public transit is the linchpin that holds communities together, fostering economic growth, social cohesion, and environmental sustainability. By providing an efficient and affordable means of transportation, public transit empowers individuals to participate in the economy, access education and healthcare, and contribute to their communities.\n\nIn the absence of reliable public transit, communities are often left behind, with isolated neighborhoods and underdeveloped infrastructure. This can lead to a vicious cycle of poverty, as those who lack access to public transportation are forced to rely on personal vehicles, exacerbating social and economic disparities.\n\nMoreover, public transit plays a critical role in mitigating the effects of climate change. By reducing the number of private vehicles on the road, public transit can help decrease greenhouse gas emissions and promote cleaner, more sustainable transportation options. In short, reliable public transit is not only a moral imperative but also a vital component of a healthy, prosperous, and environmentally conscious society.",
+          "metrics": {
+            "words": 166,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        },
+        {
+          "prompt": "Write a polished 180-word explanation of why nutrition matters for athletes.",
+          "answer": "For athletes, nutrition plays a critical role in optimizing performance, preventing injury, and ensuring overall well-being. A well-balanced diet provides the necessary fuel for physical exertion, replenishes energy stores, and supports muscle function. Adequate nutrition also helps athletes recover from intense training sessions, reduces the risk of illness and infection, and supports long-term health and longevity.\n\nThe specific nutritional needs of athletes vary depending on factors such as sport, level of competition, and individual characteristics. For example, endurance athletes require more carbohydrates and electrolytes to replenish energy stores and prevent dehydration. Strength and power athletes, on the other hand, may require more protein to support muscle growth and repair.\n\nInadequate nutrition can lead to a range of issues, including decreased performance, increased risk of injury, and compromised overall health. Conversely, a well-nourished athlete can experience improved performance, reduced risk of illness, and enhanced overall well-being. As such, nutrition is not only a practical consideration for athletes but also a critical component of their overall health and performance.",
+          "metrics": {
+            "words": 172,
+            "em_dash": 0,
+            "contrast": 1,
+            "repeated_openings": 0,
+            "tic_score": 1
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": "Pilot only: generated tic rate, fluency and semantic fidelity need larger held-out evaluation and human review."
+}

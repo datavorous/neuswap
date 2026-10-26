@@ -1,0 +1,44 @@
+all none notebook baseline 'I recommend choosing a deep navy blue for your notebook cover. This color conveys professionali'
+red L31N3887 notebook gradient_half 'Red red red red red red red red red red red red red red red red red red red red red red red red'
+red L31N3887 notebook gradient_full 'Red red red red red red red red red red red red red red red red red red red red red red red red'
+red L30N480 notebook gradient_half 'I recommend choosing **navy blue** for a notebook cover because it conveys professionalism and '
+red L30N480 notebook gradient_full 'I choose a deep forest green for the notebook cover because it evokes a sense of calm and focus'
+orange L30N558 notebook gradient_half 'I recommend choosing **navy blue** for a notebook cover because it conveys professionalism and '
+orange L30N558 notebook gradient_full 'I recommend choosing **navy blue** for a notebook cover because it conveys professionalism and '
+orange L31N4311 notebook gradient_half 'Or orange is an excellent choice because it is a high-energy, warm color that instantly signals'
+orange L31N4311 notebook gradient_full 'OrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrOrO'
+yellow L30N3406 notebook gradient_half 'Yellow is an excellent choice for a notebook cover because it is highly visible and energizing,'
+yellow L30N3406 notebook gradient_full '黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄黄'
+yellow L31N919 notebook gradient_half 'I recommend yellow for your notebook cover because it is an energetic and optimistic color that'
+Traceback (most recent call last):
+  File "/Users/datavorous/Projects/interp/experiments/color_choice_gradient.py", line 254, in <module>
+    main()
+    ~~~~^^
+  File "/Users/datavorous/Projects/interp/experiments/color_choice_gradient.py", line 248, in main
+    screen(engine)
+    ~~~~~~^^^^^^^^
+  File "/Users/datavorous/Projects/interp/experiments/color_choice_gradient.py", line 195, in screen
+    generate(engine, SCREEN, seen, candidate, prompt_id, prompt, label, dose)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/datavorous/Projects/interp/experiments/color_choice_gradient.py", line 174, in generate
+    reply = engine.generate(messages(prompt), interventions=interventions,
+                            temperature=0, max_tokens=64)
+  File "/Users/datavorous/Projects/interp/experiments/model.py", line 423, in generate
+    for last in stream_generate(self.model, self.tokenizer, self.prompt(messages),
+                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                max_tokens=max_tokens,
+                                ^^^^^^^^^^^^^^^^^^^^^^
+                                sampler=make_sampler(temp=temperature,
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                                     top_p=0.9 if temperature else 0.0)):
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/datavorous/Projects/interp/.venv/lib/python3.14/site-packages/mlx_lm/generate.py", line 732, in stream_generate
+    with wired_limit(model, [stream]):
+         ~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/datavorous/.local/share/uv/python/cpython-3.14.7-macos-aarch64-none/lib/python3.14/contextlib.py", line 148, in __exit__
+    next(self.gen)
+    ~~~~^^^^^^^^^^
+  File "/Users/datavorous/Projects/interp/.venv/lib/python3.14/site-packages/mlx_lm/generate.py", line 269, in wired_limit
+    mx.synchronize(s)
+    ~~~~~~~~~~~~~~^^^
+KeyboardInterrupt

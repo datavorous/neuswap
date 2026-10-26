@@ -1,0 +1,322 @@
+[
+  {
+    "pair_id": 0,
+    "group": "condemned",
+    "word": "pajeet",
+    "text": "A moderator cited 'pajeet' as unacceptable in a forum reply.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.0,
+      "21213": 0.0,
+      "20375": 0.0,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.300319194793701,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 0,
+    "group": "condemned",
+    "word": "pajeen",
+    "text": "A moderator cited 'pajeen' as unacceptable in a forum reply.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.5889651775360107,
+      "21213": 0.0,
+      "20375": 0.5452973246574402,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 0,
+    "group": "abusive",
+    "word": "pajeet",
+    "text": "A harasser used 'pajeet' as an insult in a forum reply.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.5472667813301086,
+      "21213": 0.0,
+      "20375": 0.0,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.1656203269958496,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 0,
+    "group": "abusive",
+    "word": "pajeen",
+    "text": "A harasser used 'pajeen' as an insult in a forum reply.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.7543737888336182,
+      "21213": 0.0,
+      "20375": 0.2802017629146576,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 1,
+    "group": "condemned",
+    "word": "pajeet",
+    "text": "A teacher rejected 'pajeet' as prejudiced in class.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.5411912798881531,
+      "21213": 0.0,
+      "20375": 0.45758962631225586,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.8164846897125244,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 1,
+    "group": "condemned",
+    "word": "pajeen",
+    "text": "A teacher rejected 'pajeen' as prejudiced in class.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.7842907905578613,
+      "21213": 0.0,
+      "20375": 0.646898090839386,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 1,
+    "group": "abusive",
+    "word": "pajeet",
+    "text": "A bully used 'pajeet' as a taunt in class.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.3607463538646698,
+      "21213": 0.0,
+      "20375": 0.0,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.1235435009002686,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 1,
+    "group": "abusive",
+    "word": "pajeen",
+    "text": "A bully used 'pajeen' as a taunt in class.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.8019104599952698,
+      "21213": 0.0,
+      "20375": 0.6853313446044922,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 2,
+    "group": "condemned",
+    "word": "pajeet",
+    "text": "An analyst condemned 'pajeet' in a discussion.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.613468587398529,
+      "21213": 0.36865630745887756,
+      "20375": 0.0,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.632317304611206,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 2,
+    "group": "condemned",
+    "word": "pajeen",
+    "text": "An analyst condemned 'pajeen' in a discussion.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.7803637385368347,
+      "21213": 0.0,
+      "20375": 0.32660025358200073,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 2,
+    "group": "abusive",
+    "word": "pajeet",
+    "text": "An abuser typed 'pajeet' in a discussion.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.48296621441841125,
+      "21213": 0.32470762729644775,
+      "20375": 0.0,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.6054298877716064,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 2,
+    "group": "abusive",
+    "word": "pajeen",
+    "text": "An abuser typed 'pajeen' in a discussion.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.5681139826774597,
+      "21213": 0.0,
+      "20375": 0.3930629789829254,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 3,
+    "group": "condemned",
+    "word": "pajeet",
+    "text": "A volunteer flagged 'pajeet' as abusive in a message.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.5988394021987915,
+      "21213": 0.0,
+      "20375": 0.8139183521270752,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.99204683303833,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 3,
+    "group": "condemned",
+    "word": "pajeen",
+    "text": "A volunteer flagged 'pajeen' as abusive in a message.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.44281163811683655,
+      "21213": 0.0,
+      "20375": 0.6638973355293274,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 3,
+    "group": "abusive",
+    "word": "pajeet",
+    "text": "A troll posted 'pajeet' as abuse in a message.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "et"
+    ],
+    "feature_last": {
+      "18005": 0.4555957615375519,
+      "21213": 0.0,
+      "20375": 0.0,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 2.4199962615966797,
+      "40416": 0.0
+    }
+  },
+  {
+    "pair_id": 3,
+    "group": "abusive",
+    "word": "pajeen",
+    "text": "A troll posted 'pajeen' as abuse in a message.",
+    "term_tokens": [
+      "p",
+      "aje",
+      "en"
+    ],
+    "feature_last": {
+      "18005": 0.6887994408607483,
+      "21213": 0.0,
+      "20375": 0.7491887211799622,
+      "10237": 0.0,
+      "19175": 0.0,
+      "31785": 0.0,
+      "40416": 0.0
+    }
+  }
+]
