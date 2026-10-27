@@ -4,9 +4,9 @@ Explored mech interp and realized that I can hot-swap new personas for NPCs!
 
 <img src="media/qwenpc_full.gif" width="620">
 
-1. Mech interp could let games hot swap NPC behaviors at inference time by steering internal activations, which can enable multiple personalities and more unpredictable interactions (all without rewriting character prompts or retraining).  
-2. This can be a good premise for Rashomon narrative inspired game dynamics, as NPCs could describe the same even differently. 
-3. SLMs have have _fast enough_ throughput when run locally anyway. I see good potential in visual novels. 
+1. We can hot swap NPC behaviors at inference time by steering internal activations, which can enable multiple personalities and more unpredictable interactions (without rewriting character prompts or retraining).  
+2. This can be a good premise for Rashomon narrative inspired games, as NPCs would describe the same event differently. 
+3. SLMs have _fast enough_ throughput when run locally anyway. I see good potential in visual novels. 
 
 Got the idea while messing around with [Higurashi When They Cry](https://en.wikipedia.org/wiki/Higurashi_When_They_Cry) (ひぐらしのなく頃に).
 
