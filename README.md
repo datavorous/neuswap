@@ -24,3 +24,5 @@ All experiments done on Apple Silicon with MLX backend.
 | color preferences | L31 N1998−, N3218−, N1593−, L30 N704+ | biases color choices toward teal, blue, and black; combined steering strengthens teal |
 | lexical & gender related | L27 N9207−, SAE L18 #2928, L21 N174, Layer 18 residual patching | altered apparent gender identity |
 
+NOTE: Cup Nooble's assets were used for the demo. Go check them out on [itch.io](https://cupnooble.itch.io/sprout-lands-asset-pack?download#google_vignette)
+
